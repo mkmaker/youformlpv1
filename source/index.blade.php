@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="pt-10">
-                <img src="/assets/images/banner.png" alt="">
+                <img src="/assets/images/youform-builder.png" alt="">
             </div>
         </div>
     </div>
