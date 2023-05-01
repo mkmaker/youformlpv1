@@ -66,8 +66,8 @@
                         Try For Free
                     </a>
                 </div>
-                <div class="pt-12 lg:pt-0 col-span-2">
-                    <img class="w-1/2 lg:w-full m-auto" src="/assets/images/banner-gif.webp" alt="">
+                <div class="pt-12 lg:pt-0 col-span-2 hidden lg:block">
+                    <img class="w-full m-auto" src="/assets/images/banner-gif.webp" alt="">
                 </div>
             </div>
             <div class="pt-10">
@@ -76,13 +76,13 @@
         </div>
     </div>
     <div>
-        <img class="-mt-4" src="/assets/images/banner-wave.png" alt="">
+        <img class="-mt-2" src="/assets/images/banner-wave.png" alt="">
     </div>
 </div>
 
 <!-- 1st feature -->
 <div class="bg-aquamarine">
-    <div class="relative max-w-7xl mx-auto -mt-16 pb-20">
+    <div class="relative max-w-7xl mx-auto -mt-10 lg:-mt-20 pb-20">
         <div class="flex flex-col justify-center lg:grid grid-cols-2 items-center pt-40 pb-16 px-10 md:px-20">
             <div class="col-span-1 lg:pr-16 xl:pr-20 flex flex-col sm:items-center lg:items-start  pb-14 lg:pb-0">
                 <p class="text-center lg:text-left text-3xl sm:text-5xl xl:text-6xl font-bold ">
@@ -91,12 +91,12 @@
                 <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
                     Youform gives you fully responsive forms so your users will be able to fill your forms from mobile, desktop or tabs.
                 </p>
-                <a href="https://app.youform.io/register" class="-rotate-1 mt-10 text-2xl  bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                <a href="https://app.youform.io/register" class="-rotate-1 mt-10 text-2xl block text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                     Try For Free
                 </a>
             </div>
             <div class="col-span-1">
-                <img class="w-1/2 lg:w-3/4 m-auto " src="/assets/images/visual.png" alt="">
+                <img class="w-full m-auto " src="/assets/images/visual.png" alt="">
             </div>
         </div>
     </div>
@@ -116,7 +116,7 @@
                 <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
                     Youform builder is fully drag and drop and very intuitive. You will have no time to start building your forms.
                 </p>
-                <a href="https://app.youform.io/register" class="-rotate-1 mt-10 text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                <a href="https://app.youform.io/register" class="-rotate-1 text-center mt-10 text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                     Try For Free
                 </a>
             </div>
@@ -138,7 +138,7 @@
                     <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
                         With Youform you can collect partial data as well before your users hit the submit button. You can download all your data from the dashboard.
                     </p>
-                    <a href="https://app.youform.io/register" class="-rotate-1 mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                    <a href="https://app.youform.io/register" class="-rotate-1 text-center mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                         Try For Free
                     </a>
                 </div>
@@ -149,7 +149,7 @@
         </div>
     </div>
     <img class="-mt-4" src="/assets/images/yellow-wave-down.png" alt="">
-    <img class="absolute right-32 sm:-bottom-8 lg:-bottom-10 xl:-bottom-20" width="24%" src="/assets/images/solved.png" alt="">
+    <img class="absolute rotate-12 right-16 lg:right-32 -bottom-3 sm:-bottom-8 lg:-bottom-12 w-40 md:w-56 lg:w-64" src="/assets/images/solved.png" alt="">
 </div>
 
 <!-- 4th feature -->
@@ -166,7 +166,7 @@
                 <img class="pt-20" src="/assets/images/twitter-screenshot.png" alt="">
 
                 <div class="mt-20">
-                    <a href="https://app.youform.io/register" class="-rotate-1 mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-1/2 mx-auto block">
+                    <a href="https://app.youform.io/register" class="-rotate-1 text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
                         Try For Free
                     </a>
                 </div>
