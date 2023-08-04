@@ -6,51 +6,7 @@
 <div> 
     <div class=" bg-medium-champagne bg-[url('/assets/images/banner-background.png')] bg-cover bg-no-repeat bg-center">
         <!-- navbar   -->
-        <div class="max-w-7xl mx-auto">
-            <div x-data="{ open: false }" class="relative overflow-hidden">
-                <div class="flex justify-between items-center px-10 py-4 md:py-8 md:px-20">
-                    <div>
-                        <img src="/assets/images/logo.png" width="170px" alt="">
-                    </div>
-                    {{-- <div class="hidden lg:block capitalize space-x-6">
-                        <a class="text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="index.html">Home</a>
-                        <a class="text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="feature.html">Features</a>
-                        <a class="text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="pricing.html">Pricing</a>
-                        <a class="text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="template.html">Use Cases</a>
-                    </div> --}}
-                    <div class="flex space-x-4">
-                        <a href="https://app.youform.io/login" class="hidden lg:block bg-lavender-rose border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
-                            Log In
-                        </a>
-                        <a href="https://app.youform.io/register" class="hidden lg:block bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
-                            Sign Up
-                        </a>
-                    </div>
-                    <svg @click="open = !open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block lg:hidden text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                </div>
-                <div x-show="open" x-cloak x-transition class="lg:hidden bg-coral border-y-2 border-black px-10 py-4 flex justify-between">
-                    {{-- <ul class="text-black font-semibold space-y-1">
-                        <li class=" text-black font-semibold hover:underline underline-offset-2 p-2"><a href="index.html"></a> Features</li>
-                        <li class=" text-black font-semibold hover:underline underline-offset-2 p-2"><a href="feature.html"></a> Features</li>
-                        <li class=" text-black font-semibold hover:underline underline-offset-2 p-2"><a href="pricing.html"></a> Pricing</li>
-                        <li class=" text-black font-semibold hover:underline underline-offset-2 p-2"><a href="template.html"></a> Use cases</li>
-                    </ul> --}}
-                    <div>
-                        <div class="flex space-x-4">
-                            <a href="https://app.youform.io/login" class="block lg:hidden bg-lavender-rose border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
-                                Log In
-                            </a>
-                            <a href="https://app.youform.io/register" class="block lg:hidden bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
-                                Sign Up
-                            </a>
-                        </div>
-                    </div>
-                </div>  
-            </div>
-
-        </div>
+        @include('partials.nav')
 
         <!-- herosection -->
         <div class="relative max-w-7xl mx-auto mt-20 pb-20">
@@ -153,7 +109,7 @@
 </div>
 
 <!-- 4th feature -->
-<div class="-mt-14">
+<div class="-mt-16">
     <div class="bg-lavender-rose pt-28 lg:pt-40 pb-20">
         <div class="relative max-w-7xl mx-auto px-10 md:px-20">
             <div class="text-center ">
