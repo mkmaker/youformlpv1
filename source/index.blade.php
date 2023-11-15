@@ -16,11 +16,20 @@
                         Collect data without breaking your bank
                     </p>
                     <p class="text-center lg:text-left text-base sm:text-lg xl:text-xl font-medium mt-10">
-                        Youform is a no-code form builder to create conversational style forms for collecting leads, surveys & feedbacks.
+                        Youform is a no-code form builder to create conversational style forms for collecting leads, surveys & feedback.
                     </p>
                     <a href="https://app.youform.io/register" class="rotate-1 mt-10 text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
-                        Try For Free
+                        Create free account
                     </a>
+                    <div class="text-sm pt-4 pl-4 font-semibold rotate-1">
+                        <p>
+                            ✅ Unlimited responses
+                        </p>
+
+                        <p class="pt-2">
+                            ✅ No credit card required
+                        </p>
+                    </div>
                 </div>
                 <div class="pt-12 lg:pt-0 col-span-2 hidden lg:block">
                     <img class="w-full m-auto" src="/assets/images/banner-gif.webp" alt="">
@@ -48,8 +57,17 @@
                     Youform gives you fully responsive forms so your users will be able to fill your forms from mobile, desktop or tabs.
                 </p>
                 <a href="https://app.youform.io/register" class="-rotate-1 mt-10 text-2xl block text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
-                    Try For Free
+                    Create free account
                 </a>
+                <div class="text-sm pt-4 pl-4 font-semibold -rotate-1">
+                    <p>
+                        ✅ Unlimited responses
+                    </p>
+
+                    <p class="pt-2">
+                        ✅ No credit card required
+                    </p>
+                </div>
             </div>
             <div class="col-span-1">
                 <img class="w-full m-auto " src="/assets/images/visual.png" alt="">
@@ -70,11 +88,20 @@
                     Build forms intuitively
                 </p>
                 <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
-                    Youform builder is fully drag and drop and very intuitive. You will have no time to start building your forms.
+                    Youform's intuitive form builder is fully drag-and-drop. Create a live form in just a couple minutes.
                 </p>
                 <a href="https://app.youform.io/register" class="-rotate-1 text-center mt-10 text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
-                    Try For Free
+                    Create free account
                 </a>
+                <div class="text-sm pt-4 pl-4 font-semibold -rotate-1">
+                    <p>
+                        ✅ Unlimited responses
+                    </p>
+
+                    <p class="pt-2">
+                        ✅ No credit card required
+                    </p>
+                </div>
             </div>
             
         </div>
@@ -95,8 +122,17 @@
                         With Youform you can collect partial data as well before your users hit the submit button. You can download all your data from the dashboard.
                     </p>
                     <a href="https://app.youform.io/register" class="-rotate-1 text-center mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
-                        Try For Free
+                        Create free account
                     </a>
+                    <div class="text-sm pt-4 pl-4 font-semibold -rotate-1">
+                        <p>
+                            ✅ Unlimited responses
+                        </p>
+    
+                        <p class="pt-2">
+                            ✅ No credit card required
+                        </p>
+                    </div>
                 </div>
                 <div class="col-span-1">
                     <img class="w-full m-auto rounded-md " src="/assets/images/submissions.png" alt="">
@@ -114,17 +150,26 @@
         <div class="relative max-w-7xl mx-auto px-10 md:px-20">
             <div class="text-center ">
                 <div>
-                    <p class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold">High pricing problem we hear you</p>
+                    <p class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold">High pricing problem? We hear you!</p>
                     <p class="text-center text-lg xl:text-xl font-medium mt-10">
-                        Do you hate the high prices of Typeform? We do too. <span class="font-bold "> That’s why Youform will give you 99% features for FREE.</span>
+                        Do you hate the high prices of Typeform? We do too. That's why Youform allows UNLIMITED forms and form responses for FREE.
                     </p>
                 </div>
                 <img class="pt-20" src="/assets/images/twitter-screenshot.png" alt="">
 
                 <div class="mt-20">
                     <a href="https://app.youform.io/register" class="-rotate-1 text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
-                        Try For Free
+                        Create free account
                     </a>
+                    <div class="text-sm pt-4 pl-4 font-semibold -rotate-1">
+                        <p>
+                            ✅ Unlimited responses
+                        </p>
+    
+                        <p class="pt-2">
+                            ✅ No credit card required
+                        </p>
+                    </div>
                 </div>
             </div>
             
