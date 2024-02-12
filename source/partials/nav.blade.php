@@ -11,7 +11,7 @@
                 <a class="{{ $page->current('pricing') }} text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
             </div>
             <div class="flex space-x-4">
-                <a href="https://app.youform.io/login" class="hidden lg:block bg-lavender-rose border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                <a href="https://app.youform.io/login" class="hidden lg:block bg-vivid-yellow border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
                     Log In
                 </a>
                 <a href="https://app.youform.io/register" class="hidden lg:block bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">

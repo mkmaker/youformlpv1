@@ -44,7 +44,16 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
-    <body class="text-gray-900 font-sans antialiased">
-        @yield('body')
+    <body class="text-gray-900 font-sans antialiased relative">
+        <div class="sticky inset-0 text-xl bg-lavender-rose text-black shadow-md z-50 py-4 text-center">
+            <p class="max-w-7xl mx-auto px-10 md:px-20">
+                🚀 We are offering a limited lifetime launch offer for $299. 
+                <a href="https://app.youform.io/register" class="underline hover:no-underline font-semibold">Buy now and use forever</a>
+            </p>
+        </div>
+
+        <div class="">
+            @yield('body')
+        </div>
     </body>
 </html>

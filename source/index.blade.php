@@ -13,10 +13,10 @@
             <div class="flex flex-col justify-center lg:grid grid-cols-5 items-center px-10 md:px-20">
                 <div class=" flex flex-col items-center lg:items-start col-span-3 lg:pr-16 xl:pr-20">
                     <p class="text-center lg:text-left text-3xl  sm:text-5xl xl:text-6xl font-bold">
-                        Collect data without breaking your bank
+                        The most affordable Typeform alternative
                     </p>
                     <p class="text-center lg:text-left text-base sm:text-lg xl:text-xl font-medium mt-10">
-                        Youform is a no-code form builder to create conversational style forms for collecting leads, surveys & feedback.
+                        Youform is a form builder that provides UNLIMITED forms and responses for FREE.
                     </p>
                     <a href="https://app.youform.io/register" class="rotate-1 mt-10 text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                         Create free account
@@ -54,7 +54,7 @@
                     Fully responsive
                 </p>
                 <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
-                    Youform gives you fully responsive forms so your users will be able to fill your forms from mobile, desktop or tabs.
+                    Youform gives you fully responsive forms so your users will be able to fill your forms from mobile, desktop, or tablets.
                 </p>
                 <a href="https://app.youform.io/register" class="-rotate-1 mt-10 text-2xl block text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                     Create free account

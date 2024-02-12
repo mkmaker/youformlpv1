@@ -22,15 +22,11 @@
                         </p>
 
                         <p class="mt-2">
-                            Feel free to contact us at <a href="mailto:abhi@youform.io" class="text-blue-700">abhi@youform.io</a>
+                            Feel free to contact us at <a href="mailto:davis@youform.io" class="text-blue-700">davis@youform.io</a>
                         </p>
 
                         <p class="mt-2">
-                            Our registered office address: <br>
-                            A004, BPTP The Resort,
-                            Faridabad, Haryana, 121004.
-                            India
-                            +91-8447999488, +91-7980321617
+                            Or you can add your feature requests <a href="https://youform.canny.io/feature-requests" class="underline">here</a>.
                         </p>
                     </div>
                 </div>
