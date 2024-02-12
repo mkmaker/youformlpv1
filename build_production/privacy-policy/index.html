@@ -47,8 +47,8 @@
     <body class="text-gray-900 font-sans antialiased relative">
         <div class="sticky inset-0 text-xl bg-lavender-rose text-black shadow-md z-50 py-4 text-center">
             <p class="max-w-7xl mx-auto px-10 md:px-20">
-                🚀 We are offering a limited lifetime launch offer for $299. 
-                <a href="https://app.youform.io/register" class="underline hover:no-underline font-semibold">Buy now and use forever</a>
+                🚀 Limited time launch offer: $299 for lifetime access.
+                <a href="https://app.youform.io/register" class="underline hover:no-underline font-semibold">Buy once and use forever</a>
             </p>
         </div>
 
