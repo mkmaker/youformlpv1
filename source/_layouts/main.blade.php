@@ -38,6 +38,9 @@
         <meta property="twitter:description" content="{{ $page->description }}">
         <meta property="twitter:image" content="{{ $page->getUrl() }}assets/images/youform-builder.png">
 
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">        
+        <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
+
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
