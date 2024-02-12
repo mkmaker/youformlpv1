@@ -43,14 +43,66 @@
                     <h2 class="text-center lg:text-left text-3xl sm:text-5xl xl:text-6xl font-bold ">
                         Youform PRO
                     </h2>
-                    <p class="mt-10 text-center text-2xl leading-snug sm:leading-snug sm:text-4xl xl:leading-snug xl:text-5xl font-bold">
-                        Youform PRO gives you features like
-                        <span class=""> partial form submissions, fully customisable forms for your brands, ability to customise the form URL,</span>
-                        teams, workspaces, custom domain and much more.
+                    <p class="mt-10 text-center text-lg font-bold">
+                        Supercharge your forms with Youform PRO that gives following features:
                     </p>
-                    <p class="text-center text-lg sm:text-2xl xl:text-3xl font-medium mt-10">
-                        {{-- We are still launching these features and then will launch our PRO pricing.  --}}
-                    </p>
+                    <div class="text-center text-lg font-medium mt-10">
+                        <ul class="text-left space-y-2 pb-4">
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>                                  
+                                <span class="pl-2">
+                                    Remove <span class="font-semibold">Powered By Youform</span> branding.
+                                </span>
+                            </li>
+
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>                                  
+                                <span class="pl-2">
+                                    Fully customize "Thank you" pages. 
+                                </span>
+                            </li>
+
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>                                  
+                                <span class="pl-2">
+                                    View &amp; download partial submissions.
+                                </span>
+                            </li>
+
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>                                  
+                                <span class="pl-2">
+                                    Add your own domain for form pages (coming soon).
+                                </span>
+                            </li>
+
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>                                  
+                                <span class="pl-2">
+                                    Invite &amp; collaborate with team members (coming soon).
+                                </span>
+                            </li>
+
+                            <li class="flex items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>                                  
+                                <span class="pl-2">
+                                    Integrations &amp; more features coming soon...
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
                     <p class="text-center text-lg sm:text-2xl xl:text-3xl font-medium mt-10">
                         The PRO plan is just $29/month
                     </p>
