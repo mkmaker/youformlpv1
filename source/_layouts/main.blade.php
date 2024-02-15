@@ -45,7 +45,12 @@
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
     </head>
     <body class="text-gray-900 font-sans antialiased relative">
-        <div class="sticky inset-0 text-xl bg-lavender-rose text-black shadow-md z-50 py-4 text-center">
+        <div 
+            x-data="{shouldChangeColor: false}" 
+            x-transition
+            class="sticky inset-0 text-xl shadow-md z-50 py-4 text-center text-black"
+            :class="{'bg-lavender-rose': !shouldChangeColor, 'bg-sasquatch-socks': shouldChangeColor }"
+            @scroll.window="shouldChangeColor = (window.pageYOffset > 3550) ? true: false; console.log(window.pageYOffset)">
             <p class="max-w-7xl mx-auto px-10 md:px-20">
                 🚀 Limited time launch offer: $299 for lifetime access.
                 <a href="https://app.youform.io/register" class="underline hover:no-underline font-semibold">Buy once and use forever</a>

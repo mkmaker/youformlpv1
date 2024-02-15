@@ -148,7 +148,7 @@
 <div class="-mt-16">
     <div class="bg-lavender-rose pt-28 lg:pt-40 pb-20">
         <div class="relative max-w-7xl mx-auto px-10 md:px-20">
-            <div class="text-center ">
+            <div class="text-center">
                 <div>
                     <p class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold">High pricing problem? We hear you!</p>
                     <p class="text-center text-lg xl:text-xl font-medium mt-10">
