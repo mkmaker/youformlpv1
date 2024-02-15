@@ -18,10 +18,15 @@
                     <p class="text-center lg:text-left text-base sm:text-lg xl:text-xl font-medium mt-10">
                         Youform is a form builder that provides UNLIMITED forms and responses for FREE.
                     </p>
-                    <a href="https://app.youform.io/register" class="rotate-1 mt-10 text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
-                        Create free account
-                    </a>
-                    <div class="text-sm pt-4 pl-4 font-semibold rotate-1">
+                    <div class="lg:flex lg:items-center space-x-6 mt-10 text-center">
+                        <a href="https://app.youform.io/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                            Create free account
+                        </a>
+                        <a href="https://app.youform.io/forms/2byfpx1j" class="underline group transition-all hover:no-underline inline-block mx-auto mt-4 lg:mt-0">
+                            or, checkout a sample form <span class="hidden group-hover:inline">👀</span>
+                        </a>
+                    </div>
+                    <div class="text-sm pt-6 pl-4 font-semibold rotate-1">
                         <p>
                             ✅ Unlimited responses
                         </p>
@@ -158,10 +163,17 @@
                 <img class="pt-20" src="/assets/images/twitter-screenshot.png" alt="">
 
                 <div class="mt-20">
-                    <a href="https://app.youform.io/register" class="-rotate-1 text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
+                    <a href="https://app.youform.io/register" class="text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
                         Create free account
                     </a>
-                    <div class="text-sm pt-4 pl-4 font-semibold -rotate-1">
+
+                    <div>
+                        <a href="https://app.youform.io/forms/2byfpx1j" class="underline group transition-all hover:no-underline hover:font-semibold inline-block mx-auto mt-4">
+                            or, checkout a sample form <span class="hidden group-hover:inline">👀</span>
+                        </a>
+                    </div>
+
+                    <div class="text-sm pt-8 pl-4 font-semibold -rotate-1">
                         <p>
                             ✅ Unlimited responses
                         </p>
