@@ -22,7 +22,7 @@
                         <a href="https://app.youform.io/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                             Create free account
                         </a>
-                        <a href="https://app.youform.io/forms/2byfpx1j" class="underline group transition-all hover:no-underline inline-block mx-auto mt-4 lg:mt-0">
+                        <a href="https://app.youform.io/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline inline-block mx-auto mt-4 lg:mt-0">
                             or, check out a sample form <span class="hidden group-hover:inline">👀</span>
                         </a>
                     </div>
@@ -168,7 +168,7 @@
                     </a>
 
                     <div>
-                        <a href="https://app.youform.io/forms/2byfpx1j" class="underline group transition-all hover:no-underline hover:font-semibold inline-block mx-auto mt-4">
+                        <a href="https://app.youform.io/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline hover:font-semibold inline-block mx-auto mt-4">
                             or, check out a sample form <span class="hidden group-hover:inline">👀</span>
                         </a>
                     </div>
