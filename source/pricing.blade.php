@@ -16,11 +16,106 @@
                     <span class="text-orange-600">Youform is FREE to use</span>
                         for unlimited forms and unlimited responses
                         <br>
-                        <span class="text-orange-600"> +99% of our features.</span>
                     </p>
-                    <p class="text-center text-base sm:text-lg xl:text-xl font-medium mt-10">
-                        {{-- All form building features are free forever which covers almost all basic form building requirements. --}}
-                    </p>
+                    <div class="text-center text-sm mt-10 grid grid-cols-3 gap-2">
+                        <div>
+                            <ul class="text-left space-y-2 pb-4">
+                                <li class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>                                  
+                                    <span class="pl-2">
+                                        Unlimited forms
+                                    </span>
+                                </li>
+    
+                                <li class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>                                  
+                                    <span class="pl-2">
+                                        Unlimited submissions
+                                    </span>
+                                </li>
+    
+                                <li class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>                                  
+                                    <span class="pl-2">
+                                        Embed forms on unlimited websites and pages
+                                    </span>
+                                </li>
+    
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul class="text-left space-y-2 pb-4">
+    
+                                <li class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>                                  
+                                    <span class="pl-2">
+                                        File upload (up to 10 MB per file)
+                                    </span>
+                                </li>
+    
+                                <li class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>                                  
+                                    <span class="pl-2">
+                                        Add image to forms
+                                    </span>
+                                </li>
+    
+                                <li class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>                                  
+                                    <span class="pl-2">
+                                        Email notifications to you and your respondents
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+
+                            <ul class="text-left space-y-2 pb-4">
+    
+                                <li class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>                                  
+                                    <span class="pl-2">
+                                        Webhooks
+                                    </span>
+                                </li>
+    
+                                <li class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>                                  
+                                    <span class="pl-2">
+                                        CSV download of completed submissions
+                                    </span>
+                                </li>
+    
+                                <li class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                    </svg>                                  
+                                    <span class="pl-2">
+                                        Integrate with 6000+ apps like Google Sheet, Slack etc
+                                    </span>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
                     <a href="https://app.youform.io/register" class="rotate-1 mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                         Create free account
                     </a>
