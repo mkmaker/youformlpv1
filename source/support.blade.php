@@ -18,15 +18,15 @@
                         <p class="mt-2">Hello there,</p>
 
                         <p class="mt-2">
-                            Looking for something that you haven't found yet on our website? A feature request? A bug? Want to give some feedback or simply want to say hi?
+                            Got a feature requests? You can <a href="https://youform.canny.io/feature-requests" class="text-blue-700">add it here</a>.
                         </p>
 
                         <p class="mt-2">
-                            Feel free to contact us at <a href="mailto:davis@youform.io" class="text-blue-700">davis@youform.io</a>
+                            Want to give feedback, report a bug, or just say hi?
                         </p>
 
                         <p class="mt-2">
-                            Or you can add your feature requests <a href="https://youform.canny.io/feature-requests" class="underline">here</a>.
+                            Feel free to contact us at davis@youform.io, or fill out the form below (yes, it's an embedded Youform 🤓):
                         </p>
                     </div>
 
