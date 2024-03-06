@@ -64,7 +64,7 @@
         <div x-data="{ show: false }">
             <div x-transition x-cloak x-show="show" class="fixed bottom-16 right-5 bg-white border rounded-md text-sm border-black drop-shadow-3xl divide-y divide-gray-200">
                 <a href="mailto:davis@youform.io" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
-                    🗣️ &nbsp;Feedback
+                    🗣️ &nbsp;Contact us
                 </a>
                 <a href="https://youform.canny.io/feature-requests" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
                     🙏 &nbsp;Feature Request

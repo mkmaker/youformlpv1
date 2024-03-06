@@ -10,6 +10,12 @@
 
         <ul class="text-center">
             <li class="text-white  font-semibold">
+                <a href="/about" class="hover:underline">About</a>
+            </li>
+        </ul>
+
+        <ul class="text-center">
+            <li class="text-white  font-semibold">
                 <a href="/pricing" class="hover:underline">Pricing</a>
             </li>
         </ul>
@@ -43,5 +49,11 @@
             </li>
         </ul>
     </div>     
+
+    <div class="border-t border-gray-700">
+        <p class="text-center text-white py-4 text-sm px-10">
+            🔒 Data securely stored with AWS in the USA 🇺🇸
+        </p>
+    </div>
 
 </div>
