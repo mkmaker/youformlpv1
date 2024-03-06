@@ -134,7 +134,7 @@
                             10. Contact Us
                         </p>
                         <p class="mt-2">
-                            If you have any questions about this Privacy Policy, please contact us: hello@youform.io   
+                            If you have any questions about this Privacy Policy, please contact us: support@youform.io   
                         </p>
                     </div>
                 </div>
