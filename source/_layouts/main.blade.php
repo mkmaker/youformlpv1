@@ -63,9 +63,21 @@
 
         <div x-data="{ show: false }">
             <div x-transition x-cloak x-show="show" class="fixed bottom-16 right-5 bg-white border rounded-md text-sm border-black drop-shadow-3xl divide-y divide-gray-200">
-                <a href="mailto:davis@youform.io" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                <button 
+                    x-data="{
+                        copyEmbedCode() {
+                            copyToClipboard('davis@youform.io'); 
+        
+                            $dispatch('notify', {
+                                'type': 'success',
+                                'message': 'Contact email copied to clipboard!'
+                            })
+                        }
+                    }" 
+                    @click.prevent="copyEmbedCode"
+                    class="block w-full text-left px-4 py-2 hover:bg-aquamarine">
                     🗣️ &nbsp;Contact us
-                </a>
+                </button>
                 <a href="https://youform.canny.io/feature-requests" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
                     🙏 &nbsp;Feature Request
                 </a>
@@ -77,6 +89,8 @@
                 </svg>                 
             </button>
         </div>
+
+        @include('partials.notify')
         
     </body>
 </html>
