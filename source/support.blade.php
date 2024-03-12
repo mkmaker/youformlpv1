@@ -31,7 +31,7 @@
                     </div>
 
                     <div class="mt-10">
-                        <iframe src="https://app.youform.io/forms/glg7mrzx" loading="lazy" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0"><iframe>
+                        <iframe src="https://app.youform.io/forms/glg7mrzx" loading="lazy" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe>
                     </div>
                 </div>
             </div>
