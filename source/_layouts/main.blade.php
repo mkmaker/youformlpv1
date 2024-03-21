@@ -52,7 +52,7 @@
             x-transition
             class="sticky inset-0 text-xl shadow-md z-50 py-4 text-center text-black"
             :class="{'bg-lavender-rose': !shouldChangeColor, 'bg-sasquatch-socks': shouldChangeColor }"
-            @scroll.window="shouldChangeColor = (window.pageYOffset > 3550) ? true: false; console.log(window.pageYOffset)">
+            @scroll.window="shouldChangeColor = (window.pageYOffset > 3550) ? true: false;">
             <p class="max-w-7xl mx-auto px-10 md:px-20">
                 🚀 Limited-time offer: $399 for lifetime Pro access.
                 <a href="https://app.youform.io/register" class="underline hover:no-underline font-semibold">Buy once and use forever</a>
