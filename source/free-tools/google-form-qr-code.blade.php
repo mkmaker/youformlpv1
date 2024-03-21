@@ -70,7 +70,7 @@
                                     How to get QR code for Google form?
                                 </h2>
                                 <p>
-                                    Simply copy your Google Form URL &amp; paste it above. We will generate it for you. Yes, it is that simple. You can download the QR code and take a print of this. The QR code works offline as well.
+                                    Simply copy your Google Form URL &amp; paste it above. We will generate it for you. Yes, it is that simple. You can download the QR code and take a print or use it in your website, email etc.
                                 </p>
                             </div>
 
