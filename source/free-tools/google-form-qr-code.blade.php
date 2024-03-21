@@ -65,7 +65,7 @@
                         </div>
 
                         <div>
-                            <div>
+                            <div class="mt-10">
                                 <h2 class="font-semibold text-lg">
                                     How to get QR code for Google form?
                                 </h2>
