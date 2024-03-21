@@ -39,11 +39,11 @@
                         <form action="#" @submit.prevent="generate" class="mt-10">
                             <div>
                                 <label for="url" class="sr-only">Paste Your Google Form URL</label>
-                                <input x-model="url" type="text" name="url" id="url" autofocus class="block mx-auto w-96 mt-2 rounded-md py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 border-2 border-black placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-gray-800 sm:text-sm sm:leading-6" placeholder="Paste Your Google Form URL">
+                                <input x-model="url" type="text" name="url" id="url" autofocus class="block mx-auto w-full md:w-96 mt-2 rounded-md py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 border-2 border-black placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-gray-800 sm:text-sm sm:leading-6" placeholder="Paste Your Google Form URL">
                             </div>
 
                             <div class="flex items-center justify-center mt-4">
-                                <button type="submit" class="inline-block mx-auto bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                                <button type="submit" class="inline-block text-sm md:text-base mx-auto bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                                     Generate QR Code
                                 </button>
                             </div>
