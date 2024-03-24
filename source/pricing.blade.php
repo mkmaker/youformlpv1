@@ -1,3 +1,8 @@
+---
+title: Pricing - Youform
+description: Youform is free for unlimited forms and submissions. Youform PRO provides more advanced features.
+---
+
 @extends('_layouts.main')
 
 @section('body')

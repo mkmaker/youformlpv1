@@ -1,3 +1,8 @@
+---
+title: Free Google Form QR Code Generator by Youform
+description: Get QR code for your Google form. Just paste your form link and get the QR code for free.
+---
+
 @extends('_layouts.main')
 
 @section('body')
