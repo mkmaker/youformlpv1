@@ -42,12 +42,12 @@
             </li>
         </ul>
 
-        <ul class="text-center">
+        {{-- <ul class="text-center">
             <li class="text-white  font-semibold flex items-center">
                 <img src="https://ohdear.app/badges/status-page/01hr96prwxg6wcrbvtc4gw319c/small" alt="status page badge" />
                 <a href="https://status.youform.io/" target="_blank" rel="nofollow" class="hover:underline pl-1">Status</a>
             </li>
-        </ul>
+        </ul> --}}
     </div>     
 
     <div class="border-t border-gray-700">
