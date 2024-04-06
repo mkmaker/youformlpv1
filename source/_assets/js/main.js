@@ -1,8 +1,10 @@
 import Alpine from 'alpinejs'
 import intersect from '@alpinejs/intersect'
+import Tooltip from "@ryangjchandler/alpine-tooltip";
 
 window.Alpine = Alpine
 
+Alpine.plugin(Tooltip)
 Alpine.plugin(intersect)
 
 window.copyToClipboard = function (text) {
