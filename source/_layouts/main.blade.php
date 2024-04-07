@@ -53,16 +53,28 @@
             class="sticky inset-0 text-xl shadow-md z-50 py-4 text-center text-black"
             :class="{'bg-lavender-rose': !shouldChangeColor, 'bg-sasquatch-socks': shouldChangeColor }"
             @scroll.window="shouldChangeColor = (window.pageYOffset > 3550) ? true: false;">
-            <p class="max-w-7xl mx-auto px-10 md:px-20 flex items-center justify-center space-x-2">
-                <span>🚀 Limited-time offer: $399 for lifetime Pro access.</span>
-                <a href="https://app.youform.io/register" class="underline hover:no-underline font-semibold">Buy once and use forever</a>
+            <div class="max-w-7xl mx-auto px-10 md:px-20 block lg:flex items-center justify-center space-x-2">
+                <p>🚀 Limited-time offer</p>
+                <p class="hidden lg:block">
+                    $399 for lifetime Pro access.
+                </p>
+                <div class="flex items-center justify-center space-x-2">
+                    <a href="https://app.youform.io/register" class="underline hover:no-underline font-semibold">
+                        <span class="inline lg:hidden">
+                            $399 for lifetime Pro access.
+                        </span>
+                        <span class="hidden lg:block">
+                            Buy once and use forever
+                        </span>
+                    </a>
 
-                <a href="https://youform.io/blog/what-does-lifetime-mean" target="_blank">
-                    <svg x-data x-tooltip.raw.html='What does "lifetime" mean? Click to learn more' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
-                    </svg>
-                </a>                  
-            </p>
+                    <a href="https://youform.io/blog/what-does-lifetime-mean" target="_blank">
+                        <svg x-data x-tooltip.raw.html='What does "lifetime" mean? Click to learn more' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                        </svg>
+                    </a>  
+                </div>                
+            </div>
         </div>
 
         <div class="">
