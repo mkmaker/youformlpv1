@@ -45,6 +45,22 @@
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+        <script type='application/ld+json'>
+            {
+              "@context": "http://www.schema.org",
+              "@type": "Corporation",
+              "name": "Youform",
+              "url": "https://youform.io/",
+              "sameAs": [
+                 "https://twitter.com/youformio/",
+                 "https://www.linkedin.com/company/youformio"
+              ],
+              "logo": "https://youform.io/assets/images/youform-logo.png",
+              "image": "https://youform.io/assets/images/youform-builder.png",
+              "description": "Youform is a free and intuitive form builder with no limits on submissions."
+            }
+        </script>
     </head>
     <body class="text-gray-900 font-sans antialiased relative">
         <div 
@@ -86,7 +102,7 @@
                 <button 
                     x-data="{
                         copyEmbedCode() {
-                            copyToClipboard('davis@youform.io'); 
+                            copyToClipboard('abhishek@youform.io'); 
         
                             $dispatch('notify', {
                                 'type': 'success',
