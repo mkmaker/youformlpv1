@@ -180,7 +180,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                     <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                 </svg>                                  
                                 <span class="pl-2">
-                                    Add your own domain for form pages.
+                                    Add your own custom domain for form pages.
                                 </span>
                             </li>
 
