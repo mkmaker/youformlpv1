@@ -239,7 +239,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                 <div class="mt-10">
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                             <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                                <div  class="flex justify-between  px-4 py-10 text-3xl">
+                                <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                     <p class="text-black font-medium">Is Youform free?</p>
                                     <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -250,7 +250,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                       </svg>
                                 </div>
                                 <div x-show="open">
-                                    <p class=" px-4 py-10 text-xl text-black">
+                                    <p class=" px-4 py-10 lg:text-xl text-black">
                                         Youform is the best FREE alternative to Typeform in the market. While Typeform provides ONLY 10 responses on their free plan, Youform provides unlimited responses and forms for FREE.
                                     </p>
                                 </div>   
@@ -258,7 +258,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">What is Youform PRO?</p>
                                 <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -269,7 +269,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     While Youform provides you unlimited forms and responses for free, Youform PRO provides advanced features like removing Youform branding, capturing partial submissions, inviting team members, and adding your own custom domain + much more coming soon.
                                 </p>
                             </div>   
@@ -277,7 +277,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">How long will Youform be around, and how many people use Youform?</p>
                                 <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -288,7 +288,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Youform has thousands of users, and will be around for years and years to come. Youform was created in 2023, and reached $10,000 in revenue within the first week of launch. It has continued to grow ever since.
                                     <br>
                                     Youform is also not our first product. The Youform team has built other software products to millions in revenue. Learn more on our <a href="/about" class="text-blue-500 hover:underline">about page</a>.
@@ -298,7 +298,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">Can you embed a Youform on a website?</p>
                                 <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -309,7 +309,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Yep! You can embed a Youform on any website, whether it’s custom coded, or uses a website builder like WordPress, Squarespace, Shopify, Wix, Carrd, Webflow, Weebly, etc… They are all supported 🤓
                                 </p>
                             </div>   
@@ -317,7 +317,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">Does Youform integrate with Google Sheets?</p>
                                 <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -328,7 +328,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Yes, Youform has a direct Google Sheets integration. You can connect your form to Google Sheets, and each new response you receive will automatically add a new row in your Google Sheet.
                                 </p>
                             </div>   
@@ -336,7 +336,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">
                                     Does Youform have a Zapier integration?
                                 </p>
@@ -349,7 +349,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Yes, Youform works with Zapier currently via their <a href="https://www.loom.com/share/59c995ad39ae4d31ab922c9e1c7231e7?sid=3c5a0280-9744-4952-83d7-54b24b60a424" target="_blank" class="text-blue-500 hover:underline">webhooks integration</a>. This allows you to connect form responses to any app on Zapier. However, a direct Zapier integration is coming soon.
                                 </p>
                             </div>   
@@ -357,7 +357,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">
                                     Does Youform allow you to ask for digital signatures?
                                 </p>
@@ -370,7 +370,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Yes, you can collect signatures in your forms with Youform. You can open <a href="https://app.youform.io/forms/uf0c1gec" class="text-blue-500 hover:underline">this form</a> to see how a signature field looks in Youform.
                                 </p>
                             </div>   
@@ -378,7 +378,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">
                                     Does Youform support redirecting users to a URL after they complete a form?
                                 </p>
@@ -391,7 +391,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Yes, Youform allows you to redirect users to any website after they complete a form.
                                 </p>
                             </div>   
@@ -399,7 +399,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">
                                     Can I use a single Youform account for multiple brands and domains?
                                 </p>
@@ -412,7 +412,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Yes, you can use Youform with multiple brands and domains. You can embed your forms on different websites, and even have different custom domains for different forms.
                                 </p>
                             </div>   
@@ -420,7 +420,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">
                                     Does Youform support generating a QR code to share my form?
                                 </p>
@@ -433,7 +433,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Yes, you can generate a QR code to share your form in Youform 🤓
                                 </p>
                             </div>   
@@ -441,7 +441,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">
                                     Does Youform support file uploads?
                                 </p>
@@ -454,7 +454,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Yes, Youform’s free plan allows for file uploads up to 10MB. On the Pro plan, this limit is removed 🙂
                                 </p>
                             </div>   
@@ -462,7 +462,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </div>
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 text-3xl">
+                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
                                 <p class="text-black font-medium">Can I request some features?</p>
                                 <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
@@ -473,7 +473,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                   </svg>
                             </div>
                             <div x-show="open">
-                                <p class=" px-4 py-10 text-xl text-black">
+                                <p class=" px-4 py-10 lg:text-xl text-black">
                                     Sure, you can add your feature requests <a href="https://youform.canny.io/feature-requests" class="font-semibold underline">here</a>.
                                 </p>
                             </div>   
