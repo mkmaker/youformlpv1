@@ -22,11 +22,11 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                         for unlimited forms and unlimited responses
                         <br>
                     </p>
-                    <div class="text-center text-sm mt-10 grid grid-cols-3 gap-2">
+                    <div class="text-center text-sm mt-10 md:grid md:grid-cols-3 gap-2">
                         <div>
                             <ul class="text-left space-y-2 pb-4">
                                 <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>                                  
                                     <span class="pl-2">
@@ -35,7 +35,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                 </li>
     
                                 <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>                                  
                                     <span class="pl-2">
@@ -44,7 +44,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                 </li>
     
                                 <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>                                  
                                     <span class="pl-2">
@@ -59,7 +59,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             <ul class="text-left space-y-2 pb-4">
     
                                 <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>                                  
                                     <span class="pl-2">
@@ -68,7 +68,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                 </li>
     
                                 <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>                                  
                                     <span class="pl-2">
@@ -77,7 +77,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                 </li>
     
                                 <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>                                  
                                     <span class="pl-2">
@@ -92,7 +92,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             <ul class="text-left space-y-2 pb-4">
     
                                 <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>                                  
                                     <span class="pl-2">
@@ -101,7 +101,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                 </li>
     
                                 <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>                                  
                                     <span class="pl-2">
@@ -110,7 +110,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                 </li>
     
                                 <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                                     </svg>                                  
                                     <span class="pl-2">
@@ -240,12 +240,12 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                             <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                                 <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                    <p class="text-black font-medium">Is Youform free?</p>
-                                    <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                    <p class="text-black font-medium flex-grow">Is Youform free?</p>
+                                    <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                     </svg>
                                 
-                                    <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                    <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                       </svg>
                                 </div>
@@ -259,12 +259,12 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">What is Youform PRO?</p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <p class="text-black font-medium flex-grow">What is Youform PRO?</p>
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -278,12 +278,12 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">How long will Youform be around, and how many people use Youform?</p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <p class="text-black font-medium flex-grow">How long will Youform be around, and how many people use Youform?</p>
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -299,12 +299,12 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">Can you embed a Youform on a website?</p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <p class="text-black font-medium flex-grow">Can you embed a Youform on a website?</p>
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -318,12 +318,12 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">Does Youform integrate with Google Sheets?</p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <p class="text-black font-medium flex-grow">Does Youform integrate with Google Sheets?</p>
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -337,14 +337,14 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">
+                                <p class="text-black font-medium flex-grow">
                                     Does Youform have a Zapier integration?
                                 </p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -358,14 +358,14 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">
+                                <p class="text-black font-medium flex-grow">
                                     Does Youform allow you to ask for digital signatures?
                                 </p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -379,14 +379,14 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">
+                                <p class="text-black font-medium flex-grow">
                                     Does Youform support redirecting users to a URL after they complete a form?
                                 </p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -400,14 +400,14 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">
+                                <p class="text-black font-medium flex-grow">
                                     Can I use a single Youform account for multiple brands and domains?
                                 </p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -421,14 +421,14 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">
+                                <p class="text-black font-medium flex-grow">
                                     Does Youform support generating a QR code to share my form?
                                 </p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -442,14 +442,14 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">
+                                <p class="text-black font-medium flex-grow">
                                     Does Youform support file uploads?
                                 </p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
@@ -463,12 +463,12 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <div x-data="{ open: false }" class="border-y-2 border-black ">
                         <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
                             <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium">Can I request some features?</p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <p class="text-black font-medium flex-grow">Can I request some features?</p>
+                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
                                 </svg>
                             
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
                                   </svg>
                             </div>
