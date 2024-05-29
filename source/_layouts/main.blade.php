@@ -51,13 +51,13 @@
               "@context": "http://www.schema.org",
               "@type": "Corporation",
               "name": "Youform",
-              "url": "https://youform.io/",
+              "url": "https://youform.com/",
               "sameAs": [
                  "https://twitter.com/youformio/",
                  "https://www.linkedin.com/company/youformio"
               ],
-              "logo": "https://youform.io/assets/images/youform-logo.png",
-              "image": "https://youform.io/assets/images/youform-builder.png",
+              "logo": "https://youform.com/assets/images/youform-logo.png",
+              "image": "https://youform.com/assets/images/youform-builder.png",
               "description": "Youform is a free and intuitive form builder with no limits on submissions."
             }
         </script>
