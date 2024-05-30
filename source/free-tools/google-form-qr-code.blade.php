@@ -94,10 +94,10 @@ description: Get QR code for your Google form. Just paste your form link and get
                                 </p>
 
                                 <div class="mt-10 text-center">
-                                    <a href="https://app.youform.io/register" class="block mx-auto text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                                    <a href="https://app.youform.com/register" class="block mx-auto text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                                         Create free account
                                     </a>
-                                    <a href="https://app.youform.io/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline block mx-auto mt-4">
+                                    <a href="https://app.youform.com/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline block mx-auto mt-4">
                                         or, check out a sample form <span class="hidden group-hover:inline">👀</span>
                                     </a>
                                 </div>

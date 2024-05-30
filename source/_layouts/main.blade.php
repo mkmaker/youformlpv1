@@ -75,7 +75,7 @@
                     $399 for lifetime Pro access.
                 </p>
                 <div class="flex items-center justify-center space-x-2">
-                    <a href="https://app.youform.io/register" class="underline hover:no-underline font-semibold">
+                    <a href="https://app.youform.com/register" class="underline hover:no-underline font-semibold">
                         <span class="inline lg:hidden">
                             $399 for lifetime Pro access.
                         </span>

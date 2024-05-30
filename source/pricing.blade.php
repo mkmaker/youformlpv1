@@ -121,7 +121,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
 
                         </div>
                     </div>
-                    <a href="https://app.youform.io/register" class="rotate-1 mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                    <a href="https://app.youform.com/register" class="rotate-1 mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                         Create free account
                     </a>
                 </div>
@@ -216,7 +216,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                         The PRO plan is just $29/month
                     </p>
                     
-                    <a href="https://app.youform.io/register" class="-rotate-1 mt-10 text-2xl bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
+                    <a href="https://app.youform.com/register" class="-rotate-1 mt-10 text-2xl bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                         Create free account
                     </a>
                 </div>
@@ -371,7 +371,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </div>
                             <div x-show="open">
                                 <p class=" px-4 py-10 lg:text-xl text-black">
-                                    Yes, you can collect signatures in your forms with Youform. You can open <a href="https://app.youform.io/forms/uf0c1gec" class="text-blue-500 hover:underline">this form</a> to see how a signature field looks in Youform.
+                                    Yes, you can collect signatures in your forms with Youform. You can open <a href="https://app.youform.com/forms/uf0c1gec" class="text-blue-500 hover:underline">this form</a> to see how a signature field looks in Youform.
                                 </p>
                             </div>   
                         </div>      

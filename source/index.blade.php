@@ -19,10 +19,10 @@
                         Youform is a form builder that provides UNLIMITED forms and responses for FREE.
                     </p>
                     <div class="lg:flex lg:items-center space-x-6 mt-10 text-center">
-                        <a href="https://app.youform.io/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                        <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                             Create free account
                         </a>
-                        <a href="https://app.youform.io/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline inline-block mx-auto mt-4 lg:mt-0">
+                        <a href="https://app.youform.com/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline inline-block mx-auto mt-4 lg:mt-0">
                             or, check out a sample form <span class="hidden group-hover:inline">👀</span>
                         </a>
                     </div>
@@ -61,7 +61,7 @@
                 <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
                     Youform gives you fully responsive forms so your users will be able to fill your forms from mobile, desktop, or tablets.
                 </p>
-                <a href="https://app.youform.io/register" class="-rotate-1 mt-10 text-2xl block text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                <a href="https://app.youform.com/register" class="-rotate-1 mt-10 text-2xl block text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                     Create free account
                 </a>
                 <div class="text-sm pt-4 pl-4 font-semibold -rotate-1">
@@ -95,7 +95,7 @@
                 <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
                     Youform's intuitive form builder is fully drag-and-drop. Create a live form in just a couple minutes.
                 </p>
-                <a href="https://app.youform.io/register" class="-rotate-1 text-center mt-10 text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                <a href="https://app.youform.com/register" class="-rotate-1 text-center mt-10 text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                     Create free account
                 </a>
                 <div class="text-sm pt-4 pl-4 font-semibold -rotate-1">
@@ -126,7 +126,7 @@
                     <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
                         With Youform you can collect partial data as well before your users hit the submit button. You can download all your data from the dashboard.
                     </p>
-                    <a href="https://app.youform.io/register" class="-rotate-1 text-center mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                    <a href="https://app.youform.com/register" class="-rotate-1 text-center mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                         Create free account
                     </a>
                     <div class="text-sm pt-4 pl-4 font-semibold -rotate-1">
@@ -175,12 +175,12 @@
                 </div>
 
                 <div class="mt-20">
-                    <a href="https://app.youform.io/register" class="text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
+                    <a href="https://app.youform.com/register" class="text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
                         Create free account
                     </a>
 
                     <div>
-                        <a href="https://app.youform.io/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline hover:font-semibold inline-block mx-auto mt-4">
+                        <a href="https://app.youform.com/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline hover:font-semibold inline-block mx-auto mt-4">
                             or, check out a sample form <span class="hidden group-hover:inline">👀</span>
                         </a>
                     </div>

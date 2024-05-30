@@ -55,7 +55,7 @@
                             First name and last name; <br>
                             Phone number; <br>
                             Address, State, Province, ZIP/Postal code, City; and/or <br>
-                            Cookies and Usage Data. We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or by emailing to hello@youform.io. <br>
+                            Cookies and Usage Data. We may use your Personal Data to contact you with newsletters, marketing or promotional materials and other information that may be of interest to you. You may opt out of receiving any, or all, of these communications from us by following the unsubscribe link or by emailing to support@youform.io. <br>
                             <br>
                             <p>b. Usage Data</p> <br>
                             <p>
