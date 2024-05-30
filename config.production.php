@@ -2,5 +2,5 @@
 
 return [
     'production' => true,
-    'baseUrl' => 'https://youform.io',
+    'baseUrl' => 'https://youform.com',
 ];
