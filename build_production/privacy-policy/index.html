@@ -41,7 +41,7 @@
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=2da575ffbf451b09ddd708eba99d2180">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=e97cfec21dbbbe5bbbf6c2bf09a9ee78">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -53,8 +53,8 @@
               "name": "Youform",
               "url": "https://youform.com/",
               "sameAs": [
-                 "https://twitter.com/youformio/",
-                 "https://www.linkedin.com/company/youformio"
+                 "https://twitter.com/youformdotcom/",
+                 "https://www.linkedin.com/company/youform.com/"
               ],
               "logo": "https://youform.com/assets/images/youform-logo.png",
               "image": "https://youform.com/assets/images/youform-builder.png",
@@ -63,44 +63,13 @@
         </script>
     </head>
     <body class="text-gray-900 font-sans antialiased relative">
-        <div 
-            x-data="{shouldChangeColor: false}" 
-            x-transition
-            class="sticky inset-0 text-xl shadow-md z-50 py-4 text-center text-black"
-            :class="{'bg-lavender-rose': !shouldChangeColor, 'bg-sasquatch-socks': shouldChangeColor }"
-            @scroll.window="shouldChangeColor = (window.pageYOffset > 3550) ? true: false;">
-            <div class="max-w-7xl mx-auto px-10 md:px-20 block lg:flex items-center justify-center space-x-2">
-                <p class="hidden lg:block">🚀 $399 for lifetime Pro access.</p>
-                <p class="hidden lg:block">
-                    Offer ends 7th June.
-                </p>
-                <div class="flex items-center justify-center space-x-2">
-                    <a href="https://app.youform.com/register" class="underline hover:no-underline font-semibold">
-                        <span class="inline lg:hidden">
-                            🚀 $399 for lifetime Pro access.
-                        </span>
-                        <span class="hidden lg:block">
-                            Buy now use forever
-                        </span>
-                    </a>
-
-                    <a href="https://youform.com/blog/what-does-lifetime-mean" target="_blank">
-                        <svg x-data x-tooltip.raw.html='What does "lifetime" mean? Click to learn more' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
-                        </svg>
-                    </a>  
-                </div>   
-                <p class="inline lg:hidden">
-                    Offer ends 7th June.
-                </p>             
-            </div>
-        </div>
+        
 
         <div class="">
             
 <!-- header -->
 <div> 
-    <div>
+    <div class="bg-amber-50">
         <!-- navbar   -->
         <div class="max-w-7xl mx-auto">
     <div x-data="{ open: false }" class="relative overflow-hidden">
@@ -126,7 +95,7 @@
                 <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
-                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                <svg x-cloak x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                 </svg>                  
             </a>
