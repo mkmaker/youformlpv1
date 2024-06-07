@@ -53,8 +53,8 @@
               "name": "Youform",
               "url": "https://youform.com/",
               "sameAs": [
-                 "https://twitter.com/youformio/",
-                 "https://www.linkedin.com/company/youformio"
+                 "https://twitter.com/youformdotcom/",
+                 "https://www.linkedin.com/company/youform.com/"
               ],
               "logo": "https://youform.com/assets/images/youform-logo.png",
               "image": "https://youform.com/assets/images/youform-builder.png",
@@ -63,7 +63,7 @@
         </script>
     </head>
     <body class="text-gray-900 font-sans antialiased relative">
-        <div 
+        {{-- <div 
             x-data="{shouldChangeColor: false}" 
             x-transition
             class="sticky inset-0 text-xl shadow-md z-50 py-4 text-center text-black"
@@ -94,7 +94,7 @@
                     Offer ends 7th June.
                 </p>             
             </div>
-        </div>
+        </div> --}}
 
         <div class="">
             @yield('body')

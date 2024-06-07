@@ -4,7 +4,7 @@
 
 <!-- header -->
 <div> 
-    <div>
+    <div class="bg-amber-50">
         <!-- navbar   -->
         @include('partials.nav')
 

@@ -140,7 +140,7 @@
                     </div>
                 </div>
                 <div class="col-span-1">
-                    <img class="w-full m-auto rounded-md " src="/assets/images/submissions.png" alt="">
+                    <img class="w-full m-auto rounded-xl" src="/assets/images/submissions-page.png" alt="">
                 </div>
             </div>
         </div>
@@ -167,14 +167,18 @@
                         <h4 class="text-center text-2xl sm:text-4xl xl:text-5xl font-bold mb-8">
                             Even <em>Pieter Levels</em> recommends Youform
                         </h4>
-                        <blockquote class="twitter-tweet" data-theme="dark">
-                            <p lang="en" dir="ltr">So <a href="https://t.co/y5mHX1AfIZ">https://t.co/y5mHX1AfIZ</a> by <a href="https://twitter.com/mynameis_davis?ref_src=twsrc%5Etfw">@mynameis_davis</a> is a free Typeform alternative, the Pro version is $29/mo or lifetime for $299 rn<br><br>Not affiliated but looks great to me <a href="https://t.co/7mu9YdiKcz">https://t.co/7mu9YdiKcz</a></p>&mdash; @levelsio (@levelsio) <a href="https://twitter.com/levelsio/status/1762609429130760609?ref_src=twsrc%5Etfw">February 27, 2024</a>
-                        </blockquote> 
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        
+                        <div>
+                            <div class="py-4 max-w-lg mx-auto rounded-2xl shadow-lg md:shadow-2xl" style="background: #13202B">
+                                <a href="https://x.com/levelsio" target="_blank">
+                                    <img src="/assets/images/levelsio.png" class="" alt="Pieter Levels recommends Youform">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="mt-20">
+                <div class="mt-16">
                     <a href="https://app.youform.com/register" class="text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
                         Create free account
                     </a>
