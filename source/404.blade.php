@@ -34,7 +34,7 @@
                     Or fill out this sample Youform
                 </p>
 
-                <div>
+                <div class="w-full mt-4 mb-10 px-20">
                     <iframe src="https://app.youform.com/forms/2byfpx1j" loading="lazy" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe>
                 </div>
             </div>
