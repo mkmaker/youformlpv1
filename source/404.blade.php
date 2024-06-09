@@ -3,7 +3,7 @@
 @section('body')
  
 <div class="min-h-screen flex flex-col bg-amber-50"> 
-    <div class="flex-grow">
+    <div class="flex-grow flex items-center justify-center">
         <!-- navbar   -->
         @include('partials.nav')
 
