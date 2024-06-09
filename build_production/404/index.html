@@ -41,7 +41,7 @@
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=e97cfec21dbbbe5bbbf6c2bf09a9ee78">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=4ebe6fc8dade714d80f674f78f7e46a2">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -67,7 +67,83 @@
 
         <div class="">
              
-404! Sorry :(
+<div> 
+    <div>
+        <!-- navbar   -->
+        <div class="max-w-7xl mx-auto">
+    <div x-data="{ open: false }" class="relative overflow-hidden">
+        <div class="flex justify-between items-center px-10 py-4 md:py-8 md:px-20">
+            <div>
+                <a href="/">
+                    <img src="/assets/images/logo.png" width="170px" alt="">
+                </a>
+            </div>
+            <div class="hidden lg:block capitalize space-x-6">
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/">Home</a>
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
+            </div>
+            <div class="flex space-x-4">
+                <a href="https://app.youform.com/login" class="hidden lg:block bg-vivid-yellow border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                    Log In
+                </a>
+                <a href="https://app.youform.com/register" class="hidden lg:block bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                    Sign Up
+                </a>
+            </div>
+            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open">
+                <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <svg x-cloak x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>                  
+            </a>
+        </div>
+        <div x-show="open" x-cloak x-transition class="lg:hidden bg-coral border-y-2 border-black px-10 py-4">
+            <div class="flex items-center justify-around">
+                <div>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/">Home</a>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
+                </div>
+
+                <div class="flex items-center">
+                    <a href="https://app.youform.com/login" class="block lg:hidden bg-lavender-rose border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                        Log In
+                    </a>
+                    <a href="https://app.youform.com/register" class="hidden sm:block ml-4 lg:hidden bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+        <!-- herosection -->
+        <div class="relative max-w-7xl mx-auto mt-20 pb-20">
+            <div class="flex flex-col justify-center items-center px-10 md:px-20">
+                <h1 class="text-4xl font-bold">Error 404 :(</h1>
+
+                <p class="text-lg font-gray-600">
+                    Looks like 
+                    <span class="font-semibold text-lavender-rose">You</span> 
+                    haven't 
+                    <span class="font-semibold text-lavender-rose">Form</span>ed 
+                    a proper URL.
+                </p>
+
+                <p class="text-normal font-gray-500">
+                    Searching for a better form builder?
+                </p>
+
+                <div class="text-center">
+                    <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                        Create free account
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
 
 <div class="bg-black space-y-6 lg:space-y-0">
     <div class="space-y-10 lg:space-y-0 mx-auto max-w-6xl flex items-center flex-col lg:flex-row justify-between px-10 md:px-20 py-16">
