@@ -8,7 +8,7 @@
         @include('partials.nav')
 
         <!-- herosection -->
-        <div class="relative max-w-7xl mx-auto">
+        <div class="relative max-w-7xl mx-auto pt-24">
             <div class="flex flex-col min-h-60 justify-center items-center px-10 md:px-20">
                 <h1 class="text-4xl font-bold">Error 404 :(</h1>
 
