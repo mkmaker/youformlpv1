@@ -9,14 +9,14 @@
 
         <!-- herosection -->
         <div class="relative max-w-7xl mx-auto">
-            <div class="flex flex-col justify-center items-center px-10 md:px-20">
+            <div class="flex flex-col min-h-60 justify-center items-center px-10 md:px-20">
                 <h1 class="text-4xl font-bold">Error 404 :(</h1>
 
-                <p class="text-lg font-gray-600 my-4">
+                <p class="text-xl font-gray-600 my-4">
                     Looks like 
-                    <span class="font-semibold text-lavender-rose">You</span> 
+                    <span class="font-semibold text-coral">You</span> 
                     haven't 
-                    <span class="font-semibold text-lavender-rose">Form</span>ed 
+                    <span class="font-semibold text-coral">Form</span>ed 
                     a proper URL.
                 </p>
 
