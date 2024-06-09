@@ -9,7 +9,7 @@
 
         <!-- herosection -->
         <div class="relative max-w-7xl mx-auto pt-24">
-            <div class="flex flex-col min-h-60 justify-center items-center px-10 md:px-20">
+            <div class="flex flex-col min-h-60 justify-center text-center items-center px-10 md:px-20">
                 <h1 class="text-4xl font-bold">Error 404 :(</h1>
 
                 <p class="text-xl my-4">
@@ -34,7 +34,7 @@
                     Or fill out this sample Youform
                 </p>
 
-                <div class="w-full mt-4 mb-10 px-20">
+                <div class="w-full mt-4 mb-10 max-w-4xl">
                     <iframe src="https://app.youform.com/forms/2byfpx1j" loading="lazy" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe>
                 </div>
             </div>
