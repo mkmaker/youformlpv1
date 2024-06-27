@@ -12,11 +12,11 @@
         <div class="relative max-w-7xl mx-auto mt-20 pb-20">
             <div class="flex flex-col justify-center lg:grid grid-cols-5 items-center px-10 md:px-20">
                 <div class=" flex flex-col items-center lg:items-start col-span-3 lg:pr-16 xl:pr-20">
-                    <p class="text-center lg:text-left text-3xl  sm:text-5xl xl:text-6xl font-bold">
+                    <h1 class="text-center lg:text-left text-4xl sm:text-5xl xl:text-6xl font-bold leading-tight xl:leading-tight">
                         The most affordable Typeform alternative
-                    </p>
-                    <p class="text-center lg:text-left text-base sm:text-lg xl:text-xl font-medium mt-10">
-                        Youform is a form builder that provides UNLIMITED forms and responses for FREE.
+                    </h1>
+                    <p class="text-center lg:text-left text-base mt-6">
+                        Youform is a form builder that provides UNLIMITED forms and responses for FREE. You can add logic, custom domains, upload files, embed forms on your website, and much more 🤓
                     </p>
                     <div class="lg:flex lg:items-center space-x-6 mt-10 text-center">
                         <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
