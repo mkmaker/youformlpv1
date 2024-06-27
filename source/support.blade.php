@@ -13,7 +13,7 @@
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
                 <h1 class="text-4xl font-bold">Support</h1>
 
-                <div class="max-w-lg mx-auto mt-8 text-gray-700 pb-16 border-2 border-black p-10 rounded-xl mb-10">
+                <div class="max-w-4xl mx-auto mt-8 text-gray-700 pb-16 border-2 border-black p-10 rounded-xl mb-10">
                     <div class="drop-shadow-none">
                         <p class="mt-2">Hello there,</p>
 
