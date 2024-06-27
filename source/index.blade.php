@@ -9,7 +9,7 @@
         @include('partials.nav')
 
         <!-- herosection -->
-        <div class="relative max-w-7xl mx-auto mt-20 pb-20">
+        <div class="relative max-w-7xl mx-auto mt-10 pb-20">
             <div class="flex flex-col justify-center lg:grid grid-cols-5 items-center px-10 md:px-20">
                 <div class=" flex flex-col items-center lg:items-start col-span-3 lg:pr-16 xl:pr-20">
                     <h1 class="text-center lg:text-left text-4xl sm:text-5xl xl:text-6xl font-bold leading-tight xl:leading-tight">
@@ -22,7 +22,7 @@
                         <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                             Create free account
                         </a>
-                        <a href="https://app.youform.com/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline inline-block mx-auto mt-4 lg:mt-0">
+                        <a href="https://app.youform.com/forms/2byfpx1j" target="_blank" class="underline group transition-all hover:no-underline inline-block mx-auto mt-4 lg:hidden">
                             or, check out a sample form <span class="hidden group-hover:inline">👀</span>
                         </a>
                     </div>
@@ -36,8 +36,22 @@
                         </p>
                     </div>
                 </div>
-                <div class="pt-12 lg:pt-0 col-span-2 hidden lg:block">
-                    <img class="w-full m-auto" src="/assets/images/banner-gif.webp" alt="">
+                <div 
+                    x-data="{
+                        hovered: false,
+                    }" 
+                    x-cloak 
+                    @mouseover="hovered = true" 
+                    :class="{'rotate-2': !hovered, 'rotate-0': hovered}" 
+                    class="pt-16 lg:pt-0 col-span-2 hidden lg:block rounded-md transition-all rotate-2 relative bg-[url('/assets/images/embed-form-bg.png')] bg-cover bg-no-repeat">
+
+                    <img class="absolute inset-0 rounded-md w-full h-full" src="/assets/images/embed-form-bg.png" alt="">
+
+                    <img class="absolute -left-36 bottom-32 w-32 opacity-70" src="/assets/images/try-it-arrow.png" alt="">
+
+                    <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png" alt="">
+
+                    <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
                 </div>
             </div>
             <div class="pt-10">
@@ -126,7 +140,7 @@
                     <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
                         With Youform you can collect partial data as well before your users hit the submit button. You can download all your data from the dashboard.
                     </p>
-                    <a href="https://app.youform.com/register" class="-rotate-1 text-center mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                    <a href="https://app.youform.com/register" class="-rotate-1 text-center mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                         Create free account
                     </a>
                     <div class="text-sm pt-4 pl-4 font-semibold -rotate-1">
@@ -140,7 +154,7 @@
                     </div>
                 </div>
                 <div class="col-span-1">
-                    <img class="w-full m-auto rounded-xl" src="/assets/images/submissions-page.png" alt="">
+                    <img class="w-full m-auto rounded-xl border-2 border-black drop-shadow-6xl" src="/assets/images/youform-submissions.png" alt="">
                 </div>
             </div>
         </div>
