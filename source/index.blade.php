@@ -40,18 +40,30 @@
                     x-data="{
                         hovered: false,
                     }" 
-                    x-cloak 
-                    @mouseover="hovered = true" 
-                    :class="{'rotate-2': !hovered, 'rotate-0': hovered}" 
-                    class="pt-16 lg:pt-0 col-span-2 hidden lg:block rounded-md transition-all rotate-2 relative bg-[url('/assets/images/embed-form-bg.png')] bg-cover bg-no-repeat">
+                    x-cloak
+                    class="pt-16 lg:pt-0 col-span-2 hidden lg:block ">
 
-                    <img class="absolute inset-0 rounded-md w-full h-full" src="/assets/images/embed-form-bg.png" alt="">
+                    <div 
+                         
+                        @mouseover="hovered = true" 
+                        :class="{'rotate-2': !hovered, 'rotate-0': hovered}" 
+                        class="rounded-md transition-all rotate-2 relative bg-[url('/assets/images/embed-form-bg.png')] bg-cover bg-no-repeat">
 
-                    <img class="absolute -left-36 bottom-32 w-32 opacity-70" src="/assets/images/try-it-arrow.png" alt="">
+                        <img class="absolute inset-0 rounded-md w-full h-full" src="/assets/images/embed-form-bg.png" alt="">
 
-                    <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png" alt="">
+                        <img class="absolute -left-36 bottom-32 w-32 opacity-70" src="/assets/images/try-it-arrow.png" alt="">
 
-                    <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
+                        <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png" alt="">
+
+                        <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
+
+                    </div>
+
+                    <p :class="{'rotate-2': !hovered, 'rotate-0': hovered}" class="text-center">
+                        <a href="https://app.youform.com/forms/xrjcjyti" target="_blank" class="hidden xl:inline-block underline underline-offset-8 group transition-all hover:no-underline mx-auto mt-4">
+                            or click here to open this form in a new tab <span class="hidden group-hover:inline">&rarr;</span>
+                        </a>
+                    </p>
                 </div>
             </div>
             <div class="pt-10">
