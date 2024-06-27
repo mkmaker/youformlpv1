@@ -12,7 +12,7 @@
         <div class="relative max-w-7xl mx-auto mt-10 pb-20">
             <div class="flex flex-col justify-center lg:grid grid-cols-5 items-center px-10 md:px-20">
                 <div class=" flex flex-col items-center lg:items-start col-span-3 lg:pr-16 xl:pr-20">
-                    <h1 class="text-center lg:text-left text-4xl sm:text-5xl xl:text-6xl font-bold leading-tight xl:leading-tight">
+                    <h1 class="text-center lg:text-left text-4xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
                         The most affordable Typeform alternative
                     </h1>
                     <p class="text-center lg:text-left text-base mt-6">
