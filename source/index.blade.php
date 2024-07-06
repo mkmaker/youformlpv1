@@ -12,7 +12,7 @@
         <div class="relative max-w-7xl mx-auto mt-10 pb-20">
             <div class="flex flex-col justify-center lg:grid grid-cols-5 items-center px-10 md:px-20">
                 <div class=" flex flex-col items-center lg:items-start col-span-3 lg:pr-16 xl:pr-20">
-                    <h1 class="text-center lg:text-left text-4xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
+                    <h1 class="text-center lg:text-left text-3xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
                         The most affordable Typeform alternative
                     </h1>
                     <p class="text-center lg:text-left text-base mt-6">
@@ -43,6 +43,24 @@
                             <span>No credit card required</span>
                         </div>
                     </div>
+
+                    <div class="mt-6 lg:mt-12">
+                        <figure class="flex flex-auto flex-col justify-between pt-4 group text-center lg:text-left max-w-2xl">
+                            <blockquote class="text-gray-900">
+                              <p>“Youform is an absolute joy to use, i'd say more user friendly than Typeform, more intuitive.
+                                Will use it for all my things now.”</p>
+                            </blockquote>
+                            <a href="https://x.com/levelsio" target="_blank" class="mt-5 lg:flex items-center gap-x-6">
+                              <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto lg:mx-0" src="/assets/images/levelsio.jpg" alt="Pieter Levels Avatar">
+                              <div class="text-base mt-1 lg:mt-0">
+                                <div class="text-gray-900 group-hover:underline">Pieter Levels</div>
+                                <div class=" text-gray-700 text-xs">Founder Nomadlist and RemoteOK. 
+                                    <br>
+                                    400k+ Followers on Twitter</div>
+                              </div>
+                            </a>
+                        </figure>
+                    </div>
                 </div>
                 <div 
                     x-data="{
@@ -59,7 +77,7 @@
 
                         <img class="absolute inset-0 rounded-md w-full h-full" src="/assets/images/embed-form-bg.png" alt="">
 
-                        <img class="absolute -left-36 bottom-32 w-32 opacity-70" src="/assets/images/try-it-arrow.png" alt="">
+                        <img class="absolute -left-36 bottom-40 w-32 opacity-70" src="/assets/images/try-it-arrow.png" alt="">
 
                         <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png" alt="">
 
@@ -78,7 +96,25 @@
                 <img src="/assets/images/youform-builder.png" alt="">
             </div>
         </div>
+
+        <div class="mt-5 pb-2">
+            <figure class="flex flex-auto flex-col justify-between pt-4 group text-center max-w-2xl mx-auto px-4">
+                <blockquote class="text-gray-900 text-base lg:text-xl">
+                  <p>“We had the highest conversion with Youform compared to Typeform, Google Calendar and even the routing form in Calendly!”</p>
+                </blockquote>
+                <a href="https://www.linkedin.com/in/adamdanyal/" target="_blank" class="mt-5 flex items-center flex-col gap-x-6">
+                  <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" src="/assets/images/adam-danyal.jpeg" alt="Adam Danyal Avatar">
+                  <div class="text-base mt-1">
+                    <div class="text-gray-900 group-hover:underline">Adam Danyal</div>
+                    <div class=" text-gray-700 text-xs">Founder Leadership Club. 
+                        <br>
+                        2M Followers on LinkedIn</div>
+                  </div>
+                </a>
+            </figure>
+        </div>
     </div>
+    
     <div>
         <img class="-mt-2" src="/assets/images/banner-wave.png" alt="">
     </div>
