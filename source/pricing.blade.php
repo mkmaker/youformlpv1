@@ -146,7 +146,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     <p class="mt-10 text-center text-lg font-bold">
                         Supercharge your forms with Youform PRO that gives following features:
                     </p>
-                    <div class="text-center text-lg font-medium mt-10">
+                    <div class="text-center text-lg font-medium mt-10 relative">
                         <ul class="text-left space-y-2 pb-4">
                             <li class="flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
@@ -211,13 +211,30 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                 </span>
                             </li>
                         </ul>
+
+                        {{-- <div class="absolute -right-80 bg-white p-3 rounded-md border border-gray-700 max-w-sm">
+                            <h4 class="text-sm pb-3">Your face when you realise you have been paying $99+/month to Typeform for the same.</h4>
+                            <img src="/assets/images/surprised-pikachu.png" class="w-96 rounded-md" alt="Surprised Pikachu">
+                        </div> --}}
                     </div>
                     <p class="text-center text-lg sm:text-2xl xl:text-3xl font-medium mt-10">
                         The PRO plan is just $29/month
                     </p>
+
+                    <p class="text-center text-lg font-medium mt-4">
+                        Or $290/year (2 months FREE)
+                    </p>
                     
-                    <a href="https://app.youform.com/register" class="-rotate-1 mt-10 text-2xl bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
-                        Create free account
+                    <div class="mt-5 bg-white p-3 rounded-md border-black drop-shadow-3xl max-w-sm">
+                        <h4 class="pb-3 px-2 font-semibold text-center">Your face when you realise you have been paying $99+/month to Typeform for the same.</h4>
+                        <img src="/assets/images/surprised-pikachu.png" class="w-96 rounded-md" alt="Surprised Pikachu">
+                    </div>
+
+                    <a href="https://app.youform.com/register" class="mt-10 group text-2xl bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
+                        Create free account 
+                        <span class="group-hover:inline hidden">
+                            &rarr;
+                        </span>
                     </a>
                 </div>
             </div>
