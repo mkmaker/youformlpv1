@@ -255,9 +255,11 @@
                 </div>
                 <img class="pt-20" src="/assets/images/twitter-screenshot.png" alt="">
 
+                @include('partials.price-calculator')
+
                 <div>
                     <div class="mt-16">
-                        <h4 class="text-center text-2xl sm:text-4xl xl:text-5xl font-bold mb-8">
+                        <h4 class="text-center text-2xl sm:text-4xl xl:text-5xl font-bold mb-8 pt-10">
                             Even <em>Pieter Levels</em> recommends Youform
                         </h4>
                         

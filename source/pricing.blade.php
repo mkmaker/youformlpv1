@@ -16,112 +16,17 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
         <!-- herosection -->
         <div class="relative max-w-7xl mx-auto mt-20 pb-20">
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
-                <div class=" flex flex-col items-center col-span-3 lg:pr-16 xl:pr-20">
-                    <p class="text-center leading-snug text-3xl sm:leading-snug sm:text-5xl xl:leading-snug xl:text-6xl font-bold">
-                    <span class="text-orange-600">Youform is FREE to use</span>
+
+                <div class="flex flex-col items-center col-span-3 lg:pr-16 xl:pr-20">
+                    <h1 class="text-center max-w-4xl leading-snug text-3xl sm:leading-snug sm:text-4xl xl:leading-snug xl:text-5xl font-bold">
+                        <span class="text-orange-600">Youform is FREE to use</span>
                         for unlimited forms and unlimited responses
-                        <br>
+                    </h1>
+                    <p class="text-center text-lg mt-4">
+                        If you need advanced features, you can upgrade to PRO for $29/month
                     </p>
-                    <div class="text-center text-sm mt-10 md:grid md:grid-cols-3 gap-2">
-                        <div>
-                            <ul class="text-left space-y-2 pb-4">
-                                <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>                                  
-                                    <span class="pl-2">
-                                        Unlimited forms
-                                    </span>
-                                </li>
-    
-                                <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>                                  
-                                    <span class="pl-2">
-                                        Unlimited submissions
-                                    </span>
-                                </li>
-    
-                                <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>                                  
-                                    <span class="pl-2">
-                                        Embed forms on unlimited websites and pages
-                                    </span>
-                                </li>
-    
-                            </ul>
-                        </div>
-
-                        <div>
-                            <ul class="text-left space-y-2 pb-4">
-    
-                                <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>                                  
-                                    <span class="pl-2">
-                                        File upload (up to 10 MB per file)
-                                    </span>
-                                </li>
-    
-                                <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>                                  
-                                    <span class="pl-2">
-                                        Add image to forms
-                                    </span>
-                                </li>
-    
-                                <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>                                  
-                                    <span class="pl-2">
-                                        Email notifications to you and your respondents
-                                    </span>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div>
-
-                            <ul class="text-left space-y-2 pb-4">
-    
-                                <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>                                  
-                                    <span class="pl-2">
-                                        Webhooks
-                                    </span>
-                                </li>
-    
-                                <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>                                  
-                                    <span class="pl-2">
-                                        CSV download of completed submissions
-                                    </span>
-                                </li>
-    
-                                <li class="flex items-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-shrink-0">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                                    </svg>                                  
-                                    <span class="pl-2">
-                                        Integrate with 6000+ apps like Google Sheet, Slack etc
-                                    </span>
-                                </li>
-                            </ul>
-
-                        </div>
-                    </div>
-                    <a href="https://app.youform.com/register" class="rotate-1 mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                    
+                    <a href="https://app.youform.com/register" class="mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                         Create free account
                     </a>
                 </div>
@@ -130,12 +35,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
     </div>
     <div class="relative">
         <img class="-mt-1" src="/assets/images/banner-wave.png" alt="">
-        <img class="w-1/2 sm:w-1/3 lg:w-1/4 absolute -top-2 left-32" src="/assets/images/so-affordable.png" alt="">
+
+        <img class="w-1/2 sm:w-1/3 lg:w-1/4 absolute -top-2 left-32" src="/assets/images/so-affordable.png" alt="Youform is FREE to use">
     </div>
 </div>
 
 <!-- 1st feature -->
-<div>
+{{-- <div>
     <div class="bg-vivid-yellow">
         <div class="relative max-w-7xl mx-auto -mt-10 md:-mt-16">
             <div class="pt-40 pb-6 px-10 md:px-20">
@@ -247,11 +153,6 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                                 </span>
                             </li>
                         </ul>
-
-                        {{-- <div class="absolute -right-80 bg-white p-3 rounded-md border border-gray-700 max-w-sm">
-                            <h4 class="text-sm pb-3">Your face when you realise you have been paying $99+/month to Typeform for the same.</h4>
-                            <img src="/assets/images/surprised-pikachu.png" class="w-96 rounded-md" alt="Surprised Pikachu">
-                        </div> --}}
                     </div>
                     <p class="text-center text-lg sm:text-2xl xl:text-3xl font-medium mt-10">
                         The PRO plan is just $29/month
@@ -277,11 +178,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
         </div>
     </div>
     <img class="-mt-6" src="/assets/images/yellow-wave-down.png" alt="">
-</div>    
+</div>     --}}
 
 <div class="-mt-10">
-    <div class="bg-amber-50 pt-20">
-        <h2 class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold mb-6 pt-10">
+
+    <div class="bg-amber-50 pt-20"> 
+
+        <h2 class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold mb-6 pt-20">
             Compare Youform Plans
         </h2>
         <p class="text-center font-medium">
@@ -833,6 +736,10 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                     </tr>
                 </tbody>
             </table>
+        </div>
+
+        <div class="text-center">
+            @include('partials.price-calculator')
         </div>
 
         <div class="text-center pt-2">
