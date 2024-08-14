@@ -1,4 +1,4 @@
-<div x-data="{ submissions: 100, needPro: false }" class="my-16">
+<div x-data="{ submissions: 5000, needPro: false }" class="my-16">
     <h4 class="text-xl sm:text-3xl xl:text-4xl font-extrabold pt-10">
         Youform vs Typeform pricing
     </h4>
