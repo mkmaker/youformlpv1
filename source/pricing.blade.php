@@ -187,7 +187,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
         <h2 class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold mb-6 pt-20">
             Compare Youform Plans
         </h2>
-        <p class="text-center font-medium">
+        <p class="text-center font-medium px-6">
             Free or Pro? The choice is yours — one's a snack, the other's a feast!
         </p>
         <div class="overflow-x-auto pt-10 max-w-4xl mx-auto pb-10 px-3 md:px-20">
@@ -738,7 +738,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
             </table>
         </div>
 
-        <div class="text-center">
+        <div class="text-center px-6">
             @include('partials.price-calculator')
         </div>
 
