@@ -17,7 +17,8 @@
         getTypeformPricing(value) {
             value = parseInt(value);
             for (let key in this.typeformPricing) {
-                console.log('price', value, key, value <= key);
+                if(value <= 10 && this.needPro) return 29;
+
                 if (value <= key) return this.typeformPricing[key];
             }
             return this.typeformPricing[50000];
@@ -32,6 +33,8 @@
 
             this.$watch('needPro', needPro => {
                 this.youformCost = needPro ? 29 : 0;
+
+                this.typeformCost = this.getTypeformPricing(this.submissions);
 
                 this.savings = this.typeformCost - this.youformCost;
             });
