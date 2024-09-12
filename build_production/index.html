@@ -119,10 +119,13 @@
         </div>  
     </div>
 </div>
-        <!-- herosection -->
+        <!-- herosection --> 
         <div class="relative max-w-7xl mx-auto mt-10 pb-20">
             <div class="flex flex-col justify-center lg:grid grid-cols-5 items-center px-10 md:px-20">
                 <div class=" flex flex-col items-center lg:items-start col-span-3 lg:pr-16 xl:pr-20">
+                    <span x-data x-tooltip.raw="This is a celebration, not a button!" class="inline-block cursor-pointer bg-pale-violet text-black text-xs font-semibold px-4 py-1.5 rounded-full">
+                        Celebrating 10,000+ users 🎉 
+                    </span>
                     <h1 class="text-center lg:text-left text-3xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
                         The most affordable Typeform alternative
                     </h1>
@@ -432,23 +435,6 @@
 
     <div class="flex justify-around mt-10 max-w-md mx-auto">
         <div class="text-center">
-            <h3 class="text-3xl font-bold">Typeform</h3>
-            <div class="mt-4 flex items-center text-4xl space-x-3 justify-center">
-                <div class="">
-                    $<span x-cloak x-text="typeformCost"></span>
-                </div>
-                <div class="">
-                    <span x-cloak x-show="submissions <= 10">😊</span>
-                    <span x-cloak x-show="submissions > 10 && submissions <= 100">🙂</span>
-                    <span x-cloak x-show="submissions > 100 && submissions <= 1000">😐</span>
-                    <span x-cloak x-show="submissions > 1000 && submissions <= 10000">😟</span>
-                    <span x-cloak x-show="submissions > 10000 && submissions <= 15000">😰</span>
-                    <span x-cloak x-show="submissions > 15000 && submissions <= 25000">😩</span>
-                    <span x-cloak x-show="submissions > 25000 && submissions <= 50000">😭</span>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
             <h3 class="text-3xl font-bold">Youform</h3>
             <div class="mt-4 flex items-center text-4xl space-x-3 justify-center">
                 <div>
@@ -462,6 +448,23 @@
                     <span x-cloak x-show="submissions > 10000 && submissions <= 15000">😂</span>
                     <span x-cloak x-show="submissions > 15000 && submissions <= 25000">🤣</span>
                     <span x-cloak x-show="submissions > 25000 && submissions <= 50000">🥳</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <h3 class="text-3xl font-bold">Typeform</h3>
+            <div class="mt-4 flex items-center text-4xl space-x-3 justify-center">
+                <div class="">
+                    $<span x-cloak x-text="typeformCost"></span>
+                </div>
+                <div class="">
+                    <span x-cloak x-show="submissions <= 10">😊</span>
+                    <span x-cloak x-show="submissions > 10 && submissions <= 100">🙂</span>
+                    <span x-cloak x-show="submissions > 100 && submissions <= 1000">😐</span>
+                    <span x-cloak x-show="submissions > 1000 && submissions <= 10000">😟</span>
+                    <span x-cloak x-show="submissions > 10000 && submissions <= 15000">😰</span>
+                    <span x-cloak x-show="submissions > 15000 && submissions <= 25000">😩</span>
+                    <span x-cloak x-show="submissions > 25000 && submissions <= 50000">😭</span>
                 </div>
             </div>
         </div>

@@ -774,23 +774,6 @@
 
     <div class="flex justify-around mt-10 max-w-md mx-auto">
         <div class="text-center">
-            <h3 class="text-3xl font-bold">Typeform</h3>
-            <div class="mt-4 flex items-center text-4xl space-x-3 justify-center">
-                <div class="">
-                    $<span x-cloak x-text="typeformCost"></span>
-                </div>
-                <div class="">
-                    <span x-cloak x-show="submissions <= 10">😊</span>
-                    <span x-cloak x-show="submissions > 10 && submissions <= 100">🙂</span>
-                    <span x-cloak x-show="submissions > 100 && submissions <= 1000">😐</span>
-                    <span x-cloak x-show="submissions > 1000 && submissions <= 10000">😟</span>
-                    <span x-cloak x-show="submissions > 10000 && submissions <= 15000">😰</span>
-                    <span x-cloak x-show="submissions > 15000 && submissions <= 25000">😩</span>
-                    <span x-cloak x-show="submissions > 25000 && submissions <= 50000">😭</span>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
             <h3 class="text-3xl font-bold">Youform</h3>
             <div class="mt-4 flex items-center text-4xl space-x-3 justify-center">
                 <div>
@@ -804,6 +787,23 @@
                     <span x-cloak x-show="submissions > 10000 && submissions <= 15000">😂</span>
                     <span x-cloak x-show="submissions > 15000 && submissions <= 25000">🤣</span>
                     <span x-cloak x-show="submissions > 25000 && submissions <= 50000">🥳</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <h3 class="text-3xl font-bold">Typeform</h3>
+            <div class="mt-4 flex items-center text-4xl space-x-3 justify-center">
+                <div class="">
+                    $<span x-cloak x-text="typeformCost"></span>
+                </div>
+                <div class="">
+                    <span x-cloak x-show="submissions <= 10">😊</span>
+                    <span x-cloak x-show="submissions > 10 && submissions <= 100">🙂</span>
+                    <span x-cloak x-show="submissions > 100 && submissions <= 1000">😐</span>
+                    <span x-cloak x-show="submissions > 1000 && submissions <= 10000">😟</span>
+                    <span x-cloak x-show="submissions > 10000 && submissions <= 15000">😰</span>
+                    <span x-cloak x-show="submissions > 15000 && submissions <= 25000">😩</span>
+                    <span x-cloak x-show="submissions > 25000 && submissions <= 50000">😭</span>
                 </div>
             </div>
         </div>
