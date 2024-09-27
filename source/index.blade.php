@@ -164,7 +164,7 @@
 <!-- 2nd feature -->
 <div class="bg-amber-50 border-t-4 border-black">
     <div class="relative max-w-7xl mx-auto -mt-16 pb-20">
-        <div class="flex flex-col justify-center lg:grid grid-cols-2 items-center pt-48 pb-32 px-10 md:px-20">
+        <div class="flex flex-col justify-center lg:grid grid-cols-2 items-center pt-48 pb-10 px-10 md:px-20">
             <div class="col-span-1 lg:pr-16 xl:pr-20  pb-14 lg:pb-0">
                 <img class="w-4/5 lg:w-4/5 m-auto " src="/assets/images/so-easy.png" alt="">
             </div>
