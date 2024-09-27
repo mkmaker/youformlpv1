@@ -198,6 +198,24 @@
             </div>
             
         </div>
+
+        <div class="mt-5 pb-16 pt-4 lg:pt-12">
+            <figure class="flex flex-auto flex-col justify-between pt-4 group text-center max-w-2xl mx-auto px-4">
+                <blockquote class="text-gray-900 text-base lg:text-xl">
+                  <p>“Holy cow this is way better than Typeform!”</p>
+                </blockquote>
+                <a href="https://x.com/agazdecki" target="_blank" class="mt-5 flex items-center flex-col gap-x-6">
+                  <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" src="/assets/images/andrew-gazdecki.jpg" alt="Andrew Gazdecki Avatar">
+                  <div class="text-base mt-1">
+                    <div class="text-gray-900 group-hover:underline">Andrew Gazdecki</div>
+                    <div class=" text-gray-700 text-xs">Founder &amp; CEO of Acquire.com 
+                        <br>
+                        250k Followers on Twitter
+                    </div>
+                  </div>
+                </a>
+            </figure>
+        </div>
     </div>
 </div>
 
