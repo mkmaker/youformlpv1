@@ -13,7 +13,7 @@
             <div class="flex flex-col justify-center lg:grid grid-cols-5 items-center px-10 md:px-20">
                 <div class=" flex flex-col items-center lg:items-start col-span-3 lg:pr-16 xl:pr-20">
                     <span x-data x-tooltip.raw="This is a celebration, not a button!" class="inline-block cursor-pointer bg-pale-violet text-black text-xs font-semibold px-4 py-1.5 rounded-full mb-3 lg:mb-2">
-                        Celebrating 10,000+ users 🎉 
+                        Celebrating 15,000+ users 🎉 
                     </span>
                     <h1 class="text-center lg:text-left text-3xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
                         The most affordable Typeform alternative
