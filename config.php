@@ -63,6 +63,7 @@ return [
                                     'title' => $template->template_title,
                                     'slug' => $template->template_slug,
                                     'image' => $template->template_image,
+                                    'description' => $template->template_description,
                                 ];
                             })->toArray(),
                         ];
@@ -93,6 +94,7 @@ return [
                             'slug' => $template->template_slug,
                             'image' => $template->image,
                             'title' => $template->title,
+                            'description' => $template->template_description,
                         ];
                     })->toArray();
 
@@ -121,6 +123,7 @@ return [
                             'slug' => $template->template_slug,
                             'image' => $template->image,
                             'title' => $template->title,
+                            'description' => $template->template_description,
                         ];
                     })->toArray();
 
@@ -149,6 +152,7 @@ return [
                             'slug' => $template->template_slug,
                             'image' => $template->image,
                             'title' => $template->title,
+                            'description' => $template->template_description,
                         ];
                     })->toArray();
 
