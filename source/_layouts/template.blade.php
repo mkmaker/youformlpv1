@@ -74,7 +74,7 @@
             </button>
         </div>
 
-        <div class="mt-10 relative mx-auto rounded-md shadow-md" :class="{'w-96': formDisplayMode === 'mobile', 'w-full': formDisplayMode === 'desktop'}">
+        <div class="mt-10 relative mx-auto rounded-md shadow-md transition-[width] transition-700 ease-linear" :class="{'w-96': formDisplayMode === 'mobile', 'w-full': formDisplayMode === 'desktop'}">
             {{-- <img class="hidden xl:block absolute right-10 -top-28 w-32 opacity-70 rotate-45" src="/assets/images/try-it-arrow.png" alt=""> --}}
 
             <iframe src="{{$page->appUrl}}/forms/{{$page->slug}}" loading="lazy" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0"></iframe>
