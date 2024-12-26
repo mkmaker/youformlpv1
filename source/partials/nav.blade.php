@@ -8,6 +8,7 @@
             </div>
             <div class="hidden lg:block capitalize space-x-6">
                 <a class="{{ $page->current('') }} text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/">Home</a>
+                <a class="{{ $page->current('templates') }} text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/templates">Templates</a>
                 <a class="{{ $page->current('pricing') }} text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
             </div>
             <div class="flex space-x-4">
