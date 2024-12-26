@@ -31,10 +31,12 @@ description: Explore a variety of customizable form templates designed to fit ev
                 {{$page->str_plural(ucwords($template_type))}}
             </h2>
 
-            <span>
-                <a href="/templates/c/{{$page->str_plural($template_type)}}" class="hover:underline">View All {{ucwords($template_type)}} Templates</a>
+            <div>
+                <a href="/templates/c/{{$page->str_plural($template_type)}}" class="hover:underline">
+                        View All <span class="hidden sm:inline">{{ucwords($template_type)}} Templates</span>
+                </a>
                 &rarr;
-            </span>
+            </div>
         </div>
 
         <div>

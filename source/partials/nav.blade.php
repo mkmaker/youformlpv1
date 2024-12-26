@@ -31,7 +31,7 @@
         <div x-show="open" x-cloak x-transition class="lg:hidden bg-coral border-y-2 border-black px-10 py-4">
             <div class="flex items-center justify-around">
                 <div>
-                    <a class="{{ $page->current('') }} text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/">Home</a>
+                    <a class="{{ $page->current('templates') }} text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/templates">Templates</a>
                     <a class="{{ $page->current('pricing') }} text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
                 </div>
 

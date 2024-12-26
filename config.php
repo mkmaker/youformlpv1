@@ -32,6 +32,7 @@ return [
                         'title' => $template->template_title,
                         'template_slug' => $template->template_slug,
                         'description' => $template->template_description,
+                        'image' => $template->template_image,
                         'content' => 'Description',
                     ];
                 });
@@ -43,10 +44,11 @@ return [
             'items' => function ($config) {
                  $types = json_decode(file_get_contents($config['appUrl'].'/api/types'));
   
-                 return collect($types)->map(function ($type_obj) {
+                 return collect($types)->map(function ($type_obj) use($config) {
                     
                     $data = [
                         'title' => $type_obj->title,
+                        'description' => $config['descriptions'][$type_obj->type],
                         'type' => $type_obj->type,
                         'type_singular' => Str::singular($type_obj->type),
                         'type_slug' => $type_obj->type_slug,
@@ -76,10 +78,11 @@ return [
             'items' => function ($config) {
                  $categories = json_decode(file_get_contents($config['appUrl'].'/api/categories?type=form&with=templates'));
   
-                 return collect($categories)->map(function ($category_obj) {
+                 return collect($categories)->map(function ($category_obj) use($config) {
                     
                     $data = [
-                        'title' => $category_obj->title,
+                        'title' => ucwords($category_obj->title),
+                        'description' => $config['descriptions']['categories']['form'][$category_obj->name ?? 'Other'],
                         'type' => 'form',
                         'name' => $category_obj->name,
                         'category_slug' => $category_obj->slug,
@@ -103,10 +106,11 @@ return [
             'items' => function ($config) {
                  $categories = json_decode(file_get_contents($config['appUrl'].'/api/categories?type=survey&with=templates'));
   
-                 return collect($categories)->map(function ($category_obj) {
+                 return collect($categories)->map(function ($category_obj) use($config) {
                     
                     $data = [
-                        'title' => $category_obj->title,
+                        'title' => ucwords($category_obj->title),
+                        'description' => $config['descriptions']['categories']['survey'][$category_obj->name ?? 'Other'],
                         'type' => 'survey',
                         'name' => $category_obj->name,
                         'category_slug' => $category_obj->slug,
@@ -130,10 +134,11 @@ return [
             'items' => function ($config) { 
                  $categories = json_decode(file_get_contents($config['appUrl'].'/api/categories?type=quiz&with=templates'));
   
-                 return collect($categories)->map(function ($category_obj) {
+                 return collect($categories)->map(function ($category_obj) use($config) {
                     
                     $data = [
-                        'title' => $category_obj->title,
+                        'title' => ucwords($category_obj->title),
+                        'description' => $config['descriptions']['categories']['quiz'][$category_obj->name ?? 'Other'],
                         'type' => 'quiz',
                         'name' => $category_obj->name,
                         'category_slug' => $category_obj->slug,

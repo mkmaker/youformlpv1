@@ -29,14 +29,22 @@
         <meta property="og:url" content="{{ $page->getUrl() }}">
         <meta property="og:title" content="{{ $page->title }}">
         <meta property="og:description" content="{{ $page->description }}">
-        <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/youform-builder.png">
+        @if($page->image)
+            <meta property="og:image" content="{{ $page->image }}">
+        @else
+            <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/youform-builder.png">
+        @endif
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="{{ $page->getUrl() }}">
         <meta property="twitter:title" content="{{ $page->title }}">
         <meta property="twitter:description" content="{{ $page->description }}">
-        <meta property="twitter:image" content="{{ $page->baseUrl }}/assets/images/youform-builder.png">
+        @if($page->image)
+            <meta property="twitter:image" content="{{ $page->image }}">
+        @else
+            <meta property="twitter:image" content="{{ $page->baseUrl }}/assets/images/youform-builder.png">
+        @endif
 
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>

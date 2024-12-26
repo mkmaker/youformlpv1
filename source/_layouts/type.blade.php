@@ -41,7 +41,7 @@
                 {{$category['name']}} {{$page->type_singular}} Templates
             </h2>
 
-            <span>
+            <span class="flex-shrink-0">
                 <a href="/templates/c/{{$page->type_slug}}/{{$category['slug']}}" class="hover:underline">See more</a>
                 &rarr; 
             </span>
