@@ -60,7 +60,7 @@
                         </p>
 
                         <p class="mt-2">
-                            If you have any questions, you can reach out to me directly at davis@youform.io 🙂
+                            If you have any questions, you can reach out to me directly at davis@youform.com 🙂
                         </p>
 
                         <div class="mt-10 flex items-center justify-between space-x-4">

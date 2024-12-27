@@ -26,7 +26,7 @@
                         </p>
 
                         <p class="mt-2">
-                            Feel free to contact us at davis@youform.io, or fill out the form below (yes, it's an embedded Youform 🤓):
+                            Feel free to contact us at davis@youform.com, or fill out the form below (yes, it's an embedded Youform 🤓):
                         </p>
                     </div>
 
