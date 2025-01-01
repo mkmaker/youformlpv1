@@ -29,6 +29,7 @@
                             or, check out a sample form <span class="hidden group-hover:inline">👀</span>
                         </a>
                     </div>
+                    @include('_partials.have-typeform-url-cta')
                     <div class="text-sm pt-6 font-semibold sm:flex items-center sm:space-x-4">
                         <div class="flex items-center space-x-1">
                             
@@ -303,6 +304,10 @@
                         <a href="https://app.youform.com/forms/xrjcjyti" target="_blank" class="underline group transition-all underline-offset-8 hover:no-underline hover:font-semibold inline-block mx-auto mt-4">
                             or, check out a sample form <span class="hidden group-hover:inline">👀</span>
                         </a>
+                    </div>
+
+                    <div class="flex items-center justify-center">
+                        @include('_partials.have-typeform-url-cta')
                     </div>
 
                     <div class="text-sm pt-8 font-semibold sm:flex items-center justify-center sm:space-x-4 mx-auto">

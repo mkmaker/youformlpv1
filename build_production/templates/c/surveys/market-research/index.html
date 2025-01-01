@@ -41,7 +41,7 @@
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=0771dc22f42a00fd41a300f22f557519">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=17a0db4a9f6300eafa0f1adbef5f9c0e">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -401,6 +401,228 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
+        <div x-data="{
+        show: false, 
+        confirm_id: '',
+        title: '',
+        body: '',
+        confirmBtnText: '',
+        confirmBtnColor: 'red',
+        cancelBtnText: 'Cancel',
+    }" @keydown.escape.window="show = false" @keydown.enter.window="setTimeout(() => {show = false;}, 100)
+        $dispatch('confirm-close', {
+            confirm_id: confirm_id,
+            confirm: true
+        });" x-show="show" @confirm-show.window="show = true;
+        confirm_id = $event.detail.confirm_id;
+        title = $event.detail.title;
+        body = $event.detail.body;
+        confirmBtnText = $event.detail.confirm_text ? $event.detail.confirm_text : 'Ok';
+        confirmBtnColor = $event.detail.danger ? 'bg-red-600 hover:bg-red-700' : 'bg-blue-600 hover:bg-blue-700';
+        cancelBtnText = $event.detail.cancel_text ? $event.detail.cancel_text : 'Cancel';" style="display: none"
+  class="fixed inset-0 z-50 overflow-y-auto">
+    <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div
+        x-data
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0" 
+        
+        class="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div class="absolute inset-0 bg-gray-800 opacity-80"></div>
+      </div>
+  
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+      <div
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        class="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            
+            <div class="w-full mt-3 text-center sm:mt-0 sm:mx-4 sm:text-left">
+              <h3 class="text-lg font-medium leading-6 text-gray-900" id="modal-headline">
+                <span x-text="title"></span>
+              </h3>
+              <div class="mt-2">
+                <p class="text-sm text-gray-500">
+                  <span x-text="body"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 py-3 bg-gray-50 sm:px-6 sm:flex sm:flex-row-reverse">
+          <button
+            @click="
+                $dispatch('confirm-close', {
+                    confirm_id: confirm_id,
+                    confirm: true
+                });
+                show = false;
+            " 
+            type="button" :class="confirmBtnColor" class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
+            x-text="confirmBtnText"
+            >
+        </button>
+        <button 
+            @click="
+                $dispatch('confirm-close', {
+                    confirm_id: confirm_id,
+                    confirm: false
+                });
+                show = false;
+            " 
+            type="button" 
+            x-text="cancelBtnText" 
+            class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+        </button>
+        </div>
+      </div>
+    </div>
+</div>
+        <div x-data="{
+        show: false, 
+        shiftPressed: false,
+        prompt_id: '',
+        title: '',
+        promptText: '',
+        inputType: '',
+        inputSubtype: 'text',
+        promptBtnText: '',
+        promptBtnColor: 'gray',
+        placeholder: '',
+    }" @keydown.escape.window="show = false" @keydown.enter.window="if(this.inputType == 'text' || shiftPressed) {
+            setTimeout(() => {show = false;}, 100)
+            $dispatch('prompt-close', {
+                prompt_id: prompt_id,
+                prompt_text: promptText
+            });
+        }" @keydown.shift="shiftPressed = true" @keyup.shift="shiftPressed = false" x-show="show" @prompt-show.window="show = true;
+        prompt_id = $event.detail.prompt_id;
+        title = $event.detail.title;
+        promptText = $event.detail.prompt_text;
+        inputType = $event.detail.input_type;
+        inputSubtype = $event.detail.input_subtype ? $event.detail.input_subtype : 'text';
+        promptBtnText = $event.detail.prompt_btn_text ? $event.detail.prompt_btn_text : 'Ok';
+        promptBtnColor = $event.detail.danger ? 'bg-red-600 hover:bg-red-700' : 'bg-gray-700 hover:bg-gray-800';
+        placeholder = $event.detail.placeholder ? $event.detail.placeholder : '';
+
+        setTimeout(() => {
+            if(inputType == 'text') $refs.text.focus();
+            else $refs.textarea.focus();
+        }, 100);" style="display: none"
+  class="fixed inset-0 z-50 overflow-y-auto">
+    <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div
+        x-data
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0" 
+        
+        class="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div class="absolute inset-0 bg-gray-800 opacity-80"></div>
+      </div>
+  
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+      <div
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        class="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            
+            <div class="w-full mt-3 text-center sm:mt-0 sm:mx-4 sm:text-left">
+              <h3 class="text-lg font-medium leading-6 text-gray-900" id="modal-headline">
+                <span x-text="title"></span>
+              </h3>
+              <div class="mt-2">
+                <p class="text-sm text-gray-500">
+                  <template x-if="inputType == 'text' && inputSubtype == 'text'">
+            <input 
+                name="prompt-text" 
+                @keydown.enter="
+                    $dispatch('prompt-close', {
+                        prompt_id: prompt_id,
+                        prompt_text: promptText
+                    });
+                    show = false;
+                " 
+                :placeholder="placeholder" 
+                x-ref="text" type="text" x-model="promptText" class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+        </template>
+
+        <template x-if="inputType == 'text' && inputSubtype == 'password'">
+            <input 
+                @keydown.enter="
+                    $dispatch('prompt-close', {
+                        prompt_id: prompt_id,
+                        prompt_text: promptText
+                    });
+                    show = false;
+                " 
+                x-ref="text" type="password" x-model="promptText" 
+                :placeholder="placeholder" 
+                class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+        </template>
+
+        <template x-if="inputType == 'textarea'">
+            <textarea 
+                rows="3"
+                x-ref="textarea" 
+                x-model="promptText"
+                class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+            </textarea>
+        </template>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 py-3 bg-gray-50 sm:px-6 sm:flex sm:flex-row-reverse">
+          <button
+            @click="
+                $dispatch('prompt-close', {
+                    prompt_id: prompt_id,
+                    prompt_text: promptText
+                });
+                show = false;
+            " 
+            type="button" :class="promptBtnColor" class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:ml-3 sm:w-auto sm:text-sm"
+            x-text="promptBtnText"
+            >
+        </button>
+        <button 
+            @click="
+                $dispatch('prompt-close', {
+                    prompt_id: prompt_id,
+                    prompt_text: null
+                });
+                show = false;
+            " 
+            type="button" class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+            Cancel
+        </button>
+        </div>
+      </div>
     </div>
 </div>        
     </body>

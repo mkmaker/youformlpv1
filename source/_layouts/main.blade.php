@@ -138,6 +138,10 @@
         </div>
 
         @include('partials.notify')
+
+        <x-confirm />
+
+        <x-prompt />
         
     </body>
 </html>
