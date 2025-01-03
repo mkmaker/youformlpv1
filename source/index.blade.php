@@ -99,7 +99,7 @@
                 <img src="/assets/images/youform-builder-new.png" alt="Youform Builder">
             </div> --}}
 
-            <div class="pt-32 relative w-full overflow-hidden pl-10">
+            <div class="pt-20 md:pt-32 relative w-full overflow-hidden pl-10">
                 <img 
                     src="/assets/images/youform-builder-new.png" 
                     alt="Youform Builder" 
