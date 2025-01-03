@@ -95,12 +95,21 @@
                     </p>
                 </div>
             </div>
-            <div class="pt-10">
-                <img src="/assets/images/youform-builder.png" alt="">
+            {{-- <div class="pt-10">
+                <img src="/assets/images/youform-builder-new.png" alt="Youform Builder">
+            </div> --}}
+
+            <div class="pt-32 relative w-full overflow-hidden pl-10">
+                <img 
+                    src="/assets/images/youform-builder-new.png" 
+                    alt="Youform Builder" 
+                    class="w-full h-auto object-cover object-left" 
+                    style="min-height: 600px"
+                >
             </div>
         </div>
 
-        <div class="mt-5 pb-2">
+        <div class="mt-3 pb-2">
             <figure class="flex flex-auto flex-col justify-between pt-4 group text-center max-w-2xl mx-auto px-4">
                 <blockquote class="text-gray-900 text-base lg:text-xl">
                   <p>“We had the highest conversion with Youform compared to Typeform, Google Calendar and even the routing form in Calendly!”</p>

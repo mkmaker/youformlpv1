@@ -7,6 +7,8 @@
             handlePromptClose() {
                 if(this.$event.detail.prompt_id == this.prompt_id && this.$event.detail.prompt_text) {
                     let typeform_url = this.$event.detail.prompt_text;
+                    const urlWithoutParams = typeform_url.split('?')[0];
+                    typeform_url = urlWithoutParams;
                     if(! this.isValidTypeformUrl(typeform_url)) {
                         $dispatch('notify', {
                             type: 'error',
