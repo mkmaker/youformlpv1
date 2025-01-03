@@ -99,8 +99,18 @@
                 <img src="/assets/images/youform-builder-new.png" alt="Youform Builder">
             </div> --}}
 
-            <div class="pt-20 md:pt-32 relative w-full overflow-hidden pl-10">
+            <div 
+                x-data="{
+                    handleClick() {
+                        $dispatch('notify', {
+                            type: 'error',
+                            message: 'LOL! You need to login and go to builder to try this.'
+                        })
+                    }
+                }"
+                class="pt-20 md:pt-32 relative w-full overflow-hidden pl-2">
                 <img 
+                    @dblclick="handleClick" 
                     src="/assets/images/youform-builder-new.png" 
                     alt="Youform Builder" 
                     class="w-full h-auto object-cover object-left" 

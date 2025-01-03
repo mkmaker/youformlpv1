@@ -41,7 +41,7 @@
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=653ca8f703381e4cc7911c40b615fab2">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=08e9d3513b505f65ac04751dcb52009f">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -253,8 +253,18 @@
             </div>
             
 
-            <div class="pt-20 md:pt-32 relative w-full overflow-hidden pl-10">
+            <div 
+                x-data="{
+                    handleClick() {
+                        $dispatch('notify', {
+                            type: 'error',
+                            message: 'LOL! You need to login and go to builder to try this.'
+                        })
+                    }
+                }"
+                class="pt-20 md:pt-32 relative w-full overflow-hidden pl-2">
                 <img 
+                    @dblclick="handleClick" 
                     src="/assets/images/youform-builder-new.png" 
                     alt="Youform Builder" 
                     class="w-full h-auto object-cover object-left" 
