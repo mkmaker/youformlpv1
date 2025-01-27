@@ -166,19 +166,19 @@ return [
             [
                 'title' => 'Testimonial Form',
                 'description' => 'Gather authentic customer testimonials effortlessly with this customizable form designed for impactful feedback collection.',
-                'image' => '/assets/images/testimonial-form.png',
+                'image' => 'https://files.youform.com/templates/9e0bbb5d-5a89-4e50-95da-8aeaaf18c59d.png',
                 'slug' => 'testimonial-form-template'
             ],
             [
                 'title' => 'Client Intake Form',
                 'description' => 'Streamline onboarding with this Client Intake Form, designed to collect essential client details quickly and efficiently.',
-                'image' => '/assets/images/client-intake-form.png',
+                'image' => 'https://files.youform.com/templates/2c3b17aa-afac-4e5d-8835-52174539bebe.png',
                 'slug' => 'client-intake-form-template'
             ],
             [
                 'title' => 'Lead Capture Form',
                 'description' => 'Effortlessly gather potential customer details with this Lead Capture Form, designed to maximize conversions and grow your business.',
-                'image' => '/assets/images/lead-capture-form.png',
+                'image' => 'https://files.youform.com/templates/e659fbda-757f-422f-8c2b-e01244a6fb3f.png',
                 'slug' => 'lead-capture-form-template'
             ]
         ],
@@ -186,19 +186,19 @@ return [
             [
                 'title' => 'Market Research Survey',
                 'description' => 'Gather valuable insights with this Market Research Survey, designed to understand your audience and drive informed decisions.',
-                'image' => '/assets/images/market-research-survey.png',
+                'image' => 'https://files.youform.com/templates/70cc00b8-7e36-4ec3-ba05-a948f429d900.png',
                 'slug' => 'market-research-survey-template'
             ],
             [
                 'title' => 'SaaS Onboarding Survey',
                 'description' => 'Enhance user onboarding with this SaaS Onboarding Survey, designed to gather feedback and improve the user experience.',
-                'image' => '/assets/images/saas-onboarding-survey.png',
+                'image' => 'https://files.youform.com/templates/2dc7bfd9-13be-4cd1-ade4-34b314495a1b.png',
                 'slug' => 'saas-onboarding-survey-template'
             ],
             [
                 'title' => 'Cancellation Survey',
                 'description' => 'Understand why users leave with this Cancellation Survey, designed to gather insights and improve retention strategies.',
-                'image' => '/assets/images/cancellation-survey-form.png',
+                'image' => 'https://files.youform.com/templates/1f1976e5-2276-487b-bdd1-7293318c3b07.png',
                 'slug' => 'cancellation-survey-template'
             ]
         ],
@@ -206,19 +206,19 @@ return [
             [
                 'title' => 'Digital Marketing Quiz',
                 'description' => 'Engage your audience with this Digital Marketing Quiz, designed to test knowledge and generate valuable leads.',
-                'image' => '/assets/images/digital-marketing-quiz.png',
+                'image' => 'https://files.youform.com/templates/adc8fcd2-a50b-4554-b6f4-5615044c9303.png',
                 'slug' => 'digital-marketing-quiz-template'
             ],
             [
                 'title' => 'Personality Quiz Template',
                 'description' => 'Create fun and engaging experiences with this Personality Quiz Template, perfect for capturing insights and driving audience interaction.',
-                'image' => '/assets/images/personality-quiz-template.png',
+                'image' => 'https://files.youform.com/templates/88b270ca-fe43-40a0-bb39-3780d051e351.png',
                 'slug' => 'personality-quiz-template'
             ],
             [
                 'title' => 'Lead Generation Quiz',
                 'description' => 'Boost conversions with this Lead Generation Quiz, designed to capture leads while keeping your audience engaged.',
-                'image' => '/assets/images/lead-generation-quiz.png',
+                'image' => 'https://files.youform.com/templates/72fc3ba7-592d-4a9c-9061-1c793b5b79a4.png',
                 'slug' => 'lead-generation-quiz-template'
             ]
         ]

@@ -163,7 +163,7 @@
                         <div class="mt-3">
                             <h3 class="text-2xl font-bold text-gray-800">Intelligent builder</h3>
                             <p class="text-sm text-gray-600 mt-4">
-                                Add logics, perform calculations, recall information, add hidden fields and more.
+                                Add logic, perform calculations, recall information, add hidden fields and more.
                             </p>
                         </div>
                     </div>
