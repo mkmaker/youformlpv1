@@ -41,7 +41,7 @@
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=5a572999a765e7f51467e1091870bf96">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=882d22005aa99bd2f3541f7f09b4c5b9">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -804,14 +804,14 @@
             <h4 class="block text-lg font-medium text-gray-700">
                 Your expected number of submissions per month?
             </h4>
-            <input type="range" x-model="submissions" :min="0" :max="50000" :step="100" class="z-10 mb-1 mt-4 h-2 w-full appearance-none bg-slate-100 focus:outline-blue-700 dark:bg-slate-800 dark:focus:outline-blue-600 [&::-moz-range-thumb]:size-4 [&::-moz-range-thumb]:appearance-none [&::-moz-range-thumb]:border-none [&::-moz-range-thumb]:bg-blue-700 active:[&::-moz-range-thumb]:scale-110 [&::-moz-range-thumb]:dark:bg-blue-600 [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:border-none [&::-webkit-slider-thumb]:bg-blue-700 [&::-webkit-slider-thumb]:active:scale-110 [&::-webkit-slider-thumb]:dark:bg-blue-600 [&::-moz-range-thumb]:rounded-full [&::-webkit-slider-thumb]:rounded-full rounded-full max-w-xl mx-auto" />
+            <input type="range" x-model="submissions" :min="0" :max="50000" :step="100" class="z-10 mb-1 mt-4 h-2 w-full appearance-none bg-slate-800 focus:outline-slate-700 dark:focus:outline-slate-600 [&::-moz-range-thumb]:size-4 [&::-moz-range-thumb]:appearance-none [&::-moz-range-thumb]:border-none [&::-moz-range-thumb]:bg-slate-700 active:[&::-moz-range-thumb]:scale-110 [&::-moz-range-thumb]:dark:bg-slate-600 [&::-webkit-slider-thumb]:size-4 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:border-none [&::-webkit-slider-thumb]:bg-slate-700 [&::-webkit-slider-thumb]:active:scale-110 [&::-webkit-slider-thumb]:dark:bg-slate-600 [&::-moz-range-thumb]:rounded-full [&::-webkit-slider-thumb]:rounded-full rounded-full max-w-xl mx-auto" />
             <div class="mt-2 text-lg text-gray-900">
                 <span x-text="submissions.toLocaleString()"></span> submissions per month
             </div>
         </div>
         <div class="mt-4">
             <label for="needPro" class="inline-flex items-center">
-                <input type="checkbox" id="needPro" x-model="needPro" class="form-checkbox h-5 w-5 text-blue-600">
+                <input type="checkbox" id="needPro" x-model="needPro" class="form-checkbox h-5 w-5 text-green-700 ring-green-600 ring-1 focus:ring-green-600" />
                 <span class="ml-2 text-lg text-gray-700">I need Youform PRO</span>
             </label>
         </div>
