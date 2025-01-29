@@ -23,8 +23,7 @@
                 }
             },
             isValidTypeformUrl(url) {
-                const pattern = /^https:\/\/[a-zA-Z0-9-]+\.typeform\.com\/to\/[a-zA-Z0-9]+$/;
-                return pattern.test(url);
+                return url.includes('typeform');
             },
         }" 
         x-on:click.prevent="
