@@ -41,7 +41,7 @@
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=882d22005aa99bd2f3541f7f09b4c5b9">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=d2db11afaab6c292f483fd1faacc89c8">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -1117,21 +1117,12 @@
 
         <div x-data="{ show: false }">
             <div x-transition x-cloak x-show="show" class="fixed bottom-16 right-5 bg-white border rounded-md text-sm border-black drop-shadow-3xl divide-y divide-gray-200">
-                <button 
-                    x-data="{
-                        copyEmbedCode() {
-                            copyToClipboard('abhishek@youform.io'); 
-        
-                            $dispatch('notify', {
-                                'type': 'success',
-                                'message': 'Contact email copied to clipboard!'
-                            })
-                        }
-                    }" 
-                    @click.prevent="copyEmbedCode"
-                    class="block w-full text-left px-4 py-2 hover:bg-aquamarine">
-                    🗣️ &nbsp;Contact us
-                </button>
+                
+
+                <a 
+                    href="https://help.youform.com/" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                    🧡&nbsp; Help Center
+                </a>
                 <a href="https://youform.canny.io/feature-requests" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
                     🙏 &nbsp;Feature Request
                 </a>

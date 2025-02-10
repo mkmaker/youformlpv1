@@ -110,7 +110,7 @@
 
         <div x-data="{ show: false }">
             <div x-transition x-cloak x-show="show" class="fixed bottom-16 right-5 bg-white border rounded-md text-sm border-black drop-shadow-3xl divide-y divide-gray-200">
-                <button 
+                {{-- <button 
                     x-data="{
                         copyEmbedCode() {
                             copyToClipboard('abhishek@youform.io'); 
@@ -124,7 +124,12 @@
                     @click.prevent="copyEmbedCode"
                     class="block w-full text-left px-4 py-2 hover:bg-aquamarine">
                     🗣️ &nbsp;Contact us
-                </button>
+                </button> --}}
+
+                <a 
+                    href="https://help.youform.com/" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                    🧡&nbsp; Help Center
+                </a>
                 <a href="https://youform.canny.io/feature-requests" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
                     🙏 &nbsp;Feature Request
                 </a>
