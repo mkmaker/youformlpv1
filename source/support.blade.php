@@ -22,7 +22,7 @@
                         </p>
 
                         <p class="mt-2">
-                            Have questions? Search our <a href="https://help.youform.com/" target="_blank" class="text-blue-700">help docs</a>. You can even ask AI feature there to ask questions about Youform's features like you do in ChatGPT.
+                            Have questions? Search our <a href="https://help.youform.com/" target="_blank" class="text-blue-700">help docs</a>. You can even use "Ask AI" feature there to ask questions about Youform's features like you do in ChatGPT.
                         </p>
 
                         <p class="mt-2">
