@@ -5,7 +5,7 @@ return [
     'production' => false,
     'baseUrl' => 'http://youform-may23.test',
     'appUrl' => 'https://youform.test',
-    'title' => 'Youform - A Free Typeform alternative',
+    'title' => 'Youform - A Free Typeform alternative (unlimited submissions)',
     'description' => 'Youform is a free Typeform alternative that allows unlimited forms and unlimited responses on the free plan.',
     'current' => function ($page, $section) {
         return Str::contains($page->getPath(), $section) ? 'underline' : '';

@@ -23,7 +23,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                         for unlimited forms and unlimited responses
                     </h1>
                     <p class="text-center text-lg mt-4">
-                        If you need advanced features, you can upgrade to PRO for $29/month
+                        If you need advanced features, you can upgrade to PRO for $29/month (or $20/month, billed annually)
                     </p>
                     
                     <a href="https://app.youform.com/register" class="mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
@@ -188,7 +188,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
             Compare Youform Plans
         </h2>
         <p class="text-center font-medium px-6">
-            Free or Pro? The choice is yours — one's a snack, the other's a feast!
+            PRO plan is just $29/month (or $20/month, billed annually)
         </p>
         <div class="overflow-x-auto pt-10 max-w-4xl mx-auto pb-10 px-3 md:px-20">
             <table x-data class="min-w-full bg-white border-2 border-black drop-shadow-3xl">
@@ -201,7 +201,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             FREE
                         </th>
                         <th class="px-6 py-3 border-b-2 border-black bg-gray-100 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
-                            PRO ($29/month)
+                            PRO 
                         </th>
                     </tr>
                 </thead>
@@ -211,11 +211,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             Unlimited Forms
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -226,11 +228,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             Unlimited Responses
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -241,11 +245,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             Unlimited Questions per form
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -258,11 +264,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -278,11 +286,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -298,11 +308,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -318,11 +330,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -338,11 +352,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -358,11 +374,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -378,11 +396,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -398,11 +418,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -418,11 +440,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -438,11 +462,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -458,11 +484,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -473,11 +501,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             Webhooks
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -493,11 +523,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -513,11 +545,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -533,11 +567,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -553,11 +589,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -573,11 +611,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -593,11 +633,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -613,11 +655,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -633,11 +677,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -653,11 +699,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -673,11 +721,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -693,11 +743,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -713,11 +765,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -733,11 +787,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -764,11 +820,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -784,11 +842,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -804,11 +864,13 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </p>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
                         <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
@@ -817,9 +879,9 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                 </tbody>
             </table>
 
-            <p class="text-center text-sm mt-6 text-gray-700 font-semibold">
+            {{-- <p class="text-center text-sm mt-6 text-gray-700 font-semibold">
                 P.S we also offer annual plan at $290/year (2 months FREE).
-            </p>
+            </p> --}}
         </div>
 
         <div class="text-center px-6">
@@ -879,7 +941,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </div>
                             <div x-show="open">
                                 <p class=" px-4 py-10 lg:text-xl text-black">
-                                    While Youform provides you unlimited forms and responses for free, Youform PRO provides advanced features like removing Youform branding, capturing partial submissions, inviting team members, and adding your own custom domain + much more coming soon.
+                                    While Youform provides you unlimited forms and responses for free, Youform PRO provides advanced features like removing Youform branding, capturing partial submissions, inviting team members, and adding your own custom domain + much more.
                                 </p>
                             </div>   
                         </div>      
@@ -959,7 +1021,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
                             </div>
                             <div x-show="open">
                                 <p class=" px-4 py-10 lg:text-xl text-black">
-                                    Yes, Youform works with Zapier currently via their <a href="https://www.loom.com/share/59c995ad39ae4d31ab922c9e1c7231e7?sid=3c5a0280-9744-4952-83d7-54b24b60a424" target="_blank" class="text-blue-500 hover:underline">webhooks integration</a>. This allows you to connect form responses to any app on Zapier. However, a direct Zapier integration is coming soon.
+                                    Yes, Youform has a Zapier integration. You can connect form responses to any app on Zapier. <a href="https://help.youform.com/p/ON_kSm1mlWCKIJ/Zapier" target="_blank" class="text-blue-500 hover:underline">Learn more</a>.
                                 </p>
                             </div>   
                         </div>      
