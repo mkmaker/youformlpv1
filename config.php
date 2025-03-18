@@ -234,6 +234,7 @@ return [
                 'Business' => 'Enhance operations with versatile business form templates.',
                 'Consultation' => 'Schedule and manage consultations effortlessly with tailored forms.',
                 'Contact' => 'Build easy-to-use contact forms to connect with your audience.',
+                'Customer success' => 'Enhance customer satisfaction with tailored customer success form templates.',
                 'Donation' => 'Drive donations seamlessly with user-friendly donation forms.',
                 'Ecommerce' => 'Boost sales with ecommerce forms optimized for conversions.',
                 'Education' => 'Create forms for educational needs like assignments or feedback.',
