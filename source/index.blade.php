@@ -181,7 +181,7 @@
                         <div class="mt-3">
                             <h3 class="text-2xl font-bold text-gray-800">Partial submissions</h3>
                             <p class="text-sm text-gray-600 mt-4">
-                                Even if your form respnder leaves before submitting the form, you can still view partial data.
+                                Even if your form responder leaves before submitting the form, you can still view partial data.
                             </p>
                         </div>
                     </div>
