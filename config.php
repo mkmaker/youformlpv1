@@ -3,8 +3,8 @@ use Illuminate\Support\Str;
 
 return [
     'production' => false,
-    'baseUrl' => 'http://youform-may23.test',
-    'appUrl' => 'https://youform.test',
+    'baseUrl' => 'https://youformlpv1.test',
+    'appUrl' => 'https://app.youform.com',
     'title' => 'Youform - A Free Typeform alternative (unlimited submissions)',
     'description' => 'Youform is a free Typeform alternative that allows unlimited forms and unlimited responses on the free plan.',
     'current' => function ($page, $section) {

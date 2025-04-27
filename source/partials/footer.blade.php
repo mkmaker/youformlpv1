@@ -66,4 +66,10 @@
         </p>
     </div>
 
+    <div class="fixed top-0 left-0 right-0 z-100 bg-gray-900 mt-0 px-6 py-2.5 sm:px-3.5" style="z-index: 1000; margin-top: 0;">
+        <p class="text-sm/6 text-white text-center">
+            Please note our servers are going under a scheduled maintenance. We will be back in few minutes. 
+        </p>
+    </div>
+
 </div>
