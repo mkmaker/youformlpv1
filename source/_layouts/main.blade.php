@@ -104,7 +104,7 @@
             </div>
         </div> --}}
 
-        <div class="pt-14 md:pt-8">
+        <div class="">
             @yield('body')
         </div>
 
