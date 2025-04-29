@@ -72,4 +72,6 @@
         </p>
     </div> --}}
 
+    {{-- @include('partials.cookie-banner') --}}
+
 </div>

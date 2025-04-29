@@ -110,6 +110,10 @@
                                 <li>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</li>
                                 <li>Youform will take all the steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organisation or a country unless there are adequate controls in place including the security of your data and other personal information.</li>
                             </ol>
+
+                            <span class="mt-4">
+                                For more details about our subprocessors, please see our <a href="https://youform.com/gdpr">GDPR Compliance Page</a>.
+                            </span>
                         </p>
 
                         <p class="mt-4">
@@ -134,7 +138,7 @@
                             10. Contact Us
                         </p>
                         <p class="mt-2">
-                            If you have any questions about this Privacy Policy, please contact us: support@youform.io   
+                            If you have any questions about this Privacy Policy, please contact us: abhishek@youform.com   
                         </p>
                     </div>
                 </div>
