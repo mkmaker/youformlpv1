@@ -142,7 +142,7 @@
     </div>
     
     <div>
-        <img class="-mt-2" src="/assets/images/banner-wave.png" alt="">
+        <img class="-mt-2 w-full" src="/assets/images/banner-wave.png" alt="wave decoration image">
     </div>
 </div>
 
@@ -407,7 +407,7 @@
 </div> --}}
 
 <div class="-mt-20 relative">
-    <img src="/assets/images/yellow-wave-up.png" alt="">
+    <img src="/assets/images/yellow-wave-up.png" alt="wave decoration image" class="w-full">
     
     <div class="bg-vivid-yellow -mt-2 pb-20">
         <div class="relative max-w-7xl mx-auto">
@@ -471,7 +471,7 @@
             </div>
         </div>
     </div>
-    <img class="-mt-4" src="/assets/images/yellow-wave-down.png" alt="">
+    <img class="-mt-4 w-full" src="/assets/images/yellow-wave-down.png" alt="wave decoration image">
     <img class="absolute rotate-12 right-16 lg:right-32 -bottom-3 sm:-bottom-8 lg:-bottom-12 w-40 md:w-56 lg:w-64" src="/assets/images/solved.png" alt="">
 </div>
 
@@ -520,7 +520,7 @@
 </div> --}}
 
 <!-- 4th feature -->
-<div class="-mt-16">
+<div class="" style="margin-top: -5rem">
     <div class="bg-lavender-rose pt-28 lg:pt-40 pb-20">
         <div class="relative max-w-7xl mx-auto px-10 md:px-20">
             <div class="text-center">
