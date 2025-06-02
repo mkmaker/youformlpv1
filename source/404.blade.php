@@ -1,4 +1,10 @@
-@extends('_layouts.main')
+---
+extends: _layouts.main
+section: body
+permalink: 404.html
+---
+
+{{-- @extends('_layouts.main') --}}
 
 @section('body')
  
