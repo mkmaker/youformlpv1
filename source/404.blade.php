@@ -2,12 +2,11 @@
 extends: _layouts.main
 section: body
 permalink: 404.html
+title: 404 - Page Not Found
+description: The page you are looking for does not exist.
 ---
-
-{{-- @extends('_layouts.main') --}}
-
-@section('body')
  
+@section('body')
 <div class="min-h-screen flex flex-col bg-amber-50"> 
     <div class="flex-grow">
         <!-- navbar   -->
