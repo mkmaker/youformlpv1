@@ -44,7 +44,7 @@
                         </p>
 
                         <p class="mt-2">
-                            All form data is securely stored with AWS servers in EU. The official company name is “Youform”, and the business is registered in India.
+                            All form data is securely stored with AWS servers in EU, end to end encrypted and <a href="https://help.youform.com/p/Ymoc-fiv-IPx6m/GDPR" class="text-blue-700" target="_blank">GDPR compliant</a>.
                         </p>
 
                         <p class="mt-2">
