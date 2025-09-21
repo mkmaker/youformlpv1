@@ -117,6 +117,7 @@
                     @dblclick="handleClick" 
                     src="/assets/images/youform-builder-new.png" 
                     alt="Youform Builder" 
+                    loading="lazy"
                     class="w-full h-auto object-cover object-left" 
                     style="min-height: 600px"
                 >
@@ -129,7 +130,7 @@
                   <p>“We had the highest conversion with Youform compared to Typeform, Google Calendar and even the routing form in Calendly!”</p>
                 </blockquote>
                 <span class="mt-5 flex items-center flex-col gap-x-6">
-                  <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" src="/assets/images/adam-danyal.jpeg" alt="Adam Danyal Avatar">
+                  <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" loading="lazy" src="/assets/images/adam-danyal.jpeg" alt="Adam Danyal Avatar">
                   <div class="text-base mt-1">
                     <div class="text-gray-900 group-hover:underline">Adam Danyal</div>
                     <div class=" text-gray-700 text-xs">Founder Leadership Club. 
@@ -142,7 +143,7 @@
     </div>
     
     <div>
-        <img class="-mt-2 w-full" src="/assets/images/banner-wave.png" alt="wave decoration image">
+        <img class="-mt-2 w-full" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
     </div>
 </div>
 
@@ -306,7 +307,7 @@
                 <div class="relative flex justify-center items-center py-56 px-10 sm:px-56">
                     <!-- Youform Logo in the Center -->
                     <div class="absolute flex justify-center items-center w-32 h-32 rounded-full">
-                        <img src="/assets/images/youform-logo.png" alt="Youform" class="h-16 w-16 object-contain" />
+                        <img loading="lazy" src="/assets/images/youform-logo.png" alt="Youform" class="h-16 w-16 object-contain" />
                     </div>
                     <!-- Logos coming out of the center -->
                     <template x-for="(logo, index) in [
@@ -348,66 +349,8 @@
     </div>
 </div>
 
-<!-- 2nd feature -->
-{{-- <div class="bg-amber-50 border-t-4 border-black">
-    <div class="relative max-w-7xl mx-auto -mt-16 pb-20">
-        <div class="flex flex-col justify-center lg:grid grid-cols-2 items-center pt-48 pb-10 px-10 md:px-20">
-            <div class="col-span-1 lg:pr-16 xl:pr-20  pb-14 lg:pb-0">
-                <img class="w-4/5 lg:w-4/5 m-auto " src="/assets/images/so-easy.png" alt="">
-            </div>
-            <div class="col-span-1 lg:pr-16 xl:pr-20 flex flex-col sm:items-center lg:items-start">
-                <p class="text-center lg:text-left text-3xl sm:text-5xl xl:text-6xl font-bold ">
-                    Build forms intuitively
-                </p>
-                <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
-                    Youform's intuitive form builder is fully drag-and-drop. Create a live form in just a couple minutes.
-                </p>
-                <a href="https://app.youform.com/register" class="-rotate-1 text-center mt-10 text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
-                    Create free account
-                </a>
-                <div class="text-sm pt-6 font-semibold sm:flex items-center sm:space-x-4 -rotate-1">
-                    <div class="flex items-center space-x-1">
-                            
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
-                            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
-                        </svg>                              
-                        <span>Unlimited responses</span>
-                    </div>
-
-                    <div class="flex items-center space-x-1 pt-2 sm:pt-0">
-                        
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
-                            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
-                        </svg>                              
-                        <span>No credit card required</span>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-
-        <div class="mt-5 pb-16 pt-4 lg:pt-12">
-            <figure class="flex flex-auto flex-col justify-between pt-4 group text-center max-w-2xl mx-auto px-4">
-                <blockquote class="text-gray-900 text-base lg:text-xl">
-                  <p>“Holy cow this is way better than Typeform!”</p>
-                </blockquote>
-                <a href="https://x.com/agazdecki" target="_blank" class="mt-5 flex items-center flex-col gap-x-6">
-                  <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" src="/assets/images/andrew-gazdecki.jpg" alt="Andrew Gazdecki Avatar">
-                  <div class="text-base mt-1">
-                    <div class="text-gray-900 group-hover:underline">Andrew Gazdecki</div>
-                    <div class=" text-gray-700 text-xs">Founder &amp; CEO of Acquire.com 
-                        <br>
-                        250k Followers on Twitter
-                    </div>
-                  </div>
-                </a>
-            </figure>
-        </div>
-    </div>
-</div> --}}
-
 <div class="-mt-20 relative">
-    <img src="/assets/images/yellow-wave-up.png" alt="wave decoration image" class="w-full">
+    <img loading="lazy" src="/assets/images/yellow-wave-up.png" alt="wave decoration image" class="w-full">
     
     <div class="bg-vivid-yellow -mt-2 pb-20">
         <div class="relative max-w-7xl mx-auto">
@@ -471,53 +414,9 @@
             </div>
         </div>
     </div>
-    <img class="-mt-4 w-full" src="/assets/images/yellow-wave-down.png" alt="wave decoration image">
+    <img class="-mt-4 w-full" loading="lazy" src="/assets/images/yellow-wave-down.png" alt="wave decoration image">
     <img class="absolute rotate-12 right-16 lg:right-32 -bottom-3 sm:-bottom-8 lg:-bottom-12 w-40 md:w-56 lg:w-64" src="/assets/images/solved.png" alt="">
 </div>
-
-<!-- 3rd feature -->
-{{-- <div class="-mt-20 relative">
-    <img src="/assets/images/yellow-wave-up.png" alt="">
-    <div class="bg-vivid-yellow -mt-2">
-        <div class="relative max-w-7xl mx-auto">
-            <div class="flex flex-col justify-center lg:grid grid-cols-2 items-center py-10 px-10 md:px-20">
-                <div class="col-span-1 lg:pr-16 xl:pr-20 flex flex-col sm:items-center lg:items-start pb-14 lg:pb-0">
-                    <p class="text-center lg:text-left text-3xl sm:text-5xl xl:text-6xl font-bold ">
-                        Collect partial data, download everything
-                    </p>
-                    <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
-                        With Youform you can collect partial data as well before your users hit the submit button. You can download all your data from the dashboard.
-                    </p>
-                    <a href="https://app.youform.com/register" class="-rotate-1 text-center mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
-                        Create free account
-                    </a>
-                    <div class="text-sm pt-6 font-semibold sm:flex items-center sm:space-x-4 -rotate-1">
-                        <div class="flex items-center space-x-1">
-                            
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
-                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
-                            </svg>                              
-                            <span>Unlimited responses</span>
-                        </div>
-
-                        <div class="flex items-center space-x-1 pt-2 sm:pt-0">
-                            
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
-                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
-                            </svg>                              
-                            <span>No credit card required</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-span-1">
-                    <img class="w-full m-auto rounded-xl border-2 border-black drop-shadow-6xl" src="/assets/images/youform-submissions.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <img class="-mt-4" src="/assets/images/yellow-wave-down.png" alt="">
-    <img class="absolute rotate-12 right-16 lg:right-32 -bottom-3 sm:-bottom-8 lg:-bottom-12 w-40 md:w-56 lg:w-64" src="/assets/images/solved.png" alt="">
-</div> --}}
 
 <!-- 4th feature -->
 <div class="" style="margin-top: -5rem">
@@ -530,7 +429,7 @@
                         Do you hate the high prices of Typeform? We do too. That's why Youform allows UNLIMITED forms and form responses for FREE.
                     </p>
                 </div>
-                <img class="hidden md:block pt-20" src="/assets/images/twitter-screenshot.png" alt="">
+                <img class="hidden md:block pt-20" loading="lazy" src="/assets/images/twitter-screenshot.png" alt="">
 
                 @include('partials.price-calculator')
 
@@ -543,7 +442,7 @@
                         <div>
                             <div class="py-4 max-w-lg mx-auto rounded-2xl shadow-lg md:shadow-2xl" style="background: #13202B">
                                 <a href="https://x.com/levelsio" target="_blank">
-                                    <img src="/assets/images/levelsio.png" class="" alt="Pieter Levels recommends Youform">
+                                    <img loading="lazy" src="/assets/images/levelsio.png" class="" alt="Pieter Levels recommends Youform">
                                 </a>
                             </div>
                         </div>
