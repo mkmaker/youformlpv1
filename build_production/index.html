@@ -33,11 +33,10 @@
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=9115cf5220759659f20ef692bd2ad828">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=a06e3663922634b57e8752064b9a0549">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-
+        
         <script type='application/ld+json'>
             {
               "@context": "http://www.schema.org",
@@ -61,7 +60,7 @@
             
 <!-- header -->
 <div> 
-    <div class=" bg-medium-champagne bg-[url('/assets/images/banner-background.png')] bg-cover bg-no-repeat bg-center">
+    <div class=" bg-medium-champagne bg-[url('/assets/images/banner-background.png?v=2')] bg-cover bg-no-repeat bg-center">
         <!-- navbar   -->
         <div class="max-w-7xl mx-auto">
     <div x-data="{ open: false }" class="relative overflow-hidden">
@@ -229,11 +228,11 @@
                         :class="{'rotate-2': !hovered, 'rotate-0': hovered}" 
                         class="rounded-md transition-all rotate-2 relative bg-[url('/assets/images/embed-form-bg.png')] bg-cover bg-no-repeat">
 
-                        <img class="absolute inset-0 rounded-md w-full h-full" src="/assets/images/embed-form-bg.png" alt="">
+                        <img class="absolute inset-0 rounded-md w-full h-full" src="/assets/images/embed-form-bg.png" alt="embed form background">
 
-                        <img class="absolute -left-36 bottom-40 w-32 opacity-70" src="/assets/images/try-it-arrow.png" alt="">
+                        <img class="absolute -left-36 bottom-40 w-32 opacity-70" src="/assets/images/try-it-arrow.png?v=2" alt="try it arrow">
 
-                        <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png" alt="">
+                        <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png?v=2" alt="blob decoration image">
 
                         <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
 
@@ -262,6 +261,7 @@
                     @dblclick="handleClick" 
                     src="/assets/images/youform-builder-new.png" 
                     alt="Youform Builder" 
+                    loading="lazy"
                     class="w-full h-auto object-cover object-left" 
                     style="min-height: 600px"
                 >
@@ -274,7 +274,7 @@
                   <p>“We had the highest conversion with Youform compared to Typeform, Google Calendar and even the routing form in Calendly!”</p>
                 </blockquote>
                 <span class="mt-5 flex items-center flex-col gap-x-6">
-                  <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" src="/assets/images/adam-danyal.jpeg" alt="Adam Danyal Avatar">
+                  <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" loading="lazy" src="/assets/images/adam-danyal.jpeg?v=2" alt="Adam Danyal Avatar">
                   <div class="text-base mt-1">
                     <div class="text-gray-900 group-hover:underline">Adam Danyal</div>
                     <div class=" text-gray-700 text-xs">Founder Leadership Club. 
@@ -287,7 +287,7 @@
     </div>
     
     <div>
-        <img class="-mt-2 w-full" src="/assets/images/banner-wave.png" alt="wave decoration image">
+        <img class="-mt-2 w-full" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
     </div>
 </div>
 
@@ -398,9 +398,6 @@
     </div>
 </div>
 
-<!-- 1st feature -->
-
-
 <div class="bg-amber-50 border-t-4 border-black pb-20 overflow-x-hidden">
     <div class="relative max-w-7xl mx-auto pb-20">
         <section class="relative pt-16 pb-32 md:pb-20 px-10 md:px-20" x-data="{ visible: false }">
@@ -415,19 +412,19 @@
                 <div class="relative flex justify-center items-center py-56 px-10 sm:px-56">
                     <!-- Youform Logo in the Center -->
                     <div class="absolute flex justify-center items-center w-32 h-32 rounded-full">
-                        <img src="/assets/images/youform-logo.png" alt="Youform" class="h-16 w-16 object-contain" />
+                        <img loading="lazy" src="/assets/images/youform-logo.png" alt="Youform" class="h-16 w-16 object-contain" />
                     </div>
                     <!-- Logos coming out of the center -->
                     <template x-for="(logo, index) in [
-                        { name: 'Google Sheets', src: '/assets/images/logos/google-sheets.png' },
-                        { name: 'Slack', src: '/assets/images/logos/slack.png' },
-                        { name: 'Webhook', src: '/assets/images/logos/webhook.png' },
-                        { name: 'Calendly', src: '/assets/images/logos/calendly.png' },
-                        { name: 'Zapier', src: '/assets/images/logos/zapier.png' },
-                        { name: 'GTM', src: '/assets/images/logos/gtm.svg' },
-                        { name: 'Gmail', src: '/assets/images/logos/gmail.png' },
-                        { name: 'Trello', src: '/assets/images/logos/trello.png' },
-                        { name: 'Stripe', src: '/assets/images/logos/stripe.png' },
+                        { name: 'Google Sheets', src: '/assets/images/logos/google-sheets.png?v=2' },
+                        { name: 'Slack', src: '/assets/images/logos/slack.png?v=2' },
+                        { name: 'Webhook', src: '/assets/images/logos/webhook.png?v=2' },
+                        { name: 'Calendly', src: '/assets/images/logos/calendly.png?v=2' },
+                        { name: 'Zapier', src: '/assets/images/logos/zapier.png?v=2' },
+                        { name: 'GTM', src: '/assets/images/logos/gtm.svg?v=2' },
+                        { name: 'Gmail', src: '/assets/images/logos/gmail.png?v=2' },
+                        { name: 'Trello', src: '/assets/images/logos/trello.png?v=2' },
+                        { name: 'Stripe', src: '/assets/images/logos/stripe.png?v=2' },
                     ]" :key="index">
                         <div 
                             class="absolute flex justify-center items-center w-16 h-16 sm:w-24 sm:h-24 rounded-xl bg-white transform scale-0 opacity-0 transition duration-500 ease-out"
@@ -457,11 +454,8 @@
     </div>
 </div>
 
-<!-- 2nd feature -->
-
-
 <div class="-mt-20 relative">
-    <img src="/assets/images/yellow-wave-up.png" alt="wave decoration image" class="w-full">
+    <img loading="lazy" src="/assets/images/yellow-wave-up.png" alt="wave decoration image" class="w-full">
     
     <div class="bg-vivid-yellow -mt-2 pb-20">
         <div class="relative max-w-7xl mx-auto">
@@ -492,7 +486,15 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                                                             <a href="/templates/t/testimonial-form-template" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
-    <div class="h-48 bg-cover bg-center transform transition-transform duration-300 group-hover:scale-105" style="background-image: url(https://files.youform.com/templates/9e0bbb5d-5a89-4e50-95da-8aeaaf18c59d.png); background-size: 600px;"></div>
+    <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
+        <img 
+            src="https://files.youform.com/templates/9e0bbb5d-5a89-4e50-95da-8aeaaf18c59d.png" 
+            alt="Testimonial Form" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            style="max-width:600px;"
+        >
+    </div>
     
     <div class="px-8 pt-3 pb-5">
         <h3 class="text-xl font-bold mt-2">
@@ -504,7 +506,15 @@
     </div>
 </a>                                                            <a href="/templates/t/client-intake-form-template" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
-    <div class="h-48 bg-cover bg-center transform transition-transform duration-300 group-hover:scale-105" style="background-image: url(https://files.youform.com/templates/2c3b17aa-afac-4e5d-8835-52174539bebe.png); background-size: 600px;"></div>
+    <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
+        <img 
+            src="https://files.youform.com/templates/2c3b17aa-afac-4e5d-8835-52174539bebe.png" 
+            alt="Client Intake Form" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            style="max-width:600px;"
+        >
+    </div>
     
     <div class="px-8 pt-3 pb-5">
         <h3 class="text-xl font-bold mt-2">
@@ -516,7 +526,15 @@
     </div>
 </a>                                                            <a href="/templates/t/lead-capture-form-template" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
-    <div class="h-48 bg-cover bg-center transform transition-transform duration-300 group-hover:scale-105" style="background-image: url(https://files.youform.com/templates/e659fbda-757f-422f-8c2b-e01244a6fb3f.png); background-size: 600px;"></div>
+    <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
+        <img 
+            src="https://files.youform.com/templates/e659fbda-757f-422f-8c2b-e01244a6fb3f.png" 
+            alt="Lead Capture Form" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            style="max-width:600px;"
+        >
+    </div>
     
     <div class="px-8 pt-3 pb-5">
         <h3 class="text-xl font-bold mt-2">
@@ -547,7 +565,15 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                                                             <a href="/templates/t/market-research-survey-template" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
-    <div class="h-48 bg-cover bg-center transform transition-transform duration-300 group-hover:scale-105" style="background-image: url(https://files.youform.com/templates/70cc00b8-7e36-4ec3-ba05-a948f429d900.png); background-size: 600px;"></div>
+    <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
+        <img 
+            src="https://files.youform.com/templates/70cc00b8-7e36-4ec3-ba05-a948f429d900.png" 
+            alt="Market Research Survey" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            style="max-width:600px;"
+        >
+    </div>
     
     <div class="px-8 pt-3 pb-5">
         <h3 class="text-xl font-bold mt-2">
@@ -559,7 +585,15 @@
     </div>
 </a>                                                            <a href="/templates/t/saas-onboarding-survey-template" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
-    <div class="h-48 bg-cover bg-center transform transition-transform duration-300 group-hover:scale-105" style="background-image: url(https://files.youform.com/templates/2dc7bfd9-13be-4cd1-ade4-34b314495a1b.png); background-size: 600px;"></div>
+    <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
+        <img 
+            src="https://files.youform.com/templates/2dc7bfd9-13be-4cd1-ade4-34b314495a1b.png" 
+            alt="SaaS Onboarding Survey" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            style="max-width:600px;"
+        >
+    </div>
     
     <div class="px-8 pt-3 pb-5">
         <h3 class="text-xl font-bold mt-2">
@@ -571,7 +605,15 @@
     </div>
 </a>                                                            <a href="/templates/t/cancellation-survey-template" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
-    <div class="h-48 bg-cover bg-center transform transition-transform duration-300 group-hover:scale-105" style="background-image: url(https://files.youform.com/templates/1f1976e5-2276-487b-bdd1-7293318c3b07.png); background-size: 600px;"></div>
+    <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
+        <img 
+            src="https://files.youform.com/templates/1f1976e5-2276-487b-bdd1-7293318c3b07.png" 
+            alt="Cancellation Survey" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            style="max-width:600px;"
+        >
+    </div>
     
     <div class="px-8 pt-3 pb-5">
         <h3 class="text-xl font-bold mt-2">
@@ -602,7 +644,15 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                                                             <a href="/templates/t/digital-marketing-quiz-template" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
-    <div class="h-48 bg-cover bg-center transform transition-transform duration-300 group-hover:scale-105" style="background-image: url(https://files.youform.com/templates/adc8fcd2-a50b-4554-b6f4-5615044c9303.png); background-size: 600px;"></div>
+    <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
+        <img 
+            src="https://files.youform.com/templates/adc8fcd2-a50b-4554-b6f4-5615044c9303.png" 
+            alt="Digital Marketing Quiz" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            style="max-width:600px;"
+        >
+    </div>
     
     <div class="px-8 pt-3 pb-5">
         <h3 class="text-xl font-bold mt-2">
@@ -614,7 +664,15 @@
     </div>
 </a>                                                            <a href="/templates/t/personality-quiz-template" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
-    <div class="h-48 bg-cover bg-center transform transition-transform duration-300 group-hover:scale-105" style="background-image: url(https://files.youform.com/templates/88b270ca-fe43-40a0-bb39-3780d051e351.png); background-size: 600px;"></div>
+    <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
+        <img 
+            src="https://files.youform.com/templates/88b270ca-fe43-40a0-bb39-3780d051e351.png" 
+            alt="Personality Quiz Template" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            style="max-width:600px;"
+        >
+    </div>
     
     <div class="px-8 pt-3 pb-5">
         <h3 class="text-xl font-bold mt-2">
@@ -626,7 +684,15 @@
     </div>
 </a>                                                            <a href="/templates/t/lead-generation-quiz-template" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
-    <div class="h-48 bg-cover bg-center transform transition-transform duration-300 group-hover:scale-105" style="background-image: url(https://files.youform.com/templates/72fc3ba7-592d-4a9c-9061-1c793b5b79a4.png); background-size: 600px;"></div>
+    <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
+        <img 
+            src="https://files.youform.com/templates/72fc3ba7-592d-4a9c-9061-1c793b5b79a4.png" 
+            alt="Lead Generation Quiz" 
+            loading="lazy" 
+            class="object-cover w-full h-full"
+            style="max-width:600px;"
+        >
+    </div>
     
     <div class="px-8 pt-3 pb-5">
         <h3 class="text-xl font-bold mt-2">
@@ -666,12 +732,9 @@
             </div>
         </div>
     </div>
-    <img class="-mt-4 w-full" src="/assets/images/yellow-wave-down.png" alt="wave decoration image">
+    <img class="-mt-4 w-full" loading="lazy" src="/assets/images/yellow-wave-down.png" alt="wave decoration image">
     <img class="absolute rotate-12 right-16 lg:right-32 -bottom-3 sm:-bottom-8 lg:-bottom-12 w-40 md:w-56 lg:w-64" src="/assets/images/solved.png" alt="">
 </div>
-
-<!-- 3rd feature -->
-
 
 <!-- 4th feature -->
 <div class="" style="margin-top: -5rem">
@@ -684,7 +747,7 @@
                         Do you hate the high prices of Typeform? We do too. That's why Youform allows UNLIMITED forms and form responses for FREE.
                     </p>
                 </div>
-                <img class="hidden md:block pt-20" src="/assets/images/twitter-screenshot.png" alt="">
+                <img class="hidden md:block pt-20" loading="lazy" src="/assets/images/twitter-screenshot.png?v=2" alt="Typeform pricing">
 
                 <div 
     x-data="{ 
@@ -801,7 +864,7 @@
                         <div>
                             <div class="py-4 max-w-lg mx-auto rounded-2xl shadow-lg md:shadow-2xl" style="background: #13202B">
                                 <a href="https://x.com/levelsio" target="_blank">
-                                    <img src="/assets/images/levelsio.png" class="" alt="Pieter Levels recommends Youform">
+                                    <img loading="lazy" src="/assets/images/levelsio.png" class="" alt="Pieter Levels recommends Youform">
                                 </a>
                             </div>
                         </div>

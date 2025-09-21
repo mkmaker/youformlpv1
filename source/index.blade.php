@@ -4,7 +4,7 @@
 
 <!-- header -->
 <div> 
-    <div class=" bg-medium-champagne bg-[url('/assets/images/banner-background.png')] bg-cover bg-no-repeat bg-center">
+    <div class=" bg-medium-champagne bg-[url('/assets/images/banner-background.png?v=2')] bg-cover bg-no-repeat bg-center">
         <!-- navbar   -->
         @include('partials.nav')
 
@@ -82,11 +82,11 @@
                         :class="{'rotate-2': !hovered, 'rotate-0': hovered}" 
                         class="rounded-md transition-all rotate-2 relative bg-[url('/assets/images/embed-form-bg.png')] bg-cover bg-no-repeat">
 
-                        <img class="absolute inset-0 rounded-md w-full h-full" src="/assets/images/embed-form-bg.png" alt="">
+                        <img class="absolute inset-0 rounded-md w-full h-full" src="/assets/images/embed-form-bg.png" alt="embed form background">
 
-                        <img class="absolute -left-36 bottom-40 w-32 opacity-70" src="/assets/images/try-it-arrow.png" alt="">
+                        <img class="absolute -left-36 bottom-40 w-32 opacity-70" src="/assets/images/try-it-arrow.png?v=2" alt="try it arrow">
 
-                        <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png" alt="">
+                        <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png?v=2" alt="blob decoration image">
 
                         <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
 
@@ -130,7 +130,7 @@
                   <p>“We had the highest conversion with Youform compared to Typeform, Google Calendar and even the routing form in Calendly!”</p>
                 </blockquote>
                 <span class="mt-5 flex items-center flex-col gap-x-6">
-                  <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" loading="lazy" src="/assets/images/adam-danyal.jpeg" alt="Adam Danyal Avatar">
+                  <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" loading="lazy" src="/assets/images/adam-danyal.jpeg?v=2" alt="Adam Danyal Avatar">
                   <div class="text-base mt-1">
                     <div class="text-gray-900 group-hover:underline">Adam Danyal</div>
                     <div class=" text-gray-700 text-xs">Founder Leadership Club. 
@@ -254,45 +254,6 @@
     </div>
 </div>
 
-<!-- 1st feature -->
-{{-- <div class="bg-aquamarine">
-    <div class="relative max-w-7xl mx-auto -mt-10 lg:-mt-20 pb-20">
-        <div class="flex flex-col justify-center lg:grid grid-cols-2 items-center pt-40 pb-16 px-10 md:px-20">
-            <div class="col-span-1 lg:pr-16 xl:pr-20 flex flex-col sm:items-center lg:items-start  pb-14 lg:pb-0">
-                <p class="text-center lg:text-left text-3xl sm:text-5xl xl:text-6xl font-bold ">
-                    Fully responsive
-                </p>
-                <p class="text-center lg:text-left text-lg xl:text-xl font-medium mt-10">
-                    Youform gives you fully responsive forms so your users will be able to fill your forms from mobile, desktop, or tablets.
-                </p>
-                <a href="https://app.youform.com/register" class="-rotate-1 mt-10 text-2xl block text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
-                    Create free account
-                </a>
-                <div class="text-sm pt-6 font-semibold sm:flex items-center sm:space-x-4 -rotate-1">
-                    <div class="flex items-center space-x-1">
-                            
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-sasquatch-socks">
-                            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
-                        </svg>                              
-                        <span>Unlimited responses</span>
-                    </div>
-
-                    <div class="flex items-center space-x-1 pt-2 sm:pt-0">
-                        
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-sasquatch-socks">
-                            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
-                        </svg>                              
-                        <span>No credit card required</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-span-1">
-                <img class="w-full m-auto " src="/assets/images/visual.png" alt="">
-            </div>
-        </div>
-    </div>
-</div> --}}
-
 <div class="bg-amber-50 border-t-4 border-black pb-20 overflow-x-hidden">
     <div class="relative max-w-7xl mx-auto pb-20">
         <section class="relative pt-16 pb-32 md:pb-20 px-10 md:px-20" x-data="{ visible: false }">
@@ -311,15 +272,15 @@
                     </div>
                     <!-- Logos coming out of the center -->
                     <template x-for="(logo, index) in [
-                        { name: 'Google Sheets', src: '/assets/images/logos/google-sheets.png' },
-                        { name: 'Slack', src: '/assets/images/logos/slack.png' },
-                        { name: 'Webhook', src: '/assets/images/logos/webhook.png' },
-                        { name: 'Calendly', src: '/assets/images/logos/calendly.png' },
-                        { name: 'Zapier', src: '/assets/images/logos/zapier.png' },
-                        { name: 'GTM', src: '/assets/images/logos/gtm.svg' },
-                        { name: 'Gmail', src: '/assets/images/logos/gmail.png' },
-                        { name: 'Trello', src: '/assets/images/logos/trello.png' },
-                        { name: 'Stripe', src: '/assets/images/logos/stripe.png' },
+                        { name: 'Google Sheets', src: '/assets/images/logos/google-sheets.png?v=2' },
+                        { name: 'Slack', src: '/assets/images/logos/slack.png?v=2' },
+                        { name: 'Webhook', src: '/assets/images/logos/webhook.png?v=2' },
+                        { name: 'Calendly', src: '/assets/images/logos/calendly.png?v=2' },
+                        { name: 'Zapier', src: '/assets/images/logos/zapier.png?v=2' },
+                        { name: 'GTM', src: '/assets/images/logos/gtm.svg?v=2' },
+                        { name: 'Gmail', src: '/assets/images/logos/gmail.png?v=2' },
+                        { name: 'Trello', src: '/assets/images/logos/trello.png?v=2' },
+                        { name: 'Stripe', src: '/assets/images/logos/stripe.png?v=2' },
                     ]" :key="index">
                         <div 
                             class="absolute flex justify-center items-center w-16 h-16 sm:w-24 sm:h-24 rounded-xl bg-white transform scale-0 opacity-0 transition duration-500 ease-out"
@@ -429,7 +390,7 @@
                         Do you hate the high prices of Typeform? We do too. That's why Youform allows UNLIMITED forms and form responses for FREE.
                     </p>
                 </div>
-                <img class="hidden md:block pt-20" loading="lazy" src="/assets/images/twitter-screenshot.png" alt="">
+                <img class="hidden md:block pt-20" loading="lazy" src="/assets/images/twitter-screenshot.png?v=2" alt="Typeform pricing">
 
                 @include('partials.price-calculator')
 

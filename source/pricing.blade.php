@@ -9,7 +9,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
 
 <!-- header -->
 <div> 
-    <div class="bg-medium-champagne bg-[url('/assets/images/banner-background-pricing.png')] bg-contain bg-no-repeat bg-center">
+    <div class="bg-medium-champagne bg-[url('/assets/images/banner-background-pricing.png?v=2')] bg-contain bg-no-repeat bg-center">
         <!-- navbar   -->
         @include('partials.nav')
 
