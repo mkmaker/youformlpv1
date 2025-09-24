@@ -1,3 +1,8 @@
+---
+title: About Us - Youform
+description: Learn about the story behind Youform, how we started, and what we're all about.
+---
+
 @extends('_layouts.main')
 
 @section('body')

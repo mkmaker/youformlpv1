@@ -1,3 +1,8 @@
+---
+title: Youform Support
+description: Get help with Youform. We're here to help you with any questions you have.
+---
+
 @extends('_layouts.main')
 
 @section('body')

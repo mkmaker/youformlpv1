@@ -1,3 +1,8 @@
+---
+title: Privacy Policy - Youform
+description: Learn about how We use your data and how we protect your privacy.
+---
+
 @extends('_layouts.main')
 
 @section('body')

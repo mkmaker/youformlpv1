@@ -1,3 +1,8 @@
+---
+title: Terms of Service - Youform
+description: Learn about the terms of service for Youform.
+---
+
 @extends('_layouts.main')
 
 @section('body')
