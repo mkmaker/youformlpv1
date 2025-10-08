@@ -63,7 +63,7 @@
                                 <div class="text-gray-900 group-hover:underline">Pieter Levels</div>
                                 <div class=" text-gray-700 text-xs">Founder Nomadlist and RemoteOK. 
                                     <br>
-                                    400k+ Followers on Twitter</div>
+                                    700k+ Followers on Twitter</div>
                               </div>
                             </a>
                         </figure>
@@ -140,10 +140,17 @@
                 </span>
             </figure>
         </div>
+
+        <div class="flex items-center justify-center gap-4 mt-8 pb-4 px-3 max-w-xl mx-auto">
+            <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.capterra.com/p/10015804/Youform/"> <img border="0" class="flex-1 flex h-56" src="https://brand-assets.capterra.com/badge/82d852d8-4309-425c-8601-28e9da8625fa.svg" /> </a>
+            <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.getapp.com/website-ecommerce-software/forms-automation/category-leaders"> <img border="0" class="flex-1 flex h-56" src="https://brand-assets.getapp.com/badge/1ddf62be-af16-43f4-98a7-f77d6aef0fba.svg" /> </a>
+            <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.softwareadvice.com/forms-automation/youform-profile/"> <img border="0" class="flex-1 flex h-56" src="https://brand-assets.softwareadvice.com/badge/aa6b76d1-fa34-4756-9f02-7a6288863c9b.svg" /> </a>
+            <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.capterra.com/p/10015804/Youform/"> <img border="0" class="flex-1 flex h-56" src="https://brand-assets.capterra.com/badge/293bec48-38cb-4344-aa42-658d14d12903.svg" /> </a>
+        </div>
     </div>
     
     <div>
-        <img class="-mt-2 w-full" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
+        <img class="-mt-4 w-full" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
     </div>
 </div>
 
