@@ -18,7 +18,12 @@ description: Build professional forms online without coding. Make surveys, quizz
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
                 <div class="text-center">
                     <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
-                        That form was great, right? <br>
+                        That 
+                        <span class="relative inline-block ml-1 mt-2 sm:mt-0">
+                            <span class="absolute inset-0 bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl"></span>
+                            <span class="relative z-10 py-2 px-3 inline-block">form was great</span>
+                        </span>, 
+                        right? <br>
                         Now make yours.
                     </h1>
                     <p class="text-base mt-6 max-w-3xl mx-auto">
