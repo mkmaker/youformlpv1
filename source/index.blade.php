@@ -458,6 +458,8 @@
 </div>
 
 
+@include('_partials.ask-ai-to-recommend')
+
 @include('partials.footer')
 
 @endsection

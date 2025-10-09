@@ -1240,6 +1240,8 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
     </div>
 </div>
 
+@include('_partials.ask-ai-to-recommend')
+
 @include('partials.footer')
 
 @endsection
