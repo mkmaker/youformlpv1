@@ -4,7 +4,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             <div class="lg:col-span-2"></div>
             <div class="lg:col-span-8 lg:col-start-3">
-                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Compare Google Forms vs Youform (Custom Domain Example)</h2>
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Compare Google Forms vs Youform</h2>
                 <p class="text-lg text-gray-700 mb-8">
                     Here's how a form looks when embedded from Google Forms versus Youform with a custom-domain-ready setup.
                 </p>
@@ -16,7 +16,7 @@
                         <div class="border border-gray-200 rounded-lg overflow-hidden mb-4">
                             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScasVGN22KfMsFHgMozqyI0tt1PZbWYk31XIJ5zV2Wnsg-diA/viewform?embedded=true"
                                     width="100%"
-                                    height="613"
+                                    height="700"
                                     frameborder="0"
                                     marginheight="0"
                                     marginwidth="0">
