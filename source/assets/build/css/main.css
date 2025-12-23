@@ -1169,6 +1169,9 @@ select {
 .max-w-4xl {
   max-width: 56rem;
 }
+.max-w-5xl {
+  max-width: 64rem;
+}
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -2613,6 +2616,11 @@ input[type="range"]::-ms-thumb {
 
   .md\:p-12 {
     padding: 3rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .md\:px-20 {
