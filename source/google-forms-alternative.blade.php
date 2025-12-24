@@ -7,13 +7,13 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
 
 @section('body')
 
-<!-- header -->
+<!-- Page header and hero section -->
 <div> 
     <div class="bg-medium-champagne bg-[url('/assets/images/banner-background.png?v=2')] bg-cover bg-no-repeat bg-center">
-        <!-- navbar   -->
+        <!-- Navbar -->
         @include('partials.nav')
 
-        <!-- hero section --> 
+        <!-- Hero section --> 
         <div class="relative max-w-7xl mx-auto mt-10 pb-20">
             <div class="flex flex-col justify-center lg:grid grid-cols-5 items-center px-10 md:px-20">
                 <div class="flex flex-col items-center lg:items-start col-span-3 lg:pr-16 xl:pr-20">
@@ -71,219 +71,245 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
                 </figure>
             </div>
         </div>
-
-        <div>
-            <img class="w-full mt-4" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
-        </div>
+    </div>
+    <div>
+        <!-- Decorative wave image for section transition -->
+        <img class="w-full -mt-4 lg:-mt-8" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
     </div>
 </div>
 
-<!-- Overview / Positioning -->
-<div class="bg-white py-20">
-    <div class="max-w-7xl mx-auto px-10 md:px-20">
-        <div class="max-w-3xl mx-auto text-center">
-            <h2 class="text-3xl sm:text-4xl font-bold mb-6">Why teams look for a Google Forms alternative</h2>
-            <p class="text-lg text-gray-700 mb-4">
-                Google Forms is built for simple data collection inside the Google ecosystem. It works well for internal surveys and quick one-off forms.
+<!-- Comparison table: Design & UX -->
+<div class="bg-aquamarine" style="background-color: rgba(69, 173, 148, 0.85);">
+    <div class="relative max-w-7xl mx-auto -mt-10 lg:-mt-20 pb-24 pt-40">
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center pb-4 px-10 md:px-20">
+            Forms that feel intentional
+        </h2>
+        <p class="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-12 px-10 md:px-20">
+            Your form is the last step before a signup, lead, or payment. It should feel deliberate.
+        </p>
+
+        <div class="max-w-5xl mx-auto px-6 md:px-0 mb-8">
+            <div class="overflow-x-auto bg-white border-2 border-black rounded-xl drop-shadow-6xl">
+                <table class="min-w-full text-left text-sm md:text-base">
+                    <thead class="bg-gray-100 border-b-2 border-black">
+                        <tr>
+                            <th class="px-6 py-4"></th>
+                            <th class="px-6 py-4 text-center bg-amber-50">
+                                <img src="/assets/images/youform-logo.png" alt="Youform" class="h-8 mx-auto mb-2">
+                                <div class="font-bold text-lg flex items-center justify-center gap-2">
+                                    Youform
+                                </div>
+                            </th>
+                            <th class="px-6 py-4 text-center bg-gray-50">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve" class="h-8 mx-auto mb-2"><rect x="-4" y="-4" fill="none" width="48" height="48"></rect><g><polygon fill="#56368A" points="24.5,10 30,11 34.5,10 24.5,0 23.2,4.7"></polygon><path fill="#7248B9" d="M24.5,10V0H8.2C6.7,0,5.5,1.2,5.5,2.7v34.5c0,1.5,1.2,2.7,2.7,2.7h23.6c1.5,0,2.7-1.2,2.7-2.7V10H24.5z"></path><path fill="#FFFFFF" d="M13.2,28.9c-0.8,0-1.4-0.6-1.4-1.4c0-0.8,0.6-1.4,1.4-1.4c0.8,0,1.4,0.6,1.4,1.4 C14.5,28.2,13.9,28.9,13.2,28.9z M13.2,23.4c-0.8,0-1.4-0.6-1.4-1.4s0.6-1.4,1.4-1.4c0.8,0,1.4,0.6,1.4,1.4S13.9,23.4,13.2,23.4z M13.2,17.9c-0.8,0-1.4-0.6-1.4-1.4c0-0.8,0.6-1.4,1.4-1.4c0.8,0,1.4,0.6,1.4,1.4C14.5,17.3,13.9,17.9,13.2,17.9z M28.2,28.6H16.8 v-2.3h11.4V28.6z M28.2,23.2H16.8v-2.3h11.4V23.2z M28.2,17.7H16.8v-2.3h11.4V17.7z"></path></g></svg>
+                                <div class="font-semibold text-lg">Google Forms</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-200">
+                            <td class="px-6 py-4 font-semibold bg-gray-50">Interface</td>
+                            <td class="px-6 py-4 bg-amber-50 font-medium">Conversion-focused design that increases completion rates</td>
+                            <td class="px-6 py-4 bg-gray-50">Designed for internal use</td>
+                        </tr>
+                        <tr class="bg-gray-50 border-b border-gray-200">
+                            <td class="px-6 py-4 font-semibold bg-gray-50">Branding</td>
+                            <td class="px-6 py-4 bg-amber-50 font-medium">Full brand control — colors, fonts, logos, layout</td>
+                            <td class="px-6 py-4 bg-gray-50">Google branding always visible</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="px-6 py-4 font-semibold bg-gray-50">User flow</td>
+                            <td class="px-6 py-4 bg-amber-50 font-medium">Multi-step layouts improve focus and completion</td>
+                            <td class="px-6 py-4 bg-gray-50">Long single-page layouts</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 font-semibold bg-gray-50">Audience</td>
+                            <td class="px-6 py-4 bg-amber-50 font-medium">Built for external-facing forms and conversions</td>
+                            <td class="px-6 py-4 bg-gray-50">Optimized for internal surveys</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="my-10"></div>
+        <div class="flex justify-center">
+            <p class="text-center text-base font-semibold text-gray-800 max-w-2xl mx-auto px-10 md:px-20 flex items-center gap-2">
+                If your form is customer-facing,&nbsp;
+                <img src="/assets/images/youform-logo.png" alt="Youform" class="h-5 w-5 inline-block mb-0.5">Youform is the right tool.
             </p>
-            <p class="text-lg text-gray-700">
-                Youform is built for teams, creators, businesses, and individuals who want forms that look professional, offer stronger user experience, total branding control, and far fewer limitations.
-            </p>
         </div>
+        <div class="my-10"></div>
     </div>
 </div>
 
-<!-- Design & UX Comparison -->
-<div class="bg-aquamarine">
-    <div class="relative max-w-7xl mx-auto -mt-10 lg:-mt-20 pb-20">
-        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center pt-40 pb-10 px-10 md:px-20">
-            Design & user experience
-        </h2>
-        <p class="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-10 px-10 md:px-20">
-            Your form is often the last step before a lead, signup, or sale. It should feel intentional, on-brand, and easy to complete — not like a generic internal tool.
-        </p>
-
-        <div class="max-w-5xl mx-auto px-6 md:px-0">
-            <div class="overflow-x-auto bg-white border-2 border-black rounded-xl drop-shadow-6xl">
-                <table class="min-w-full text-left text-sm md:text-base">
-                    <thead class="bg-gray-100 border-b border-black">
-                        <tr>
-                            <th class="px-4 py-3"></th>
-                            <th class="px-4 py-3 font-bold">Youform</th>
-                            <th class="px-4 py-3 font-bold">Google Forms</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="border-b border-gray-200">
-                            <td class="px-4 py-3 font-semibold">Interface</td>
-                            <td class="px-4 py-3">Modern, clean, conversion-focused</td>
-                            <td class="px-4 py-3">Functional but basic</td>
-                        </tr>
-                        <tr class="bg-gray-50 border-b border-gray-200">
-                            <td class="px-4 py-3 font-semibold">Branding</td>
-                            <td class="px-4 py-3">Forms feel intentional, on-brand and professional</td>
-                            <td class="px-4 py-3">Limited visual hierarchy or layout control</td>
-                        </tr>
-                        <tr class="border-b border-gray-200">
-                            <td class="px-4 py-3 font-semibold">User flow</td>
-                            <td class="px-4 py-3">Multi-step layouts improve focus and completion</td>
-                            <td class="px-4 py-3">Single-page forms can feel long and overwhelming</td>
-                        </tr>
-                        <tr>
-                            <td class="px-4 py-3 font-semibold">Audience</td>
-                            <td class="px-4 py-3">Built for both creators and respondents — external & internal</td>
-                            <td class="px-4 py-3">Optimized for internal, utilitarian survey scenarios</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Customization & Branding -->
+<!-- Comparison table: Customization & Pricing -->
 <div class="bg-white">
-    <div class="relative max-w-7xl mx-auto -mt-10 lg:-mt-20 pb-20 pt-24 px-10 md:px-20">
+    <div class="relative max-w-7xl mx-auto -mt-10 lg:-mt-20 pb-24 pt-24 px-10 md:px-20">
         <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center mb-8">
-            Customization & branding
-        </h2>
-        <p class="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            Youform gives you full control over how your forms look and feel, so they can match your website, product, and brand — not Google's.
-        </p>
-
-        <div class="max-w-5xl mx-auto">
-            <div class="overflow-x-auto bg-white border-2 border-black rounded-xl drop-shadow-6xl">
-                <table class="min-w-full text-left text-sm md:text-base">
-                    <thead class="bg-gray-100 border-b border-black">
-                        <tr>
-                            <th class="px-4 py-3"></th>
-                            <th class="px-4 py-3 font-bold">Youform</th>
-                            <th class="px-4 py-3 font-bold">Google Forms</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="border-b border-gray-200">
-                            <td class="px-4 py-3 font-semibold">Design</td>
-                            <td class="px-4 py-3">Full control of colors, fonts, logos, layout</td>
-                            <td class="px-4 py-3">Minimal customization options</td>
-                        </tr>
-                        <tr class="bg-gray-50 border-b border-gray-200">
-                            <td class="px-4 py-3 font-semibold">Branding</td>
-                            <td class="px-4 py-3">Remove Youform branding on paid plans</td>
-                            <td class="px-4 py-3">Google branding always visible</td>
-                        </tr>
-                        <tr class="border-b border-gray-200">
-                            <td class="px-4 py-3 font-semibold">Custom domains</td>
-                            <td class="px-4 py-3">Supported on all plans — no Google Workspace needed</td>
-                            <td class="px-4 py-3">Google Workspace required for custom domain</td>
-                        </tr>
-                        <tr>
-                            <td class="px-4 py-3 font-semibold">Templates</td>
-                            <td class="px-4 py-3">500+ professional templates across categories</td>
-                            <td class="px-4 py-3">Templates are limited and generic</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Pricing & Limits -->
-<div class="bg-vivid-yellow border-t-4 border-black">
-    <div class="relative max-w-7xl mx-auto py-20 px-10 md:px-20">
-        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center mb-8">
-            Pricing & limits
-        </h2>
-        <p class="text-center text-lg text-gray-800 max-w-3xl mx-auto mb-10">
-            Youform is designed to stay generous even as you grow — with unlimited forms and responses on the free plan.
-        </p>
-
-        <div class="max-w-5xl mx-auto">
-            <div class="overflow-x-auto bg-white border-2 border-black rounded-xl drop-shadow-6xl">
-                <table class="min-w-full text-left text-sm md:text-base">
-                    <thead class="bg-gray-100 border-b border-black">
-                        <tr>
-                            <th class="px-4 py-3"></th>
-                            <th class="px-4 py-3 font-bold">Youform</th>
-                            <th class="px-4 py-3 font-bold">Google Forms</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="border-b border-gray-200">
-                            <td class="px-4 py-3 font-semibold">Free tier</td>
-                            <td class="px-4 py-3">Unlimited forms & responses, free forever, no credit card</td>
-                            <td class="px-4 py-3">Free for basic use</td>
-                        </tr>
-                        <tr class="bg-gray-50 border-b border-gray-200">
-                            <td class="px-4 py-3 font-semibold">Caps</td>
-                            <td class="px-4 py-3">No artificial limits on core features</td>
-                            <td class="px-4 py-3">Advanced needs require Google Workspace</td>
-                        </tr>
-                        <tr class="border-b border-gray-200">
-                            <td class="px-4 py-3 font-semibold">Premium</td>
-                            <td class="px-4 py-3">Affordable plans unlock advanced features</td>
-                            <td class="px-4 py-3">Custom domains, deeper analytics, etc. require paid plans</td>
-                        </tr>
-                        <tr>
-                            <td class="px-4 py-3 font-semibold">Product focus</td>
-                            <td class="px-4 py-3">Built as a full-featured product, not a side tool</td>
-                            <td class="px-4 py-3">Primarily a supporting tool inside Google ecosystem</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Advanced Features Grid -->
-<div class="bg-white">
-    <div class="relative max-w-7xl mx-auto py-20 px-10 md:px-20">
-        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center mb-8">
-            Advanced form features that go beyond Google Forms
+            Control without workarounds
         </h2>
         <p class="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-12">
-            Youform gives you the building blocks you need for serious forms, surveys and quizzes — without needing multiple tools.
+            Your forms, your brand. No Google Workspace subscriptions. No technical hurdles.
         </p>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="bg-white shadow-lg p-5 rounded-md border-2 border-black drop-shadow-6xl">
-                <h3 class="text-2xl font-bold text-gray-800 mb-3">Advanced logic</h3>
-                <p class="text-sm text-gray-600">
-                    Use conditional logic and flexible branching to show or hide questions based on previous answers.
+        <div class="max-w-6xl mx-auto mb-8">
+            <div class="overflow-x-auto bg-white border-2 border-black rounded-xl drop-shadow-6xl">
+                <table class="min-w-full text-left text-base">
+                    <thead class="bg-gray-100 border-b-2 border-black">
+                        <tr>
+                            <th class="px-6 py-4 font-semibold text-left"></th>
+                            <th class="px-6 py-4 text-center bg-amber-50">
+                                <img src="/assets/images/youform-logo.png" alt="Youform" class="h-8 mx-auto mb-2">
+                                <div class="font-bold text-lg">Youform</div>
+                            </th>
+                            <th class="px-6 py-4 text-center bg-gray-50">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve" class="h-8 mx-auto mb-2"><rect x="-4" y="-4" fill="none" width="48" height="48"></rect><g><polygon fill="#56368A" points="24.5,10 30,11 34.5,10 24.5,0 23.2,4.7"></polygon><path fill="#7248B9" d="M24.5,10V0H8.2C6.7,0,5.5,1.2,5.5,2.7v34.5c0,1.5,1.2,2.7,2.7,2.7h23.6c1.5,0,2.7-1.2,2.7-2.7V10H24.5z"></path><path fill="#FFFFFF" d="M13.2,28.9c-0.8,0-1.4-0.6-1.4-1.4c0-0.8,0.6-1.4,1.4-1.4c0.8,0,1.4,0.6,1.4,1.4 C14.5,28.2,13.9,28.9,13.2,28.9z M13.2,23.4c-0.8,0-1.4-0.6-1.4-1.4s0.6-1.4,1.4-1.4c0.8,0,1.4,0.6,1.4,1.4S13.9,23.4,13.2,23.4z M13.2,17.9c-0.8,0-1.4-0.6-1.4-1.4c0-0.8,0.6-1.4,1.4-1.4c0.8,0,1.4,0.6,1.4,1.4C14.5,17.3,13.9,17.9,13.2,17.9z M28.2,28.6H16.8 v-2.3h11.4V28.6z M28.2,23.2H16.8v-2.3h11.4V23.2z M28.2,17.7H16.8v-2.3h11.4V17.7z"></path></g></svg>
+                                <div class="font-semibold text-lg">Google Forms</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-200">
+                            <td class="px-6 py-4 font-semibold bg-gray-50">Design & branding</td>
+                            <td class="px-6 py-4 bg-amber-50 font-medium">Full brand control. Remove Youform branding on paid plans.</td>
+                            <td class="px-6 py-4 bg-gray-50">Google branding always visible</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="px-6 py-4 font-semibold bg-gray-50">Custom domains</td>
+                            <td class="px-6 py-4 bg-amber-50 font-medium">All plans. No Google Workspace required.</td>
+                            <td class="px-6 py-4 bg-gray-50">Requires Google Workspace</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="px-6 py-4 font-semibold bg-gray-50">Templates</td>
+                            <td class="px-6 py-4 bg-amber-50 font-medium">500+ professional templates</td>
+                            <td class="px-6 py-4 bg-gray-50">Limited options</td>
+                        </tr>
+                        <tr class="border-b border-gray-200">
+                            <td class="px-6 py-4 font-semibold bg-gray-50">Free tier</td>
+                            <td class="px-6 py-4 bg-amber-50 font-medium">Unlimited forms & responses. No credit card.</td>
+                            <td class="px-6 py-4 bg-gray-50">Free for basic use</td>
+                        </tr>
+                        <tr>
+                            <td class="px-6 py-4 font-semibold bg-gray-50">Limits</td>
+                            <td class="px-6 py-4 bg-amber-50 font-medium">No artificial caps on core features</td>
+                            <td class="px-6 py-4 bg-gray-50">Advanced features require paid plans</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <p class="text-center text-base font-semibold text-gray-800 max-w-2xl mx-auto">
+            If you need branded, customer-facing forms, Youform removes the constraints.
+        </p>
+    </div>
+</div>
+
+<!-- Advanced Features showcase -->
+<div class="relative bg-gradient-to-br from-amber-50 via-white to-aquamarine/20 py-24 overflow-hidden border-t-4 border-black">
+    <div class="relative max-w-7xl mx-auto px-6 md:px-20 z-10">
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 text-center mb-6 drop-shadow-sm">
+            Advanced form features that go <span class="text-coral">beyond</span> Google Forms
+        </h2>
+        <p class="text-lg text-center text-gray-700 max-w-2xl mx-auto mb-14">
+            Youform gives you all the tools professionals need for stunning, conversion-friendly forms, surveys, and quizzes — <span class="text-black">no compromises.</span>
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Card 1: Advanced Logic -->
+            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
+                <div class="flex items-center justify-center mb-4">
+                    <svg class="w-10 h-10 text-aquamarine" fill="none" viewBox="0 0 64 64">
+                        <circle cx="12" cy="12" r="6" fill="currentColor"/>
+                        <circle cx="52" cy="12" r="6" fill="currentColor"/>
+                        <circle cx="12" cy="52" r="6" fill="currentColor"/>
+                        <circle cx="52" cy="52" r="6" fill="currentColor"/>
+                        <path d="M12 18v28M18 12h28M52 18v28M18 52h28" stroke="currentColor" stroke-width="2"/>
+                        <path d="M12 18c0 13 40 13 40 0" stroke="currentColor" stroke-width="2" stroke-dasharray="4,4"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Advanced logic</h3>
+                <p class="text-base text-gray-700 text-center">
+                    Show or hide questions based on previous answers. Branch forms dynamically to guide every respondent the smart way.
                 </p>
             </div>
-            <div class="bg-white shadow-lg p-5 rounded-md border-2 border-black drop-shadow-6xl">
-                <h3 class="text-2xl font-bold text-gray-800 mb-3">Multi-step layouts</h3>
-                <p class="text-sm text-gray-600">
-                    Turn long forms into focused, multi-step experiences that keep people moving forward — and finishing.
+            <!-- Card 2: Multi-step layouts -->
+            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
+                <div class="flex items-center justify-center mb-4">
+                    <svg class="w-10 h-10 text-coral" fill="none" viewBox="0 0 30 30">
+                        <rect x="7" y="7" width="16" height="4" rx="2" fill="currentColor"/>
+                        <rect x="7" y="13" width="16" height="4" rx="2" fill="currentColor"/>
+                        <rect x="7" y="19" width="8" height="4" rx="2" fill="currentColor"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Multi-step layouts</h3>
+                <p class="text-base text-gray-700 text-center">
+                    Turn long forms into focused, multi-step experiences — increase completion rates and keep users engaged.
                 </p>
             </div>
-            <div class="bg-white shadow-lg p-5 rounded-md border-2 border-black drop-shadow-6xl">
-                <h3 class="text-2xl font-bold text-gray-800 mb-3">Outcome-based quizzes</h3>
-                <p class="text-sm text-gray-600">
-                    Build engaging quizzes with personalized results — perfect for lead gen, onboarding and education.
+            <!-- Card 3: Outcome-based quizzes -->
+            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
+                <div class="flex items-center justify-center mb-4">
+                    <svg class="w-10 h-10 text-purple-500" fill="none" viewBox="0 0 48 48">
+                        <path d="M18 19c0-3.3 2.5-5 6-5s6 1.7 6 5c0 3-2 4-4 5s-2 2-2 3" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="24" cy="34" r="2" fill="currentColor"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Outcome-based quizzes</h3>
+                <p class="text-base text-gray-700 text-center">
+                    Build interactive quizzes with personalized results — ideal for lead generation, onboarding, and education.
                 </p>
             </div>
-            <div class="bg-white shadow-lg p-5 rounded-md border-2 border-black drop-shadow-6xl">
-                <h3 class="text-2xl font-bold text-gray-800 mb-3">Flexible file uploads</h3>
-                <p class="text-sm text-gray-600">
-                    Accept files from anyone, without requiring a Google account or forcing everything into Google Drive.
+            <!-- Card 4: Flexible file uploads -->
+            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
+                <div class="flex items-center justify-center mb-4">
+                    <svg class="w-10 h-10 text-blue-500" fill="none" viewBox="0 0 48 48">
+                        <rect x="8" y="8" width="32" height="36" rx="4" stroke="currentColor" stroke-width="2" fill="none"/>
+                        <path d="M24 32V18" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M19 23l5-5 5 5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Flexible file uploads</h3>
+                <p class="text-base text-gray-700 text-center">
+                    Accept file uploads from anyone — no Google account required, no forced Drive usage.
                 </p>
             </div>
-            <div class="bg-white shadow-lg p-5 rounded-md border-2 border-black drop-shadow-6xl">
-                <h3 class="text-2xl font-bold text-gray-800 mb-3">Save & continue</h3>
-                <p class="text-sm text-gray-600">
-                    Let respondents save progress and finish later — especially useful for long, high-value forms.
+            <!-- Card 5: Save & continue -->
+            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
+                <div class="flex items-center justify-center mb-4">
+                    <svg class="w-10 h-10 text-green-500" fill="none" viewBox="0 0 48 48">
+                        <path d="M15 27l7 7 12-13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Save & continue</h3>
+                <p class="text-base text-gray-700 text-center">
+                    Let respondents save their progress and finish later — perfect for longer or high-value forms.
                 </p>
             </div>
-            <div class="bg-white shadow-lg p-5 rounded-md border-2 border-black drop-shadow-6xl">
-                <h3 class="text-2xl font-bold text-gray-800 mb-3">Custom thank you pages</h3>
-                <p class="text-sm text-gray-600">
-                    Fully customize what happens after submission — redirect, show tailored messaging, or guide the next step.
+            <!-- Card 6: Custom thank you pages -->
+            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
+                <div class="flex items-center justify-center mb-4">
+                    <svg class="w-10 h-10 text-yellow-500" fill="none" viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"/>
+                        <circle cx="17" cy="21" r="3" fill="currentColor"/>
+                        <circle cx="31" cy="21" r="3" fill="currentColor"/>
+                        <path d="M17 31c2 2 10 2 14 0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Custom thank you pages</h3>
+                <p class="text-base text-gray-700 text-center">
+                    Control the entire experience after submission — show tailored messages, redirect, or guide users to the next step.
                 </p>
             </div>
+        </div>
+        <div class="mt-16 flex justify-center">
+            <a 
+                href="https://app.youform.com/register" 
+                class="inline-block px-10 py-3 rounded-lg bg-coral border-2 border-black text-lg font-bold text-black shadow-xl drop-shadow-4xl transition-all 
+                    hover:shadow-[6px_6px_0_0_rgba(0,0,0,1)] hover:translate-x-1.5 hover:translate-y-1.5 hover:bg-coral hover:text-black focus:outline-none"
+                style="transition-property: box-shadow, transform, background, color;">
+                Try all features free
+            </a>
         </div>
     </div>
 </div>
@@ -317,7 +343,7 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
     </div>
 </div>
 
-<!-- Migration Path -->
+<!-- Migration steps -->
 <div class="bg-white">
     <div class="relative max-w-7xl mx-auto py-20 px-10 md:px-20">
         <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center mb-8">
@@ -339,7 +365,7 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
     </div>
 </div>
 
-<!-- Embed Comparison -->
+<!-- Embed comparison section -->
 @include('partials.google-forms-embed-compare')
 
 @include('_partials.ask-ai-to-recommend', [
@@ -349,5 +375,4 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
 @include('partials.footer')
 
 @endsection
-
 

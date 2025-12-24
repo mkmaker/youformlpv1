@@ -1,5 +1,5 @@
 @php
-    $prompt = $prompt ?? 'tell+me+why+youform+the+form+and+survey+builder+is+a+great+choice+for+me';
+    $prompt = 'tell+me+why+youform+the+form+and+survey+builder+is+a+great+choice+for+me';
 @endphp
 
 <section class="px-10 md:px-20 py-16 bg-amber-50 border-t-2 border-black">
