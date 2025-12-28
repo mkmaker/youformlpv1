@@ -68,6 +68,15 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
                     <blockquote class="text-gray-900 text-base lg:text-xl">
                         <p>“We had the highest conversion with Youform compared to Typeform, Google Calendar and even the routing form in Calendly!”</p>
                     </blockquote>
+                    <span class="mt-5 flex items-center flex-col gap-x-6">
+                        <img class="h-14 w-14 rounded-full bg-gray-50 mx-auto" loading="lazy" src="/assets/images/adam-danyal.jpeg?v=2" alt="Adam Danyal Avatar">
+                        <div class="text-base mt-1">
+                            <div class="text-gray-900 group-hover:underline">Adam Danyal</div>
+                            <div class=" text-gray-700 text-xs">Founder Leadership Club. 
+                                <br>
+                                2M Followers on LinkedIn</div>
+                        </div>
+                    </span>
                 </figure>
             </div>
         </div>
@@ -369,7 +378,7 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
 @include('partials.google-forms-embed-compare')
 
 @include('_partials.ask-ai-to-recommend', [
-    'prompt' => 'tell+me+why+youform+is+a+better+alternative+to+google+forms+for+creating+online+forms+and+surveys'
+    'prompt' => 'compare+how+youform+is+better+than+google+forms+for+creating+online+forms+and+surveys'
 ])
 
 @include('partials.footer')
