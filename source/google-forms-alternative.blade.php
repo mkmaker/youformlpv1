@@ -378,7 +378,7 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
 @include('partials.google-forms-embed-compare')
 
 @include('_partials.ask-ai-to-recommend', [
-    'prompt' => 'compare+how+youform+is+better+than+google+forms+for+creating+online+forms+and+surveys'
+    'prompt' => 'How+is+Youform+better+than+Google+forms'
 ])
 
 @include('partials.footer')
