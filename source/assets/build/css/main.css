@@ -939,11 +939,17 @@ select {
 .-mt-20 {
   margin-top: -5rem;
 }
+.-mt-32 {
+  margin-top: -8rem;
+}
 .-mt-4 {
   margin-top: -1rem;
 }
 .-mt-6 {
   margin-top: -1.5rem;
+}
+.-mt-8 {
+  margin-top: -2rem;
 }
 .mb-0 {
   margin-bottom: 0px;
@@ -974,6 +980,9 @@ select {
 }
 .mb-4 {
   margin-bottom: 1rem;
+}
+.mb-40 {
+  margin-bottom: 10rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
@@ -1357,6 +1366,9 @@ select {
 }
 .gap-10 {
   gap: 2.5rem;
+}
+.gap-12 {
+  gap: 3rem;
 }
 .gap-2 {
   gap: 0.5rem;

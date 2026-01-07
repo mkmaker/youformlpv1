@@ -220,8 +220,70 @@ description: Create professional surveys online with Youform's free survey build
     </div>
 </div>
 
+<!-- Demo survey embed -->
+<div class="bg-white py-20 mb-40">
+    <div class="max-w-7xl mx-auto px-10 md:px-20">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 mb-6">
+                See a sample online survey
+            </h2>
+            <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                Preview a live Youform survey and feel the one-question-at-a-time flow your respondents will experience.
+            </p>
+        </div>
+        <div class="max-w-4xl mx-auto">
+            <div class="bg-white border-2 border-black rounded-xl drop-shadow-6xl overflow-hidden">
+                <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="700" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Survey Templates Block as on homepage -->
+<div class="-mt-32 relative">
+    <img loading="lazy" src="/assets/images/yellow-wave-up.png" alt="wave decoration image" class="w-full">
+    <div class="bg-vivid-yellow -mt-4 pb-10 pt-6">
+        <div class="relative max-w-7xl mx-auto">
+            <div class="px-10 md:px-20 text-center">
+                <h2 class="text-6xl font-bold text-gray-800 mb-4">
+                    500+ Form Templates
+                </h2>
+                <p class="text-gray-600 max-w-xl mx-auto mb-6 text-lg">
+                    Start from a professionally designed survey template and customize it to match your brand.
+                </p>
+            </div>
+            <div class="max-w-7xl mx-auto px-10 md:px-20 py-10">
+                <div class="flex items-center justify-between mb-10">
+                    <h2 class="text-3xl font-bold">
+                        Surveys
+                    </h2>
+                    <div>
+                        <a href="/templates/c/surveys" class="hover:underline">
+                            View All Survey Templates
+                        </a>
+                        &rarr;
+                    </div>
+                </div>
+                <div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                        @php $rendered = 0; @endphp
+                        @foreach ($page->templates['survey'] as $template)
+                            @include('_partials.template-card', ['template' => $template])
+                            @php $rendered++; @endphp
+                            @if ($rendered >= 3)
+                                @break
+                            @endif
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img class="-mt-8 w-full" loading="lazy" src="/assets/images/yellow-wave-down.png" alt="wave decoration image">
+</div>
+
 <!-- FAQ Section -->
-<div class="bg-amber-50 py-20" id="faq">
+<div class="bg-white py-20" id="faq">
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             <div class="lg:col-span-2"></div>
