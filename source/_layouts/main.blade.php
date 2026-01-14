@@ -12,15 +12,26 @@
         <meta name="language" content="English">
 
         <!-- Primary Meta Tags -->
+        @if(($page->template_slug ?? '') === 'software-customer-satisfaction-survey-template')
+        <title>Free Customer Satisfaction (CSAT) Survey Template | YouForm</title>
+        <meta name="title" content="Free Customer Satisfaction (CSAT) Survey Template | YouForm">
+        <meta name="description" content="Get started with our free customer satisfaction (CSAT) survey template. Easily customize questions, measure customer feedback, and improve your business with YouForm.">
+        @else
         <title>{{ $page->title }}</title>
         <meta name="title" content="{{ $page->title }}">
         <meta name="description" content="{{ $page->description }}">
+        @endif
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="{{ $page->getUrl() }}">
+        @if(($page->template_slug ?? '') === 'software-customer-satisfaction-survey-template')
+        <meta property="og:title" content="Free Customer Satisfaction (CSAT) Survey Template | YouForm">
+        <meta property="og:description" content="Get started with our free customer satisfaction (CSAT) survey template. Easily customize questions, measure customer feedback, and improve your business with YouForm.">
+        @else
         <meta property="og:title" content="{{ $page->title }}">
         <meta property="og:description" content="{{ $page->description }}">
+        @endif
         @if($page->image)
             <meta property="og:image" content="{{ $page->image }}">
         @else
@@ -30,8 +41,13 @@
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="{{ $page->getUrl() }}">
+        @if(($page->template_slug ?? '') === 'software-customer-satisfaction-survey-template')
+        <meta property="twitter:title" content="Free Customer Satisfaction (CSAT) Survey Template | YouForm">
+        <meta property="twitter:description" content="Get started with our free customer satisfaction (CSAT) survey template. Easily customize questions, measure customer feedback, and improve your business with YouForm.">
+        @else
         <meta property="twitter:title" content="{{ $page->title }}">
         <meta property="twitter:description" content="{{ $page->description }}">
+        @endif
         @if($page->image)
             <meta property="twitter:image" content="{{ $page->image }}">
         @else
