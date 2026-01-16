@@ -102,6 +102,22 @@ description: Get QR code for your Google form. Just paste your form link and get
                                     </a>
                                 </div>
                             </div>
+
+                            <div class="mt-10">
+                                <h2 class="font-semibold text-lg mb-4">
+                                    Watch how it works
+                                </h2>
+                                <div class="relative w-full" style="padding-bottom: 56.25%;">
+                                    <iframe 
+                                        class="absolute top-0 left-0 w-full h-full rounded-lg border-2 border-black"
+                                        src="https://www.youtube.com/embed/fLtIC1rm7ko" 
+                                        title="YouTube video player" 
+                                        frameborder="0" 
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                        allowfullscreen>
+                                    </iframe>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
