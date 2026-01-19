@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-10 w-full lg:w-auto lg:ml-16">
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-10 w-full lg:w-auto lg:ml-16">
                 <div>
                     <h3 class="text-white font-semibold mb-3">Product</h3>
                     <ul class="space-y-2 text-sm">
@@ -83,6 +83,14 @@
                         <li><a class="text-white hover:underline" href="/privacy-policy">Privacy</a></li>
                         <li><a class="text-white hover:underline" href="/terms">Terms</a></li>
                         <li><a class="text-white hover:underline" href="https://help.youform.com/p/Zig_2NIZDlwCzh/What-security-and-privacy-measures-does-Youform-have-in-place">Security</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Alternatives</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="/google-forms-alternative">Google Forms alternative</a></li>
+                        <li><a class="text-white hover:underline" href="https://youform.com/blog/tally-forms-vs-youform-cm78l24ne001p1188wueqp8qx" target="_blank">Tally forms alternative</a></li>
                     </ul>
                 </div>
             </div>
