@@ -1,7 +1,3 @@
-title: "Jotform vs Youform: Which is the best form builder? [2026]"
-description: Compare Jotform and Youform side-by-side. See pricing, features, ease of use, and integrations. Find the best Jotform alternative for your business needs in 2026.
----
-
 @extends('_layouts.main')
 
 @section('body')
