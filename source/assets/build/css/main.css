@@ -904,6 +904,10 @@ select {
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
+.-mx-10 {
+  margin-left: -2.5rem;
+  margin-right: -2.5rem;
+}
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -1776,6 +1780,10 @@ select {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
 }
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -1811,6 +1819,10 @@ select {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -2683,6 +2695,11 @@ input[type="range"]::-ms-thumb {
 }
 @media (min-width: 768px) {
 
+  .md\:-mx-20 {
+    margin-left: -5rem;
+    margin-right: -5rem;
+  }
+
   .md\:-mt-16 {
     margin-top: -4rem;
   }
@@ -2790,6 +2807,11 @@ input[type="range"]::-ms-thumb {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 
   .md\:text-xl {
