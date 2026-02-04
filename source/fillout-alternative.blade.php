@@ -42,33 +42,33 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 <div class="lg:sticky lg:top-24 pt-10 lg:pt-16">
                     <div>
                         <h3 class="text-lg font-bold mb-4">Table of Contents</h3>
-                        <ul class="space-y-3">
+                        <ul class="space-y-3" x-data="tocHighlight()">
                             <li>
-                                <a href="#at-a-glance" class="text-aquamarine hover:underline font-medium text-sm">At a Glance: Fillout vs Youform</a>
+                                <a href="#at-a-glance" class="toc-link text-aquamarine hover:underline font-medium text-sm" data-section="at-a-glance">At a Glance: Fillout vs Youform</a>
                             </li>
                             <li>
-                                <a href="#ease-of-building" class="text-aquamarine hover:underline font-medium text-sm">Ease of Form Building</a>
+                                <a href="#ease-of-building" class="toc-link text-aquamarine hover:underline font-medium text-sm" data-section="ease-of-building">Ease of Form Building</a>
                             </li>
                             <li>
-                                <a href="#ui-ux-design" class="text-aquamarine hover:underline font-medium text-sm">UI/UX & Design</a>
+                                <a href="#ui-ux-design" class="toc-link text-aquamarine hover:underline font-medium text-sm" data-section="ui-ux-design">UI/UX & Design</a>
                             </li>
                             <li>
-                                <a href="#logic-automation" class="text-aquamarine hover:underline font-medium text-sm">Logic, Data Intake & Workflows</a>
+                                <a href="#logic-automation" class="toc-link text-aquamarine hover:underline font-medium text-sm" data-section="logic-automation">Logic, Data Intake & Workflows</a>
                             </li>
                             <li>
-                                <a href="#templates-use-cases" class="text-aquamarine hover:underline font-medium text-sm">Templates & Use Cases</a>
+                                <a href="#templates-use-cases" class="toc-link text-aquamarine hover:underline font-medium text-sm" data-section="templates-use-cases">Templates & Use Cases</a>
                             </li>
                             <li>
-                                <a href="#integrations-data" class="text-aquamarine hover:underline font-medium text-sm">Integrations & Data</a>
+                                <a href="#integrations-data" class="toc-link text-aquamarine hover:underline font-medium text-sm" data-section="integrations-data">Integrations & Data</a>
                             </li>
                             <li>
-                                <a href="#pricing-comparison" class="text-aquamarine hover:underline font-medium text-sm">Pricing & Free vs Paid</a>
+                                <a href="#pricing-comparison" class="toc-link text-aquamarine hover:underline font-medium text-sm" data-section="pricing-comparison">Pricing & Free vs Paid</a>
                             </li>
                             <li>
-                                <a href="#when-to-choose" class="text-aquamarine hover:underline font-medium text-sm">When to Choose Each Tool</a>
+                                <a href="#when-to-choose" class="toc-link text-aquamarine hover:underline font-medium text-sm" data-section="when-to-choose">When to Choose Each Tool</a>
                             </li>
                             <li>
-                                <a href="#faq" class="text-aquamarine hover:underline font-medium text-sm">Frequently Asked Questions</a>
+                                <a href="#faq" class="toc-link text-aquamarine hover:underline font-medium text-sm" data-section="faq">Frequently Asked Questions</a>
                             </li>
                         </ul>
                     </div>
@@ -150,32 +150,35 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- Ease of Form Building Section -->
-                <div class="mb-12 bg-gray-50 py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="ease-of-building">
+                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="ease-of-building">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-                            <div class="lg:col-span-2"></div>
-                            <div class="lg:col-span-8 lg:col-start-3">
+                            <div class="lg:col-span-12">
                                 <div class="mb-12">
                                     <h2 class="text-3xl sm:text-4xl font-bold mb-4">Ease of Form Building</h2>
-                                    <p class="text-lg text-gray-700 mb-4">
+                                    <p class="text-lg text-gray-700 mb-8">
                                         Both Fillout and Youform let you build powerful forms without code, but they emphasize different strengths.
                                     </p>
-                                    <p class="text-lg text-gray-700 mb-4">
-                                        <strong>Youform</strong> focuses on simplicity and speed. The builder uses a clean, menu-based interface that lets you add questions quickly without overwhelming options. This makes it ideal for small teams and non-technical users who want to go from idea to published form in minutes.
-                                    </p>
-                                    <p class="text-lg text-gray-700">
-                                        <strong>Fillout</strong> is designed for forms that “do it all.” Its builder exposes more advanced configuration for logic, data intake, scheduling, and document generation. That flexibility makes it well-suited for complex workflows, but it also means more options and configuration screens to work through.
-                                    </p>
-                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                                        <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-4">
-                                            <img src="/assets/images/youform-builder.png" alt="Youform form builder UI" class="rounded-lg w-full mb-3" loading="lazy">
-                                            <p class="text-sm text-gray-700 font-medium">
+                                    
+                                    <div class="mb-12">
+                                        <p class="text-lg text-gray-700 mb-6">
+                                            <strong>Youform</strong> focuses on simplicity and speed. The builder uses a clean, menu-based interface that lets you add questions quickly without overwhelming options. This makes it ideal for small teams and non-technical users who want to go from idea to published form in minutes.
+                                        </p>
+                                        <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-6">
+                                            <img src="/assets/images/youform-builder.png" alt="Youform form builder UI" class="rounded-lg w-full mb-4" loading="lazy">
+                                            <p class="text-base text-gray-700 font-medium">
                                                 Youform builder — modern, clean, and focused on just the essentials.
                                             </p>
                                         </div>
-                                        <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-4">
-                                            <img src="/assets/images/fillout-builder.png" alt="Fillout form builder UI" class="rounded-lg w-full mb-3" loading="lazy">
-                                            <p class="text-sm text-gray-700">
+                                    </div>
+
+                                    <div class="mb-12">
+                                        <p class="text-lg text-gray-700 mb-6">
+                                            <strong>Fillout</strong> is designed for forms that "do it all." Its builder exposes more advanced configuration for logic, data intake, scheduling, and document generation. That flexibility makes it well-suited for complex workflows, but it also means more options and configuration screens to work through.
+                                        </p>
+                                        <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-6">
+                                            <img src="/assets/images/youform-builder.png" alt="Fillout form builder UI" class="rounded-lg w-full mb-4" loading="lazy">
+                                            <p class="text-base text-gray-700">
                                                 Fillout builder — powerful and flexible for advanced form setups and integrations.
                                             </p>
                                         </div>
@@ -190,36 +193,40 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="ui-ux-design">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-                            <div class="lg:col-span-2"></div>
-                            <div class="lg:col-span-8 lg:col-start-3">
+                            <div class="lg:col-span-12">
                                 <div class="mb-12">
                                     <h2 class="text-3xl sm:text-4xl font-bold mb-4">UI/UX & Design</h2>
-                                    <p class="text-lg text-gray-700 mb-4">
+                                    <p class="text-lg text-gray-700 mb-8">
                                         Design impacts how professional your forms feel and how likely people are to complete them.
                                     </p>
-                                    <p class="text-lg text-gray-700 mb-4">
-                                        <strong>Youform</strong> emphasizes conversion-focused layouts with conversational, multi-step flows. Forms feel intentional and branded, with a strong focus on guiding respondents through one question at a time so they don’t feel overwhelmed.
-                                    </p>
-                                    <p class="text-lg text-gray-700 mb-4">
-                                        <strong>Fillout</strong> supports multi-page, mobile-optimized forms with pre-built themes and custom fonts/colors across tiers. On Pro and above, teams can apply custom CSS to match brand guidelines more closely.
-                                    </p>
-                                    <p class="text-lg text-gray-700">
-                                        Both tools produce responsive forms that work well on mobile. Youform leans into simplicity and flow, while Fillout gives you more levers to tune the exact look and feel.
-                                    </p>
-                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                                        <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-4">
-                                            <img src="/assets/images/youform-form.png" alt="Example Youform live form" class="rounded-lg w-full mb-3" loading="lazy">
-                                            <p class="text-sm text-gray-700 font-medium">
+                                    
+                                    <div class="mb-12">
+                                        <p class="text-lg text-gray-700 mb-6">
+                                            <strong>Youform</strong> emphasizes conversion-focused layouts with conversational, multi-step flows. Forms feel intentional and branded, with a strong focus on guiding respondents through one question at a time so they don't feel overwhelmed.
+                                        </p>
+                                        <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-6">
+                                            <img src="/assets/images/submissions.png" alt="Example Youform live form" class="rounded-lg w-full mb-4" loading="lazy">
+                                            <p class="text-base text-gray-700 font-medium">
                                                 Youform form — conversational, multi-step, and optimized for completions.
                                             </p>
                                         </div>
-                                        <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-4">
-                                            <img src="/assets/images/fillout-form.png" alt="Example Fillout live form" class="rounded-lg w-full mb-3" loading="lazy">
-                                            <p class="text-sm text-gray-700">
+                                    </div>
+
+                                    <div class="mb-12">
+                                        <p class="text-lg text-gray-700 mb-6">
+                                            <strong>Fillout</strong> supports multi-page, mobile-optimized forms with pre-built themes and custom fonts/colors across tiers. On Pro and above, teams can apply custom CSS to match brand guidelines more closely.
+                                        </p>
+                                        <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-6">
+                                            <img src="/assets/images/builder.png" alt="Example Fillout live form" class="rounded-lg w-full mb-4" loading="lazy">
+                                            <p class="text-base text-gray-700">
                                                 Fillout form — flexible layouts with themes and custom styling options (Pro+).
                                             </p>
                                         </div>
                                     </div>
+
+                                    <p class="text-lg text-gray-700">
+                                        Both tools produce responsive forms that work well on mobile. Youform leans into simplicity and flow, while Fillout gives you more levers to tune the exact look and feel.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -227,11 +234,10 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- Logic, Data Intake & Workflows Section -->
-                <div class="mb-12 bg-amber-50 py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="logic-automation">
+                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="logic-automation">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-                            <div class="lg:col-span-2"></div>
-                            <div class="lg:col-span-8 lg:col-start-3">
+                            <div class="lg:col-span-12">
                                 <div class="mb-12">
                                     <h2 class="text-3xl sm:text-4xl font-bold mb-4">Logic, Data Intake & Workflows</h2>
                                     <p class="text-lg text-gray-700 mb-4">
@@ -259,8 +265,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="templates-use-cases">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-                            <div class="lg:col-span-2"></div>
-                            <div class="lg:col-span-8 lg:col-start-3">
+                            <div class="lg:col-span-12">
                                 <div class="mb-12">
                                     <h2 class="text-3xl sm:text-4xl font-bold mb-4">Templates & Use Cases</h2>
                                     <p class="text-lg text-gray-700 mb-4">
@@ -279,11 +284,10 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- Integrations & Data Section -->
-                <div class="mb-12 bg-gray-50 py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="integrations-data">
+                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="integrations-data">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-                            <div class="lg:col-span-2"></div>
-                            <div class="lg:col-span-8 lg:col-start-3">
+                            <div class="lg:col-span-12">
                                 <div class="mb-12">
                                     <h2 class="text-3xl sm:text-4xl font-bold mb-4">Integrations & Data</h2>
                                     <p class="text-lg text-gray-700 mb-4">
@@ -375,11 +379,10 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- Pricing & Free vs Paid Section -->
-                <div class="mb-12 bg-amber-50 py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="pricing-comparison">
+                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="pricing-comparison">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-                            <div class="lg:col-span-2"></div>
-                            <div class="lg:col-span-8 lg:col-start-3">
+                            <div class="lg:col-span-12">
                                 <div class="mb-12">
                                     <h2 class="text-3xl sm:text-4xl font-bold mb-4">Pricing & Free vs Paid</h2>
                                     <p class="text-lg text-gray-700 mb-8">
@@ -387,53 +390,53 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                                     </p>
 
                                     <div class="overflow-x-auto bg-white border-2 border-black rounded-xl drop-shadow-6xl mb-6">
-                                        <table class="min-w-full text-left text-base">
+                                        <table class="min-w-full text-left text-sm">
                                             <thead class="bg-gray-100 border-b-2 border-black">
                                                 <tr>
-                                                    <th class="px-6 py-4 font-semibold text-left"></th>
-                                                    <th class="px-6 py-4 text-center bg-amber-50">
-                                                        <img src="/assets/images/youform-logo.png" alt="Youform" class="h-8 mx-auto mb-2">
-                                                        <div class="font-bold text-lg">Youform</div>
+                                                    <th class="px-4 py-3 font-semibold text-left text-sm"></th>
+                                                    <th class="px-4 py-3 text-center bg-amber-50">
+                                                        <img src="/assets/images/youform-logo.png" alt="Youform" class="h-6 mx-auto mb-1">
+                                                        <div class="font-bold text-sm">Youform</div>
                                                     </th>
-                                                    <th class="px-6 py-4 text-center bg-gray-50">
-                                                        <div class="font-semibold text-lg">Fillout</div>
+                                                    <th class="px-4 py-3 text-center bg-gray-50">
+                                                        <div class="font-semibold text-sm">Fillout</div>
                                                     </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr class="border-b border-gray-200">
-                                                    <td class="px-6 py-4 font-semibold bg-gray-50">Free tier</td>
-                                                    <td class="px-6 py-4 bg-amber-50 font-medium">Unlimited forms & responses. No credit card required.</td>
-                                                    <td class="px-6 py-4 bg-gray-50">Unlimited forms & seats, 1,000 responses/mo, logic, payments, scheduling, PDF generation.</td>
+                                                    <td class="px-4 py-3 font-semibold bg-gray-50 text-sm">Free tier</td>
+                                                    <td class="px-4 py-3 bg-amber-50 font-medium text-sm">Unlimited forms & responses. No credit card required.</td>
+                                                    <td class="px-4 py-3 bg-gray-50 text-sm">Unlimited forms & seats, 1,000 responses/mo, logic, payments, scheduling, PDF generation.</td>
                                                 </tr>
                                                 <tr class="border-b border-gray-200">
-                                                    <td class="px-6 py-4 font-semibold bg-gray-50">Mid-tier plans</td>
-                                                    <td class="px-6 py-4 bg-amber-50 font-medium">Pro: remove branding, custom domains, advanced emails, partial submissions, scoring &amp; advanced analytics.</td>
-                                                    <td class="px-6 py-4 bg-gray-50">
+                                                    <td class="px-4 py-3 font-semibold bg-gray-50 text-sm">Mid-tier plans</td>
+                                                    <td class="px-4 py-3 bg-amber-50 font-medium text-sm">Pro: remove branding, custom domains, advanced emails, partial submissions, scoring &amp; advanced analytics.</td>
+                                                    <td class="px-4 py-3 bg-gray-50 text-sm">
                                                         Starter ($15): 2,000 responses/mo, all question types, custom endings/themes/redirect. Pro ($40): 5,000 responses/mo, remove branding, custom emails/share links, custom CSS.
                                                     </td>
                                                 </tr>
                                                 <tr class="border-b border-gray-200">
-                                                    <td class="px-6 py-4 font-semibold bg-gray-50">High tiers</td>
-                                                    <td class="px-6 py-4 bg-amber-50 font-medium">Stay on Pro or upgrade further for more team features as needed.</td>
-                                                    <td class="px-6 py-4 bg-gray-50">
+                                                    <td class="px-4 py-3 font-semibold bg-gray-50 text-sm">High tiers</td>
+                                                    <td class="px-4 py-3 bg-amber-50 font-medium text-sm">Stay on Pro or upgrade further for more team features as needed.</td>
+                                                    <td class="px-4 py-3 bg-gray-50 text-sm">
                                                         Business ($75): unlimited responses, custom domain, partial submissions, analytics, custom code, priority support. Enterprise: SSO, granular permissions, Salesforce, audit logs, SLAs, data residency.
                                                     </td>
                                                 </tr>
                                                 <tr class="border-b border-gray-200">
-                                                    <td class="px-6 py-4 font-semibold bg-gray-50">Custom domain</td>
-                                                    <td class="px-6 py-4 bg-amber-50 font-medium">Available on Pro (paid) plans</td>
-                                                    <td class="px-6 py-4 bg-gray-50">Available on Business and higher</td>
+                                                    <td class="px-4 py-3 font-semibold bg-gray-50 text-sm">Custom domain</td>
+                                                    <td class="px-4 py-3 bg-amber-50 font-medium text-sm">Available on Pro (paid) plans</td>
+                                                    <td class="px-4 py-3 bg-gray-50 text-sm">Available on Business and higher</td>
                                                 </tr>
                                                 <tr class="border-b border-gray-200">
-                                                    <td class="px-6 py-4 font-semibold bg-gray-50">Branding removal</td>
-                                                    <td class="px-6 py-4 bg-amber-50 font-medium">Available on Pro</td>
-                                                    <td class="px-6 py-4 bg-gray-50">Available on Pro and above</td>
+                                                    <td class="px-4 py-3 font-semibold bg-gray-50 text-sm">Branding removal</td>
+                                                    <td class="px-4 py-3 bg-amber-50 font-medium text-sm">Available on Pro</td>
+                                                    <td class="px-4 py-3 bg-gray-50 text-sm">Available on Pro and above</td>
                                                 </tr>
                                                 <tr>
-                                                    <td class="px-6 py-4 font-semibold bg-gray-50">Advanced conversion & analytics</td>
-                                                    <td class="px-6 py-4 bg-amber-50 font-medium">Built-in analytics and drop-off insights for most teams.</td>
-                                                    <td class="px-6 py-4 bg-gray-50">Partial submissions & dedicated form analytics on Business; deeper reporting on Enterprise.</td>
+                                                    <td class="px-4 py-3 font-semibold bg-gray-50 text-sm">Advanced conversion & analytics</td>
+                                                    <td class="px-4 py-3 bg-amber-50 font-medium text-sm">Built-in analytics and drop-off insights for most teams.</td>
+                                                    <td class="px-4 py-3 bg-gray-50 text-sm">Partial submissions & dedicated form analytics on Business; deeper reporting on Enterprise.</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -456,13 +459,15 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="when-to-choose">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-                            <div class="lg:col-span-2"></div>
-                            <div class="lg:col-span-8 lg:col-start-3">
+                            <div class="lg:col-span-12">
                                 <div class="mb-12">
                                     <h2 class="text-3xl sm:text-4xl font-bold mb-8">When to Choose Each Tool</h2>
-                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                    <div class="space-y-8">
                                         <div class="bg-amber-50 border-2 border-black rounded-xl p-6 drop-shadow-6xl">
-                                            <h3 class="text-2xl font-bold mb-4">Youform is ideal if you want:</h3>
+                                            <h3 class="text-2xl font-bold mb-4 flex items-center gap-3">
+                                                <img src="/assets/images/youform-logo.png" alt="Youform" class="h-6">
+                                                <span>Youform is ideal if you want:</span>
+                                            </h3>
                                             <ul class="space-y-3 text-gray-700 text-base">
                                                 <li>• Unlimited responses on the free tier with no credit card.</li>
                                                 <li>• A clean, fast builder that anyone on the team can use.</li>
@@ -489,11 +494,10 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- FAQ Section -->
-                <div class="bg-amber-50 py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="faq">
+                <div class="bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="faq">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
-                            <div class="lg:col-span-2"></div>
-                            <div class="lg:col-span-8 lg:col-start-3">
+                            <div class="lg:col-span-12">
                                 <h2 class="text-3xl sm:text-4xl xl:text-5xl font-bold mb-10 text-center">
                                     Frequently Asked Questions
                                 </h2>
@@ -589,6 +593,49 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
 ])
 
 @include('partials.footer')
+
+<script>
+function tocHighlight() {
+    return {
+        init() {
+            const sectionIds = ['at-a-glance', 'ease-of-building', 'ui-ux-design', 'logic-automation', 'templates-use-cases', 'integrations-data', 'pricing-comparison', 'when-to-choose', 'faq'];
+            const tocLinks = document.querySelectorAll('.toc-link');
+            
+            const updateActiveLink = () => {
+                let currentSection = '';
+                const scrollPosition = window.scrollY + 200;
+                
+                sectionIds.forEach(sectionId => {
+                    const section = document.getElementById(sectionId);
+                    if (section) {
+                        const sectionTop = section.offsetTop;
+                        const sectionHeight = section.offsetHeight;
+                        
+                        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                            currentSection = sectionId;
+                        }
+                    }
+                });
+                
+                tocLinks.forEach(link => {
+                    const sectionId = link.getAttribute('data-section');
+                    if (sectionId === currentSection) {
+                        link.classList.remove('text-aquamarine');
+                        link.classList.add('text-green-600', 'font-bold');
+                    } else {
+                        link.classList.remove('text-green-600', 'font-bold');
+                        link.classList.add('text-aquamarine');
+                    }
+                });
+            };
+            
+            window.addEventListener('scroll', updateActiveLink);
+            window.addEventListener('load', updateActiveLink);
+            updateActiveLink(); // Initial check
+        }
+    };
+}
+</script>
 
 @endsection
 
