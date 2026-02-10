@@ -118,6 +118,8 @@ description: Get QR code for your Google form. Just paste your form link and get
                                     </iframe>
                                 </div>
                             </div>
+
+                            @include('partials.google-forms-converter-cta')
                         </div>
                     </div>
 

@@ -374,6 +374,8 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
     </div>
 </div>
 
+@include('partials.google-forms-converter-cta')
+
 <!-- Embed comparison section -->
 @include('partials.google-forms-embed-compare')
 

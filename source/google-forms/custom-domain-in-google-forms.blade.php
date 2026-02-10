@@ -31,7 +31,7 @@ description: Learn how to use a custom domain with Google Forms. Step-by-step gu
             <img class="-mt-4 w-full" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
         </div>
     </div>
-</div>
+ </div>
 
 <!-- Main Content with TOC Sidebar -->
 <div class="bg-white py-20 -mt-10 lg:-mt-20">
@@ -184,6 +184,8 @@ description: Learn how to use a custom domain with Google Forms. Step-by-step gu
         </div>
     </div>
 </div>
+
+@include('partials.google-forms-converter-cta')
 
 <!-- Youform Simple Solution Section -->
 <div class="bg-amber-50 py-20" id="youform-solution">
