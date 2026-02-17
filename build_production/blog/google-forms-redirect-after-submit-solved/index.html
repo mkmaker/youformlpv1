@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://youform.com/blog/google-forms-redirect-after-submit-solved">
+    
+        <meta name="keywords" content="Youform, form builder">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+
+        <!-- Primary Meta Tags -->
+                <title>Google Forms redirect after submit [Solved]</title>
+        <meta name="title" content="Google Forms redirect after submit [Solved]">
+        <meta name="description" content="Wondering how to redirect after someone submits your Google forms? Here are 3 options.">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://youform.com/blog/google-forms-redirect-after-submit-solved">
+                <meta property="og:title" content="Google Forms redirect after submit [Solved]">
+        <meta property="og:description" content="Wondering how to redirect after someone submits your Google forms? Here are 3 options.">
+                            <meta property="og:image" content="https://youform.com/assets/images/youform-builder.png">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://youform.com/blog/google-forms-redirect-after-submit-solved">
+                <meta property="twitter:title" content="Google Forms redirect after submit [Solved]">
+        <meta property="twitter:description" content="Wondering how to redirect after someone submits your Google forms? Here are 3 options.">
+                            <meta property="twitter:image" content="https://youform.com/assets/images/youform-builder.png">
+        
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">        
+        <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
+
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=a7dd11080762dd38bca3611282b3283f">
+        <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
+
+        
+        <script type='application/ld+json'>
+            {
+              "@context": "http://www.schema.org",
+              "@type": "Corporation",
+              "name": "Youform",
+              "url": "https://youform.com/",
+              "sameAs": [
+                 "https://twitter.com/youformdotcom/",
+                 "https://www.linkedin.com/company/youform.com/"
+              ],
+              "logo": "https://youform.com/assets/images/youform-logo.png",
+              "image": "https://youform.com/assets/images/youform-builder.png",
+              "description": "Youform is a free and intuitive form builder with no limits on submissions."
+            }
+        </script>
+    </head>
+    <body class="text-gray-900 font-sans antialiased relative">
+        
+
+        <div class="">
+            
+<!-- Navbar -->
+<div class="bg-white">
+    <div class="max-w-7xl mx-auto">
+    <div x-data="{ open: false }" class="relative overflow-hidden">
+        <div class="flex justify-between items-center px-10 py-4 md:py-8 md:px-20">
+            <div>
+                <a href="/">
+                    <img src="/assets/images/logo.png" width="170px" alt="">
+                </a>
+            </div>
+            <div class="hidden lg:block capitalize space-x-6">
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/">Home</a>
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/templates">Templates</a>
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
+            </div>
+            <div class="flex space-x-4">
+                <a href="https://app.youform.com/login" class="hidden lg:block bg-vivid-yellow border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                    Log In
+                </a>
+                <a href="https://app.youform.com/register" class="hidden lg:block bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                    Sign Up
+                </a>
+            </div>
+            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open">
+                <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <svg x-cloak x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>                  
+            </a>
+        </div>
+        <div x-show="open" x-cloak x-transition class="lg:hidden bg-coral border-y-2 border-black px-10 py-4">
+            <div class="flex items-center justify-around">
+                <div>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/templates">Templates</a>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
+                </div>
+
+                <div class="flex items-center">
+                    <a href="https://app.youform.com/login" class="block lg:hidden bg-lavender-rose border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                        Log In
+                    </a>
+                    <a href="https://app.youform.com/register" class="hidden sm:block ml-4 lg:hidden bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div></div>
+
+<!-- Back to blog -->
+<div class="bg-white pt-6">
+    <div class="max-w-3xl mx-auto px-10 md:px-20">
+        <a href="/blog" class="text-sm text-gray-400 hover:text-gray-600 transition-colors block text-center">&larr; Back to blog</a>
+    </div>
+</div>
+
+<!-- Hero section -->
+<div class="bg-white pt-6 pb-12">
+    <div class="max-w-3xl mx-auto px-10 md:px-20 text-center">
+        <h1 class="text-3xl sm:text-5xl font-bold leading-tight">
+            Google Forms redirect after submit [Solved]
+        </h1>
+        <p class="text-lg mt-6 text-gray-600 max-w-2xl mx-auto">
+            Wondering how to redirect after someone submits your Google forms? Here are 3 options.
+        </p>
+        <div class="mt-4 text-sm text-gray-500">
+            <span>By Davis Baer</span>
+            <span class="mx-2">&#183;</span>
+            <span>October 13, 2025</span>
+        </div>
+        <div class="mt-3 flex items-center justify-center space-x-2 text-sm text-gray-500"
+     x-data="{ show: false, readTime: '' }"
+     x-init="$nextTick(() => { const a = document.querySelector('article'); if (a) { const m = Math.max(1, Math.ceil(a.innerText.trim().split(/\s+/).length / 200)); readTime = m + ' min read'; } })">
+
+    
+    <span x-text="readTime" x-cloak></span>
+
+    
+    <div class="relative">
+        <button
+            @click="show = !show"
+            @click.away="show = false"
+            class="p-1 text-gray-400 hover:text-gray-700 transition-colors rounded-full hover:bg-gray-100"
+            aria-label="Share"
+        >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" class="w-5 h-5">
+                <circle cx="12" cy="5" r="2"/>
+                <circle cx="12" cy="12" r="2"/>
+                <circle cx="12" cy="19" r="2"/>
+            </svg>
+        </button>
+
+        
+        <div
+            x-show="show"
+            x-cloak
+            x-transition:enter="transition ease-out duration-150"
+            x-transition:enter-start="opacity-0 scale-95"
+            x-transition:enter-end="opacity-100 scale-100"
+            x-transition:leave="transition ease-in duration-100"
+            x-transition:leave-start="opacity-100 scale-100"
+            x-transition:leave-end="opacity-0 scale-95"
+            class="absolute right-0 mt-1 w-52 bg-white border border-gray-200 rounded-lg shadow-lg divide-y divide-gray-100 z-50"
+        >
+            
+            <div class="py-1">
+                <a :href="'https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(document.title)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                    Twitter / X
+                </a>
+                <a :href="'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Facebook
+                </a>
+                <a :href="'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(window.location.href)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="32" width="192" height="192" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="88" cy="84" r="12"/></svg>
+                    LinkedIn
+                </a>
+                <a :href="'https://wa.me/?text=' + encodeURIComponent(document.title + ' ' + window.location.href)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    WhatsApp
+                </a>
+            </div>
+
+            
+            <div class="py-1">
+                <a :href="'https://chatgpt.com/?q=' + encodeURIComponent('Summarize this article: ' + window.location.href)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M22.282 9.821a5.985 5.985 0 0 0-.516-4.91 6.046 6.046 0 0 0-6.51-2.9A6.065 6.065 0 0 0 4.981 4.18a5.985 5.985 0 0 0-3.998 2.9 6.046 6.046 0 0 0 .743 7.097 5.98 5.98 0 0 0 .51 4.911 6.051 6.051 0 0 0 6.515 2.9A5.985 5.985 0 0 0 13.26 24a6.056 6.056 0 0 0 5.772-4.206 5.99 5.99 0 0 0 3.997-2.9 6.056 6.056 0 0 0-.747-7.073zM13.26 22.43a4.476 4.476 0 0 1-2.876-1.04l.141-.081 4.779-2.758a.795.795 0 0 0 .392-.681v-6.737l2.02 1.168a.071.071 0 0 1 .038.052v5.583a4.504 4.504 0 0 1-4.494 4.494zM3.6 18.304a4.47 4.47 0 0 1-.535-3.014l.142.085 4.783 2.759a.771.771 0 0 0 .78 0l5.843-3.369v2.332a.08.08 0 0 1-.033.062L9.74 19.95a4.5 4.5 0 0 1-6.14-1.646zM2.34 7.896a4.485 4.485 0 0 1 2.366-1.973V11.6a.766.766 0 0 0 .388.676l5.815 3.355-2.02 1.168a.076.076 0 0 1-.071 0l-4.83-2.786A4.504 4.504 0 0 1 2.34 7.872zm16.597 3.855l-5.833-3.387L15.119 7.2a.076.076 0 0 1 .071 0l4.83 2.791a4.494 4.494 0 0 1-.676 8.105v-5.678a.79.79 0 0 0-.407-.667zm2.01-3.023l-.141-.085-4.774-2.782a.776.776 0 0 0-.785 0L9.409 9.23V6.897a.066.066 0 0 1 .028-.061l4.83-2.787a4.5 4.5 0 0 1 6.68 4.66zm-12.64 4.135l-2.02-1.164a.08.08 0 0 1-.038-.057V6.075a4.5 4.5 0 0 1 7.375-3.453l-.142.08L8.704 5.46a.795.795 0 0 0-.393.681zm1.097-2.365l2.602-1.5 2.607 1.5v2.999l-2.597 1.5-2.607-1.5z"/></svg>
+                    Ask ChatGPT
+                </a>
+                <a :href="'https://claude.ai/new?q=' + encodeURIComponent('Summarize this article: ' + window.location.href)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M4.709 15.955l1.817-4.207a.431.431 0 0 1 .79 0l1.818 4.207a.43.43 0 0 0 .2.2l4.207 1.818a.431.431 0 0 1 0 .79l-4.207 1.818a.43.43 0 0 0-.2.2L7.316 24.99a.431.431 0 0 1-.79 0l-1.817-4.208a.43.43 0 0 0-.2-.2L.3 18.763a.431.431 0 0 1 0-.79l4.208-1.818a.43.43 0 0 0 .2-.2zM15.61 0l2.394 5.544a.567.567 0 0 0 .264.264L23.81 8.2a.568.568 0 0 1 0 1.04l-5.544 2.394a.567.567 0 0 0-.264.264L15.61 17.44a.568.568 0 0 1-1.04 0l-2.394-5.543a.567.567 0 0 0-.264-.264L6.37 9.24a.568.568 0 0 1 0-1.04l5.543-2.394a.567.567 0 0 0 .264-.264L14.57 0a.568.568 0 0 1 1.04 0z"/></svg>
+                    Ask Claude
+                </a>
+                <a :href="'https://x.com/i/grok?text=' + encodeURIComponent('Summarize this article: ' + window.location.href)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                    Ask Grok
+                </a>
+            </div>
+
+            
+            <div class="py-1">
+                <button
+                    @click="copyToClipboard(window.location.href); $dispatch('notify', { type: 'success', message: 'Link copied to clipboard!' }); show = false"
+                    class="flex items-center w-full px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 mr-3 flex-shrink-0"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" /></svg>
+                    Copy link
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div class="bg-white pb-20">
+    <div class="max-w-7xl mx-auto px-10 md:px-20">
+        <div class="max-w-3xl mx-auto">
+            <article class="prose prose-xl max-w-none" style="font-size: 1.2rem; line-height: 2;">
+                <style>
+                    article a:not(.cta-btn) { color: #FF7F4A; text-decoration: underline; }
+                    article a:not(.cta-btn):hover { color: #e5693a; }
+                </style>
+                <p>So you have a Google form and want the user to redirect after they have submitted your form?</p><p>Well Google Forms doesn't provide this out of the box but there are 3 workarounds:</p><h3 class="text-2xl font-bold mt-10 mb-4">1. Make a submit message with your link.</h3><p>Go to your Google Form and click on the <strong>settings tab </strong>and look for the&nbsp;<strong>Presentation&nbsp;</strong>option from the list. Click on expand.</p><div class="my-6"><img class="rounded-lg border border-gray-200 w-full" src="https://assets.superblog.ai/site_cuid_clti911u70009j6wijndw66kq/images/screenshot-2025-10-13-at-12-1760340226732-compressed.png" alt="Google forms redirect after submit" loading="lazy"></div>  <p>After that, you can edit the <strong>confirmation message&nbsp;</strong>i.e the message shown to users after they have submitted the form. There you can add your link.<br>Pros: Super simple and easy to start.<br>Cons: User has to manually click on the link so technically not a redirect. Sometimes they might simply miss the link and leave thinking they have submitted they form already.</p><h3 class="text-2xl font-bold mt-10 mb-4">2. Embed in your website and use a little code.</h3><p>You can embed your form in your website and then use the following code (courtesy <a href="https://stackoverflow.com/a/54406701" alt="Stackoverflow" target="_blank" rel="noopener">Stackoverflow</a>):<br></p><div class="my-6"><img class="rounded-lg border border-gray-200 w-full" src="https://assets.superblog.ai/site_cuid_clti911u70009j6wijndw66kq/images/carbon-3-1760340555693-compressed.png" alt="Google form redirect after submit (solution using embed code)" loading="lazy"></div><p>Pros: Better than the option to have user to click a link. User gets auto-redirected after submit.<br>Cons: You need to have your own web page and insert a code into it.</p><h3 class="text-2xl font-bold mt-10 mb-4">3. Use a Google Forms alternative (Free)</h3><p>You can consider using a Google Forms alternative which is free and allows you to redirect users after they have submitted your form. Youform also provides lots of other features which Google Forms lacks for eg:&nbsp;<br></p><p>- Partial submissions: You can view partial records as well even if your form responders don't submit the form.<br>- Beautiful design: Google forms UI is stuck in 90s. Youform provides more modern and polished templates and themes.<br>- Loved by thousands of marketers and businesses like yours. Read all public reviews <a target="_blank" href="https://www.capterra.in/software/1060219/youform" alt="here" rel="noopener">here</a>.</p><p>Pros: Modern, beautiful looking forms with redirect after submit solution out-of-the-box.&nbsp;<br>Cons: Not inside Google so you will have to recreate your form. But the team provides a convertor tool as well, so you can reach out to them. Moreover the redirect option is in a pro plan that costs $20/month. Perfect if you need more professional forms but not recommended to spend $29/month for the redirect feature alone if the forms are for casual needs.</p><p>You can try a sample <a href="https://app.youform.com/forms/1sjbgyvl" alt="Youform with redirect here">Youform with redirect here</a>.</p><p>​</p>
+
+                <div class="mt-10 text-center">
+                    <a href="https://app.youform.com/register" class="cta-btn inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md no-underline">
+                        Create free account
+                    </a>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+
+<div class="bg-black space-y-6 lg:space-y-0">
+    <div class="mx-auto max-w-6xl px-10 md:px-20 py-16">
+        <div class="flex items-start justify-between flex-col lg:flex-row space-y-10 lg:space-y-0">
+            <div>
+                <a href="/">
+                    <img class="mx-auto rounded-full" width="60px" src="/assets/images/youform-logo-white-bg.jpg" alt="Youform">
+                </a>
+                <div class="flex items-center justify-center lg:justify-start mt-4 space-x-3">
+                    <a href="https://x.com/youformdotcom" class="text-white flex items-center hover:underline" target="_blank">
+                        
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/youform.com" class="text-white flex items-center hover:underline" target="_blank">
+                        
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="32" width="192" height="192" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="88" cy="84" r="12"/></svg>
+                    </a>
+
+                    <a href="https://www.youtube.com/@youform" class="text-white flex items-center hover:underline" target="_blank">
+                        
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M24,128c0,29.91,3.07,47.45,5.41,56.47A16,16,0,0,0,39,195.42C72.52,208.35,128,208,128,208s55.48.35,89-12.58a16,16,0,0,0,9.63-10.95c2.34-9,5.41-26.56,5.41-56.47s-3.07-47.45-5.41-56.47a16,16,0,0,0-9.63-11C183.48,47.65,128,48,128,48s-55.48-.35-89,12.58a16,16,0,0,0-9.63,11C27.07,80.54,24,98.09,24,128Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-10 w-full lg:w-auto lg:ml-16">
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Product</h3>
+                    <ul class="space-y-2 text-sm">
+                        
+                        <li><a class="text-white hover:underline" href="/pricing">Pricing</a></li>
+                        <li><a class="text-white hover:underline" href="/templates">Templates</a></li>
+                        <li><a class="text-white hover:underline" href="/online-form-builder">Form builder</a></li>
+                        <li><a class="text-white hover:underline" href="/online-survey-builder">Survey builder</a></li>
+                        <li><a class="text-white hover:underline" href="/online-quiz-builder">Quiz builder</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Help</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/" target="_blank">Help center</a></li>
+                        <li><a class="text-white hover:underline" href="/support">Contact support</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/y8PPJLOsBOQBnF/How-to-guides" target="_blank">How-to guides</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/_l2hcH6njKgG33/Create-a-Youform" target="_blank">Create a form</a></li>
+                        <li><a class="text-white hover:underline" href="https://youform.canny.io/changelog" target="_blank">What's new</a></li>
+                        <li class="flex items-center space-x-1">
+                            <img src="https://ohdear.app/badges/status-page/01hr96prwxg6wcrbvtc4gw319c/small" alt="status page badge" />
+                            <a href="https://status.youform.com/" target="_blank" rel="nofollow" class="text-white hover:underline">Status</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Resources</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="/blog">Blog</a></li>
+                        <li><a class="text-white hover:underline" href="/about">About</a></li>
+                        <li><a class="text-white hover:underline" href="https://youform.canny.io/feature-requests" target="_blank">Feature requests</a></li>
+                        <li><a class="text-white hover:underline" href="/free-tools/google-form-qr-code">QR code for Google Forms</a></li>
+                        <li><a class="text-white hover:underline" href="https://www.capterra.in/software/1060219/youform" target="_blank">Reviews on Capterra</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/SJPrZaInDNF_Q2/Does-Youform-have-an-affiliate-program" target="_blank">Affiliate &amp; referral program</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Docs</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/CNm-1RpM-Uhr4U/What-type-of-form-blocks-does-Youform-provides" target="_blank">Form blocks</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/QxhAHLWllJfJcp/Adding-Logic-to-forms" target="_blank">Logic forms</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/Aso59jLN440ry7/How-to-create-Outcome-Quiz-in-Youform" target="_blank">Outcome quiz</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/Ymoc-fiv-IPx6m/GDPR" target="_blank">GDPR</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/-wcaJF3tEKR4tg/Youform-fair-usage-policy" target="_blank">Fair use policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Legal</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="https://youform.com/gdpr" target="_blank">GDPR overview</a></li>
+                        <li><a class="text-white hover:underline" href="/privacy-policy">Privacy</a></li>
+                        <li><a class="text-white hover:underline" href="/terms">Terms</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/Zig_2NIZDlwCzh/What-security-and-privacy-measures-does-Youform-have-in-place">Security</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Alternatives</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="/google-forms-alternative">Google Forms alternative</a></li>
+                        <li><a class="text-white hover:underline" href="https://youform.com/blog/tally-forms-vs-youform-cm78l24ne001p1188wueqp8qx" target="_blank">Tally forms alternative</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-4 flex justify-center pb-10">
+        <a href="https://www.producthunt.com/posts/youform?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-youform" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=488607&theme=light&period=daily" alt="Youform - A&#0032;free&#0032;Typeform&#0032;alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+    </div>
+
+    <div class="border-t border-gray-700">
+        <p class="text-center text-white py-4 text-sm px-10">
+            🔒 Data securely stored with AWS in EU 🇪🇺
+        </p>
+    </div>
+
+    
+
+    
+
+</div>
+        </div>
+
+        <div x-data="{ show: false }">
+            <div x-transition x-cloak x-show="show" class="fixed bottom-16 right-5 bg-white border rounded-md text-sm border-black drop-shadow-3xl divide-y divide-gray-200">
+                
+
+                <a 
+                    href="https://help.youform.com/" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                    🧡&nbsp; Help Center
+                </a>
+                <a href="https://youform.canny.io/feature-requests" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                    🙏 &nbsp;Feature Request
+                </a>
+            </div>
+
+            <button @click="show = !show" @click.away="show = false" type="button" class="rounded-full p-2 bg-coral shadow-md fixed bottom-4 right-5 text-black border-black drop-shadow-3xl hover:drop-shadow-2xl border flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 0 1 1.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 0 0-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 0 1 0 9.424m-4.138-5.976a3.736 3.736 0 0 0-.88-1.388 3.737 3.737 0 0 0-1.388-.88m2.268 2.268a3.765 3.765 0 0 1 0 2.528m-2.268-4.796a3.765 3.765 0 0 0-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 0 1-1.388.88m2.268-2.268 4.138 3.448m0 0a9.027 9.027 0 0 1-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0-3.448-4.138m3.448 4.138a9.014 9.014 0 0 1-9.424 0m5.976-4.138a3.765 3.765 0 0 1-2.528 0m0 0a3.736 3.736 0 0 1-1.388-.88 3.737 3.737 0 0 1-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 0 1-1.652-1.306 9.027 9.027 0 0 1-1.306-1.652m0 0 4.138-3.448M4.33 16.712a9.014 9.014 0 0 1 0-9.424m4.138 5.976a3.765 3.765 0 0 1 0-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 0 1 1.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 0 0-1.652 1.306A9.025 9.025 0 0 0 4.33 7.288" />
+                </svg>                 
+            </button>
+        </div>
+
+        <div style="z-index: 1000" class="fixed inset-0 flex items-end justify-center px-4 py-6 pointer-events-none top-10 sm:p-6 sm:items-start sm:justify-end"
+    x-data="{
+        show: false,
+        message: '',
+        body: '',
+        btnText: '',
+        btnUrl: '',
+        newTab: false,
+        type: 'success',
+        clickSound: new Audio(
+            'data:audio/mpeg;base64,//sQxAAAA+i5OrQRABC9mG+3BCAACCAH/f//yE5z0Od/yf//ITnO853/O9CEIygAgEPg+8AAUWCwVioVCAEBgAAD/65xat0KnkqrfOEKkxfjOI6H//Ofpf/q8jZTBgc8uM4jcsMMMMH/+xLEAgAE6M1XGCKAAAAANIOAAAQIAADL6BfAW9DeJCI78xlb/EWEVL/6REV//0Uw0SMb//AY4ypMQU1FMy45OS4zqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqo='
+        )
+    }" 
+    @notify.window="
+        clickSound.play();
+        show = true;
+        console.log($event);
+        message = $event.detail.message;
+        type = $event.detail.type;
+        btnText = $event.detail.btn_text;
+        btnUrl = $event.detail.btn_url;
+        let delay = $event.detail.delay ? $event.detail.delay : 3000;
+        setTimeout(() => {
+            show = false;
+        }, delay);
+    " x-cloak>
+    <div 
+        x-show="show"
+        x-transition:enter="transform ease-out duration-300 transition"
+        x-transition:enter-start="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
+        x-transition:enter-end="translate-y-0 opacity-100 sm:translate-x-0"
+        x-transition:leave="transition ease-in duration-100" 
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg pointer-events-auto ring-1 ring-black ring-opacity-5">
+        <div class="p-4">
+            <div class="flex items-start">
+                <div class="flex-shrink-0">
+                    <svg x-show="type != 'error'" class="w-6 h-6 text-green-400" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <svg x-show="type == 'error'" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-red-600"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div class="ml-3 w-0 flex-1 pt-0.5">
+                    <p class="text-sm font-medium text-gray-900" x-text="message">
+                    </p>
+                    <p class="mt-1 text-sm text-gray-500" x-text="body">
+                    </p>
+
+                    <div x-show="btnText" class="flex items-center mt-1">
+                        <a x-bind:href="btnUrl" target="_blank" class="text-sm text-blue-600 hover:underline" x-text="btnText"></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" class="w-4 h-4 text-blue-600 ml-1" stroke="currentColor">
+                            <path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex flex-shrink-0 ml-4">
+                    <button @click="show = false"
+                        class="inline-flex text-gray-400 bg-white rounded-md hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        <span class="sr-only">Close</span>
+                        <!-- Heroicon name: solid/x -->
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div x-data="{
+        show: false, 
+        confirm_id: '',
+        title: '',
+        body: '',
+        confirmBtnText: '',
+        confirmBtnColor: 'red',
+        cancelBtnText: 'Cancel',
+    }" @keydown.escape.window="show = false" @keydown.enter.window="setTimeout(() => {show = false;}, 100)
+        $dispatch('confirm-close', {
+            confirm_id: confirm_id,
+            confirm: true
+        });" x-show="show" @confirm-show.window="show = true;
+        confirm_id = $event.detail.confirm_id;
+        title = $event.detail.title;
+        body = $event.detail.body;
+        confirmBtnText = $event.detail.confirm_text ? $event.detail.confirm_text : 'Ok';
+        confirmBtnColor = $event.detail.danger ? 'bg-red-600 hover:bg-red-700' : 'bg-blue-600 hover:bg-blue-700';
+        cancelBtnText = $event.detail.cancel_text ? $event.detail.cancel_text : 'Cancel';" style="display: none"
+  class="fixed inset-0 z-50 overflow-y-auto">
+    <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div
+        x-data
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0" 
+        
+        class="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div class="absolute inset-0 bg-gray-800 opacity-80"></div>
+      </div>
+  
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+      <div
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        class="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            
+            <div class="w-full mt-3 text-center sm:mt-0 sm:mx-4 sm:text-left">
+              <h3 class="text-lg font-medium leading-6 text-gray-900" id="modal-headline">
+                <span x-text="title"></span>
+              </h3>
+              <div class="mt-2">
+                <p class="text-sm text-gray-500">
+                  <span x-text="body"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 py-3 bg-gray-50 sm:px-6 sm:flex sm:flex-row-reverse">
+          <button
+            @click="
+                $dispatch('confirm-close', {
+                    confirm_id: confirm_id,
+                    confirm: true
+                });
+                show = false;
+            " 
+            type="button" :class="confirmBtnColor" class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
+            x-text="confirmBtnText"
+            >
+        </button>
+        <button 
+            @click="
+                $dispatch('confirm-close', {
+                    confirm_id: confirm_id,
+                    confirm: false
+                });
+                show = false;
+            " 
+            type="button" 
+            x-text="cancelBtnText" 
+            class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+        </button>
+        </div>
+      </div>
+    </div>
+</div>
+        <div x-data="{
+        show: false, 
+        shiftPressed: false,
+        prompt_id: '',
+        title: '',
+        promptText: '',
+        inputType: '',
+        inputSubtype: 'text',
+        promptBtnText: '',
+        promptBtnColor: 'gray',
+        placeholder: '',
+    }" @keydown.escape.window="show = false" @keydown.enter.window="if(this.inputType == 'text' || shiftPressed) {
+            setTimeout(() => {show = false;}, 100)
+            $dispatch('prompt-close', {
+                prompt_id: prompt_id,
+                prompt_text: promptText
+            });
+        }" @keydown.shift="shiftPressed = true" @keyup.shift="shiftPressed = false" x-show="show" @prompt-show.window="show = true;
+        prompt_id = $event.detail.prompt_id;
+        title = $event.detail.title;
+        promptText = $event.detail.prompt_text;
+        inputType = $event.detail.input_type;
+        inputSubtype = $event.detail.input_subtype ? $event.detail.input_subtype : 'text';
+        promptBtnText = $event.detail.prompt_btn_text ? $event.detail.prompt_btn_text : 'Ok';
+        promptBtnColor = $event.detail.danger ? 'bg-red-600 hover:bg-red-700' : 'bg-gray-700 hover:bg-gray-800';
+        placeholder = $event.detail.placeholder ? $event.detail.placeholder : '';
+
+        setTimeout(() => {
+            if(inputType == 'text') $refs.text.focus();
+            else $refs.textarea.focus();
+        }, 100);" style="display: none"
+  class="fixed inset-0 z-50 overflow-y-auto">
+    <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div
+        x-data
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0" 
+        
+        class="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div class="absolute inset-0 bg-gray-800 opacity-80"></div>
+      </div>
+  
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+      <div
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        class="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            
+            <div class="w-full mt-3 text-center sm:mt-0 sm:mx-4 sm:text-left">
+              <h3 class="text-lg font-medium leading-6 text-gray-900" id="modal-headline">
+                <span x-text="title"></span>
+              </h3>
+              <div class="mt-2">
+                <p class="text-sm text-gray-500">
+                  <template x-if="inputType == 'text' && inputSubtype == 'text'">
+            <input 
+                name="prompt-text" 
+                @keydown.enter="
+                    $dispatch('prompt-close', {
+                        prompt_id: prompt_id,
+                        prompt_text: promptText
+                    });
+                    show = false;
+                " 
+                :placeholder="placeholder" 
+                x-ref="text" type="text" x-model="promptText" class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+        </template>
+
+        <template x-if="inputType == 'text' && inputSubtype == 'password'">
+            <input 
+                @keydown.enter="
+                    $dispatch('prompt-close', {
+                        prompt_id: prompt_id,
+                        prompt_text: promptText
+                    });
+                    show = false;
+                " 
+                x-ref="text" type="password" x-model="promptText" 
+                :placeholder="placeholder" 
+                class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+        </template>
+
+        <template x-if="inputType == 'textarea'">
+            <textarea 
+                rows="3"
+                x-ref="textarea" 
+                x-model="promptText"
+                class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+            </textarea>
+        </template>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 py-3 bg-gray-50 sm:px-6 sm:flex sm:flex-row-reverse">
+          <button
+            @click="
+                $dispatch('prompt-close', {
+                    prompt_id: prompt_id,
+                    prompt_text: promptText
+                });
+                show = false;
+            " 
+            type="button" :class="promptBtnColor" class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:ml-3 sm:w-auto sm:text-sm"
+            x-text="promptBtnText"
+            >
+        </button>
+        <button 
+            @click="
+                $dispatch('prompt-close', {
+                    prompt_id: prompt_id,
+                    prompt_text: null
+                });
+                show = false;
+            " 
+            type="button" class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+            Cancel
+        </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+        <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+        
+    </body>
+</html>
