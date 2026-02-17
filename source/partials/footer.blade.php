@@ -55,6 +55,7 @@
                 <div>
                     <h3 class="text-white font-semibold mb-3">Resources</h3>
                     <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="/blog">Blog</a></li>
                         <li><a class="text-white hover:underline" href="/about">About</a></li>
                         <li><a class="text-white hover:underline" href="https://youform.canny.io/feature-requests" target="_blank">Feature requests</a></li>
                         <li><a class="text-white hover:underline" href="/free-tools/google-form-qr-code">QR code for Google Forms</a></li>

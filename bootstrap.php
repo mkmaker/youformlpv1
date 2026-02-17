@@ -1,5 +1,6 @@
 <?php
 
+use App\Listeners\GenerateRedirects;
 use App\Listeners\GenerateSitemap;
 use TightenCo\Jigsaw\Jigsaw;
 
@@ -8,3 +9,4 @@ use TightenCo\Jigsaw\Jigsaw;
 
 
  $events->afterBuild(GenerateSitemap::class);
+ $events->afterBuild(GenerateRedirects::class);
