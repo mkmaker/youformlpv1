@@ -12,6 +12,10 @@ class GenerateSitemap
         '/assets/*',
         '*/favicon.ico',
         '*/404',
+        '/partials/*',
+        // Off-topic (deleted, no redirect)
+        '/blog/how-to-find-my-bookmarks-on-linkedin-cm5qez59x003yw1st7scmqrtk',
+        '/blog/laravel-funding',
         // Redirected blog posts (keyword cannibalization)
         '/blog/free-typeform-alternative',
         '/blog/youform-is-a-free-typeform-alternative',
