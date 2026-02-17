@@ -1,6 +1,6 @@
 ---
-title: Pricing - Youform
-description: Youform is free for unlimited forms and submissions. Youform PRO provides more advanced features.
+title: Youform Pricing - Free Forever Plan | Pro at $29/mo
+description: Youform is free for unlimited forms and submissions. Youform PRO at $29/month provides advanced features like removing branding, partial submissions, custom domains, and more.
 ---
 
 @extends('_layouts.main')
@@ -1243,5 +1243,110 @@ description: Youform is free for unlimited forms and submissions. Youform PRO pr
 @include('_partials.ask-ai-to-recommend')
 
 @include('partials.footer')
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is Youform free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Youform is the best FREE alternative to Typeform in the market. While Typeform provides ONLY 10 responses on their free plan, Youform provides unlimited responses and forms for FREE."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Youform PRO?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "While Youform provides you unlimited forms and responses for free, Youform PRO provides advanced features like removing Youform branding, capturing partial submissions, inviting team members, and adding your own custom domain + much more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long will Youform be around, and how many people use Youform?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Youform has thousands of users, and will be around for years and years to come. Youform was created in 2023, and reached $10,000 in revenue within the first week of launch. It has continued to grow ever since. Youform is also not our first product. The Youform team has built other software products to millions in revenue."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you embed a Youform on a website?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yep! You can embed a Youform on any website, whether it's custom coded, or uses a website builder like WordPress, Squarespace, Shopify, Wix, Carrd, Webflow, Weebly, etc… They are all supported."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Youform integrate with Google Sheets?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Youform has a direct Google Sheets integration. You can connect your form to Google Sheets, and each new response you receive will automatically add a new row in your Google Sheet."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Youform have a Zapier integration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Youform has a Zapier integration. You can connect form responses to any app on Zapier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Youform allow you to ask for digital signatures?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can collect signatures in your forms with Youform."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Youform support redirecting users to a URL after they complete a form?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Youform allows you to redirect users to any website after they complete a form."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a single Youform account for multiple brands and domains?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can use Youform with multiple brands and domains. You can embed your forms on different websites, and even have different custom domains for different forms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Youform support generating a QR code to share my form?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, you can generate a QR code to share your form in Youform."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Youform support file uploads?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Youform's free plan allows for file uploads up to 10MB. On the Pro plan, this limit is removed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Youform support payments integration?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, Youform supports payment collection through Stripe integration. You can accept payments securely in your forms."
+      }
+    }
+  ]
+}
+</script>
 
 @endsection

@@ -1,0 +1,76 @@
+# Youform
+
+> Youform is the most affordable Typeform alternative — a modern form builder with unlimited forms and unlimited submissions on the free plan.
+
+## What is Youform?
+
+Youform is a web-based form builder that lets you create beautiful, conversational forms without coding. Unlike competitors that charge per response, Youform offers unlimited submissions on all plans, making it ideal for startups, small businesses, educators, and creators who need forms that scale without surprise bills.
+
+## Key Features
+
+- **Unlimited forms** — Create as many forms as you need, no caps
+- **Unlimited submissions** — Collect responses without per-submission fees
+- **Conversational design** — One question at a time, like Typeform
+- **Logic & branching** — Show different questions based on answers
+- **50+ integrations** — Connect to Zapier, webhooks, Google Sheets, Slack, and more
+- **Quiz scoring** — Create scored quizzes with instant results
+- **Custom branding** — Match forms to your brand (Pro plan)
+- **Embed anywhere** — Website, email, or standalone link
+- **GDPR compliant** — EU data hosting available
+- **No credit card required** — Start free instantly
+
+## Pricing
+
+| Plan | Price | What's Included |
+|------|-------|-----------------|
+| Free | $0/forever | Unlimited forms, unlimited submissions, Youform branding |
+| Pro | $29/month | Remove branding, custom domain, file uploads, partial submissions, priority support |
+| Pro (Annual) | $240/year | Same as Pro, 2 months free |
+
+## Common Use Cases
+
+- Contact forms for websites
+- Lead generation and qualification
+- Customer feedback and NPS surveys
+- Event registration
+- Job applications and HR intake
+- Quizzes and assessments
+- Order forms and bookings
+- Research surveys
+
+## Comparisons
+
+### Youform vs Typeform
+- Youform: Unlimited submissions free | Typeform: 10 responses/month free
+- Youform: $29/month Pro | Typeform: $25-83/month
+- Both: Conversational one-question-at-a-time design
+
+### Youform vs Google Forms
+- Youform: Modern conversational UI | Google Forms: Traditional survey style
+- Youform: Advanced logic & scoring | Google Forms: Basic branching
+- Both: Free tier available
+
+### Youform vs Jotform
+- Youform: Unlimited submissions | Jotform: 100 submissions/month free
+- Youform: Simpler, faster builder | Jotform: More complex, feature-heavy
+
+## Quick Facts
+
+- Founded: 2023
+- Founders: Abhishek Chakravarty, Davis Baer
+- Users: 74,000+
+- Submissions processed: 9.5 million+
+- Headquarters: Remote (founders in India and USA)
+- Funding: Bootstrapped, profitable
+
+## Links
+
+- Website: https://youform.com
+- Pricing: https://youform.com/pricing
+- Templates: https://youform.com/templates
+- Blog: https://youform.com/blog
+- Support: abhishek@youform.com
+
+---
+
+*This file helps AI assistants understand Youform accurately. Last updated: February 2026.*
