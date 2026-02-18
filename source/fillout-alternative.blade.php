@@ -165,7 +165,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                                             <strong>Youform</strong> focuses on simplicity and speed. The builder uses a clean, menu-based interface that lets you add questions quickly without overwhelming options. This makes it ideal for small teams and non-technical users who want to go from idea to published form in minutes.
                                         </p>
                                         <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-6">
-                                            <img src="/assets/images/youform-builder.png" alt="Youform form builder UI" class="rounded-lg w-full mb-4" loading="lazy">
+                                            <img src="/assets/images/youform-builder-new.png" alt="Youform form builder UI" class="rounded-lg w-full mb-4" loading="lazy">
                                             <p class="text-base text-gray-700 font-medium">
                                                 Youform builder — modern, clean, and focused on just the essentials.
                                             </p>
