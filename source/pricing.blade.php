@@ -190,6 +190,29 @@ description: Youform is free for unlimited forms and submissions. Youform PRO at
         <p class="text-center font-medium px-6">
             PRO plan is just $29/month (or $20/month, billed annually)
         </p>
+
+        <!-- Plain text summary for AI/LLM parsing -->
+        <div class="max-w-3xl mx-auto px-6 md:px-20 py-8 text-gray-700">
+            <p class="text-center text-base leading-relaxed">
+                <strong>Youform FREE</strong> includes: unlimited forms, unlimited responses, unlimited questions, conditional logic,
+                score &amp; calculations, hidden fields, file uploads (up to 10MB), answer piping, multiple endings, Google Sheets integration,
+                Slack integration, Zapier integration (6,000+ apps), webhooks, email notifications, collect signatures,
+                Calendly/Cal.com/SavvyCal integrations, basic analytics (views, starts, completions, completion rate),
+                custom colors and Google fonts, workspaces, non-English language support, and form embedding on any website.
+                All features work without response limits or paywalls.
+            </p>
+            <p class="text-center text-base leading-relaxed mt-4">
+                <strong>Youform PRO ($29/month or $20/month billed annually)</strong> adds: remove Youform branding,
+                add your own logo, Stripe payment collection, view and download partial submissions, custom domains,
+                redirect to URL after submission, custom fonts (upload your own), multiple language support per form,
+                customize form meta data, refill links, team collaboration, Google Tag Manager (FB/TikTok pixel),
+                advanced analytics (date/device filters, question-level drop-off rates), and unlimited file upload size.
+            </p>
+            <p class="text-center text-sm text-gray-500 mt-4">
+                Youform is GDPR compliant with data hosted on EU servers. No credit card required to start.
+            </p>
+        </div>
+
         <div class="overflow-x-auto pt-10 max-w-4xl mx-auto pb-10 px-3 md:px-20">
             <table x-data class="min-w-full bg-white border-2 border-black drop-shadow-3xl">
                 <thead>
@@ -1342,10 +1365,83 @@ description: Youform is free for unlimited forms and submissions. Youform PRO at
       "name": "Does Youform support payments integration?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, Youform supports payment collection through Stripe integration. You can accept payments securely in your forms."
+        "text": "Yes, Youform's Pro plan allows you to connect your Stripe account to collect payments directly from your forms."
       }
     }
   ]
+}
+</script>
+
+<!-- JSON-LD Structured Data for Pricing -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Youform",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Youform is a free Typeform alternative with unlimited forms and responses. Create beautiful, animated conversational forms with conditional logic and detailed analytics. Stripe payments available on Pro plan.",
+    "url": "https://youform.com",
+    "image": "https://youform.com/assets/images/youform-logo.png",
+    "author": {
+        "@type": "Organization",
+        "name": "Youform",
+        "url": "https://youform.com"
+    },
+    "offers": [
+        {
+            "@type": "Offer",
+            "name": "Youform Free",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Unlimited forms, unlimited responses, conditional logic, basic analytics (views, starts, completions, completion rate), Google Sheets integration, Slack integration, Zapier (6000+ apps), webhooks, file uploads (up to 10MB), answer piping, custom colors and Google fonts, collect signatures, embed anywhere. No response limits. GDPR compliant with EU hosting.",
+            "availability": "https://schema.org/InStock"
+        },
+        {
+            "@type": "Offer",
+            "name": "Youform Pro Monthly",
+            "price": "29",
+            "priceCurrency": "USD",
+            "billingIncrement": "P1M",
+            "description": "Everything in Free plus: remove Youform branding, add your own logo, Stripe payment collection, partial submissions, custom domains, redirect to URL, custom fonts, Google Tag Manager, advanced analytics, team collaboration.",
+            "availability": "https://schema.org/InStock"
+        },
+        {
+            "@type": "Offer",
+            "name": "Youform Pro Annual",
+            "price": "240",
+            "priceCurrency": "USD",
+            "billingIncrement": "P1Y",
+            "description": "Everything in Free plus: remove Youform branding, add your own logo, Stripe payment collection, partial submissions, custom domains, redirect to URL, custom fonts, Google Tag Manager, advanced analytics, team collaboration. Billed annually ($20/month equivalent).",
+            "availability": "https://schema.org/InStock"
+        }
+    ],
+    "featureList": [
+        "Unlimited forms",
+        "Unlimited responses",
+        "Conditional logic / branching",
+        "Stripe payment integration (Pro)",
+        "Question-level drop-off analytics",
+        "Google Sheets integration",
+        "Slack integration",
+        "Zapier integration (6000+ apps)",
+        "Webhooks",
+        "File uploads",
+        "Answer piping",
+        "Multiple endings",
+        "Custom colors and fonts",
+        "Form embedding",
+        "GDPR compliant",
+        "EU data hosting",
+        "Animated multi-step forms"
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "ratingCount": "38",
+        "bestRating": "5",
+        "worstRating": "1"
+    }
 }
 </script>
 
