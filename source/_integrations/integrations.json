@@ -284,7 +284,7 @@
     "slug": "google-tag-manager",
     "category": "Analytics & Tracking",
     "is_native": true,
-    "logo": "/assets/images/integrations/google-tag-manager.png",
+    "logo": "/assets/images/integrations/google-tag-manager.svg",
     "tagline": "Add tracking pixels and analytics tags to your forms.",
     "meta_description": "Connect Youform with Google Tag Manager to add tracking pixels, conversion tags, and analytics to your forms. Available on Youform's PRO plan.",
     "hero_description": "Youform's native Google Tag Manager integration lets you add your GTM container to any form, giving you full control over tracking pixels, conversion tags, and analytics scripts. Track form views, submissions, and conversions across Google Analytics, Facebook Pixel, Google Ads, and any other platform GTM supports. No code injection or workarounds needed.",

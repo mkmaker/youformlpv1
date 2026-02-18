@@ -25,7 +25,7 @@ description: "Connect Youform with Google Sheets, Slack, HubSpot, Salesforce, Ma
 
 <!-- Hero Section -->
 <div>
-    <div class="bg-medium-champagne bg-[url('/assets/images/banner-background.png?v=2')] bg-cover bg-no-repeat bg-center">
+    <div class="bg-medium-champagne">
         @include('partials.nav')
 
         <div class="relative max-w-7xl mx-auto mt-10 pb-20">

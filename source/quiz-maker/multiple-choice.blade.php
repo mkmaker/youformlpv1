@@ -46,7 +46,7 @@ description: Easily create engaging multiple choice quizzes with Youform's free 
                             <span>Unlimited questions and responses on the free plan.</span>
                         </p>
                         <div class="mt-3">
-                            <a href="https://app.youform.com/forms/glzybifh" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold underline hover:no-underline">
+                            <a href="https://app.youform.com/forms/t6wpubpm" target="_blank" rel="noopener noreferrer" class="inline-flex items-center text-sm font-semibold underline hover:no-underline">
                                 See Demo Quiz in a new tab &rarr;
                             </a>
                         </div>
@@ -74,10 +74,10 @@ description: Easily create engaging multiple choice quizzes with Youform's free 
                 <div class="lg:col-span-2 hidden lg:block">
                     <div class="bg-white border-2 border-black rounded-3xl drop-shadow-6xl overflow-hidden">
                         <iframe 
-                            src="https://app.youform.com/forms/glzybifh" 
+                            src="https://app.youform.com/forms/t6wpubpm" 
                             loading="lazy"
                             width="100%" 
-                            height="420" 
+                            height="600"
                             frameborder="0" 
                             marginheight="0" 
                             marginwidth="0"
@@ -142,30 +142,32 @@ description: Easily create engaging multiple choice quizzes with Youform's free 
             </div>
         </div>
     </div>
+</div>
+
 <!-- Use Cases -->
 <div class="bg-gray-50 pt-24 lg:pt-28 pb-20">
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-center">Who Can Benefit from Youform's Quiz Maker?</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-3xl">
+            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-3xl transition-transform duration-300 hover:-translate-y-2">
                 <h3 class="text-xl font-bold mb-3">Educators</h3>
                 <p class="text-sm text-gray-700">
                     Run quick assessments, graded quizzes, and homework checks with automatic scoring and instant feedback.
                 </p>
             </div>
-            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-3xl">
+            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-3xl transition-transform duration-300 hover:-translate-y-2">
                 <h3 class="text-xl font-bold mb-3">Marketers</h3>
                 <p class="text-sm text-gray-700">
                     Create lead generation quizzes, product recommenders, and trivia campaigns that capture emails while entertaining your audience.
                 </p>
             </div>
-            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-3xl">
+            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-3xl transition-transform duration-300 hover:-translate-y-2">
                 <h3 class="text-xl font-bold mb-3">HR &amp; Training</h3>
                 <p class="text-sm text-gray-700">
                     Use quizzes for onboarding, internal knowledge checks, and compliance training with clear, objective results.
                 </p>
             </div>
-            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-3xl">
+            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-3xl transition-transform duration-300 hover:-translate-y-2">
                 <h3 class="text-xl font-bold mb-3">Events &amp; Communities</h3>
                 <p class="text-sm text-gray-700">
                     Run live trivia, icebreakers, and post-event feedback quizzes that keep people engaged online or in person.
@@ -176,8 +178,8 @@ description: Easily create engaging multiple choice quizzes with Youform's free 
 </div>
 
 <!-- Comparison -->
-<div class="bg-white py-20">
-    <div class="max-w-5xl mx-auto px-10 md:px-20">
+<div class="bg-amber-50 border-t-4 border-black py-20">
+    <div class="max-w-6xl mx-auto px-10 md:px-20">
         <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-center">Why Youform Stands Out</h2>
         <p class="text-lg text-gray-700 mb-8 text-center">
             Many quiz makers limit features or responses on free plans. Youform gives you room to grow without hitting artificial caps.
@@ -191,43 +193,88 @@ description: Easily create engaging multiple choice quizzes with Youform's free 
                             <div class="font-bold text-lg">Youform</div>
                         </th>
                         <th class="px-6 py-4 text-center bg-gray-50">
-                            <div class="font-semibold text-lg">SurveyMonkey (Free)</div>
+                            <div class="font-semibold text-lg">Typeform</div>
                         </th>
                         <th class="px-6 py-4 text-center bg-gray-50">
-                            <div class="font-semibold text-lg">Canva (Free)</div>
+                            <div class="font-semibold text-lg">SurveyMonkey</div>
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="border-b border-gray-200">
                         <td class="px-6 py-4 font-semibold bg-gray-50">Unlimited responses</td>
-                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">✅ Yes</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">❌ 25/survey</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">✅ Yes</td>
+                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">
+                            <svg class="inline w-5 h-5 text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">Yes</span> <span aria-hidden="true">Yes</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <svg class="inline w-5 h-5 text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">No, only 10 responses per month</span> <span aria-hidden="true">10/month</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <svg class="inline w-5 h-5 text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">No, only 25 responses per survey</span> <span aria-hidden="true">25/survey</span>
+                        </td>
                     </tr>
-                    <tr class="bg-gray-50 border-b border-gray-200">
+                    <tr class="border-b border-gray-200">
                         <td class="px-6 py-4 font-semibold bg-gray-50">Scoring &amp; logic</td>
-                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">✅ Yes</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">✅ Yes</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">✅ Yes</td>
+                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">
+                            <svg class="inline w-5 h-5 text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">Yes</span> <span aria-hidden="true">Yes</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <svg class="inline w-5 h-5 text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">Yes</span> <span aria-hidden="true">Yes</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <svg class="inline w-5 h-5 text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">Yes</span> <span aria-hidden="true">Yes</span>
+                        </td>
                     </tr>
                     <tr class="border-b border-gray-200">
                         <td class="px-6 py-4 font-semibold bg-gray-50">Custom branding</td>
-                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">✅ Pro</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">❌ Paid</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">✅ Yes</td>
+                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">
+                            <svg class="inline w-5 h-5 text-green-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">Yes, available on Pro plan for $29/month</span> <span aria-hidden="true">$29/mo</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <svg class="inline w-5 h-5 text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">Paid only, $79/month</span> <span aria-hidden="true">$79/mo</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <svg class="inline w-5 h-5 text-red-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.28 7.22a.75.75 0 00-1.06 1.06L8.94 10l-1.72 1.72a.75.75 0 101.06 1.06L10 11.06l1.72 1.72a.75.75 0 101.06-1.06L11.06 10l1.72-1.72a.75.75 0 00-1.06-1.06L10 8.94 8.28 7.22z" clip-rule="evenodd" /></svg>
+                            <span class="sr-only">Paid only, $99/month</span> <span aria-hidden="true">$99/mo</span>
+                        </td>
                     </tr>
-                    <tr class="bg-gray-50 border-b border-gray-200">
+                    <tr class="border-b border-gray-200">
                         <td class="px-6 py-4 font-semibold bg-gray-50">Ease of use</td>
-                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">✅✅✅</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">✅✅</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">✅✅✅</td>
+                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">
+                            <span class="sr-only">Excellent ease of use</span>
+                            <span aria-hidden="true" class="text-green-600 font-bold">Excellent</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <span class="sr-only">Good ease of use</span>
+                            <span aria-hidden="true" class="text-gray-700">Good</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <span class="sr-only">Moderate ease of use</span>
+                            <span aria-hidden="true" class="text-gray-700">Moderate</span>
+                        </td>
                     </tr>
                     <tr>
                         <td class="px-6 py-4 font-semibold bg-gray-50">Price</td>
-                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">Free, unlimited responses</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">Limited free, paid upgrades</td>
-                        <td class="px-6 py-4 bg-gray-50 text-center">Limited free, paid upgrades</td>
+                        <td class="px-6 py-4 bg-amber-50 text-center font-medium">
+                            <span class="sr-only">Free with unlimited responses</span>
+                            <span aria-hidden="true">Free, unlimited responses</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <span class="sr-only">Limited free plan, paid upgrades required</span>
+                            <span aria-hidden="true">Limited free, paid upgrades</span>
+                        </td>
+                        <td class="px-6 py-4 bg-gray-50 text-center">
+                            <span class="sr-only">Limited free plan, paid upgrades required</span>
+                            <span aria-hidden="true">Limited free, paid upgrades</span>
+                        </td>
                     </tr>
                 </tbody>
             </table>
