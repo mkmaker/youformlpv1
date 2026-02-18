@@ -179,7 +179,7 @@ description: Comparing Youform and Tally side-by-side. Both offer unlimited free
                         <tr class="border-b border-gray-200">
                             <td class="px-6 py-4 font-semibold bg-gray-50">Stripe payments</td>
                             <td class="px-6 py-4 bg-amber-50 text-center">
-                                <span class="text-green-600 font-bold">✓ Free</span>
+                                <span class="text-green-600 font-bold">✓ Pro plan</span>
                             </td>
                             <td class="px-6 py-4 bg-gray-50 text-center">
                                 <span class="text-green-600 font-bold">✓ Free</span>
@@ -375,7 +375,7 @@ description: Comparing Youform and Tally side-by-side. Both offer unlimited free
             <div class="border-2 border-black rounded-lg p-6" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                 <h3 class="font-bold text-lg mb-2" itemprop="name">Does Youform have payment integration?</h3>
                 <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-                    <p class="text-gray-600" itemprop="text">Yes. Youform integrates with Stripe for payments, allowing you to collect one-time or recurring payments directly in your forms. This feature is available on the free plan.</p>
+                    <p class="text-gray-600" itemprop="text">Yes. Youform integrates with Stripe for collecting one-time payments directly in your forms. This feature is available on the Pro plan ($29/month).</p>
                 </div>
             </div>
 
