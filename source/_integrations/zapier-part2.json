@@ -1,0 +1,1570 @@
+[
+  {
+    "name": "Make",
+    "slug": "make",
+    "category": "Automation",
+    "is_native": false,
+    "logo": "/assets/images/integrations/make.png",
+    "tagline": "Build advanced multi-step automations with Youform and Make.",
+    "meta_description": "Connect Youform with Make (formerly Integromat) via Zapier to build powerful multi-step automations. Route form data through complex workflows with ease.",
+    "hero_description": "Connect Youform with Make (formerly Integromat) through Zapier to build sophisticated, multi-step automations that go far beyond simple triggers. Make's visual workflow builder lets you route form submission data through branching logic, filters, and transformations. Perfect for teams that need complex automation without writing code.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Make via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Make' as the action app and map your form fields to Make."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Make. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Multi-branch lead routing",
+        "description": "Route form submissions to different CRMs, Slack channels, or email lists based on responses like company size, budget, or location using Make's branching logic."
+      },
+      {
+        "title": "Data enrichment pipelines",
+        "description": "Pass form submissions through a chain of enrichment steps in Make — look up company data, verify emails, and score leads before adding them to your CRM."
+      },
+      {
+        "title": "Complex onboarding workflows",
+        "description": "Trigger multi-step onboarding sequences from a single form submission: create accounts, send welcome emails, assign tasks, and provision access all at once."
+      },
+      {
+        "title": "Conditional notifications",
+        "description": "Send different notifications to different teams based on form responses. Route support requests to engineering and sales inquiries to your revenue team automatically."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why use Make with Youform instead of Zapier alone?",
+        "answer": "Make excels at complex, multi-step workflows with branching logic and data transformations. If you need more than simple trigger-action automations, sending Youform data to Make via Zapier gives you the best of both worlds."
+      },
+      {
+        "question": "Does this integration require paid plans?",
+        "answer": "Youform's Zapier integration is free. You'll need a Zapier account to connect the two, and Make offers a free tier with 1,000 operations per month for getting started."
+      },
+      {
+        "question": "Can I use Make's visual scenario builder with Youform data?",
+        "answer": "Yes. Once Youform data reaches Make via Zapier, you can use Make's drag-and-drop scenario builder to create complex workflows with filters, routers, and hundreds of app modules."
+      }
+    ]
+  },
+  {
+    "name": "Marketo",
+    "slug": "marketo",
+    "category": "Email Marketing",
+    "is_native": false,
+    "logo": "/assets/images/integrations/marketo.png",
+    "tagline": "Sync Youform leads directly into your Marketo marketing automation platform.",
+    "meta_description": "Connect Youform with Marketo via Zapier to automatically sync leads into your marketing automation workflows. Capture and nurture leads seamlessly.",
+    "hero_description": "Connect Youform with Marketo through Zapier to automatically push form submissions into your Marketo lead database. New leads are created or updated in real time, letting your marketing automation campaigns kick in immediately. Ideal for enterprise teams running sophisticated nurture programs and lead scoring models.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Marketo via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Marketo' as the action app and map your form fields to Marketo."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Marketo. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Lead capture for nurture campaigns",
+        "description": "Capture leads through Youform landing pages and automatically enroll them in Marketo nurture tracks based on their form responses and lead attributes."
+      },
+      {
+        "title": "Event registration syncing",
+        "description": "Collect event registrations through Youform and push attendee data into Marketo for pre-event email sequences and post-event follow-ups."
+      },
+      {
+        "title": "Content download tracking",
+        "description": "Gate whitepapers and eBooks behind a Youform, then sync download data to Marketo so your lead scoring models reflect content engagement."
+      },
+      {
+        "title": "Webinar sign-up automation",
+        "description": "Use Youform for webinar registrations and automatically add registrants to Marketo programs that send confirmation emails and reminders."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need Marketo's API access for this integration?",
+        "answer": "Zapier handles the API connection to Marketo on your behalf. You'll need a Marketo account with API access enabled, which is available on most Marketo plans."
+      },
+      {
+        "question": "Can I update existing Marketo leads from Youform submissions?",
+        "answer": "Yes. When you configure the Zap, you can choose to create or update leads in Marketo. If a lead with the same email already exists, their record will be updated with the new form data."
+      },
+      {
+        "question": "Will Marketo smart campaigns trigger automatically?",
+        "answer": "Yes. Once a lead is created or updated in Marketo via this integration, any smart campaigns with matching triggers or filters will activate automatically, just as they would for any lead activity."
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Teams",
+    "slug": "microsoft-teams",
+    "category": "Communication",
+    "is_native": false,
+    "logo": "/assets/images/integrations/microsoft-teams.png",
+    "tagline": "Get instant Microsoft Teams notifications for new form submissions.",
+    "meta_description": "Connect Youform with Microsoft Teams via Zapier to receive instant form submission notifications in your Teams channels. Keep your team in the loop.",
+    "hero_description": "Connect Youform with Microsoft Teams through Zapier to get real-time notifications every time someone submits your form. Submission details are posted directly to your chosen Teams channel, so your team can review and act on responses without switching tools. Perfect for organizations already using Microsoft 365 as their collaboration hub.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Microsoft Teams via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Microsoft Teams' as the action app and map your form fields to Microsoft Teams."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Microsoft Teams. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Sales lead alerts",
+        "description": "Post new lead form submissions to your sales team's channel so reps can claim and follow up on leads directly from Microsoft Teams."
+      },
+      {
+        "title": "IT support requests",
+        "description": "Route internal IT request forms to a dedicated support channel where your help desk team can triage and respond to tickets in real time."
+      },
+      {
+        "title": "HR application notifications",
+        "description": "Notify your hiring team in Teams whenever a new job application comes through so they can review candidates collaboratively."
+      },
+      {
+        "title": "Customer feedback monitoring",
+        "description": "Stream customer feedback and survey results into a Teams channel so your product and support teams can stay on top of sentiment."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I send form notifications to a specific Teams channel?",
+        "answer": "Yes. When setting up the Zap, you select the exact Team and channel where notifications should be posted. You can set up different forms to post to different channels."
+      },
+      {
+        "question": "What information is included in the Teams notification?",
+        "answer": "The notification includes all the form field responses from the submission. You can customize the message format in Zapier to highlight the most important fields."
+      },
+      {
+        "question": "Do I need a Microsoft 365 admin account to set this up?",
+        "answer": "You need a Microsoft Teams account with permission to post to the target channel. Depending on your organization's settings, you may need admin approval for the Zapier connector."
+      }
+    ]
+  },
+  {
+    "name": "Miro",
+    "slug": "miro",
+    "category": "Productivity & Storage",
+    "is_native": false,
+    "logo": "/assets/images/integrations/miro.png",
+    "tagline": "Turn form submissions into Miro sticky notes and cards automatically.",
+    "meta_description": "Connect Youform with Miro via Zapier to automatically create sticky notes and cards from form submissions. Bring form data into your visual workspace.",
+    "hero_description": "Connect Youform with Miro through Zapier to automatically turn form submissions into sticky notes or cards on your Miro boards. Whether you're collecting feedback, running brainstorming sessions, or gathering research data, every response appears on your visual workspace instantly. Keep your Miro boards fresh with real-time form data.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Miro via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Miro' as the action app and map your form fields to Miro."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Miro. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Feedback visualization",
+        "description": "Collect customer or team feedback through a form and have each response appear as a sticky note on a Miro board for group analysis and clustering."
+      },
+      {
+        "title": "Research data collection",
+        "description": "Gather user research responses via Youform and populate a Miro board with insights that your team can organize, group, and prioritize visually."
+      },
+      {
+        "title": "Idea submission boards",
+        "description": "Run idea collection campaigns where every submitted idea becomes a card on your Miro board, ready for team voting and discussion."
+      },
+      {
+        "title": "Retrospective inputs",
+        "description": "Collect anonymous retrospective feedback through a form and display it on a Miro board so your team can discuss and categorize items during the retro meeting."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What gets created in Miro when a form is submitted?",
+        "answer": "You can configure the Zap to create sticky notes, cards, or other Miro objects. Each submission maps form field data to the content of the Miro element you choose."
+      },
+      {
+        "question": "Can I choose which Miro board receives the form data?",
+        "answer": "Yes. When setting up the Zap, you select the specific Miro board and frame where new items should be created from form submissions."
+      },
+      {
+        "question": "Is this useful for remote workshops?",
+        "answer": "Absolutely. You can share a Youform link with participants before or during a workshop, and their responses will appear on your Miro board in real time, making it easy to facilitate collaborative sessions."
+      }
+    ]
+  },
+  {
+    "name": "monday.com",
+    "slug": "monday-com",
+    "category": "Project Management",
+    "is_native": false,
+    "logo": "/assets/images/integrations/monday-com.png",
+    "tagline": "Automatically create monday.com items from Youform submissions.",
+    "meta_description": "Connect Youform with monday.com via Zapier to automatically create items from form submissions. Streamline project intake and request management.",
+    "hero_description": "Connect Youform with monday.com through Zapier to automatically create new items on your monday.com boards every time someone submits a form. Turn form submissions into actionable tasks, project requests, or lead records without any manual data entry. Keep your project boards up to date with real-time form data flowing in automatically.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to monday.com via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'monday.com' as the action app and map your form fields to monday.com."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into monday.com. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Project request intake",
+        "description": "Create a project request form in Youform and have each submission automatically become a new item on your monday.com board, complete with all the details your team needs."
+      },
+      {
+        "title": "Bug report management",
+        "description": "Let users submit bug reports through a Youform that automatically creates items on your engineering board with severity, description, and reproduction steps."
+      },
+      {
+        "title": "Creative brief submissions",
+        "description": "Collect creative briefs from stakeholders through a form and have them appear as items on your design team's monday.com board, ready to be prioritized."
+      },
+      {
+        "title": "Client onboarding tracking",
+        "description": "Kick off client onboarding workflows automatically when a new client fills out your intake form, creating a tracking item with all their details."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I map form fields to monday.com columns?",
+        "answer": "Yes. When configuring the Zap, you map each Youform field to the corresponding monday.com column — text, numbers, dates, dropdowns, and more are all supported."
+      },
+      {
+        "question": "Will monday.com automations trigger from Zapier-created items?",
+        "answer": "Yes. Items created via Zapier behave like any other item on your board, so your existing monday.com automations and notifications will fire as expected."
+      },
+      {
+        "question": "Can I assign items to specific team members based on form responses?",
+        "answer": "Yes. You can map a form field to monday.com's People column, or use Zapier's built-in logic to assign items to specific team members based on the content of the form submission."
+      }
+    ]
+  },
+  {
+    "name": "MongoDB",
+    "slug": "mongodb",
+    "category": "Spreadsheets & Databases",
+    "is_native": false,
+    "logo": "/assets/images/integrations/mongodb.png",
+    "tagline": "Store Youform submissions directly in your MongoDB database.",
+    "meta_description": "Connect Youform with MongoDB via Zapier to automatically store form submissions as documents in your database. Build a queryable data layer for your forms.",
+    "hero_description": "Connect Youform with MongoDB through Zapier to automatically store every form submission as a document in your MongoDB database. Each response is saved with its full field data, making it instantly queryable alongside your existing application data. Ideal for developers and data teams who want form data in a structured, scalable database.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to MongoDB via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'MongoDB' as the action app and map your form fields to MongoDB."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into MongoDB. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Application data collection",
+        "description": "Store user registration or application form data directly in MongoDB so your web application can query and display it without any additional API calls."
+      },
+      {
+        "title": "Survey response storage",
+        "description": "Collect survey responses through Youform and store them in MongoDB for flexible querying, aggregation, and analysis using MongoDB's powerful query language."
+      },
+      {
+        "title": "Lead database building",
+        "description": "Build a centralized lead database in MongoDB from multiple Youform lead capture forms, enabling your dev team to integrate lead data into custom dashboards."
+      },
+      {
+        "title": "Event logging",
+        "description": "Use forms for incident reports, feedback, or field data collection and store every submission as a timestamped document in MongoDB for auditing and analysis."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What MongoDB hosting providers are supported?",
+        "answer": "Zapier's MongoDB integration works with MongoDB Atlas (cloud-hosted) and any MongoDB instance accessible via a connection string, including self-hosted deployments with public access."
+      },
+      {
+        "question": "How is form data structured in MongoDB?",
+        "answer": "Each form submission is stored as a JSON document in your chosen MongoDB collection. Form field names become document keys, and responses become the corresponding values."
+      },
+      {
+        "question": "Can I store submissions in an existing collection?",
+        "answer": "Yes. When configuring the Zap, you specify the target database and collection. New documents are inserted into your existing collection alongside any data already there."
+      }
+    ]
+  },
+  {
+    "name": "MySQL",
+    "slug": "mysql",
+    "category": "Spreadsheets & Databases",
+    "is_native": false,
+    "logo": "/assets/images/integrations/mysql.png",
+    "tagline": "Save Youform submissions as rows in your MySQL database.",
+    "meta_description": "Connect Youform with MySQL via Zapier to automatically insert form submissions as database rows. Store form data in your own relational database.",
+    "hero_description": "Connect Youform with MySQL through Zapier to automatically insert a new row in your MySQL database every time someone submits a form. Form fields are mapped to table columns, giving you structured, relational data that's ready to query. Perfect for teams that want form data stored in their own infrastructure alongside existing application data.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to MySQL via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'MySQL' as the action app and map your form fields to MySQL."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into MySQL. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Custom application backends",
+        "description": "Feed form submission data directly into the MySQL database that powers your web app, making responses available to your users and internal tools instantly."
+      },
+      {
+        "title": "Reporting and analytics",
+        "description": "Store form data in MySQL and connect it to BI tools like Metabase, Grafana, or Tableau for advanced reporting and visualization."
+      },
+      {
+        "title": "User registration storage",
+        "description": "Capture signups or registration data through Youform and insert records into your MySQL user table for processing by your application."
+      },
+      {
+        "title": "Order and request logging",
+        "description": "Log service requests, orders, or support tickets from forms directly into MySQL tables that integrate with your existing business systems."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does my MySQL database need to be publicly accessible?",
+        "answer": "Your MySQL database needs to be accessible from Zapier's servers. This typically means either a cloud-hosted database or a self-hosted instance with the appropriate network and firewall rules."
+      },
+      {
+        "question": "Can I map form fields to specific MySQL columns?",
+        "answer": "Yes. When setting up the Zap, you select the target table and map each Youform field to the corresponding MySQL column. Data types are handled automatically by Zapier."
+      },
+      {
+        "question": "Will this work with Amazon RDS or other managed MySQL services?",
+        "answer": "Yes. Any MySQL-compatible database works, including Amazon RDS, Google Cloud SQL, DigitalOcean Managed Databases, PlanetScale, and other hosted MySQL providers."
+      }
+    ]
+  },
+  {
+    "name": "n8n",
+    "slug": "n8n",
+    "category": "Automation",
+    "is_native": false,
+    "logo": "/assets/images/integrations/n8n.png",
+    "tagline": "Connect Youform to n8n for self-hosted, open-source workflow automation.",
+    "meta_description": "Connect Youform with n8n via Zapier to power self-hosted workflow automations. Route form data through open-source automation workflows you fully control.",
+    "hero_description": "Connect Youform with n8n through Zapier to send form submissions into your self-hosted automation workflows. n8n is an open-source workflow automation tool that gives you full control over your data and infrastructure. Combine Youform's simple form builder with n8n's powerful node-based automation for maximum flexibility and privacy.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to n8n via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'n8n' as the action app and map your form fields to n8n."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into n8n. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Self-hosted data processing",
+        "description": "Keep form data within your own infrastructure by routing submissions through n8n workflows hosted on your servers, ideal for privacy-conscious organizations."
+      },
+      {
+        "title": "Custom API orchestration",
+        "description": "Use n8n's HTTP request nodes to send form data to internal APIs, third-party services, or microservices that aren't available on mainstream automation platforms."
+      },
+      {
+        "title": "Complex data transformations",
+        "description": "Transform, validate, and enrich form data using n8n's code nodes and built-in functions before routing it to its final destination."
+      },
+      {
+        "title": "Multi-system synchronization",
+        "description": "Keep multiple internal systems in sync by fanning out form submissions to databases, CRMs, ticketing systems, and notification channels simultaneously."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Why use n8n instead of Zapier directly?",
+        "answer": "n8n is open-source and can be self-hosted, giving you full control over your data and workflows. It's ideal for teams with privacy requirements or those who want unlimited executions without per-task pricing."
+      },
+      {
+        "question": "Do I need to self-host n8n?",
+        "answer": "No. n8n offers a cloud-hosted option as well. You can use either n8n Cloud or self-host on your own servers. Both work with the Zapier integration."
+      },
+      {
+        "question": "Can I use n8n's webhook trigger instead of Zapier?",
+        "answer": "Yes, you could also use Youform's native webhook integration to send data directly to an n8n webhook trigger, bypassing Zapier entirely for a more direct connection."
+      }
+    ]
+  },
+  {
+    "name": "Office 365",
+    "slug": "office-365",
+    "category": "Productivity & Storage",
+    "is_native": false,
+    "logo": "/assets/images/integrations/office-365.png",
+    "tagline": "Send Youform submissions to Excel, Outlook, and other Office 365 apps.",
+    "meta_description": "Connect Youform with Office 365 via Zapier to send form data to Excel, Outlook, OneDrive, and more. Integrate forms into your Microsoft ecosystem.",
+    "hero_description": "Connect Youform with Microsoft Office 365 through Zapier to automatically route form submissions to Excel spreadsheets, Outlook emails, OneDrive files, and other apps in the Microsoft ecosystem. If your organization runs on Microsoft, this integration keeps form data flowing into the tools your team already uses every day.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Office 365 via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Office 365' as the action app and map your form fields to Office 365."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Office 365. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Excel spreadsheet logging",
+        "description": "Automatically add form submissions as new rows in an Excel Online spreadsheet, giving your team a familiar interface for reviewing and analyzing response data."
+      },
+      {
+        "title": "Outlook email notifications",
+        "description": "Send formatted Outlook emails to team members whenever a form is submitted, with full submission details included in the email body."
+      },
+      {
+        "title": "OneDrive file organization",
+        "description": "Save form submission data or uploaded files to OneDrive folders, keeping everything organized and accessible to your Microsoft 365 team."
+      },
+      {
+        "title": "SharePoint list population",
+        "description": "Create new items in SharePoint lists from form submissions to feed data into your organization's existing SharePoint-based workflows and dashboards."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which Office 365 apps can I connect to?",
+        "answer": "Through Zapier, you can connect Youform to Excel Online, Outlook, OneDrive, SharePoint, OneNote, and other Microsoft 365 apps. Each app has its own set of available actions."
+      },
+      {
+        "question": "Do I need a Microsoft 365 business account?",
+        "answer": "You need an active Microsoft 365 account with access to the specific apps you want to connect. Both personal and business accounts work, though business accounts offer more integration options."
+      },
+      {
+        "question": "Can I send form data to an Excel file on SharePoint?",
+        "answer": "Yes. Zapier's Excel Online integration can target spreadsheets stored in OneDrive or SharePoint, so your form data goes directly into shared team files."
+      }
+    ]
+  },
+  {
+    "name": "Omnisend",
+    "slug": "omnisend",
+    "category": "Email Marketing",
+    "is_native": false,
+    "logo": "/assets/images/integrations/omnisend.png",
+    "tagline": "Add Youform respondents to your Omnisend email and SMS campaigns.",
+    "meta_description": "Connect Youform with Omnisend via Zapier to add form respondents to your email and SMS marketing lists. Automate subscriber growth for your ecommerce store.",
+    "hero_description": "Connect Youform with Omnisend through Zapier to automatically add form respondents to your Omnisend contact lists and marketing automations. Omnisend is built for ecommerce, so this integration is perfect for online stores that want to capture leads through forms and enroll them in email and SMS campaigns immediately.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Omnisend via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Omnisend' as the action app and map your form fields to Omnisend."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Omnisend. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Ecommerce lead capture",
+        "description": "Collect email addresses from product interest forms and automatically add them to Omnisend for targeted ecommerce email campaigns."
+      },
+      {
+        "title": "SMS subscriber collection",
+        "description": "Gather phone numbers through forms and add contacts to Omnisend's SMS marketing lists for promotions, flash sales, and order updates."
+      },
+      {
+        "title": "Pre-launch waitlists",
+        "description": "Build hype for product launches by collecting waitlist signups through Youform and enrolling them in Omnisend drip campaigns that keep them engaged."
+      },
+      {
+        "title": "Post-purchase feedback to segments",
+        "description": "Collect post-purchase feedback via forms and tag customers in Omnisend based on their responses for more personalized follow-up campaigns."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I add contacts to specific Omnisend segments?",
+        "answer": "Yes. When setting up the Zap, you can assign tags or add contacts to specific lists in Omnisend, which allows you to target them with the right campaigns and automations."
+      },
+      {
+        "question": "Does Omnisend support both email and SMS through this integration?",
+        "answer": "Yes. Omnisend is an omnichannel platform, so contacts added via this integration can be reached through email, SMS, and push notifications depending on your Omnisend plan."
+      },
+      {
+        "question": "Is this integration suitable for non-ecommerce businesses?",
+        "answer": "While Omnisend is designed for ecommerce, any business can use it for email and SMS marketing. However, if you're not running an online store, a general-purpose email platform might be a better fit."
+      }
+    ]
+  },
+  {
+    "name": "Pipedrive",
+    "slug": "pipedrive",
+    "category": "CRM & Sales",
+    "is_native": false,
+    "logo": "/assets/images/integrations/pipedrive.png",
+    "tagline": "Create Pipedrive deals and contacts from Youform submissions automatically.",
+    "meta_description": "Connect Youform with Pipedrive via Zapier to automatically create deals and contacts from form submissions. Turn every form response into a sales opportunity.",
+    "hero_description": "Connect Youform with Pipedrive through Zapier to automatically create new deals, contacts, or leads in Pipedrive every time someone submits your form. Form data maps directly to Pipedrive fields, so your sales team gets structured lead information in their pipeline without any manual entry. Close deals faster by eliminating data entry bottlenecks.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Pipedrive via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Pipedrive' as the action app and map your form fields to Pipedrive."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Pipedrive. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Automated deal creation",
+        "description": "Turn every lead capture form submission into a new Pipedrive deal with the right stage, value, and owner assigned automatically based on form responses."
+      },
+      {
+        "title": "Contact enrichment",
+        "description": "Collect additional details from existing prospects through forms and update their Pipedrive contact records with the new information automatically."
+      },
+      {
+        "title": "Sales inquiry routing",
+        "description": "Capture sales inquiries and create deals in the correct pipeline based on product interest, company size, or other qualifying criteria from the form."
+      },
+      {
+        "title": "Partner application processing",
+        "description": "Collect partner or reseller applications through Youform and create organization records in Pipedrive for your partnerships team to evaluate."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I create both a contact and a deal from one form submission?",
+        "answer": "Yes. You can set up a multi-step Zap that first creates a contact in Pipedrive and then creates a deal linked to that contact, all from a single Youform submission."
+      },
+      {
+        "question": "Can I assign deals to specific pipeline stages?",
+        "answer": "Yes. When configuring the Zap, you can specify which pipeline and stage the new deal should be placed in. You can also use Zapier's logic to assign different stages based on form responses."
+      },
+      {
+        "question": "Will Pipedrive automations trigger on Zapier-created records?",
+        "answer": "Yes. Deals and contacts created through Zapier behave like any other record in Pipedrive, so workflow automations, notifications, and activity reminders all work as expected."
+      }
+    ]
+  },
+  {
+    "name": "PostgreSQL",
+    "slug": "postgresql",
+    "category": "Spreadsheets & Databases",
+    "is_native": false,
+    "logo": "/assets/images/integrations/postgresql.png",
+    "tagline": "Insert Youform submissions as rows in your PostgreSQL database.",
+    "meta_description": "Connect Youform with PostgreSQL via Zapier to automatically insert form submissions into your database. Store form data in structured, queryable tables.",
+    "hero_description": "Connect Youform with PostgreSQL through Zapier to automatically insert a new row in your PostgreSQL database for every form submission. Map form fields to table columns for clean, structured data that's ready to query. Perfect for teams that want form data stored in a robust, open-source relational database alongside their application data.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to PostgreSQL via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'PostgreSQL' as the action app and map your form fields to PostgreSQL."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into PostgreSQL. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Application data ingestion",
+        "description": "Feed form responses directly into your app's PostgreSQL database so submission data is available to your web application and internal dashboards instantly."
+      },
+      {
+        "title": "Data warehouse loading",
+        "description": "Store form submissions in PostgreSQL as part of your data warehouse, enabling joins with other tables for comprehensive analytics and reporting."
+      },
+      {
+        "title": "Research data collection",
+        "description": "Collect research or survey data through forms and store it in PostgreSQL for advanced statistical analysis using SQL queries and data science tools."
+      },
+      {
+        "title": "Compliance and audit trails",
+        "description": "Maintain a structured, immutable record of form submissions in PostgreSQL for compliance, auditing, or legal documentation requirements."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does my PostgreSQL database need to be publicly accessible?",
+        "answer": "Yes, your PostgreSQL instance needs to accept connections from Zapier's IP addresses. Cloud-hosted databases like Supabase, Neon, Amazon RDS, or Heroku Postgres work well for this."
+      },
+      {
+        "question": "Can I map form fields to specific columns?",
+        "answer": "Yes. When setting up the Zap, you choose the target table and map each Youform field to the corresponding PostgreSQL column. Zapier handles data type conversion automatically."
+      },
+      {
+        "question": "Is there a simpler alternative for non-technical users?",
+        "answer": "If you don't need a relational database, consider using Youform's native Google Sheets integration instead. It provides spreadsheet-based data storage without any database setup."
+      }
+    ]
+  },
+  {
+    "name": "QuickBooks Online",
+    "slug": "quickbooks-online",
+    "category": "Payments",
+    "is_native": false,
+    "logo": "/assets/images/integrations/quickbooks-online.png",
+    "tagline": "Create QuickBooks invoices and customers from Youform submissions.",
+    "meta_description": "Connect Youform with QuickBooks Online via Zapier to create invoices and customer records from form submissions. Automate your accounting workflow.",
+    "hero_description": "Connect Youform with QuickBooks Online through Zapier to automatically create customers, invoices, or sales receipts from form submissions. When someone fills out an order form, service request, or client intake form, the financial data flows straight into QuickBooks. Eliminate double data entry and keep your books accurate from the start.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to QuickBooks Online via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'QuickBooks Online' as the action app and map your form fields to QuickBooks Online."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into QuickBooks Online. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Automatic invoice creation",
+        "description": "Collect order details through a Youform and automatically generate a QuickBooks invoice with the correct line items, amounts, and customer information."
+      },
+      {
+        "title": "New customer record creation",
+        "description": "When a new client fills out your intake form, automatically create a customer record in QuickBooks with their contact and billing details."
+      },
+      {
+        "title": "Expense report submission",
+        "description": "Let employees submit expense reports through a form and have the data flow into QuickBooks for approval and reimbursement tracking."
+      },
+      {
+        "title": "Service quote requests",
+        "description": "Capture service requests and project details through forms, then create estimates in QuickBooks that you can review and send to the client."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I create invoices automatically from form submissions?",
+        "answer": "Yes. You can map form fields like customer name, email, service description, and amount to QuickBooks invoice fields, creating draft or sent invoices automatically."
+      },
+      {
+        "question": "Does this work with QuickBooks Desktop?",
+        "answer": "This integration is specifically for QuickBooks Online. QuickBooks Desktop has limited API access and is not directly supported through Zapier's standard connector."
+      },
+      {
+        "question": "Can I handle different currencies?",
+        "answer": "Yes. If your QuickBooks Online account supports multiple currencies, you can specify the currency in the Zap configuration to match the form submission context."
+      }
+    ]
+  },
+  {
+    "name": "Salesforce",
+    "slug": "salesforce",
+    "category": "CRM & Sales",
+    "is_native": false,
+    "logo": "/assets/images/integrations/salesforce.png",
+    "tagline": "Push Youform leads and contacts into Salesforce automatically.",
+    "meta_description": "Connect Youform with Salesforce via Zapier to automatically create leads, contacts, and opportunities from form submissions. Power your CRM with form data.",
+    "hero_description": "Connect Youform with Salesforce through Zapier to automatically create leads, contacts, or custom objects in Salesforce from every form submission. Your sales team gets real-time lead data in their CRM without manual entry, and your Salesforce workflows and assignment rules kick in immediately. The simplest way to feed high-quality form data into the world's leading CRM.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Salesforce via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Salesforce' as the action app and map your form fields to Salesforce."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Salesforce. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Lead generation at scale",
+        "description": "Capture leads from landing pages, events, and campaigns through Youform and automatically create Salesforce lead records with source tracking and lead scoring data."
+      },
+      {
+        "title": "Contact and account creation",
+        "description": "When new customers or partners fill out intake forms, automatically create contacts and accounts in Salesforce with all relevant details populated."
+      },
+      {
+        "title": "Opportunity creation from RFPs",
+        "description": "Turn RFP or quote request form submissions into Salesforce opportunities with the right stage, amount, and close date assigned based on form responses."
+      },
+      {
+        "title": "Campaign member tracking",
+        "description": "Add form respondents as campaign members in Salesforce to track which marketing campaigns are generating the most leads and pipeline."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I create custom Salesforce objects from form submissions?",
+        "answer": "Yes. Zapier supports both standard Salesforce objects (leads, contacts, accounts, opportunities) and custom objects. Map your form fields to any object's fields during setup."
+      },
+      {
+        "question": "Will Salesforce automation rules trigger on Zapier-created records?",
+        "answer": "Yes. Records created via Zapier behave like any other Salesforce record. Flow automations, assignment rules, validation rules, and triggers all fire as expected."
+      },
+      {
+        "question": "Can I prevent duplicate leads in Salesforce?",
+        "answer": "Yes. Zapier offers a 'create or update' action for Salesforce that checks for existing records by email or other unique identifiers before creating a new one, preventing duplicates."
+      }
+    ]
+  },
+  {
+    "name": "SendGrid",
+    "slug": "sendgrid",
+    "category": "Email Marketing",
+    "is_native": false,
+    "logo": "/assets/images/integrations/sendgrid.png",
+    "tagline": "Add Youform respondents to SendGrid contact lists and trigger emails.",
+    "meta_description": "Connect Youform with SendGrid via Zapier to add form respondents to contact lists and trigger transactional emails. Automate your email workflows.",
+    "hero_description": "Connect Youform with SendGrid through Zapier to automatically add form respondents to your SendGrid contact lists or trigger transactional emails. Whether you need to send a confirmation email, add someone to a marketing list, or kick off a drip campaign, this integration handles it the moment a form is submitted.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to SendGrid via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'SendGrid' as the action app and map your form fields to SendGrid."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into SendGrid. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Automated confirmation emails",
+        "description": "Send a personalized confirmation or thank-you email via SendGrid the moment someone submits your form, using dynamic templates with form data."
+      },
+      {
+        "title": "Newsletter subscriber growth",
+        "description": "Add form respondents to your SendGrid marketing contact list so they start receiving your newsletters and promotional campaigns automatically."
+      },
+      {
+        "title": "Transactional email triggers",
+        "description": "Trigger transactional emails like order confirmations, booking receipts, or account activation messages directly from form submissions."
+      },
+      {
+        "title": "Drip campaign enrollment",
+        "description": "Enroll form respondents in SendGrid automation sequences that send a series of timed emails to nurture them from lead to customer."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I use SendGrid email templates with Youform data?",
+        "answer": "Yes. You can trigger SendGrid dynamic transactional templates and pass form field values as template variables for personalized emails."
+      },
+      {
+        "question": "What's the difference between SendGrid's marketing and transactional emails?",
+        "answer": "Marketing emails are bulk campaigns sent to contact lists, while transactional emails are triggered by specific events (like form submissions). This integration supports both workflows."
+      },
+      {
+        "question": "Can I add contacts to specific SendGrid lists?",
+        "answer": "Yes. When configuring the Zap, you can specify which SendGrid contact list to add the respondent to, or use Zapier logic to assign different lists based on form responses."
+      }
+    ]
+  },
+  {
+    "name": "Shopify",
+    "slug": "shopify",
+    "category": "Ecommerce",
+    "is_native": false,
+    "logo": "/assets/images/integrations/shopify.png",
+    "tagline": "Connect Youform with Shopify to manage customers and orders from form data.",
+    "meta_description": "Connect Youform with Shopify via Zapier to create customers, manage orders, and sync form data with your ecommerce store. Automate your Shopify workflows.",
+    "hero_description": "Connect Youform with Shopify through Zapier to bridge the gap between your forms and your online store. Automatically create customer records, tag buyers, or trigger order-related workflows based on form submissions. Whether you're running a pre-order form, warranty registration, or custom order request, your form data flows into Shopify seamlessly.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Shopify via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Shopify' as the action app and map your form fields to Shopify."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Shopify. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Custom order requests",
+        "description": "Let customers submit custom or bulk order requests through a Youform and automatically create or tag customer records in Shopify for follow-up."
+      },
+      {
+        "title": "Warranty and product registration",
+        "description": "Collect warranty registration data through a form and create or update customer profiles in Shopify with purchase and registration details."
+      },
+      {
+        "title": "Wholesale application processing",
+        "description": "Accept wholesale or distributor applications via forms and automatically create customer accounts in Shopify with appropriate tags and pricing tiers."
+      },
+      {
+        "title": "Pre-launch interest collection",
+        "description": "Gather pre-order or waitlist signups through forms and create tagged customer records in Shopify so you can notify them when the product launches."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I create Shopify customers from form submissions?",
+        "answer": "Yes. The Zap can create new customer records in Shopify with name, email, address, and custom tags pulled from your Youform responses."
+      },
+      {
+        "question": "Can I create orders in Shopify from a form?",
+        "answer": "Yes. Zapier supports creating draft orders in Shopify from form data. For payment collection, you can combine Youform's Stripe integration with Shopify customer creation."
+      },
+      {
+        "question": "Does this work with Shopify Plus?",
+        "answer": "Yes. The Zapier integration works with all Shopify plans, including Shopify Plus. Enterprise stores can use it alongside their existing Shopify workflows and automations."
+      }
+    ]
+  },
+  {
+    "name": "Smartsheet",
+    "slug": "smartsheet",
+    "category": "Project Management",
+    "is_native": false,
+    "logo": "/assets/images/integrations/smartsheet.png",
+    "tagline": "Add Youform submissions as rows in your Smartsheet sheets automatically.",
+    "meta_description": "Connect Youform with Smartsheet via Zapier to automatically add form submissions as rows. Manage projects and data in Smartsheet with form-driven workflows.",
+    "hero_description": "Connect Youform with Smartsheet through Zapier to automatically add a new row in your Smartsheet for every form submission. Form fields map to Smartsheet columns, keeping your project plans and data sheets up to date with real-time form responses. Great for enterprise teams that rely on Smartsheet for project tracking, resource planning, and collaborative data management.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Smartsheet via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Smartsheet' as the action app and map your form fields to Smartsheet."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Smartsheet. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Project intake management",
+        "description": "Collect project requests through a form and have each one appear as a new row in your Smartsheet project intake sheet, ready for review and prioritization."
+      },
+      {
+        "title": "Resource request tracking",
+        "description": "Let team members submit resource or equipment requests via forms and log them in a Smartsheet for managers to approve and track fulfillment."
+      },
+      {
+        "title": "Vendor onboarding",
+        "description": "Collect vendor information and compliance documents through a Youform and populate your Smartsheet vendor management tracker automatically."
+      },
+      {
+        "title": "Change request logging",
+        "description": "Capture change requests or scope modifications through forms and add them to your Smartsheet project plan for impact assessment and approval."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I map form fields to specific Smartsheet columns?",
+        "answer": "Yes. When configuring the Zap, you select the target sheet and map each Youform field to the corresponding Smartsheet column, including text, date, dropdown, and contact columns."
+      },
+      {
+        "question": "Will Smartsheet automations trigger on new rows added via Zapier?",
+        "answer": "Yes. Rows added through Zapier trigger Smartsheet's built-in automations, including alerts, reminders, and approval workflows, just like manually added rows."
+      },
+      {
+        "question": "Can I update existing Smartsheet rows from form submissions?",
+        "answer": "Zapier's Smartsheet integration primarily supports adding new rows. For updating existing rows, you can use Zapier's search and update actions together in a multi-step Zap."
+      }
+    ]
+  },
+  {
+    "name": "Square",
+    "slug": "square",
+    "category": "Payments",
+    "is_native": false,
+    "logo": "/assets/images/integrations/square.png",
+    "tagline": "Create Square customers and invoices from Youform submissions.",
+    "meta_description": "Connect Youform with Square via Zapier to create customers and invoices from form submissions. Bridge your forms with Square's payment ecosystem.",
+    "hero_description": "Connect Youform with Square through Zapier to automatically create customers, invoices, or catalog items from form submissions. When clients fill out service request forms, order forms, or booking forms, their information flows into Square for invoicing and payment processing. Simplify your workflow from form to payment.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Square via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Square' as the action app and map your form fields to Square."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Square. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Customer record creation",
+        "description": "Automatically create customer profiles in Square when someone fills out a contact or service request form, with name, email, phone, and notes populated."
+      },
+      {
+        "title": "Invoice generation from forms",
+        "description": "Collect service details and customer information through a Youform and create a Square invoice automatically for the client to pay online."
+      },
+      {
+        "title": "Appointment booking with billing",
+        "description": "Combine appointment booking forms with Square customer creation so you have billing records ready when it's time to charge for the service."
+      },
+      {
+        "title": "Custom order management",
+        "description": "Accept custom orders through a form and create corresponding customer and transaction records in Square to track fulfillment and payments."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I create invoices in Square from form submissions?",
+        "answer": "Yes. You can map form fields like customer name, service description, and amount to create Square invoices. Invoices can be sent to customers for online payment through Square."
+      },
+      {
+        "question": "Does this work with Square's in-person POS?",
+        "answer": "Customer records created via this integration appear in your Square dashboard and POS system. However, the Zapier integration is best suited for online workflows, not in-person transactions."
+      },
+      {
+        "question": "Can I handle tips or variable amounts?",
+        "answer": "Yes. If your form includes a field for the service amount or tip, you can map those values to the appropriate Square invoice fields for accurate billing."
+      }
+    ]
+  },
+  {
+    "name": "Todoist",
+    "slug": "todoist",
+    "category": "Productivity & Storage",
+    "is_native": false,
+    "logo": "/assets/images/integrations/todoist.png",
+    "tagline": "Turn Youform submissions into Todoist tasks automatically.",
+    "meta_description": "Connect Youform with Todoist via Zapier to automatically create tasks from form submissions. Turn every form response into an actionable to-do item.",
+    "hero_description": "Connect Youform with Todoist through Zapier to automatically turn every form submission into a Todoist task. Whether you're collecting support requests, feedback, or internal asks, each response becomes an actionable item in your to-do list. Stay organized and make sure nothing falls through the cracks.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Todoist via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Todoist' as the action app and map your form fields to Todoist."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Todoist. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Request intake management",
+        "description": "Collect service or project requests through a form and have each one automatically become a Todoist task with full details, assigned to the right project."
+      },
+      {
+        "title": "Feedback follow-up tracking",
+        "description": "Turn customer feedback form submissions into tasks so you never forget to follow up on issues, suggestions, or compliments."
+      },
+      {
+        "title": "Content idea backlog",
+        "description": "Collect blog post ideas, content suggestions, or topic requests through a form and build a prioritized Todoist backlog for your content team."
+      },
+      {
+        "title": "Personal task capture",
+        "description": "Share a quick-entry form with yourself or your team to capture tasks on the go. Each submission becomes a Todoist task with the right project and priority."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I assign tasks to specific Todoist projects?",
+        "answer": "Yes. When setting up the Zap, you choose which Todoist project the task should be added to. You can also set priority levels, labels, and due dates."
+      },
+      {
+        "question": "Can I set task due dates from form responses?",
+        "answer": "Yes. If your form includes a date field, you can map it to the Todoist task's due date. Todoist understands natural language dates as well."
+      },
+      {
+        "question": "Is Todoist suitable for team task management?",
+        "answer": "Yes. Todoist supports shared projects and team workspaces. Tasks created from form submissions can be visible to your entire team for collaborative task management."
+      }
+    ]
+  },
+  {
+    "name": "Trello",
+    "slug": "trello",
+    "category": "Project Management",
+    "is_native": false,
+    "logo": "/assets/images/integrations/trello.png",
+    "tagline": "Create Trello cards from Youform submissions automatically.",
+    "meta_description": "Connect Youform with Trello via Zapier to automatically create cards from form submissions. Turn form responses into actionable Trello board items.",
+    "hero_description": "Connect Youform with Trello through Zapier to automatically create a new Trello card for every form submission. Each card includes the form response data, making it easy for your team to review, prioritize, and move items through your workflow. Turn any form into a project intake system that feeds directly into your Trello boards.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Trello via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Trello' as the action app and map your form fields to Trello."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Trello. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Feature request tracking",
+        "description": "Collect feature requests through a Youform and have each one appear as a Trello card on your product backlog board for the team to discuss and prioritize."
+      },
+      {
+        "title": "Bug report management",
+        "description": "Let users report bugs through a form that automatically creates Trello cards with severity, description, and steps to reproduce in your engineering board."
+      },
+      {
+        "title": "Content production pipeline",
+        "description": "Accept content briefs or article requests through a form and create Trello cards that move through your editorial workflow from drafting to publishing."
+      },
+      {
+        "title": "Event planning tasks",
+        "description": "Collect event-related requests like speaker submissions, sponsorship inquiries, or volunteer signups and turn them into organized Trello cards."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I specify which Trello list the card is added to?",
+        "answer": "Yes. When setting up the Zap, you select the target board and list for new cards. You can also assign labels, members, due dates, and checklists."
+      },
+      {
+        "question": "Can I include form attachments on the Trello card?",
+        "answer": "If your form includes file uploads, the file URLs can be added to the Trello card description. For direct file attachments, you may need a multi-step Zap."
+      },
+      {
+        "question": "Will Trello Butler automations trigger on Zapier-created cards?",
+        "answer": "Yes. Cards created through Zapier are standard Trello cards, so Butler automations, due date reminders, and other Trello features work normally."
+      }
+    ]
+  },
+  {
+    "name": "Trustpilot",
+    "slug": "trustpilot",
+    "category": "Marketing & Social",
+    "is_native": false,
+    "logo": "/assets/images/integrations/trustpilot.png",
+    "tagline": "Trigger Trustpilot review invitations from Youform submissions.",
+    "meta_description": "Connect Youform with Trustpilot via Zapier to trigger review invitations from form submissions. Grow your online reputation with automated review requests.",
+    "hero_description": "Connect Youform with Trustpilot through Zapier to automatically trigger review invitations when customers submit a form. After a purchase, service completion, or event, send a Youform to collect feedback and simultaneously invite them to leave a Trustpilot review. Build your online reputation systematically with every customer interaction.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Trustpilot via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Trustpilot' as the action app and map your form fields to Trustpilot."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Trustpilot. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Post-purchase review collection",
+        "description": "Send a follow-up form after a purchase and automatically trigger a Trustpilot review invitation to build social proof from happy customers."
+      },
+      {
+        "title": "Service completion reviews",
+        "description": "When clients complete a feedback form after a service engagement, invite them to share their experience on Trustpilot for public credibility."
+      },
+      {
+        "title": "NPS-driven review requests",
+        "description": "Collect NPS scores through a Youform and only trigger Trustpilot invitations for promoters (high scores), ensuring you ask the right customers for reviews."
+      },
+      {
+        "title": "Event attendee reviews",
+        "description": "After events or webinars, send attendees a feedback form and automatically invite satisfied attendees to leave a Trustpilot review."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need a Trustpilot business account?",
+        "answer": "Yes. To send review invitations through the API, you need a Trustpilot Business account. Trustpilot's free listing doesn't include the invitation API access needed for this integration."
+      },
+      {
+        "question": "Can I control who receives a review invitation?",
+        "answer": "Yes. You can use Zapier's filter or path steps to only trigger Trustpilot invitations based on form responses — for example, only inviting customers who gave positive feedback."
+      },
+      {
+        "question": "Will this help improve my Trustpilot score?",
+        "answer": "By systematically requesting reviews from satisfied customers, you're more likely to grow your review volume and maintain a strong score. The key is asking at the right moment."
+      }
+    ]
+  },
+  {
+    "name": "Twilio",
+    "slug": "twilio",
+    "category": "Communication",
+    "is_native": false,
+    "logo": "/assets/images/integrations/twilio.png",
+    "tagline": "Send SMS or WhatsApp messages from Youform submissions via Twilio.",
+    "meta_description": "Connect Youform with Twilio via Zapier to send SMS or WhatsApp messages when a form is submitted. Automate text-based notifications and alerts.",
+    "hero_description": "Connect Youform with Twilio through Zapier to automatically send SMS or WhatsApp messages whenever someone submits your form. Notify your team, confirm submissions with respondents, or trigger text-based workflows in real time. Twilio's programmable messaging platform gives you full control over who gets notified and what the message says.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Twilio via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Twilio' as the action app and map your form fields to Twilio."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Twilio. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "SMS confirmation messages",
+        "description": "Send an instant SMS confirmation to the respondent after they submit a form, including a summary of their submission or a reference number."
+      },
+      {
+        "title": "Team alerts via text",
+        "description": "Notify team members by SMS when high-priority form submissions come in, ensuring urgent requests get immediate attention even outside of office hours."
+      },
+      {
+        "title": "Appointment reminders",
+        "description": "Collect booking details through a form and trigger an SMS reminder to the customer with their appointment date, time, and location."
+      },
+      {
+        "title": "WhatsApp follow-ups",
+        "description": "Send WhatsApp messages to form respondents for a more personal touch, especially in regions where WhatsApp is the preferred communication channel."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Do I need a Twilio account to use this?",
+        "answer": "Yes. You need a Twilio account with a phone number or WhatsApp sender configured. Twilio charges per message sent, so costs depend on your volume and destination."
+      },
+      {
+        "question": "Can I send SMS to the person who submitted the form?",
+        "answer": "Yes. If your form collects a phone number, you can use that field as the recipient in Twilio. This is perfect for sending confirmation or follow-up messages to respondents."
+      },
+      {
+        "question": "Does this support international SMS?",
+        "answer": "Yes. Twilio supports SMS delivery to most countries worldwide. Pricing varies by destination, and you may need to register your Twilio number for specific regions."
+      }
+    ]
+  },
+  {
+    "name": "Twitter",
+    "slug": "twitter",
+    "category": "Marketing & Social",
+    "is_native": false,
+    "logo": "/assets/images/integrations/twitter.png",
+    "tagline": "Auto-post tweets or track mentions from Youform submissions.",
+    "meta_description": "Connect Youform with Twitter (X) via Zapier to auto-post tweets from form submissions. Automate social media content from your form data.",
+    "hero_description": "Connect Youform with Twitter (X) through Zapier to automatically create tweets or track social engagement based on form submissions. Turn form responses into social media content, share user-generated submissions, or notify your team about social mentions. Automate your Twitter presence with data from your forms.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Twitter via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Twitter' as the action app and map your form fields to Twitter."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Twitter. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "User-submitted content sharing",
+        "description": "Collect testimonials, quotes, or tips through a form and automatically tweet them to your audience, with proper formatting and attribution."
+      },
+      {
+        "title": "Event live updates",
+        "description": "Let attendees submit highlights or takeaways through a form during an event and auto-post them to your Twitter account as real-time updates."
+      },
+      {
+        "title": "Product launch announcements",
+        "description": "Trigger tweets automatically when your team submits product updates through an internal form, keeping your social feed active during launch campaigns."
+      },
+      {
+        "title": "Community engagement",
+        "description": "Collect community spotlights or success stories through forms and share them on Twitter to celebrate your users and drive engagement."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I customize the tweet content from form data?",
+        "answer": "Yes. You compose the tweet template in Zapier and insert form field values dynamically. This lets you create personalized tweets from each submission's data."
+      },
+      {
+        "question": "Does this work with the current Twitter (X) API?",
+        "answer": "Yes. Zapier maintains its Twitter integration to work with the latest API. Note that Twitter's API access requirements and rate limits may affect your usage."
+      },
+      {
+        "question": "Can I add approval before tweets go live?",
+        "answer": "While the basic setup auto-posts immediately, you can add a manual approval step in Zapier or use a buffer tool between the form submission and the tweet to review content first."
+      }
+    ]
+  },
+  {
+    "name": "Webflow",
+    "slug": "webflow",
+    "category": "Ecommerce",
+    "is_native": false,
+    "logo": "/assets/images/integrations/webflow.png",
+    "tagline": "Add Youform submissions to Webflow CMS collections automatically.",
+    "meta_description": "Connect Youform with Webflow via Zapier to add form submissions as CMS collection items. Publish user-generated content to your Webflow site automatically.",
+    "hero_description": "Connect Youform with Webflow through Zapier to automatically create CMS collection items from form submissions. Turn user-generated content, directory listings, testimonials, or product submissions into published content on your Webflow site. Youform handles the data collection while Webflow handles the presentation.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Webflow via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Webflow' as the action app and map your form fields to Webflow."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Webflow. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "User-generated directory listings",
+        "description": "Let users submit listings through a form and automatically add them to a Webflow CMS collection that powers a directory page on your site."
+      },
+      {
+        "title": "Testimonial collection and display",
+        "description": "Collect customer testimonials via a Youform and have them automatically appear in a Webflow CMS collection that displays on your testimonials page."
+      },
+      {
+        "title": "Job board submissions",
+        "description": "Accept job postings through a form and create Webflow CMS items that display on your job board, complete with company info, role details, and application links."
+      },
+      {
+        "title": "Event listing management",
+        "description": "Let event organizers submit their events through a form and automatically populate your Webflow-powered events page with new listings."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I publish CMS items automatically or do they need review?",
+        "answer": "You can choose to create items as drafts for review or publish them live immediately. For user-generated content, we recommend creating drafts so you can review before publishing."
+      },
+      {
+        "question": "Can I map form fields to Webflow CMS fields?",
+        "answer": "Yes. When configuring the Zap, you map each Youform field to the corresponding Webflow CMS collection field, including text, images, rich text, dates, and more."
+      },
+      {
+        "question": "Does this replace Webflow's built-in forms?",
+        "answer": "Youform offers more advanced form features like multi-step forms, conditional logic, and file uploads. Use Youform when you need capabilities beyond what Webflow's native forms provide."
+      }
+    ]
+  },
+  {
+    "name": "WordPress",
+    "slug": "wordpress",
+    "category": "Ecommerce",
+    "is_native": false,
+    "logo": "/assets/images/integrations/wordpress.png",
+    "tagline": "Create WordPress posts and pages from Youform submissions.",
+    "meta_description": "Connect Youform with WordPress via Zapier to create posts, pages, or custom post types from form submissions. Automate content publishing on your WordPress site.",
+    "hero_description": "Connect Youform with WordPress through Zapier to automatically create posts, pages, or custom post types from form submissions. Whether you're accepting guest blog posts, collecting directory listings, or building a knowledge base from user contributions, form data flows into WordPress and becomes publishable content on your site.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to WordPress via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'WordPress' as the action app and map your form fields to WordPress."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into WordPress. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Guest post submissions",
+        "description": "Accept guest blog post submissions through a form and automatically create WordPress draft posts with the content, author info, and category pre-filled."
+      },
+      {
+        "title": "Directory or listing sites",
+        "description": "Let users submit business or resource listings through a form and automatically create WordPress posts or custom post types that appear on your directory site."
+      },
+      {
+        "title": "Knowledge base articles",
+        "description": "Collect how-to guides, FAQs, or documentation from your team through forms and publish them as WordPress pages for your knowledge base."
+      },
+      {
+        "title": "Testimonial and review publishing",
+        "description": "Gather customer reviews through Youform and create WordPress posts that display on your testimonials page using your theme's review template."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I create posts as drafts for review?",
+        "answer": "Yes. When setting up the Zap, you can set the post status to 'draft' so all submissions are saved for editorial review before being published on your WordPress site."
+      },
+      {
+        "question": "Does this work with WordPress.com and self-hosted WordPress?",
+        "answer": "Zapier's WordPress integration works with self-hosted WordPress.org sites. For WordPress.com sites, you may need to use the WordPress.com-specific Zapier integration."
+      },
+      {
+        "question": "Can I set categories and tags from form data?",
+        "answer": "Yes. You can map form fields to WordPress categories, tags, and custom taxonomies. You can also use Zapier logic to assign categories based on form responses."
+      }
+    ]
+  },
+  {
+    "name": "Xero",
+    "slug": "xero",
+    "category": "Payments",
+    "is_native": false,
+    "logo": "/assets/images/integrations/xero.png",
+    "tagline": "Create Xero invoices and contacts from Youform submissions.",
+    "meta_description": "Connect Youform with Xero via Zapier to create invoices and contact records from form submissions. Automate your accounting and invoicing workflow.",
+    "hero_description": "Connect Youform with Xero through Zapier to automatically create contacts, invoices, or bills from form submissions. When clients complete a service request, order form, or onboarding questionnaire, the relevant financial data flows into Xero for invoicing and bookkeeping. Keep your accounting records accurate without duplicate data entry.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Xero via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Xero' as the action app and map your form fields to Xero."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Xero. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Automatic invoice generation",
+        "description": "Collect order details and client information through a form and automatically create Xero invoices with the correct line items and amounts."
+      },
+      {
+        "title": "New contact creation",
+        "description": "When a new client fills out your onboarding form, create a contact record in Xero with their billing address, email, and tax information pre-populated."
+      },
+      {
+        "title": "Expense claim submissions",
+        "description": "Let employees submit expense claims through a form and have them automatically logged in Xero for approval and reimbursement processing."
+      },
+      {
+        "title": "Quote and estimate requests",
+        "description": "Capture project requirements and client details through a form and create draft quotes in Xero that you can review and send to the client."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I create invoices with line items from form data?",
+        "answer": "Yes. You can map form fields like customer name, service description, and amount to Xero invoice fields including contact name, line item description, quantity, unit price, and tax rate."
+      },
+      {
+        "question": "Does this work with Xero's multi-currency feature?",
+        "answer": "Yes. If your Xero account has multi-currency enabled, you can specify the currency when creating invoices or contacts through the Zapier integration."
+      },
+      {
+        "question": "Can I prevent duplicate contacts in Xero?",
+        "answer": "Zapier offers search actions for Xero that let you check if a contact already exists before creating a new one. Use a multi-step Zap to search first and then create or update accordingly."
+      }
+    ]
+  },
+  {
+    "name": "Zendesk",
+    "slug": "zendesk",
+    "category": "Customer Support",
+    "is_native": false,
+    "logo": "/assets/images/integrations/zendesk.png",
+    "tagline": "Create Zendesk support tickets from Youform submissions automatically.",
+    "meta_description": "Connect Youform with Zendesk via Zapier to automatically create support tickets from form submissions. Streamline your customer support intake workflow.",
+    "hero_description": "Connect Youform with Zendesk through Zapier to automatically create support tickets from form submissions. When customers fill out a support or contact form, a Zendesk ticket is created with all the relevant details, priority, and tags. Your support team can start working on issues immediately without manually transferring data from forms to their ticketing system.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Zendesk via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Zendesk' as the action app and map your form fields to Zendesk."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Zendesk. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Support request intake",
+        "description": "Replace generic contact forms with structured Youform submissions that automatically create Zendesk tickets with the right category, priority, and description."
+      },
+      {
+        "title": "Bug report ticketing",
+        "description": "Collect detailed bug reports with steps to reproduce, screenshots, and severity levels through a form that creates pre-categorized Zendesk tickets for your engineering team."
+      },
+      {
+        "title": "Return and refund requests",
+        "description": "Streamline return requests by collecting order details and reason for return through a form, creating a Zendesk ticket with all the info your support team needs."
+      },
+      {
+        "title": "Feature request tracking",
+        "description": "Let users submit feature requests through a Youform and create Zendesk tickets tagged as feature requests for your product team to review and prioritize."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I set ticket priority and tags from form data?",
+        "answer": "Yes. Map form fields like urgency or category to Zendesk ticket properties including priority, type, tags, and custom fields for proper routing and SLA tracking."
+      },
+      {
+        "question": "Will Zendesk automations and triggers fire on these tickets?",
+        "answer": "Yes. Tickets created via Zapier are standard Zendesk tickets, so all your existing automations, triggers, SLA policies, and assignment rules apply automatically."
+      },
+      {
+        "question": "Can the form submitter receive Zendesk email updates?",
+        "answer": "Yes. If you map the form's email field to the Zendesk requester field, the submitter will receive standard Zendesk email notifications as their ticket is updated."
+      }
+    ]
+  },
+  {
+    "name": "Zoho CRM",
+    "slug": "zoho-crm",
+    "category": "CRM & Sales",
+    "is_native": false,
+    "logo": "/assets/images/integrations/zoho-crm.png",
+    "tagline": "Push Youform leads and contacts into Zoho CRM automatically.",
+    "meta_description": "Connect Youform with Zoho CRM via Zapier to automatically create leads and contacts from form submissions. Grow your CRM with every form response.",
+    "hero_description": "Connect Youform with Zoho CRM through Zapier to automatically create leads, contacts, or deals in Zoho CRM from every form submission. Your sales team gets fresh lead data in their CRM pipeline the moment a form is submitted, with no manual entry. Perfect for Zoho users who want a simple, powerful form builder feeding directly into their CRM workflows.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form in Youform",
+        "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need — text, email, file uploads, and more."
+      },
+      {
+        "title": "Connect to Zoho CRM via Zapier",
+        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Zoho CRM' as the action app and map your form fields to Zoho CRM."
+      },
+      {
+        "title": "Automate your workflow",
+        "description": "Every time someone submits your Youform, the data automatically flows into Zoho CRM. No manual work needed."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Lead capture and scoring",
+        "description": "Capture leads from your website forms and create Zoho CRM lead records with source tracking, so your lead scoring rules and assignment rules take effect immediately."
+      },
+      {
+        "title": "Contact creation from onboarding forms",
+        "description": "When new clients complete onboarding forms, automatically create contact records in Zoho CRM with their details, preferences, and account information."
+      },
+      {
+        "title": "Deal creation from quote requests",
+        "description": "Turn quote request or RFP form submissions into Zoho CRM deals with the correct pipeline stage, expected value, and close date based on form inputs."
+      },
+      {
+        "title": "Campaign response tracking",
+        "description": "Track marketing campaign effectiveness by creating leads in Zoho CRM from campaign-specific forms, with campaign source and medium automatically tagged."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Can I create records in Zoho CRM custom modules?",
+        "answer": "Yes. Zapier's Zoho CRM integration supports both standard modules (leads, contacts, accounts, deals) and custom modules you've created in your Zoho CRM instance."
+      },
+      {
+        "question": "Will Zoho CRM workflow rules trigger on Zapier-created records?",
+        "answer": "Yes. Records created through Zapier behave like manually created records in Zoho CRM. Your workflow rules, blueprints, and assignment rules will fire as expected."
+      },
+      {
+        "question": "Can I update existing Zoho CRM records from form submissions?",
+        "answer": "Yes. You can use Zapier's search and update actions to find existing records by email or other unique identifiers and update them with new form data, preventing duplicate entries."
+      }
+    ]
+  }
+]
