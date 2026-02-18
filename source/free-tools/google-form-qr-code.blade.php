@@ -1,6 +1,6 @@
 ---
-title: Free Google Form QR Code Generator by Youform
-description: Get QR code for your Google form. Just paste your form link and get the QR code for free.
+title: "Google Forms QR Code Generator — Free, One-Click, No Signup"
+description: "Generate a QR code for your Google Forms instantly. Free, no account needed — just paste your form URL and download. Works with any Google Form."
 ---
 
 @extends('_layouts.main')
@@ -16,7 +16,8 @@ description: Get QR code for your Google form. Just paste your form link and get
         <!-- herosection -->
         <div class="relative max-w-4xl mx-auto mt-20 pb-20">
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
-                <h1 class="text-4xl font-bold">Free Google Form QR Code Generator</h1>
+                <h1 class="text-4xl font-bold">Free Google Forms QR Code Generator</h1>
+                <p class="text-center text-gray-600 mt-3">Create a QR code for any Google Form in seconds. No signup required.</p>
 
                 <div class="relative mx-auto mt-8 bg-white text-gray-800 pb-16 border-2 border-black p-10 rounded-xl mb-10">
                     <div 
@@ -78,19 +79,19 @@ description: Get QR code for your Google form. Just paste your form link and get
                         <div>
                             <div class="mt-10">
                                 <h2 class="font-semibold text-lg">
-                                    How to get QR code for Google form?
+                                    How to get a QR code for Google Forms
                                 </h2>
                                 <p>
-                                    Simply copy your Google Form URL &amp; paste it above. We will generate it for you. Yes, it is that simple. You can download the QR code and take a print or use it in your website, email etc.
+                                    Simply copy your Google Form URL and paste it above. We'll generate your Google Forms QR code instantly. You can download it and use it anywhere — print it, embed it on your website, or share it via email. No account needed, completely free.
                                 </p>
                             </div>
 
                             <div class="mt-10">
                                 <h2 class="font-semibold text-lg">
-                                    Need a better and free Google form alternative?
+                                    Need a better and free Google Forms alternative?
                                 </h2>
                                 <p>
-                                    Youform is a free Google form alternative which not only supports QR code but lots of other features like custom domain, partial submissions, custom branding. It also provides unlimited submissions for free. Try it and you will love it, we promise. :)
+                                    Youform is a free Google Forms alternative which not only supports QR codes but lots of other features like custom domain, partial submissions, custom branding. It also provides unlimited submissions for free. Try it and you will love it, we promise. :)
                                 </p>
 
                                 <div class="mt-10 text-center">
