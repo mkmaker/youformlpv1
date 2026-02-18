@@ -1,3 +1,8 @@
+---
+title: Youform Features - Logic, Integrations, Analytics & 50+ Form Building Tools
+description: Explore all Youform features including conditional logic, payment collection, analytics, 50+ integrations, quiz scoring, and more. Everything you need to build professional forms.
+---
+
 @extends('_layouts.main')
 
 @section('body')

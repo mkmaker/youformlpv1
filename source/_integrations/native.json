@@ -1,0 +1,730 @@
+[
+  {
+    "name": "Email",
+    "slug": "email",
+    "category": "Communication",
+    "is_native": true,
+    "logo": "/assets/images/integrations/email.png",
+    "tagline": "Get instant email notifications for every form submission.",
+    "meta_description": "Connect Youform with email notifications to instantly receive form responses in your inbox. Free to use with unlimited forms and submissions on Youform.",
+    "hero_description": "Youform's native email integration sends you an automatic notification every time someone submits your form. Set it up in seconds with no third-party tools or Zapier needed. Stay on top of every response by receiving detailed submission data directly in your inbox.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form",
+        "description": "Build your form in Youform using the drag-and-drop editor. Add any fields you need, from text inputs to file uploads."
+      },
+      {
+        "title": "Enable email notifications",
+        "description": "Go to your form's integration settings and turn on email notifications. Add one or more email addresses to receive alerts."
+      },
+      {
+        "title": "Receive submissions instantly",
+        "description": "Every time someone fills out your form, you'll get an email with the complete response data delivered straight to your inbox."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Contact form alerts",
+        "description": "Get notified the moment a website visitor submits a contact form so you can respond quickly and never miss a lead."
+      },
+      {
+        "title": "Team notifications",
+        "description": "Add multiple team members' email addresses so the right people are alerted when a new form response comes in."
+      },
+      {
+        "title": "Application tracking",
+        "description": "Receive email notifications for job applications or program signups so you can review candidates as they apply."
+      },
+      {
+        "title": "Feedback collection",
+        "description": "Instantly see customer feedback and survey responses in your inbox so you can act on insights without delay."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the email notification integration free to use?",
+        "answer": "Yes, email notifications are available on Youform's free plan. You get unlimited forms and unlimited responses at no cost, with email alerts included."
+      },
+      {
+        "question": "Can I send email notifications to multiple recipients?",
+        "answer": "Yes, you can add multiple email addresses to receive notifications for each form. This makes it easy to keep your entire team in the loop."
+      },
+      {
+        "question": "What information is included in the email notification?",
+        "answer": "Each email notification contains the complete form submission data, including all field responses, so you have the full context without needing to log in to Youform."
+      }
+    ]
+  },
+  {
+    "name": "Webhook",
+    "slug": "webhook",
+    "category": "Automation",
+    "is_native": true,
+    "logo": "/assets/images/integrations/webhook.png",
+    "tagline": "Send form submission data to any URL endpoint instantly.",
+    "meta_description": "Connect Youform with webhooks to send form data to any URL endpoint in real time. Build custom automations with no code. Free on all Youform plans.",
+    "hero_description": "Youform's native webhook integration lets you send form submission data to any URL endpoint the moment a response comes in. Build powerful custom workflows by connecting your forms to APIs, servers, or automation platforms directly, with no Zapier or middleware needed. It's the most flexible way to move your form data wherever it needs to go.",
+    "how_it_works_steps": [
+      {
+        "title": "Create your form",
+        "description": "Design your form in Youform with all the fields you need. Every field's data will be included in the webhook payload."
+      },
+      {
+        "title": "Add your webhook URL",
+        "description": "In your form's integration settings, paste the destination URL where you want submission data to be sent via a POST request."
+      },
+      {
+        "title": "Receive data in real time",
+        "description": "When someone submits your form, Youform instantly sends a JSON payload with all the response data to your specified endpoint."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Custom CRM updates",
+        "description": "Send lead capture form data directly to your CRM's API so new contacts are created automatically without manual data entry."
+      },
+      {
+        "title": "Internal tool integration",
+        "description": "Push form responses to your own backend server or internal tools to trigger custom business logic and workflows."
+      },
+      {
+        "title": "Database population",
+        "description": "Route form submissions to a database endpoint so response data is stored and queryable in your preferred data system."
+      },
+      {
+        "title": "Multi-step automation chains",
+        "description": "Send form data to platforms like Make or n8n via webhook to kick off complex multi-step automation workflows."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the webhook integration available on the free plan?",
+        "answer": "Yes, Youform's webhook integration is completely free to use. You can set up webhooks on unlimited forms with unlimited submissions at no cost."
+      },
+      {
+        "question": "What format is the webhook data sent in?",
+        "answer": "Youform sends webhook data as a JSON payload via an HTTP POST request. The payload includes all form field responses along with submission metadata."
+      },
+      {
+        "question": "Can I use webhooks to connect to services that Youform doesn't natively integrate with?",
+        "answer": "Absolutely. Webhooks are the most flexible integration option. Any service that can receive HTTP POST requests can be connected to your Youform forms, making it ideal for custom setups."
+      }
+    ]
+  },
+  {
+    "name": "Google Sheets",
+    "slug": "google-sheets",
+    "category": "Spreadsheets & Databases",
+    "is_native": true,
+    "logo": "/assets/images/integrations/google-sheets.png",
+    "tagline": "Automatically sync form responses to a Google Sheets spreadsheet.",
+    "meta_description": "Connect Youform with Google Sheets to automatically sync form responses to a spreadsheet. No Zapier needed. Free on all Youform plans with unlimited responses.",
+    "hero_description": "Youform's native Google Sheets integration automatically sends every form response to a Google Sheets spreadsheet in real time. Each submission creates a new row with all your form data neatly organized into columns, no Zapier or third-party connectors required. It's the easiest way to collect, organize, and share form data with your team.",
+    "how_it_works_steps": [
+      {
+        "title": "Connect your Google account",
+        "description": "In your form's integration settings, click the Google Sheets option and authorize Youform to access your Google account with one click."
+      },
+      {
+        "title": "Select or create a spreadsheet",
+        "description": "Choose an existing Google Sheets spreadsheet or let Youform create a new one. Column headers are automatically mapped to your form fields."
+      },
+      {
+        "title": "Collect responses automatically",
+        "description": "Every new form submission is instantly added as a new row in your spreadsheet. Your data stays in sync without any manual effort."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Lead management",
+        "description": "Capture leads from your website and automatically build a structured spreadsheet for easy filtering, sorting, and follow-up tracking."
+      },
+      {
+        "title": "Survey data analysis",
+        "description": "Collect survey responses in Google Sheets so you can create charts, pivot tables, and data visualizations to uncover insights."
+      },
+      {
+        "title": "Event registration tracking",
+        "description": "Manage event signups in a shared spreadsheet that your team can access and update collaboratively in real time."
+      },
+      {
+        "title": "Order and request logging",
+        "description": "Log product orders, service requests, or support tickets in a spreadsheet for easy tracking and status management."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the Google Sheets integration free?",
+        "answer": "Yes, the Google Sheets integration is available on Youform's free plan. You get unlimited forms and unlimited responses synced to Google Sheets at no cost."
+      },
+      {
+        "question": "Do I need Zapier to connect Youform to Google Sheets?",
+        "answer": "No. Youform has a native Google Sheets integration built in, so you can connect directly without Zapier or any other middleware. Just authorize your Google account and you're set."
+      },
+      {
+        "question": "Will existing responses sync to Google Sheets?",
+        "answer": "The integration syncs new submissions going forward from the time you connect it. You can export existing responses from Youform's dashboard if you need historical data in your spreadsheet."
+      }
+    ]
+  },
+  {
+    "name": "Slack",
+    "slug": "slack",
+    "category": "Communication",
+    "is_native": true,
+    "logo": "/assets/images/integrations/slack.png",
+    "tagline": "Get real-time Slack notifications for new form submissions.",
+    "meta_description": "Connect Youform with Slack to receive instant notifications for every form submission. Native integration, no Zapier needed. Free on all Youform plans.",
+    "hero_description": "Youform's native Slack integration delivers real-time notifications to your Slack workspace every time someone submits a form. See submission details right in your Slack channel without switching tools or logging in to a dashboard. Set it up in seconds with no Zapier or third-party connectors needed.",
+    "how_it_works_steps": [
+      {
+        "title": "Connect your Slack workspace",
+        "description": "In your form's integration settings, click the Slack option and authorize Youform to post messages to your Slack workspace."
+      },
+      {
+        "title": "Choose a channel",
+        "description": "Select the Slack channel where you want form submission notifications to appear. Pick a team channel or create a dedicated one for responses."
+      },
+      {
+        "title": "Get notified instantly",
+        "description": "Every new form submission triggers a formatted Slack message with the response details, keeping your team informed in real time."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Sales lead alerts",
+        "description": "Notify your sales team in Slack the moment a new lead fills out a contact or demo request form so they can follow up fast."
+      },
+      {
+        "title": "Support ticket triage",
+        "description": "Route support form submissions to a dedicated Slack channel so your team can discuss and assign tickets without leaving Slack."
+      },
+      {
+        "title": "Feedback monitoring",
+        "description": "Stream customer feedback and NPS survey responses into a Slack channel so your product team can review sentiment in real time."
+      },
+      {
+        "title": "Application review",
+        "description": "Share job applications or program submissions in a hiring channel so your team can review and discuss candidates collaboratively."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the Slack integration included in the free plan?",
+        "answer": "Yes, Youform's Slack integration is completely free. You can send unlimited form notifications to Slack on the free plan with no restrictions."
+      },
+      {
+        "question": "Can I send notifications to multiple Slack channels?",
+        "answer": "You can configure Slack notifications per form, directing each form's submissions to the most relevant channel for your team's workflow."
+      },
+      {
+        "question": "What information is included in the Slack notification?",
+        "answer": "Slack notifications include the form name and the respondent's answers to each field, formatted as a readable message so your team can see the key details at a glance."
+      }
+    ]
+  },
+  {
+    "name": "Zapier",
+    "slug": "zapier",
+    "category": "Automation",
+    "is_native": true,
+    "logo": "/assets/images/integrations/zapier.png",
+    "tagline": "Connect your forms to 6,000+ apps through Zapier automations.",
+    "meta_description": "Connect Youform with Zapier to automate workflows with 6,000+ apps. Send form data to any tool in your stack. Free on all Youform plans.",
+    "hero_description": "Youform's native Zapier integration connects your forms to over 6,000 apps and services. Automatically send form submissions to your CRM, email marketing platform, project management tools, and more. The Youform trigger is available on Zapier's free plan, making it easy to build powerful automations without writing code.",
+    "how_it_works_steps": [
+      {
+        "title": "Connect Youform to Zapier",
+        "description": "Search for Youform in Zapier's app directory and connect your account. Select the form you want to use as a trigger."
+      },
+      {
+        "title": "Choose your action apps",
+        "description": "Pick from 6,000+ apps in Zapier to define what happens when a form is submitted. Map your form fields to the destination app's fields."
+      },
+      {
+        "title": "Activate your Zap",
+        "description": "Turn on your Zap and every new form submission will automatically trigger your chosen actions, running your workflow on autopilot."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "CRM lead capture",
+        "description": "Automatically create new contacts in HubSpot, Salesforce, or Pipedrive whenever someone fills out your lead capture form."
+      },
+      {
+        "title": "Email marketing list building",
+        "description": "Add form respondents to Mailchimp, ConvertKit, or ActiveCampaign lists so they start receiving your email sequences automatically."
+      },
+      {
+        "title": "Project management automation",
+        "description": "Create tasks in Asana, Trello, or Monday.com from form submissions to streamline request intake and project kickoffs."
+      },
+      {
+        "title": "Multi-app workflows",
+        "description": "Chain multiple actions together in a single Zap to update a spreadsheet, send a Slack message, and create a task all from one form submission."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the Zapier integration free on Youform?",
+        "answer": "Yes, the Zapier integration is available on Youform's free plan. You get unlimited forms and responses at no cost on the Youform side. Zapier's own pricing applies for their service."
+      },
+      {
+        "question": "How many apps can I connect through Zapier?",
+        "answer": "Zapier supports over 6,000 apps and services. You can connect Youform to virtually any tool in your tech stack, from CRMs and email platforms to databases and messaging apps."
+      },
+      {
+        "question": "Do I need Zapier if Youform already has native integrations?",
+        "answer": "Youform natively integrates with Google Sheets, Slack, Notion, and more. Zapier is best for connecting to apps that Youform doesn't directly support, giving you maximum flexibility."
+      }
+    ]
+  },
+  {
+    "name": "Google Tag Manager",
+    "slug": "google-tag-manager",
+    "category": "Analytics & Tracking",
+    "is_native": true,
+    "logo": "/assets/images/integrations/google-tag-manager.png",
+    "tagline": "Add tracking pixels and analytics tags to your forms.",
+    "meta_description": "Connect Youform with Google Tag Manager to add tracking pixels, conversion tags, and analytics to your forms. Available on Youform's PRO plan.",
+    "hero_description": "Youform's native Google Tag Manager integration lets you add your GTM container to any form, giving you full control over tracking pixels, conversion tags, and analytics scripts. Track form views, submissions, and conversions across Google Analytics, Facebook Pixel, Google Ads, and any other platform GTM supports. No code injection or workarounds needed.",
+    "how_it_works_steps": [
+      {
+        "title": "Get your GTM container ID",
+        "description": "Copy your Google Tag Manager container ID (starts with GTM-) from your GTM dashboard. Create a container if you don't have one yet."
+      },
+      {
+        "title": "Add GTM to your form",
+        "description": "Paste your GTM container ID into your form's integration settings in Youform. The GTM script will be loaded automatically on your form pages."
+      },
+      {
+        "title": "Configure your tags",
+        "description": "Set up conversion tags, remarketing pixels, and analytics tracking in Google Tag Manager. They'll fire on your Youform pages based on your trigger rules."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Conversion tracking",
+        "description": "Track form submissions as conversions in Google Ads or other advertising platforms to measure ROI and optimize your ad campaigns."
+      },
+      {
+        "title": "Remarketing audiences",
+        "description": "Build remarketing audiences from form visitors so you can retarget people who viewed your form but didn't complete it."
+      },
+      {
+        "title": "Analytics and behavior tracking",
+        "description": "Add Google Analytics 4 to your forms to track visitor behavior, traffic sources, and drop-off points in your form funnel."
+      },
+      {
+        "title": "Multi-pixel management",
+        "description": "Manage Facebook Pixel, TikTok Pixel, LinkedIn Insight Tag, and other tracking scripts all through a single GTM container."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which Youform plan includes Google Tag Manager?",
+        "answer": "Google Tag Manager is available on Youform's PRO plan at $29/month. It's not included in the free plan since most users don't need advanced tracking."
+      },
+      {
+        "question": "Can I use Google Analytics with Youform through GTM?",
+        "answer": "Yes. Once you add your GTM container to Youform, you can configure Google Analytics 4 tags in GTM to track form views, submissions, and user behavior."
+      },
+      {
+        "question": "Do I need Google Tag Manager to use Facebook Pixel with Youform?",
+        "answer": "Yes, Youform supports Facebook Pixel through Google Tag Manager. Add your GTM container to your form, then set up the Facebook Pixel tag within GTM to track conversions."
+      }
+    ]
+  },
+  {
+    "name": "Stripe",
+    "slug": "stripe",
+    "category": "Payments",
+    "is_native": true,
+    "logo": "/assets/images/integrations/stripe.png",
+    "tagline": "Collect payments and process transactions directly in your forms.",
+    "meta_description": "Connect Youform with Stripe to collect payments directly in your forms. Accept credit cards and process transactions seamlessly. Available on Youform's PRO plan.",
+    "hero_description": "Youform's native Stripe integration lets you collect payments directly within your forms. Add a payment step to accept credit card payments, sell products, collect registration fees, or process donations, all without redirecting users to an external checkout page. Stripe handles the payment processing securely while Youform manages the form experience.",
+    "how_it_works_steps": [
+      {
+        "title": "Connect your Stripe account",
+        "description": "In your form's integration settings, connect your Stripe account with one click. Youform securely links to Stripe to process payments on your behalf."
+      },
+      {
+        "title": "Add a payment field to your form",
+        "description": "Add a payment step to your form and configure the amount, currency, and product details. You can set fixed prices or let respondents enter a custom amount."
+      },
+      {
+        "title": "Start collecting payments",
+        "description": "Publish your form and start accepting payments. Funds are deposited directly to your Stripe account, and you get full submission data alongside payment records."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Event registration with payment",
+        "description": "Collect registration details and event fees in a single form flow. Attendees fill out their info and pay without leaving the form."
+      },
+      {
+        "title": "Product orders",
+        "description": "Sell digital or physical products by combining an order form with Stripe payment processing for a seamless checkout experience."
+      },
+      {
+        "title": "Donation collection",
+        "description": "Create donation forms that accept custom or preset amounts, making it easy for nonprofits and creators to collect contributions."
+      },
+      {
+        "title": "Service booking with deposit",
+        "description": "Collect service details and a deposit payment in one step so clients can book and pay without back-and-forth communication."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which plan do I need to use Stripe with Youform?",
+        "answer": "Stripe integration is available on Youform's PRO plan at $29/month. The PRO plan also includes other premium features like Google Tag Manager and custom branding removal."
+      },
+      {
+        "question": "What payment methods does the Stripe integration support?",
+        "answer": "Through Stripe, you can accept all major credit and debit cards. Stripe also supports Apple Pay, Google Pay, and other payment methods depending on your Stripe account configuration."
+      },
+      {
+        "question": "Are there additional transaction fees from Youform?",
+        "answer": "Youform does not charge any additional transaction fees on top of your PRO subscription. You only pay Stripe's standard processing fees, which are typically 2.9% + 30 cents per transaction."
+      }
+    ]
+  },
+  {
+    "name": "Calendly",
+    "slug": "calendly",
+    "category": "Scheduling",
+    "is_native": true,
+    "logo": "/assets/images/integrations/calendly.png",
+    "tagline": "Embed Calendly scheduling directly inside your multi-step forms.",
+    "meta_description": "Connect Youform with Calendly to embed scheduling directly in your forms. Let respondents book meetings as a form step. Free on all Youform plans.",
+    "hero_description": "Youform's native Calendly integration lets you embed a Calendly scheduling widget directly inside your multi-step form. Respondents can book a meeting as part of the form flow without being redirected to an external page. Collect information first, then let them pick a time, all in one seamless experience with no Zapier needed.",
+    "how_it_works_steps": [
+      {
+        "title": "Add a scheduling step",
+        "description": "In the Youform editor, add a Calendly embed step to your form. Paste your Calendly event link to connect your scheduling availability."
+      },
+      {
+        "title": "Customize your form flow",
+        "description": "Place the Calendly step anywhere in your form. Collect qualifying information before the scheduling step or gather additional details after."
+      },
+      {
+        "title": "Respondents book directly",
+        "description": "When someone fills out your form, they see your Calendly calendar inline and can pick a time slot without ever leaving the form."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Sales demo booking",
+        "description": "Qualify leads with a few questions first, then let them book a demo call with your sales team right inside the same form."
+      },
+      {
+        "title": "Consultation intake",
+        "description": "Collect client details and project requirements before presenting your availability, giving you context before the meeting."
+      },
+      {
+        "title": "Interview scheduling",
+        "description": "Have job applicants submit their resume and answers to screening questions, then book an interview slot in one smooth flow."
+      },
+      {
+        "title": "Customer onboarding",
+        "description": "Gather onboarding information from new customers and let them schedule their kickoff call in a single form experience."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the Calendly integration free on Youform?",
+        "answer": "Yes, the Calendly embed is available on Youform's free plan. You can use it with unlimited forms and unlimited responses at no additional cost from Youform."
+      },
+      {
+        "question": "Do I need a paid Calendly account?",
+        "answer": "You can use Calendly's free plan, which includes one event type. For multiple event types or advanced features, you'll need a paid Calendly subscription."
+      },
+      {
+        "question": "Can I collect form responses and scheduling data together?",
+        "answer": "Yes. Youform captures all form field responses alongside the Calendly booking, so you have the complete picture of who booked and what information they provided."
+      }
+    ]
+  },
+  {
+    "name": "Cal.com",
+    "slug": "cal-com",
+    "category": "Scheduling",
+    "is_native": true,
+    "logo": "/assets/images/integrations/cal-com.png",
+    "tagline": "Embed Cal.com scheduling directly inside your multi-step forms.",
+    "meta_description": "Connect Youform with Cal.com to embed open-source scheduling in your forms. Let respondents book meetings as a form step. Free on all Youform plans.",
+    "hero_description": "Youform's native Cal.com integration lets you embed a Cal.com scheduling widget directly inside your multi-step form. Respondents can view your availability and book a meeting as part of the form experience, no redirects or Zapier required. Cal.com is an open-source scheduling platform, making it a great choice for teams that value transparency and flexibility.",
+    "how_it_works_steps": [
+      {
+        "title": "Add a scheduling step",
+        "description": "In the Youform editor, add a Cal.com embed step to your form and paste your Cal.com event link to display your scheduling availability."
+      },
+      {
+        "title": "Design your form flow",
+        "description": "Place the Cal.com scheduling step at any point in your form. Collect qualifying details before the booking step to ensure only the right people schedule time."
+      },
+      {
+        "title": "Respondents book inline",
+        "description": "Visitors see your Cal.com calendar embedded in the form and can select a time slot without leaving the page, creating a frictionless booking experience."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Open-source friendly scheduling",
+        "description": "Use Cal.com's open-source scheduling platform within your forms, perfect for teams that prefer transparent, community-driven software."
+      },
+      {
+        "title": "Sales qualification and booking",
+        "description": "Ask qualifying questions before showing your calendar so you only spend time on meetings with the right prospects."
+      },
+      {
+        "title": "Client intake with scheduling",
+        "description": "Collect project details, budgets, and timelines from potential clients before letting them book an initial consultation call."
+      },
+      {
+        "title": "Team meeting coordination",
+        "description": "Use Cal.com's round-robin or collective scheduling features within your form to distribute meetings across your team automatically."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the Cal.com integration included in Youform's free plan?",
+        "answer": "Yes, the Cal.com embed is available on Youform's free plan with unlimited forms and unlimited responses. There's no extra charge on the Youform side."
+      },
+      {
+        "question": "What's the difference between Cal.com and Calendly in Youform?",
+        "answer": "Both work the same way in Youform as embedded scheduling steps. Cal.com is open-source and offers a generous free tier, while Calendly is a more established commercial platform. Choose whichever you prefer."
+      },
+      {
+        "question": "Can I self-host Cal.com and still use this integration?",
+        "answer": "Yes. As long as your Cal.com instance is publicly accessible, you can embed your self-hosted Cal.com event links in Youform forms."
+      }
+    ]
+  },
+  {
+    "name": "SavvyCal",
+    "slug": "savvycal",
+    "category": "Scheduling",
+    "is_native": true,
+    "logo": "/assets/images/integrations/savvycal.png",
+    "tagline": "Embed SavvyCal scheduling directly inside your multi-step forms.",
+    "meta_description": "Connect Youform with SavvyCal to embed scheduling in your forms. Let respondents book meetings as a form step. Free on all Youform plans.",
+    "hero_description": "Youform's native SavvyCal integration lets you embed a SavvyCal scheduling widget directly inside your multi-step form. Known for its personalized scheduling experience, SavvyCal shows recipients a calendar overlay of their own availability. Embed it right into your Youform flow with no Zapier or third-party tools needed.",
+    "how_it_works_steps": [
+      {
+        "title": "Add a scheduling step",
+        "description": "In the Youform editor, add a SavvyCal embed step to your form and paste your SavvyCal scheduling link to connect your calendar availability."
+      },
+      {
+        "title": "Build your form flow",
+        "description": "Position the SavvyCal step within your multi-step form. Collect information, qualify respondents, and present scheduling at the perfect moment."
+      },
+      {
+        "title": "Respondents book seamlessly",
+        "description": "Visitors see the SavvyCal calendar embedded in your form and can overlay their own calendar to find the best time, all without leaving the page."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Personalized scheduling experience",
+        "description": "Leverage SavvyCal's calendar overlay feature within your form so respondents can compare their availability with yours for a smoother booking process."
+      },
+      {
+        "title": "High-touch sales calls",
+        "description": "Use SavvyCal's prioritized scheduling within your lead capture form to suggest optimal meeting times and reduce back-and-forth."
+      },
+      {
+        "title": "Coaching session booking",
+        "description": "Let coaching clients fill out an intake form and book their session in one step, combining context-gathering with scheduling."
+      },
+      {
+        "title": "Podcast guest booking",
+        "description": "Collect guest information, topic ideas, and bio details in a form, then let guests pick a recording time from your SavvyCal availability."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the SavvyCal integration free on Youform?",
+        "answer": "Yes, the SavvyCal embed is available on Youform's free plan. You can use it with unlimited forms and unlimited responses at no cost on the Youform side."
+      },
+      {
+        "question": "Do I need a SavvyCal account to use this integration?",
+        "answer": "Yes, you'll need a SavvyCal account with an active scheduling link. SavvyCal offers a free tier, so you can get started without paying for either Youform or SavvyCal."
+      },
+      {
+        "question": "How does SavvyCal differ from other scheduling tools in Youform?",
+        "answer": "SavvyCal's standout feature is its calendar overlay, which lets respondents see their own calendar alongside yours. All scheduling integrations in Youform work the same way as embedded form steps."
+      }
+    ]
+  },
+  {
+    "name": "TidyCal",
+    "slug": "tidycal",
+    "category": "Scheduling",
+    "is_native": true,
+    "logo": "/assets/images/integrations/tidycal.png",
+    "tagline": "Embed TidyCal scheduling directly inside your multi-step forms.",
+    "meta_description": "Connect Youform with TidyCal to embed affordable scheduling in your forms. Let respondents book meetings as a form step. Free on all Youform plans.",
+    "hero_description": "Youform's native TidyCal integration lets you embed a TidyCal scheduling widget directly inside your multi-step form. TidyCal is known for its affordable lifetime deal and simple interface, making it a budget-friendly scheduling option. Embed it seamlessly in your Youform flow with no Zapier or external connectors needed.",
+    "how_it_works_steps": [
+      {
+        "title": "Add a scheduling step",
+        "description": "In the Youform editor, add a TidyCal embed step to your form and paste your TidyCal booking link to display your available time slots."
+      },
+      {
+        "title": "Configure your form flow",
+        "description": "Arrange the TidyCal step within your multi-step form. Gather information before the scheduling step to qualify respondents or collect context."
+      },
+      {
+        "title": "Respondents book inline",
+        "description": "When visitors reach the scheduling step, they see your TidyCal calendar embedded in the form and can book a time without navigating away."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Budget-friendly scheduling",
+        "description": "Pair Youform's free plan with TidyCal's affordable pricing to create a professional intake and booking flow without breaking the bank."
+      },
+      {
+        "title": "Freelancer client booking",
+        "description": "Collect project details from potential clients in a form and let them book a discovery call using your TidyCal availability."
+      },
+      {
+        "title": "Student office hours",
+        "description": "Let students fill out a topic form and book office hour slots in one step, simplifying appointment scheduling for educators."
+      },
+      {
+        "title": "Service provider intake",
+        "description": "Gather service requirements and preferences from customers before letting them schedule their appointment or consultation."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the TidyCal integration available on Youform's free plan?",
+        "answer": "Yes, the TidyCal embed is available on Youform's free plan. Combined with TidyCal's affordable pricing, it's one of the most budget-friendly form and scheduling setups available."
+      },
+      {
+        "question": "What is TidyCal?",
+        "answer": "TidyCal is a scheduling tool by AppSumo known for its simple interface and affordable lifetime deal. It offers core scheduling features at a fraction of the cost of competitors like Calendly."
+      },
+      {
+        "question": "Can I use TidyCal's free plan with Youform?",
+        "answer": "Yes. TidyCal offers a free tier with basic scheduling features. You can embed your free TidyCal booking link in Youform's free plan for a completely free form and scheduling solution."
+      }
+    ]
+  },
+  {
+    "name": "Facebook Pixel",
+    "slug": "facebook-pixel",
+    "category": "Analytics & Tracking",
+    "is_native": true,
+    "logo": "/assets/images/integrations/facebook-pixel.png",
+    "tagline": "Track form conversions and build retargeting audiences with Facebook Pixel.",
+    "meta_description": "Connect Youform with Facebook Pixel via Google Tag Manager to track form conversions and retarget visitors. Available on Youform's PRO plan.",
+    "hero_description": "Youform supports Facebook Pixel tracking through its native Google Tag Manager integration. Add your Facebook Pixel to track form views, submissions, and conversions so you can measure ad performance and build retargeting audiences. Set up your Pixel once in GTM and it runs on all your Youform pages automatically.",
+    "how_it_works_steps": [
+      {
+        "title": "Add Google Tag Manager to your form",
+        "description": "First, add your GTM container ID in your form's integration settings. This enables you to load any tracking scripts, including Facebook Pixel."
+      },
+      {
+        "title": "Configure Facebook Pixel in GTM",
+        "description": "In Google Tag Manager, create a new tag using the Facebook Pixel template. Add your Pixel ID and configure the events you want to track."
+      },
+      {
+        "title": "Track conversions automatically",
+        "description": "Your Facebook Pixel fires on Youform pages based on your GTM trigger rules. Track page views, form submissions, and custom events to optimize your ad campaigns."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "Ad conversion tracking",
+        "description": "Track when Facebook or Instagram ad clicks result in form submissions so you can measure true cost per lead and optimize ad spend."
+      },
+      {
+        "title": "Retargeting form visitors",
+        "description": "Build custom audiences of people who viewed your form but didn't complete it, then retarget them with follow-up ads to boost conversions."
+      },
+      {
+        "title": "Lookalike audience building",
+        "description": "Use Facebook Pixel data from form submitters to create lookalike audiences and reach new people similar to your best leads."
+      },
+      {
+        "title": "Multi-platform attribution",
+        "description": "Combine Facebook Pixel with other tracking pixels in GTM to compare form conversion performance across Facebook, Instagram, and other ad platforms."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Which Youform plan do I need for Facebook Pixel?",
+        "answer": "Facebook Pixel requires Youform's PRO plan at $29/month because it runs through Google Tag Manager, which is a PRO feature. The PRO plan also includes Stripe payments and custom branding removal."
+      },
+      {
+        "question": "Why does Facebook Pixel require Google Tag Manager?",
+        "answer": "Youform uses Google Tag Manager as the mechanism for loading tracking scripts. This gives you a standardized way to manage Facebook Pixel alongside any other tracking pixels without custom code."
+      },
+      {
+        "question": "Can I track form submission events with Facebook Pixel?",
+        "answer": "Yes. You can configure your Facebook Pixel in GTM to fire standard events like Lead or CompleteRegistration when someone submits your Youform, enabling accurate conversion tracking."
+      }
+    ]
+  },
+  {
+    "name": "Notion",
+    "slug": "notion",
+    "category": "Productivity & Storage",
+    "is_native": true,
+    "logo": "/assets/images/integrations/notion.png",
+    "tagline": "Automatically send form responses to your Notion databases.",
+    "meta_description": "Connect Youform with Notion to automatically send form responses to Notion databases. Native integration, no Zapier needed. Free on all Youform plans.",
+    "hero_description": "Youform's native Notion integration automatically sends form responses to a Notion database every time someone submits your form. Each submission creates a new entry with your form fields mapped to Notion properties, no Zapier or third-party connectors needed. Keep your workspace organized by managing form data right alongside your existing Notion workflows.",
+    "how_it_works_steps": [
+      {
+        "title": "Connect your Notion workspace",
+        "description": "In your form's integration settings, click the Notion option and authorize Youform to access your Notion workspace. Select the database you want to send responses to."
+      },
+      {
+        "title": "Map your form fields",
+        "description": "Match your Youform fields to the corresponding Notion database properties. Youform supports text, number, select, and other common property types."
+      },
+      {
+        "title": "Collect responses automatically",
+        "description": "Every new form submission creates a new page in your Notion database with all the response data filled in. Your data stays in sync effortlessly."
+      }
+    ],
+    "use_cases": [
+      {
+        "title": "CRM in Notion",
+        "description": "Use a Notion database as a lightweight CRM and automatically populate it with lead information from your Youform contact forms."
+      },
+      {
+        "title": "Content request management",
+        "description": "Collect content briefs, blog post ideas, or design requests via forms and route them straight into your Notion project management workspace."
+      },
+      {
+        "title": "Bug report tracking",
+        "description": "Let users submit bug reports through a form and have each report automatically appear in your Notion issue tracker for the engineering team."
+      },
+      {
+        "title": "Feedback and research repository",
+        "description": "Build a searchable Notion database of customer feedback, user research responses, or survey results collected through Youform."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the Notion integration available on Youform's free plan?",
+        "answer": "Yes, the Notion integration is completely free on Youform. You can connect unlimited forms with unlimited responses to your Notion databases at no cost."
+      },
+      {
+        "question": "Do I need Zapier to connect Youform to Notion?",
+        "answer": "No. Youform has a native Notion integration built in, so you can connect directly to your Notion workspace without Zapier or any other middleware."
+      },
+      {
+        "question": "What Notion property types are supported?",
+        "answer": "Youform supports mapping to common Notion property types including title, rich text, number, select, multi-select, date, and URL. Your form fields are matched to the appropriate property types automatically."
+      }
+    ]
+  }
+]

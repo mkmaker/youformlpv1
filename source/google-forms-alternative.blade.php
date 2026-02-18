@@ -31,6 +31,12 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
                             Create free account
                         </a>
                     </div>
+                    <div class="mt-6 flex items-center space-x-1">
+                        <span>Have a Google Form?</span>
+                        <a href="https://app.youform.com/googleform-to-youform" class="underline group transition-all hover:no-underline">
+                            Import it now
+                        </a>
+                    </div>
                     <div class="text-sm pt-6 font-semibold sm:flex items-center sm:space-x-4">
                         <div class="flex items-center space-x-1">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
