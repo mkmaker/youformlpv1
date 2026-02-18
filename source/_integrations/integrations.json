@@ -1685,55 +1685,57 @@
     "category": "Analytics & Tracking",
     "is_native": false,
     "logo": "/assets/images/integrations/google-analytics.png",
-    "tagline": "Send form submission events to Google Analytics for conversion tracking.",
-    "meta_description": "Connect Youform with Google Analytics via Zapier to track form submissions as events and measure conversions. Data-driven decisions. Free on all Youform plans.",
-    "hero_description": "Connect Youform with Google Analytics through Zapier to send form submission data as events in your analytics dashboard. Track which traffic sources, campaigns, and pages drive the most form completions. Make data-driven decisions about your marketing spend by understanding your form's conversion performance at a deeper level.",
+    "tagline": "Track form submissions as events in Google Analytics.",
+    "meta_description": "Connect Youform with Google Analytics using Youform's native Google Tag Manager integration. Track form submissions as GA4 events automatically.",
+    "hero_description": "Youform connects with Google Analytics through its native Google Tag Manager integration. Add your GTM container to your form, configure GA4 event tags, and every form submission is automatically tracked as an event in Google Analytics. No Zapier needed.",
     "how_it_works_steps": [
       {
         "title": "Create your form in Youform",
         "description": "Build your form using Youform's drag-and-drop editor. Add any fields you need \u2014 text, email, file uploads, and more."
       },
       {
-        "title": "Connect to Google Analytics via Zapier",
-        "description": "In Zapier, create a new Zap with Youform as the trigger. Select 'Google Analytics' as the action app and configure event parameters using your form field data."
+        "title": "Add Google Tag Manager to your form",
+        "description": "In your form's integration settings, enable the Google Tag Manager integration and paste your GTM container ID. Youform fires a dataLayer event on every submission."
       },
       {
-        "title": "Automate your workflow",
-        "description": "Every time someone submits your Youform, an event is automatically sent to Google Analytics for tracking. No manual work needed."
+        "title": "Set up a GA4 event tag in GTM",
+        "description": "In Google Tag Manager, create a GA4 Event tag that triggers on Youform submissions. Map form data to event parameters and publish your container. Submissions are now tracked in Google Analytics."
       }
     ],
     "use_cases": [
       {
-        "title": "Conversion tracking",
-        "description": "Track form submissions as conversion events in Google Analytics to measure how effectively your website turns visitors into leads or customers."
+        "title": "Track form conversion rates",
+        "description": "See exactly how many visitors complete your forms by tracking submissions as GA4 conversion events. Compare performance across traffic sources and campaigns."
       },
       {
-        "title": "Campaign performance analysis",
-        "description": "Attribute form submissions to specific marketing campaigns, ad groups, or UTM parameters to understand which channels deliver the best ROI."
+        "title": "Measure campaign ROI",
+        "description": "Attribute form submissions to specific marketing campaigns, ad groups, or landing pages using UTM parameters and GA4 reporting."
       },
       {
-        "title": "Funnel drop-off analysis",
-        "description": "Combine form submission events with page view data to identify where users drop off in your funnel before completing your form."
+        "title": "Build submission-based audiences",
+        "description": "Create Google Analytics audiences based on form submissions and use them for remarketing in Google Ads or other platforms."
       },
       {
-        "title": "Custom event reporting",
-        "description": "Send form field values as event parameters to Google Analytics for advanced reporting, such as tracking which form options are most popular."
+        "title": "Monitor form performance over time",
+        "description": "Track submission trends in GA4 dashboards to spot seasonal patterns, measure the impact of form changes, and identify your highest-converting pages."
       }
     ],
     "faqs": [
       {
-        "question": "Does this work with Google Analytics 4 (GA4)?",
-        "answer": "Yes. Zapier supports Google Analytics 4 and the Measurement Protocol, so you can send form submission events to your GA4 property for tracking and reporting."
+        "question": "Do I need Zapier to connect Youform with Google Analytics?",
+        "answer": "No. Youform has a native Google Tag Manager integration. Since GTM connects directly to Google Analytics, you can track form submissions as GA4 events without Zapier or any third-party automation tool."
       },
       {
-        "question": "How is this different from using Google Tag Manager with Youform?",
-        "answer": "GTM tracks client-side events like page views and clicks on your form pages. The Zapier integration sends server-side events when submissions occur, which can be more reliable and allows you to include form field data in your analytics."
+        "question": "Is the Google Tag Manager integration free?",
+        "answer": "The Google Tag Manager integration is available on Youform's Pro plan ($29/month). Google Tag Manager and Google Analytics are both free to use."
       },
       {
-        "question": "Can I track which form fields users filled out?",
-        "answer": "You can send specific form field values as event parameters to Google Analytics through Zapier. This lets you analyze patterns in what users submit, not just whether they submitted."
+        "question": "What data can I send to Google Analytics?",
+        "answer": "Youform fires a dataLayer event on each submission that you can use in GTM. You can configure GA4 event parameters to track form completion, submission counts, and any custom dimensions you set up in your tags."
       }
-    ]
+    ],
+    "via_webhook": true,
+    "badge_text": "Available via Google Tag Manager"
   },
   {
     "name": "Google Calendar",

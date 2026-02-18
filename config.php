@@ -178,6 +178,7 @@ return [
                         'category' => $integration['category'],
                         'is_native' => $integration['is_native'],
                         'via_webhook' => $integration['via_webhook'] ?? false,
+                        'badge_text' => $integration['badge_text'] ?? null,
                         'logo' => $integration['logo'],
                         'tagline' => $integration['tagline'],
                         'hero_description' => $integration['hero_description'],

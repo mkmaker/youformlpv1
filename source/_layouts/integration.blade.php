@@ -10,8 +10,10 @@
         <div class="relative max-w-7xl mx-auto mt-10 pb-20">
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
                 <div class="flex flex-col items-center max-w-4xl">
-                    <p class="text-xs font-semibold px-4 py-1.5 rounded-full mb-3 border border-black {{ $page->is_native ? 'bg-aquamarine' : ($page->via_webhook ? 'bg-aquamarine' : 'bg-pale-violet') }}">
-                        @if($page->is_native)
+                    <p class="text-xs font-semibold px-4 py-1.5 rounded-full mb-3 border border-black {{ $page->is_native || $page->via_webhook || $page->badge_text ? 'bg-aquamarine' : 'bg-pale-violet' }}">
+                        @if($page->badge_text)
+                            {{ $page->badge_text }}
+                        @elseif($page->is_native)
                             Native Integration
                         @elseif($page->via_webhook)
                             Available via Webhook
@@ -102,7 +104,7 @@
 </div>
 
 <!-- Zapier/Make Section (only for Zapier-based integrations) -->
-@if (!$page->is_native && !$page->via_webhook)
+@if (!$page->is_native && !$page->via_webhook && !$page->badge_text)
 <div class="bg-white py-16">
     <div class="max-w-4xl mx-auto px-10 md:px-20 text-center">
         <h2 class="text-2xl sm:text-3xl font-bold mb-6">Powered by Zapier & Make</h2>
