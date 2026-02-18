@@ -164,8 +164,8 @@ description: Comparing Youform and Tally side-by-side. Both offer unlimited free
                         </tr>
                         <tr class="border-b border-gray-200">
                             <td class="px-6 py-4 font-semibold bg-gray-50">Form style</td>
-                            <td class="px-6 py-4 bg-amber-50 font-medium">Animated multi-step (Typeform-style)</td>
-                            <td class="px-6 py-4 bg-gray-50">Basic multi-page (no animations)</td>
+                            <td class="px-6 py-4 bg-amber-50 text-center font-medium">Animated multi-step (Typeform-style)</td>
+                            <td class="px-6 py-4 bg-gray-50 text-center">Basic multi-page (no animations)</td>
                         </tr>
                         <tr class="border-b border-gray-200">
                             <td class="px-6 py-4 font-semibold bg-gray-50">Conditional logic</td>
@@ -187,8 +187,8 @@ description: Comparing Youform and Tally side-by-side. Both offer unlimited free
                         </tr>
                         <tr class="border-b border-gray-200">
                             <td class="px-6 py-4 font-semibold bg-gray-50">Analytics</td>
-                            <td class="px-6 py-4 bg-amber-50 font-medium">Question-level drop-off rates</td>
-                            <td class="px-6 py-4 bg-gray-50">Basic completion rates</td>
+                            <td class="px-6 py-4 bg-amber-50 text-center font-medium">Question-level drop-off rates</td>
+                            <td class="px-6 py-4 bg-gray-50 text-center">Basic completion rates</td>
                         </tr>
                         <tr class="border-b border-gray-200">
                             <td class="px-6 py-4 font-semibold bg-gray-50">Partial submissions</td>
@@ -219,8 +219,8 @@ description: Comparing Youform and Tally side-by-side. Both offer unlimited free
                         </tr>
                         <tr class="border-b border-gray-200">
                             <td class="px-6 py-4 font-semibold bg-gray-50">Integrations</td>
-                            <td class="px-6 py-4 bg-amber-50 font-medium">Native (Slack, Notion, Google Sheets) + 6,000+ via Zapier</td>
-                            <td class="px-6 py-4 bg-gray-50">Native (Airtable, Slack, Notion) + Zapier</td>
+                            <td class="px-6 py-4 bg-amber-50 text-center font-medium">Native (Slack, Notion, Google Sheets) + 6,000+ via Zapier</td>
+                            <td class="px-6 py-4 bg-gray-50 text-center">Native (Airtable, Slack, Notion) + Zapier</td>
                         </tr>
                         <tr class="border-b border-gray-200">
                             <td class="px-6 py-4 font-semibold bg-gray-50">Answer piping</td>
