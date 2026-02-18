@@ -1,0 +1,77 @@
+{
+  "name": "Youform",
+  "tagline": "Free Typeform alternative with unlimited forms and responses",
+  "category": "Form Builder",
+  "url": "https://youform.com",
+  "founded": "2023",
+  "founders": ["Abhishek Chakravarty", "Davis Baer"],
+  "headquarters": "Remote",
+  "pricing": {
+    "model": "Freemium",
+    "free": {
+      "price": 0,
+      "forms": "unlimited",
+      "responses": "unlimited",
+      "branding": true
+    },
+    "pro": {
+      "price": 29,
+      "currency": "USD",
+      "billing": "monthly",
+      "annualPrice": 240,
+      "forms": "unlimited",
+      "responses": "unlimited",
+      "branding": false
+    }
+  },
+  "features": [
+    "Unlimited forms",
+    "Unlimited responses",
+    "Partial submission tracking",
+    "Conditional logic",
+    "File uploads (10MB)",
+    "Payment collection (Stripe)",
+    "Custom domains",
+    "Custom thank you pages",
+    "Redirect after submit",
+    "Multi-language forms",
+    "Calculations",
+    "Answer piping",
+    "Webhooks",
+    "Zapier integration",
+    "Google Sheets sync"
+  ],
+  "compliance": {
+    "gdpr": true,
+    "hosting": "AWS EU (Frankfurt)",
+    "dataProcessing": "https://help.youform.com/p/z1GQmhd0076eOZ/Youform-Data-Processing-Agreement-DPA"
+  },
+  "support": {
+    "email": "support@youform.com",
+    "helpCenter": "https://help.youform.com"
+  },
+  "policies": {
+    "privacy": "https://youform.com/privacy-policy",
+    "terms": "https://youform.com/terms",
+    "refund": "https://help.youform.com/p/zkvBOSMFN_mepo/Youform-refund-policy",
+    "fairUsage": "https://help.youform.com/p/-wcaJF3tEKR4tg/Youform-fair-usage-policy"
+  },
+  "social": {
+    "twitter": "https://twitter.com/youabordar",
+    "productHunt": "https://www.producthunt.com/products/youform"
+  },
+  "reviews": {
+    "capterra": {
+      "url": "https://www.capterra.com/p/youform",
+      "rating": 5.0,
+      "count": 38
+    },
+    "g2": {
+      "url": "https://www.g2.com/products/youform",
+      "rating": 4.3,
+      "count": 6
+    }
+  },
+  "competitors": ["Typeform", "Jotform", "Google Forms", "Tally", "Fillout"],
+  "lastUpdated": "2026-02-18"
+}
