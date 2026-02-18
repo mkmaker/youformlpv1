@@ -515,7 +515,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                                             </div>
                                             <div x-show="open">
                                                 <p class="px-4 py-6 lg:text-lg text-black">
-                                                    It depends on what you need. Youform excels if you care most about unlimited free usage, a clean builder, and simple upgrades when you’re ready for custom domains and branding. Fillout is a better fit if you need advanced logic, database/CRM integrations, and Business or Enterprise features like partial submissions, analytics, and custom code.
+                                                    It depends on what you need. Youform offers unlimited free responses, animated Typeform-style forms, conditional logic, partial submissions, detailed analytics, and EU data hosting on the free plan. Fillout caps free responses at 1,000/month but offers native Airtable integration and a Notion-style editor. Both have advanced logic and integrations — Youform connects to 6,000+ apps via Zapier and has native Google Sheets, Slack, and Notion integrations.
                                                 </p>
                                             </div>
                                         </div>
@@ -553,7 +553,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                                             </div>
                                             <div x-show="open">
                                                 <p class="px-4 py-6 lg:text-lg text-black">
-                                                    Fillout’s Business tier makes sense when you need unlimited responses, a custom domain, partial submissions, form analytics, custom code, and priority support. Enterprise is aimed at organizations that require SSO, granular permissions, Salesforce integration, audit logs, custom SLAs, and data residency options.
+                                                    Fillout's Business tier is mainly needed if you want unlimited responses (which Youform offers for free), custom code injection, and priority support. Their Enterprise tier adds SSO, granular permissions, native Salesforce integration, audit logs, and custom SLAs. Note that Youform already offers partial submissions, form analytics, and custom domains on its Pro plan at $29/month.
                                                 </p>
                                             </div>
                                         </div>
