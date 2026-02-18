@@ -27,13 +27,13 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
                         Google Forms is great for quick internal surveys inside the Google ecosystem. Youform is built for teams, creators, and businesses who want forms that look professional, match their brand, and convert better — with far fewer limitations.
                     </p>
                     <div class="lg:flex lg:items-center space-x-6 mt-10 text-center">
-                        <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
+                        <a href="https://app.youform.com/register" onclick="sa_event('click_signup_gf_alt')" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                             Create free account
                         </a>
                     </div>
                     <div class="mt-6 flex items-center space-x-1">
                         <span>Have a Google Form?</span>
-                        <a href="https://app.youform.com/googleform-to-youform" class="underline group transition-all hover:no-underline">
+                        <a href="https://app.youform.com/googleform-to-youform" onclick="sa_event('click_gf_import')" class="underline group transition-all hover:no-underline">
                             Import it now
                         </a>
                     </div>

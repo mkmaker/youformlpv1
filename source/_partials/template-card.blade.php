@@ -1,4 +1,4 @@
-<a href="/templates/t/{{$template['slug']}}" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
+<a href="/templates/t/{{$template['slug']}}" onclick="sa_event('click_template')" class="bg-white group rounded-md shadow-md overflow-hidden cursor-pointer hover:shadow-xl">
     
     <div class="h-48 overflow-hidden flex items-center justify-center transform transition-transform duration-300 group-hover:scale-105 bg-gray-100">
         <img 
