@@ -150,7 +150,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- Ease of Form Building Section -->
-                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="ease-of-building">
+                <div class="mb-0 bg-white py-10 -mx-10 md:-mx-20 px-10 md:px-20" id="ease-of-building">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
                             <div class="lg:col-span-12">
@@ -190,7 +190,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- UI/UX & Design Section -->
-                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="ui-ux-design">
+                <div class="mb-0 bg-white py-10 -mx-10 md:-mx-20 px-10 md:px-20" id="ui-ux-design">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
                             <div class="lg:col-span-12">
@@ -234,7 +234,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- Logic, Data Intake & Workflows Section -->
-                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="logic-automation">
+                <div class="mb-0 bg-white py-10 -mx-10 md:-mx-20 px-10 md:px-20" id="logic-automation">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
                             <div class="lg:col-span-12">
@@ -262,7 +262,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- Templates & Use Cases Section -->
-                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="templates-use-cases">
+                <div class="mb-0 bg-white py-10 -mx-10 md:-mx-20 px-10 md:px-20" id="templates-use-cases">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
                             <div class="lg:col-span-12">
@@ -284,7 +284,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- Integrations & Data Section -->
-                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="integrations-data">
+                <div class="mb-0 bg-white py-10 -mx-10 md:-mx-20 px-10 md:px-20" id="integrations-data">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
                             <div class="lg:col-span-12">
@@ -379,7 +379,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- Pricing & Free vs Paid Section -->
-                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="pricing-comparison">
+                <div class="mb-0 bg-white py-10 -mx-10 md:-mx-20 px-10 md:px-20" id="pricing-comparison">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
                             <div class="lg:col-span-12">
@@ -456,7 +456,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- When to Choose Each Tool -->
-                <div class="mb-12 bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="when-to-choose">
+                <div class="mb-0 bg-white py-10 -mx-10 md:-mx-20 px-10 md:px-20" id="when-to-choose">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
                             <div class="lg:col-span-12">
@@ -494,7 +494,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                 </div>
 
                 <!-- FAQ Section -->
-                <div class="bg-white py-20 -mx-10 md:-mx-20 px-10 md:px-20" id="faq">
+                <div class="bg-white py-10 -mx-10 md:-mx-20 px-10 md:px-20" id="faq">
                     <div class="max-w-7xl mx-auto">
                         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
                             <div class="lg:col-span-12">
