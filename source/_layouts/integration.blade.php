@@ -37,7 +37,7 @@
                         {{ $page->hero_description }}
                     </p>
                     <div class="mt-10 text-center">
-                        <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
+                        <a href="https://app.youform.com/register" onclick="sa_event('click_signup_integration')" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                             Try Youform free
                         </a>
                     </div>
@@ -135,7 +135,7 @@
         <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
             Create your first form in minutes. Unlimited forms and responses on the free plan.
         </p>
-        <a href="https://app.youform.com/register" class="inline-block text-xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-12 py-3 text-black rounded-md font-semibold">
+        <a href="https://app.youform.com/register" onclick="sa_event('click_signup_integration')" class="inline-block text-xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-12 py-3 text-black rounded-md font-semibold">
             Get started free
         </a>
         <p class="text-sm text-gray-600 mt-4">No credit card required</p>
