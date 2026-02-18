@@ -177,7 +177,7 @@ description: Compare Fillout and Youform side-by-side. See pricing, features, ea
                                             <strong>Fillout</strong> is designed for forms that "do it all." Its builder exposes more advanced configuration for logic, data intake, scheduling, and document generation. That flexibility makes it well-suited for complex workflows, but it also means more options and configuration screens to work through.
                                         </p>
                                         <div class="bg-white rounded-2xl border-2 border-black shadow-sm p-6">
-                                            <img src="/assets/images/youform-builder.png" alt="Fillout form builder UI" class="rounded-lg w-full mb-4" loading="lazy">
+                                            <img src="/assets/images/fillout.jpeg" alt="Fillout form builder UI" class="rounded-lg w-full mb-4" loading="lazy">
                                             <p class="text-base text-gray-700">
                                                 Fillout builder — powerful and flexible for advanced form setups and integrations.
                                             </p>
