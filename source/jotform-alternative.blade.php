@@ -1,3 +1,7 @@
+---
+title: "Youform - A Free Jotform Alternative (unlimited submissions)"
+description: "Compare Youform vs Jotform. Youform offers unlimited forms and responses for free, while Jotform limits free users to 100 submissions/month. Find the best Jotform alternative in 2026."
+---
 @extends('_layouts.main')
 
 @section('body')
