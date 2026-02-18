@@ -159,8 +159,41 @@ return [
                     return $data;
                 });
             },
-        ]
+        ],
+        'integration' => [
+            'extends' => '_layouts.integration',
+            'path' => 'integrations/{slug}',
+            'items' => function ($config) {
+                $integrations = json_decode(
+                    file_get_contents(__DIR__ . '/source/_integrations/integrations.json'),
+                    true
+                );
+
+                return collect($integrations)->map(function ($integration) {
+                    return [
+                        'slug' => $integration['slug'],
+                        'name' => $integration['name'],
+                        'title' => 'Connect Youform with ' . $integration['name'] . ' | Youform Integrations',
+                        'description' => $integration['meta_description'],
+                        'category' => $integration['category'],
+                        'is_native' => $integration['is_native'],
+                        'via_webhook' => $integration['via_webhook'] ?? false,
+                        'logo' => $integration['logo'],
+                        'tagline' => $integration['tagline'],
+                        'hero_description' => $integration['hero_description'],
+                        'how_it_works_steps' => $integration['how_it_works_steps'],
+                        'use_cases' => $integration['use_cases'],
+                        'faqs' => $integration['faqs'],
+                        'content' => '',
+                    ];
+                });
+            },
+        ],
     ],
+    'integrations_list' => json_decode(
+        file_get_contents(__DIR__ . '/source/_integrations/integrations.json'),
+        true
+    ),
     'templates' => [
         'form' => [
             [
