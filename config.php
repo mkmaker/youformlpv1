@@ -1,4 +1,5 @@
 <?php
+// CI test - trigger workflow
 use Illuminate\Support\Str;
 
 return [
