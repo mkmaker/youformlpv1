@@ -29,6 +29,10 @@ description: Youform is free for unlimited forms and submissions. Youform PRO at
                     <a href="https://app.youform.com/register" class="mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                         Create free account
                     </a>
+
+                    <div class="mt-6 flex items-center justify-center text-gray-700">
+                        <span class="text-lg">🛡️ 14-Day Money-Back Guarantee — no questions asked</span>
+                    </div>
                 </div>
             </div>
         </div>

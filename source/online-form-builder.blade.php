@@ -347,8 +347,8 @@ description: Build professional HTML forms online without coding. Our free onlin
 @stop
 
 @section('seo')
-<title>Free Online Form Builder | Create Forms Without Coding | Youform</title>
-<meta name="description" content="Free online form builder to create beautiful forms without coding. Unlimited forms & responses, templates, logic, embeds, and integrations with Sheets, Slack & Zapier.">
+<title>Free Online Form Builder — Unlimited Forms & Submissions | Youform</title>
+<meta name="description" content="Create beautiful forms for free with Youform's drag-and-drop builder. Unlimited forms, unlimited submissions, no coding required. Trusted by 70,000+ users.">
 <meta name="keywords" content="online form builder, free online form builder, form builder, html form builder, online form creator, drag and drop form builder, no code form builder, web form builder">
 
 <!-- Open Graph / Facebook -->
