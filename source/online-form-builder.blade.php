@@ -1,6 +1,6 @@
 ---
-title: Youform - Free Online Form Builder [Unlimited Submissions]
-description: Build professional HTML forms online without coding. Our free online form generator helps you create unlimited forms with drag-and-drop simplicity. No HTML knowledge required!
+title: Free Online Form Builder — Unlimited Forms & Submissions | Youform
+description: Create beautiful forms for free with Youform's drag-and-drop builder. Unlimited forms, unlimited submissions, no coding required. Trusted by 70,000+ users.
 ---
 
 @extends('_layouts.main')
