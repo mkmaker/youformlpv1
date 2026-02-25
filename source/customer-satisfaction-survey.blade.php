@@ -556,7 +556,7 @@ description: Create professional CSAT, NPS, and CES customer satisfaction survey
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            <a href="/templates/t/net-promoter-score-nps-survey-template" class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-4xl hover:drop-shadow-6xl transition-all">
+            <a href="/templates/t/net-promoter-scorea-nps-survey-template" class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-4xl hover:drop-shadow-6xl transition-all">
                 <div class="text-3xl mb-3">⭐</div>
                 <h3 class="text-xl font-bold mb-2">NPS Survey Template</h3>
                 <p class="text-gray-700 text-sm">
@@ -564,7 +564,7 @@ description: Create professional CSAT, NPS, and CES customer satisfaction survey
                 </p>
             </a>
 
-            <a href="/templates/t/customer-effort-score-survey" class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-4xl hover:drop-shadow-6xl transition-all">
+            <a href="/templates/t/ces-customer-effort-score-survey-template" class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-4xl hover:drop-shadow-6xl transition-all">
                 <div class="text-3xl mb-3">🎯</div>
                 <h3 class="text-xl font-bold mb-2">CES Survey Template</h3>
                 <p class="text-gray-700 text-sm">
