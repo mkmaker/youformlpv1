@@ -60,7 +60,7 @@ description: Create professional CSAT, NPS, and CES customer satisfaction survey
 
 <!-- Header and Hero Section -->
 <div> 
-    <div class="bg-medium-champagne bg-[url('/assets/images/banner-background.png?v=2')] bg-cover bg-no-repeat bg-center">
+    <div class="bg-medium-champagne">
         <!-- Navbar -->
         @include('partials.nav')
 
