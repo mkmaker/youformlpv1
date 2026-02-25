@@ -65,7 +65,7 @@ description: Create professional CSAT, NPS, and CES customer satisfaction survey
         @include('partials.nav')
 
         <!-- Hero Section --> 
-        <div class="relative max-w-7xl mx-auto mt-10 pb-12">
+        <div class="relative max-w-7xl mx-auto mt-10 pb-4">
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
                 <div class="text-center max-w-4xl mx-auto">
                     <p class="text-xs font-semibold px-4 py-1.5 rounded-full mb-3 lg:mb-4 bg-pale-violet border border-black inline-block">
