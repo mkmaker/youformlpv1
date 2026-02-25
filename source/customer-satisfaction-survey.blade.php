@@ -65,7 +65,7 @@ description: Create professional CSAT, NPS, and CES customer satisfaction survey
         @include('partials.nav')
 
         <!-- Hero Section --> 
-        <div class="relative max-w-7xl mx-auto mt-10 pb-4">
+        <div class="relative max-w-7xl mx-auto mt-10 pb-0">
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
                 <div class="text-center max-w-4xl mx-auto">
                     <p class="text-xs font-semibold px-4 py-1.5 rounded-full mb-3 lg:mb-4 bg-pale-violet border border-black inline-block">
@@ -82,7 +82,7 @@ description: Create professional CSAT, NPS, and CES customer satisfaction survey
                             Create free survey
                         </a>
                     </div>
-                    <div class="text-sm pt-6 font-semibold flex items-center justify-center space-x-4">
+                    <div class="text-sm pt-4 font-semibold flex items-center justify-center space-x-4">
                         <div class="flex items-center space-x-1">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
                                 <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
@@ -101,7 +101,7 @@ description: Create professional CSAT, NPS, and CES customer satisfaction survey
         </div>
 
         <div>
-            <img class="-mt-4 w-full" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
+            <img class="-mt-2 w-full" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
         </div>
     </div>
 </div>
