@@ -265,9 +265,9 @@ description: Create professional client onboarding forms in minutes. Free form b
                     </div>
                 </div>
 
-                <div class="bg-white border-2 border-black rounded-xl p-6">
+                <div class="bg-white border-2 border-black rounded-xl p-6 overflow-x-auto">
                     <h3 class="text-xl font-bold mb-4">The Client Journey: Where Each Form Fits</h3>
-                    <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-4">
+                    <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-2 min-w-max md:min-w-0">
                         <div class="text-center px-4 py-3 bg-gray-100 rounded-lg flex-1">
                             <p class="font-bold">Lead Capture</p>
                             <p class="text-sm text-gray-600">Contact form</p>
