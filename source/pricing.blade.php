@@ -26,7 +26,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO at
                         If you need advanced features, you can upgrade to PRO for $29/month (or $20/month, billed annually)
                     </p>
                     
-                    <a href="https://app.youform.com/register" class="mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                    <a href="https://app.youform.com/register" onclick="sa_event('click_signup_pricing')" class="mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                         Create free account
                     </a>
                 </div>

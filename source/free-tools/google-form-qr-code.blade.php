@@ -95,7 +95,7 @@ description: "Generate a QR code for your Google Forms instantly. Free, no accou
                                 </p>
 
                                 <div class="mt-10 text-center">
-                                    <a href="https://app.youform.com/googleform-to-youform" class="block mx-auto text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
+                                    <a href="https://app.youform.com/googleform-to-youform" onclick="sa_event('click_gf_import')" class="block mx-auto text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                                         Convert your Google Form
                                     </a>
                                     <p class="text-sm text-gray-600 mt-3">No signup required. No credit card required.</p>

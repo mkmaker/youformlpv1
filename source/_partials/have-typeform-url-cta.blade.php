@@ -27,6 +27,7 @@
             },
         }" 
         x-on:click.prevent="
+            sa_event('click_typeform_import');
             open = false;
             $dispatch('prompt-show', {
                 prompt_id: prompt_id,

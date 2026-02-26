@@ -117,7 +117,7 @@
         @endif
 
         <div class="mt-10">
-            <a href="{{$page->appUrl}}/use-template?template={{$page->appUrl}}/forms/{{$page->slug}}" class="mt-10 text-2xl block max-w-lg mx-auto text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-3 text-black rounded-md">
+            <a href="{{$page->appUrl}}/use-template?template={{$page->appUrl}}/forms/{{$page->slug}}" onclick="sa_event('click_use_template')" class="mt-10 text-2xl block max-w-lg mx-auto text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-3 text-black rounded-md">
                 @if (($page->template_slug ?? '') === 'software-customer-satisfaction-survey-template')
                     Use This Free CSAT Template &rarr;
                 @else

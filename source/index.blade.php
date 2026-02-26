@@ -12,7 +12,7 @@
         <div class="relative max-w-7xl mx-auto mt-10 pb-20">
             <div class="flex flex-col justify-center lg:grid grid-cols-5 items-center px-10 md:px-20">
                 <div class=" flex flex-col items-center lg:items-start col-span-3 lg:pr-16 xl:pr-20">
-                    <a href="https://www.capterra.in/reviews/1060219/youform" x-data x-tooltip.raw="Read reviews on Capterra" target="_blank" class="flex items-center cursor-pointer bg-pale-violet text-black text-xs font-semibold px-4 py-1.5 rounded-full mb-3 lg:mb-2 space-x-1 transition-transform transform hover:scale-105">
+                    <a href="https://www.capterra.in/reviews/1060219/youform" onclick="sa_event('click_review_capterra')" x-data x-tooltip.raw="Read reviews on Capterra" target="_blank" class="flex items-center cursor-pointer bg-pale-violet text-black text-xs font-semibold px-4 py-1.5 rounded-full mb-3 lg:mb-2 space-x-1 transition-transform transform hover:scale-105">
                         <span>Rated 5</span> 
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
                             <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
@@ -26,7 +26,7 @@
                         Youform is a form builder that provides UNLIMITED forms and responses for FREE. Build <a href="/online-form-builder/" class="underline hover:no-underline">forms</a>, <a href="/online-quiz-builder/" class="underline hover:no-underline">quizzes</a>, and <a href="/online-survey-builder/" class="underline hover:no-underline">surveys</a> with logic, custom domains, file uploads, embeds, and much more 🤓
                     </p>
                     <div class="lg:flex lg:items-center space-x-6 mt-10 text-center">
-                        <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+                        <a href="https://app.youform.com/register" onclick="sa_event('click_signup_hero')" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                             Create free account
                         </a>
                         <a href="https://app.youform.com/forms/xrjcjyti" target="_blank" class="underline group transition-all underline-offset-8 hover:no-underline inline-block mx-auto mt-4 lg:hidden">
@@ -254,7 +254,7 @@
         </div> 
         
         <div class="flex items-center justify-center">
-            <a href="https://youform.com/pricing" class="-rotate-1 mt-10 text-2xl inline-block mx-auto text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
+            <a href="https://youform.com/pricing" onclick="sa_event('click_pricing_home')" class="-rotate-1 mt-10 text-2xl inline-block mx-auto text-center bg-sasquatch-socks border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
                 View more on pricing page &rarr;
             </a>
         </div>
@@ -358,7 +358,7 @@
 
             <div class="flex items-center justify-center mt-10">
                 <div>
-                    <a href="https://app.youform.com/register" class="text-center mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
+                    <a href="https://app.youform.com/register" onclick="sa_event('click_signup_templates')" class="text-center mt-10 text-2xl bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                         Create free account
                     </a>
                     <div class="text-sm pt-6 font-semibold items-center text-center">
@@ -418,7 +418,7 @@
                 </div>
 
                 <div class="mt-16">
-                    <a href="https://app.youform.com/register" class="text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
+                    <a href="https://app.youform.com/register" onclick="sa_event('click_signup_pricing_section')" class="text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
                         Create free account
                     </a>
 

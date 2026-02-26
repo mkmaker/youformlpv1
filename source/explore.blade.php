@@ -30,7 +30,7 @@ description: Build professional forms online without coding. Make surveys, quizz
                         Build forms people love to answer — simple, fast, and beautifully designed with Youform.
                     </p>
                     <div class="mt-10">
-                        <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
+                        <a href="https://app.youform.com/register" onclick="sa_event('click_signup_explore')" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                             Signup for free
                         </a>
                     </div>
@@ -330,7 +330,7 @@ description: Build professional forms online without coding. Make surveys, quizz
         <p class="text-xl mb-8">
             Join thousands of users who create professional forms without coding
         </p>
-        <a href="https://app.youform.com/register" class="inline-block text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-12 py-3 text-black rounded-md font-bold">
+        <a href="https://app.youform.com/register" onclick="sa_event('click_signup_explore')" class="inline-block text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-12 py-3 text-black rounded-md font-bold">
             Try Our Free Form Builder
         </a>
         <p class="mt-6 text-sm">
