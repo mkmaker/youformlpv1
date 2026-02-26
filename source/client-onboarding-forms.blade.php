@@ -289,32 +289,33 @@ description: Create professional client onboarding forms in minutes. Free form b
                     </div>
                 </div>
 
-                <div class="bg-white border-2 border-black rounded-xl p-6 overflow-x-auto">
+                <div class="bg-white border-2 border-black rounded-xl p-6">
                     <h3 class="text-xl font-bold mb-4">The Client Journey: Where Each Form Fits</h3>
-                    <div class="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0 md:space-x-2 min-w-max md:min-w-0">
-                        <div class="text-center px-4 py-3 bg-gray-100 rounded-lg flex-1">
-                            <p class="font-bold">Lead Capture</p>
-                            <p class="text-sm text-gray-600">Contact form</p>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+                        <div class="text-center px-3 py-4 bg-gray-100 rounded-lg">
+                            <p class="text-xs text-gray-500 mb-1">1</p>
+                            <p class="font-bold text-sm">Lead Capture</p>
+                            <p class="text-xs text-gray-600">Contact form</p>
                         </div>
-                        <div class="text-2xl text-gray-400">→</div>
-                        <div class="text-center px-4 py-3 bg-amber-100 rounded-lg flex-1">
-                            <p class="font-bold">Qualification</p>
-                            <p class="text-sm text-gray-600">Intake form</p>
+                        <div class="text-center px-3 py-4 bg-amber-100 rounded-lg">
+                            <p class="text-xs text-gray-500 mb-1">2</p>
+                            <p class="font-bold text-sm">Qualification</p>
+                            <p class="text-xs text-gray-600">Intake form</p>
                         </div>
-                        <div class="text-2xl text-gray-400">→</div>
-                        <div class="text-center px-4 py-3 bg-gray-100 rounded-lg flex-1">
-                            <p class="font-bold">Sale/Contract</p>
-                            <p class="text-sm text-gray-600">Proposal signed</p>
+                        <div class="text-center px-3 py-4 bg-gray-100 rounded-lg">
+                            <p class="text-xs text-gray-500 mb-1">3</p>
+                            <p class="font-bold text-sm">Sale/Contract</p>
+                            <p class="text-xs text-gray-600">Proposal signed</p>
                         </div>
-                        <div class="text-2xl text-gray-400">→</div>
-                        <div class="text-center px-4 py-3 bg-green-100 rounded-lg flex-1">
-                            <p class="font-bold">Welcome</p>
-                            <p class="text-sm text-gray-600">Onboarding form</p>
+                        <div class="text-center px-3 py-4 bg-green-100 rounded-lg">
+                            <p class="text-xs text-gray-500 mb-1">4</p>
+                            <p class="font-bold text-sm">Welcome</p>
+                            <p class="text-xs text-gray-600">Onboarding form</p>
                         </div>
-                        <div class="text-2xl text-gray-400">→</div>
-                        <div class="text-center px-4 py-3 bg-gray-100 rounded-lg flex-1">
-                            <p class="font-bold">Kickoff</p>
-                            <p class="text-sm text-gray-600">Work begins</p>
+                        <div class="text-center px-3 py-4 bg-gray-100 rounded-lg col-span-2 sm:col-span-1">
+                            <p class="text-xs text-gray-500 mb-1">5</p>
+                            <p class="font-bold text-sm">Kickoff</p>
+                            <p class="text-xs text-gray-600">Work begins</p>
                         </div>
                     </div>
                 </div>
