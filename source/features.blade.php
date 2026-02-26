@@ -278,9 +278,11 @@ description: Explore all Youform features including conditional logic, payment c
                         <span class="text-xl font-bold text-white">🎯</span>
                     </div>
                     <div class="mt-3">
-                        <h3 class="text-xl font-bold text-gray-800">Quiz Maker</h3>
+                        <a href="/online-quiz-builder/" class="hover:text-aquamarine">
+                            <h3 class="text-xl font-bold text-gray-800">Quiz Maker</h3>
+                        </a>
                         <p class="text-sm text-gray-600 mt-4">
-                            Create quizzes with multiple-choice, true/false, and matching questions. Perfect for assessments.
+                            Create quizzes with multiple-choice, true/false, and matching questions. Perfect for assessments. <a href="/online-quiz-builder/" class="text-aquamarine hover:underline">Learn more →</a>
                         </p>
                     </div>
                 </div>

@@ -23,7 +23,7 @@
                         The most affordable Typeform alternative
                     </h1>
                     <p class="text-center lg:text-left text-base mt-6">
-                        Youform is a form builder that provides UNLIMITED forms and responses for FREE. You can add logic, custom domains, upload files, embed forms on your website, and much more 🤓
+                        Youform is a form builder that provides UNLIMITED forms and responses for FREE. Build <a href="/online-form-builder/" class="underline hover:no-underline">forms</a>, <a href="/online-quiz-builder/" class="underline hover:no-underline">quizzes</a>, and <a href="/online-survey-builder/" class="underline hover:no-underline">surveys</a> with logic, custom domains, file uploads, embeds, and much more 🤓
                     </p>
                     <div class="lg:flex lg:items-center space-x-6 mt-10 text-center">
                         <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">

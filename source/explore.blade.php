@@ -229,6 +229,17 @@ description: Build professional forms online without coding. Make surveys, quizz
             <p class="text-xl max-w-3xl mx-auto">
                 Our free online HTML form builder helps you create any type of form
             </p>
+            <div class="flex flex-wrap justify-center gap-4 mt-8">
+                <a href="/online-form-builder/" class="inline-flex items-center px-5 py-2 bg-white border-2 border-black rounded-lg hover:bg-yellow-300 transition-colors">
+                    <span class="mr-2">📝</span> Form Builder
+                </a>
+                <a href="/online-quiz-builder/" class="inline-flex items-center px-5 py-2 bg-white border-2 border-black rounded-lg hover:bg-yellow-300 transition-colors">
+                    <span class="mr-2">🎯</span> Quiz Builder
+                </a>
+                <a href="/online-survey-builder/" class="inline-flex items-center px-5 py-2 bg-white border-2 border-black rounded-lg hover:bg-yellow-300 transition-colors">
+                    <span class="mr-2">📊</span> Survey Builder
+                </a>
+            </div>
         </div>
 
         @foreach ($page->templates as $template_type => $templates)
