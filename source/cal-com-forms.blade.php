@@ -452,6 +452,13 @@ description: Embed Cal.com directly inside your forms. Qualify leads before they
                             Connect Youform to Zapier, webhooks, Slack, and more. Cal.com has its own integrations. Use both for a complete workflow.
                         </p>
                     </div>
+
+                    <div class="bg-coral/20 border-2 border-black rounded-xl p-6 md:col-span-2">
+                        <h3 class="text-xl font-bold mb-3">🔄 Partial Submissions Captured</h3>
+                        <p class="text-gray-700 text-sm">
+                            Even if someone leaves your form before booking, you still capture their info. Retarget abandoned leads or follow up manually — with just a Cal.com link, you'd get nothing if they leave.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -688,6 +688,13 @@ description: Create scheduling forms that let visitors book appointments directl
                             All four major scheduling platforms supported: Calendly, Cal.com, SavvyCal, TidyCal. Use whatever you already have.
                         </p>
                     </div>
+
+                    <div class="bg-amber-50 border-2 border-black rounded-xl p-6 md:col-span-2">
+                        <h3 class="text-xl font-bold mb-3">🔄 Partial Submissions Captured</h3>
+                        <p class="text-gray-700 text-sm">
+                            Even if someone leaves your form before booking, Youform captures their info. Follow up with abandoned leads or retarget them later. With just a scheduling link, you get nothing if they leave — with Youform, you still have their data.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="text-center">

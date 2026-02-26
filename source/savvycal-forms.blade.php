@@ -446,6 +446,13 @@ description: Embed SavvyCal directly inside your forms. Qualify leads before the
                             Forms and embedded SavvyCal work beautifully on all devices. The premium experience extends to mobile.
                         </p>
                     </div>
+
+                    <div class="bg-amber-50 border-2 border-black rounded-xl p-6 md:col-span-2">
+                        <h3 class="text-xl font-bold mb-3">🔄 Partial Submissions Captured</h3>
+                        <p class="text-gray-700 text-sm">
+                            Even if someone leaves your form before booking, you still capture their info. Retarget abandoned leads or follow up manually — with just a SavvyCal link, you'd get nothing if they leave.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -385,6 +385,13 @@ description: Embed Calendly directly inside your forms. Qualify leads before the
                             Whether you're on Calendly Free, Standard, Teams, or Enterprise — the Youform integration works. Just paste your event link.
                         </p>
                     </div>
+
+                    <div class="bg-amber-50 border-2 border-black rounded-xl p-6">
+                        <h3 class="text-xl font-bold mb-3">🔄 Partial Submissions Captured</h3>
+                        <p class="text-gray-700 text-sm">
+                            Even if someone leaves your form before booking, you still capture their info. Retarget abandoned leads or follow up manually — with just a Calendly link, you'd get nothing.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -535,6 +542,11 @@ description: Embed Calendly directly inside your forms. Qualify leads before the
                                 <td class="px-6 py-4 text-green-700 font-medium">Full integration support</td>
                             </tr>
                             <tr class="border-b border-gray-200 bg-gray-50">
+                                <td class="px-6 py-4">Partial submissions</td>
+                                <td class="px-6 py-4">No — abandoned = lost</td>
+                                <td class="px-6 py-4 text-green-700 font-medium">Yes — capture & retarget</td>
+                            </tr>
+                            <tr class="border-b border-gray-200">
                                 <td class="px-6 py-4">Price</td>
                                 <td class="px-6 py-4">Requires Teams plan ($16/user/mo)</td>
                                 <td class="px-6 py-4 text-green-700 font-medium">Free</td>

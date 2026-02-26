@@ -442,6 +442,13 @@ description: Embed TidyCal directly inside your forms. Qualify leads before they
                             Youform free = unlimited forms and responses. TidyCal lifetime = unlimited bookings. No caps, no surprises.
                         </p>
                     </div>
+
+                    <div class="bg-amber-50 border-2 border-black rounded-xl p-6 md:col-span-2">
+                        <h3 class="text-xl font-bold mb-3">🔄 Partial Submissions Captured</h3>
+                        <p class="text-gray-700 text-sm">
+                            Even if someone leaves your form before booking, you still capture their info. Retarget abandoned leads or follow up manually — with just a TidyCal link, you'd get nothing if they leave.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
