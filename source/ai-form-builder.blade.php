@@ -72,39 +72,16 @@ description: Create professional forms in seconds with our free AI form builder.
         <!-- Navbar -->
         @include('partials.nav')
 
-        <!-- Hero Section --> 
+        <!-- Hero Section -->
         <div class="relative max-w-7xl mx-auto mt-10 pb-0">
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
-                <div class="text-center max-w-4xl mx-auto">
-                    <p class="text-xs font-semibold px-4 py-1.5 rounded-full mb-3 lg:mb-4 bg-pale-violet border border-black inline-block">
-                        Free AI-powered form generator
-                    </p>
-                    <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
-                        AI Form Builder
-                    </h1>
-                    <p class="text-base mt-6 max-w-3xl mx-auto">
-                        Create professional forms in seconds with AI. Just describe what you need and watch your form appear — no coding, no manual setup, no templates to configure. Free forever with unlimited responses.
-                    </p>
-                    <div class="mt-10 text-center">
-                        <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
-                            Create free form
-                        </a>
-                    </div>
-                    <div class="text-sm pt-4 font-semibold flex items-center justify-center space-x-4">
-                        <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
-                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
-                            </svg>
-                            <span>Unlimited responses</span>
-                        </div>
-                        <div class="flex items-center space-x-1">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
-                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
-                            </svg>
-                            <span>No credit card required</span>
-                        </div>
-                    </div>
-                </div>
+                @include('_partials.ai-prompt-hero', [
+                    'pageType' => 'form',
+                    'badgeText' => 'Free AI-powered form generator',
+                    'heading' => 'AI Form Builder',
+                    'description' => 'Create professional forms in seconds with AI. Just describe what you need and watch your form appear — no coding, no manual setup, no templates to configure. Free forever with unlimited responses.',
+                    'ctaVerb' => 'form',
+                ])
             </div>
         </div>
 
@@ -902,6 +879,9 @@ description: Create professional forms in seconds with our free AI form builder.
         </div>
     </div>
 </div>
+
+<!-- Testimonials -->
+@include('_partials.testimonials-carousel')
 
 <!-- FAQ Section -->
 <div class="bg-white py-20" id="faq">

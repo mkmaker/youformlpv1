@@ -6,6 +6,7 @@ return [
     'production' => false,
     'baseUrl' => 'https://youformlpv1.test',
     'appUrl' => 'https://app.youform.com',
+    'aiApiUrl' => 'https://youform.test',
     'title' => 'Youform - A Free Typeform alternative (unlimited submissions)',
     'description' => 'Youform is a free Typeform alternative that allows unlimited forms and unlimited responses on the free plan.',
     'current' => function ($page, $section) {
