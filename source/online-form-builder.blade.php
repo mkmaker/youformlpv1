@@ -326,6 +326,23 @@ description: Create beautiful forms for free with Youform's drag-and-drop builde
     </div>
 </div>
 
+<!-- Also Try Section -->
+<div class="bg-gray-50 py-16 border-t-2 border-gray-200">
+    <div class="max-w-4xl mx-auto text-center px-10 md:px-20">
+        <h2 class="text-2xl font-bold mb-6">Also Try Our Other Free Builders</h2>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="/online-quiz-builder/" class="inline-flex items-center px-6 py-3 bg-white border-2 border-black rounded-lg hover:bg-aquamarine transition-colors">
+                <span class="text-2xl mr-2">🎯</span>
+                <span class="font-semibold">Quiz Builder</span>
+            </a>
+            <a href="/online-survey-builder/" class="inline-flex items-center px-6 py-3 bg-white border-2 border-black rounded-lg hover:bg-aquamarine transition-colors">
+                <span class="text-2xl mr-2">📊</span>
+                <span class="font-semibold">Survey Builder</span>
+            </a>
+        </div>
+    </div>
+</div>
+
 <!-- CTA Section -->
 <div class="bg-coral py-20 border-t-4 border-black">
     <div class="max-w-4xl mx-auto text-center px-10 md:px-20">
