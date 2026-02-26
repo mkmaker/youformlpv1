@@ -697,6 +697,9 @@ description: Embed TidyCal directly inside your forms. Qualify leads before they
     </div>
 </div>
 
+<!-- Testimonials -->
+@include('_partials.testimonials-carousel')
+
 <!-- Final CTA Section -->
 <div class="bg-amber-50 border-t-4 border-black py-20">
     <div class="max-w-7xl mx-auto px-10 md:px-20 text-center">
