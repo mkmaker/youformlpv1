@@ -148,7 +148,7 @@ description: Embed Calendly directly inside your forms. Qualify leads before the
 </div>
 
 <!-- Main Content with TOC Sidebar -->
-<div class="bg-white py-20
+<div class="bg-white py-20">
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             <!-- Table of Contents Sidebar -->
