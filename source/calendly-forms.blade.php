@@ -123,8 +123,32 @@ description: Embed Calendly directly inside your forms. Qualify leads before the
     </div>
 </div>
 
+<!-- Social Proof Bar -->
+<div class="bg-white pt-16 lg:pt-24 pb-6 -mt-10 lg:-mt-20 border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-10 md:px-20">
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-center">
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">70,000+</p>
+                <p class="text-sm text-gray-600">Users worldwide</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">10M+</p>
+                <p class="text-sm text-gray-600">Responses collected</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">100%</p>
+                <p class="text-sm text-gray-600">Free forever</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">4.8/5</p>
+                <p class="text-sm text-gray-600">User rating</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Main Content with TOC Sidebar -->
-<div class="bg-white py-20 -mt-10 lg:-mt-20">
+<div class="bg-white py-20
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             <!-- Table of Contents Sidebar -->
