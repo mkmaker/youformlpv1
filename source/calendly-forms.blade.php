@@ -496,7 +496,7 @@ description: Embed Calendly directly inside your forms. Qualify leads before the
                     Calendly has its own "Routing Forms" feature. Here's how it compares to using Youform.
                 </p>
 
-                <div class="bg-white border-2 border-black rounded-xl overflow-hidden">
+                <div class="bg-white border-2 border-black rounded-xl overflow-x-auto">
                     <table class="min-w-full text-left text-sm md:text-base">
                         <thead class="bg-gray-100 border-b-2 border-black">
                             <tr>
