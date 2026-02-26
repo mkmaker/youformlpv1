@@ -1,9 +1,104 @@
 ---
 title: Online Quiz Builder - Create Interactive Quizzes for Free | Youform
-description: Build engaging, interactive quizzes with Youform's free online quiz builder. Create personality quizzes, lead generation quizzes, and more. Unlimited quizzes, unlimited responses, and professional templates.
+description: Create engaging quizzes for free with Youform. Unlimited quizzes, responses & templates. Perfect for lead generation & personality quizzes.
 ---
 
 @extends('_layouts.main')
+
+@push('head')
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Youform Quiz Builder",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "500"
+    },
+    "description": "Free online quiz builder with unlimited quizzes, questions, and responses. Create personality quizzes, lead generation quizzes, and assessments."
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "What is the best free online quiz builder?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Youform is one of the best free online quiz builders available. Unlike competitors like Typeform that limit free plans, Youform offers unlimited quizzes, unlimited questions, and unlimited responses completely free. You also get access to professional quiz templates, outcome-based results, and full customization without any credit card required."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do I create an interactive quiz online?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Creating an interactive quiz with Youform is easy. Create a free account, choose from quiz templates or start from scratch, add your questions, set up outcome-based results using conditional logic, customize the design to match your brand, and share your quiz via link or embed it on your website."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I create personality quizzes for free?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Youform lets you create unlimited personality quizzes completely free. Use personality quiz templates, add your questions, set up multiple outcome results, and customize the design. Personality quizzes are perfect for social media engagement and lead generation."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What's the difference between a quiz and a survey?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "While both quizzes and surveys collect information, quizzes are designed to be more engaging and interactive. Quizzes typically provide personalized outcomes or results based on answers, making them highly shareable and perfect for lead generation. Surveys focus more on gathering data and feedback."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I use quizzes for lead generation?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! Quizzes are one of the most effective lead generation tools. People are naturally curious about their results, making them willing to provide their email address. With Youform, you can require an email to see quiz results and capture leads while entertaining your audience."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I embed quizzes on my website?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely! Youform makes it easy to embed quizzes on any website. Simply copy the embed code and paste it into your website's HTML. Your quiz will display seamlessly on your site, matching your existing design and capturing responses directly."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Does Youform quiz builder work on mobile?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! All Youform quizzes are automatically optimized for mobile devices. Whether your audience is on desktop, tablet, or smartphone, they'll have a perfect experience. Mobile optimization is crucial since most quiz takers use their phones."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How many questions can I add to a quiz?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "With Youform, you can add unlimited questions to your quizzes. There are no artificial limits on questions, quizzes, or responses. Create short 5-question quizzes or comprehensive 50-question assessments—whatever works for your needs."
+            }
+        }
+    ]
+}
+</script>
+@endpush
 
 @section('body')
 
@@ -33,8 +128,84 @@ description: Build engaging, interactive quizzes with Youform's free online quiz
     </div>
 </div>
 
+<!-- Social Proof Bar -->
+<div class="bg-white py-6 border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-10 md:px-20">
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-center">
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">70,000+</p>
+                <p class="text-sm text-gray-600">Users worldwide</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">10M+</p>
+                <p class="text-sm text-gray-600">Responses collected</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">100%</p>
+                <p class="text-sm text-gray-600">Free forever</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">4.8/5</p>
+                <p class="text-sm text-gray-600">User rating</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- How It Works Section -->
+<div class="bg-white py-20" id="how-it-works">
+    <div class="max-w-7xl mx-auto px-10 md:px-20">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Create Your Quiz in 4 Simple Steps</h2>
+            <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                From idea to live quiz in minutes. No coding required.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="text-center">
+                <div class="w-16 h-16 bg-aquamarine rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl font-bold text-white">1</span>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Choose a Template</h3>
+                <p class="text-gray-600">Pick from our library of professional quiz templates or start from scratch.</p>
+            </div>
+            
+            <div class="text-center">
+                <div class="w-16 h-16 bg-aquamarine rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl font-bold text-white">2</span>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Add Your Questions</h3>
+                <p class="text-gray-600">Create engaging questions with multiple choice, images, and outcome logic.</p>
+            </div>
+            
+            <div class="text-center">
+                <div class="w-16 h-16 bg-aquamarine rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl font-bold text-white">3</span>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Customize Design</h3>
+                <p class="text-gray-600">Match your brand with custom colors, fonts, logos, and images.</p>
+            </div>
+            
+            <div class="text-center">
+                <div class="w-16 h-16 bg-aquamarine rounded-full flex items-center justify-center mx-auto mb-4">
+                    <span class="text-2xl font-bold text-white">4</span>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Share & Collect</h3>
+                <p class="text-gray-600">Share via link, embed on your site, and watch responses roll in.</p>
+            </div>
+        </div>
+        
+        <div class="text-center mt-12">
+            <a href="https://app.youform.com/register" class="inline-block text-xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-8 py-3 text-black rounded-md font-medium">
+                Start Creating Your Quiz →
+            </a>
+        </div>
+    </div>
+</div>
+
 <!-- Main Content with TOC Sidebar -->
-<div class="bg-white py-20 -mt-10 lg:-mt-20">
+<div class="bg-gray-50 py-20 -mt-10 lg:-mt-20">
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             <!-- Table of Contents Sidebar -->
@@ -51,6 +222,9 @@ description: Build engaging, interactive quizzes with Youform's free online quiz
                             </li>
                             <li>
                                 <a href="#key-features" class="text-aquamarine hover:underline font-medium text-sm">Key Features to Look For</a>
+                            </li>
+                            <li>
+                                <a href="#comparison" class="text-aquamarine hover:underline font-medium text-sm">Quiz Builder Comparison</a>
                             </li>
                             <li>
                                 <a href="#youform-solution" class="text-aquamarine hover:underline font-medium text-sm">Youform as Your Quiz Builder</a>
@@ -83,7 +257,7 @@ description: Build engaging, interactive quizzes with Youform's free online quiz
 </div>
 
 <!-- Quiz Types Section -->
-<div class="bg-gray-50 py-20" id="quiz-types">
+<div class="bg-white py-20" id="quiz-types">
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             <div class="lg:col-span-2"></div>
@@ -137,7 +311,7 @@ description: Build engaging, interactive quizzes with Youform's free online quiz
 </div>
 
 <!-- Key Features Section -->
-<div class="bg-white py-20" id="key-features">
+<div class="bg-gray-50 py-20" id="key-features">
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             <div class="lg:col-span-2"></div>
@@ -193,6 +367,88 @@ description: Build engaging, interactive quizzes with Youform's free online quiz
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- Comparison Table Section -->
+<div class="bg-white py-20" id="comparison">
+    <div class="max-w-7xl mx-auto px-10 md:px-20">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Quiz Builder Comparison</h2>
+            <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                See how Youform compares to other popular quiz builders
+            </p>
+        </div>
+        
+        <div class="overflow-x-auto">
+            <table class="w-full border-collapse border-2 border-black">
+                <thead>
+                    <tr class="bg-aquamarine">
+                        <th class="border-2 border-black px-6 py-4 text-left font-bold">Feature</th>
+                        <th class="border-2 border-black px-6 py-4 text-center font-bold">Youform</th>
+                        <th class="border-2 border-black px-6 py-4 text-center font-bold">Typeform</th>
+                        <th class="border-2 border-black px-6 py-4 text-center font-bold">Jotform</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="bg-white">
+                        <td class="border-2 border-black px-6 py-4 font-medium">Free quizzes</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600 font-bold">Unlimited ✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-red-600">3 only</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-red-600">5 only</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border-2 border-black px-6 py-4 font-medium">Free responses/month</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600 font-bold">Unlimited ✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-red-600">10 only</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-red-600">100 only</td>
+                    </tr>
+                    <tr class="bg-white">
+                        <td class="border-2 border-black px-6 py-4 font-medium">Outcome-based results</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600 font-bold">✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600">✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600">✓</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border-2 border-black px-6 py-4 font-medium">Custom branding</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600 font-bold">✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-red-600">Paid only</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-red-600">Paid only</td>
+                    </tr>
+                    <tr class="bg-white">
+                        <td class="border-2 border-black px-6 py-4 font-medium">Quiz templates</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600 font-bold">50+ ✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600">30+</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600">100+</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border-2 border-black px-6 py-4 font-medium">Conditional logic</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600 font-bold">✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600">✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600">✓</td>
+                    </tr>
+                    <tr class="bg-white">
+                        <td class="border-2 border-black px-6 py-4 font-medium">No credit card required</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600 font-bold">✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600">✓</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600">✓</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                        <td class="border-2 border-black px-6 py-4 font-medium">Starting price (paid)</td>
+                        <td class="border-2 border-black px-6 py-4 text-center text-green-600 font-bold">$29/mo</td>
+                        <td class="border-2 border-black px-6 py-4 text-center">$29/mo</td>
+                        <td class="border-2 border-black px-6 py-4 text-center">$39/mo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="text-center mt-8">
+            <p class="text-gray-600 mb-4">Why pay for limits when you can get unlimited for free?</p>
+            <a href="https://app.youform.com/register" class="inline-block text-lg bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-8 py-3 text-black rounded-md font-medium">
+                Try Youform Free
+            </a>
         </div>
     </div>
 </div>
@@ -389,6 +645,63 @@ description: Build engaging, interactive quizzes with Youform's free online quiz
                             </div>
                         </div>
                     </div>
+
+                    <div x-data="{ open: false }" class="border-y-2 border-black">
+                        <div class="w-full cursor-pointer" @click="open = !open">
+                            <div class="flex justify-between px-4 py-6 md:text-lg lg:text-2xl">
+                                <p class="text-black font-medium flex-grow">Can I embed quizzes on my website?</p>
+                                <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                </svg>
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+                                </svg>
+                            </div>
+                            <div x-show="open">
+                                <p class="px-4 py-6 lg:text-lg text-black">
+                                    Absolutely! Youform makes it easy to embed quizzes on any website. Simply copy the embed code from your quiz settings and paste it into your website's HTML. Your quiz will display seamlessly on your site, matching your existing design and capturing responses directly. You can embed quizzes in blog posts, landing pages, or anywhere you want to engage your audience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div x-data="{ open: false }" class="border-y-2 border-black">
+                        <div class="w-full cursor-pointer" @click="open = !open">
+                            <div class="flex justify-between px-4 py-6 md:text-lg lg:text-2xl">
+                                <p class="text-black font-medium flex-grow">Does Youform quiz builder work on mobile?</p>
+                                <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                </svg>
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+                                </svg>
+                            </div>
+                            <div x-show="open">
+                                <p class="px-4 py-6 lg:text-lg text-black">
+                                    Yes! All Youform quizzes are automatically optimized for mobile devices. Whether your audience is on desktop, tablet, or smartphone, they'll have a perfect experience. Mobile optimization is crucial since most quiz takers—often over 70%—use their phones. Youform ensures fast loading, touch-friendly buttons, and responsive layouts on all devices.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div x-data="{ open: false }" class="border-y-2 border-black">
+                        <div class="w-full cursor-pointer" @click="open = !open">
+                            <div class="flex justify-between px-4 py-6 md:text-lg lg:text-2xl">
+                                <p class="text-black font-medium flex-grow">How many questions can I add to a quiz?</p>
+                                <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                                </svg>
+                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
+                                </svg>
+                            </div>
+                            <div x-show="open">
+                                <p class="px-4 py-6 lg:text-lg text-black">
+                                    With Youform, you can add unlimited questions to your quizzes. There are no artificial limits on questions, quizzes, or responses—even on the free plan. Create short 5-question personality quizzes for social media or comprehensive 50-question assessments for certification. Whatever your needs, Youform grows with you without any restrictions.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -398,4 +711,3 @@ description: Build engaging, interactive quizzes with Youform's free online quiz
 @include('partials.footer')
 
 @endsection
-
