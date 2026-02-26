@@ -91,8 +91,32 @@ description: Create engaging quizzes in seconds with our free AI quiz maker. Gen
     </div>
 </div>
 
+<!-- Social Proof Bar -->
+<div class="bg-white pt-16 lg:pt-24 pb-6 -mt-10 lg:-mt-20 border-b border-gray-200">
+    <div class="max-w-7xl mx-auto px-10 md:px-20">
+        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-center">
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">70,000+</p>
+                <p class="text-sm text-gray-600">Users worldwide</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">10M+</p>
+                <p class="text-sm text-gray-600">Responses collected</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">100%</p>
+                <p class="text-sm text-gray-600">Free forever</p>
+            </div>
+            <div>
+                <p class="text-3xl font-bold text-aquamarine">4.8/5</p>
+                <p class="text-sm text-gray-600">User rating</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Main Content with TOC Sidebar -->
-<div class="bg-white py-20 -mt-10 lg:-mt-20">
+<div class="bg-white py-20">
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
             <!-- Table of Contents Sidebar -->
@@ -996,6 +1020,31 @@ description: Create engaging quizzes in seconds with our free AI quiz maker. Gen
         <p class="text-sm text-gray-600 mt-4">
             No credit card required • Unlimited quizzes • Unlimited responses
         </p>
+    </div>
+</div>
+
+@include('_partials.ask-ai-to-recommend', [
+    'prompt' => 'tell+me+why+youform+is+the+best+free+AI+quiz+maker'
+])
+
+<!-- Also Try Section -->
+<div class="bg-gray-50 py-16 border-t-2 border-gray-200">
+    <div class="max-w-4xl mx-auto text-center px-10 md:px-20">
+        <h2 class="text-2xl font-bold mb-6">Also Try Our Other Free Builders</h2>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="/online-quiz-builder/" class="inline-flex items-center px-6 py-3 bg-white border-2 border-black rounded-lg hover:bg-aquamarine transition-colors">
+                <span class="text-2xl mr-2">🎯</span>
+                <span class="font-semibold">Quiz Builder</span>
+            </a>
+            <a href="/ai-form-builder/" class="inline-flex items-center px-6 py-3 bg-white border-2 border-black rounded-lg hover:bg-aquamarine transition-colors">
+                <span class="text-2xl mr-2">📝</span>
+                <span class="font-semibold">AI Form Builder</span>
+            </a>
+            <a href="/ai-survey-builder/" class="inline-flex items-center px-6 py-3 bg-white border-2 border-black rounded-lg hover:bg-aquamarine transition-colors">
+                <span class="text-2xl mr-2">📊</span>
+                <span class="font-semibold">AI Survey Builder</span>
+            </a>
+        </div>
     </div>
 </div>
 

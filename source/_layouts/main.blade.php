@@ -79,6 +79,7 @@
               "description": "Youform is a free and intuitive form builder with no limits on submissions."
             }
         </script>
+        @stack('head')
     </head>
     <body class="text-gray-900 font-sans antialiased relative">
         {{-- <div 

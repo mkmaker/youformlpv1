@@ -109,7 +109,7 @@ description: Create engaging quizzes for free with Youform. Unlimited quizzes, r
         @include('partials.nav')
 
         <!-- hero section -->
-        <div class="relative max-w-7xl mx-auto mt-10 pb-12">
+        <div class="relative max-w-7xl mx-auto mt-10 pb-20">
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
                 <div class="text-center max-w-4xl mx-auto">
                     <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
@@ -118,6 +118,36 @@ description: Create engaging quizzes for free with Youform. Unlimited quizzes, r
                     <p class="text-base mt-6 max-w-3xl mx-auto">
                         Turn engagement into results with Youform's free online quiz builder. Create personality quizzes, lead generation quizzes, knowledge tests, and more. Unlimited quizzes, unlimited responses, and beautiful templates—all free!
                     </p>
+                    <div class="mt-10">
+                        <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
+                            <span class="hidden md:inline">
+                                Start Building Quizzes Free
+                            </span>
+                            <span class="inline md:hidden">
+                                Start for free
+                            </span>
+                        </a>
+                    </div>
+                    <div class="text-sm pt-6 font-semibold sm:flex items-center sm:space-x-4 justify-center">
+                        <div class="flex items-center space-x-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
+                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                            </svg>
+                            <span>No coding required</span>
+                        </div>
+                        <div class="flex items-center space-x-1 pt-2 sm:pt-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
+                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                            </svg>
+                            <span>Free forever</span>
+                        </div>
+                        <div class="flex items-center space-x-1 pt-2 sm:pt-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5 text-green-600">
+                                <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z" clip-rule="evenodd" />
+                            </svg>
+                            <span>Unlimited quizzes & responses</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -129,7 +159,7 @@ description: Create engaging quizzes for free with Youform. Unlimited quizzes, r
 </div>
 
 <!-- Social Proof Bar -->
-<div class="bg-white py-6 border-b border-gray-200">
+<div class="bg-white pt-16 lg:pt-24 pb-6 -mt-10 lg:-mt-20 border-b border-gray-200">
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-center">
             <div>
@@ -704,6 +734,34 @@ description: Create engaging quizzes for free with Youform. Unlimited quizzes, r
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonials -->
+@include('_partials.testimonials-carousel')
+
+@include('_partials.ask-ai-to-recommend', [
+    'prompt' => 'tell+me+why+youform+is+the+best+free+online+quiz+builder'
+])
+
+<!-- Also Try Section -->
+<div class="bg-gray-50 py-16 border-t-2 border-gray-200">
+    <div class="max-w-4xl mx-auto text-center px-10 md:px-20">
+        <h2 class="text-2xl font-bold mb-6">Also Try Our Other Free Builders</h2>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="/ai-quiz-maker/" class="inline-flex items-center px-6 py-3 bg-white border-2 border-black rounded-lg hover:bg-aquamarine transition-colors">
+                <span class="text-2xl mr-2">🤖</span>
+                <span class="font-semibold">AI Quiz Maker</span>
+            </a>
+            <a href="/online-form-builder/" class="inline-flex items-center px-6 py-3 bg-white border-2 border-black rounded-lg hover:bg-aquamarine transition-colors">
+                <span class="text-2xl mr-2">📝</span>
+                <span class="font-semibold">Form Builder</span>
+            </a>
+            <a href="/online-survey-builder/" class="inline-flex items-center px-6 py-3 bg-white border-2 border-black rounded-lg hover:bg-aquamarine transition-colors">
+                <span class="text-2xl mr-2">📊</span>
+                <span class="font-semibold">Survey Builder</span>
+            </a>
         </div>
     </div>
 </div>
