@@ -37,7 +37,7 @@ description: "Free calculators and tools for surveys, research, and data collect
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     
                     {{-- NPS Calculator --}}
-                    {{-- <a href="/free-tools/nps-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
+                    <a href="/free-tools/nps-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
                         <div class="flex items-start justify-between">
                             <div>
                                 <h3 class="font-semibold text-gray-900 group-hover:text-purple-600">NPS Calculator</h3>
@@ -45,7 +45,7 @@ description: "Free calculators and tools for surveys, research, and data collect
                             </div>
                             <span class="text-2xl">🎯</span>
                         </div>
-                    </a> --}}
+                    </a>
                     
                     {{-- Sample Size Calculator --}}
                     {{-- <a href="/free-tools/sample-size-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
