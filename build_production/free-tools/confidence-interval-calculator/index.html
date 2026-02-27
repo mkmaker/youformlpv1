@@ -33,7 +33,7 @@
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=37d78b6d16763ba52c6fe0cd3620dcd0">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=b299611b90ae57abfcd9343b98dbf393">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         
@@ -334,21 +334,80 @@
                     </div>
                 </div>
 
-                <!-- CTA Section -->
-                <div class="w-full max-w-2xl mt-12 bg-purple-100 rounded-xl p-8 text-center border-2 border-purple-200">
-                    <h2 class="text-xl font-bold mb-3">Collecting Survey Data?</h2>
-                    <p class="text-gray-600 mb-6">
-                        Create professional surveys and forms with Youform. Get unlimited responses for free.
-                    </p>
-                    <a href="https://app.youform.com/register" class="inline-block bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-8 py-3 text-black rounded-md font-medium">
-                        Create Free Survey →
-                    </a>
-                    <p class="text-sm text-gray-500 mt-3">No credit card required</p>
-                </div>
+            </div>
+        </div>
 
-                <!-- FAQ Section -->
-                <div class="w-full max-w-2xl mt-12 mb-16">
-                    <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
+        <!-- Form Embed CTA -->
+        <section class="py-16 bg-gradient-to-b from-gray-50 to-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+            
+            
+            <div class="text-center lg:text-left mb-10 lg:mb-0">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Ready to collect your survey data?
+                </h2>
+                <p class="text-xl text-gray-600 mb-6">
+                    Now that you know how to calculate confidence intervals, create a survey to collect the data. Try it yourself 👇
+                </p>
+                
+                <ul class="space-y-3 text-left inline-block">
+                    <li class="flex items-center text-gray-700">
+                        <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span><strong>40% higher</strong> completion rates than Typeform</span>
+                    </li>
+                    <li class="flex items-center text-gray-700">
+                        <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span><strong>Unlimited</strong> forms & responses — free forever</span>
+                    </li>
+                    <li class="flex items-center text-gray-700">
+                        <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span><strong>No credit card</strong> required</span>
+                    </li>
+                </ul>
+
+                <div class="mt-8">
+                    <a href="https://app.youform.com/register" 
+                       class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
+                        Create your first form — free →
+                    </a>
+                </div>
+            </div>
+
+            
+            <div class="relative">
+                <div class="absolute -inset-4 bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl -z-10 opacity-60"></div>
+                <div class="bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden">
+                    <div class="bg-gray-100 px-4 py-2 border-b border-gray-200 flex items-center space-x-2">
+                        <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                        <span class="text-xs text-gray-500 ml-2">Try it yourself 👇</span>
+                    </div>
+                    <iframe 
+                        src="https://app.youform.com/forms/xrjcjyti" 
+                        loading="lazy" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"
+                        class="w-full"
+                    ></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <!-- FAQ Section -->
+        <div class="max-w-4xl mx-auto px-4 py-16">
+            <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
                     
                     <div class="space-y-6">
                         <div>
@@ -385,8 +444,6 @@
                                 Standard deviation measures the spread of your data. Most spreadsheet tools (Excel, Google Sheets) have built-in functions: use STDEV.S for sample standard deviation or STDEV.P for population standard deviation.
                             </p>
                         </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

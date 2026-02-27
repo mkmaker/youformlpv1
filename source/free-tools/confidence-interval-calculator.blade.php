@@ -234,21 +234,18 @@ description: "Calculate confidence intervals instantly with our free online calc
                     </div>
                 </div>
 
-                <!-- CTA Section -->
-                <div class="w-full max-w-2xl mt-12 bg-purple-100 rounded-xl p-8 text-center border-2 border-purple-200">
-                    <h2 class="text-xl font-bold mb-3">Collecting Survey Data?</h2>
-                    <p class="text-gray-600 mb-6">
-                        Create professional surveys and forms with Youform. Get unlimited responses for free.
-                    </p>
-                    <a href="https://app.youform.com/register" class="inline-block bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-8 py-3 text-black rounded-md font-medium">
-                        Create Free Survey →
-                    </a>
-                    <p class="text-sm text-gray-500 mt-3">No credit card required</p>
-                </div>
+            </div>
+        </div>
 
-                <!-- FAQ Section -->
-                <div class="w-full max-w-2xl mt-12 mb-16">
-                    <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
+        <!-- Form Embed CTA -->
+        @include('_partials.free-tools-form-embed', [
+            'headline' => 'Ready to collect your survey data?',
+            'subheadline' => 'Now that you know how to calculate confidence intervals, create a survey to collect the data. Try it yourself 👇'
+        ])
+
+        <!-- FAQ Section -->
+        <div class="max-w-4xl mx-auto px-4 py-16">
+            <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
                     
                     <div class="space-y-6">
                         <div>
@@ -285,8 +282,6 @@ description: "Calculate confidence intervals instantly with our free online calc
                                 Standard deviation measures the spread of your data. Most spreadsheet tools (Excel, Google Sheets) have built-in functions: use STDEV.S for sample standard deviation or STDEV.P for population standard deviation.
                             </p>
                         </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
