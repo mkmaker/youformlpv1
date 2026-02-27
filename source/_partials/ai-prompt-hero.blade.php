@@ -1,32 +1,37 @@
 @php
-    $suggestions = [];
-    if ($pageType === 'quiz') {
-        $suggestions = [
-            'Create a 10-question quiz about world geography',
-            'Make a personality quiz: What type of leader are you?',
-            'Build a product knowledge quiz for new employees',
-            'Generate a pop culture trivia quiz',
-            'Create a math quiz for 5th graders',
-            'Make a lead gen quiz: Which marketing strategy fits your business?',
-        ];
-    } elseif ($pageType === 'form') {
-        $suggestions = [
-            'Create a contact form for a consulting business',
-            'Build a job application form with resume upload',
-            'Make a client intake form for a web design agency',
-            'Create an event registration form with meal preferences',
-            'Build a feedback form for a SaaS product',
-            'Make a booking form for a photography studio',
-        ];
-    } elseif ($pageType === 'survey') {
-        $suggestions = [
-            'Create a customer satisfaction survey for an e-commerce store',
-            'Build an employee engagement survey with rating scales',
-            'Make a market research survey about coffee drinking habits',
-            'Create a post-event feedback survey',
-            'Build an NPS survey with follow-up questions',
-            'Make a product feedback survey for a mobile app',
-        ];
+    // Use custom suggestions if provided, otherwise fall back to pageType defaults
+    if (isset($customSuggestions) && !empty($customSuggestions)) {
+        $suggestions = $customSuggestions;
+    } else {
+        $suggestions = [];
+        if ($pageType === 'quiz') {
+            $suggestions = [
+                'Create a 10-question quiz about world geography',
+                'Make a personality quiz: What type of leader are you?',
+                'Build a product knowledge quiz for new employees',
+                'Generate a pop culture trivia quiz',
+                'Create a math quiz for 5th graders',
+                'Make a lead gen quiz: Which marketing strategy fits your business?',
+            ];
+        } elseif ($pageType === 'form') {
+            $suggestions = [
+                'Create a contact form for a consulting business',
+                'Build a job application form with resume upload',
+                'Make a client intake form for a web design agency',
+                'Create an event registration form with meal preferences',
+                'Build a feedback form for a SaaS product',
+                'Make a booking form for a photography studio',
+            ];
+        } elseif ($pageType === 'survey') {
+            $suggestions = [
+                'Create a customer satisfaction survey for an e-commerce store',
+                'Build an employee engagement survey with rating scales',
+                'Make a market research survey about coffee drinking habits',
+                'Create a post-event feedback survey',
+                'Build an NPS survey with follow-up questions',
+                'Make a product feedback survey for a mobile app',
+            ];
+        }
     }
 @endphp
 
