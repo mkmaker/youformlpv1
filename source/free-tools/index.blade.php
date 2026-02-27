@@ -70,7 +70,7 @@ description: "Free calculators and tools for surveys, research, and data collect
                     </a>
                     
                     {{-- Chi-Square Calculator --}}
-                    {{-- <a href="/free-tools/chi-square-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
+                    <a href="/free-tools/chi-square-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
                         <div class="flex items-start justify-between">
                             <div>
                                 <h3 class="font-semibold text-gray-900 group-hover:text-purple-600">Chi-Square Calculator</h3>
@@ -78,7 +78,7 @@ description: "Free calculators and tools for surveys, research, and data collect
                             </div>
                             <span class="text-2xl">📐</span>
                         </div>
-                    </a> --}}
+                    </a>
                     
                     {{-- Statistical Significance Calculator --}}
                     {{-- <a href="/free-tools/statistical-significance-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
