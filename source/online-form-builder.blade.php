@@ -405,20 +405,20 @@ description: Create beautiful forms for free with Youform's drag-and-drop builde
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="{{ $page->baseUrl }}/online-form-builder">
+<meta property="og:url" content="{{ $page->baseUrl }}/online-form-builder/">
 <meta property="og:title" content="Free Online Form Builder – Unlimited Forms & Responses">
 <meta property="og:description" content="Create forms without code. Templates, logic, embeds, analytics, and 6,000+ integrations.">
 <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/og-image.png">
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="{{ $page->baseUrl }}/online-form-builder">
+<meta property="twitter:url" content="{{ $page->baseUrl }}/online-form-builder/">
 <meta property="twitter:title" content="Free Online Form Builder – Unlimited Forms & Responses">
 <meta property="twitter:description" content="Create forms without code. Templates, logic, embeds, analytics, and integrations.">
 <meta property="twitter:image" content="{{ $page->baseUrl }}/assets/images/og-image.png">
 
 <!-- Canonical URL -->
-<link rel="canonical" href="{{ $page->baseUrl }}/online-form-builder">
+<link rel="canonical" href="{{ $page->baseUrl }}/online-form-builder/">
 
 <!-- Schema.org markup for Google -->
 <script type="application/ld+json">

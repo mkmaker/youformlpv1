@@ -4,7 +4,15 @@
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="{{ $page->getUrl() }}">
+        @php
+            $canonicalUrl = $page->getUrl();
+            $isHomepage = $page->getPath() === '' || $page->getPath() === '/';
+            // Homepage without trailing slash, all other pages with trailing slash
+            if (!$isHomepage && !str_ends_with($canonicalUrl, '/')) {
+                $canonicalUrl .= '/';
+            }
+        @endphp
+        <link rel="canonical" href="{{ $canonicalUrl }}">
     
         <meta name="keywords" content="Youform, form builder">
         <meta name="robots" content="index, follow">
