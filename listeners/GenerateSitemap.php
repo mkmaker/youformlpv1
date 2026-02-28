@@ -60,7 +60,13 @@ class GenerateSitemap
             ->reject(function ($path) {
                 return $this->isExcluded($path);
             })->each(function ($path) use ($baseUrl, $sitemap) {
-                $sitemap->addItem(rtrim($baseUrl, '/') . $path, time(), Sitemap::DAILY);
+                // Add trailing slash to subpages to avoid 301 redirects (SEO fix)
+                // Homepage stays without trailing slash, all other pages get one
+                $url = rtrim($baseUrl, '/') . $path;
+                if ($path !== '' && $path !== '/' && !str_ends_with($url, '/')) {
+                    $url .= '/';
+                }
+                $sitemap->addItem($url, time(), Sitemap::DAILY);
         });
 
         $sitemap->write();
