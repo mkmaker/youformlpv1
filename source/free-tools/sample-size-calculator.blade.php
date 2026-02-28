@@ -152,11 +152,11 @@ description: "Calculate the ideal sample size for your survey or research study.
                                 <p class="text-xs text-gray-500 mt-1">Use 50/50 if unsure — it gives the largest (safest) sample size</p>
                             </div>
                             
-                            <div class="flex items-center justify-center gap-4">
-                                <button type="submit" class="bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md font-medium">
+                            <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+                                <button type="submit" class="w-full sm:w-auto bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md font-medium">
                                     Calculate
                                 </button>
-                                <button type="button" @click="reset" class="bg-gray-200 border-2 border-black px-6 py-2 text-black rounded-md hover:bg-gray-300">
+                                <button type="button" @click="reset" class="w-full sm:w-auto bg-gray-200 border-2 border-black px-6 py-2 text-black rounded-md hover:bg-gray-300">
                                     Reset
                                 </button>
                             </div>
