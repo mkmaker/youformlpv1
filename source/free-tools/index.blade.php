@@ -48,7 +48,7 @@ description: "Free calculators and tools for surveys, research, and data collect
                     </a>
                     
                     {{-- Sample Size Calculator --}}
-                    {{-- <a href="/free-tools/sample-size-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
+                    <a href="/free-tools/sample-size-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
                         <div class="flex items-start justify-between">
                             <div>
                                 <h3 class="font-semibold text-gray-900 group-hover:text-purple-600">Sample Size Calculator</h3>
@@ -56,7 +56,7 @@ description: "Free calculators and tools for surveys, research, and data collect
                             </div>
                             <span class="text-2xl">🧮</span>
                         </div>
-                    </a> --}}
+                    </a>
                     
                     {{-- Confidence Interval Calculator --}}
                     <a href="/free-tools/confidence-interval-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
@@ -91,8 +91,19 @@ description: "Free calculators and tools for surveys, research, and data collect
                         </div>
                     </a>
                     
+                    {{-- Survey Response Rate Calculator --}}
+                    <a href="/free-tools/survey-response-rate-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900 group-hover:text-purple-600">Survey Response Rate Calculator</h3>
+                                <p class="text-gray-600 text-sm mt-1">Calculate response rates with industry benchmarks</p>
+                            </div>
+                            <span class="text-2xl">📬</span>
+                        </div>
+                    </a>
+                    
                     {{-- CSAT Calculator --}}
-                    {{-- <a href="/free-tools/csat-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
+                    <a href="/free-tools/csat-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
                         <div class="flex items-start justify-between">
                             <div>
                                 <h3 class="font-semibold text-gray-900 group-hover:text-purple-600">CSAT Calculator</h3>
@@ -100,12 +111,18 @@ description: "Free calculators and tools for surveys, research, and data collect
                             </div>
                             <span class="text-2xl">😊</span>
                         </div>
-                    </a> --}}
+                    </a>
                     
-                    <!-- Placeholder for coming soon -->
-                    <div class="bg-gray-50 rounded-xl border border-dashed border-gray-300 p-6 flex items-center justify-center">
-                        <p class="text-gray-400 text-sm">More tools coming soon...</p>
-                    </div>
+                    {{-- CES Calculator --}}
+                    <a href="/free-tools/ces-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <h3 class="font-semibold text-gray-900 group-hover:text-purple-600">CES Calculator</h3>
+                                <p class="text-gray-600 text-sm mt-1">Calculate Customer Effort Score</p>
+                            </div>
+                            <span class="text-2xl">⚡</span>
+                        </div>
+                    </a>
                     
                 </div>
             </div>
@@ -119,7 +136,7 @@ description: "Free calculators and tools for surveys, research, and data collect
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     
                     {{-- UTM Builder --}}
-                    {{-- <a href="/free-tools/utm-builder/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
+                    <a href="/free-tools/utm-builder/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
                         <div class="flex items-start justify-between">
                             <div>
                                 <h3 class="font-semibold text-gray-900 group-hover:text-purple-600">UTM Builder</h3>
@@ -127,7 +144,7 @@ description: "Free calculators and tools for surveys, research, and data collect
                             </div>
                             <span class="text-2xl">🔗</span>
                         </div>
-                    </a> --}}
+                    </a>
                     
                     {{-- Instagram Engagement Calculator --}}
                     {{-- <a href="/free-tools/instagram-engagement-calculator/" class="group block bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:border-purple-300 transition-all">
