@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="canonical" href="https://youform.com/free-tools/statistical-significance-calculator/">
+    
+        <meta name="keywords" content="Youform, form builder">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+
+        <!-- Primary Meta Tags -->
+                <title>Statistical Significance Calculator — Free A/B Test Analysis | Youform</title>
+        <meta name="title" content="Statistical Significance Calculator — Free A/B Test Analysis | Youform">
+        <meta name="description" content="Calculate statistical significance for A/B tests instantly. Enter your control and variation data to see if your results are significant. Free, no signup required.">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://youform.com/free-tools/statistical-significance-calculator/">
+                <meta property="og:title" content="Statistical Significance Calculator — Free A/B Test Analysis | Youform">
+        <meta property="og:description" content="Calculate statistical significance for A/B tests instantly. Enter your control and variation data to see if your results are significant. Free, no signup required.">
+                            <meta property="og:image" content="https://youform.com/assets/images/youform-builder.png">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://youform.com/free-tools/statistical-significance-calculator">
+                <meta property="twitter:title" content="Statistical Significance Calculator — Free A/B Test Analysis | Youform">
+        <meta property="twitter:description" content="Calculate statistical significance for A/B tests instantly. Enter your control and variation data to see if your results are significant. Free, no signup required.">
+                            <meta property="twitter:image" content="https://youform.com/assets/images/youform-builder.png">
+        
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">        
+        <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
+
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=0484e9871218a2b949733041f513e9ea">
+        <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
+
+        
+        <script type='application/ld+json'>
+            {
+              "@context": "http://www.schema.org",
+              "@type": "Corporation",
+              "name": "Youform",
+              "url": "https://youform.com/",
+              "sameAs": [
+                 "https://twitter.com/youformdotcom/",
+                 "https://www.linkedin.com/company/youform.com/"
+              ],
+              "logo": "https://youform.com/assets/images/youform-logo.png",
+              "image": "https://youform.com/assets/images/youform-builder.png",
+              "description": "Youform is a free and intuitive form builder with no limits on submissions."
+            }
+        </script>
+            </head>
+    <body class="text-gray-900 font-sans antialiased relative">
+        
+
+        <div class="">
+            
+<!-- header -->
+<div>
+    <div>
+        <div class="max-w-7xl mx-auto">
+    <div x-data="{ open: false }" class="relative overflow-hidden">
+        <div class="flex justify-between items-center px-10 py-4 md:py-8 md:px-20">
+            <div>
+                <a href="/">
+                    <img src="/assets/images/logo.png" width="170px" alt="">
+                </a>
+            </div>
+            <div class="hidden lg:block capitalize space-x-6">
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/">Home</a>
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/templates">Templates</a>
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/integrations">Integrations</a>
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
+            </div>
+            <div class="flex space-x-4">
+                <a href="https://app.youform.com/login" class="hidden lg:block bg-vivid-yellow border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                    Log In
+                </a>
+                <a href="https://app.youform.com/register" class="hidden lg:block bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                    Sign Up
+                </a>
+            </div>
+            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open">
+                <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <svg x-cloak x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>                  
+            </a>
+        </div>
+        <div x-show="open" x-cloak x-transition class="lg:hidden bg-coral border-y-2 border-black px-10 py-4">
+            <div class="flex items-center justify-around">
+                <div>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/templates">Templates</a>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/integrations">Integrations</a>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
+                </div>
+
+                <div class="flex items-center">
+                    <a href="https://app.youform.com/login" class="block lg:hidden bg-lavender-rose border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                        Log In
+                    </a>
+                    <a href="https://app.youform.com/register" class="hidden sm:block ml-4 lg:hidden bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+        <!-- Hero Section -->
+        <div class="relative max-w-4xl mx-auto mt-20 pb-20">
+            <div class="flex flex-col justify-center items-center px-10 md:px-20">
+                <h1 class="text-4xl font-bold text-center">Free Statistical Significance Calculator</h1>
+                <p class="text-center text-gray-600 mt-3">Find out if your A/B test results are statistically significant. No signup required.</p>
+
+                <div class="relative mx-auto mt-8 bg-white text-gray-800 pb-16 border-2 border-black p-10 rounded-xl mb-10 w-full max-w-2xl">
+                    <div 
+                        x-data="{
+                            controlVisitors: '',
+                            controlConversions: '',
+                            variationVisitors: '',
+                            variationConversions: '',
+                            confidenceLevel: '95',
+                            result: null,
+                            error: '',
+                            
+                            // Standard normal CDF approximation (Abramowitz and Stegun)
+                            normalCDF(x) {
+                                const a1 =  0.254829592;
+                                const a2 = -0.284496736;
+                                const a3 =  1.421413741;
+                                const a4 = -1.453152027;
+                                const a5 =  1.061405429;
+                                const p  =  0.3275911;
+                                
+                                const sign = x < 0 ? -1 : 1;
+                                x = Math.abs(x) / Math.sqrt(2);
+                                
+                                const t = 1.0 / (1.0 + p * x);
+                                const y = 1.0 - (((((a5 * t + a4) * t) + a3) * t + a2) * t + a1) * t * Math.exp(-x * x);
+                                
+                                return 0.5 * (1.0 + sign * y);
+                            },
+                            
+                            getZThreshold(level) {
+                                const thresholds = {
+                                    '90': 1.645,
+                                    '95': 1.96,
+                                    '99': 2.576
+                                };
+                                return thresholds[level];
+                            },
+                            
+                            calculate() {
+                                this.error = '';
+                                this.result = null;
+                                
+                                const n1 = parseFloat(this.controlVisitors);
+                                const c1 = parseFloat(this.controlConversions);
+                                const n2 = parseFloat(this.variationVisitors);
+                                const c2 = parseFloat(this.variationConversions);
+                                
+                                if (!n1 || !n2 || c1 === '' || c2 === '' || isNaN(c1) || isNaN(c2)) {
+                                    this.error = 'Please fill in all fields';
+                                    return;
+                                }
+                                
+                                if (n1 < 1 || n2 < 1) {
+                                    this.error = 'Visitors must be at least 1';
+                                    return;
+                                }
+                                
+                                if (c1 < 0 || c2 < 0) {
+                                    this.error = 'Conversions cannot be negative';
+                                    return;
+                                }
+                                
+                                if (c1 > n1 || c2 > n2) {
+                                    this.error = 'Conversions cannot exceed visitors';
+                                    return;
+                                }
+                                
+                                // Calculate conversion rates
+                                const p1 = c1 / n1;
+                                const p2 = c2 / n2;
+                                
+                                // Pooled probability
+                                const pPooled = (c1 + c2) / (n1 + n2);
+                                
+                                // Standard error
+                                const se = Math.sqrt(pPooled * (1 - pPooled) * (1/n1 + 1/n2));
+                                
+                                // Avoid division by zero
+                                if (se === 0) {
+                                    this.error = 'Cannot calculate: no variation in data';
+                                    return;
+                                }
+                                
+                                // Z-score
+                                const zScore = (p2 - p1) / se;
+                                
+                                // Two-tailed p-value
+                                const pValue = 2 * (1 - this.normalCDF(Math.abs(zScore)));
+                                
+                                // Confidence level threshold
+                                const threshold = this.getZThreshold(this.confidenceLevel);
+                                const isSignificant = Math.abs(zScore) >= threshold;
+                                
+                                // Relative improvement
+                                const relativeImprovement = p1 > 0 ? ((p2 - p1) / p1) * 100 : 0;
+                                
+                                this.result = {
+                                    controlRate: (p1 * 100).toFixed(2),
+                                    variationRate: (p2 * 100).toFixed(2),
+                                    relativeImprovement: relativeImprovement.toFixed(2),
+                                    zScore: zScore.toFixed(4),
+                                    pValue: pValue.toFixed(4),
+                                    isSignificant: isSignificant,
+                                    confidenceLevel: this.confidenceLevel,
+                                    winner: p2 > p1 ? 'variation' : (p2 < p1 ? 'control' : 'tie')
+                                };
+                            },
+                            
+                            reset() {
+                                this.controlVisitors = '';
+                                this.controlConversions = '';
+                                this.variationVisitors = '';
+                                this.variationConversions = '';
+                                this.confidenceLevel = '95';
+                                this.result = null;
+                                this.error = '';
+                            }
+                        }"
+                        class="drop-shadow-none z-10">
+                        
+                        <form @submit.prevent="calculate" class="mt-6 space-y-6">
+                            <!-- Control Group -->
+                            <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                                <h3 class="font-semibold text-gray-800 mb-3">Control (A)</h3>
+                                <div class="grid md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label for="controlVisitors" class="block text-sm font-medium text-gray-700 mb-1">Visitors</label>
+                                        <input 
+                                            x-model="controlVisitors" 
+                                            type="number" 
+                                            id="controlVisitors" 
+                                            min="1"
+                                            step="1"
+                                            class="block w-full rounded-md py-2 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 border-2 border-black placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-gray-800 sm:text-sm" 
+                                            placeholder="e.g., 1000"
+                                        >
+                                    </div>
+                                    <div>
+                                        <label for="controlConversions" class="block text-sm font-medium text-gray-700 mb-1">Conversions</label>
+                                        <input 
+                                            x-model="controlConversions" 
+                                            type="number" 
+                                            id="controlConversions"
+                                            min="0"
+                                            step="1"
+                                            class="block w-full rounded-md py-2 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 border-2 border-black placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-gray-800 sm:text-sm" 
+                                            placeholder="e.g., 50"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Variation Group -->
+                            <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                                <h3 class="font-semibold text-gray-800 mb-3">Variation (B)</h3>
+                                <div class="grid md:grid-cols-2 gap-4">
+                                    <div>
+                                        <label for="variationVisitors" class="block text-sm font-medium text-gray-700 mb-1">Visitors</label>
+                                        <input 
+                                            x-model="variationVisitors" 
+                                            type="number" 
+                                            id="variationVisitors" 
+                                            min="1"
+                                            step="1"
+                                            class="block w-full rounded-md py-2 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 border-2 border-black placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-gray-800 sm:text-sm" 
+                                            placeholder="e.g., 1000"
+                                        >
+                                    </div>
+                                    <div>
+                                        <label for="variationConversions" class="block text-sm font-medium text-gray-700 mb-1">Conversions</label>
+                                        <input 
+                                            x-model="variationConversions" 
+                                            type="number" 
+                                            id="variationConversions"
+                                            min="0"
+                                            step="1"
+                                            class="block w-full rounded-md py-2 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 border-2 border-black placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-gray-800 sm:text-sm" 
+                                            placeholder="e.g., 65"
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Confidence Level -->
+                            <div>
+                                <label for="confidenceLevel" class="block text-sm font-medium text-gray-700 mb-1">Confidence Level</label>
+                                <select 
+                                    x-model="confidenceLevel" 
+                                    id="confidenceLevel"
+                                    class="block w-full rounded-md py-2 px-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 border-2 border-black focus:ring-1 focus:ring-inset focus:ring-gray-800 sm:text-sm"
+                                >
+                                    <option value="90">90%</option>
+                                    <option value="95">95%</option>
+                                    <option value="99">99%</option>
+                                </select>
+                            </div>
+                            
+                            <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+                                <button type="submit" class="w-full sm:w-auto bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md font-medium">
+                                    Calculate
+                                </button>
+                                <button type="button" @click="reset" class="w-full sm:w-auto bg-gray-200 border-2 border-black px-6 py-2 text-black rounded-md hover:bg-gray-300">
+                                    Reset
+                                </button>
+                            </div>
+                        </form>
+                        
+                        <!-- Error Message -->
+                        <div x-show="error" x-cloak class="mt-6 p-4 bg-red-50 border border-red-200 rounded-lg">
+                            <p class="text-red-600 text-center" x-text="error"></p>
+                        </div>
+                        
+                        <!-- Results -->
+                        <div x-show="result" x-cloak class="mt-8">
+                            <div :class="result?.isSignificant ? 'bg-green-50 border-green-200' : 'bg-yellow-50 border-yellow-200'" class="border-2 rounded-xl p-6">
+                                <h2 class="text-lg font-semibold mb-4 text-center" :class="result?.isSignificant ? 'text-green-800' : 'text-yellow-800'">
+                                    <span x-show="result?.isSignificant">✓ Statistically Significant!</span>
+                                    <span x-show="!result?.isSignificant">⚠ Not Statistically Significant</span>
+                                </h2>
+                                
+                                <!-- Winner Banner -->
+                                <div x-show="result?.isSignificant && result?.winner !== 'tie'" class="text-center mb-6">
+                                    <p class="text-2xl font-bold" :class="result?.winner === 'variation' ? 'text-green-700' : 'text-blue-700'">
+                                        <span x-show="result?.winner === 'variation'">🎉 Variation (B) Wins!</span>
+                                        <span x-show="result?.winner === 'control'">Control (A) Wins</span>
+                                    </p>
+                                    <p class="text-gray-600 mt-1">
+                                        <span x-show="result?.relativeImprovement > 0">+</span><span x-text="result?.relativeImprovement"></span>% relative improvement
+                                    </p>
+                                </div>
+                                
+                                <div class="grid md:grid-cols-2 gap-4 text-sm">
+                                    <div class="bg-white rounded-lg p-4 border border-gray-200">
+                                        <p class="text-gray-500">Control Rate</p>
+                                        <p class="text-xl font-semibold text-gray-800"><span x-text="result?.controlRate"></span>%</p>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-4 border border-gray-200">
+                                        <p class="text-gray-500">Variation Rate</p>
+                                        <p class="text-xl font-semibold text-gray-800"><span x-text="result?.variationRate"></span>%</p>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-4 border border-gray-200">
+                                        <p class="text-gray-500">Z-Score</p>
+                                        <p class="text-xl font-semibold text-gray-800" x-text="result?.zScore"></p>
+                                    </div>
+                                    <div class="bg-white rounded-lg p-4 border border-gray-200">
+                                        <p class="text-gray-500">P-Value</p>
+                                        <p class="text-xl font-semibold text-gray-800" x-text="result?.pValue"></p>
+                                    </div>
+                                </div>
+                                
+                                <p class="text-center mt-4 text-sm text-gray-600">
+                                    <span x-show="result?.isSignificant">
+                                        You can be <span x-text="result?.confidenceLevel"></span>% confident this result is not due to chance.
+                                    </span>
+                                    <span x-show="!result?.isSignificant">
+                                        The difference could be due to random chance. Consider running the test longer or with more traffic.
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hidden lg:block absolute -top-10 -right-40 -z-10">
+                        <img src="/assets/images/banner-blob.png" class="w-72" alt="Decorative blob">
+                    </div>
+
+                    <div class="hidden lg:block absolute top-60 -left-40 -z-10">
+                        <img src="/assets/images/feature-blob.png" class="w-72" alt="Decorative blob">
+                    </div>
+                </div>
+
+                <!-- How to Use Section -->
+                <div class="w-full max-w-2xl mt-8">
+                    <h2 class="text-2xl font-bold mb-4">How to Use This Calculator</h2>
+                    <ol class="list-decimal list-inside space-y-3 text-gray-700">
+                        <li><strong>Enter Control (A) data</strong> — the number of visitors and conversions for your original version</li>
+                        <li><strong>Enter Variation (B) data</strong> — the number of visitors and conversions for your test version</li>
+                        <li><strong>Select your confidence level</strong> — 95% is standard for most A/B tests</li>
+                        <li><strong>Click Calculate</strong> to see if your results are statistically significant</li>
+                    </ol>
+                </div>
+
+                <!-- What is Section -->
+                <div class="w-full max-w-2xl mt-12">
+                    <h2 class="text-2xl font-bold mb-4">What is Statistical Significance?</h2>
+                    <p class="text-gray-700 mb-4">
+                        Statistical significance tells you whether the difference between your control and variation is real or just due to random chance. When a result is statistically significant, you can be confident that the variation actually performs differently from the control.
+                    </p>
+                    <p class="text-gray-700 mb-4">
+                        In A/B testing, you're comparing two versions of something (a webpage, email, button, etc.) to see which performs better. Without statistical significance, you might make decisions based on random fluctuations in your data.
+                    </p>
+                    <p class="text-gray-700">
+                        A 95% confidence level means there's only a 5% chance that the observed difference happened by random chance. This is the industry standard for most business decisions.
+                    </p>
+                </div>
+
+                <!-- When to Use Section -->
+                <div class="w-full max-w-2xl mt-12">
+                    <h2 class="text-2xl font-bold mb-4">When to Use This Calculator</h2>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Testing different landing page designs</li>
+                        <li>Comparing email subject lines</li>
+                        <li>Evaluating call-to-action button variations</li>
+                        <li>Measuring the impact of pricing changes</li>
+                        <li>Analyzing survey response differences between groups</li>
+                        <li>Any scenario where you're comparing conversion rates</li>
+                    </ul>
+                </div>
+
+                <!-- Formula Section -->
+                <div class="w-full max-w-2xl mt-12">
+                    <h2 class="text-2xl font-bold mb-4">The Formula</h2>
+                    <div class="bg-gray-100 p-6 rounded-lg border border-gray-200">
+                        <p class="text-center text-lg font-mono">
+                            Z = (p₂ - p₁) / √[p(1-p)(1/n₁ + 1/n₂)]
+                        </p>
+                    </div>
+                    <div class="mt-4 text-gray-700">
+                        <p class="mb-2"><strong>Where:</strong></p>
+                        <ul class="list-disc list-inside space-y-1 ml-4">
+                            <li><strong>p₁</strong> = control conversion rate</li>
+                            <li><strong>p₂</strong> = variation conversion rate</li>
+                            <li><strong>p</strong> = pooled conversion rate (combined)</li>
+                            <li><strong>n₁, n₂</strong> = sample sizes for each group</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Form Embed CTA -->
+        <section class="py-16 bg-gradient-to-b from-gray-50 to-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
+            
+            
+            <div class="text-center lg:text-left mb-10 lg:mb-0">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Need to collect A/B test feedback?
+                </h2>
+                <p class="text-xl text-gray-600 mb-6">
+                    Create surveys to understand why users prefer one version over another. Try it yourself 👇
+                </p>
+                
+                <ul class="space-y-3 text-left inline-block">
+                    <li class="flex items-center text-gray-700">
+                        <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span><strong>40% higher</strong> completion rates than regular forms</span>
+                    </li>
+                    <li class="flex items-center text-gray-700">
+                        <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span><strong>Unlimited</strong> forms & responses — free forever</span>
+                    </li>
+                    <li class="flex items-center text-gray-700">
+                        <svg class="w-5 h-5 text-green-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                        </svg>
+                        <span><strong>No credit card</strong> required</span>
+                    </li>
+                </ul>
+
+                <div class="mt-8">
+                    <a href="https://app.youform.com/register" 
+                       class="inline-block bg-purple-600 hover:bg-purple-700 text-white font-semibold px-8 py-4 rounded-lg text-lg transition-colors">
+                        Create your first form — free →
+                    </a>
+                </div>
+            </div>
+
+            
+            <div class="relative">
+                <div class="absolute -inset-4 bg-gradient-to-r from-purple-100 to-pink-100 rounded-2xl -z-10 opacity-60"></div>
+                <div class="bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden">
+                    <div class="bg-gray-100 px-4 py-2 border-b border-gray-200 flex items-center space-x-2">
+                        <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-400"></div>
+                        <span class="text-xs text-gray-500 ml-2">Try it yourself 👇</span>
+                    </div>
+                    <iframe 
+                        src="https://app.youform.com/forms/xrjcjyti" 
+                        loading="lazy" 
+                        width="100%" 
+                        height="600" 
+                        frameborder="0"
+                        class="w-full"
+                    ></iframe>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <!-- FAQ Section -->
+        <div class="max-w-4xl mx-auto px-4 py-16">
+            <h2 class="text-2xl font-bold mb-6">Frequently Asked Questions</h2>
+                    
+            <div class="space-y-6">
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">How many visitors do I need for statistical significance?</h3>
+                    <p class="text-gray-700">
+                        It depends on your baseline conversion rate and the size of the difference you want to detect. Generally, you need hundreds to thousands of visitors per variation. Smaller differences require larger sample sizes to detect reliably.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">What does the p-value mean?</h3>
+                    <p class="text-gray-700">
+                        The p-value is the probability that you'd see a difference this large (or larger) if there was actually no real difference between the groups. A p-value below 0.05 (for 95% confidence) means the result is statistically significant.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">Why isn't my test reaching significance?</h3>
+                    <p class="text-gray-700">
+                        Common reasons include: not enough traffic yet, the real difference is too small to detect, or there genuinely is no difference. Try running the test longer or focusing on larger changes that might produce bigger effects.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">Should I stop my test as soon as it reaches significance?</h3>
+                    <p class="text-gray-700">
+                        No — this is called "peeking" and can lead to false positives. Decide on your sample size before the test starts and run it to completion, or use sequential testing methods designed for continuous monitoring.
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="font-semibold text-lg mb-2">What's the difference between one-tailed and two-tailed tests?</h3>
+                    <p class="text-gray-700">
+                        This calculator uses a two-tailed test, which checks if there's a difference in either direction (better or worse). One-tailed tests only check one direction. Two-tailed is more conservative and generally recommended.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-black space-y-6 lg:space-y-0">
+    <div class="mx-auto max-w-6xl px-10 md:px-20 py-16">
+        <div class="flex items-start justify-between flex-col lg:flex-row space-y-10 lg:space-y-0">
+            <div>
+                <a href="/">
+                    <img class="mx-auto rounded-full" width="60px" src="/assets/images/youform-logo-white-bg.jpg" alt="Youform">
+                </a>
+                <div class="flex items-center justify-center lg:justify-start mt-4 space-x-3">
+                    <a href="https://x.com/youformdotcom" class="text-white flex items-center hover:underline" target="_blank">
+                        
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/youform.com" class="text-white flex items-center hover:underline" target="_blank">
+                        
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="32" width="192" height="192" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="88" cy="84" r="12"/></svg>
+                    </a>
+
+                    <a href="https://www.youtube.com/@youform" class="text-white flex items-center hover:underline" target="_blank">
+                        
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M24,128c0,29.91,3.07,47.45,5.41,56.47A16,16,0,0,0,39,195.42C72.52,208.35,128,208,128,208s55.48.35,89-12.58a16,16,0,0,0,9.63-10.95c2.34-9,5.41-26.56,5.41-56.47s-3.07-47.45-5.41-56.47a16,16,0,0,0-9.63-11C183.48,47.65,128,48,128,48s-55.48-.35-89,12.58a16,16,0,0,0-9.63,11C27.07,80.54,24,98.09,24,128Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-10 w-full lg:w-auto lg:ml-16">
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Product</h3>
+                    <ul class="space-y-2 text-sm">
+                        
+                        <li><a class="text-white hover:underline" href="/pricing">Pricing</a></li>
+                        <li><a class="text-white hover:underline" href="/templates">Templates</a></li>
+                        <li><a class="text-white hover:underline" href="/integrations">Integrations</a></li>
+                        <li><a class="text-white hover:underline" href="/online-form-builder">Form builder</a></li>
+                        <li><a class="text-white hover:underline" href="/online-survey-builder">Survey builder</a></li>
+                        <li><a class="text-white hover:underline" href="/online-quiz-builder">Quiz builder</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Help</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/" target="_blank">Help center</a></li>
+                        <li><a class="text-white hover:underline" href="/support">Contact support</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/y8PPJLOsBOQBnF/How-to-guides" target="_blank">How-to guides</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/_l2hcH6njKgG33/Create-a-Youform" target="_blank">Create a form</a></li>
+                        <li><a class="text-white hover:underline" href="https://youform.canny.io/changelog" target="_blank">What's new</a></li>
+                        <li class="flex items-center space-x-1">
+                            <img src="https://ohdear.app/badges/status-page/01hr96prwxg6wcrbvtc4gw319c/small" alt="status page badge" />
+                            <a href="https://status.youform.com/" target="_blank" rel="nofollow" class="text-white hover:underline">Status</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Resources</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="/blog">Blog</a></li>
+                        <li><a class="text-white hover:underline" href="/about">About</a></li>
+                        <li><a class="text-white hover:underline" href="https://youform.canny.io/feature-requests" target="_blank">Feature requests</a></li>
+                        <li><a class="text-white hover:underline" href="/free-tools/google-form-qr-code">QR code for Google Forms</a></li>
+                        <li><a class="text-white hover:underline" href="https://www.capterra.in/software/1060219/youform" target="_blank">Reviews on Capterra</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/SJPrZaInDNF_Q2/Does-Youform-have-an-affiliate-program" target="_blank">Affiliate &amp; referral program</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Docs</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/CNm-1RpM-Uhr4U/What-type-of-form-blocks-does-Youform-provides" target="_blank">Form blocks</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/QxhAHLWllJfJcp/Adding-Logic-to-forms" target="_blank">Logic forms</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/Aso59jLN440ry7/How-to-create-Outcome-Quiz-in-Youform" target="_blank">Outcome quiz</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/Ymoc-fiv-IPx6m/GDPR" target="_blank">GDPR</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/-wcaJF3tEKR4tg/Youform-fair-usage-policy" target="_blank">Fair use policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Legal</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="https://youform.com/gdpr" target="_blank">GDPR overview</a></li>
+                        <li><a class="text-white hover:underline" href="/privacy-policy">Privacy</a></li>
+                        <li><a class="text-white hover:underline" href="/terms">Terms</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/Zig_2NIZDlwCzh/What-security-and-privacy-measures-does-Youform-have-in-place">Security</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Alternatives</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="/google-forms-alternative">Google Forms alternative</a></li>
+
+                        <li><a class="text-white hover:underline" href="/fillout-alternative">Fillout alternative</a></li>
+                        <li><a class="text-white hover:underline" href="/jotform-alternative">Jotform alternative</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-4 flex justify-center pb-10">
+        <a href="https://www.producthunt.com/posts/youform?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-youform" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=488607&theme=light&period=daily" alt="Youform - A&#0032;free&#0032;Typeform&#0032;alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+    </div>
+
+    <div class="border-t border-gray-700">
+        <p class="text-center text-white py-4 text-sm px-10">
+            🔒 Data securely stored with AWS in EU 🇪🇺
+        </p>
+    </div>
+
+    
+
+    
+
+</div>
+<!-- FAQ Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "How many visitors do I need for statistical significance?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It depends on your baseline conversion rate and the size of the difference you want to detect. Generally, you need hundreds to thousands of visitors per variation. Smaller differences require larger sample sizes to detect reliably."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What does the p-value mean?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The p-value is the probability that you'd see a difference this large (or larger) if there was actually no real difference between the groups. A p-value below 0.05 (for 95% confidence) means the result is statistically significant."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Why isn't my test reaching significance?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Common reasons include: not enough traffic yet, the real difference is too small to detect, or there genuinely is no difference. Try running the test longer or focusing on larger changes that might produce bigger effects."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Should I stop my test as soon as it reaches significance?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No — this is called 'peeking' and can lead to false positives. Decide on your sample size before the test starts and run it to completion, or use sequential testing methods designed for continuous monitoring."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What's the difference between one-tailed and two-tailed tests?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "This calculator uses a two-tailed test, which checks if there's a difference in either direction (better or worse). One-tailed tests only check one direction. Two-tailed is more conservative and generally recommended."
+            }
+        }
+    ]
+}
+</script>
+
+<!-- Software Application Schema -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Statistical Significance Calculator",
+    "description": "Free online calculator to determine if A/B test results are statistically significant",
+    "url": "https://youform.com/free-tools/statistical-significance-calculator/",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web Browser",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+    },
+    "creator": {
+        "@type": "Organization",
+        "name": "Youform",
+        "url": "https://youform.com"
+    }
+}
+</script>
+
+        </div>
+
+        <div x-data="{ show: false }">
+            <div x-transition x-cloak x-show="show" class="fixed bottom-16 right-5 bg-white border rounded-md text-sm border-black drop-shadow-3xl divide-y divide-gray-200">
+                
+
+                <a 
+                    href="https://help.youform.com/" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                    🧡&nbsp; Help Center
+                </a>
+                <a href="https://youform.canny.io/feature-requests" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                    🙏 &nbsp;Feature Request
+                </a>
+            </div>
+
+            <button @click="show = !show" @click.away="show = false" type="button" class="rounded-full p-2 bg-coral shadow-md fixed bottom-4 right-5 text-black border-black drop-shadow-3xl hover:drop-shadow-2xl border flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 0 1 1.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 0 0-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 0 1 0 9.424m-4.138-5.976a3.736 3.736 0 0 0-.88-1.388 3.737 3.737 0 0 0-1.388-.88m2.268 2.268a3.765 3.765 0 0 1 0 2.528m-2.268-4.796a3.765 3.765 0 0 0-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 0 1-1.388.88m2.268-2.268 4.138 3.448m0 0a9.027 9.027 0 0 1-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0-3.448-4.138m3.448 4.138a9.014 9.014 0 0 1-9.424 0m5.976-4.138a3.765 3.765 0 0 1-2.528 0m0 0a3.736 3.736 0 0 1-1.388-.88 3.737 3.737 0 0 1-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 0 1-1.652-1.306 9.027 9.027 0 0 1-1.306-1.652m0 0 4.138-3.448M4.33 16.712a9.014 9.014 0 0 1 0-9.424m4.138 5.976a3.765 3.765 0 0 1 0-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 0 1 1.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 0 0-1.652 1.306A9.025 9.025 0 0 0 4.33 7.288" />
+                </svg>                 
+            </button>
+        </div>
+
+        <div style="z-index: 1000" class="fixed inset-0 flex items-end justify-center px-4 py-6 pointer-events-none top-10 sm:p-6 sm:items-start sm:justify-end"
+    x-data="{
+        show: false,
+        message: '',
+        body: '',
+        btnText: '',
+        btnUrl: '',
+        newTab: false,
+        type: 'success',
+        clickSound: new Audio(
+            'data:audio/mpeg;base64,//sQxAAAA+i5OrQRABC9mG+3BCAACCAH/f//yE5z0Od/yf//ITnO853/O9CEIygAgEPg+8AAUWCwVioVCAEBgAAD/65xat0KnkqrfOEKkxfjOI6H//Ofpf/q8jZTBgc8uM4jcsMMMMH/+xLEAgAE6M1XGCKAAAAANIOAAAQIAADL6BfAW9DeJCI78xlb/EWEVL/6REV//0Uw0SMb//AY4ypMQU1FMy45OS4zqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqo='
+        )
+    }" 
+    @notify.window="
+        clickSound.play();
+        show = true;
+        console.log($event);
+        message = $event.detail.message;
+        type = $event.detail.type;
+        btnText = $event.detail.btn_text;
+        btnUrl = $event.detail.btn_url;
+        let delay = $event.detail.delay ? $event.detail.delay : 3000;
+        setTimeout(() => {
+            show = false;
+        }, delay);
+    " x-cloak>
+    <div 
+        x-show="show"
+        x-transition:enter="transform ease-out duration-300 transition"
+        x-transition:enter-start="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
+        x-transition:enter-end="translate-y-0 opacity-100 sm:translate-x-0"
+        x-transition:leave="transition ease-in duration-100" 
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg pointer-events-auto ring-1 ring-black ring-opacity-5">
+        <div class="p-4">
+            <div class="flex items-start">
+                <div class="flex-shrink-0">
+                    <svg x-show="type != 'error'" class="w-6 h-6 text-green-400" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <svg x-show="type == 'error'" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-red-600"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div class="ml-3 w-0 flex-1 pt-0.5">
+                    <p class="text-sm font-medium text-gray-900" x-text="message">
+                    </p>
+                    <p class="mt-1 text-sm text-gray-500" x-text="body">
+                    </p>
+
+                    <div x-show="btnText" class="flex items-center mt-1">
+                        <a x-bind:href="btnUrl" target="_blank" class="text-sm text-blue-600 hover:underline" x-text="btnText"></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" class="w-4 h-4 text-blue-600 ml-1" stroke="currentColor">
+                            <path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex flex-shrink-0 ml-4">
+                    <button @click="show = false"
+                        class="inline-flex text-gray-400 bg-white rounded-md hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        <span class="sr-only">Close</span>
+                        <!-- Heroicon name: solid/x -->
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div x-data="{
+        show: false, 
+        confirm_id: '',
+        title: '',
+        body: '',
+        confirmBtnText: '',
+        confirmBtnColor: 'red',
+        cancelBtnText: 'Cancel',
+    }" @keydown.escape.window="show = false" @keydown.enter.window="setTimeout(() => {show = false;}, 100)
+        $dispatch('confirm-close', {
+            confirm_id: confirm_id,
+            confirm: true
+        });" x-show="show" @confirm-show.window="show = true;
+        confirm_id = $event.detail.confirm_id;
+        title = $event.detail.title;
+        body = $event.detail.body;
+        confirmBtnText = $event.detail.confirm_text ? $event.detail.confirm_text : 'Ok';
+        confirmBtnColor = $event.detail.danger ? 'bg-red-600 hover:bg-red-700' : 'bg-blue-600 hover:bg-blue-700';
+        cancelBtnText = $event.detail.cancel_text ? $event.detail.cancel_text : 'Cancel';" style="display: none"
+  class="fixed inset-0 z-50 overflow-y-auto">
+    <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div
+        x-data
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0" 
+        
+        class="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div class="absolute inset-0 bg-gray-800 opacity-80"></div>
+      </div>
+  
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+      <div
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        class="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            
+            <div class="w-full mt-3 text-center sm:mt-0 sm:mx-4 sm:text-left">
+              <h3 class="text-lg font-medium leading-6 text-gray-900" id="modal-headline">
+                <span x-text="title"></span>
+              </h3>
+              <div class="mt-2">
+                <p class="text-sm text-gray-500">
+                  <span x-text="body"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 py-3 bg-gray-50 sm:px-6 sm:flex sm:flex-row-reverse">
+          <button
+            @click="
+                $dispatch('confirm-close', {
+                    confirm_id: confirm_id,
+                    confirm: true
+                });
+                show = false;
+            " 
+            type="button" :class="confirmBtnColor" class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
+            x-text="confirmBtnText"
+            >
+        </button>
+        <button 
+            @click="
+                $dispatch('confirm-close', {
+                    confirm_id: confirm_id,
+                    confirm: false
+                });
+                show = false;
+            " 
+            type="button" 
+            x-text="cancelBtnText" 
+            class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+        </button>
+        </div>
+      </div>
+    </div>
+</div>
+        <div x-data="{
+        show: false, 
+        shiftPressed: false,
+        prompt_id: '',
+        title: '',
+        promptText: '',
+        inputType: '',
+        inputSubtype: 'text',
+        promptBtnText: '',
+        promptBtnColor: 'gray',
+        placeholder: '',
+    }" @keydown.escape.window="show = false" @keydown.enter.window="if(this.inputType == 'text' || shiftPressed) {
+            setTimeout(() => {show = false;}, 100)
+            $dispatch('prompt-close', {
+                prompt_id: prompt_id,
+                prompt_text: promptText
+            });
+        }" @keydown.shift="shiftPressed = true" @keyup.shift="shiftPressed = false" x-show="show" @prompt-show.window="show = true;
+        prompt_id = $event.detail.prompt_id;
+        title = $event.detail.title;
+        promptText = $event.detail.prompt_text;
+        inputType = $event.detail.input_type;
+        inputSubtype = $event.detail.input_subtype ? $event.detail.input_subtype : 'text';
+        promptBtnText = $event.detail.prompt_btn_text ? $event.detail.prompt_btn_text : 'Ok';
+        promptBtnColor = $event.detail.danger ? 'bg-red-600 hover:bg-red-700' : 'bg-gray-700 hover:bg-gray-800';
+        placeholder = $event.detail.placeholder ? $event.detail.placeholder : '';
+
+        setTimeout(() => {
+            if(inputType == 'text') $refs.text.focus();
+            else $refs.textarea.focus();
+        }, 100);" style="display: none"
+  class="fixed inset-0 z-50 overflow-y-auto">
+    <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div
+        x-data
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0" 
+        
+        class="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div class="absolute inset-0 bg-gray-800 opacity-80"></div>
+      </div>
+  
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+      <div
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        class="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            
+            <div class="w-full mt-3 text-center sm:mt-0 sm:mx-4 sm:text-left">
+              <h3 class="text-lg font-medium leading-6 text-gray-900" id="modal-headline">
+                <span x-text="title"></span>
+              </h3>
+              <div class="mt-2">
+                <p class="text-sm text-gray-500">
+                  <template x-if="inputType == 'text' && inputSubtype == 'text'">
+            <input 
+                name="prompt-text" 
+                @keydown.enter="
+                    $dispatch('prompt-close', {
+                        prompt_id: prompt_id,
+                        prompt_text: promptText
+                    });
+                    show = false;
+                " 
+                :placeholder="placeholder" 
+                x-ref="text" type="text" x-model="promptText" class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+        </template>
+
+        <template x-if="inputType == 'text' && inputSubtype == 'password'">
+            <input 
+                @keydown.enter="
+                    $dispatch('prompt-close', {
+                        prompt_id: prompt_id,
+                        prompt_text: promptText
+                    });
+                    show = false;
+                " 
+                x-ref="text" type="password" x-model="promptText" 
+                :placeholder="placeholder" 
+                class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+        </template>
+
+        <template x-if="inputType == 'textarea'">
+            <textarea 
+                rows="3"
+                x-ref="textarea" 
+                x-model="promptText"
+                class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+            </textarea>
+        </template>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 py-3 bg-gray-50 sm:px-6 sm:flex sm:flex-row-reverse">
+          <button
+            @click="
+                $dispatch('prompt-close', {
+                    prompt_id: prompt_id,
+                    prompt_text: promptText
+                });
+                show = false;
+            " 
+            type="button" :class="promptBtnColor" class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:ml-3 sm:w-auto sm:text-sm"
+            x-text="promptBtnText"
+            >
+        </button>
+        <button 
+            @click="
+                $dispatch('prompt-close', {
+                    prompt_id: prompt_id,
+                    prompt_text: null
+                });
+                show = false;
+            " 
+            type="button" class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+            Cancel
+        </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+        <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+        
+    </body>
+</html>

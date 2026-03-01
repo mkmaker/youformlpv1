@@ -161,10 +161,10 @@ description: "Calculate your Net Promoter Score instantly. Free NPS calculator w
                         </div>
                         
                         <div class="flex items-center justify-center gap-4 mt-6">
-                            <button @click="calculate" class="bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md font-medium">
+                            <button @click="calculate" class="w-full sm:w-auto bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md font-medium">
                                 Calculate NPS
                             </button>
-                            <button @click="reset" class="bg-gray-200 border-2 border-black px-6 py-2 text-black rounded-md hover:bg-gray-300">
+                            <button @click="reset" class="w-full sm:w-auto bg-gray-200 border-2 border-black px-6 py-2 text-black rounded-md hover:bg-gray-300">
                                 Reset
                             </button>
                         </div>
