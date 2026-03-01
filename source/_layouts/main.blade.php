@@ -32,7 +32,7 @@
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="{{ $page->getUrl() }}">
+        <meta property="og:url" content="{{ $canonicalUrl }}">
         @if(($page->template_slug ?? '') === 'software-customer-satisfaction-survey-template')
         <meta property="og:title" content="Free Customer Satisfaction (CSAT) Survey Template | YouForm">
         <meta property="og:description" content="Get started with our free customer satisfaction (CSAT) survey template. Easily customize questions, measure customer feedback, and improve your business with YouForm.">
