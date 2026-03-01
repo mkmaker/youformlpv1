@@ -11,6 +11,7 @@ description: "Calculate your Customer Satisfaction Score (CSAT) instantly. Enter
 <div>
     <div>
         @include('partials.nav')
+        @include('_partials.free-tools-breadcrumb')
 
         <!-- Hero Section -->
         <div class="relative max-w-4xl mx-auto mt-20 pb-20">
@@ -377,6 +378,8 @@ description: "Calculate your Customer Satisfaction Score (CSAT) instantly. Enter
         </div>
     </div>
 </div>
+
+@include('_partials.free-tools-related', ['current' => 'csat', 'related' => ['nps', 'ces', 'survey-response-rate']])
 
 @include('partials.footer')
 

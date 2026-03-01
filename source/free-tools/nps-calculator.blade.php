@@ -11,6 +11,7 @@ description: "Calculate your Net Promoter Score instantly. Free NPS calculator w
 <div>
     <div>
         @include('partials.nav')
+        @include('_partials.free-tools-breadcrumb')
 
         <!-- Hero Section -->
         <div class="relative max-w-4xl mx-auto mt-20 pb-20">
@@ -362,6 +363,8 @@ description: "Calculate your Net Promoter Score instantly. Free NPS calculator w
         </div>
     </div>
 </div>
+
+@include('_partials.free-tools-related', ['current' => 'nps', 'related' => ['csat', 'ces', 'survey-response-rate']])
 
 @include('partials.footer')
 

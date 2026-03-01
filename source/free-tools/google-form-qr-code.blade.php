@@ -12,6 +12,7 @@ description: "Generate a QR code for your Google Forms instantly. Free, no accou
     <div>
         <!-- navbar   -->
         @include('partials.nav')
+        @include('_partials.free-tools-breadcrumb')
 
         <!-- herosection -->
         <div class="relative max-w-4xl mx-auto mt-20 pb-20">
@@ -132,6 +133,8 @@ description: "Generate a QR code for your Google Forms instantly. Free, no accou
         </div>
     </div>
 </div>   
+
+@include('_partials.free-tools-related', ['current' => 'google-form-qr-code', 'related' => ['utm-builder', 'nps', 'csat']])
 
 @include('partials.footer')
 

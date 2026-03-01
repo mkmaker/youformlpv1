@@ -11,6 +11,7 @@ description: "Calculate the ideal sample size for your survey or research study.
 <div>
     <div>
         @include('partials.nav')
+        @include('_partials.free-tools-breadcrumb')
 
         <!-- Hero Section -->
         <div class="relative max-w-4xl mx-auto mt-20 pb-20">
@@ -361,6 +362,8 @@ description: "Calculate the ideal sample size for your survey or research study.
         </div>
     </div>
 </div>
+
+@include('_partials.free-tools-related', ['current' => 'sample-size', 'related' => ['statistical-significance', 'confidence-interval', 'survey-response-rate']])
 
 @include('partials.footer')
 

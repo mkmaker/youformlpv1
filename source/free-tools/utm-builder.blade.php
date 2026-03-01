@@ -11,6 +11,7 @@ description: "Create UTM-tagged URLs for campaign tracking. Generate properly fo
 <div>
     <div>
         @include('partials.nav')
+        @include('_partials.free-tools-breadcrumb')
 
         <!-- Hero Section -->
         <div class="relative max-w-4xl mx-auto mt-20 pb-20">
@@ -425,6 +426,8 @@ description: "Create UTM-tagged URLs for campaign tracking. Generate properly fo
         </div>
     </div>
 </div>
+
+@include('_partials.free-tools-related', ['current' => 'utm-builder', 'related' => ['google-form-qr-code', 'survey-response-rate', 'nps']])
 
 @include('partials.footer')
 
