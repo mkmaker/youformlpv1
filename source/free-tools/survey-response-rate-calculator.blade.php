@@ -11,6 +11,7 @@ description: "Calculate your survey response rate instantly. Enter sent and comp
 <div>
     <div>
         @include('partials.nav')
+        @include('_partials.free-tools-breadcrumb')
 
         <!-- Hero Section -->
         <div class="relative max-w-4xl mx-auto mt-20 pb-20">
@@ -329,6 +330,8 @@ description: "Calculate your survey response rate instantly. Enter sent and comp
         </div>
     </div>
 </div>
+
+@include('_partials.free-tools-related', ['current' => 'survey-response-rate', 'related' => ['sample-size', 'nps', 'csat']])
 
 @include('partials.footer')
 

@@ -11,6 +11,7 @@ description: "Calculate your Customer Effort Score (CES) instantly. Measure how 
 <div>
     <div>
         @include('partials.nav')
+        @include('_partials.free-tools-breadcrumb')
 
         <!-- Hero Section -->
         <div class="relative max-w-4xl mx-auto mt-20 pb-20">
@@ -366,6 +367,8 @@ description: "Calculate your Customer Effort Score (CES) instantly. Measure how 
         </div>
     </div>
 </div>
+
+@include('_partials.free-tools-related', ['current' => 'ces', 'related' => ['nps', 'csat', 'survey-response-rate']])
 
 @include('partials.footer')
 
