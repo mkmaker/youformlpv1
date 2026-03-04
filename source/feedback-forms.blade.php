@@ -1,6 +1,6 @@
 ---
-title: 15 Best Feedback Form Examples & Templates [2026] | Youform
-description: Discover 15 proven feedback form examples and free templates for customer feedback, product reviews, event surveys, NPS, and more. Copy and customize for your business today.
+title: 12 Best Feedback Form Templates (Free to Use) | Youform
+description: Discover 12 free feedback form templates for customer satisfaction, product reviews, event surveys, NPS, and more. Each template is ready to customize and use instantly.
 ---
 
 @extends('_layouts.main')
@@ -37,10 +37,10 @@ description: Discover 15 proven feedback form examples and free templates for cu
     },
     {
       "@type": "Question",
-      "name": "What's the difference between a feedback form and a survey?",
+      "name": "What's the difference between NPS, CSAT, and CES?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Feedback forms are typically shorter (3-7 questions), focused on a specific interaction, and action-oriented for immediate improvements. Surveys are broader research tools (10-30+ questions) that gather comprehensive data across multiple topics for strategic analysis. Use feedback forms for quick, actionable insights; use surveys for in-depth research."
+        "text": "NPS (Net Promoter Score) measures customer loyalty by asking how likely they are to recommend you. CSAT (Customer Satisfaction Score) measures satisfaction with a specific interaction. CES (Customer Effort Score) measures how easy it was to complete a task. Use NPS for overall loyalty, CSAT for transaction feedback, and CES for support interactions."
       }
     },
     {
@@ -48,15 +48,15 @@ description: Discover 15 proven feedback form examples and free templates for cu
       "name": "Can I create feedback forms for free?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes. With Youform, you can create professional feedback forms completely free — including unlimited forms, unlimited responses, conditional logic, custom branding, and integrations. All templates shown on this page are free to use and customize for your business needs."
+        "text": "Yes. With Youform, you can create professional feedback forms completely free — including unlimited forms, unlimited responses, conditional logic, custom branding, and integrations. All templates on this page are free to use and customize for your business needs."
       }
     },
     {
       "@type": "Question",
-      "name": "What types of feedback forms are most effective?",
+      "name": "When should I send feedback forms?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The most effective feedback forms depend on your goals. For measuring loyalty, use NPS surveys. For support interactions, use Customer Effort Score (CES). For overall satisfaction, use CSAT surveys. For product improvements, use product feedback forms with feature-specific questions. The key is matching the form type to the insight you need."
+        "text": "Send feedback forms at key moments: immediately after a purchase, right after a support interaction, at the end of an event or workshop, after product onboarding, or during subscription renewal. The closer to the experience, the more accurate the feedback. For ongoing relationships, quarterly check-ins work well."
       }
     }
   ]
@@ -80,10 +80,10 @@ description: Discover 15 proven feedback form examples and free templates for cu
                         Free feedback form templates
                     </p>
                     <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
-                        15 Best Feedback Form Examples & Templates [2026]
+                        12 Best Feedback Form Templates (Free to Use)
                     </h1>
                     <p class="text-base mt-6 max-w-3xl mx-auto">
-                        Looking for the perfect feedback form? We've curated 15 proven templates for customer feedback, product reviews, event surveys, and satisfaction metrics. Each one is free to use and customize — just pick the one that fits your needs.
+                        Stop guessing what your customers think. These 12 proven feedback form templates help you collect actionable insights about customer satisfaction, product experience, events, and more. Pick one, customize it, and start collecting responses in minutes.
                     </p>
                     <div class="mt-10 text-center">
                         <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
@@ -114,42 +114,18 @@ description: Discover 15 proven feedback form examples and free templates for cu
     </div>
 </div>
 
-<!-- Social Proof Bar -->
-<div class="bg-white pt-16 lg:pt-24 pb-6 -mt-10 lg:-mt-20 border-b border-gray-200">
-    <div class="max-w-7xl mx-auto px-10 md:px-20">
-        <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-center">
-            <div>
-                <p class="text-3xl font-bold text-aquamarine">70,000+</p>
-                <p class="text-sm text-gray-600">Users worldwide</p>
-            </div>
-            <div>
-                <p class="text-3xl font-bold text-aquamarine">10M+</p>
-                <p class="text-sm text-gray-600">Responses collected</p>
-            </div>
-            <div>
-                <p class="text-3xl font-bold text-aquamarine">100%</p>
-                <p class="text-sm text-gray-600">Free forever</p>
-            </div>
-            <div>
-                <p class="text-3xl font-bold text-aquamarine">4.8/5</p>
-                <p class="text-sm text-gray-600">User rating</p>
-            </div>
-        </div>
-    </div>
-</div>
-
 <!-- Introduction -->
-<div class="bg-white py-16">
+<div class="bg-white py-16 -mt-10 lg:-mt-20">
     <div class="max-w-4xl mx-auto px-10 md:px-20">
-        <h2 class="text-3xl font-bold mb-6">Why Feedback Forms Matter</h2>
+        <h2 class="text-3xl font-bold mb-6">Why Use Feedback Form Templates?</h2>
         <p class="text-lg text-gray-700 mb-4">
-            Here's a reality check: only about 3% of users respond to long, generic feedback forms. But when you use the right template — short, focused, and timed correctly — response rates can jump to 20% or higher.
+            Here's the reality: only about 3% of users respond to long, generic feedback forms. But when you use a well-designed template — short, focused, and timed correctly — response rates can jump to 20% or higher.
         </p>
         <p class="text-lg text-gray-700 mb-6">
-            The templates below are designed to maximize responses while giving you actionable insights. Each one targets a specific use case, so you're not asking generic questions that lead to generic answers.
+            The templates below are organized by use case so you can quickly find what you need. Whether you're measuring customer satisfaction, gathering product feedback, or evaluating events — there's a template ready to go.
         </p>
         <p class="text-lg text-gray-700">
-            Pick the template that matches your goal, customize it with your branding, and start collecting feedback that actually drives improvement.
+            Each template is free to use, fully customizable, and optimized for high response rates. Just pick the one that matches your goal.
         </p>
     </div>
 </div>
@@ -159,157 +135,118 @@ description: Discover 15 proven feedback form examples and free templates for cu
     <div class="max-w-4xl mx-auto px-10 md:px-20">
         <p class="font-semibold mb-4">Jump to section:</p>
         <div class="flex flex-wrap gap-3">
-            <a href="#customer-feedback" class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm hover:border-aquamarine hover:text-aquamarine transition-colors">Customer Feedback</a>
-            <a href="#product-feedback" class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm hover:border-aquamarine hover:text-aquamarine transition-colors">Product Feedback</a>
-            <a href="#event-feedback" class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm hover:border-aquamarine hover:text-aquamarine transition-colors">Event & Meeting</a>
-            <a href="#team-feedback" class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm hover:border-aquamarine hover:text-aquamarine transition-colors">Team Feedback</a>
             <a href="#satisfaction-metrics" class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm hover:border-aquamarine hover:text-aquamarine transition-colors">Satisfaction Metrics</a>
-            <a href="#content-feedback" class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm hover:border-aquamarine hover:text-aquamarine transition-colors">Content Feedback</a>
+            <a href="#product-feedback" class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm hover:border-aquamarine hover:text-aquamarine transition-colors">Product Feedback</a>
+            <a href="#event-feedback" class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm hover:border-aquamarine hover:text-aquamarine transition-colors">Event & Workshop</a>
+            <a href="#customer-feedback" class="px-4 py-2 bg-white border border-gray-300 rounded-full text-sm hover:border-aquamarine hover:text-aquamarine transition-colors">Customer Insights</a>
         </div>
     </div>
 </div>
 
-<!-- CATEGORY: Customer Feedback Forms -->
-<div class="bg-white py-16" id="customer-feedback">
+<!-- SECTION 1: Satisfaction Metrics -->
+<div class="bg-white py-16" id="satisfaction-metrics">
     <div class="max-w-5xl mx-auto px-10 md:px-20">
         <div class="mb-12">
             <span class="text-sm font-semibold text-aquamarine uppercase tracking-wide">Category</span>
-            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Customer Feedback Forms</h2>
+            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Satisfaction Metric Templates</h2>
             <p class="text-lg text-gray-700">
-                These templates help you collect feedback from customers about their overall experience with your business, whether it's a service, retail store, or restaurant.
+                Industry-standard metrics that let you benchmark against competitors and track improvement over time. Use our <a href="/free-tools/nps-calculator/" class="text-aquamarine hover:underline">NPS calculator</a> and <a href="/free-tools/csat-calculator/" class="text-aquamarine hover:underline">CSAT calculator</a> to analyze your results.
             </p>
         </div>
 
-        <!-- Template 1: Client Feedback Form -->
+        <!-- Template 1: NPS Survey -->
         <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden mb-8" id="template-1">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/a86ae616-f34e-45a3-833c-4e2f32c4c9e1.png" alt="Client Feedback Form Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/cf78c79d-23c6-4a3c-bffa-fb8b540b5d08.png" alt="Net Promoter Score Survey Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">1</span>
-                        <h3 class="text-2xl font-bold">Client Feedback Form</h3>
+                        <h3 class="text-2xl font-bold">Net Promoter Score (NPS) Survey</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        A versatile feedback form for service-based businesses to gather client opinions after projects or engagements. Covers overall satisfaction, communication quality, and areas for improvement.
+                        The gold standard for measuring customer loyalty. This single-question survey asks "How likely are you to recommend us?" on a 0-10 scale, categorizing respondents as promoters, passives, or detractors. It's the metric most companies use to track customer health over time.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Agencies, consultants, freelancers, professional services</p>
+                        <p class="text-gray-600 text-sm">SaaS companies, e-commerce, subscription services, any recurring business relationship</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Overall satisfaction rating</li>
-                            <li>• Service quality assessment</li>
-                            <li>• Open-ended improvement suggestions</li>
-                            <li>• Testimonial capture option</li>
+                            <li>• Standard 0-10 NPS rating scale</li>
+                            <li>• Follow-up question for qualitative feedback</li>
+                            <li>• Automatic promoter/passive/detractor categorization</li>
                         </ul>
                     </div>
-                    <a href="/templates/t/client-feedback-form-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                    <a href="/templates/t/net-promoter-scorea-nps-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
                         Use this template →
                     </a>
                 </div>
             </div>
         </div>
 
-        <!-- Template 2: Restaurant Feedback Form -->
+        <!-- Template 2: CES Survey -->
         <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden mb-8" id="template-2">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/70bcd75e-8756-42df-88c0-ccd8383b5cc8.png" alt="Restaurant Feedback Form Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/96373ac6-21c8-405a-9063-74d2807008b3.png" alt="Customer Effort Score Survey Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">2</span>
-                        <h3 class="text-2xl font-bold">Restaurant Feedback Form</h3>
+                        <h3 class="text-2xl font-bold">Customer Effort Score (CES) Survey</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        Gather insights on food quality, service, ambiance, and overall dining experience. Perfect for identifying what keeps guests coming back — and what's driving them away.
+                        Measures how easy it was for customers to get things done with your company. Research shows that reducing customer effort is the strongest predictor of future loyalty. Send this after support tickets, onboarding, or any customer interaction.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Restaurants, cafes, food trucks, catering services</p>
+                        <p class="text-gray-600 text-sm">Customer support teams, SaaS onboarding, self-service flows, help desk interactions</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Food quality ratings</li>
-                            <li>• Service speed assessment</li>
-                            <li>• Ambiance and cleanliness feedback</li>
-                            <li>• Return visit likelihood</li>
+                            <li>• Standard 1-7 effort scale</li>
+                            <li>• Issue resolution feedback capture</li>
+                            <li>• Support quality assessment</li>
                         </ul>
                     </div>
-                    <a href="/templates/t/restaurant-feedback-form-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                    <a href="/templates/t/ces-customer-effort-score-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
                         Use this template →
                     </a>
                 </div>
             </div>
         </div>
 
-        <!-- Template 3: Retail Store Feedback Form -->
-        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden mb-8" id="template-3">
+        <!-- Template 3: Customer Success Story Questionnaire -->
+        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden" id="template-3">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/99d244d5-c035-4ed8-ab4b-4433e165cb77.png" alt="Retail Store Feedback Form Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/cce7190b-f21e-4313-8b7b-77f9416f4fd0.png" alt="Customer Success Story Questionnaire Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">3</span>
-                        <h3 class="text-2xl font-bold">Retail Store Feedback Form</h3>
+                        <h3 class="text-2xl font-bold">Customer Success Story Questionnaire</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        Understand in-store customer experiences — from product selection to checkout. Identify friction points in the shopping journey and opportunities to improve.
+                        Turn happy customers into powerful testimonials. This questionnaire captures the full customer journey — from initial problem to solution to results — giving you the raw material for case studies, testimonials, and social proof.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Retail stores, boutiques, supermarkets, shopping centers</p>
+                        <p class="text-gray-600 text-sm">Marketing teams, customer success managers, sales enablement, content teams</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Store layout and navigation feedback</li>
-                            <li>• Staff helpfulness ratings</li>
-                            <li>• Product availability assessment</li>
-                            <li>• Checkout experience evaluation</li>
+                            <li>• Before/after story structure</li>
+                            <li>• Quantifiable results capture</li>
+                            <li>• Permission for testimonial use</li>
                         </ul>
                     </div>
-                    <a href="/templates/t/retail-store-feedback-form-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
-                        Use this template →
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Template 4: Customer Complaint Form -->
-        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden" id="template-4">
-            <div class="md:flex">
-                <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/9de15c3b-af63-4368-a6cc-c98422ac6cab.png" alt="Customer Complaint Form Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
-                </div>
-                <div class="md:w-3/5 p-8">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">4</span>
-                        <h3 class="text-2xl font-bold">Customer Complaint Form</h3>
-                    </div>
-                    <p class="text-gray-700 mb-4">
-                        Give unhappy customers a structured way to voice concerns. Capturing complaints properly lets you resolve issues faster and prevent them from escalating to public reviews.
-                    </p>
-                    <div class="mb-4">
-                        <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Customer support teams, service businesses, e-commerce</p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="font-semibold text-sm mb-2">Key features:</p>
-                        <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Issue categorization</li>
-                            <li>• Detailed description field</li>
-                            <li>• File/screenshot upload</li>
-                            <li>• Follow-up preference selection</li>
-                        </ul>
-                    </div>
-                    <a href="/templates/t/customer-complaint-form-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                    <a href="/templates/t/customer-success-story-questionnaire-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
                         Use this template →
                     </a>
                 </div>
@@ -318,75 +255,73 @@ description: Discover 15 proven feedback form examples and free templates for cu
     </div>
 </div>
 
-<!-- CATEGORY: Product Feedback Forms -->
+<!-- SECTION 2: Product Feedback -->
 <div class="bg-gray-50 py-16" id="product-feedback">
     <div class="max-w-5xl mx-auto px-10 md:px-20">
         <div class="mb-12">
             <span class="text-sm font-semibold text-aquamarine uppercase tracking-wide">Category</span>
-            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Product Feedback Forms</h2>
+            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Product Feedback Templates</h2>
             <p class="text-lg text-gray-700">
-                Collect insights about your products — whether it's a physical product, software, or website. These templates help you understand what users love and what needs improvement.
+                Understand how users experience your product — what they love, what frustrates them, and what would make them stay (or leave).
             </p>
         </div>
 
-        <!-- Template 5: Product Feedback Survey -->
-        <div class="bg-white border-2 border-black rounded-xl overflow-hidden mb-8" id="template-5">
+        <!-- Template 4: Demo Feedback Form -->
+        <div class="bg-white border-2 border-black rounded-xl overflow-hidden mb-8" id="template-4">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/9ad1cf8c-55ec-43cb-a562-74c1514e7190.png" alt="Product Feedback Survey Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/aafb6823-3c49-4273-a951-b908f019a7eb.png" alt="Demo Feedback Form Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
-                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">5</span>
-                        <h3 class="text-2xl font-bold">Product Feedback Survey</h3>
+                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">4</span>
+                        <h3 class="text-2xl font-bold">Demo Feedback Form</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        Understand how customers perceive your product. Captures satisfaction levels, feature preferences, and improvement suggestions to guide your product roadmap.
+                        Capture impressions immediately after product demos or trials. Find out what features resonated, what concerns remain, and whether prospects are ready to move forward. Essential for sales teams and product marketers.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">SaaS products, physical goods, consumer electronics, apps</p>
+                        <p class="text-gray-600 text-sm">Sales teams, product marketing, pre-sales, B2B companies with demo processes</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Product satisfaction rating</li>
-                            <li>• Feature importance ranking</li>
-                            <li>• Competitor comparison questions</li>
-                            <li>• Feature request capture</li>
+                            <li>• Feature interest ranking</li>
+                            <li>• Objection and concern capture</li>
+                            <li>• Next steps intent gauging</li>
                         </ul>
                     </div>
-                    <a href="/templates/t/product-feedback-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                    <a href="/templates/t/demo-feedback-form-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
                         Use this template →
                     </a>
                 </div>
             </div>
         </div>
 
-        <!-- Template 6: Website Design Feedback Form -->
-        <div class="bg-white border-2 border-black rounded-xl overflow-hidden mb-8" id="template-6">
+        <!-- Template 5: Website Design Feedback Form -->
+        <div class="bg-white border-2 border-black rounded-xl overflow-hidden mb-8" id="template-5">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/e7365b81-0d55-431b-b009-bec19f2aabf9.png" alt="Website Design Feedback Form Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/e7365b81-0d55-431b-b009-bec19f2aabf9.png" alt="Website Design Feedback Form Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
-                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">6</span>
+                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">5</span>
                         <h3 class="text-2xl font-bold">Website Design Feedback Form</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        Collect user feedback on your website's design, usability, and navigation. Essential for UX improvements and understanding how visitors interact with your site.
+                        Collect user feedback on your website's design, usability, and navigation. Perfect for UX improvements, redesign projects, or understanding how visitors interact with your site. Get specific insights on what's working and what needs work.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Web designers, UX teams, marketing teams, agencies</p>
+                        <p class="text-gray-600 text-sm">Web designers, UX teams, marketing teams, agencies, product teams</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Visual design ratings</li>
+                            <li>• Visual design and layout ratings</li>
                             <li>• Navigation ease assessment</li>
-                            <li>• Content clarity feedback</li>
                             <li>• Page-specific improvement suggestions</li>
                         </ul>
                     </div>
@@ -397,34 +332,33 @@ description: Discover 15 proven feedback form examples and free templates for cu
             </div>
         </div>
 
-        <!-- Template 7: Software Update Feedback Form -->
-        <div class="bg-white border-2 border-black rounded-xl overflow-hidden" id="template-7">
+        <!-- Template 6: Online Suggestion Box -->
+        <div class="bg-white border-2 border-black rounded-xl overflow-hidden" id="template-6">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/7102c4e6-30be-47b5-b1a1-94aecdbc3cc7.png" alt="Software Update Feedback Form Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/217b49d5-3fb6-489f-82f6-8b153e27cdfd.png" alt="Online Suggestion Box Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
-                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">7</span>
-                        <h3 class="text-2xl font-bold">Software Update Feedback Form</h3>
+                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">6</span>
+                        <h3 class="text-2xl font-bold">Online Suggestion Box</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        After releasing a new version or feature, gather user reactions quickly. Understand if the update solved problems, created new ones, or missed the mark entirely.
+                        Give customers and employees an always-on channel to submit ideas and suggestions. Unlike one-time surveys, a suggestion box collects continuous feedback that surfaces innovative ideas and catches problems early.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">SaaS companies, app developers, software teams</p>
+                        <p class="text-gray-600 text-sm">Product teams, HR departments, community managers, any organization wanting ongoing feedback</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Update satisfaction rating</li>
-                            <li>• New feature usefulness assessment</li>
-                            <li>• Bug/issue reporting</li>
-                            <li>• Comparison to previous version</li>
+                            <li>• Open-ended suggestion field</li>
+                            <li>• Category selection for routing</li>
+                            <li>• Optional anonymity</li>
                         </ul>
                     </div>
-                    <a href="/templates/t/software-update-feedback-form-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                    <a href="/templates/t/online-suggestion-box-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
                         Use this template →
                     </a>
                 </div>
@@ -433,74 +367,40 @@ description: Discover 15 proven feedback form examples and free templates for cu
     </div>
 </div>
 
-<!-- CATEGORY: Event & Meeting Feedback Forms -->
+<!-- SECTION 3: Event & Workshop Feedback -->
 <div class="bg-white py-16" id="event-feedback">
     <div class="max-w-5xl mx-auto px-10 md:px-20">
         <div class="mb-12">
             <span class="text-sm font-semibold text-aquamarine uppercase tracking-wide">Category</span>
-            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Event & Meeting Feedback Forms</h2>
+            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Event & Workshop Feedback Templates</h2>
             <p class="text-lg text-gray-700">
-                Whether you're running workshops, presentations, or team meetings, these templates help you understand what worked and what didn't — so your next event is even better.
+                Whether you're running training sessions, conferences, or team meetings — these templates help you understand what worked and improve future events.
             </p>
         </div>
 
-        <!-- Template 8: Meeting Feedback Survey -->
-        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden mb-8" id="template-8">
+        <!-- Template 7: Workshop Feedback Survey -->
+        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden mb-8" id="template-7">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/24a6506d-5505-4bea-90f4-00cfc5452cab.png" alt="Meeting Feedback Survey Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/4fdd143d-75db-4770-ba31-cb1875f29c55.png" alt="Workshop Feedback Survey Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
-                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">8</span>
-                        <h3 class="text-2xl font-bold">Meeting Feedback Survey</h3>
-                    </div>
-                    <p class="text-gray-700 mb-4">
-                        Quick feedback form to evaluate meeting effectiveness. Find out if meetings are productive, too long, or missing the right people — and fix meeting culture issues.
-                    </p>
-                    <div class="mb-4">
-                        <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Team leads, project managers, HR teams, consultants</p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="font-semibold text-sm mb-2">Key features:</p>
-                        <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Meeting effectiveness rating</li>
-                            <li>• Time well-spent assessment</li>
-                            <li>• Agenda clarity feedback</li>
-                            <li>• Action item clarity check</li>
-                        </ul>
-                    </div>
-                    <a href="/templates/t/meeting-feedback-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
-                        Use this template →
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Template 9: Workshop Feedback Survey -->
-        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden mb-8" id="template-9">
-            <div class="md:flex">
-                <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/4fdd143d-75db-4770-ba31-cb1875f29c55.png" alt="Workshop Feedback Survey Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
-                </div>
-                <div class="md:w-3/5 p-8">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">9</span>
+                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">7</span>
                         <h3 class="text-2xl font-bold">Workshop Feedback Survey</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        Evaluate training workshops and learning sessions. Understand if attendees gained value, if the content was relevant, and how to improve future sessions.
+                        Evaluate training workshops and learning sessions comprehensively. Understand if attendees gained value, whether the content was relevant to their needs, and get actionable suggestions for improving future sessions.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Trainers, L&D teams, event organizers, educators</p>
+                        <p class="text-gray-600 text-sm">Corporate trainers, L&D teams, workshop facilitators, educators, course creators</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Content relevance rating</li>
-                            <li>• Instructor/facilitator evaluation</li>
+                            <li>• Content relevance and depth ratings</li>
+                            <li>• Facilitator effectiveness evaluation</li>
                             <li>• Learning outcome assessment</li>
                             <li>• Future topic suggestions</li>
                         </ul>
@@ -512,243 +412,182 @@ description: Discover 15 proven feedback form examples and free templates for cu
             </div>
         </div>
 
-        <!-- Template 10: Presentation Feedback Form -->
-        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden" id="template-10">
+        <!-- Template 8: Meeting Feedback Survey -->
+        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden mb-8" id="template-8">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/ab33c4d7-e95c-4792-b137-b1be7b01ad77.png" alt="Presentation Feedback Form Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/24a6506d-5505-4bea-90f4-00cfc5452cab.png" alt="Meeting Feedback Survey Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                </div>
+                <div class="md:w-3/5 p-8">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">8</span>
+                        <h3 class="text-2xl font-bold">Meeting Feedback Survey</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        Quick feedback form to evaluate meeting effectiveness. Find out if meetings are productive, appropriately timed, and well-organized — or if they're draining time and energy. Fix meeting culture issues with data.
+                    </p>
+                    <div class="mb-4">
+                        <p class="font-semibold text-sm mb-2">Best for:</p>
+                        <p class="text-gray-600 text-sm">Team leads, project managers, HR teams, consultants, anyone running recurring meetings</p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="font-semibold text-sm mb-2">Key features:</p>
+                        <ul class="text-gray-600 text-sm space-y-1">
+                            <li>• Meeting effectiveness rating</li>
+                            <li>• Time well-spent assessment</li>
+                            <li>• Agenda clarity and action item feedback</li>
+                        </ul>
+                    </div>
+                    <a href="/templates/t/meeting-feedback-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                        Use this template →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Template 9: Conference Evaluation Survey -->
+        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden" id="template-9">
+            <div class="md:flex">
+                <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
+                    <img src="https://files.youform.com/templates/36b1cd0c-ab26-4744-a7b0-dfca1fdc83c4.png" alt="Conference Evaluation Survey Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                </div>
+                <div class="md:w-3/5 p-8">
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">9</span>
+                        <h3 class="text-2xl font-bold">Conference Evaluation Survey</h3>
+                    </div>
+                    <p class="text-gray-700 mb-4">
+                        Gather comprehensive feedback from conference and event attendees. Evaluate speakers, sessions, venue, logistics, and overall experience to make your next event even better. Essential for event organizers.
+                    </p>
+                    <div class="mb-4">
+                        <p class="font-semibold text-sm mb-2">Best for:</p>
+                        <p class="text-gray-600 text-sm">Event organizers, conference planners, professional associations, corporate events teams</p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="font-semibold text-sm mb-2">Key features:</p>
+                        <ul class="text-gray-600 text-sm space-y-1">
+                            <li>• Session and speaker ratings</li>
+                            <li>• Venue and logistics feedback</li>
+                            <li>• Networking value assessment</li>
+                            <li>• Return attendance intent</li>
+                        </ul>
+                    </div>
+                    <a href="/templates/t/conference-evaluation-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                        Use this template →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 4: Customer Insights -->
+<div class="bg-gray-50 py-16" id="customer-feedback">
+    <div class="max-w-5xl mx-auto px-10 md:px-20">
+        <div class="mb-12">
+            <span class="text-sm font-semibold text-aquamarine uppercase tracking-wide">Category</span>
+            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Customer Insight Templates</h2>
+            <p class="text-lg text-gray-700">
+                Go deeper than satisfaction scores. These templates help you understand why customers leave, what keeps them coming back, and how they perceive your brand.
+            </p>
+        </div>
+
+        <!-- Template 10: Cancellation Survey -->
+        <div class="bg-white border-2 border-black rounded-xl overflow-hidden mb-8" id="template-10">
+            <div class="md:flex">
+                <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
+                    <img src="https://files.youform.com/templates/1f1976e5-2276-487b-bdd1-7293318c3b07.png" alt="Cancellation Survey Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">10</span>
-                        <h3 class="text-2xl font-bold">Presentation Feedback Form</h3>
+                        <h3 class="text-2xl font-bold">Cancellation Survey</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        Get feedback on presentations and talks. Whether it's a sales pitch, keynote, or team update — understand what resonated and what fell flat.
+                        Understand why customers leave before they're gone. A well-designed cancellation survey captures reasons for churn, identifies fixable issues, and sometimes even saves the relationship. Don't let churning customers leave without feedback.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Speakers, sales teams, executives, conference organizers</p>
+                        <p class="text-gray-600 text-sm">Subscription businesses, SaaS companies, membership organizations, any recurring revenue model</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Presentation clarity rating</li>
-                            <li>• Visual design feedback</li>
-                            <li>• Speaker engagement assessment</li>
-                            <li>• Key takeaway capture</li>
+                            <li>• Primary reason for leaving (multiple choice)</li>
+                            <li>• What would make them stay</li>
+                            <li>• Competitor mention capture</li>
+                            <li>• Win-back offer opportunity</li>
                         </ul>
                     </div>
-                    <a href="/templates/t/presentation-feedback-form-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                    <a href="/templates/t/cancellation-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
                         Use this template →
                     </a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-<!-- CATEGORY: Team & Employee Feedback Forms -->
-<div class="bg-gray-50 py-16" id="team-feedback">
-    <div class="max-w-5xl mx-auto px-10 md:px-20">
-        <div class="mb-12">
-            <span class="text-sm font-semibold text-aquamarine uppercase tracking-wide">Category</span>
-            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Team & Employee Feedback Forms</h2>
-            <p class="text-lg text-gray-700">
-                Internal feedback is just as important as customer feedback. These templates help you gather input from employees and team members to improve workplace dynamics.
-            </p>
-        </div>
-
-        <!-- Template 11: Coaching Feedback Form -->
-        <div class="bg-white border-2 border-black rounded-xl overflow-hidden" id="template-11">
+        <!-- Template 11: Newsletter Feedback Survey -->
+        <div class="bg-white border-2 border-black rounded-xl overflow-hidden mb-8" id="template-11">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/0e4e6b7a-2f9c-4408-8642-7fc481b5aa00.png" alt="Coaching Feedback Form Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/98498269-e24f-43eb-a5eb-2fb6eb0c09d6.png" alt="Newsletter Feedback Survey Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">11</span>
-                        <h3 class="text-2xl font-bold">Coaching Feedback Form</h3>
+                        <h3 class="text-2xl font-bold">Newsletter Feedback Survey</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        Evaluate coaching sessions and manager-employee interactions. Helps coaches understand their impact and identify areas to improve their approach.
+                        Find out what subscribers actually want from your newsletter. Understand content preferences, ideal frequency, and what makes them open (or ignore) your emails. Use this data to improve open rates and reduce unsubscribes.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Executive coaches, managers, HR teams, mentors</p>
+                        <p class="text-gray-600 text-sm">Newsletter publishers, content marketers, email marketing teams, media companies</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Session effectiveness rating</li>
-                            <li>• Coach communication assessment</li>
-                            <li>• Goal progress tracking</li>
-                            <li>• Improvement suggestions</li>
+                            <li>• Content relevance and quality ratings</li>
+                            <li>• Frequency preference selection</li>
+                            <li>• Topic interest ranking</li>
+                            <li>• Format preference (text vs. visual)</li>
                         </ul>
                     </div>
-                    <a href="/templates/t/coaching-feedback-form-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                    <a href="/templates/t/newsletter-feedback-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
                         Use this template →
                     </a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
-<!-- CATEGORY: Satisfaction Metrics -->
-<div class="bg-white py-16" id="satisfaction-metrics">
-    <div class="max-w-5xl mx-auto px-10 md:px-20">
-        <div class="mb-12">
-            <span class="text-sm font-semibold text-aquamarine uppercase tracking-wide">Category</span>
-            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Satisfaction Metrics (NPS, CES, CSAT)</h2>
-            <p class="text-lg text-gray-700">
-                Industry-standard satisfaction metrics let you benchmark against competitors and track improvement over time. These templates follow proven methodologies. Learn more with our <a href="/free-tools/nps-calculator/" class="text-aquamarine hover:underline">NPS calculator</a> and <a href="/free-tools/csat-calculator/" class="text-aquamarine hover:underline">CSAT calculator</a>.
-            </p>
-        </div>
-
-        <!-- Template 12: NPS Survey -->
-        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden mb-8" id="template-12">
+        <!-- Template 12: Testimonial Form -->
+        <div class="bg-white border-2 border-black rounded-xl overflow-hidden" id="template-12">
             <div class="md:flex">
                 <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/cf78c79d-23c6-4a3c-bffa-fb8b540b5d08.png" alt="NPS Survey Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
+                    <img src="https://files.youform.com/templates/9e0bbb5d-5a89-4e50-95da-8aeaaf18c59d.png" alt="Testimonial Form Template Preview" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
                 </div>
                 <div class="md:w-3/5 p-8">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">12</span>
-                        <h3 class="text-2xl font-bold">Net Promoter Score (NPS) Survey</h3>
+                        <h3 class="text-2xl font-bold">Testimonial Form</h3>
                     </div>
                     <p class="text-gray-700 mb-4">
-                        The gold standard for measuring customer loyalty. A single question — "How likely are you to recommend us?" — with a 0-10 scale that identifies promoters, passives, and detractors.
+                        Gather powerful testimonials from satisfied customers with guided prompts. This template helps customers articulate their experience in a way that's authentic yet compelling — perfect for building social proof on your website and marketing materials.
                     </p>
                     <div class="mb-4">
                         <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">SaaS, e-commerce, subscription services, any recurring business</p>
+                        <p class="text-gray-600 text-sm">Marketing teams, sales enablement, small businesses, service providers, agencies</p>
                     </div>
                     <div class="mb-6">
                         <p class="font-semibold text-sm mb-2">Key features:</p>
                         <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Standard 0-10 NPS scale</li>
-                            <li>• Follow-up question for reasoning</li>
-                            <li>• Automatic scoring calculation</li>
-                            <li>• Trend tracking over time</li>
+                            <li>• Guided testimonial prompts</li>
+                            <li>• Photo/headshot upload option</li>
+                            <li>• Permission for marketing use</li>
+                            <li>• Company/role capture for credibility</li>
                         </ul>
                     </div>
-                    <a href="/templates/t/net-promoter-scorea-nps-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
-                        Use this template →
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Template 13: CES Survey -->
-        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden mb-8" id="template-13">
-            <div class="md:flex">
-                <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/96373ac6-21c8-405a-9063-74d2807008b3.png" alt="CES Survey Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
-                </div>
-                <div class="md:w-3/5 p-8">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">13</span>
-                        <h3 class="text-2xl font-bold">Customer Effort Score (CES) Survey</h3>
-                    </div>
-                    <p class="text-gray-700 mb-4">
-                        Measures how easy it is for customers to get things done with your company. Low effort = high satisfaction. Perfect for support interactions and self-service flows.
-                    </p>
-                    <div class="mb-4">
-                        <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Customer support teams, SaaS onboarding, service businesses</p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="font-semibold text-sm mb-2">Key features:</p>
-                        <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Standard CES scale (1-7)</li>
-                            <li>• Effort-specific question wording</li>
-                            <li>• Issue resolution feedback</li>
-                            <li>• Support quality assessment</li>
-                        </ul>
-                    </div>
-                    <a href="/templates/t/ces-customer-effort-score-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
-                        Use this template →
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Template 14: Customer Service Satisfaction Survey -->
-        <div class="bg-gray-50 border-2 border-black rounded-xl overflow-hidden" id="template-14">
-            <div class="md:flex">
-                <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/073a2ce1-8751-4d34-ab06-99faa303abd8.png" alt="Customer Service Satisfaction Survey Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
-                </div>
-                <div class="md:w-3/5 p-8">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">14</span>
-                        <h3 class="text-2xl font-bold">Customer Service Satisfaction Survey</h3>
-                    </div>
-                    <p class="text-gray-700 mb-4">
-                        Evaluate specific support interactions. Send after tickets are resolved to understand agent performance and identify training opportunities.
-                    </p>
-                    <div class="mb-4">
-                        <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Support teams, help desks, call centers, customer success</p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="font-semibold text-sm mb-2">Key features:</p>
-                        <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Resolution satisfaction rating</li>
-                            <li>• Agent helpfulness assessment</li>
-                            <li>• Response time feedback</li>
-                            <li>• Issue categorization</li>
-                        </ul>
-                    </div>
-                    <a href="/templates/t/customer-service-satisfaction-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
-                        Use this template →
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- CATEGORY: Content Feedback Forms -->
-<div class="bg-gray-50 py-16" id="content-feedback">
-    <div class="max-w-5xl mx-auto px-10 md:px-20">
-        <div class="mb-12">
-            <span class="text-sm font-semibold text-aquamarine uppercase tracking-wide">Category</span>
-            <h2 class="text-3xl sm:text-4xl font-bold mt-2 mb-4">Content & Communication Feedback</h2>
-            <p class="text-lg text-gray-700">
-                Understanding what your audience thinks about your content helps you create more of what works. This template is perfect for newsletters, blogs, and content marketing.
-            </p>
-        </div>
-
-        <!-- Template 15: Newsletter Feedback Survey -->
-        <div class="bg-white border-2 border-black rounded-xl overflow-hidden" id="template-15">
-            <div class="md:flex">
-                <div class="md:w-2/5 bg-gray-100 p-6 flex items-center justify-center">
-                    <img src="https://files.youform.com/templates/98498269-e24f-43eb-a5eb-2fb6eb0c09d6.png" alt="Newsletter Feedback Survey Template" class="rounded-lg shadow-lg max-h-64 object-contain" loading="lazy">
-                </div>
-                <div class="md:w-3/5 p-8">
-                    <div class="flex items-center gap-3 mb-4">
-                        <span class="bg-aquamarine text-white text-xs font-bold px-3 py-1 rounded-full">15</span>
-                        <h3 class="text-2xl font-bold">Newsletter Feedback Survey</h3>
-                    </div>
-                    <p class="text-gray-700 mb-4">
-                        Find out what subscribers actually want from your newsletter. Understand content preferences, frequency expectations, and what makes them open (or ignore) your emails.
-                    </p>
-                    <div class="mb-4">
-                        <p class="font-semibold text-sm mb-2">Best for:</p>
-                        <p class="text-gray-600 text-sm">Content creators, marketers, newsletter publishers, brands</p>
-                    </div>
-                    <div class="mb-6">
-                        <p class="font-semibold text-sm mb-2">Key features:</p>
-                        <ul class="text-gray-600 text-sm space-y-1">
-                            <li>• Content relevance rating</li>
-                            <li>• Frequency preference selection</li>
-                            <li>• Topic interest ranking</li>
-                            <li>• Format preference (text vs visual)</li>
-                        </ul>
-                    </div>
-                    <a href="/templates/t/newsletter-feedback-survey-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                    <a href="/templates/t/testimonial-form-template" class="inline-block bg-coral border-2 border-black px-6 py-2 rounded-md font-semibold hover:drop-shadow-3xl transition-all">
                         Use this template →
                     </a>
                 </div>
@@ -797,6 +636,35 @@ description: Discover 15 proven feedback form examples and free templates for cu
                     Follow up on feedback, especially negative feedback. Customers who receive a response after complaining are more likely to remain loyal than those who never had a problem.
                 </p>
             </div>
+        </div>
+    </div>
+</div>
+
+<!-- Related Tools Section -->
+<div class="bg-white py-16">
+    <div class="max-w-4xl mx-auto px-10 md:px-20">
+        <h2 class="text-3xl font-bold mb-8">Related Free Tools</h2>
+        <p class="text-lg text-gray-700 mb-8">
+            Once you've collected feedback, use these free calculators to analyze your results:
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <a href="/free-tools/nps-calculator/" class="block bg-gray-50 border-2 border-black rounded-xl p-6 hover:drop-shadow-3xl transition-all">
+                <h3 class="font-bold text-lg mb-2">NPS Calculator</h3>
+                <p class="text-gray-700 text-sm">Calculate your Net Promoter Score and see how you compare to industry benchmarks.</p>
+            </a>
+            <a href="/free-tools/csat-calculator/" class="block bg-gray-50 border-2 border-black rounded-xl p-6 hover:drop-shadow-3xl transition-all">
+                <h3 class="font-bold text-lg mb-2">CSAT Calculator</h3>
+                <p class="text-gray-700 text-sm">Calculate your Customer Satisfaction Score and track trends over time.</p>
+            </a>
+            <a href="/free-tools/ces-calculator/" class="block bg-gray-50 border-2 border-black rounded-xl p-6 hover:drop-shadow-3xl transition-all">
+                <h3 class="font-bold text-lg mb-2">CES Calculator</h3>
+                <p class="text-gray-700 text-sm">Calculate your Customer Effort Score to measure ease of experience.</p>
+            </a>
+            <a href="/free-tools/survey-response-rate-calculator/" class="block bg-gray-50 border-2 border-black rounded-xl p-6 hover:drop-shadow-3xl transition-all">
+                <h3 class="font-bold text-lg mb-2">Response Rate Calculator</h3>
+                <p class="text-gray-700 text-sm">Calculate your survey response rate and see if it's statistically significant.</p>
+            </a>
         </div>
     </div>
 </div>
@@ -865,42 +733,59 @@ description: Discover 15 proven feedback form examples and free templates for cu
             </div>
             
             <div class="bg-gray-50 border-2 border-black rounded-xl p-6">
-                <h3 class="text-xl font-bold mb-3">How do I increase feedback form response rates?</h3>
+                <h3 class="text-xl font-bold mb-3">What's the difference between NPS, CSAT, and CES?</h3>
                 <p class="text-gray-700">
-                    To increase response rates: keep forms short (under 5 minutes), send them at the right time (immediately after an interaction), personalize the request, explain why feedback matters and how it will be used, and ensure forms are mobile-friendly. Forms with 5 or fewer questions typically see completion rates above 80%.
+                    NPS (Net Promoter Score) measures overall customer loyalty by asking how likely they are to recommend you. CSAT (Customer Satisfaction Score) measures satisfaction with a specific interaction or transaction. CES (Customer Effort Score) measures how easy it was for customers to accomplish their goal. Use NPS for loyalty tracking, CSAT for transaction feedback, and CES for support and onboarding flows.
                 </p>
             </div>
             
             <div class="bg-gray-50 border-2 border-black rounded-xl p-6">
-                <h3 class="text-xl font-bold mb-3">What's the difference between a feedback form and a survey?</h3>
+                <h3 class="text-xl font-bold mb-3">When should I send feedback forms?</h3>
                 <p class="text-gray-700">
-                    Feedback forms are typically shorter (3-7 questions), focused on a specific interaction, and action-oriented for immediate improvements. Surveys are broader research tools (10-30+ questions) that gather comprehensive data across multiple topics for strategic analysis. Use feedback forms for quick, actionable insights; use surveys for in-depth research.
+                    Send feedback forms at key moments: immediately after a purchase, right after a support interaction, at the end of an event or workshop, after product onboarding, or during subscription renewal. The closer to the experience, the more accurate and detailed the feedback. For ongoing relationships, quarterly check-ins work well.
                 </p>
             </div>
             
             <div class="bg-gray-50 border-2 border-black rounded-xl p-6">
                 <h3 class="text-xl font-bold mb-3">Can I create feedback forms for free?</h3>
                 <p class="text-gray-700">
-                    Yes. With Youform, you can create professional feedback forms completely free — including unlimited forms, unlimited responses, conditional logic, custom branding, and integrations. All 15 templates on this page are free to use and customize.
+                    Yes. With Youform, you can create professional feedback forms completely free — including unlimited forms, unlimited responses, conditional logic, custom branding, and integrations. All 12 templates on this page are free to use and customize.
                 </p>
             </div>
             
             <div class="bg-gray-50 border-2 border-black rounded-xl p-6">
-                <h3 class="text-xl font-bold mb-3">What types of feedback forms are most effective?</h3>
+                <h3 class="text-xl font-bold mb-3">How do I increase feedback form response rates?</h3>
                 <p class="text-gray-700">
-                    The most effective forms depend on your goals. For measuring loyalty, use NPS surveys. For support interactions, use Customer Effort Score (CES). For overall satisfaction, use CSAT surveys. For product improvements, use product feedback forms with feature-specific questions. The key is matching the form type to the insight you need.
+                    To increase response rates: keep forms short (under 5 minutes), send them immediately after the experience, personalize the request with the customer's name, explain why feedback matters and how it will be used, offer an incentive when appropriate, and ensure forms work perfectly on mobile devices.
                 </p>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Explore More Templates -->
+<div class="bg-gray-50 py-16">
+    <div class="max-w-4xl mx-auto px-10 md:px-20 text-center">
+        <h2 class="text-3xl font-bold mb-4">Explore More Templates</h2>
+        <p class="text-lg text-gray-700 mb-8">
+            Browse our full library of form, survey, and quiz templates.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="/templates/c/surveys/feedback/" class="px-6 py-3 bg-white border-2 border-black rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                All Feedback Surveys →
+            </a>
+            <a href="/templates/c/surveys/customer-satisfaction/" class="px-6 py-3 bg-white border-2 border-black rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                Satisfaction Surveys →
+            </a>
+            <a href="/templates/" class="px-6 py-3 bg-white border-2 border-black rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                All Templates →
+            </a>
+        </div>
+    </div>
+</div>
+
 <!-- Testimonials -->
 @include('_partials.testimonials-carousel')
-
-@include('_partials.ask-ai-to-recommend', [
-    'prompt' => 'should+I+use+youform+for+feedback+forms'
-])
 
 <!-- Final CTA -->
 <div class="bg-coral py-16">
