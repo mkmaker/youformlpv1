@@ -33,7 +33,7 @@
         <link rel="shortcut icon" href="/assets/images/favicon.ico">        
         <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=643ca172fda3ccbcc5b639e974e390fc">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=7130205db44bec62fb723785f8205fc4">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
@@ -178,12 +178,12 @@
 </div>
 
         <!-- herosection -->
-        <div class="relative max-w-4xl mx-auto mt-20 pb-20">
+        <div class="relative max-w-6xl mx-auto mt-20 pb-10">
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
                 <h1 class="text-4xl font-bold">Free Google Forms QR Code Generator</h1>
                 <p class="text-center text-gray-600 mt-3">Create a QR code for any Google Form in seconds. No watermark, no signup — just paste and download.</p>
 
-                <div class="relative mx-auto mt-8 bg-white text-gray-800 pb-16 border-2 border-black p-10 rounded-xl mb-10">
+                <div class="relative mx-auto mt-8 bg-white text-gray-800 pb-6 border-2 border-black p-10 rounded-xl mb-4 w-full max-w-2xl">
                     <div 
                         x-data="{
                             url: '',
@@ -212,10 +212,10 @@
                             },
                         }"
                         class="drop-shadow-none z-10 ">
-                        <form action="#" @submit.prevent="generate" class="mt-10">
+                        <form action="#" @submit.prevent="generate" class="mt-4">
                             <div>
                                 <label for="url" class="sr-only">Paste Your Google Form URL</label>
-                                <input x-model="url" type="text" name="url" id="url" class="block mx-auto w-full md:w-96 mt-2 rounded-md py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 border-2 border-black placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-gray-800 sm:text-sm sm:leading-6" placeholder="Paste Your Google Form URL">
+                                <input x-model="url" type="text" name="url" id="url" class="block mx-auto w-full mt-2 rounded-md py-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 border-2 border-black placeholder:text-gray-400 focus:ring-1 focus:ring-inset focus:ring-gray-800 sm:text-sm sm:leading-6" placeholder="Paste Your Google Form URL">
                             </div>
 
                             <div class="flex items-center justify-center mt-4">
@@ -225,12 +225,12 @@
                             </div>
                         </form>
 
-                        <div class="mt-10 max-w-md mx-auto text-gray-700">
+                        <div class="max-w-md mx-auto text-gray-700" :class="qrcodeLink ? 'mt-6' : ''">
                             <div class="qr-code flex items-center justify-center" x-ref="qrContainer">
 
                             </div>
 
-                            <div class="flex items-center justify-center mt-10">
+                            <div class="flex items-center justify-center mt-4">
                                 <a x-cloak x-show="qrcodeLink" :href="qrcodeLink" download="google-form.png" class="bg-gray-300 transition-all hover:bg-gray-200 text-black px-4 py-2 text-sm rounded-md shadow-sm flex items-center space-x-1">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
                                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
@@ -324,6 +324,11 @@
                                 <p class="mt-2">
                                     Youform is a free Google Forms alternative which not only supports QR codes but lots of other features like custom domain, partial submissions, custom branding. It also provides unlimited submissions for free. Try it and you will love it, we promise. :)
                                 </p>
+
+                                <div class="mt-8 mb-8">
+                                    <p class="font-semibold mb-4">Try a sample Youform:</p>
+                                    <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
+                                </div>
 
                                 <div class="mt-10 text-center">
                                     <a href="https://app.youform.com/googleform-to-youform" class="block mx-auto text-2xl bg-pale-violet border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
