@@ -393,6 +393,10 @@ description: Learn how to use a custom domain with Google Forms. Step-by-step gu
     </div>
 </div>
 
+<div class="max-w-5xl mx-auto px-4">
+    @include('_partials.gf-converter-cta')
+</div>
+
 @include('partials.footer')
 
 @endsection

@@ -387,6 +387,10 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
     'prompt' => 'How+is+Youform+better+than+Google+forms'
 ])
 
+<div class="max-w-5xl mx-auto px-4">
+    @include('_partials.gf-converter-cta')
+</div>
+
 @include('partials.footer')
 
 @endsection

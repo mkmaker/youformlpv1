@@ -60,6 +60,10 @@ date: "2024-09-06"
     </div>
 </div>
 
+<div class="max-w-5xl mx-auto px-4">
+    @include('_partials.gf-converter-cta')
+</div>
+
 @include('partials.footer')
 
 @endsection

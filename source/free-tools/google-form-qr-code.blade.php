@@ -136,6 +136,10 @@ description: "Generate a QR code for your Google Forms instantly. Free, no accou
 
 @include('_partials.free-tools-related', ['current' => 'google-form-qr-code', 'related' => ['utm-builder', 'nps', 'csat']])
 
+<div class="max-w-5xl mx-auto px-4">
+    @include('_partials.gf-converter-cta')
+</div>
+
 @include('partials.footer')
 
 @endsection
