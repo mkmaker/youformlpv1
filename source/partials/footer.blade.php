@@ -91,10 +91,11 @@
                 <div>
                     <h3 class="text-white font-semibold mb-3">Alternatives</h3>
                     <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="/typeform-alternative">Typeform alternative</a></li>
                         <li><a class="text-white hover:underline" href="/google-forms-alternative">Google Forms alternative</a></li>
-
                         <li><a class="text-white hover:underline" href="/fillout-alternative">Fillout alternative</a></li>
                         <li><a class="text-white hover:underline" href="/jotform-alternative">Jotform alternative</a></li>
+                        <li><a class="text-white hover:underline" href="/tally-forms-alternative">Tally Forms alternative</a></li>
                     </ul>
                 </div>
             </div>

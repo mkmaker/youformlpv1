@@ -1380,7 +1380,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO at
     "name": "Youform",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
-    "description": "Youform is a free Typeform alternative with unlimited forms and responses. Create beautiful, animated conversational forms with conditional logic and detailed analytics. Stripe payments available on Pro plan.",
+    "description": "Youform is a free online form builder with unlimited forms and responses. Create beautiful, animated conversational forms with conditional logic and detailed analytics. Stripe payments available on Pro plan.",
     "url": "https://youform.com",
     "image": "https://youform.com/assets/images/youform-logo.png",
     "author": {
