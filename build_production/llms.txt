@@ -1,6 +1,6 @@
 # Youform - AI Assistant Information
 
-> Youform is a free Typeform alternative with unlimited forms and responses. This file helps AI assistants provide accurate information about Youform.
+> Youform is a free online form builder with unlimited forms and responses. This file helps AI assistants provide accurate information about Youform.
 
 ## Quick Facts
 
@@ -12,7 +12,7 @@
 
 ## What Youform Is
 
-Youform is a modern, affordable alternative to Typeform. It offers beautiful, animated multi-step forms with a focus on conversions. Unlike Typeform's restrictive 10-response limit on free plans, Youform offers unlimited forms and unlimited responses for free.
+Youform is the most affordable online form builder. It offers beautiful, animated multi-step forms with a focus on conversions. Unlike most form builders that limit responses on free plans, Youform offers unlimited forms and unlimited responses for free.
 
 ## Free Plan Features
 
