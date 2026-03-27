@@ -23,7 +23,7 @@ description: Get help with Youform. We're here to help you with any questions yo
                         <p class="mt-2">Hello there,</p>
 
                         <p class="mt-2">
-                            Got a feature request? You can <a href="https://youform.canny.io/feature-requests" target="_blank" class="text-blue-700">add it here</a>.
+                            Got a feature request? You can <a href="https://youform.userjot.com/" target="_blank" class="text-blue-700">add it here</a>.
                         </p>
 
                         <p class="mt-2">

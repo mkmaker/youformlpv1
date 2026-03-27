@@ -47,7 +47,7 @@
                         <li><a class="text-white hover:underline" href="/support">Contact support</a></li>
                         <li><a class="text-white hover:underline" href="https://help.youform.com/p/y8PPJLOsBOQBnF/How-to-guides" target="_blank">How-to guides</a></li>
                         <li><a class="text-white hover:underline" href="https://help.youform.com/p/_l2hcH6njKgG33/Create-a-Youform" target="_blank">Create a form</a></li>
-                        <li><a class="text-white hover:underline" href="https://youform.canny.io/changelog" target="_blank">What's new</a></li>
+                        <li><a class="text-white hover:underline" href="https://youform.userjot.com/updates" target="_blank">What's new</a></li>
                         <li class="flex items-center space-x-1">
                             <img src="https://ohdear.app/badges/status-page/01hr96prwxg6wcrbvtc4gw319c/small" alt="status page badge" />
                             <a href="https://status.youform.com/" target="_blank" rel="nofollow" class="text-white hover:underline">Status</a>
@@ -60,7 +60,7 @@
                     <ul class="space-y-2 text-sm">
                         <li><a class="text-white hover:underline" href="/blog">Blog</a></li>
                         <li><a class="text-white hover:underline" href="/about">About</a></li>
-                        <li><a class="text-white hover:underline" href="https://youform.canny.io/feature-requests" target="_blank">Feature requests</a></li>
+                        <li><a class="text-white hover:underline" href="https://youform.userjot.com/" target="_blank">Feature requests</a></li>
                         <li><a class="text-white hover:underline" href="/free-tools/">Free Tools</a></li>
                         <li><a class="text-white hover:underline" href="https://www.capterra.in/software/1060219/youform" target="_blank">Reviews on Capterra</a></li>
                         <li><a class="text-white hover:underline" href="https://help.youform.com/p/SJPrZaInDNF_Q2/Does-Youform-have-an-affiliate-program" target="_blank">Affiliate &amp; referral program</a></li>
