@@ -1249,7 +1249,7 @@ description: Youform is free for unlimited forms and submissions. Youform PRO at
                             </div>
                             <div x-show="open">
                                 <p class=" px-4 py-10 lg:text-xl text-black">
-                                    Sure, you can add your feature requests <a href="https://youform.userjot.com/" class="font-semibold underline">here</a>.
+                                    Sure, you can add your feature requests <a href="https://feedback.youform.com/" class="font-semibold underline">here</a>.
                                 </p>
                             </div>   
                         </div>      

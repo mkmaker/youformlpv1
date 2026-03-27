@@ -61,7 +61,7 @@ description: Learn about the story behind Youform, how we started, and what we'r
                         </p>
 
                         <p class="mt-2">
-                            If there’s a feature you’re looking for that we don’t have yet, let us know. We are constantly <a href="https://youform.userjot.com/updates" class="text-blue-700" target="_blank">adding features</a> to make it the best form builder available.
+                            If there’s a feature you’re looking for that we don’t have yet, let us know. We are constantly <a href="https://feedback.youform.com/updates" class="text-blue-700" target="_blank">adding features</a> to make it the best form builder available.
                         </p>
 
                         <p class="mt-2">
