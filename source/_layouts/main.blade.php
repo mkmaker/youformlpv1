@@ -149,7 +149,7 @@
                     href="https://help.youform.com/" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
                     🧡&nbsp; Help Center
                 </a>
-                <a href="https://youform.canny.io/feature-requests" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                <a href="https://feedback.youform.com/" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
                     🙏 &nbsp;Feature Request
                 </a>
             </div>
