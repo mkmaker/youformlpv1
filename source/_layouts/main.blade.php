@@ -74,7 +74,7 @@
 
         <script type='application/ld+json'>
             {
-              "@context": "http://www.schema.org",
+              "@context": "https://schema.org",
               "@type": "Corporation",
               "name": "Youform",
               "url": "https://youform.com/",

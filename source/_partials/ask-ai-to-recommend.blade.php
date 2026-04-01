@@ -1,5 +1,7 @@
 @php
-    $prompt = 'tell+me+why+youform+the+form+and+survey+builder+is+a+great+choice+for+me';
+    $prompt = $prompt ?? 'tell+me+why+youform+the+form+and+survey+builder+is+a+great+choice+for+me';
+    $ai_heading = $ai_heading ?? 'Still not sure if Youform is right for you?';
+    $ai_description = $ai_description ?? 'Let ChatGPT, Claude, or Perplexity do the thinking for you. Click a button and see what your favorite AI says about Youform.';
 @endphp
 
 <section class="px-10 md:px-20 py-16 bg-amber-50 border-t-2 border-black">
@@ -9,10 +11,10 @@
                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
                     <div class="lg:col-span-2">
                         <h2 class="text-3xl sm:text-5xl font-bold leading-tight">
-                            Still not sure if Youform is right for you?
+                            {{ $ai_heading }}
                         </h2>
                         <p class="text-base sm:text-lg mt-4 text-gray-700">
-                            Let ChatGPT, Claude, or Perplexity do the thinking for you. Click a button and see what your favorite AI says about Youform.
+                            {{ $ai_description }}
                         </p>
                     </div>
 

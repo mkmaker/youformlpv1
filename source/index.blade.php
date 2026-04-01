@@ -20,10 +20,10 @@
                         <span>on Capterra &rarr;</span>
                     </a>
                     <h1 class="text-center lg:text-left text-3xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
-                        The most affordable form builder
+                        The free online form builder
                     </h1>
                     <p class="text-center lg:text-left text-base mt-6">
-                        Youform is a form builder that provides UNLIMITED forms and responses for FREE. Build <a href="/online-form-builder/" class="underline hover:no-underline">forms</a>, <a href="/online-quiz-builder/" class="underline hover:no-underline">quizzes</a>, and <a href="/online-survey-builder/" class="underline hover:no-underline">surveys</a> with logic, custom domains, file uploads, embeds, and much more 🤓
+                        Youform is a form builder that provides UNLIMITED forms and responses for FREE. Build <a href="/templates/c/forms" class="underline hover:no-underline">forms</a>, <a href="/online-quiz-builder/" class="underline hover:no-underline">quizzes</a>, and <a href="/online-survey-builder/" class="underline hover:no-underline">surveys</a> with logic, custom domains, file uploads, embeds, and much more 🤓
                     </p>
                     <div class="lg:flex lg:items-center space-x-6 mt-10 text-center">
                         <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-10 py-2 text-black rounded-md">
@@ -188,19 +188,21 @@
         </div>
 
         <!-- Tabs -->
-        <div class="flex justify-center gap-4 mb-10">
-            <button
-                @click="active = 'typeform'"
-                :class="active === 'typeform' ? 'bg-coral border-black drop-shadow-3xl' : 'bg-white border-gray-300 hover:border-black'"
-                class="px-6 py-3 rounded-md border-2 font-semibold text-black transition-all">
-                Typeform
-            </button>
-            <button
-                @click="active = 'google'"
-                :class="active === 'google' ? 'bg-coral border-black drop-shadow-3xl' : 'bg-white border-gray-300 hover:border-black'"
-                class="px-6 py-3 rounded-md border-2 font-semibold text-black transition-all">
-                Google Forms
-            </button>
+        <div class="flex justify-center mb-10">
+            <div class="inline-flex border-b-2 border-gray-200">
+                <button
+                    @click="active = 'typeform'"
+                    :class="active === 'typeform' ? 'border-b-2 border-black text-black' : 'border-b-2 border-transparent text-gray-400 hover:text-gray-600'"
+                    class="px-6 py-3 font-semibold text-lg transition-all -mb-[2px]">
+                    Typeform
+                </button>
+                <button
+                    @click="active = 'google'"
+                    :class="active === 'google' ? 'border-b-2 border-black text-black' : 'border-b-2 border-transparent text-gray-400 hover:text-gray-600'"
+                    class="px-6 py-3 font-semibold text-lg transition-all -mb-[2px]">
+                    Google Forms
+                </button>
+            </div>
         </div>
 
         <!-- Typeform Panel -->
@@ -536,7 +538,7 @@
         </div>
     </div>
     <img class="-mt-4 w-full" loading="lazy" src="/assets/images/yellow-wave-down.png" alt="wave decoration image">
-    <img class="absolute rotate-12 right-16 lg:right-32 -bottom-3 sm:-bottom-8 lg:-bottom-12 w-40 md:w-56 lg:w-64" src="/assets/images/solved.png" alt="">
+    <img class="absolute rotate-12 right-16 lg:right-32 -bottom-3 sm:-bottom-8 lg:-bottom-12 w-40 md:w-56 lg:w-64" src="/assets/images/solved.png" alt="Solved checkmark illustration">
 </div>
 
 <!-- Value proposition CTA -->
@@ -544,7 +546,7 @@
     <div class="bg-lavender-rose pt-28 lg:pt-40 pb-20">
         <div class="relative max-w-7xl mx-auto px-10 md:px-20">
             <div class="text-center">
-                <p class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold">Unlimited forms. Unlimited responses. $0.</p>
+                <h2 class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold">Unlimited forms. Unlimited responses. All for Free.</h2>
                 <p class="text-center text-lg xl:text-xl font-medium mt-10 max-w-3xl mx-auto">
                     Most form builders charge per response or limit your free plan to a handful of submissions. Youform gives you unlimited forms and unlimited responses — completely free, forever.
                 </p>
@@ -662,3 +664,62 @@
 @include('partials.footer')
 
 @endsection
+
+@push('head')
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Is Youform really free?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! You can create unlimited forms and collect unlimited responses for free. We also offer a PRO plan for advanced features like custom domain, team members etc."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Do I need to know how to code?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No coding knowledge is required! Our visual drag-and-drop builder lets you create forms without writing any code."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Can I embed forms on any website?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely! Embed on WordPress, Wix, Squarespace, Webflow, or custom sites. Just copy and paste the embed code or share a link."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do I collect form submissions?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You can collect submissions by sharing your form link or embed in your website. You can also send notifications, export to CSV, or connect to Google Sheets, Slack, Zapier, and webhooks."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Are the forms mobile-responsive?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes! All forms created with Youform are fully responsive and optimized for mobile, tablet, and desktop."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What integrations are available?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Youform integrates with 6,000+ tools via Zapier, plus direct integrations with Google Sheets, Slack, webhooks, Google Tag Manager (GTM), and more."
+            }
+        }
+    ]
+}
+</script>
+@endpush
