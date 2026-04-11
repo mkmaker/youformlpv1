@@ -90,9 +90,9 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
 
 <!-- Capterra badges -->
 <div class="bg-white py-10">
-    <h3 class="text-2xl font-bold text-center text-gray-800 mb-6">
+    <h3 class="text-xl font-bold text-center text-gray-700 mb-6">
         <a href="https://www.capterra.in/software/1060219/youform" target="_blank" rel="nofollow noopener noreferrer" class="hover:underline">
-            Rated 5-star Typeform alternative
+            Rated 5 stars on Capterra, GetApp, and Software Advice
         </a>
     </h3>
     <div class="flex items-center justify-center gap-4 px-3 max-w-xl mx-auto">
@@ -107,10 +107,10 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
 <div class="bg-aquamarine" style="background-color: rgba(69, 173, 148, 0.85);">
     <div class="relative max-w-7xl mx-auto pb-24 pt-20">
         <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center pb-4 px-10 md:px-20">
-            Youform vs Typeform: Full feature comparison
+            Youform vs Typeform, feature by feature
         </h2>
         <p class="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-12 px-10 md:px-20">
-            40+ features compared side-by-side. See exactly where Youform saves you money.
+            40+ features compared side by side, including pricing, limits, integrations, and security.
         </p>
 
         <div class="max-w-6xl mx-auto px-4 md:px-0 mb-8">
@@ -409,8 +409,8 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
             </div>
         </div>
 
-        <p class="text-center text-base font-semibold text-gray-800 max-w-2xl mx-auto px-10 md:px-20">
-            Same form experience. Way more affordable. Youform wins on value.
+        <p class="text-center text-base text-gray-800 max-w-2xl mx-auto px-10 md:px-20">
+            Same form experience, at a fraction of the cost.
         </p>
 
         <div class="mt-10 flex justify-center">
@@ -421,26 +421,210 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
     </div>
 </div>
 
-<!-- High pricing problem section -->
-<div style="margin-top: -2rem">
+<!-- Savings section -->
+<div class="relative" style="margin-top: -2rem">
+    <img class="absolute rotate-12 right-8 lg:right-32 -top-10 sm:-top-14 lg:-top-16 w-40 md:w-56 lg:w-64 pointer-events-none z-10" src="/assets/images/solved.png" alt="Solved checkmark illustration">
     <div class="bg-lavender-rose pt-20 pb-20">
         <div class="relative max-w-7xl mx-auto px-10 md:px-20">
             <div class="text-center">
                 <div>
-                    <p class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold">High pricing problem? We hear you!</p>
-                    <p class="text-center text-lg xl:text-xl font-medium mt-10">
+                    <h2 class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold">High pricing problem? We hear you!</h2>
+                    <p class="text-center text-lg xl:text-xl mt-8 max-w-2xl mx-auto">
                         Do you hate the high prices of Typeform? We do too. That's why Youform allows UNLIMITED forms and form responses for FREE.
                     </p>
                 </div>
-                <img class="hidden md:block pt-20" loading="lazy" src="/assets/images/twitter-screenshot.png?v=2" alt="Typeform pricing complaints on Twitter">
+                <div class="mt-16 max-w-6xl mx-auto text-left">
+                    <div class="columns-1 md:columns-2 lg:columns-3 gap-4 [&>*]:mb-4 [&>*]:break-inside-avoid">
 
-                @include('partials.price-calculator')
+                        <!-- Jordan Giha -->
+                        <div class="bg-white border-2 border-black rounded-2xl p-5 drop-shadow-3xl">
+                            <div class="flex items-start justify-between gap-3 mb-3">
+                                <div class="flex items-start gap-3 min-w-0">
+                                    <div class="w-10 h-10 rounded-full bg-coral flex items-center justify-center text-white font-bold text-sm shrink-0">JG</div>
+                                    <div class="min-w-0">
+                                        <div class="font-bold text-sm text-gray-900 truncate">Jordan Giha</div>
+                                        <div class="text-xs text-gray-500">@jordangiha · 03/09/21</div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-700 shrink-0" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </div>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">
+                                <span class="text-blue-500">@typeform</span> is nuts for their pricing. Free plan gives you 10 responses a month. What else can I use?
+                            </p>
+                        </div>
 
+                        <!-- Jay Clouse -->
+                        <div class="bg-white border-2 border-black rounded-2xl p-5 drop-shadow-3xl">
+                            <div class="flex items-start justify-between gap-3 mb-3">
+                                <div class="flex items-start gap-3 min-w-0">
+                                    <div class="w-10 h-10 rounded-full bg-aquamarine flex items-center justify-center text-white font-bold text-sm shrink-0">JC</div>
+                                    <div class="min-w-0">
+                                        <div class="font-bold text-sm text-gray-900 truncate">Jay Clouse</div>
+                                        <div class="text-xs text-gray-500">@jayclouse · 18/06/21</div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-700 shrink-0" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </div>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">
+                                I'm giving up on Typeform; it's a beautiful tool, and I love it, but the pricing model doesn't make sense for me and I'm continuously hitting my free limit.
+                            </p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed mt-3">
+                                What do you use for your feedback and survey forms?
+                            </p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed mt-3">
+                                Looking for beautiful, mobile-friendly.
+                            </p>
+                        </div>
+
+                        <!-- Flavio Amiel -->
+                        <div class="bg-white border-2 border-black rounded-2xl p-5 drop-shadow-3xl">
+                            <div class="flex items-start justify-between gap-3 mb-3">
+                                <div class="flex items-start gap-3 min-w-0">
+                                    <div class="w-10 h-10 rounded-full bg-pale-violet flex items-center justify-center text-white font-bold text-sm shrink-0">FA</div>
+                                    <div class="min-w-0">
+                                        <div class="font-bold text-sm text-gray-900 truncate">Flavio Amiel</div>
+                                        <div class="text-xs text-gray-500">@flavioamiel · 03/07/22</div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-700 shrink-0" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </div>
+                            <p class="text-xs text-gray-500 mb-2">Replying to <span class="text-blue-500">@amritrupa</span> and <span class="text-blue-500">@typeform</span></p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">
+                                OMG yes, their new pricing 😭
+                            </p>
+                        </div>
+
+                        <!-- TheBangaloreGuy -->
+                        <div class="bg-white border-2 border-black rounded-2xl p-5 drop-shadow-3xl">
+                            <div class="flex items-start justify-between gap-3 mb-3">
+                                <div class="flex items-start gap-3 min-w-0">
+                                    <div class="w-10 h-10 rounded-full bg-sasquatch-socks flex items-center justify-center text-white font-bold text-sm shrink-0">TB</div>
+                                    <div class="min-w-0">
+                                        <div class="font-bold text-sm text-gray-900 truncate">TheBangaloreGuy</div>
+                                        <div class="text-xs text-gray-500">@thebangaloreguy · 20/12/22</div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-700 shrink-0" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </div>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">
+                                considered using typeform for a form but their pricing is a little out of budget for me
+                            </p>
+                        </div>
+
+                        <!-- George -->
+                        <div class="bg-white border-2 border-black rounded-2xl p-5 drop-shadow-3xl">
+                            <div class="flex items-start justify-between gap-3 mb-3">
+                                <div class="flex items-start gap-3 min-w-0">
+                                    <div class="w-10 h-10 rounded-full bg-lavender-rose flex items-center justify-center text-white font-bold text-sm shrink-0">G</div>
+                                    <div class="min-w-0">
+                                        <div class="font-bold text-sm text-gray-900 truncate">George</div>
+                                        <div class="text-xs text-gray-500">@makeitnoice · 28/01/23</div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-700 shrink-0" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </div>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">
+                                $59 in the US buys you 10 Big Macs. In South Africa, it buys you 27 Big Macs. That's 170% more cost felt in price.
+                            </p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed mt-3">
+                                You know what's infuriating? When a great product like <span class="text-blue-500">@typeform</span> doesn't give a shit.
+                            </p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed mt-3">
+                                Here's my rant and why you should care about pricing localisation 👇
+                            </p>
+                        </div>
+
+                        <!-- Onurcan Eki -->
+                        <div class="bg-white border-2 border-black rounded-2xl p-5 drop-shadow-3xl">
+                            <div class="flex items-start justify-between gap-3 mb-3">
+                                <div class="flex items-start gap-3 min-w-0">
+                                    <div class="w-10 h-10 rounded-full bg-medium-champagne flex items-center justify-center text-gray-900 font-bold text-sm shrink-0">OE</div>
+                                    <div class="min-w-0">
+                                        <div class="font-bold text-sm text-gray-900 truncate">Onurcan Eki</div>
+                                        <div class="text-xs text-gray-500">@onurcaneki · 11/06/21</div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-700 shrink-0" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </div>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">Wow.</p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed mt-3">Typeform latest pricing update:</p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed mt-1">🍊 Basic $25/m → 100 responses /m</p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">🟢 Free → 10 responses /m</p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed mt-2">😭😭😭😭</p>
+                        </div>
+
+                        <!-- Face the reality -->
+                        <div class="bg-white border-2 border-black rounded-2xl p-5 drop-shadow-3xl">
+                            <div class="flex items-start justify-between gap-3 mb-3">
+                                <div class="flex items-start gap-3 min-w-0">
+                                    <div class="w-10 h-10 rounded-full bg-coral flex items-center justify-center text-white font-bold text-sm shrink-0">FR</div>
+                                    <div class="min-w-0">
+                                        <div class="font-bold text-sm text-gray-900 truncate">Face the reality</div>
+                                        <div class="text-xs text-gray-500">20/07/22</div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-700 shrink-0" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </div>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">
+                                <span class="text-blue-500">@typeform</span> your pricing model is not practical at all.
+                            </p>
+                        </div>
+
+                        <!-- jack -->
+                        <div class="bg-white border-2 border-black rounded-2xl p-5 drop-shadow-3xl">
+                            <div class="flex items-start justify-between gap-3 mb-3">
+                                <div class="flex items-start gap-3 min-w-0">
+                                    <div class="w-10 h-10 rounded-full bg-aquamarine flex items-center justify-center text-white font-bold text-sm shrink-0">j</div>
+                                    <div class="min-w-0">
+                                        <div class="font-bold text-sm text-gray-900 truncate">jack</div>
+                                        <div class="text-xs text-gray-500">@jackw_xyz · 21/03/22</div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-700 shrink-0" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </div>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">
+                                typeform's pricing is actually outrageous when you consider it for non business use cases
+                            </p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed mt-3">
+                                £25/mo for 100 responses lmao
+                            </p>
+                        </div>
+
+                        <!-- Michael Marra -->
+                        <div class="bg-white border-2 border-black rounded-2xl p-5 drop-shadow-3xl">
+                            <div class="flex items-start justify-between gap-3 mb-3">
+                                <div class="flex items-start gap-3 min-w-0">
+                                    <div class="w-10 h-10 rounded-full bg-pale-violet flex items-center justify-center text-white font-bold text-sm shrink-0">MM</div>
+                                    <div class="min-w-0">
+                                        <div class="font-bold text-sm text-gray-900 truncate">Michael Marra</div>
+                                        <div class="text-xs text-gray-500">@michaelmarra · 17/05/20</div>
+                                    </div>
+                                </div>
+                                <svg viewBox="0 0 24 24" class="w-4 h-4 text-gray-700 shrink-0" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                            </div>
+                            <p class="text-xs text-gray-500 mb-2">Replying to <span class="text-blue-500">@ryanmyher</span> <span class="text-blue-500">@KameronTanseli</span> and <span class="text-blue-500">@typeform</span></p>
+                            <p class="text-[0.9rem] text-gray-800 leading-relaxed">
+                                Their pricing makes no sense lol
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="relative mt-16 max-w-3xl mx-auto">
+                    <div class="absolute -inset-3 bg-vivid-yellow border-2 border-black rounded-3xl rotate-1" aria-hidden="true"></div>
+                    <div class="relative border-2 border-black rounded-3xl drop-shadow-6xl px-6 md:px-12 pt-2 pb-10 -rotate-1" style="background-color: #FFFBEB;">
+                        @include('partials.price-calculator')
+                    </div>
+                </div>
+
+
+                {{-- Hidden for now
                 <div>
                     <div class="mt-16">
-                        <h4 class="text-center text-2xl sm:text-4xl xl:text-5xl font-bold mb-8 pt-10">
-                            Even <em>Pieter Levels</em> recommends Youform
-                        </h4>
+                        <h3 class="text-center text-2xl sm:text-4xl xl:text-5xl font-bold mb-8 pt-10">
+                            Pieter Levels recommends Youform
+                        </h3>
 
                         <div>
                             <div class="py-4 max-w-lg mx-auto rounded-2xl shadow-lg md:shadow-2xl" style="background: #13202B">
@@ -451,6 +635,7 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
                         </div>
                     </div>
                 </div>
+                --}}
 
                 <div class="mt-16">
                     <a href="https://app.youform.com/register" class="text-center mt-10 text-2xl bg-yellow-300 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md w-full lg:w-1/2 mx-auto block">
@@ -487,77 +672,81 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
     </div>
 </div>
 
-<!-- Advanced Features showcase -->
-<div class="relative bg-gradient-to-br from-amber-50 via-white to-aquamarine/20 py-24 overflow-hidden border-t-4 border-black">
-    <div class="relative max-w-7xl mx-auto px-6 md:px-20 z-10">
-        <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 text-center mb-6 drop-shadow-sm">
-            Everything Typeform offers — and <span class="text-coral">more</span>
+<!-- Feature parity section -->
+<div class="bg-amber-50 py-24 border-t-4 border-black">
+    <div class="relative max-w-7xl mx-auto px-6 md:px-20">
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-900 text-center mb-4">
+            Everything you'd expect from Typeform
         </h2>
         <p class="text-lg text-center text-gray-700 max-w-2xl mx-auto mb-14">
-            Youform gives you all the tools professionals need for stunning, conversion-friendly forms, surveys, and quizzes — <span class="text-black">without the Typeform price tag.</span>
+            The same conversational form experience, with the advanced features you already rely on.
         </p>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
-                <div class="flex items-center justify-center mb-4">
-                    <svg class="w-10 h-10 text-aquamarine" fill="none" viewBox="0 0 64 64">
-                        <circle cx="12" cy="12" r="6" fill="currentColor"/><circle cx="52" cy="12" r="6" fill="currentColor"/><circle cx="12" cy="52" r="6" fill="currentColor"/><circle cx="52" cy="52" r="6" fill="currentColor"/>
-                        <path d="M12 18v28M18 12h28M52 18v28M18 52h28" stroke="currentColor" stroke-width="2"/>
-                        <path d="M12 18c0 13 40 13 40 0" stroke="currentColor" stroke-width="2" stroke-dasharray="4,4"/>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white rounded-2xl border-2 border-black p-7 drop-shadow-6xl">
+                <div class="mb-4">
+                    <svg class="w-9 h-9 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 7h4l2 4 4-8 2 4h6"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Advanced logic</h3>
-                <p class="text-base text-gray-700 text-center">Show or hide questions based on previous answers. Branch forms dynamically — just like Typeform, but free.</p>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Conditional logic</h3>
+                <p class="text-base text-gray-700">Show, hide, or branch questions based on previous answers. Included on the free plan.</p>
             </div>
-            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
-                <div class="flex items-center justify-center mb-4">
-                    <svg class="w-10 h-10 text-coral" fill="none" viewBox="0 0 30 30">
-                        <rect x="7" y="7" width="16" height="4" rx="2" fill="currentColor"/><rect x="7" y="13" width="16" height="4" rx="2" fill="currentColor"/><rect x="7" y="19" width="8" height="4" rx="2" fill="currentColor"/>
+
+            <div class="bg-white rounded-2xl border-2 border-black p-7 drop-shadow-6xl">
+                <div class="mb-4">
+                    <svg class="w-9 h-9 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="4" width="18" height="4" rx="1"/>
+                        <rect x="3" y="11" width="18" height="4" rx="1"/>
+                        <rect x="3" y="18" width="12" height="3" rx="1"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Multi-step layouts</h3>
-                <p class="text-base text-gray-700 text-center">The conversational, one-question-at-a-time experience Typeform is known for — included in Youform's free plan.</p>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Multi-step forms</h3>
+                <p class="text-base text-gray-700">One question at a time, animated transitions. The conversational experience Typeform is known for.</p>
             </div>
-            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
-                <div class="flex items-center justify-center mb-4">
-                    <svg class="w-10 h-10 text-purple-500" fill="none" viewBox="0 0 48 48">
-                        <path d="M18 19c0-3.3 2.5-5 6-5s6 1.7 6 5c0 3-2 4-4 5s-2 2-2 3" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="24" cy="34" r="2" fill="currentColor"/>
+
+            <div class="bg-white rounded-2xl border-2 border-black p-7 drop-shadow-6xl">
+                <div class="mb-4">
+                    <svg class="w-9 h-9 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 11l3 3L22 4M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Outcome-based quizzes</h3>
-                <p class="text-base text-gray-700 text-center">Build interactive quizzes with personalized results — ideal for lead generation, onboarding, and education.</p>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Outcome quizzes</h3>
+                <p class="text-base text-gray-700">Build quizzes with personalized results, scoring, and calculations — no extra add-on required.</p>
             </div>
-            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
-                <div class="flex items-center justify-center mb-4">
-                    <svg class="w-10 h-10 text-blue-500" fill="none" viewBox="0 0 48 48">
-                        <rect x="8" y="8" width="32" height="36" rx="4" stroke="currentColor" stroke-width="2" fill="none"/>
-                        <path d="M24 32V18" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M19 23l5-5 5 5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+            <div class="bg-white rounded-2xl border-2 border-black p-7 drop-shadow-6xl">
+                <div class="mb-4">
+                    <svg class="w-9 h-9 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7 16a4 4 0 01-.88-7.9 5 5 0 019.9-1A5.5 5.5 0 1118.5 16H7zM12 12v6m0-6l-2 2m2-2l2 2"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Flexible file uploads</h3>
-                <p class="text-base text-gray-700 text-center">Accept file uploads from respondents on any plan — no extra charges for storage.</p>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">File uploads</h3>
+                <p class="text-base text-gray-700">Accept file uploads on any plan. Unlimited file size on Youform PRO.</p>
             </div>
-            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
-                <div class="flex items-center justify-center mb-4">
-                    <svg class="w-10 h-10 text-green-500" fill="none" viewBox="0 0 48 48">
-                        <path d="M15 27l7 7 12-13" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+            <div class="bg-white rounded-2xl border-2 border-black p-7 drop-shadow-6xl">
+                <div class="mb-4">
+                    <svg class="w-9 h-9 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Partial submissions</h3>
-                <p class="text-base text-gray-700 text-center">Even if a respondent leaves before submitting, you can still view their partial data — something Typeform charges extra for.</p>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Partial submissions</h3>
+                <p class="text-base text-gray-700">See answers even when respondents drop off mid-form. Free on Youform, gated behind Typeform's $379/mo plan.</p>
             </div>
-            <div class="flex flex-col items-center bg-white/80 rounded-2xl border-2 border-black shadow-xl transition-all duration-200 p-7 group relative overflow-hidden">
-                <div class="flex items-center justify-center mb-4">
-                    <svg class="w-10 h-10 text-yellow-500" fill="none" viewBox="0 0 48 48">
-                        <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="17" cy="21" r="3" fill="currentColor"/><circle cx="31" cy="21" r="3" fill="currentColor"/>
-                        <path d="M17 31c2 2 10 2 14 0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+
+            <div class="bg-white rounded-2xl border-2 border-black p-7 drop-shadow-6xl">
+                <div class="mb-4">
+                    <svg class="w-9 h-9 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l-2 2m13 11V10l-2 2M3 19h18"/>
                     </svg>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-2 text-center">Analytics & drop-off tracking</h3>
-                <p class="text-base text-gray-700 text-center">Track views, starts, completion rate, and question-by-question drop-off with beautiful charts.</p>
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Drop-off analytics</h3>
+                <p class="text-base text-gray-700">Track views, starts, completion rate, and question-level drop-off. Advanced analytics at $29/month.</p>
             </div>
         </div>
-        <div class="mt-16 flex justify-center">
+
+        <div class="mt-14 flex justify-center">
             <a href="https://app.youform.com/register" class="inline-block px-10 py-3 rounded-md bg-coral border-2 border-black text-lg font-bold text-black drop-shadow-3xl hover:drop-shadow-4xl transition-all">
                 Try all features free
             </a>
@@ -568,56 +757,77 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
 <!-- Security & Compliance -->
 <div class="bg-white py-20 border-t-4 border-black">
     <div class="max-w-7xl mx-auto px-10 md:px-20 text-center">
-        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 mb-6">
-            Your data is safe with Youform
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 mb-4">
+            Your data stays safe
         </h2>
-        <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-12">
-            We take security seriously. Your form data is protected with industry-standard encryption and stored securely in the EU.
+        <p class="text-lg text-gray-700 max-w-2xl mx-auto mb-12">
+            Encrypted in transit, stored in the EU, and fully GDPR compliant.
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div class="bg-gray-50 border-2 border-black rounded-xl p-6 drop-shadow-3xl">
-                <div class="text-3xl mb-3">🔒</div>
-                <h3 class="text-lg font-bold mb-2">SSL Encryption</h3>
-                <p class="text-sm text-gray-600">All data is encrypted in transit with 256-bit SSL. Every form is served over HTTPS.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto text-left">
+            <div class="bg-white border-2 border-black rounded-2xl p-6 drop-shadow-6xl">
+                <div class="mb-3">
+                    <svg class="w-8 h-8 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-bold mb-2">256-bit SSL</h3>
+                <p class="text-sm text-gray-700">Every form is served over HTTPS. All data is encrypted in transit.</p>
             </div>
-            <div class="bg-gray-50 border-2 border-black rounded-xl p-6 drop-shadow-3xl">
-                <div class="text-3xl mb-3">🇪🇺</div>
-                <h3 class="text-lg font-bold mb-2">GDPR Compliant</h3>
-                <p class="text-sm text-gray-600">Fully GDPR compliant. We respect data privacy regulations and make compliance easy for you.</p>
+            <div class="bg-white border-2 border-black rounded-2xl p-6 drop-shadow-6xl">
+                <div class="mb-3">
+                    <svg class="w-8 h-8 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-bold mb-2">GDPR compliant</h3>
+                <p class="text-sm text-gray-700">Fully compliant with EU data privacy regulations, including data export and deletion.</p>
             </div>
-            <div class="bg-gray-50 border-2 border-black rounded-xl p-6 drop-shadow-3xl">
-                <div class="text-3xl mb-3">☁️</div>
-                <h3 class="text-lg font-bold mb-2">EU Data Storage</h3>
-                <p class="text-sm text-gray-600">All data is securely stored with AWS in the European Union for maximum data protection.</p>
+            <div class="bg-white border-2 border-black rounded-2xl p-6 drop-shadow-6xl">
+                <div class="mb-3">
+                    <svg class="w-8 h-8 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/>
+                    </svg>
+                </div>
+                <h3 class="text-lg font-bold mb-2">EU data storage</h3>
+                <p class="text-sm text-gray-700">Data is stored with AWS in the European Union and is GDPR compliant.</p>
             </div>
         </div>
     </div>
 </div>
 
 <!-- Who it's best for -->
-<div class="bg-amber-50 border-t-4 border-black">
+<div class="bg-medium-champagne border-t-4 border-black">
     <div class="relative max-w-7xl mx-auto py-20 px-10 md:px-20">
-        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center mb-10">
-            Who should use Youform vs Typeform?
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center mb-4">
+            Which one is right for you?
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
-            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-6xl">
-                <h3 class="text-2xl font-bold mb-4">Youform is ideal if you want:</h3>
-                <ul class="space-y-3 text-gray-700 text-sm md:text-base">
-                    <li>• A Typeform-like experience without the price tag</li>
-                    <li>• Unlimited forms and responses on the free plan</li>
-                    <li>• Branded, professional forms that convert</li>
-                    <li>• Custom domains without paying $99/month</li>
-                    <li>• Partial submissions and detailed analytics included</li>
+        <p class="text-center text-lg text-gray-700 max-w-2xl mx-auto mb-12">
+            An honest take — here's when each tool makes sense.
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <div class="bg-white border-2 border-black rounded-2xl p-8 drop-shadow-6xl">
+                <div class="flex items-center mb-5">
+                    <img src="/assets/images/youform-logo.png" alt="Youform" class="h-7">
+                </div>
+                <p class="text-base text-gray-700 mb-4">Pick Youform if you need:</p>
+                <ul class="space-y-2.5 text-gray-800 text-base">
+                    <li class="flex gap-2"><span class="text-gray-900 font-bold">—</span> Unlimited responses on the free plan</li>
+                    <li class="flex gap-2"><span class="text-gray-900 font-bold">—</span> Custom domain and branding without a $500/mo Enterprise plan</li>
+                    <li class="flex gap-2"><span class="text-gray-900 font-bold">—</span> Partial submissions and drop-off analytics included</li>
+                    <li class="flex gap-2"><span class="text-gray-900 font-bold">—</span> A flat $29/mo PRO plan, regardless of response volume</li>
+                    <li class="flex gap-2"><span class="text-gray-900 font-bold">—</span> Calendly, Cal.com, SavvyCal, or TidyCal integrations</li>
                 </ul>
             </div>
-            <div class="bg-white border-2 border-black rounded-xl p-6 drop-shadow-6xl">
-                <h3 class="text-2xl font-bold mb-4">Typeform is ideal if you want:</h3>
-                <ul class="space-y-3 text-gray-700 text-sm md:text-base">
-                    <li>• The original Typeform brand name recognition</li>
-                    <li>• Typeform's specific native integrations</li>
-                    <li>• You don't love your money</li>
-                    <li>• You love to get your form locked when it reaches submission limit :)</li>
+            <div class="bg-white border-2 border-black rounded-2xl p-8 drop-shadow-6xl">
+                <div class="flex items-center mb-5">
+                    <img src="/assets/images/typeform-logo.webp" alt="Typeform" class="h-7 rounded border border-gray-300 p-0.5">
+                </div>
+                <p class="text-base text-gray-700 mb-4">Stick with Typeform if you need:</p>
+                <ul class="space-y-2.5 text-gray-800 text-base">
+                    <li class="flex gap-2"><span class="text-gray-900 font-bold">—</span> A specific Typeform-only native integration</li>
+                    <li class="flex gap-2"><span class="text-gray-900 font-bold">—</span> The Typeform brand name for client-facing work</li>
+                    <li class="flex gap-2"><span class="text-gray-900 font-bold">—</span> HIPAA-compliant healthcare forms (on Enterprise)</li>
+                    <li class="flex gap-2"><span class="text-gray-900 font-bold">—</span> A workflow that's already deeply wired into Typeform's API</li>
                 </ul>
             </div>
         </div>
@@ -627,20 +837,20 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
 <!-- Migration steps -->
 <div class="bg-white">
     <div class="relative max-w-7xl mx-auto py-20 px-10 md:px-20">
-        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center mb-8">
-            Ready to switch from Typeform?
+        <h2 class="text-4xl sm:text-5xl font-bold text-gray-800 text-center mb-4">
+            Switching takes minutes
         </h2>
-        <p class="text-center text-lg text-gray-700 max-w-3xl mx-auto mb-10">
-            Moving from Typeform to Youform takes minutes. You can even import your existing Typeform directly.
+        <p class="text-center text-lg text-gray-700 max-w-2xl mx-auto mb-10">
+            Paste your existing Typeform URL and Youform imports the form for you.
         </p>
 
         <div class="max-w-4xl mx-auto bg-amber-50 border-2 border-black rounded-2xl p-8 drop-shadow-6xl">
-            <ol class="list-decimal list-inside space-y-3 text-gray-800 text-sm md:text-base">
-                <li>Copy your Typeform URL and use our <strong>Import from Typeform</strong> tool to recreate it instantly in Youform.</li>
-                <li>Customize the design to match your brand — add your logo, colors, and custom domain.</li>
-                <li>Set up integrations with Google Sheets, Slack, Zapier, webhooks, and more.</li>
-                <li>Share your new Youform via link, embed it on your website, or use a custom domain.</li>
-                <li>Enjoy unlimited responses — no more worrying about hitting response limits.</li>
+            <ol class="list-decimal list-inside space-y-3 text-gray-800 text-base">
+                <li>Paste your Typeform URL into the <strong>Import from Typeform</strong> tool. Youform recreates the form automatically.</li>
+                <li>Add your logo, colors, and custom domain.</li>
+                <li>Connect Google Sheets, Slack, Zapier, webhooks, or any of the 6,000+ Zapier apps.</li>
+                <li>Share the form as a link, embed, or on a custom domain.</li>
+                <li>Collect responses without hitting caps.</li>
             </ol>
         </div>
 
@@ -655,9 +865,9 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
 <!-- Templates section -->
 <div class="bg-gray-50 py-16 border-t-2 border-gray-200">
     <div class="max-w-4xl mx-auto text-center px-10 md:px-20">
-        <h2 class="text-3xl font-bold mb-4">500+ ready-made templates to get started</h2>
+        <h2 class="text-3xl font-bold mb-4">500+ ready-made templates</h2>
         <p class="text-lg text-gray-700 mb-8">
-            Don't start from scratch. Pick a template and customize it in minutes.
+            Pick one and customize it in minutes.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
             <a href="/templates/" class="inline-flex items-center px-6 py-3 bg-white border-2 border-black rounded-lg hover:bg-aquamarine transition-colors font-semibold">
@@ -686,7 +896,7 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
         <div class="space-y-6">
             <div class="border-2 border-black rounded-xl p-6">
                 <h3 class="text-xl font-bold mb-2">Is Youform really free?</h3>
-                <p class="text-gray-700">Yes! You can create unlimited forms and collect unlimited responses on the free plan. There are no hidden limits or surprise charges. We also offer a PRO plan at $29/month for advanced features like custom domains, removing branding, and more.</p>
+                <p class="text-gray-700">Yes. Unlimited forms and responses on the free plan, under fair-use limits. The PRO plan at $29/month unlocks custom domains, brand removal, advanced analytics, and a few other pro features.</p>
             </div>
 
             <div class="border-2 border-black rounded-xl p-6">
@@ -696,7 +906,7 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
 
             <div class="border-2 border-black rounded-xl p-6">
                 <h3 class="text-xl font-bold mb-2">Can I import my existing Typeform?</h3>
-                <p class="text-gray-700">Yes! Just copy your Typeform URL and paste it into our import tool. We'll recreate your form in Youform automatically. You can then customize the design, add integrations, and start collecting responses immediately.</p>
+                <p class="text-gray-700">Yes. Paste your Typeform URL into the import tool and Youform recreates the form for you. Then customize the design, wire up integrations, and start collecting responses.</p>
             </div>
 
             <div class="border-2 border-black rounded-xl p-6">

@@ -34,7 +34,7 @@
                         <li><a class="text-white hover:underline" href="/pricing">Pricing</a></li>
                         <li><a class="text-white hover:underline" href="/templates">Templates</a></li>
                         <li><a class="text-white hover:underline" href="/integrations">Integrations</a></li>
-                        <li><a class="text-white hover:underline" href="/online-form-builder">Form builder</a></li>
+                        <li><a class="text-white hover:underline" href="/">Form builder</a></li>
                         <li><a class="text-white hover:underline" href="/online-survey-builder">Survey builder</a></li>
                         <li><a class="text-white hover:underline" href="/online-quiz-builder">Quiz builder</a></li>
                     </ul>
@@ -95,7 +95,7 @@
                         <li><a class="text-white hover:underline" href="/google-forms-alternative">Google Forms alternative</a></li>
                         <li><a class="text-white hover:underline" href="/fillout-alternative">Fillout alternative</a></li>
                         <li><a class="text-white hover:underline" href="/jotform-alternative">Jotform alternative</a></li>
-                        <li><a class="text-white hover:underline" href="/tally-forms-alternative">Tally Forms alternative</a></li>
+
                     </ul>
                 </div>
             </div>

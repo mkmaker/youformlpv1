@@ -16,13 +16,17 @@ module.exports = {
         'sasquatch-socks': '#FF4F7E',
 
       },
+      fontFamily: {
+        'sans': ['"DM Sans"', 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+        'display': ['"Bricolage Grotesque"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
       dropShadow: {
         '3xl': '3px 3px 0px rgba(0, 0, 0, 1)',
         '4xl': '5px 5px 0px rgba(0, 0, 0, 1)',
         '5xl': '6px 6px 0px rgba(0, 0, 0, 1)',
         '6xl': '7px 7px 0px rgba(0, 0, 0, 1)',
       }
-      
+
     }
   },
   plugins: [

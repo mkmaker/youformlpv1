@@ -7,7 +7,7 @@ return [
     'baseUrl' => 'https://youformlpv1.test',
     'appUrl' => 'https://app.youform.com',
     'aiApiUrl' => 'https://youform.test',
-    'title' => 'Youform - Free Online Form Builder | Unlimited Forms & Responses',
+    'title' => 'Youform - The Most Affordable Form Builder | Unlimited Forms & Responses',
     'description' => 'Build beautiful forms, surveys, and quizzes for free. Unlimited forms and responses, drag-and-drop builder, 500+ templates, and 6000+ integrations. No coding required.',
     'current' => function ($page, $section) {
         return Str::contains($page->getPath(), $section) ? 'underline' : '';
