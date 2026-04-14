@@ -20,7 +20,7 @@
                         <span>on Capterra &rarr;</span>
                     </a>
                     <h1 class="text-center lg:text-left text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold tracking-tight text-balance">
-                        The most <span class="relative inline-block">affordable<svg aria-hidden="true" class="pointer-events-none absolute inset-x-0 -bottom-1 w-full text-coral" viewBox="0 0 200 14" fill="none" preserveAspectRatio="none"><path d="M3 9 C 50 2, 130 14, 197 6" stroke="currentColor" stroke-width="6" stroke-linecap="round"/></svg></span> form builder
+                        The most affordable form builder
                     </h1>
                     <p class="text-center lg:text-left text-base mt-6">
                         Youform is a form builder that provides UNLIMITED forms and responses for FREE. Build <a href="/templates/c/forms" class="underline hover:no-underline">forms</a>, <a href="/online-quiz-builder/" class="underline hover:no-underline">quizzes</a>, and <a href="/online-survey-builder/" class="underline hover:no-underline">surveys</a> with logic, custom domains, file uploads, embeds, and much more 🤓
@@ -87,7 +87,7 @@
 
                         <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png?v=2" alt="blob decoration image">
 
-                        <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
+                        <iframe src="https://app.youform.com/forms/xrjcjyti" title="Youform demo form" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
 
                     </div>
 
@@ -214,6 +214,8 @@
                         src="/assets/images/youform-builder-new.png"
                         alt="Youform Builder"
                         loading="lazy"
+                        width="1920"
+                        height="1080"
                         class="w-full h-auto object-cover object-left"
                         style="min-height: 600px"
                     >
@@ -258,7 +260,7 @@
     </div>
 
     <div>
-        <img class="-mt-4 w-full" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
+        <img class="-mt-4 w-full" loading="lazy" width="1920" height="220" src="/assets/images/banner-wave.png" alt="wave decoration image">
     </div>
 </div>
 
@@ -389,7 +391,7 @@ $socialStats = [
                     <h3 class="font-display text-gray-900 leading-[1.05]"
                         style="font-size: clamp(1.75rem, 3.4vw, 2.4rem); font-variation-settings: 'wdth' 100, 'wght' 760;">
                         Same conversational forms.<br>
-                        <span class="italic" style="font-variation-settings: 'wdth' 95, 'wght' 800, 'slnt' -10;">$70 less per month.</span>
+                        <span class="italic" style="font-variation-settings: 'wdth' 95, 'wght' 800, 'slnt' -10;">At $0 flat</span>
                     </h3>
                     <p class="mt-5 text-gray-700 text-base md:text-lg leading-relaxed max-w-[52ch]">
                         Multi-step conversational forms, conditional logic, signatures, and integrations — all free, with unlimited responses. Payments and custom domains are on Pro ($29/mo), not Enterprise.
@@ -408,15 +410,15 @@ $socialStats = [
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Monthly cost</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">$99</span>
-                            <span class="font-display text-4xl md:text-[44px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">$29</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">$99</span>
+                            <span class="font-display text-4xl md:text-[44px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">$0</span>
                         </div>
                     </div>
                     <div class="h-px bg-black/10"></div>
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Free responses</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">10/mo</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">10/mo</span>
                             <span class="font-display text-3xl md:text-[34px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">Unlimited</span>
                         </div>
                     </div>
@@ -458,7 +460,7 @@ $socialStats = [
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Multi-step forms</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">Single page</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">Single page</span>
                             <span class="font-display text-3xl md:text-[34px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">Built-in</span>
                         </div>
                     </div>
@@ -466,7 +468,7 @@ $socialStats = [
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Block library</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">~10</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">~10</span>
                             <span class="font-display text-4xl md:text-[44px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">30+</span>
                         </div>
                     </div>
@@ -508,7 +510,7 @@ $socialStats = [
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Free submissions</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">100/mo</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">100/mo</span>
                             <span class="font-display text-3xl md:text-[34px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">Unlimited</span>
                         </div>
                     </div>
@@ -516,7 +518,7 @@ $socialStats = [
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Form limit</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">5</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">5</span>
                             <span class="font-display text-4xl md:text-[44px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">∞</span>
                         </div>
                     </div>
@@ -524,7 +526,7 @@ $socialStats = [
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Partial submissions</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">Paid</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">Paid</span>
                             <span class="font-display text-3xl md:text-[34px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">Free</span>
                         </div>
                     </div>
@@ -574,7 +576,7 @@ $socialStats = [
                         <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                         <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                         <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                        <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">app.youform.com / customer-feedback / responses</span>
+                        <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">app.youform.com / customer-feedback / responses</span>
                     </div>
 
                     {{-- Counter --}}
@@ -612,7 +614,7 @@ $socialStats = [
                                 <p class="text-sm font-semibold text-black truncate">{{ $row['name'] }}</p>
                                 <p class="text-[11px] text-gray-500 truncate">{{ $row['tag'] }} · {{ $row['time'] }}</p>
                             </div>
-                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-aquamarine">New</span>
+                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-emerald-700">New</span>
                         </div>
                         @endforeach
                     </div>
@@ -671,7 +673,7 @@ $socialStats = [
                     <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                     <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                     <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                    <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">app.youform.com / forms / new</span>
+                    <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">app.youform.com / forms / new</span>
                 </div>
                 <video
                     x-ref="builderVideo"
@@ -972,7 +974,7 @@ $socialStats = [
                             <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                             <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                             <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                            <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">Lead capture form</span>
+                            <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">Lead capture form</span>
                         </div>
 
                         {{-- Form preview --}}
@@ -1151,7 +1153,7 @@ $socialStats = [
                             <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                             <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                             <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                            <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">Lead capture form</span>
+                            <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">Lead capture form</span>
                         </div>
                         <div class="p-5 md:p-6">
                             <p class="font-display text-gray-900 text-lg md:text-xl" style="font-variation-settings: 'wdth' 100, 'wght' 760;">Tell us about yourself</p>
@@ -1349,7 +1351,7 @@ $socialStats = [
                                  }"
                                  style="width: 40%"></div>
                         </div>
-                        <p class="text-[11px] text-black/50 mt-2 font-semibold">Question 2 of 5</p>
+                        <p class="text-[11px] text-gray-600 mt-2 font-semibold">Question 2 of 5</p>
 
                         {{-- Question --}}
                         <p class="text-2xl md:text-3xl text-black leading-tight mt-5"
@@ -1368,7 +1370,7 @@ $socialStats = [
 
                         {{-- Input --}}
                         <div class="mt-5">
-                            <input type="text" value="Sarah Kim" readonly
+                            <input type="text" value="Sarah Kim" readonly aria-label="Demo response: full name"
                                    class="w-full bg-white border-2 border-black rounded-lg px-4 py-3 text-lg text-black focus:outline-none"
                                    :class="{
                                       'font-display': font === 'display',
@@ -1402,19 +1404,19 @@ $socialStats = [
                         <div>
                             <p class="text-[9px] uppercase tracking-[0.2em] font-bold text-black/55 mb-2">Color</p>
                             <div class="flex gap-1.5">
-                                <button type="button" x-ref="colorCoralRef" @click="stop(); color = 'coral'"
+                                <button type="button" x-ref="colorCoralRef" @click="stop(); color = 'coral'" aria-label="Coral color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-coral transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'coral' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="colorAquaRef" @click="stop(); color = 'aquamarine'"
+                                <button type="button" x-ref="colorAquaRef" @click="stop(); color = 'aquamarine'" aria-label="Aquamarine color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-aquamarine transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'aquamarine' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="colorVioletRef" @click="stop(); color = 'pale-violet'"
+                                <button type="button" x-ref="colorVioletRef" @click="stop(); color = 'pale-violet'" aria-label="Pale violet color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-pale-violet transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'pale-violet' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="colorYellowRef" @click="stop(); color = 'vivid-yellow'"
+                                <button type="button" x-ref="colorYellowRef" @click="stop(); color = 'vivid-yellow'" aria-label="Vivid yellow color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-vivid-yellow transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'vivid-yellow' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="colorRoseRef" @click="stop(); color = 'lavender-rose'"
+                                <button type="button" x-ref="colorRoseRef" @click="stop(); color = 'lavender-rose'" aria-label="Lavender rose color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-lavender-rose transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'lavender-rose' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
                             </div>
@@ -1436,16 +1438,16 @@ $socialStats = [
                         <div>
                             <p class="text-[9px] uppercase tracking-[0.2em] font-bold text-black/55 mb-2">Background</p>
                             <div class="flex gap-1.5">
-                                <button type="button" x-ref="bgWhiteRef" @click="stop(); bg = 'white'"
+                                <button type="button" x-ref="bgWhiteRef" @click="stop(); bg = 'white'" aria-label="White background"
                                         class="w-7 h-7 rounded-md border-2 border-black bg-white transition-all hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="bg === 'white' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="bgChampagneRef" @click="stop(); bg = 'champagne'"
+                                <button type="button" x-ref="bgChampagneRef" @click="stop(); bg = 'champagne'" aria-label="Champagne background"
                                         class="w-7 h-7 rounded-md border-2 border-black bg-medium-champagne transition-all hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="bg === 'champagne' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="bgVioletRef" @click="stop(); bg = 'violet-tint'"
+                                <button type="button" x-ref="bgVioletRef" @click="stop(); bg = 'violet-tint'" aria-label="Violet tint background"
                                         class="w-7 h-7 rounded-md border-2 border-black bg-[#ede0ff] transition-all hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="bg === 'violet-tint' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="bgMintRef" @click="stop(); bg = 'mint'"
+                                <button type="button" x-ref="bgMintRef" @click="stop(); bg = 'mint'" aria-label="Mint background"
                                         class="w-7 h-7 rounded-md border-2 border-black bg-[#dcf3ec] transition-all hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="bg === 'mint' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
                             </div>
@@ -1481,7 +1483,7 @@ $socialStats = [
                         <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                         <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                         <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                        <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">app.youform.com / settings / privacy</span>
+                        <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">app.youform.com / settings / privacy</span>
                     </div>
 
                     {{-- Dashboard header --}}
@@ -1643,12 +1645,12 @@ $socialStats = [
                                 <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                                <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">yourbrand.com/contact</span>
+                                <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">yourbrand.com/contact</span>
                             </div>
                             <div class="p-5 md:p-6">
                                 <p class="font-display text-xl text-black" style="font-variation-settings: 'wdth' 100, 'wght' 760;">Get in touch</p>
                                 <p class="text-sm text-gray-600 mt-1 mb-4">Fill out the form below — we reply within 24 hours.</p>
-                                <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="560" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full border-2 border-black rounded-xl"></iframe>
+                                <iframe src="https://app.youform.com/forms/xrjcjyti" title="Embedded contact form preview" loading="lazy" width="100%" height="560" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full border-2 border-black rounded-xl"></iframe>
                             </div>
                         </div>
                     </div>
@@ -1670,7 +1672,7 @@ $socialStats = [
                                 <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                                <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">yourbrand.com</span>
+                                <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">yourbrand.com</span>
                             </div>
                             <div class="relative p-8 md:p-10 min-h-[580px]">
                                 {{-- Fake landing page --}}
@@ -1710,7 +1712,7 @@ $socialStats = [
                                                 aria-label="Close">
                                             <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
                                         </button>
-                                        <iframe :src="popupOpen ? 'https://app.youform.com/forms/xrjcjyti' : ''" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full"></iframe>
+                                        <iframe :src="popupOpen ? 'https://app.youform.com/forms/xrjcjyti' : ''" title="Popup form preview" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -1734,7 +1736,7 @@ $socialStats = [
                                 <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                                <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">Inbox — 1 new message</span>
+                                <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">Inbox — 1 new message</span>
                             </div>
                             <div class="px-5 md:px-6 py-4 border-b-2 border-black/10">
                                 <div class="flex items-start gap-3">
@@ -1751,7 +1753,7 @@ $socialStats = [
                             </div>
                             <div class="px-5 md:px-6 py-5">
                                 <p class="text-sm text-gray-700 leading-relaxed mb-4">Hi Sarah, thanks for choosing us! Got 10 seconds? Answer below and we'll take it from there.</p>
-                                <iframe src="https://app.youform.com/forms/mfhnukq1" loading="lazy" width="100%" height="320" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full border-2 border-black rounded-xl"></iframe>
+                                <iframe src="https://app.youform.com/forms/mfhnukq1" title="In-email form preview" loading="lazy" width="100%" height="320" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full border-2 border-black rounded-xl"></iframe>
                                 <p class="text-[11px] text-gray-500 mt-3">The first question lives right in the email body. Clicking an option opens the rest of the form in the browser.</p>
                             </div>
                         </div>
@@ -1843,7 +1845,7 @@ $socialStats = [
                                 </div>
                                 <span class="ml-2 inline-flex items-center px-2 py-0.5 bg-black text-white border border-black rounded text-[9px] font-bold uppercase tracking-wider">Pro</span>
                             </div>
-                            <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="560" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full"></iframe>
+                            <iframe src="https://app.youform.com/forms/xrjcjyti" title="Custom-domain form preview" loading="lazy" width="100%" height="560" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full"></iframe>
                         </div>
                     </div>
                 </div>
@@ -1887,7 +1889,7 @@ $dropoffRows = [
         {{-- Feature 1: Stats + trend chart --}}
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-20 md:mb-24">
             <div class="lg:col-span-5">
-                <p class="text-[10px] font-bold uppercase tracking-[0.22em] text-coral mb-3">01 · Overview</p>
+                <p class="text-[10px] font-bold uppercase tracking-[0.22em] text-orange-700 mb-3">01 · Overview</p>
                 <h3 class="font-display text-3xl md:text-4xl text-black leading-tight mb-4" style="font-variation-settings: 'wdth' 100, 'wght' 760;">
                     See the <span class="italic" style="font-variation-settings: 'wdth' 92, 'wght' 800, 'slnt' -12;">big picture.</span>
                 </h3>
@@ -2024,7 +2026,7 @@ $dropoffRows = [
                                 <svg class="w-3 h-3 text-black/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="13" y2="16"/></svg>
                             </span>
                             <span class="flex-1 truncate">{{ $row['title'] }}</span>
-                            <span class="w-16 text-right font-semibold tabular-nums {{ $row['tone'] === 'high' ? 'text-red-600' : ($row['tone'] === 'med' ? 'text-orange-600' : 'text-green-700') }}">{{ $row['pct'] }}%</span>
+                            <span class="w-16 text-right font-semibold tabular-nums {{ $row['tone'] === 'high' ? 'text-red-600' : ($row['tone'] === 'med' ? 'text-orange-700' : 'text-green-700') }}">{{ $row['pct'] }}%</span>
                         </div>
                         @endforeach
                     </div>
@@ -2161,10 +2163,10 @@ $activityLog = [
                                 <span class="font-semibold text-black">{{ $a['who'] }}</span>
                                 {{ $a['verb'] }}
                                 <span class="font-semibold text-black">"{{ $a['target'] }}"</span>
-                                <span class="text-gray-400">· {{ $a['workspace'] }}</span>
+                                <span class="text-gray-600">· {{ $a['workspace'] }}</span>
                             </p>
                         </div>
-                        <span class="shrink-0 text-[10px] text-gray-400 tabular-nums">{{ $a['time'] }}</span>
+                        <span class="shrink-0 text-[10px] text-gray-600 tabular-nums">{{ $a['time'] }}</span>
                     </li>
                     @endforeach
                 </ul>
@@ -2427,7 +2429,7 @@ $integrations = [
                 <h3 class="text-xl font-bold mb-2">Can I embed forms on any website?</h3>
                 <p class="text-gray-700">
                     Absolutely! Embed on WordPress, Wix, Squarespace, Webflow, or custom sites. Just copy and paste the embed code or share a link.
-                    You can check our <a href="https://help.youform.com/p/qehb-giztQHToz/How-to-embed-Youform-in-my-website" class="text-coral underline hover:no-underline" target="_blank">help center</a> for more information.
+                    You can check our <a href="https://help.youform.com/p/qehb-giztQHToz/How-to-embed-Youform-in-my-website" class="text-orange-700 underline hover:no-underline" target="_blank">help center</a> for more information.
                 </p>
             </div>
 

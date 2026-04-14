@@ -35,9 +35,11 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet">
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+        <noscript><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet"></noscript>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=6934a0089a7c58307da04d74b2393202">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=65ef9addb18db7b1ced9e619725152ad">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         
@@ -60,7 +62,7 @@
     <body class="text-gray-900 font-sans antialiased relative">
         
 
-        <div class="">
+        <main class="">
             
 <div class="bg-amber-50 pb-20">
 
@@ -70,8 +72,8 @@
     <div x-data="{ open: false }" class="relative overflow-hidden">
         <div class="flex justify-between items-center px-10 py-4 md:py-8 md:px-20">
             <div>
-                <a href="/">
-                    <img src="/assets/images/logo.png" width="170px" alt="">
+                <a href="/" aria-label="Youform home">
+                    <img src="/assets/images/logo.png" width="170" height="27" alt="Youform">
                 </a>
             </div>
             <div class="hidden lg:block capitalize space-x-6">
@@ -88,7 +90,7 @@
                     Sign Up
                 </a>
             </div>
-            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open">
+            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open" aria-label="Toggle navigation menu" :aria-expanded="open">
                 <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -325,23 +327,23 @@
     <div class="mx-auto max-w-6xl px-10 md:px-20 py-16">
         <div class="flex items-start justify-between flex-col lg:flex-row space-y-10 lg:space-y-0">
             <div>
-                <a href="/">
-                    <img class="mx-auto rounded-full" width="60px" src="/assets/images/youform-logo-white-bg.jpg" alt="Youform">
+                <a href="/" aria-label="Youform home">
+                    <img class="mx-auto rounded-full" width="60" height="60" src="/assets/images/youform-logo-white-bg.jpg" alt="Youform">
                 </a>
                 <div class="flex items-center justify-center lg:justify-start mt-4 space-x-3">
-                    <a href="https://x.com/youformdotcom" class="text-white flex items-center hover:underline" target="_blank">
+                    <a href="https://x.com/youformdotcom" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on X">
                         
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
                     </a>
 
-                    <a href="https://www.linkedin.com/company/youform.com" class="text-white flex items-center hover:underline" target="_blank">
+                    <a href="https://www.linkedin.com/company/youform.com" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on LinkedIn">
                         
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="32" width="192" height="192" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="88" cy="84" r="12"/></svg>
                     </a>
 
-                    <a href="https://www.youtube.com/@youform" class="text-white flex items-center hover:underline" target="_blank">
+                    <a href="https://www.youtube.com/@youform" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on YouTube">
                         
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M24,128c0,29.91,3.07,47.45,5.41,56.47A16,16,0,0,0,39,195.42C72.52,208.35,128,208,128,208s55.48.35,89-12.58a16,16,0,0,0,9.63-10.95c2.34-9,5.41-26.56,5.41-56.47s-3.07-47.45-5.41-56.47a16,16,0,0,0-9.63-11C183.48,47.65,128,48,128,48s-55.48-.35-89,12.58a16,16,0,0,0-9.63,11C27.07,80.54,24,98.09,24,128Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -440,7 +442,7 @@
     
 
 </div>
-        </div>
+        </main>
 
         <div x-data="{ show: false }">
             <div x-transition x-cloak x-show="show" class="fixed bottom-16 right-5 bg-white border rounded-md text-sm border-black drop-shadow-3xl divide-y divide-gray-200">
@@ -455,7 +457,7 @@
                 </a>
             </div>
 
-            <button @click="show = !show" @click.away="show = false" type="button" class="rounded-full p-2 bg-coral shadow-md fixed bottom-4 right-5 text-black border-black drop-shadow-3xl hover:drop-shadow-2xl border flex items-center justify-center">
+            <button @click="show = !show" @click.away="show = false" type="button" aria-label="Help and feedback" :aria-expanded="show" class="rounded-full p-2 bg-coral shadow-md fixed bottom-4 right-5 text-black border-black drop-shadow-3xl hover:drop-shadow-2xl border flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 0 1 1.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 0 0-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 0 1 0 9.424m-4.138-5.976a3.736 3.736 0 0 0-.88-1.388 3.737 3.737 0 0 0-1.388-.88m2.268 2.268a3.765 3.765 0 0 1 0 2.528m-2.268-4.796a3.765 3.765 0 0 0-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 0 1-1.388.88m2.268-2.268 4.138 3.448m0 0a9.027 9.027 0 0 1-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0-3.448-4.138m3.448 4.138a9.014 9.014 0 0 1-9.424 0m5.976-4.138a3.765 3.765 0 0 1-2.528 0m0 0a3.736 3.736 0 0 1-1.388-.88 3.737 3.737 0 0 1-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 0 1-1.652-1.306 9.027 9.027 0 0 1-1.306-1.652m0 0 4.138-3.448M4.33 16.712a9.014 9.014 0 0 1 0-9.424m4.138 5.976a3.765 3.765 0 0 1 0-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 0 1 1.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 0 0-1.652 1.306A9.025 9.025 0 0 0 4.33 7.288" />
                 </svg>                 

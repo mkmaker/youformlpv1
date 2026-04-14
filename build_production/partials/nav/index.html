@@ -2,8 +2,8 @@
     <div x-data="{ open: false }" class="relative overflow-hidden">
         <div class="flex justify-between items-center px-10 py-4 md:py-8 md:px-20">
             <div>
-                <a href="/">
-                    <img src="/assets/images/logo.png" width="170px" alt="">
+                <a href="/" aria-label="Youform home">
+                    <img src="/assets/images/logo.png" width="170" height="27" alt="Youform">
                 </a>
             </div>
             <div class="hidden lg:block capitalize space-x-6">
@@ -20,7 +20,7 @@
                     Sign Up
                 </a>
             </div>
-            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open">
+            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open" aria-label="Toggle navigation menu" :aria-expanded="open">
                 <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>

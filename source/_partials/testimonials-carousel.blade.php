@@ -132,7 +132,7 @@
                         <div class="h-full flex flex-col rounded-xl p-6 sm:p-8 transition-all duration-500"
                              :class="i === pos
                                  ? 'bg-white border-2 border-black'
-                                 : 'bg-white border border-gray-200 opacity-50'"
+                                 : 'bg-white border border-gray-200 opacity-75'"
                              :style="i === pos ? 'box-shadow: 3px 3px 0px rgba(0,0,0,1)' : ''"
                             <!-- Stars -->
                             <div class="flex items-center space-x-0.5 mb-3">
@@ -148,7 +148,7 @@
                                 x-html="'&ldquo;' + t.title + '&rdquo;'"></h3>
 
                             <!-- Body -->
-                            <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-6 flex-grow"
+                            <p class="text-gray-700 text-sm sm:text-base leading-relaxed mb-6 flex-grow"
                                x-text="t.body"></p>
 
                             <!-- Author -->
@@ -163,7 +163,7 @@
                                 </template>
                                 <div>
                                     <p class="font-semibold text-gray-900 text-sm" x-text="t.name"></p>
-                                    <p class="text-gray-500 text-xs" x-text="t.role + ' · ' + t.industry"></p>
+                                    <p class="text-gray-700 text-xs" x-text="t.role + ' · ' + t.industry"></p>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +174,7 @@
 
         <!-- Navigation: arrows + dots -->
         <div class="flex items-center justify-center space-x-6 mt-8">
-            <button @click="prev()" class="text-gray-400 hover:text-black transition-colors p-1">
+            <button @click="prev()" aria-label="Previous testimonial" class="text-gray-500 hover:text-black transition-colors p-1">
                 <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                     <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                 </svg>
@@ -182,12 +182,15 @@
             <div class="flex items-center space-x-2">
                 <template x-for="(t, i) in testimonials" :key="'d'+i">
                     <button @click="goTo(i)"
-                            class="rounded-full transition-all duration-300"
-                            :class="currentCard === i ? 'bg-black w-6 h-2' : 'bg-gray-300 hover:bg-gray-400 w-2 h-2'">
+                            :aria-label="'Go to testimonial ' + (i + 1)"
+                            :aria-current="currentCard === i ? 'true' : 'false'"
+                            class="inline-flex items-center justify-center w-6 h-6">
+                        <span class="rounded-full transition-all duration-300 block"
+                              :class="currentCard === i ? 'bg-black w-6 h-2' : 'bg-gray-300 hover:bg-gray-400 w-2 h-2'"></span>
                     </button>
                 </template>
             </div>
-            <button @click="next()" class="text-gray-400 hover:text-black transition-colors p-1">
+            <button @click="next()" aria-label="Next testimonial" class="text-gray-500 hover:text-black transition-colors p-1">
                 <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                     <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clip-rule="evenodd" />
                 </svg>

@@ -2,23 +2,23 @@
     <div class="mx-auto max-w-6xl px-10 md:px-20 py-16">
         <div class="flex items-start justify-between flex-col lg:flex-row space-y-10 lg:space-y-0">
             <div>
-                <a href="/">
-                    <img class="mx-auto rounded-full" width="60px" src="/assets/images/youform-logo-white-bg.jpg" alt="Youform">
+                <a href="/" aria-label="Youform home">
+                    <img class="mx-auto rounded-full" width="60" height="60" src="/assets/images/youform-logo-white-bg.jpg" alt="Youform">
                 </a>
                 <div class="flex items-center justify-center lg:justify-start mt-4 space-x-3">
-                    <a href="https://x.com/youformdotcom" class="text-white flex items-center hover:underline" target="_blank">
+                    <a href="https://x.com/youformdotcom" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on X">
                         
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
                     </a>
 
-                    <a href="https://www.linkedin.com/company/youform.com" class="text-white flex items-center hover:underline" target="_blank">
+                    <a href="https://www.linkedin.com/company/youform.com" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on LinkedIn">
                         
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="32" width="192" height="192" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="88" cy="84" r="12"/></svg>
                     </a>
 
-                    <a href="https://www.youtube.com/@youform" class="text-white flex items-center hover:underline" target="_blank">
+                    <a href="https://www.youtube.com/@youform" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on YouTube">
                         
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M24,128c0,29.91,3.07,47.45,5.41,56.47A16,16,0,0,0,39,195.42C72.52,208.35,128,208,128,208s55.48.35,89-12.58a16,16,0,0,0,9.63-10.95c2.34-9,5.41-26.56,5.41-56.47s-3.07-47.45-5.41-56.47a16,16,0,0,0-9.63-11C183.48,47.65,128,48,128,48s-55.48-.35-89,12.58a16,16,0,0,0-9.63,11C27.07,80.54,24,98.09,24,128Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>

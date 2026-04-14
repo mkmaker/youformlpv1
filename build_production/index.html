@@ -35,9 +35,11 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet">
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+        <noscript><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet"></noscript>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=6934a0089a7c58307da04d74b2393202">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=65ef9addb18db7b1ced9e619725152ad">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         
@@ -116,7 +118,7 @@
     <body class="text-gray-900 font-sans antialiased relative">
         
 
-        <div class="">
+        <main class="">
             
 <!-- header -->
 <div>
@@ -126,8 +128,8 @@
     <div x-data="{ open: false }" class="relative overflow-hidden">
         <div class="flex justify-between items-center px-10 py-4 md:py-8 md:px-20">
             <div>
-                <a href="/">
-                    <img src="/assets/images/logo.png" width="170px" alt="">
+                <a href="/" aria-label="Youform home">
+                    <img src="/assets/images/logo.png" width="170" height="27" alt="Youform">
                 </a>
             </div>
             <div class="hidden lg:block capitalize space-x-6">
@@ -144,7 +146,7 @@
                     Sign Up
                 </a>
             </div>
-            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open">
+            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open" aria-label="Toggle navigation menu" :aria-expanded="open">
                 <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -185,7 +187,7 @@
                         <span>on Capterra &rarr;</span>
                     </a>
                     <h1 class="text-center lg:text-left text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-semibold tracking-tight text-balance">
-                        The most <span class="relative inline-block">affordable<svg aria-hidden="true" class="pointer-events-none absolute inset-x-0 -bottom-1 w-full text-coral" viewBox="0 0 200 14" fill="none" preserveAspectRatio="none"><path d="M3 9 C 50 2, 130 14, 197 6" stroke="currentColor" stroke-width="6" stroke-linecap="round"/></svg></span> form builder
+                        The most affordable form builder
                     </h1>
                     <p class="text-center lg:text-left text-base mt-6">
                         Youform is a form builder that provides UNLIMITED forms and responses for FREE. Build <a href="/templates/c/forms" class="underline hover:no-underline">forms</a>, <a href="/online-quiz-builder/" class="underline hover:no-underline">quizzes</a>, and <a href="/online-survey-builder/" class="underline hover:no-underline">surveys</a> with logic, custom domains, file uploads, embeds, and much more 🤓
@@ -252,7 +254,7 @@
 
                         <img class="absolute -right-28 -top-12 w-96 -z-10" src="/assets/images/banner-blob.png?v=2" alt="blob decoration image">
 
-                        <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
+                        <iframe src="https://app.youform.com/forms/xrjcjyti" title="Youform demo form" loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" class="rounded-md shadow border-2 border-black drop-shadow-6xl"></iframe>
 
                     </div>
 
@@ -379,6 +381,8 @@
                         src="/assets/images/youform-builder-new.png"
                         alt="Youform Builder"
                         loading="lazy"
+                        width="1920"
+                        height="1080"
                         class="w-full h-auto object-cover object-left"
                         style="min-height: 600px"
                     >
@@ -423,7 +427,7 @@
     </div>
 
     <div>
-        <img class="-mt-4 w-full" loading="lazy" src="/assets/images/banner-wave.png" alt="wave decoration image">
+        <img class="-mt-4 w-full" loading="lazy" width="1920" height="220" src="/assets/images/banner-wave.png" alt="wave decoration image">
     </div>
 </div>
 
@@ -557,7 +561,7 @@
                     <h3 class="font-display text-gray-900 leading-[1.05]"
                         style="font-size: clamp(1.75rem, 3.4vw, 2.4rem); font-variation-settings: 'wdth' 100, 'wght' 760;">
                         Same conversational forms.<br>
-                        <span class="italic" style="font-variation-settings: 'wdth' 95, 'wght' 800, 'slnt' -10;">$70 less per month.</span>
+                        <span class="italic" style="font-variation-settings: 'wdth' 95, 'wght' 800, 'slnt' -10;">At $0 flat</span>
                     </h3>
                     <p class="mt-5 text-gray-700 text-base md:text-lg leading-relaxed max-w-[52ch]">
                         Multi-step conversational forms, conditional logic, signatures, and integrations — all free, with unlimited responses. Payments and custom domains are on Pro ($29/mo), not Enterprise.
@@ -576,15 +580,15 @@
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Monthly cost</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">$99</span>
-                            <span class="font-display text-4xl md:text-[44px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">$29</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">$99</span>
+                            <span class="font-display text-4xl md:text-[44px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">$0</span>
                         </div>
                     </div>
                     <div class="h-px bg-black/10"></div>
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Free responses</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">10/mo</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">10/mo</span>
                             <span class="font-display text-3xl md:text-[34px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">Unlimited</span>
                         </div>
                     </div>
@@ -626,7 +630,7 @@
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Multi-step forms</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">Single page</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">Single page</span>
                             <span class="font-display text-3xl md:text-[34px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">Built-in</span>
                         </div>
                     </div>
@@ -634,7 +638,7 @@
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Block library</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">~10</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">~10</span>
                             <span class="font-display text-4xl md:text-[44px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">30+</span>
                         </div>
                     </div>
@@ -676,7 +680,7 @@
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Free submissions</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">100/mo</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">100/mo</span>
                             <span class="font-display text-3xl md:text-[34px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">Unlimited</span>
                         </div>
                     </div>
@@ -684,7 +688,7 @@
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Form limit</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">5</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">5</span>
                             <span class="font-display text-4xl md:text-[44px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">∞</span>
                         </div>
                     </div>
@@ -692,7 +696,7 @@
                     <div>
                         <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-gray-500">Partial submissions</p>
                         <div class="flex items-baseline gap-3 mt-1.5">
-                            <span class="text-gray-400 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">Paid</span>
+                            <span class="text-gray-500 line-through font-display text-2xl" style="font-variation-settings: 'wdth' 100, 'wght' 700;">Paid</span>
                             <span class="font-display text-3xl md:text-[34px] text-gray-900 leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">Free</span>
                         </div>
                     </div>
@@ -742,7 +746,7 @@
                         <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                         <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                         <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                        <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">app.youform.com / customer-feedback / responses</span>
+                        <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">app.youform.com / customer-feedback / responses</span>
                     </div>
 
                     
@@ -771,7 +775,7 @@
                                 <p class="text-sm font-semibold text-black truncate">Sarah K.</p>
                                 <p class="text-[11px] text-gray-500 truncate">NPS · 12s ago</p>
                             </div>
-                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-aquamarine">New</span>
+                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-emerald-700">New</span>
                         </div>
                                                 <div class="flex items-center gap-3 px-5 md:px-7 py-3">
                             <span class="shrink-0 w-8 h-8 rounded-lg border-2 border-black bg-vivid-yellow flex items-center justify-center font-display text-black text-sm" style="font-variation-settings: 'wdth' 100, 'wght' 800;">M</span>
@@ -779,7 +783,7 @@
                                 <p class="text-sm font-semibold text-black truncate">Marcus T.</p>
                                 <p class="text-[11px] text-gray-500 truncate">Email · 34s ago</p>
                             </div>
-                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-aquamarine">New</span>
+                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-emerald-700">New</span>
                         </div>
                                                 <div class="flex items-center gap-3 px-5 md:px-7 py-3">
                             <span class="shrink-0 w-8 h-8 rounded-lg border-2 border-black bg-pale-violet flex items-center justify-center font-display text-black text-sm" style="font-variation-settings: 'wdth' 100, 'wght' 800;">A</span>
@@ -787,7 +791,7 @@
                                 <p class="text-sm font-semibold text-black truncate">Anonymous</p>
                                 <p class="text-[11px] text-gray-500 truncate">Feedback · 1m ago</p>
                             </div>
-                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-aquamarine">New</span>
+                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-emerald-700">New</span>
                         </div>
                                                 <div class="flex items-center gap-3 px-5 md:px-7 py-3">
                             <span class="shrink-0 w-8 h-8 rounded-lg border-2 border-black bg-aquamarine flex items-center justify-center font-display text-black text-sm" style="font-variation-settings: 'wdth' 100, 'wght' 800;">L</span>
@@ -795,7 +799,7 @@
                                 <p class="text-sm font-semibold text-black truncate">Lily Z.</p>
                                 <p class="text-[11px] text-gray-500 truncate">Signup · 2m ago</p>
                             </div>
-                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-aquamarine">New</span>
+                            <span class="shrink-0 text-[10px] font-bold uppercase tracking-wider text-emerald-700">New</span>
                         </div>
                                             </div>
                 </div>
@@ -853,7 +857,7 @@
                     <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                     <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                     <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                    <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">app.youform.com / forms / new</span>
+                    <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">app.youform.com / forms / new</span>
                 </div>
                 <video
                     x-ref="builderVideo"
@@ -1247,7 +1251,7 @@
                             <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                             <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                             <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                            <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">Lead capture form</span>
+                            <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">Lead capture form</span>
                         </div>
 
                         
@@ -1429,7 +1433,7 @@
                             <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                             <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                             <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                            <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">Lead capture form</span>
+                            <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">Lead capture form</span>
                         </div>
                         <div class="p-5 md:p-6">
                             <p class="font-display text-gray-900 text-lg md:text-xl" style="font-variation-settings: 'wdth' 100, 'wght' 760;">Tell us about yourself</p>
@@ -1627,7 +1631,7 @@
                                  }"
                                  style="width: 40%"></div>
                         </div>
-                        <p class="text-[11px] text-black/50 mt-2 font-semibold">Question 2 of 5</p>
+                        <p class="text-[11px] text-gray-600 mt-2 font-semibold">Question 2 of 5</p>
 
                         
                         <p class="text-2xl md:text-3xl text-black leading-tight mt-5"
@@ -1646,7 +1650,7 @@
 
                         
                         <div class="mt-5">
-                            <input type="text" value="Sarah Kim" readonly
+                            <input type="text" value="Sarah Kim" readonly aria-label="Demo response: full name"
                                    class="w-full bg-white border-2 border-black rounded-lg px-4 py-3 text-lg text-black focus:outline-none"
                                    :class="{
                                       'font-display': font === 'display',
@@ -1680,19 +1684,19 @@
                         <div>
                             <p class="text-[9px] uppercase tracking-[0.2em] font-bold text-black/55 mb-2">Color</p>
                             <div class="flex gap-1.5">
-                                <button type="button" x-ref="colorCoralRef" @click="stop(); color = 'coral'"
+                                <button type="button" x-ref="colorCoralRef" @click="stop(); color = 'coral'" aria-label="Coral color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-coral transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'coral' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="colorAquaRef" @click="stop(); color = 'aquamarine'"
+                                <button type="button" x-ref="colorAquaRef" @click="stop(); color = 'aquamarine'" aria-label="Aquamarine color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-aquamarine transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'aquamarine' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="colorVioletRef" @click="stop(); color = 'pale-violet'"
+                                <button type="button" x-ref="colorVioletRef" @click="stop(); color = 'pale-violet'" aria-label="Pale violet color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-pale-violet transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'pale-violet' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="colorYellowRef" @click="stop(); color = 'vivid-yellow'"
+                                <button type="button" x-ref="colorYellowRef" @click="stop(); color = 'vivid-yellow'" aria-label="Vivid yellow color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-vivid-yellow transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'vivid-yellow' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="colorRoseRef" @click="stop(); color = 'lavender-rose'"
+                                <button type="button" x-ref="colorRoseRef" @click="stop(); color = 'lavender-rose'" aria-label="Lavender rose color"
                                         class="w-7 h-7 rounded-full border-2 border-black bg-lavender-rose transition-all duration-200 hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="color === 'lavender-rose' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
                             </div>
@@ -1714,16 +1718,16 @@
                         <div>
                             <p class="text-[9px] uppercase tracking-[0.2em] font-bold text-black/55 mb-2">Background</p>
                             <div class="flex gap-1.5">
-                                <button type="button" x-ref="bgWhiteRef" @click="stop(); bg = 'white'"
+                                <button type="button" x-ref="bgWhiteRef" @click="stop(); bg = 'white'" aria-label="White background"
                                         class="w-7 h-7 rounded-md border-2 border-black bg-white transition-all hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="bg === 'white' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="bgChampagneRef" @click="stop(); bg = 'champagne'"
+                                <button type="button" x-ref="bgChampagneRef" @click="stop(); bg = 'champagne'" aria-label="Champagne background"
                                         class="w-7 h-7 rounded-md border-2 border-black bg-medium-champagne transition-all hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="bg === 'champagne' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="bgVioletRef" @click="stop(); bg = 'violet-tint'"
+                                <button type="button" x-ref="bgVioletRef" @click="stop(); bg = 'violet-tint'" aria-label="Violet tint background"
                                         class="w-7 h-7 rounded-md border-2 border-black bg-[#ede0ff] transition-all hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="bg === 'violet-tint' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
-                                <button type="button" x-ref="bgMintRef" @click="stop(); bg = 'mint'"
+                                <button type="button" x-ref="bgMintRef" @click="stop(); bg = 'mint'" aria-label="Mint background"
                                         class="w-7 h-7 rounded-md border-2 border-black bg-[#dcf3ec] transition-all hover:scale-110 motion-reduce:hover:scale-100"
                                         :class="bg === 'mint' ? 'ring-2 ring-black ring-offset-1' : ''"></button>
                             </div>
@@ -1759,7 +1763,7 @@
                         <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                         <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                         <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                        <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">app.youform.com / settings / privacy</span>
+                        <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">app.youform.com / settings / privacy</span>
                     </div>
 
                     
@@ -2015,12 +2019,12 @@
                                 <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                                <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">yourbrand.com/contact</span>
+                                <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">yourbrand.com/contact</span>
                             </div>
                             <div class="p-5 md:p-6">
                                 <p class="font-display text-xl text-black" style="font-variation-settings: 'wdth' 100, 'wght' 760;">Get in touch</p>
                                 <p class="text-sm text-gray-600 mt-1 mb-4">Fill out the form below — we reply within 24 hours.</p>
-                                <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="560" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full border-2 border-black rounded-xl"></iframe>
+                                <iframe src="https://app.youform.com/forms/xrjcjyti" title="Embedded contact form preview" loading="lazy" width="100%" height="560" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full border-2 border-black rounded-xl"></iframe>
                             </div>
                         </div>
                     </div>
@@ -2042,7 +2046,7 @@
                                 <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                                <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">yourbrand.com</span>
+                                <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">yourbrand.com</span>
                             </div>
                             <div class="relative p-8 md:p-10 min-h-[580px]">
                                 
@@ -2082,7 +2086,7 @@
                                                 aria-label="Close">
                                             <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
                                         </button>
-                                        <iframe :src="popupOpen ? 'https://app.youform.com/forms/xrjcjyti' : ''" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full"></iframe>
+                                        <iframe :src="popupOpen ? 'https://app.youform.com/forms/xrjcjyti' : ''" title="Popup form preview" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -2106,7 +2110,7 @@
                                 <span class="w-2.5 h-2.5 rounded-full bg-coral border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-vivid-yellow border border-black/60"></span>
                                 <span class="w-2.5 h-2.5 rounded-full bg-aquamarine border border-black/60"></span>
-                                <span class="ml-3 text-[11px] font-semibold text-gray-500 truncate">Inbox — 1 new message</span>
+                                <span class="ml-3 text-[11px] font-semibold text-gray-700 truncate">Inbox — 1 new message</span>
                             </div>
                             <div class="px-5 md:px-6 py-4 border-b-2 border-black/10">
                                 <div class="flex items-start gap-3">
@@ -2123,7 +2127,7 @@
                             </div>
                             <div class="px-5 md:px-6 py-5">
                                 <p class="text-sm text-gray-700 leading-relaxed mb-4">Hi Sarah, thanks for choosing us! Got 10 seconds? Answer below and we'll take it from there.</p>
-                                <iframe src="https://app.youform.com/forms/mfhnukq1" loading="lazy" width="100%" height="320" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full border-2 border-black rounded-xl"></iframe>
+                                <iframe src="https://app.youform.com/forms/mfhnukq1" title="In-email form preview" loading="lazy" width="100%" height="320" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full border-2 border-black rounded-xl"></iframe>
                                 <p class="text-[11px] text-gray-500 mt-3">The first question lives right in the email body. Clicking an option opens the rest of the form in the browser.</p>
                             </div>
                         </div>
@@ -2215,7 +2219,7 @@
                                 </div>
                                 <span class="ml-2 inline-flex items-center px-2 py-0.5 bg-black text-white border border-black rounded text-[9px] font-bold uppercase tracking-wider">Pro</span>
                             </div>
-                            <iframe src="https://app.youform.com/forms/xrjcjyti" loading="lazy" width="100%" height="560" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full"></iframe>
+                            <iframe src="https://app.youform.com/forms/xrjcjyti" title="Custom-domain form preview" loading="lazy" width="100%" height="560" frameborder="0" marginheight="0" marginwidth="0" style="border:none;" class="block w-full"></iframe>
                         </div>
                     </div>
                 </div>
@@ -2245,7 +2249,7 @@
         
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-20 md:mb-24">
             <div class="lg:col-span-5">
-                <p class="text-[10px] font-bold uppercase tracking-[0.22em] text-coral mb-3">01 · Overview</p>
+                <p class="text-[10px] font-bold uppercase tracking-[0.22em] text-orange-700 mb-3">01 · Overview</p>
                 <h3 class="font-display text-3xl md:text-4xl text-black leading-tight mb-4" style="font-variation-settings: 'wdth' 100, 'wght' 760;">
                     See the <span class="italic" style="font-variation-settings: 'wdth' 92, 'wght' 800, 'slnt' -12;">big picture.</span>
                 </h3>
@@ -2417,7 +2421,7 @@
                                 <svg class="w-3 h-3 text-black/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="13" y2="16"/></svg>
                             </span>
                             <span class="flex-1 truncate">How did you hear about Youform? 💡</span>
-                            <span class="w-16 text-right font-semibold tabular-nums text-orange-600">53%</span>
+                            <span class="w-16 text-right font-semibold tabular-nums text-orange-700">53%</span>
                         </div>
                                                 <div class="flex items-center gap-3 px-5 py-2.5 text-gray-800">
                             <span class="shrink-0 w-6 h-6 rounded border border-black/25 bg-aquamarine/30 flex items-center justify-center">
@@ -2438,7 +2442,7 @@
                                 <svg class="w-3 h-3 text-black/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><line x1="8" y1="8" x2="16" y2="8"/><line x1="8" y1="12" x2="16" y2="12"/><line x1="8" y1="16" x2="13" y2="16"/></svg>
                             </span>
                             <span class="flex-1 truncate">That is incorrect ❌</span>
-                            <span class="w-16 text-right font-semibold tabular-nums text-orange-600">35%</span>
+                            <span class="w-16 text-right font-semibold tabular-nums text-orange-700">35%</span>
                         </div>
                                                 <div class="flex items-center gap-3 px-5 py-2.5 text-gray-800">
                             <span class="shrink-0 w-6 h-6 rounded border border-black/25 bg-coral/30 flex items-center justify-center">
@@ -2599,10 +2603,10 @@
                                 <span class="font-semibold text-black">Sarah Patel</span>
                                 published a form
                                 <span class="font-semibold text-black">"Customer Feedback"</span>
-                                <span class="text-gray-400">· Marketing</span>
+                                <span class="text-gray-600">· Marketing</span>
                             </p>
                         </div>
-                        <span class="shrink-0 text-[10px] text-gray-400 tabular-nums">2 hours ago</span>
+                        <span class="shrink-0 text-[10px] text-gray-600 tabular-nums">2 hours ago</span>
                     </li>
                                         <li class="flex items-center gap-3 px-5 py-3">
                         <span class="shrink-0 w-8 h-8 rounded-full border-2 border-black bg-pale-violet flex items-center justify-center font-display text-[11px] text-black" style="font-variation-settings: 'wdth' 100, 'wght' 800;">MO</span>
@@ -2611,10 +2615,10 @@
                                 <span class="font-semibold text-black">Marcus Okafor</span>
                                 edited the form
                                 <span class="font-semibold text-black">"Job Application"</span>
-                                <span class="text-gray-400">· Recruiting</span>
+                                <span class="text-gray-600">· Recruiting</span>
                             </p>
                         </div>
-                        <span class="shrink-0 text-[10px] text-gray-400 tabular-nums">4 hours ago</span>
+                        <span class="shrink-0 text-[10px] text-gray-600 tabular-nums">4 hours ago</span>
                     </li>
                                         <li class="flex items-center gap-3 px-5 py-3">
                         <span class="shrink-0 w-8 h-8 rounded-full border-2 border-black bg-coral flex items-center justify-center font-display text-[11px] text-black" style="font-variation-settings: 'wdth' 100, 'wght' 800;">AC</span>
@@ -2623,10 +2627,10 @@
                                 <span class="font-semibold text-black">Abhishek Chakravarty</span>
                                 invited
                                 <span class="font-semibold text-black">"alex@yourbrand.com"</span>
-                                <span class="text-gray-400">· to Marketing</span>
+                                <span class="text-gray-600">· to Marketing</span>
                             </p>
                         </div>
-                        <span class="shrink-0 text-[10px] text-gray-400 tabular-nums">6 hours ago</span>
+                        <span class="shrink-0 text-[10px] text-gray-600 tabular-nums">6 hours ago</span>
                     </li>
                                         <li class="flex items-center gap-3 px-5 py-3">
                         <span class="shrink-0 w-8 h-8 rounded-full border-2 border-black bg-vivid-yellow flex items-center justify-center font-display text-[11px] text-black" style="font-variation-settings: 'wdth' 100, 'wght' 800;">YT</span>
@@ -2635,10 +2639,10 @@
                                 <span class="font-semibold text-black">Yuki Tanaka</span>
                                 created a form
                                 <span class="font-semibold text-black">"Event RSVP"</span>
-                                <span class="text-gray-400">· Marketing</span>
+                                <span class="text-gray-600">· Marketing</span>
                             </p>
                         </div>
-                        <span class="shrink-0 text-[10px] text-gray-400 tabular-nums">Yesterday</span>
+                        <span class="shrink-0 text-[10px] text-gray-600 tabular-nums">Yesterday</span>
                     </li>
                                         <li class="flex items-center gap-3 px-5 py-3">
                         <span class="shrink-0 w-8 h-8 rounded-full border-2 border-black bg-aquamarine flex items-center justify-center font-display text-[11px] text-black" style="font-variation-settings: 'wdth' 100, 'wght' 800;">SP</span>
@@ -2647,10 +2651,10 @@
                                 <span class="font-semibold text-black">Sarah Patel</span>
                                 duplicated the form
                                 <span class="font-semibold text-black">"Newsletter Signup"</span>
-                                <span class="text-gray-400">· Marketing</span>
+                                <span class="text-gray-600">· Marketing</span>
                             </p>
                         </div>
-                        <span class="shrink-0 text-[10px] text-gray-400 tabular-nums">Yesterday</span>
+                        <span class="shrink-0 text-[10px] text-gray-600 tabular-nums">Yesterday</span>
                     </li>
                                         <li class="flex items-center gap-3 px-5 py-3">
                         <span class="shrink-0 w-8 h-8 rounded-full border-2 border-black bg-pale-violet flex items-center justify-center font-display text-[11px] text-black" style="font-variation-settings: 'wdth' 100, 'wght' 800;">MO</span>
@@ -2659,10 +2663,10 @@
                                 <span class="font-semibold text-black">Marcus Okafor</span>
                                 published a form
                                 <span class="font-semibold text-black">"Pre-order"</span>
-                                <span class="text-gray-400">· Sales</span>
+                                <span class="text-gray-600">· Sales</span>
                             </p>
                         </div>
-                        <span class="shrink-0 text-[10px] text-gray-400 tabular-nums">2 days ago</span>
+                        <span class="shrink-0 text-[10px] text-gray-600 tabular-nums">2 days ago</span>
                     </li>
                                         <li class="flex items-center gap-3 px-5 py-3">
                         <span class="shrink-0 w-8 h-8 rounded-full border-2 border-black bg-coral flex items-center justify-center font-display text-[11px] text-black" style="font-variation-settings: 'wdth' 100, 'wght' 800;">AC</span>
@@ -2671,10 +2675,10 @@
                                 <span class="font-semibold text-black">Abhishek Chakravarty</span>
                                 moved the form
                                 <span class="font-semibold text-black">"Lead Magnet"</span>
-                                <span class="text-gray-400">· to Marketing</span>
+                                <span class="text-gray-600">· to Marketing</span>
                             </p>
                         </div>
-                        <span class="shrink-0 text-[10px] text-gray-400 tabular-nums">3 days ago</span>
+                        <span class="shrink-0 text-[10px] text-gray-600 tabular-nums">3 days ago</span>
                     </li>
                                     </ul>
             </div>
@@ -3522,7 +3526,7 @@
                         <div class="h-full flex flex-col rounded-xl p-6 sm:p-8 transition-all duration-500"
                              :class="i === pos
                                  ? 'bg-white border-2 border-black'
-                                 : 'bg-white border border-gray-200 opacity-50'"
+                                 : 'bg-white border border-gray-200 opacity-75'"
                              :style="i === pos ? 'box-shadow: 3px 3px 0px rgba(0,0,0,1)' : ''"
                             <!-- Stars -->
                             <div class="flex items-center space-x-0.5 mb-3">
@@ -3538,7 +3542,7 @@
                                 x-html="'&ldquo;' + t.title + '&rdquo;'"></h3>
 
                             <!-- Body -->
-                            <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-6 flex-grow"
+                            <p class="text-gray-700 text-sm sm:text-base leading-relaxed mb-6 flex-grow"
                                x-text="t.body"></p>
 
                             <!-- Author -->
@@ -3553,7 +3557,7 @@
                                 </template>
                                 <div>
                                     <p class="font-semibold text-gray-900 text-sm" x-text="t.name"></p>
-                                    <p class="text-gray-500 text-xs" x-text="t.role + ' · ' + t.industry"></p>
+                                    <p class="text-gray-700 text-xs" x-text="t.role + ' · ' + t.industry"></p>
                                 </div>
                             </div>
                         </div>
@@ -3564,7 +3568,7 @@
 
         <!-- Navigation: arrows + dots -->
         <div class="flex items-center justify-center space-x-6 mt-8">
-            <button @click="prev()" class="text-gray-400 hover:text-black transition-colors p-1">
+            <button @click="prev()" aria-label="Previous testimonial" class="text-gray-500 hover:text-black transition-colors p-1">
                 <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                     <path fill-rule="evenodd" d="M7.72 12.53a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 1 1 1.06 1.06L9.31 12l6.97 6.97a.75.75 0 1 1-1.06 1.06l-7.5-7.5Z" clip-rule="evenodd" />
                 </svg>
@@ -3572,12 +3576,15 @@
             <div class="flex items-center space-x-2">
                 <template x-for="(t, i) in testimonials" :key="'d'+i">
                     <button @click="goTo(i)"
-                            class="rounded-full transition-all duration-300"
-                            :class="currentCard === i ? 'bg-black w-6 h-2' : 'bg-gray-300 hover:bg-gray-400 w-2 h-2'">
+                            :aria-label="'Go to testimonial ' + (i + 1)"
+                            :aria-current="currentCard === i ? 'true' : 'false'"
+                            class="inline-flex items-center justify-center w-6 h-6">
+                        <span class="rounded-full transition-all duration-300 block"
+                              :class="currentCard === i ? 'bg-black w-6 h-2' : 'bg-gray-300 hover:bg-gray-400 w-2 h-2'"></span>
                     </button>
                 </template>
             </div>
-            <button @click="next()" class="text-gray-400 hover:text-black transition-colors p-1">
+            <button @click="next()" aria-label="Next testimonial" class="text-gray-500 hover:text-black transition-colors p-1">
                 <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                     <path fill-rule="evenodd" d="M16.28 11.47a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 0 1-1.06-1.06L14.69 12 7.72 5.03a.75.75 0 0 1 1.06-1.06l7.5 7.5Z" clip-rule="evenodd" />
                 </svg>
@@ -3610,7 +3617,7 @@
                 <h3 class="text-xl font-bold mb-2">Can I embed forms on any website?</h3>
                 <p class="text-gray-700">
                     Absolutely! Embed on WordPress, Wix, Squarespace, Webflow, or custom sites. Just copy and paste the embed code or share a link.
-                    You can check our <a href="https://help.youform.com/p/qehb-giztQHToz/How-to-embed-Youform-in-my-website" class="text-coral underline hover:no-underline" target="_blank">help center</a> for more information.
+                    You can check our <a href="https://help.youform.com/p/qehb-giztQHToz/How-to-embed-Youform-in-my-website" class="text-orange-700 underline hover:no-underline" target="_blank">help center</a> for more information.
                 </p>
             </div>
 
@@ -3700,23 +3707,23 @@
     <div class="mx-auto max-w-6xl px-10 md:px-20 py-16">
         <div class="flex items-start justify-between flex-col lg:flex-row space-y-10 lg:space-y-0">
             <div>
-                <a href="/">
-                    <img class="mx-auto rounded-full" width="60px" src="/assets/images/youform-logo-white-bg.jpg" alt="Youform">
+                <a href="/" aria-label="Youform home">
+                    <img class="mx-auto rounded-full" width="60" height="60" src="/assets/images/youform-logo-white-bg.jpg" alt="Youform">
                 </a>
                 <div class="flex items-center justify-center lg:justify-start mt-4 space-x-3">
-                    <a href="https://x.com/youformdotcom" class="text-white flex items-center hover:underline" target="_blank">
+                    <a href="https://x.com/youformdotcom" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on X">
                         
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
                     </a>
 
-                    <a href="https://www.linkedin.com/company/youform.com" class="text-white flex items-center hover:underline" target="_blank">
+                    <a href="https://www.linkedin.com/company/youform.com" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on LinkedIn">
                         
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="32" width="192" height="192" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="88" cy="84" r="12"/></svg>
                     </a>
 
-                    <a href="https://www.youtube.com/@youform" class="text-white flex items-center hover:underline" target="_blank">
+                    <a href="https://www.youtube.com/@youform" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on YouTube">
                         
 
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M24,128c0,29.91,3.07,47.45,5.41,56.47A16,16,0,0,0,39,195.42C72.52,208.35,128,208,128,208s55.48.35,89-12.58a16,16,0,0,0,9.63-10.95c2.34-9,5.41-26.56,5.41-56.47s-3.07-47.45-5.41-56.47a16,16,0,0,0-9.63-11C183.48,47.65,128,48,128,48s-55.48-.35-89,12.58a16,16,0,0,0-9.63,11C27.07,80.54,24,98.09,24,128Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
@@ -3815,7 +3822,7 @@
     
 
 </div>
-        </div>
+        </main>
 
         <div x-data="{ show: false }">
             <div x-transition x-cloak x-show="show" class="fixed bottom-16 right-5 bg-white border rounded-md text-sm border-black drop-shadow-3xl divide-y divide-gray-200">
@@ -3830,7 +3837,7 @@
                 </a>
             </div>
 
-            <button @click="show = !show" @click.away="show = false" type="button" class="rounded-full p-2 bg-coral shadow-md fixed bottom-4 right-5 text-black border-black drop-shadow-3xl hover:drop-shadow-2xl border flex items-center justify-center">
+            <button @click="show = !show" @click.away="show = false" type="button" aria-label="Help and feedback" :aria-expanded="show" class="rounded-full p-2 bg-coral shadow-md fixed bottom-4 right-5 text-black border-black drop-shadow-3xl hover:drop-shadow-2xl border flex items-center justify-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 0 1 1.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 0 0-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 0 1 0 9.424m-4.138-5.976a3.736 3.736 0 0 0-.88-1.388 3.737 3.737 0 0 0-1.388-.88m2.268 2.268a3.765 3.765 0 0 1 0 2.528m-2.268-4.796a3.765 3.765 0 0 0-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 0 1-1.388.88m2.268-2.268 4.138 3.448m0 0a9.027 9.027 0 0 1-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0-3.448-4.138m3.448 4.138a9.014 9.014 0 0 1-9.424 0m5.976-4.138a3.765 3.765 0 0 1-2.528 0m0 0a3.736 3.736 0 0 1-1.388-.88 3.737 3.737 0 0 1-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 0 1-1.652-1.306 9.027 9.027 0 0 1-1.306-1.652m0 0 4.138-3.448M4.33 16.712a9.014 9.014 0 0 1 0-9.424m4.138 5.976a3.765 3.765 0 0 1 0-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 0 1 1.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 0 0-1.652 1.306A9.025 9.025 0 0 0 4.33 7.288" />
                 </svg>                 
