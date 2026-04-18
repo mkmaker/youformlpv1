@@ -129,7 +129,7 @@
             </div>
         </div> --}}
 
-        <main class="">
+        <main class="overflow-x-clip">
             @yield('body')
         </main>
 
