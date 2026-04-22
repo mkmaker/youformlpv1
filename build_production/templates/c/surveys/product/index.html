@@ -4,6 +4,33 @@
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script>
+        (function(){
+          try {
+            if (document.cookie.indexOf('yf_attribution=') !== -1) return;
+
+            var caps = { lu:512, r:512, us:255, um:255, uc:255, ut:255, un:255 };
+            var clip = function(s, n){ return (typeof s === 'string' ? s : '').slice(0, n); };
+            var p = new URLSearchParams(window.location.search);
+
+            var payload = {
+              lu: clip(window.location.pathname + window.location.search, caps.lu),
+              r:  clip(document.referrer || '', caps.r),
+              us: clip(p.get('utm_source')   || '', caps.us),
+              um: clip(p.get('utm_medium')   || '', caps.um),
+              uc: clip(p.get('utm_campaign') || '', caps.uc),
+              ut: clip(p.get('utm_term')     || '', caps.ut),
+              un: clip(p.get('utm_content')  || '', caps.un),
+              t:  new Date().toISOString()
+            };
+
+            var value = encodeURIComponent(JSON.stringify(payload));
+            document.cookie = 'yf_attribution=' + value +
+              '; Domain=.youform.com; Path=/; Max-Age=15552000; SameSite=Lax; Secure';
+          } catch (e) { /* never break the page */ }
+        })();
+        </script>
                 <link rel="canonical" href="https://youform.com/templates/c/surveys/product/">
     
         <meta name="keywords" content="Youform, form builder">

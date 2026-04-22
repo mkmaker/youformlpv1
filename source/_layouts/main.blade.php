@@ -4,6 +4,44 @@
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script>
+        (function(){
+          try {
+            if (document.cookie.indexOf('yf_attribution=') !== -1) return;
+
+            var caps = { lu:512, r:512, us:255, um:255, uc:255, ut:255, un:255 };
+            var clip = function(s, n){ return (typeof s === 'string' ? s : '').slice(0, n); };
+            var p = new URLSearchParams(window.location.search);
+
+            var payload = {
+              lu: clip(window.location.pathname + window.location.search, caps.lu),
+              r:  clip(document.referrer || '', caps.r),
+              us: clip(p.get('utm_source')   || '', caps.us),
+              um: clip(p.get('utm_medium')   || '', caps.um),
+              uc: clip(p.get('utm_campaign') || '', caps.uc),
+              ut: clip(p.get('utm_term')     || '', caps.ut),
+              un: clip(p.get('utm_content')  || '', caps.un),
+              t:  new Date().toISOString()
+            };
+
+            // Host-aware attributes — matches the Laravel middleware resolver.
+            // On youform.com (prod) we need Domain=.youform.com so the cookie
+            // travels to app.youform.com. On any other host (localhost, dev
+            // tunnel, staging preview, etc.) we drop the Domain attribute so
+            // the browser doesn't reject the Set-Cookie, and we drop Secure
+            // unless the page is actually HTTPS.
+            var host = window.location.hostname;
+            var is_youform = host === 'youform.com' || host.slice(-12) === '.youform.com';
+            var domain_attr = is_youform ? '; Domain=.youform.com' : '';
+            var secure_attr = (window.location.protocol === 'https:') ? '; Secure' : '';
+
+            var value = encodeURIComponent(JSON.stringify(payload));
+            document.cookie = 'yf_attribution=' + value +
+              domain_attr + '; Path=/; Max-Age=15552000; SameSite=Lax' + secure_attr;
+          } catch (e) { /* never break the page */ }
+        })();
+        </script>
         @php
             $canonicalUrl = $page->getUrl();
             $isHomepage = $page->getPath() === '' || $page->getPath() === '/';
