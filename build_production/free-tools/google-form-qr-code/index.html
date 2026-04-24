@@ -25,9 +25,20 @@
               t:  new Date().toISOString()
             };
 
+            // Host-aware attributes — matches the Laravel middleware resolver.
+            // On youform.com (prod) we need Domain=.youform.com so the cookie
+            // travels to app.youform.com. On any other host (localhost, dev
+            // tunnel, staging preview, etc.) we drop the Domain attribute so
+            // the browser doesn't reject the Set-Cookie, and we drop Secure
+            // unless the page is actually HTTPS.
+            var host = window.location.hostname;
+            var is_youform = host === 'youform.com' || host.slice(-12) === '.youform.com';
+            var domain_attr = is_youform ? '; Domain=.youform.com' : '';
+            var secure_attr = (window.location.protocol === 'https:') ? '; Secure' : '';
+
             var value = encodeURIComponent(JSON.stringify(payload));
             document.cookie = 'yf_attribution=' + value +
-              '; Domain=.youform.com; Path=/; Max-Age=15552000; SameSite=Lax; Secure';
+              domain_attr + '; Path=/; Max-Age=15552000; SameSite=Lax' + secure_attr;
           } catch (e) { /* never break the page */ }
         })();
         </script>
@@ -66,7 +77,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
         <noscript><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet"></noscript>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=7b6e1122b2a3551d288351a242c880a5">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=ba35f36c887be8e526ec28ad87d88ff1">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
                 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>

@@ -29,6 +29,15 @@ description: "Tips, tutorials, and updates from the Youform team. Learn about fo
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
+            <a href="/blog/double-barreled-questions" class="bg-white group rounded-xl border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-shadow">
+                <div class="px-6 py-6">
+                    <p class="text-sm text-gray-500">April 24, 2026</p>
+                    <h3 class="text-xl font-bold mt-2 group-hover:text-aquamarine transition-colors">Double-Barreled Questions: 20 Examples and How to Fix Them</h3>
+                    <p class="text-gray-600 mt-3 line-clamp-3">One survey mistake quietly ruins more data than any other. Here's how to spot it and fix it.</p>
+                    <p class="text-sm text-gray-400 mt-4">By Abhishek</p>
+                </div>
+            </a>
+
             <a href="/blog/google-forms-redirect-after-submit-solved" class="bg-white group rounded-xl border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-shadow">
                 <div class="px-6 py-6">
                     <p class="text-sm text-gray-500">October 13, 2025</p>
