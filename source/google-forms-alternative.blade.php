@@ -318,11 +318,7 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
             </div>
         </div>
         <div class="mt-16 flex justify-center">
-            <a 
-                href="https://app.youform.com/register" 
-                class="inline-block px-10 py-3 rounded-lg bg-coral border-2 border-black text-lg font-bold text-black shadow-xl drop-shadow-4xl transition-all 
-                    hover:shadow-[6px_6px_0_0_rgba(0,0,0,1)] hover:translate-x-1.5 hover:translate-y-1.5 hover:bg-coral hover:text-black focus:outline-none"
-                style="transition-property: box-shadow, transform, background, color;">
+            <a href="https://app.youform.com/register" class="inline-block text-xl sm:text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-8 py-2 text-black rounded-md">
                 Try all features free
             </a>
         </div>
@@ -353,6 +349,9 @@ description: Looking for a modern Google Forms alternative? Youform gives you be
                     <li>• Tight integration with Google Sheets</li>
                     <li>• A simple tool already inside your Google account</li>
                 </ul>
+                <p class="text-sm text-gray-600 mt-5 pt-5 border-t border-gray-200">
+                    Sticking with Google Forms? Our <a href="/google-forms/" class="text-aquamarine hover:underline font-semibold">Google Forms guide</a> covers tips, tricks, and how to work around its limits.
+                </p>
             </div>
         </div>
     </div>

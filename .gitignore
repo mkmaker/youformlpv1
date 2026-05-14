@@ -12,3 +12,6 @@ npm-debug.log
 # /build_staging/
 # /build_production/
 # /source/assets/build/
+
+# Keyword research / SEO working files (local only)
+*.xlsx
