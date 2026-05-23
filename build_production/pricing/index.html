@@ -52,20 +52,20 @@
         <!-- Primary Meta Tags -->
                 <title>Youform Pricing - Free Forever Plan | Pro at $29/mo</title>
         <meta name="title" content="Youform Pricing - Free Forever Plan | Pro at $29/mo">
-        <meta name="description" content="Youform is free for unlimited forms and submissions. Youform PRO at $29/month provides advanced features like removing branding, partial submissions, custom domains, and more.">
+        <meta name="description" content="Youform is free for unlimited forms and submissions. Pro at $29/mo adds branding removal, partial submissions, custom domains, Stripe payments. Business at $89/mo adds email/SMS OTP verification, activity log, and 5 team seats.">
         
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://youform.com/pricing/">
                 <meta property="og:title" content="Youform Pricing - Free Forever Plan | Pro at $29/mo">
-        <meta property="og:description" content="Youform is free for unlimited forms and submissions. Youform PRO at $29/month provides advanced features like removing branding, partial submissions, custom domains, and more.">
+        <meta property="og:description" content="Youform is free for unlimited forms and submissions. Pro at $29/mo adds branding removal, partial submissions, custom domains, Stripe payments. Business at $89/mo adds email/SMS OTP verification, activity log, and 5 team seats.">
                             <meta property="og:image" content="https://youform.com/assets/images/youform-builder.png">
         
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:url" content="https://youform.com/pricing">
                 <meta property="twitter:title" content="Youform Pricing - Free Forever Plan | Pro at $29/mo">
-        <meta property="twitter:description" content="Youform is free for unlimited forms and submissions. Youform PRO at $29/month provides advanced features like removing branding, partial submissions, custom domains, and more.">
+        <meta property="twitter:description" content="Youform is free for unlimited forms and submissions. Pro at $29/mo adds branding removal, partial submissions, custom domains, Stripe payments. Business at $89/mo adds email/SMS OTP verification, activity log, and 5 team seats.">
                             <meta property="twitter:image" content="https://youform.com/assets/images/youform-builder.png">
         
         <link rel="shortcut icon" href="/assets/images/favicon.ico">
@@ -77,7 +77,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
         <noscript><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet"></noscript>
 
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=63f570f3236ade6f597d304d0d4ea399">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=1f5d73d73012235b5f7f7b8a52b2255a">
         <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
 
         
@@ -191,123 +191,251 @@
 
     <div class="bg-amber-50 pt-20"> 
 
-        <h2 class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold mb-6 pt-20">
+        <h2 class="text-center text-3xl sm:text-5xl xl:text-6xl font-bold mb-3 pt-20">
             Compare Youform Plans
         </h2>
-        <p class="text-center font-medium px-6">
-            PRO plan is just $29/month (or $20/month, billed annually)
+        <p class="text-center text-gray-700 mb-12 px-6">
+            Start free forever. Upgrade when you need more.
         </p>
 
-        <!-- Plain text summary for AI/LLM parsing -->
-        <div class="max-w-3xl mx-auto px-6 md:px-20 py-8 text-gray-700">
-            <p class="text-center text-base leading-relaxed">
-                <strong>Youform FREE</strong> includes: unlimited forms, unlimited responses, unlimited questions, conditional logic,
-                score &amp; calculations, hidden fields, file uploads (up to 10MB), answer piping, multiple endings, Google Sheets integration,
-                Slack integration, Zapier integration (6,000+ apps), webhooks, email notifications, collect signatures,
-                Calendly/Cal.com/SavvyCal integrations, basic analytics (views, starts, completions, completion rate),
-                custom colors and Google fonts, workspaces, non-English language support, and form embedding on any website.
-                All features work without response limits or paywalls.
-            </p>
-            <p class="text-center text-base leading-relaxed mt-4">
-                <strong>Youform PRO ($29/month or $20/month billed annually)</strong> adds: remove Youform branding,
-                add your own logo, Stripe payment collection, view and download partial submissions, custom domains,
-                redirect to URL after submission, custom fonts (upload your own), multiple language support per form,
-                customize form meta data, refill links, team collaboration, Google Tag Manager (FB/TikTok pixel),
-                advanced analytics (date/device filters, question-level drop-off rates), and unlimited file upload size.
-            </p>
-            <p class="text-center text-sm text-gray-500 mt-4">
-                Youform is GDPR compliant with data hosted on EU servers. No credit card required to start.
-            </p>
+        <!-- Plan Summary Cards -->
+        <div class="max-w-6xl mx-auto px-6 md:px-10 mb-14" x-data="{ billing: 'monthly' }">
+
+            <!-- Billing toggle -->
+            <div class="flex items-center justify-center mb-10">
+                <div class="inline-flex bg-white border-2 border-black rounded-full p-1 drop-shadow-3xl" role="tablist" aria-label="Billing period">
+                    <button
+                        type="button"
+                        role="tab"
+                        @click="billing = 'monthly'"
+                        :aria-selected="billing === 'monthly'"
+                        :class="billing === 'monthly' ? 'bg-black text-white' : 'text-gray-700 hover:text-black'"
+                        class="px-5 py-2 rounded-full text-sm font-semibold transition-colors">
+                        Monthly
+                    </button>
+                    <button
+                        type="button"
+                        role="tab"
+                        @click="billing = 'annual'"
+                        :aria-selected="billing === 'annual'"
+                        :class="billing === 'annual' ? 'bg-black text-white' : 'text-gray-700 hover:text-black'"
+                        class="px-5 py-2 rounded-full text-sm font-semibold transition-colors flex items-center gap-2">
+                        Annual
+                        <span class="bg-vivid-yellow border-2 border-black text-[10px] font-bold px-2 py-0.5 rounded-full text-black">Save 33%</span>
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 md:items-stretch">
+
+                <!-- Free -->
+                <div class="bg-white border-2 border-black rounded-2xl drop-shadow-6xl p-7 flex flex-col">
+                    <div class="flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Free</h3>
+                        <p class="text-sm text-gray-600 mb-6">Everything you need to start</p>
+                        <div class="mb-7">
+                            <p class="text-5xl font-bold tabular-nums">$0</p>
+                            <p class="text-xs text-gray-500 mt-1.5">forever · no credit card</p>
+                        </div>
+                        <ul role="list" class="space-y-3 text-sm text-gray-800">
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Unlimited forms &amp; responses</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Conditional logic &amp; calculations</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Google Sheets, Slack, Zapier, webhooks</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Signatures &amp; file uploads (up to 10MB)</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Calendly, Cal.com, SavvyCal integrations</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" d="M5 12h14" /></svg><span class="text-gray-600">Single user (no team members)</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://app.youform.com/register" class="mt-8 block text-center bg-white border-2 border-black px-6 py-3 rounded-md font-semibold hover:drop-shadow-3xl transition-shadow">Start free</a>
+                </div>
+
+                <!-- Pro -->
+                <div class="bg-white border-2 border-black rounded-2xl drop-shadow-6xl p-7 flex flex-col relative">
+                    <span class="absolute -top-4 left-1/2 -translate-x-1/2 bg-coral border-2 border-black text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full whitespace-nowrap">Most popular</span>
+                    <div class="flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Pro</h3>
+                        <p class="text-sm text-gray-700 mb-6">For freelancers, creators &amp; small businesses</p>
+                        <div class="mb-7">
+                            <p class="text-5xl font-bold tabular-nums">$<span x-text="billing === 'monthly' ? '29' : '20'">29</span><span class="text-base font-medium">/mo</span></p>
+                            <p class="text-xs text-gray-600 mt-1.5"><span x-show="billing === 'monthly'">or $20/mo billed annually</span><span x-show="billing === 'annual'" x-cloak>billed annually at $240/yr</span></p>
+                        </div>
+                        <ul role="list" class="space-y-3 text-sm text-gray-800">
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span class="font-semibold">Everything in Free, plus:</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Remove Youform branding &amp; add your logo</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Collect payments with Stripe</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Custom domains &amp; custom fonts</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Partial submissions &amp; refill links</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Advanced analytics with drop-off rate</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Up to 3 team members</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://app.youform.com/register" class="mt-8 block text-center bg-aquamarine border-2 border-black px-6 py-3 rounded-md font-semibold hover:drop-shadow-3xl transition-shadow">Try Pro free</a>
+                </div>
+
+                <!-- Business -->
+                <div class="bg-white border-2 border-black rounded-2xl drop-shadow-6xl p-7 flex flex-col">
+                    <div class="flex-grow">
+                        <h3 class="text-2xl font-bold mb-1">Business</h3>
+                        <p class="text-sm text-gray-700 mb-6">For teams that need verification &amp; audit trails</p>
+                        <div class="mb-7">
+                            <p class="text-5xl font-bold tabular-nums">$<span x-text="billing === 'monthly' ? '89' : '60'">89</span><span class="text-base font-medium">/mo</span></p>
+                            <p class="text-xs text-gray-600 mt-1.5"><span x-show="billing === 'monthly'">or $60/mo billed annually ($720/yr)</span><span x-show="billing === 'annual'" x-cloak>billed annually at $720/yr</span></p>
+                        </div>
+                        <ul role="list" class="space-y-3 text-sm text-gray-800">
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span class="font-semibold">Everything in Pro, plus:</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Email verification (OTP)</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Phone verification (SMS OTP) <span class="text-gray-600">— bring your own Twilio</span></span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Activity log with CSV export</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>5 team members included</span></li>
+                            <li class="flex items-start gap-2.5"><svg class="w-5 h-5 shrink-0 mt-0.5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg><span>Extra seats at $10/mo each</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://app.youform.com/register" class="mt-8 block text-center bg-pale-violet border-2 border-black px-6 py-3 rounded-md font-semibold hover:drop-shadow-3xl transition-shadow">Try Business free</a>
+                </div>
+
+            </div>
         </div>
 
-        <div class="overflow-x-auto pt-10 max-w-4xl mx-auto pb-10 px-3 md:px-20">
-            <table x-data class="min-w-full bg-white border-2 border-black drop-shadow-3xl">
+        <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm text-gray-700 px-6 mb-2">
+            <span class="flex items-center gap-1.5">
+                <svg class="w-4 h-4 shrink-0 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+                Free forever
+            </span>
+            <span class="flex items-center gap-1.5">
+                <svg class="w-4 h-4 shrink-0 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+                Unlimited responses
+            </span>
+            <span class="flex items-center gap-1.5">
+                <svg class="w-4 h-4 shrink-0 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" /></svg>
+                No credit card required
+            </span>
+        </div>
+        <p class="text-center text-sm text-gray-600 px-6 mt-12 mb-6">
+            Full feature-by-feature comparison below ↓
+        </p>
+
+        <div class="max-md:overflow-x-auto pt-10 max-w-6xl mx-auto pb-10 px-4 md:px-8">
+            <table x-data class="w-full bg-white border-2 border-black drop-shadow-3xl [&_tbody_td:not(:first-child)]:text-center [&_tbody_td:not(:first-child)_svg]:inline-block">
+                <colgroup>
+                    <col class="w-2/5">
+                    <col class="w-1/5">
+                    <col class="w-1/5">
+                    <col class="w-1/5">
+                </colgroup>
                 <thead>
                     <tr>
-                        <th class="px-6 py-3 border-b-2 border-black bg-gray-100 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                        <th class="sticky top-0 z-10 px-6 py-4 border-b-2 border-black bg-gray-100 text-left text-sm font-semibold text-gray-900 whitespace-nowrap">
                             Feature
                         </th>
-                        <th class="px-6 py-3 border-b-2 border-black bg-gray-100 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
-                            FREE
+                        <th class="sticky top-0 z-10 px-6 py-4 border-b-2 border-black bg-gray-100 text-center text-sm font-semibold text-gray-900 whitespace-nowrap">
+                            Free
                         </th>
-                        <th class="px-6 py-3 border-b-2 border-black bg-gray-100 text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
-                            PRO 
+                        <th class="sticky top-0 z-10 px-6 py-4 border-b-2 border-black bg-[#FFD9CB] text-center text-sm font-semibold text-gray-900 whitespace-nowrap">
+                            Pro
+                        </th>
+                        <th class="sticky top-0 z-10 px-6 py-4 border-b-2 border-black bg-gray-100 text-center text-sm font-semibold text-gray-900 whitespace-nowrap">
+                            Business
                         </th>
                     </tr>
                 </thead>
                 <tbody class="bg-white">
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             Unlimited Forms
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             Unlimited Responses
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             Unlimited Questions per form
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1">
                                 <span>Add Image to Forms </span>                                 
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Customize your forms with colors and fonts that represents your brand. Only Google fonts are supported in FREE plan.">
                                 <span>Custom colors and fonts </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -315,21 +443,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Build your logic with an intuitive interface to show different questions based on the responses of other questions">
                                 <span>Logic builder </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -337,21 +471,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Add scoring and calculations to your forms to calculate price, score and more">
                                 <span>Score &amp; calculations </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -359,21 +499,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Add hidden fields to your forms to pass data that you already have. For e.g if you have email then you can pass that as URL parameter.">
                                 <span>Hidden fields </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -381,21 +527,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Embed your forms on any website with a simple code snippet. No limits on websites and can be added to Webflow, Squarespace, Shopify, Wix, Carrd, etc…">
                                 <span>Embed forms </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -403,21 +555,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Connect your Google Sheets account to your form to automatically add new responses to your Google Sheet">
                                 <span>Google Sheets integration </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -425,21 +583,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Connect your Slack account to your form to automatically send notifications to your Slack channel">
                                 <span>Slack integration </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -447,21 +611,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Connect with Zapier via Zapier webhooks to send your form submissions to any app that you use. For e.g Salesforce, Mailchimp, Hubspot, etc.">
                                 <span>Zapier integration </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -469,21 +639,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Send an email to yourself when a form is submitted">
                                 <span>Email notification to self </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -491,21 +667,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Your form can send users to different endings based on their responses">
                                 <span>Multiple endings per form </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -513,38 +695,50 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             Webhooks
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Collect e-signatures from your users to sign your forms">
                                 <span>Collect Signatures </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -552,21 +746,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Connect your Calendly account to book meetings and appointments with your users">
                                 <span>Calendly integration </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -574,21 +774,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Connect your Cal.com account to book meetings and appointments with your users">
                                 <span>Cal.com integration </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -596,21 +802,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Connect your SavvyCal account to book meetings and appointments with your users">
                                 <span>SavvyCal integration </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">                                
@@ -618,21 +830,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Organize your forms into workspaces or folders">
                                 <span>Workspaces (or folders) </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">                                
@@ -640,21 +858,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Make forms in your own language. We support 32+ languages and more can be added on request.">
                                 <span>Non English language support </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">                                
@@ -662,21 +886,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Use multiple languages in your forms">
                                 <span>Multiple language support </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">                                
@@ -684,21 +914,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Upload your own fonts and use them in your forms">
                                 <span>Custom fonts </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">                                
@@ -706,21 +942,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="For e.g you can send users to yourwebsite.com after they complete your form.">
                                 <span>Redirect to a URL </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -728,21 +970,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Add your brand logo to your form">
                                 <span>Add your brand logo </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -750,21 +998,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Customize how your form looks when shared on social media by changing the preview image, title etc.">
                                 <span>Customize form meta data </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -772,21 +1026,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Remove Powered by Youform branding from your form">
                                 <span>Remove Youform branding </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -794,21 +1054,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Let's say you have 10 questions in your form and your user only fill out 6 of them and leave without submitting. You can still view the partially completed form data.">
                                 <span>Partial Submissions </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -816,21 +1082,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="If a user partially completes a form, you can send them a refill link to complete the form">
                                 <span>Refill link </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -838,21 +1110,27 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="You can add multiple custom domains for your form. For e.g you can add mycompany.com or form.mywebsite.com to your forms">
                                 <span>Custom Domains </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -860,54 +1138,63 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             File Uploads
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             Up to 10MB
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            Unlimited (<a href="https://youform.com/blog/fair-usage-policy" target="_blank" class="text-blue-500 hover:underline">FUP</a>)
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             Unlimited (<a href="https://youform.com/blog/fair-usage-policy" target="_blank" class="text-blue-500 hover:underline">FUP</a>)
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
-                            <p class="flex items-center space-x-1" x-tooltip.raw="Invite team members to your forms and collaborate with them">
-                                <span>Invite team members </span>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <p class="flex items-center space-x-1" x-tooltip.raw="Invite team members to collaborate on forms. Free is single-user. Pro includes 3 seats. Business includes 5 seats; extra seats are billed at $10/mo each.">
+                                <span>Team members </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
-                                </svg>                                  
+                                </svg>
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
-                            <span class="sr-only">Not available in FREE</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-                            </svg>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="text-gray-500">Single user</span>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
-                            <span class="sr-only">Available in PRO</span>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                            </svg>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span>Up to 3</span>
+                        </td>
+                        <td class="px-6 py-4 border-b border-black">
+                            <div class="leading-tight">
+                                <div>5 included</div>
+                                <div class="text-xs text-gray-500">+$10/mo per extra seat</div>
+                            </div>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Collect payments directly from your users by connecting your Stripe account">
                                 <span>Collect Payments </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -915,43 +1202,83 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
-                            <p class="flex items-center space-x-1" x-tooltip.raw="Connect your Google Tag Manager account to send data to FB Pixel, TikTok pixel or any other analytics.">
-                                <span>Google Tag Manager <span class="hidden lg:inline">(For FB, TikTok Pixel etc.)</span> </span>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <p class="flex items-center space-x-1" x-tooltip.raw="Connect your Meta (Facebook) pixel to track form views, starts, and submissions for ads attribution and retargeting.">
+                                <span>Meta pixel integration </span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
-                                </svg>                                  
+                                </svg>
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Not available in FREE</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
                             </svg>
                         </td>
                     </tr>
                     <tr>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <p class="flex items-center space-x-1" x-tooltip.raw="Connect your Google Tag Manager account to send data to any analytics platform.">
+                                <span>Google Tag Manager </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                </svg>
+                            </p>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <p class="flex items-center space-x-1" x-tooltip.raw="Analytics for your forms like form views, drop-off rate, etc. with date and device type filters.">
                                 <span>Form Analytics &amp; Drop-off Rate</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
@@ -959,11 +1286,101 @@
                                 </svg>                                  
                             </p>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span>Basic</span>
                         </td>
-                        <td class="px-6 py-4 whitespace-no-wrap border-b border-black">
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
                             <span>Advanced</span>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span>Advanced</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <p class="flex items-center space-x-1" x-tooltip.raw="Verify respondent email addresses with a one-time password before they can submit the form.">
+                                <span>Email verification (OTP) </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                </svg>
+                            </p>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Not available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <p class="flex items-center space-x-1" x-tooltip.raw="Verify respondent phone numbers via a 6-digit SMS code. Requires your own Twilio account — SMS costs paid by you.">
+                                <span>Phone verification (SMS OTP) </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                </svg>
+                            </p>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Not available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <div class="inline-flex items-center gap-2">
+                                <span class="sr-only">Available in BUSINESS, requires your own Twilio account</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                                </svg>
+                                <span class="text-xs text-gray-500">BYO Twilio</span>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <p class="flex items-center space-x-1" x-tooltip.raw="Track form changes, team member actions, and integration updates. Filter by category, member, form, or date — export as CSV for compliance.">
+                                <span>Activity log (CSV export) </span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-shrink-0">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+                                </svg>
+                            </p>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Not available in FREE</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Not available in PRO</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-red-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </td>
+                        <td class="px-6 py-4 whitespace-nowrap border-b border-black">
+                            <span class="sr-only">Available in BUSINESS</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-green-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
                         </td>
                     </tr>
                 </tbody>
@@ -1134,27 +1551,6 @@
                             <div x-show="open">
                                 <p class=" px-4 py-10 lg:text-xl text-black">
                                     While Youform provides you unlimited forms and responses for free, Youform PRO provides advanced features like removing Youform branding, capturing partial submissions, inviting team members, and adding your own custom domain + much more.
-                                </p>
-                            </div>   
-                        </div>      
-                    </div>
-                    <div x-data="{ open: false }" class="border-y-2 border-black ">
-                        <div class="w-4/5 mx-auto cursor-pointer" @click="open = !open">
-                            <div  class="flex justify-between  px-4 py-10 md:text-lg lg:text-3xl">
-                                <p class="text-black font-medium flex-grow">How long will Youform be around, and how many people use Youform?</p>
-                                <svg x-show="!open"  xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                                </svg>
-                            
-                                <svg x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7" />
-                                  </svg>
-                            </div>
-                            <div x-show="open">
-                                <p class=" px-4 py-10 lg:text-xl text-black">
-                                    Youform has thousands of users, and will be around for years and years to come. Youform was created in 2023, and reached $10,000 in revenue within the first week of launch. It has continued to grow ever since.
-                                    <br>
-                                    Youform is also not our first product. The Youform team has built other software products to millions in revenue. Learn more on our <a href="/about" class="text-blue-500 hover:underline">about page</a>.
                                 </p>
                             </div>   
                         </div>      
@@ -1551,14 +1947,6 @@
     },
     {
       "@type": "Question",
-      "name": "How long will Youform be around, and how many people use Youform?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Youform has thousands of users, and will be around for years and years to come. Youform was created in 2023, and reached $10,000 in revenue within the first week of launch. It has continued to grow ever since. Youform is also not our first product. The Youform team has built other software products to millions in revenue."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "Can you embed a Youform on a website?",
       "acceptedAnswer": {
         "@type": "Answer",
@@ -1673,7 +2061,25 @@
             "price": "240",
             "priceCurrency": "USD",
             "billingIncrement": "P1Y",
-            "description": "Everything in Free plus: remove Youform branding, add your own logo, Stripe payment collection, partial submissions, custom domains, redirect to URL, custom fonts, Google Tag Manager, advanced analytics, team collaboration. Billed annually ($20/month equivalent).",
+            "description": "Everything in Free plus: remove Youform branding, add your own logo, Stripe payment collection, partial submissions, custom domains, redirect to URL, custom fonts, Google Tag Manager, advanced analytics, team collaboration with up to 3 team members. Billed annually ($20/month equivalent).",
+            "availability": "https://schema.org/InStock"
+        },
+        {
+            "@type": "Offer",
+            "name": "Youform Business Monthly",
+            "price": "89",
+            "priceCurrency": "USD",
+            "billingIncrement": "P1M",
+            "description": "Everything in Pro plus: email verification (OTP), phone verification via SMS OTP (bring your own Twilio account), activity log with CSV export, and 5 team seats included. Additional team seats are $10/month each with no cap.",
+            "availability": "https://schema.org/InStock"
+        },
+        {
+            "@type": "Offer",
+            "name": "Youform Business Annual",
+            "price": "720",
+            "priceCurrency": "USD",
+            "billingIncrement": "P1Y",
+            "description": "Everything in Pro plus: email verification (OTP), phone verification via SMS OTP (bring your own Twilio account), activity log with CSV export, and 5 team seats included. Additional team seats are $10/month each with no cap. Billed annually at $720/year ($60/month equivalent).",
             "availability": "https://schema.org/InStock"
         }
     ],
@@ -1694,7 +2100,11 @@
         "Form embedding",
         "GDPR compliant",
         "EU data hosting",
-        "Animated multi-step forms"
+        "Animated multi-step forms",
+        "Email verification (OTP) (Business)",
+        "Phone verification via SMS OTP, bring your own Twilio (Business)",
+        "Activity log with CSV export (Business)",
+        "Team collaboration (Pro: up to 3 seats; Business: 5 seats included, +$10/mo per extra seat)"
     ],
     "aggregateRating": {
         "@type": "AggregateRating",

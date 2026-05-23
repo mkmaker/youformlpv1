@@ -270,7 +270,7 @@ $socialStats = [
     [
         'tint'  => 'bg-coral',
         'icon'  => '<path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>',
-        'number'=> '80,000<span class="text-black/55">+</span>',
+        'number'=> '90,000<span class="text-black/55">+</span>',
         'label' => 'Users worldwide',
     ],
     [
@@ -2375,7 +2375,7 @@ $integrations = [
 
             <div class="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 mt-12 max-w-3xl mx-auto">
                 <div class="border-2 border-black rounded-2xl drop-shadow-4xl p-4 sm:p-6" style="background-color: #FFFBEB;">
-                    <p class="font-display text-4xl sm:text-5xl text-black leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">80K+</p>
+                    <p class="font-display text-4xl sm:text-5xl text-black leading-none" style="font-variation-settings: 'wdth' 100, 'wght' 800;">90K+</p>
                     <p class="text-xs font-semibold uppercase tracking-wider text-black/60 mt-2">Users</p>
                 </div>
                 <div class="border-2 border-black rounded-2xl drop-shadow-4xl p-4 sm:p-6" style="background-color: #FFFBEB;">

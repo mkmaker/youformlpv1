@@ -963,7 +963,7 @@ description: Create high-converting lead generation forms in minutes. Free form 
 
                 <div class="text-center">
                     <p class="text-gray-800 mb-4">
-                        Join over 70,000 users already capturing leads with Youform.
+                        Join over 90,000 users already capturing leads with Youform.
                     </p>
                     <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                         Create your free form
@@ -1094,7 +1094,7 @@ description: Create high-converting lead generation forms in minutes. Free form 
             Every visitor who leaves your website without sharing their contact information is a missed opportunity. Lead generation forms are the bridge between traffic and revenue — and with Youform, creating them takes minutes, not hours.
         </p>
         <p class="text-gray-700 mb-8">
-            Join over 70,000 teams already capturing leads with Youform. Get started free today.
+            Join over 90,000 teams already capturing leads with Youform. Get started free today.
         </p>
         <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-3 text-black rounded-md">
             Create your free form

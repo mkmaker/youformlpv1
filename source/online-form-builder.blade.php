@@ -1,6 +1,6 @@
 ---
 title: Free Online Form Builder — Unlimited Forms & Submissions | Youform
-description: Create beautiful forms for free with Youform's drag-and-drop builder. Unlimited forms, unlimited submissions, no coding required. Trusted by 70,000+ users.
+description: Create beautiful forms for free with Youform's drag-and-drop builder. Unlimited forms, unlimited submissions, no coding required. Trusted by 90,000+ users.
 ---
 
 @extends('_layouts.main')
@@ -83,7 +83,7 @@ description: Create beautiful forms for free with Youform's drag-and-drop builde
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-center">
             <div>
-                <p class="text-3xl font-bold text-aquamarine">70,000+</p>
+                <p class="text-3xl font-bold text-aquamarine">90,000+</p>
                 <p class="text-sm text-gray-600">Users worldwide</p>
             </div>
             <div>

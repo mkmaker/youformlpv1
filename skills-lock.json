@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "google-ai-search-optimization": {
+      "source": "deepakness/google-ai-search-optimization",
+      "sourceType": "github",
+      "skillPath": "skills/google-ai-search-optimization/SKILL.md",
+      "computedHash": "f84e6803209932ba09969a78cb9990132f9856966fc1053655a75f83c0be329a"
+    }
+  }
+}

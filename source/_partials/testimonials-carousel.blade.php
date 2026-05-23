@@ -118,7 +118,7 @@
 
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="text-center mb-12">
-            <p class="text-xs font-semibold px-4 py-1.5 rounded-full mb-3 bg-vivid-yellow border border-black inline-block">Loved by 70,000+ users</p>
+            <p class="text-xs font-semibold px-4 py-1.5 rounded-full mb-3 bg-vivid-yellow border border-black inline-block">Loved by 90,000+ users</p>
             <h2 class="text-3xl sm:text-4xl font-bold text-gray-900">What our users say</h2>
         </div>
 

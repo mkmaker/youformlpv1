@@ -163,7 +163,7 @@ description: Create engaging quizzes for free with Youform. Unlimited quizzes, r
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-center">
             <div>
-                <p class="text-3xl font-bold text-aquamarine">70,000+</p>
+                <p class="text-3xl font-bold text-aquamarine">90,000+</p>
                 <p class="text-sm text-gray-600">Users worldwide</p>
             </div>
             <div>

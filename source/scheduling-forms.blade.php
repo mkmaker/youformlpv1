@@ -128,7 +128,7 @@ description: Create scheduling forms that let visitors book appointments directl
     <div class="max-w-7xl mx-auto px-10 md:px-20">
         <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 text-center">
             <div>
-                <p class="text-3xl font-bold text-aquamarine">70,000+</p>
+                <p class="text-3xl font-bold text-aquamarine">90,000+</p>
                 <p class="text-sm text-gray-600">Users worldwide</p>
             </div>
             <div>
@@ -699,7 +699,7 @@ description: Create scheduling forms that let visitors book appointments directl
 
                 <div class="text-center">
                     <p class="text-gray-800 mb-4">
-                        Over 70,000 users have created forms with Youform. Start booking more qualified meetings today.
+                        Over 90,000 users have created forms with Youform. Start booking more qualified meetings today.
                     </p>
                     <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                         Create scheduling form

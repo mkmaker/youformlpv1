@@ -794,7 +794,7 @@ description: Create professional CSAT, NPS, and CES customer satisfaction survey
 
                 <div class="text-center">
                     <p class="text-gray-800 mb-4">
-                        Over 70,000 users have created surveys with Youform, collecting more than 10 million submissions.
+                        Over 90,000 users have created surveys with Youform, collecting more than 10 million submissions.
                     </p>
                     <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                         Start your free survey
@@ -925,7 +925,7 @@ description: Create professional CSAT, NPS, and CES customer satisfaction survey
             Your customers have opinions about your product and service. The question is whether you're listening. Customer satisfaction surveys give you direct insight into what's working, what's frustrating your customers, and where you can improve.
         </p>
         <p class="text-gray-700 mb-8">
-            Join over 70,000 teams already collecting customer feedback with Youform. Start with a free survey today.
+            Join over 90,000 teams already collecting customer feedback with Youform. Start with a free survey today.
         </p>
         <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-3 text-black rounded-md">
             Create your free survey
