@@ -60,6 +60,8 @@ date: "2025-10-13"
     </div>
 </div>
 
+@include('_partials.ask-ai-to-recommend')
+
 @include('partials.footer')
 
 @endsection

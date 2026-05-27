@@ -15,15 +15,18 @@
                         <p class="text-base sm:text-lg mt-4 text-gray-700">{{ $ai_description }}</p>
                     </div>
                     <div class="lg:col-span-2">
-                        <div class="grid grid-cols-1 gap-3 md:gap-4">
-                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://chat.openai.com/?q={{ $prompt }}" class="inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 bg-white text-gray-700 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
-                                <img src="/assets/images/logos/chatgpt.svg" alt="ChatGPT" class="h-5 w-5"/><span class="font-semibold">Ask ChatGPT</span>
+                        <div class="grid grid-cols-2 gap-3">
+                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://chat.openai.com/?q={{ $prompt }}" class="inline-flex items-center justify-center gap-2 rounded-md px-3 py-3 bg-white text-gray-700 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
+                                <img src="/assets/images/logos/chatgpt.svg" alt="ChatGPT" class="h-5 w-5"/><span class="font-semibold text-sm">ChatGPT</span>
                             </a>
-                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://claude.ai/new?q={{ $prompt }}" class="inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 bg-coral text-black border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
-                                <img src="/assets/images/logos/claude.svg" alt="Claude" class="h-5 w-5"/><span class="font-semibold">Ask Claude</span>
+                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://claude.ai/new?q={{ $prompt }}" class="inline-flex items-center justify-center gap-2 rounded-md px-3 py-3 bg-coral text-black border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
+                                <img src="/assets/images/logos/claude.svg" alt="Claude" class="h-5 w-5"/><span class="font-semibold text-sm">Claude</span>
                             </a>
-                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.perplexity.ai/search/new?q={{ $prompt }}" class="inline-flex items-center justify-center gap-2 rounded-md px-5 py-3 bg-aquamarine text-black border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
-                                <img src="/assets/images/logos/perplexity.svg" alt="Perplexity" class="h-5 w-5"/><span class="font-semibold">Ask Perplexity</span>
+                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.perplexity.ai/search/new?q={{ $prompt }}" class="inline-flex items-center justify-center gap-2 rounded-md px-3 py-3 bg-aquamarine text-black border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
+                                <img src="/assets/images/logos/perplexity.svg" alt="Perplexity" class="h-5 w-5"/><span class="font-semibold text-sm">Perplexity</span>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.google.com/search?q={{ $prompt }}&udm=50" class="inline-flex items-center justify-center gap-2 rounded-md px-3 py-3 bg-white text-black border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
+                                <img src="/assets/images/logos/google.svg" alt="Google AI" class="h-5 w-5"/><span class="font-semibold text-sm">Google AI</span>
                             </a>
                         </div>
                     </div>

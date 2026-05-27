@@ -529,6 +529,8 @@ date: "2026-04-24"
     </div>
 </div>
 
+@include('_partials.ask-ai-to-recommend')
+
 @include('partials.footer')
 
 @endsection
