@@ -55,21 +55,39 @@ class GenerateSitemap
         }
 
         $sitemap = new Sitemap($jigsaw->getDestinationPath() . '/sitemap.xml');
+        $sourceRoot = dirname(__DIR__) . '/source';
 
         collect($jigsaw->getOutputPaths())
             ->reject(function ($path) {
                 return $this->isExcluded($path);
-            })->each(function ($path) use ($baseUrl, $sitemap) {
-                // Add trailing slash to subpages to avoid 301 redirects (SEO fix)
-                // Homepage stays without trailing slash, all other pages get one
+            })->each(function ($path) use ($baseUrl, $sitemap, $sourceRoot) {
                 $url = rtrim($baseUrl, '/') . $path;
                 if ($path !== '' && $path !== '/' && !str_ends_with($url, '/')) {
                     $url .= '/';
                 }
-                $sitemap->addItem($url, time(), Sitemap::DAILY);
+                $sitemap->addItem($url, $this->resolveLastmod($path, $sourceRoot), Sitemap::DAILY);
         });
 
         $sitemap->write();
+    }
+
+    protected function resolveLastmod($path, $sourceRoot)
+    {
+        $normalized = ($path === '' || $path === '/') ? '/index' : rtrim($path, '/');
+
+        $candidates = [
+            $sourceRoot . $normalized . '.blade.php',
+            $sourceRoot . $normalized . '/index.blade.php',
+            $sourceRoot . $normalized . '.md',
+        ];
+
+        foreach ($candidates as $candidate) {
+            if (file_exists($candidate)) {
+                return filemtime($candidate);
+            }
+        }
+
+        return time();
     }
 
     public function isExcluded($path)
