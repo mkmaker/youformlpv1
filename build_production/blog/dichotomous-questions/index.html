@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script>
+        (function(){
+          try {
+            if (document.cookie.indexOf('yf_attribution=') !== -1) return;
+
+            var caps = { lu:512, r:512, us:255, um:255, uc:255, ut:255, un:255 };
+            var clip = function(s, n){ return (typeof s === 'string' ? s : '').slice(0, n); };
+            var p = new URLSearchParams(window.location.search);
+
+            var payload = {
+              lu: clip(window.location.pathname + window.location.search, caps.lu),
+              r:  clip(document.referrer || '', caps.r),
+              us: clip(p.get('utm_source')   || '', caps.us),
+              um: clip(p.get('utm_medium')   || '', caps.um),
+              uc: clip(p.get('utm_campaign') || '', caps.uc),
+              ut: clip(p.get('utm_term')     || '', caps.ut),
+              un: clip(p.get('utm_content')  || '', caps.un),
+              t:  new Date().toISOString()
+            };
+
+            // Host-aware attributes — matches the Laravel middleware resolver.
+            // On youform.com (prod) we need Domain=.youform.com so the cookie
+            // travels to app.youform.com. On any other host (localhost, dev
+            // tunnel, staging preview, etc.) we drop the Domain attribute so
+            // the browser doesn't reject the Set-Cookie, and we drop Secure
+            // unless the page is actually HTTPS.
+            var host = window.location.hostname;
+            var is_youform = host === 'youform.com' || host.slice(-12) === '.youform.com';
+            var domain_attr = is_youform ? '; Domain=.youform.com' : '';
+            var secure_attr = (window.location.protocol === 'https:') ? '; Secure' : '';
+
+            var value = encodeURIComponent(JSON.stringify(payload));
+            document.cookie = 'yf_attribution=' + value +
+              domain_attr + '; Path=/; Max-Age=15552000; SameSite=Lax' + secure_attr;
+          } catch (e) { /* never break the page */ }
+        })();
+        </script>
+                <link rel="canonical" href="https://youform.com/blog/dichotomous-questions/">
+    
+        <meta name="keywords" content="Youform, form builder">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+
+        <!-- Primary Meta Tags -->
+                <title>Dichotomous Questions: 25 Examples and When to Use Them</title>
+        <meta name="title" content="Dichotomous Questions: 25 Examples and When to Use Them">
+        <meta name="description" content="Learn what dichotomous questions are, see 25 real examples across surveys, research, and screening, and discover when a two-option question is the right choice, and when it isn&#039;t.">
+        
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://youform.com/blog/dichotomous-questions/">
+                <meta property="og:title" content="Dichotomous Questions: 25 Examples and When to Use Them">
+        <meta property="og:description" content="Learn what dichotomous questions are, see 25 real examples across surveys, research, and screening, and discover when a two-option question is the right choice, and when it isn&#039;t.">
+                            <meta property="og:image" content="https://youform.com/assets/images/dichotomous-questions-og.png">
+        
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://youform.com/blog/dichotomous-questions">
+                <meta property="twitter:title" content="Dichotomous Questions: 25 Examples and When to Use Them">
+        <meta property="twitter:description" content="Learn what dichotomous questions are, see 25 real examples across surveys, research, and screening, and discover when a two-option question is the right choice, and when it isn&#039;t.">
+                            <meta property="twitter:image" content="https://youform.com/assets/images/dichotomous-questions-og.png">
+        
+        <link rel="shortcut icon" href="/assets/images/favicon.ico">
+        <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+        <noscript><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..125,200..800&family=DM+Sans:opsz,wght@9..40,100..1000&display=swap" rel="stylesheet"></noscript>
+
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=94c409cecc1dda2a96c948af08db94c4">
+        <script defer src="/assets/build/js/main.js?id=99fca15196f514880c0e8c81d13bc5ee"></script>
+
+        
+        <script type='application/ld+json'>
+            {
+              "@context": "https://schema.org",
+              "@type": "Corporation",
+              "name": "Youform",
+              "url": "https://youform.com/",
+              "sameAs": [
+                 "https://twitter.com/youformdotcom/",
+                 "https://www.linkedin.com/company/youform.com/"
+              ],
+              "logo": "https://youform.com/assets/images/youform-logo.png",
+              "image": "https://youform.com/assets/images/youform-builder.png",
+              "description": "Youform is a free and intuitive form builder with no limits on submissions."
+            }
+        </script>
+        <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Dichotomous Questions: 25 Examples and When to Use Them",
+  "description": "Learn what dichotomous questions are, see 25 real examples across surveys, research, and screening, and discover when a two-option question is the right choice, and when it isn't.",
+  "image": "https://youform.com/assets/images/dichotomous-questions-og.png",
+  "author": {
+    "@type": "Person",
+    "name": "Abhishek",
+    "url": "https://youform.com/about/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Youform",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://youform.com/assets/images/youform-logo.png"
+    }
+  },
+  "datePublished": "2026-05-28",
+  "dateModified": "2026-05-28",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://youform.com/blog/dichotomous-questions/"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a dichotomous question?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dichotomous question is a closed-ended survey question that offers exactly two mutually exclusive answer options, most commonly yes/no, true/false, or agree/disagree. The respondent picks one, and the response is binary."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an example of a dichotomous question?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "\"Have you purchased from us in the last 30 days? (Yes / No)\" is a classic dichotomous question. Other examples: \"Are you currently employed?\", \"Do you own a smartphone?\", \"Did you find what you were looking for today?\""
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should you use a dichotomous question?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use a dichotomous question when (1) the answer is genuinely binary in reality (employed vs not, eligible vs not), (2) you're screening or qualifying respondents at the start of a survey, (3) you need to branch the survey based on the answer, or (4) you want the highest possible response rate on a sensitive question."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a dichotomous question and a multiple choice question?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A dichotomous question has exactly two options. A multiple choice question has three or more. Dichotomous is faster to answer and easier to analyze, but loses nuance. Multiple choice captures gradations of opinion at the cost of speed and clarity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are dichotomous questions reliable?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They're highly reliable for genuinely binary attributes (did the user complete the action? yes/no) and unreliable when forced onto attributes with natural gradations (satisfaction, agreement, frequency). Asking \"Are you satisfied? (Yes/No)\" hides every shade of mixed feeling. Use a Likert scale instead."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the disadvantage of a dichotomous question?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The biggest disadvantage is loss of nuance. Forcing a binary answer where reality is continuous (e.g., satisfaction, agreement, frequency) flattens real opinions into noise. It can also push respondents to pick whichever side is closest, even when neither fits, producing data that looks decisive but isn't."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a yes/no question a dichotomous question?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a yes/no question is the most common form of dichotomous question. True/false, agree/disagree, present/absent, and any two-option pairing also qualify, as long as the two options are mutually exclusive and exhaustive."
+      }
+    }
+  ]
+}
+</script>
+    </head>
+    <body class="text-gray-900 font-sans antialiased relative">
+        
+
+        <main class="overflow-x-clip">
+            
+<!-- Navbar -->
+<div class="bg-white">
+    <div class="max-w-7xl mx-auto">
+    <div x-data="{ open: false }" class="relative overflow-hidden">
+        <div class="flex justify-between items-center px-10 py-4 md:py-8 md:px-20">
+            <div>
+                <a href="/" aria-label="Youform home">
+                    <img src="/assets/images/logo.png" width="170" height="27" alt="Youform">
+                </a>
+            </div>
+            <div class="hidden lg:block capitalize space-x-6">
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/">Home</a>
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/templates">Templates</a>
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/integrations">Integrations</a>
+                <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
+            </div>
+            <div class="flex space-x-4">
+                <a href="https://app.youform.com/login" class="hidden lg:block bg-vivid-yellow border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                    Log In
+                </a>
+                <a href="https://app.youform.com/register" class="hidden lg:block bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                    Sign Up
+                </a>
+            </div>
+            <a href="#" class="inline-block lg:hidden" @click.prevent="open = !open" aria-label="Toggle navigation menu" :aria-expanded="open">
+                <svg x-show="!open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <svg x-cloak x-show="open" xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 block text-black" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>                  
+            </a>
+        </div>
+        <div x-show="open" x-cloak x-transition class="lg:hidden bg-coral border-y-2 border-black px-10 py-4">
+            <div class="flex items-center justify-around">
+                <div>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/templates">Templates</a>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/integrations">Integrations</a>
+                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
+                </div>
+
+                <div class="flex items-center">
+                    <a href="https://app.youform.com/login" class="block lg:hidden bg-lavender-rose border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                        Log In
+                    </a>
+                    <a href="https://app.youform.com/register" class="hidden sm:block ml-4 lg:hidden bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
+                        Sign Up
+                    </a>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div></div>
+
+<!-- Back to blog -->
+<div class="bg-white pt-6">
+    <div class="max-w-3xl mx-auto px-6 sm:px-10 md:px-20">
+        <a href="/blog" class="text-sm text-gray-400 hover:text-gray-600 transition-colors block text-center">&larr; Back to blog</a>
+    </div>
+</div>
+
+<!-- Hero section -->
+<div class="bg-white pt-6 pb-10">
+    <div class="max-w-3xl mx-auto px-6 sm:px-10 md:px-20 text-center">
+        <span class="inline-block text-xs font-semibold uppercase tracking-wider text-coral bg-coral/10 px-3 py-1 rounded-full mb-5">Survey Design</span>
+        <h1 class="text-3xl sm:text-5xl font-bold leading-tight text-balance">
+            Dichotomous Questions: 25 Examples and When to Use Them
+        </h1>
+        <p class="text-lg sm:text-xl mt-6 text-gray-600 max-w-2xl mx-auto text-pretty">
+            The two-option question is the fastest way to a clean answer, and the easiest way to flatten a complex one. Here's when to use it, and 25 examples that show how.
+        </p>
+        <div class="mt-6 text-sm text-gray-500 flex items-center justify-center gap-2">
+            <span>By Abhishek</span>
+            <span>&#183;</span>
+            <span>May 28, 2026</span>
+            <span>&#183;</span>
+            <span>10 min read</span>
+        </div>
+        <div class="mt-3 flex items-center justify-center flex-wrap gap-x-2 gap-y-2 text-sm text-gray-500"
+     x-data="{ showShare: false }">
+
+    
+    <a :href="'https://chatgpt.com/?q=' + encodeURIComponent('Summarize this article: ' + window.location.href)"
+       target="_blank" rel="noopener"
+       aria-label="Summarize this article with ChatGPT"
+       x-tooltip.raw="Summarize using ChatGPT"
+       class="inline-flex items-center gap-1.5 h-8 px-2.5 rounded-full border border-gray-200 bg-white text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-colors">
+        <img src="/assets/images/logos/chatgpt.svg" alt="" class="w-4 h-4" />
+        <span class="text-xs font-medium">ChatGPT</span>
+    </a>
+
+    
+    <a :href="'https://claude.ai/new?q=' + encodeURIComponent('Summarize this article: ' + window.location.href)"
+       target="_blank" rel="noopener"
+       aria-label="Summarize this article with Claude"
+       x-tooltip.raw="Summarize using Claude"
+       class="inline-flex items-center gap-1.5 h-8 px-2.5 rounded-full border border-gray-200 bg-white text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-colors">
+        <img src="/assets/images/logos/claude.svg" alt="" class="w-4 h-4" />
+        <span class="text-xs font-medium">Claude</span>
+    </a>
+
+    
+    <a :href="'https://www.perplexity.ai/search/new?q=' + encodeURIComponent('Summarize this article: ' + window.location.href)"
+       target="_blank" rel="noopener"
+       aria-label="Summarize this article with Perplexity"
+       x-tooltip.raw="Summarize using Perplexity"
+       class="inline-flex items-center gap-1.5 h-8 px-2.5 rounded-full border border-gray-200 bg-white text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-colors">
+        <img src="/assets/images/logos/perplexity.svg" alt="" class="w-4 h-4" />
+        <span class="text-xs font-medium">Perplexity</span>
+    </a>
+
+    
+    <a :href="'https://www.google.com/search?udm=50&q=' + encodeURIComponent('Summarize this article: ' + window.location.href)"
+       target="_blank" rel="noopener"
+       aria-label="Summarize this article with Google AI"
+       x-tooltip.raw="Summarize using Google AI"
+       class="inline-flex items-center gap-1.5 h-8 px-2.5 rounded-full border border-gray-200 bg-white text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-colors">
+        <img src="/assets/images/logos/google.svg" alt="" class="w-4 h-4" />
+        <span class="text-xs font-medium">Google AI</span>
+    </a>
+
+    
+    <button
+        type="button"
+        @click="copyToClipboard(window.location.href); $dispatch('notify', { type: 'success', message: 'Link copied to clipboard!' })"
+        aria-label="Copy link"
+        x-tooltip.raw="Copy link to this article"
+        class="inline-flex items-center gap-1.5 h-8 px-2.5 rounded-full border border-gray-200 bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-800 hover:border-gray-300 transition-colors">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" /></svg>
+        <span class="text-xs font-medium">Copy</span>
+    </button>
+
+    
+    <div class="relative">
+        <button
+            type="button"
+            @click="showShare = !showShare"
+            @click.away="showShare = false"
+            aria-label="Share"
+            x-tooltip.raw="Share this article"
+            class="inline-flex items-center gap-1.5 h-8 px-2.5 rounded-full border border-gray-200 bg-white text-gray-600 hover:bg-gray-50 hover:text-gray-800 hover:border-gray-300 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" /></svg>
+            <span class="text-xs font-medium">Share</span>
+        </button>
+
+        
+        <div
+            x-show="showShare"
+            x-cloak
+            x-transition:enter="transition ease-out duration-150"
+            x-transition:enter-start="opacity-0 scale-95"
+            x-transition:enter-end="opacity-100 scale-100"
+            x-transition:leave="transition ease-in duration-100"
+            x-transition:leave-start="opacity-100 scale-100"
+            x-transition:leave-end="opacity-0 scale-95"
+            class="absolute right-0 mt-1 w-52 bg-white border border-gray-200 rounded-lg shadow-lg z-50"
+        >
+            <div class="py-1">
+                <a :href="'https://twitter.com/intent/tweet?url=' + encodeURIComponent(window.location.href) + '&text=' + encodeURIComponent(document.title)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                    Twitter / X
+                </a>
+                <a :href="'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Facebook
+                </a>
+                <a :href="'https://www.linkedin.com/sharing/share-offsite/?url=' + encodeURIComponent(window.location.href)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="32" width="192" height="192" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="88" cy="84" r="12"/></svg>
+                    LinkedIn
+                </a>
+                <a :href="'https://wa.me/?text=' + encodeURIComponent(document.title + ' ' + window.location.href)"
+                   target="_blank" rel="noopener"
+                   class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-3 flex-shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>
+
+<!-- Main Content -->
+<div class="bg-white pb-20">
+    <div class="max-w-7xl mx-auto px-6 sm:px-10 md:px-20">
+        <div class="max-w-3xl mx-auto">
+
+            <!-- TL;DR callout -->
+            <div class="rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] bg-medium-champagne p-6 sm:p-7 mb-10">
+                <p class="text-xs font-bold uppercase tracking-wider mb-2">TL;DR</p>
+                <p class="text-base sm:text-lg leading-relaxed m-0">
+                    A dichotomous question offers exactly two answer options, usually yes/no or true/false. Use it when the underlying reality is genuinely binary, when you're screening respondents, or when you need to branch the survey. Don't use it for satisfaction, agreement, or anything with natural gradations. A Likert scale captures those better. This guide has 25 real examples across every common survey type, plus the rules for when to pick dichotomous over its alternatives.
+                </p>
+            </div>
+
+            <!-- Table of Contents -->
+            <nav aria-label="Table of contents" class="rounded-xl border border-gray-200 bg-gray-50 p-6 mb-12">
+                <p class="text-xs font-bold uppercase tracking-wider text-gray-600 mb-3">In this guide</p>
+                <ol class="list-decimal list-inside space-y-2 text-base text-gray-800 marker:text-gray-400 marker:font-semibold">
+                    <li><a href="#what-are-dichotomous-questions" class="hover:text-coral underline-offset-2 hover:underline">What are dichotomous questions?</a></li>
+                    <li><a href="#when-to-use" class="hover:text-coral underline-offset-2 hover:underline">When to use a dichotomous question</a></li>
+                    <li><a href="#examples" class="hover:text-coral underline-offset-2 hover:underline">25 examples (across every survey type)</a></li>
+                    <li><a href="#pros-and-cons" class="hover:text-coral underline-offset-2 hover:underline">Pros and cons</a></li>
+                    <li><a href="#how-to-analyze" class="hover:text-coral underline-offset-2 hover:underline">How to analyze and score the data</a></li>
+                    <li><a href="#vs-alternatives" class="hover:text-coral underline-offset-2 hover:underline">Dichotomous vs other question types</a></li>
+                    <li><a href="#best-practices" class="hover:text-coral underline-offset-2 hover:underline">Best practices for writing them</a></li>
+                    <li><a href="#checklist" class="hover:text-coral underline-offset-2 hover:underline">Pre-send checklist</a></li>
+                    <li><a href="#faq" class="hover:text-coral underline-offset-2 hover:underline">FAQ</a></li>
+                </ol>
+            </nav>
+
+            <!-- Article body -->
+            <article class="text-gray-800" style="font-size: 1.125rem; line-height: 1.85;">
+
+                <p class="mb-6">Every survey designer eventually faces the same choice: do you ask a simple <strong>yes/no</strong> question and get a clean answer, or do you ask a scaled question and capture the nuance?</p>
+
+                <p class="mb-6">The dichotomous question, any question with exactly two mutually exclusive options, is the workhorse of survey design. It's fast, easy to analyze, and incredibly reliable when used correctly. It's also one of the most overused formats, applied to questions that don't have a binary answer in real life.</p>
+
+                <p class="mb-6">This guide covers what dichotomous questions are, when they genuinely beat the alternatives, 25 real examples across customer research, employee, health, education and political surveys, the pros and cons, and exactly when to reach for a Likert scale or multiple choice instead.</p>
+
+                <h2 id="what-are-dichotomous-questions" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">What are dichotomous questions?</h2>
+
+                <p class="mb-5">A dichotomous question is a <strong>closed-ended survey question that offers exactly two answer options</strong>. The two options must be mutually exclusive (you can't pick both) and collectively exhaustive (every respondent fits one of them).</p>
+
+                <p class="mb-5">The word comes from the Greek <em>dichotomia</em>, literally "cutting in two." Every respondent gets cut into one of two buckets.</p>
+
+                <p class="mb-6">The most common forms are:</p>
+
+                <ul class="space-y-2 mb-6 list-disc pl-6 marker:text-coral">
+                    <li><strong>Yes / No</strong>: "Have you used our product before?"</li>
+                    <li><strong>True / False</strong>: used heavily in quizzes and knowledge tests</li>
+                    <li><strong>Agree / Disagree</strong>: sometimes used in attitude research</li>
+                    <li><strong>Fair / Unfair</strong>: common in policy and ethics research</li>
+                    <li><strong>Present / Absent</strong>: medical or observational data</li>
+                    <li><strong>This / That</strong>: "Coffee or tea?", "iOS or Android?"</li>
+                </ul>
+
+                <!-- Example card -->
+                <div class="my-7 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                    <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                        <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">&#10004; The canonical example</p>
+                        <p class="text-lg text-gray-900 m-0">"Have you purchased from us in the last 30 days? (Yes / No)"</p>
+                    </div>
+                    <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                        <p class="text-base text-gray-700 m-0">Clean, binary, and reflects a real-world fact. Either the purchase happened or it didn't. There's no middle ground to lose.</p>
+                    </div>
+                </div>
+
+                <p class="mb-6">Dichotomous questions sit in a specific spot in the survey design toolkit: simpler than multiple choice, simpler than Likert, more decisive than open-ended. The trick is knowing when "simpler" is the right call.</p>
+
+                <h2 id="when-to-use" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">When to use a dichotomous question</h2>
+
+                <p class="mb-6">There are four situations where a dichotomous question is clearly the right tool:</p>
+
+                <ol class="space-y-3 mb-6 list-decimal pl-6 marker:text-coral marker:font-semibold">
+                    <li><strong>The underlying reality is binary.</strong> "Are you currently employed?", "Do you own a car?", "Are you over 18?" These all have a real-world yes-or-no answer. No scale will improve them.</li>
+                    <li><strong>You're screening or qualifying respondents.</strong> A first question like "Have you used our product in the last 90 days?" filters who continues. The branching depends on a binary answer.</li>
+                    <li><strong>You're branching the survey.</strong> "Did you contact support?" routes one group to follow-up questions and skips them for everyone else. Conditional logic in form builders runs on binary signals.</li>
+                    <li><strong>You want the highest response rate on a sensitive question.</strong> Binary options are the lowest-friction format, so people are likeliest to answer them honestly, especially when the topic is uncomfortable.</li>
+                </ol>
+
+                <p class="mb-6">And three situations where you should not use one:</p>
+
+                <ul class="space-y-3 mb-6 list-disc pl-6 marker:text-coral">
+                    <li><strong>The attribute is continuous.</strong> Satisfaction, agreement, frequency, intent, trust: these all have natural gradations. A 5- or 7-point Likert scale captures the gradient; a yes/no flattens it.</li>
+                    <li><strong>The respondent has mixed feelings.</strong> If the honest answer is "kind of," forcing yes or no produces noise, not data.</li>
+                    <li><strong>You actually want gradation in your reporting.</strong> If your dashboards or KPIs require averages, distributions, or trend comparisons, you need a scale that produces them. Binary data limits you to "% yes."</li>
+                </ul>
+
+                <h2 id="examples" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">25 examples of dichotomous questions</h2>
+
+                <p class="mb-8">Here are 25 dichotomous questions pulled from real customer research, employee, healthcare, market research, education, and political surveys. Each is paired with the kind of insight it produces, and a note on when a different format would be better.</p>
+
+                <h3 id="examples-customer" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Customer research surveys</h3>
+
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 1</p>
+                            <p class="text-lg text-gray-900 m-0">"Have you purchased from us in the last 30 days? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Screener that cleanly splits buyers from non-buyers so the next questions can branch correctly.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 2</p>
+                            <p class="text-lg text-gray-900 m-0">"Did you find what you were looking for today? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Common post-visit survey. Binary fits because the goal is task completion, not satisfaction.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 3</p>
+                            <p class="text-lg text-gray-900 m-0">"Would you recommend our product to a friend? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">A binary recommendation question. If you need the full NPS gradient, use the 0&ndash;10 scale instead.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 4</p>
+                            <p class="text-lg text-gray-900 m-0">"Have you contacted customer support in the last 6 months? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Screener for a support-experience follow-up. Branch logic depends on a clean binary.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 5</p>
+                            <p class="text-lg text-gray-900 m-0">"Are you currently a paying customer? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Segmenter. Lets you analyze free vs paid respondents separately without ambiguity.</p>
+                        </div>
+                    </div>
+                
+                <h3 id="examples-employee" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Employee &amp; HR surveys</h3>
+
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 6</p>
+                            <p class="text-lg text-gray-900 m-0">"Have you spoken with your manager about your career goals in the last quarter? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Behavioral fact, not opinion. Binary captures whether the conversation actually happened.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 7</p>
+                            <p class="text-lg text-gray-900 m-0">"Did you take any vacation days in the last 6 months? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Usage signal. Reveals burnout risk without measuring sentiment.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 8</p>
+                            <p class="text-lg text-gray-900 m-0">"Have you completed the new hire onboarding modules? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Compliance check. The follow-up should be "why not" for anyone who answered no.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 9</p>
+                            <p class="text-lg text-gray-900 m-0">"Would you apply for a job here again, knowing what you know now? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">A powerful exit-interview question. The binary forces respondents off the fence.</p>
+                        </div>
+                    </div>
+                
+                <!-- Mid-article CTA -->
+                <div class="my-12 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] bg-aquamarine/20 p-7 sm:p-8 text-center">
+                    <p class="text-xl sm:text-2xl font-bold mb-2 text-balance">Building a survey that mixes question types?</p>
+                    <p class="text-base text-gray-700 mb-5 max-w-xl mx-auto">Youform has yes/no fields, Likert scales, ranking questions, matrix grids, and conditional branching, all on the free plan with unlimited submissions.</p>
+                    <a href="https://app.youform.com/register" class="inline-block bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl transition-all px-7 py-2 text-black font-semibold rounded-md no-underline">
+                        Try Youform free
+                    </a>
+                </div>
+
+                <h3 id="examples-healthcare" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Healthcare &amp; clinical surveys</h3>
+
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 10</p>
+                            <p class="text-lg text-gray-900 m-0">"Do you currently smoke tobacco products? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Genuine binary clinical fact. Used as a risk-factor screener in nearly every intake form.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 11</p>
+                            <p class="text-lg text-gray-900 m-0">"Have you been diagnosed with diabetes? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Medical history. Binary because the diagnosis either exists in the record or it doesn't.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 12</p>
+                            <p class="text-lg text-gray-900 m-0">"Are you currently taking any prescription medications? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Screener that gates a follow-up list. Yes routes to "which medications?"; no skips it.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 13</p>
+                            <p class="text-lg text-gray-900 m-0">"Did you experience any side effects from the medication? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Cleanly captures incidence. Severity would be a separate scaled question.</p>
+                        </div>
+                    </div>
+                
+                <h3 id="examples-market" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Market research surveys</h3>
+
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 14</p>
+                            <p class="text-lg text-gray-900 m-0">"Have you heard of our brand before today? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Aided awareness measurement. A standard binary in tracking studies.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 15</p>
+                            <p class="text-lg text-gray-900 m-0">"Would you consider switching from your current provider? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Intent screener. The follow-up "why" or "why not" is where the real signal lives.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 16</p>
+                            <p class="text-lg text-gray-900 m-0">"Do you own a smartphone? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Demographic / device segmenter. Branches the survey toward mobile vs desktop questions.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 17</p>
+                            <p class="text-lg text-gray-900 m-0">"Have you used a subscription meal kit in the last 12 months? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Category usage. Used to size addressable markets in concept-testing surveys.</p>
+                        </div>
+                    </div>
+                
+                <h3 id="examples-education" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Education &amp; course feedback</h3>
+
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 18</p>
+                            <p class="text-lg text-gray-900 m-0">"Did you complete all the assigned readings for this module? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Behavioral check. Lets the instructor compare completion against quiz performance.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 19</p>
+                            <p class="text-lg text-gray-900 m-0">"Was the homework submitted on time? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Operational data, not opinion. Binary because the timestamp either beats the deadline or doesn't.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 20</p>
+                            <p class="text-lg text-gray-900 m-0">"True or False: The mitochondria is the powerhouse of the cell."</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Classic knowledge-test format. Quick to grade, but offers no insight into <em>why</em> a student got it wrong.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 21</p>
+                            <p class="text-lg text-gray-900 m-0">"Would you recommend this course to a colleague? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Binary recommendation. If you need a benchmark you can trend, use NPS instead.</p>
+                        </div>
+                    </div>
+                
+                <h3 id="examples-political" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Political &amp; public opinion surveys</h3>
+
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 22</p>
+                            <p class="text-lg text-gray-900 m-0">"Are you registered to vote? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Genuine binary administrative fact. Always a screener in election-cycle polling.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 23</p>
+                            <p class="text-lg text-gray-900 m-0">"Did you vote in the last general election? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Self-reported turnout. Useful for weighting samples toward likely voters.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 24</p>
+                            <p class="text-lg text-gray-900 m-0">"Do you currently identify with any political party? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Identity screener that gates "which one?" The binary protects against forcing an answer on independents.</p>
+                        </div>
+                    </div>
+                                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
+                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2">Example 25</p>
+                            <p class="text-lg text-gray-900 m-0">"Have you watched any presidential debates this cycle? (Yes / No)"</p>
+                        </div>
+                        <div class="bg-amber-50 px-5 py-4 sm:px-6 sm:py-5">
+                            <p class="text-base text-gray-700 m-0">Media-exposure check. Branches into "which ones" and "how did they affect your views."</p>
+                        </div>
+                    </div>
+                
+                <h2 id="pros-and-cons" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">Pros and cons of dichotomous questions</h2>
+
+                <p class="mb-6">Used in the right place, dichotomous questions are a survey designer's best friend. Used in the wrong place, they're the format that quietly destroys the most data.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-8">
+                    <div class="rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] bg-emerald-50 p-6">
+                        <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-3">&#10004; Strengths</p>
+                        <ul class="space-y-2 m-0 list-disc pl-5 marker:text-emerald-700 text-base text-gray-800">
+                            <li><strong>Fast to answer.</strong> Two options, one tap.</li>
+                            <li><strong>Easy to analyze.</strong> Every result reduces to "% yes."</li>
+                            <li><strong>High response rate.</strong> Lowest friction format possible.</li>
+                            <li><strong>Clean branching.</strong> Perfect for conditional logic and skip patterns.</li>
+                            <li><strong>Reliable for binary facts.</strong> No ambiguity about what the answer means.</li>
+                        </ul>
+                    </div>
+                    <div class="rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] bg-red-50 p-6">
+                        <p class="text-xs font-bold uppercase tracking-wider text-red-700 mb-3">&#10006; Weaknesses</p>
+                        <ul class="space-y-2 m-0 list-disc pl-5 marker:text-red-700 text-base text-gray-800">
+                            <li><strong>Loses nuance.</strong> Mixed feelings collapse into a misleading yes or no.</li>
+                            <li><strong>Forces a side.</strong> No "maybe" option pushes people off the fence.</li>
+                            <li><strong>Misses gradation.</strong> Can't tell strong yes from weak yes.</li>
+                            <li><strong>Can introduce bias.</strong> If neither option fits, respondents pick the less wrong one.</li>
+                            <li><strong>Hard to trend.</strong> Limited statistical depth compared to scaled data.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h2 id="how-to-analyze" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">How to analyze and score dichotomous question data</h2>
+
+                <p class="mb-6">Binary data is the easiest survey output to work with, but the analysis still needs to be done deliberately. Three common patterns:</p>
+
+                <h3 class="text-xl sm:text-2xl font-semibold mt-8 mb-3">1. Calculate the percentage</h3>
+                <p class="mb-6">The default metric for any dichotomous question is the share of respondents who picked each option. Tally the "yes" responses, divide by the total number of valid responses, and report a percentage. If 642 out of 900 respondents said yes, that's a 71.3% yes rate.</p>
+
+                <h3 class="text-xl sm:text-2xl font-semibold mt-8 mb-3">2. Cross-tabulate against segments</h3>
+                <p class="mb-6">The single percentage is rarely the interesting number; the difference between segments is. Break the "% yes" out by audience cut (new vs returning customers, free vs paid, region, plan tier). A 10-point gap between any two segments is usually where the actual signal lives.</p>
+
+                <h3 class="text-xl sm:text-2xl font-semibold mt-8 mb-3">3. Pair binary with a follow-up</h3>
+                <p class="mb-6">A dichotomous question on its own tells you <em>what</em>. The follow-up tells you <em>why</em>. Branch the survey so anyone who answered yes (or no) gets a single open-ended question after. That's where the qualitative depth comes back into binary data.</p>
+
+                <p class="mb-6">For trend reporting, plot "% yes" over time the same way you'd plot any other rate metric. Most survey tools (Youform included) export the raw responses as CSV so you can wire them straight into your dashboard of choice.</p>
+
+                <h2 id="vs-alternatives" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">Dichotomous vs other question types</h2>
+
+                <p class="mb-6">Picking the right question type comes down to matching the format to the shape of the answer. Here's how dichotomous compares to its closest cousins.</p>
+
+                <div class="space-y-6 mb-8">
+                    <div class="rounded-xl border border-gray-200 p-6 bg-white">
+                        <h3 class="text-lg sm:text-xl font-bold mb-2 mt-0">Dichotomous vs multiple choice</h3>
+                        <p class="text-base text-gray-700 mb-3 m-0">Multiple choice has three or more options. Reach for it when the underlying choice isn't binary. "Which device do you use most often?" (iOS / Android / Web) is a three-option fact, not a yes/no opinion.</p>
+                    </div>
+
+                    <div class="rounded-xl border border-gray-200 p-6 bg-white">
+                        <h3 class="text-lg sm:text-xl font-bold mb-2 mt-0">Dichotomous vs Likert scale</h3>
+                        <p class="text-base text-gray-700 mb-3 m-0">Likert scales (typically 5 or 7 points: strongly disagree &rarr; strongly agree) capture intensity. If you want to know <em>how much</em> the respondent agrees, switch to Likert. Yes/no flattens "kind of agree" into the wrong bucket.</p>
+                    </div>
+
+                    <div class="rounded-xl border border-gray-200 p-6 bg-white">
+                        <h3 class="text-lg sm:text-xl font-bold mb-2 mt-0">Dichotomous vs rating scale</h3>
+                        <p class="text-base text-gray-700 mb-3 m-0">Rating scales (1&ndash;5, 1&ndash;10, NPS) measure magnitude. Use them when the metric needs to be benchmarked or trended over time. Binary data can't be averaged into a trend with the same precision.</p>
+                    </div>
+
+                    <div class="rounded-xl border border-gray-200 p-6 bg-white">
+                        <h3 class="text-lg sm:text-xl font-bold mb-2 mt-0">Dichotomous vs open-ended</h3>
+                        <p class="text-base text-gray-700 mb-3 m-0">Open-ended questions capture qualitative depth that binary can't reach. The smart pattern is to combine them: a dichotomous question to filter or measure, followed by an open-ended "why" for the people whose answer interests you most.</p>
+                    </div>
+                </div>
+
+                <h2 id="best-practices" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">Best practices for writing dichotomous questions</h2>
+
+                <p class="mb-6">A dichotomous question is only as good as its wording. Five rules that separate clean binary questions from broken ones:</p>
+
+                <ol class="space-y-3 mb-6 list-decimal pl-6 marker:text-coral marker:font-semibold">
+                    <li><strong>Make the two options mutually exclusive and exhaustive.</strong> Every respondent must fit into exactly one. If someone could be "kind of both" or "neither," the format is wrong for this question.</li>
+                    <li><strong>Stay neutral.</strong> Don't bias the wording toward one option. "Did our excellent support resolve your issue? (Yes / No)" is leading; "Did support resolve your issue? (Yes / No)" isn't.</li>
+                    <li><strong>Ask about one thing at a time.</strong> If you find yourself writing "and" or "or" in the stem, you've drifted into a <a href="/blog/double-barreled-questions" class="text-coral hover:text-coral/80 underline">double-barreled question</a>, the worst format mistake in survey design.</li>
+                    <li><strong>Consider a "not sure" or "prefer not to say" option where it's honest.</strong> Forcing a binary answer when respondents genuinely don't know turns guesses into "data." It's not always wrong to add a third option, just know that the question stops being technically dichotomous.</li>
+                    <li><strong>Pair it with a follow-up.</strong> Binary alone tells you what; an open-ended "why" or a Likert follow-up tells you how strongly. Combining the two is almost always better than either alone.</li>
+                </ol>
+
+                <h2 id="checklist" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">A pre-send checklist before your next survey</h2>
+
+                <div class="rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] bg-pale-violet/30 p-6 sm:p-7 mb-6">
+                    <ul class="space-y-3 m-0">
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex shrink-0 size-5 items-center justify-center rounded border-2 border-black bg-white text-xs font-bold">&#10004;</span>
+                            <span>Each dichotomous question describes a genuinely binary reality, not a continuous one.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex shrink-0 size-5 items-center justify-center rounded border-2 border-black bg-white text-xs font-bold">&#10004;</span>
+                            <span>The two options are mutually exclusive and cover every respondent.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex shrink-0 size-5 items-center justify-center rounded border-2 border-black bg-white text-xs font-bold">&#10004;</span>
+                            <span>The wording is neutral. No adjectives nudge respondents toward one side.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex shrink-0 size-5 items-center justify-center rounded border-2 border-black bg-white text-xs font-bold">&#10004;</span>
+                            <span>Sensitive questions get a "prefer not to say" if honesty depends on it.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="mt-1 inline-flex shrink-0 size-5 items-center justify-center rounded border-2 border-black bg-white text-xs font-bold">&#10004;</span>
+                            <span>Every "yes" with downstream value has a follow-up that captures depth.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="mb-6">If you can check all five, your binary questions are doing exactly what they're best at, producing decisive, clean, and trustworthy data.</p>
+
+                <h2 id="faq" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-6 text-balance">Frequently asked questions</h2>
+
+                <div class="space-y-4 mb-8">
+                    <details class="group rounded-xl border border-gray-200 bg-white open:border-coral transition-colors">
+                        <summary class="cursor-pointer list-none px-5 py-4 sm:px-6 sm:py-5 flex justify-between items-start gap-4 font-semibold text-base sm:text-lg">
+                            <span>What is a dichotomous question?</span>
+                            <span class="shrink-0 mt-1 transition-transform group-open:rotate-45 text-coral text-2xl leading-none">+</span>
+                        </summary>
+                        <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-gray-700">
+                            A dichotomous question is a closed-ended survey question that offers exactly two mutually exclusive answer options, most commonly yes/no, true/false, or agree/disagree. The respondent picks one, and the response is binary.
+                        </div>
+                    </details>
+
+                    <details class="group rounded-xl border border-gray-200 bg-white open:border-coral transition-colors">
+                        <summary class="cursor-pointer list-none px-5 py-4 sm:px-6 sm:py-5 flex justify-between items-start gap-4 font-semibold text-base sm:text-lg">
+                            <span>What is an example of a dichotomous question?</span>
+                            <span class="shrink-0 mt-1 transition-transform group-open:rotate-45 text-coral text-2xl leading-none">+</span>
+                        </summary>
+                        <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-gray-700">
+                            "Have you purchased from us in the last 30 days? (Yes / No)" is a classic dichotomous question. Other examples: "Are you currently employed?", "Do you own a smartphone?", "Did you find what you were looking for today?"
+                        </div>
+                    </details>
+
+                    <details class="group rounded-xl border border-gray-200 bg-white open:border-coral transition-colors">
+                        <summary class="cursor-pointer list-none px-5 py-4 sm:px-6 sm:py-5 flex justify-between items-start gap-4 font-semibold text-base sm:text-lg">
+                            <span>When should you use a dichotomous question?</span>
+                            <span class="shrink-0 mt-1 transition-transform group-open:rotate-45 text-coral text-2xl leading-none">+</span>
+                        </summary>
+                        <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-gray-700">
+                            Use a dichotomous question when (1) the answer is genuinely binary in reality (employed vs not, eligible vs not), (2) you're screening or qualifying respondents at the start of a survey, (3) you need to branch the survey based on the answer, or (4) you want the highest possible response rate on a sensitive question.
+                        </div>
+                    </details>
+
+                    <details class="group rounded-xl border border-gray-200 bg-white open:border-coral transition-colors">
+                        <summary class="cursor-pointer list-none px-5 py-4 sm:px-6 sm:py-5 flex justify-between items-start gap-4 font-semibold text-base sm:text-lg">
+                            <span>What is the difference between a dichotomous question and a multiple choice question?</span>
+                            <span class="shrink-0 mt-1 transition-transform group-open:rotate-45 text-coral text-2xl leading-none">+</span>
+                        </summary>
+                        <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-gray-700">
+                            A dichotomous question has exactly two options. A multiple choice question has three or more. Dichotomous is faster to answer and easier to analyze, but loses nuance. Multiple choice captures gradations of opinion at the cost of speed and clarity.
+                        </div>
+                    </details>
+
+                    <details class="group rounded-xl border border-gray-200 bg-white open:border-coral transition-colors">
+                        <summary class="cursor-pointer list-none px-5 py-4 sm:px-6 sm:py-5 flex justify-between items-start gap-4 font-semibold text-base sm:text-lg">
+                            <span>Are dichotomous questions reliable?</span>
+                            <span class="shrink-0 mt-1 transition-transform group-open:rotate-45 text-coral text-2xl leading-none">+</span>
+                        </summary>
+                        <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-gray-700">
+                            They're highly reliable for genuinely binary attributes (did the user complete the action? yes/no) and unreliable when forced onto attributes with natural gradations (satisfaction, agreement, frequency). Asking "Are you satisfied? (Yes/No)" hides every shade of mixed feeling. Use a Likert scale instead.
+                        </div>
+                    </details>
+
+                    <details class="group rounded-xl border border-gray-200 bg-white open:border-coral transition-colors">
+                        <summary class="cursor-pointer list-none px-5 py-4 sm:px-6 sm:py-5 flex justify-between items-start gap-4 font-semibold text-base sm:text-lg">
+                            <span>What is the disadvantage of a dichotomous question?</span>
+                            <span class="shrink-0 mt-1 transition-transform group-open:rotate-45 text-coral text-2xl leading-none">+</span>
+                        </summary>
+                        <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-gray-700">
+                            The biggest disadvantage is loss of nuance. Forcing a binary answer where reality is continuous (e.g., satisfaction, agreement, frequency) flattens real opinions into noise. It can also push respondents to pick whichever side is closest, even when neither fits, producing data that looks decisive but isn't.
+                        </div>
+                    </details>
+
+                    <details class="group rounded-xl border border-gray-200 bg-white open:border-coral transition-colors">
+                        <summary class="cursor-pointer list-none px-5 py-4 sm:px-6 sm:py-5 flex justify-between items-start gap-4 font-semibold text-base sm:text-lg">
+                            <span>Is a yes/no question a dichotomous question?</span>
+                            <span class="shrink-0 mt-1 transition-transform group-open:rotate-45 text-coral text-2xl leading-none">+</span>
+                        </summary>
+                        <div class="px-5 pb-5 sm:px-6 sm:pb-6 text-gray-700">
+                            Yes, a yes/no question is the most common form of dichotomous question. True/false, agree/disagree, present/absent, and any two-option pairing also qualify, as long as the two options are mutually exclusive and exhaustive.
+                        </div>
+                    </details>
+                </div>
+
+                <h2 id="build-cleaner-surveys" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">Build cleaner surveys with Youform</h2>
+
+                <p class="mb-6">Youform is a free survey and form builder with native support for every question type in this guide: yes/no fields, Likert scales, rating, ranking, matrix grids, NPS, and open-ended. Conditional logic branches the survey on every binary answer, so your screeners and follow-ups stay clean. Unlimited submissions, no respondent limits, and 300+ templates on the free plan.</p>
+
+                <p class="mb-8">If you're auditing question wording across a longer survey, also see our guide to <a href="/blog/double-barreled-questions" class="text-coral hover:text-coral/80 underline">double-barreled questions and how to fix them</a>, the format mistake that breaks the most survey data.</p>
+
+                <div class="mt-10 mb-2 text-center">
+                    <a href="https://app.youform.com/register" class="inline-block text-xl sm:text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl transition-all px-10 py-3 text-black font-semibold rounded-md no-underline">
+                        Create free account
+                    </a>
+                    <p class="text-sm text-gray-500 mt-3">No credit card required &middot; Unlimited submissions on the free plan</p>
+                </div>
+            </article>
+
+            <!-- Related posts -->
+            <div class="mt-20 pt-10 border-t-2 border-black">
+                <p class="text-xs font-bold uppercase tracking-wider text-gray-500 mb-2">More from Youform</p>
+                <h3 class="text-2xl sm:text-3xl font-bold mb-8 text-balance">Keep reading</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                            <a href="/blog/double-barreled-questions" class="group block p-5 sm:p-6 rounded-xl border-2 border-black bg-coral/25 shadow-[3px_3px_0_0_#000] hover:shadow-[6px_6px_0_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                            <div class="flex items-center justify-between gap-3 mb-3">
+                                <p class="text-xs font-bold uppercase tracking-wider text-black/70 m-0">Survey design</p>
+                                <span class="shrink-0 inline-flex size-7 items-center justify-center rounded-full border-2 border-black bg-white text-black group-hover:bg-black group-hover:text-white transition-colors" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-3.5">
+                                        <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <p class="font-bold text-lg sm:text-xl leading-snug text-gray-900 mb-2">Double-barreled questions</p>
+                            <p class="text-sm sm:text-base text-gray-700 m-0">20 examples of the format mistake that quietly ruins survey data.</p>
+                        </a>
+                                            <a href="/customer-satisfaction-survey" class="group block p-5 sm:p-6 rounded-xl border-2 border-black bg-aquamarine/25 shadow-[3px_3px_0_0_#000] hover:shadow-[6px_6px_0_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                            <div class="flex items-center justify-between gap-3 mb-3">
+                                <p class="text-xs font-bold uppercase tracking-wider text-black/70 m-0">Templates</p>
+                                <span class="shrink-0 inline-flex size-7 items-center justify-center rounded-full border-2 border-black bg-white text-black group-hover:bg-black group-hover:text-white transition-colors" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-3.5">
+                                        <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <p class="font-bold text-lg sm:text-xl leading-snug text-gray-900 mb-2">Customer satisfaction survey template</p>
+                            <p class="text-sm sm:text-base text-gray-700 m-0">A clean CSAT template you can clone in one click.</p>
+                        </a>
+                                            <a href="/online-survey-builder" class="group block p-5 sm:p-6 rounded-xl border-2 border-black bg-pale-violet/30 shadow-[3px_3px_0_0_#000] hover:shadow-[6px_6px_0_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                            <div class="flex items-center justify-between gap-3 mb-3">
+                                <p class="text-xs font-bold uppercase tracking-wider text-black/70 m-0">Tools</p>
+                                <span class="shrink-0 inline-flex size-7 items-center justify-center rounded-full border-2 border-black bg-white text-black group-hover:bg-black group-hover:text-white transition-colors" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-3.5">
+                                        <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <p class="font-bold text-lg sm:text-xl leading-snug text-gray-900 mb-2">Online survey builder</p>
+                            <p class="text-sm sm:text-base text-gray-700 m-0">Yes/no, Likert, ranking, matrix: every question type on the free plan.</p>
+                        </a>
+                                            <a href="/blog/how-we-used-sean-ellis-test-to-find-out-our-product-market-fit" class="group block p-5 sm:p-6 rounded-xl border-2 border-black bg-medium-champagne shadow-[3px_3px_0_0_#000] hover:shadow-[6px_6px_0_0_#000] hover:-translate-x-0.5 hover:-translate-y-0.5 transition-all">
+                            <div class="flex items-center justify-between gap-3 mb-3">
+                                <p class="text-xs font-bold uppercase tracking-wider text-black/70 m-0">Survey design</p>
+                                <span class="shrink-0 inline-flex size-7 items-center justify-center rounded-full border-2 border-black bg-white text-black group-hover:bg-black group-hover:text-white transition-colors" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-3.5">
+                                        <path fill-rule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638L10.23 5.29a.75.75 0 1 1 1.04-1.08l5.5 5.25a.75.75 0 0 1 0 1.08l-5.5 5.25a.75.75 0 1 1-1.04-1.08l4.158-3.96H3.75A.75.75 0 0 1 3 10Z" clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <p class="font-bold text-lg sm:text-xl leading-snug text-gray-900 mb-2">How we used the Sean Ellis test</p>
+                            <p class="text-sm sm:text-base text-gray-700 m-0">A real survey we ran. Here's what the data told us.</p>
+                        </a>
+                                    </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<section class="px-10 md:px-20 pt-16 pb-16 bg-amber-50 border-t-2 border-black">
+    <div class="max-w-7xl mx-auto">
+        <div class="rounded-2xl border-2 border-black drop-shadow-6xl bg-medium-champagne text-black">
+            <div class="p-8 md:p-12">
+                <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 items-center">
+                    <div class="lg:col-span-3">
+                        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">Scrolled so much still not sure?</h2>
+                        <p class="text-base sm:text-lg mt-4 text-gray-700">Let your favorite AI tell you if Youform is the right fit.</p>
+                    </div>
+                    <div class="lg:col-span-2">
+                        <div class="grid grid-cols-2 gap-3">
+                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://chat.openai.com/?q=tell+me+why+youform+the+form+and+survey+builder+is+a+great+choice+for+me" class="inline-flex items-center justify-center gap-2 rounded-md px-3 py-3 bg-white text-gray-700 border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
+                                <img src="/assets/images/logos/chatgpt.svg" alt="ChatGPT" class="h-5 w-5"/><span class="font-semibold text-sm">ChatGPT</span>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://claude.ai/new?q=tell+me+why+youform+the+form+and+survey+builder+is+a+great+choice+for+me" class="inline-flex items-center justify-center gap-2 rounded-md px-3 py-3 bg-coral text-black border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
+                                <img src="/assets/images/logos/claude.svg" alt="Claude" class="h-5 w-5"/><span class="font-semibold text-sm">Claude</span>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.perplexity.ai/search/new?q=tell+me+why+youform+the+form+and+survey+builder+is+a+great+choice+for+me" class="inline-flex items-center justify-center gap-2 rounded-md px-3 py-3 bg-aquamarine text-black border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
+                                <img src="/assets/images/logos/perplexity.svg" alt="Perplexity" class="h-5 w-5"/><span class="font-semibold text-sm">Perplexity</span>
+                            </a>
+                            <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.google.com/search?q=tell+me+why+youform+the+form+and+survey+builder+is+a+great+choice+for+me&udm=50" class="inline-flex items-center justify-center gap-2 rounded-md px-3 py-3 bg-white text-black border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl">
+                                <img src="/assets/images/logos/google.svg" alt="Google AI" class="h-5 w-5"/><span class="font-semibold text-sm">Google AI</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-5 text-center">
+            <p class="text-base md:text-lg font-semibold text-black">Already made up your mind?</p>
+            <a href="https://app.youform.com/register" class="inline-flex items-center gap-2 rounded-md px-8 md:px-10 py-3 bg-vivid-yellow text-black border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl transition-all font-semibold text-sm md:text-base">
+                Sign up now
+                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+        </div>
+    </div>
+</section>
+
+<div class="bg-black space-y-6 lg:space-y-0">
+    <div class="mx-auto max-w-6xl px-10 md:px-20 py-16">
+        <div class="flex items-start justify-between flex-col lg:flex-row space-y-10 lg:space-y-0">
+            <div>
+                <a href="/" aria-label="Youform home">
+                    <img class="mx-auto rounded-full" width="60" height="60" src="/assets/images/youform-logo-white-bg.jpg" alt="Youform">
+                </a>
+                <div class="flex items-center justify-center lg:justify-start mt-4 space-x-3">
+                    <a href="https://x.com/youformdotcom" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on X">
+                        
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="48 40 96 40 208 216 160 216 48 40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="113.88" y1="143.53" x2="48" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="208" y1="40" x2="142.12" y2="112.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/youform.com" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on LinkedIn">
+                        
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><rect x="32" y="32" width="192" height="192" rx="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="120" y1="112" x2="120" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="88" y1="112" x2="88" y2="176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M120,140a28,28,0,0,1,56,0v36" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><circle cx="88" cy="84" r="12"/></svg>
+                    </a>
+
+                    <a href="https://www.youtube.com/@youform" class="text-white flex items-center hover:underline" target="_blank" aria-label="Youform on YouTube">
+                        
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-slate-400" viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><polygon points="160 128 112 96 112 160 160 128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M24,128c0,29.91,3.07,47.45,5.41,56.47A16,16,0,0,0,39,195.42C72.52,208.35,128,208,128,208s55.48.35,89-12.58a16,16,0,0,0,9.63-10.95c2.34-9,5.41-26.56,5.41-56.47s-3.07-47.45-5.41-56.47a16,16,0,0,0-9.63-11C183.48,47.65,128,48,128,48s-55.48-.35-89,12.58a16,16,0,0,0-9.63,11C27.07,80.54,24,98.09,24,128Z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-10 w-full lg:w-auto lg:ml-16">
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Product</h3>
+                    <ul class="space-y-2 text-sm">
+                        
+                        <li><a class="text-white hover:underline" href="/pricing">Pricing</a></li>
+                        <li><a class="text-white hover:underline" href="/templates">Templates</a></li>
+                        <li><a class="text-white hover:underline" href="/integrations">Integrations</a></li>
+                        <li><a class="text-white hover:underline" href="/">Form builder</a></li>
+                        <li><a class="text-white hover:underline" href="/online-survey-builder">Survey builder</a></li>
+                        <li><a class="text-white hover:underline" href="/online-quiz-builder">Quiz builder</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Help</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/" target="_blank">Help center</a></li>
+                        <li><a class="text-white hover:underline" href="/support">Contact support</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/y8PPJLOsBOQBnF/How-to-guides" target="_blank">How-to guides</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/_l2hcH6njKgG33/Create-a-Youform" target="_blank">Create a form</a></li>
+                        <li><a class="text-white hover:underline" href="https://feedback.youform.com/updates" target="_blank">What's new</a></li>
+                        <li class="flex items-center space-x-1">
+                            <img src="https://ohdear.app/badges/status-page/01hr96prwxg6wcrbvtc4gw319c/small" alt="status page badge" />
+                            <a href="https://status.youform.com/" target="_blank" rel="nofollow" class="text-white hover:underline">Status</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Resources</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="/blog">Blog</a></li>
+                        <li><a class="text-white hover:underline" href="/about">About</a></li>
+                        <li><a class="text-white hover:underline" href="https://feedback.youform.com/" target="_blank">Feature requests</a></li>
+                        <li><a class="text-white hover:underline" href="/free-tools/">Free Tools</a></li>
+                        <li><a class="text-white hover:underline" href="https://www.capterra.in/software/1060219/youform" target="_blank">Reviews on Capterra</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/SJPrZaInDNF_Q2/Does-Youform-have-an-affiliate-program" target="_blank">Affiliate &amp; referral program</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Docs</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/CNm-1RpM-Uhr4U/What-type-of-form-blocks-does-Youform-provides" target="_blank">Form blocks</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/QxhAHLWllJfJcp/Adding-Logic-to-forms" target="_blank">Logic forms</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/Aso59jLN440ry7/How-to-create-Outcome-Quiz-in-Youform" target="_blank">Outcome quiz</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/Ymoc-fiv-IPx6m/GDPR" target="_blank">GDPR</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/-wcaJF3tEKR4tg/Youform-fair-usage-policy" target="_blank">Fair use policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Legal</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="https://youform.com/gdpr" target="_blank">GDPR overview</a></li>
+                        <li><a class="text-white hover:underline" href="/privacy-policy">Privacy</a></li>
+                        <li><a class="text-white hover:underline" href="/terms">Terms</a></li>
+                        <li><a class="text-white hover:underline" href="https://help.youform.com/p/Zig_2NIZDlwCzh/What-security-and-privacy-measures-does-Youform-have-in-place">Security</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-white font-semibold mb-3">Alternatives</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a class="text-white hover:underline" href="/typeform-alternative">Typeform alternative</a></li>
+                        <li><a class="text-white hover:underline" href="/google-forms-alternative">Google Forms alternative</a></li>
+                        <li><a class="text-white hover:underline" href="/fillout-alternative">Fillout alternative</a></li>
+                        <li><a class="text-white hover:underline" href="/jotform-alternative">Jotform alternative</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-4 flex justify-center pb-10">
+        <a href="https://www.producthunt.com/posts/youform?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-youform" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=488607&theme=light&period=daily" alt="Youform - A&#0032;free&#0032;Typeform&#0032;alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+    </div>
+
+    <div class="border-t border-gray-700">
+        <p class="text-center text-white py-4 text-sm px-10">
+            🔒 Data securely stored with AWS in EU 🇪🇺
+        </p>
+    </div>
+
+    
+
+    
+
+</div>
+        </main>
+
+        <div x-data="{ show: false }">
+            <div x-transition x-cloak x-show="show" class="fixed bottom-16 right-5 bg-white border rounded-md text-sm border-black drop-shadow-3xl divide-y divide-gray-200">
+                
+
+                <a 
+                    href="https://help.youform.com/" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                    🧡&nbsp; Help Center
+                </a>
+                <a href="https://feedback.youform.com/" target="_blank" class="block px-4 py-2 hover:bg-aquamarine">
+                    🙏 &nbsp;Feature Request
+                </a>
+            </div>
+
+            <button @click="show = !show" @click.away="show = false" type="button" aria-label="Help and feedback" :aria-expanded="show" class="rounded-full p-2 bg-coral shadow-md fixed bottom-4 right-5 text-black border-black drop-shadow-3xl hover:drop-shadow-2xl border flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.712 4.33a9.027 9.027 0 0 1 1.652 1.306c.51.51.944 1.064 1.306 1.652M16.712 4.33l-3.448 4.138m3.448-4.138a9.014 9.014 0 0 0-9.424 0M19.67 7.288l-4.138 3.448m4.138-3.448a9.014 9.014 0 0 1 0 9.424m-4.138-5.976a3.736 3.736 0 0 0-.88-1.388 3.737 3.737 0 0 0-1.388-.88m2.268 2.268a3.765 3.765 0 0 1 0 2.528m-2.268-4.796a3.765 3.765 0 0 0-2.528 0m4.796 4.796c-.181.506-.475.982-.88 1.388a3.736 3.736 0 0 1-1.388.88m2.268-2.268 4.138 3.448m0 0a9.027 9.027 0 0 1-1.306 1.652c-.51.51-1.064.944-1.652 1.306m0 0-3.448-4.138m3.448 4.138a9.014 9.014 0 0 1-9.424 0m5.976-4.138a3.765 3.765 0 0 1-2.528 0m0 0a3.736 3.736 0 0 1-1.388-.88 3.737 3.737 0 0 1-.88-1.388m2.268 2.268L7.288 19.67m0 0a9.024 9.024 0 0 1-1.652-1.306 9.027 9.027 0 0 1-1.306-1.652m0 0 4.138-3.448M4.33 16.712a9.014 9.014 0 0 1 0-9.424m4.138 5.976a3.765 3.765 0 0 1 0-2.528m0 0c.181-.506.475-.982.88-1.388a3.736 3.736 0 0 1 1.388-.88m-2.268 2.268L4.33 7.288m6.406 1.18L7.288 4.33m0 0a9.024 9.024 0 0 0-1.652 1.306A9.025 9.025 0 0 0 4.33 7.288" />
+                </svg>                 
+            </button>
+        </div>
+
+        <div style="z-index: 1000" class="fixed inset-0 flex items-end justify-center px-4 py-6 pointer-events-none top-10 sm:p-6 sm:items-start sm:justify-end"
+    x-data="{
+        show: false,
+        message: '',
+        body: '',
+        btnText: '',
+        btnUrl: '',
+        newTab: false,
+        type: 'success',
+        clickSound: new Audio(
+            'data:audio/mpeg;base64,//sQxAAAA+i5OrQRABC9mG+3BCAACCAH/f//yE5z0Od/yf//ITnO853/O9CEIygAgEPg+8AAUWCwVioVCAEBgAAD/65xat0KnkqrfOEKkxfjOI6H//Ofpf/q8jZTBgc8uM4jcsMMMMH/+xLEAgAE6M1XGCKAAAAANIOAAAQIAADL6BfAW9DeJCI78xlb/EWEVL/6REV//0Uw0SMb//AY4ypMQU1FMy45OS4zqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqo='
+        )
+    }" 
+    @notify.window="
+        clickSound.play();
+        show = true;
+        console.log($event);
+        message = $event.detail.message;
+        type = $event.detail.type;
+        btnText = $event.detail.btn_text;
+        btnUrl = $event.detail.btn_url;
+        let delay = $event.detail.delay ? $event.detail.delay : 3000;
+        setTimeout(() => {
+            show = false;
+        }, delay);
+    " x-cloak>
+    <div 
+        x-show="show"
+        x-transition:enter="transform ease-out duration-300 transition"
+        x-transition:enter-start="translate-y-2 opacity-0 sm:translate-y-0 sm:translate-x-2"
+        x-transition:enter-end="translate-y-0 opacity-100 sm:translate-x-0"
+        x-transition:leave="transition ease-in duration-100" 
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0"
+        class="w-full max-w-sm overflow-hidden bg-white rounded-lg shadow-lg pointer-events-auto ring-1 ring-black ring-opacity-5">
+        <div class="p-4">
+            <div class="flex items-start">
+                <div class="flex-shrink-0">
+                    <svg x-show="type != 'error'" class="w-6 h-6 text-green-400" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <svg x-show="type == 'error'" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-red-600"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <div class="ml-3 w-0 flex-1 pt-0.5">
+                    <p class="text-sm font-medium text-gray-900" x-text="message">
+                    </p>
+                    <p class="mt-1 text-sm text-gray-500" x-text="body">
+                    </p>
+
+                    <div x-show="btnText" class="flex items-center mt-1">
+                        <a x-bind:href="btnUrl" target="_blank" class="text-sm text-blue-600 hover:underline" x-text="btnText"></a>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 48 48" class="w-4 h-4 text-blue-600 ml-1" stroke="currentColor">
+                            <path d="M 41.470703 4.9863281 A 1.50015 1.50015 0 0 0 41.308594 5 L 27.5 5 A 1.50015 1.50015 0 1 0 27.5 8 L 37.878906 8 L 22.439453 23.439453 A 1.50015 1.50015 0 1 0 24.560547 25.560547 L 40 10.121094 L 40 20.5 A 1.50015 1.50015 0 1 0 43 20.5 L 43 6.6894531 A 1.50015 1.50015 0 0 0 41.470703 4.9863281 z M 12.5 8 C 8.3754991 8 5 11.375499 5 15.5 L 5 35.5 C 5 39.624501 8.3754991 43 12.5 43 L 32.5 43 C 36.624501 43 40 39.624501 40 35.5 L 40 25.5 A 1.50015 1.50015 0 1 0 37 25.5 L 37 35.5 C 37 38.003499 35.003499 40 32.5 40 L 12.5 40 C 9.9965009 40 8 38.003499 8 35.5 L 8 15.5 C 8 12.996501 9.9965009 11 12.5 11 L 22.5 11 A 1.50015 1.50015 0 1 0 22.5 8 L 12.5 8 z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="flex flex-shrink-0 ml-4">
+                    <button @click="show = false"
+                        class="inline-flex text-gray-400 bg-white rounded-md hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        <span class="sr-only">Close</span>
+                        <!-- Heroicon name: solid/x -->
+                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                            aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <div x-data="{
+        show: false, 
+        confirm_id: '',
+        title: '',
+        body: '',
+        confirmBtnText: '',
+        confirmBtnColor: 'red',
+        cancelBtnText: 'Cancel',
+    }" @keydown.escape.window="show = false" @keydown.enter.window="setTimeout(() => {show = false;}, 100)
+        $dispatch('confirm-close', {
+            confirm_id: confirm_id,
+            confirm: true
+        });" x-show="show" @confirm-show.window="show = true;
+        confirm_id = $event.detail.confirm_id;
+        title = $event.detail.title;
+        body = $event.detail.body;
+        confirmBtnText = $event.detail.confirm_text ? $event.detail.confirm_text : 'Ok';
+        confirmBtnColor = $event.detail.danger ? 'bg-red-600 hover:bg-red-700' : 'bg-blue-600 hover:bg-blue-700';
+        cancelBtnText = $event.detail.cancel_text ? $event.detail.cancel_text : 'Cancel';" style="display: none"
+  class="fixed inset-0 z-50 overflow-y-auto">
+    <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div
+        x-data
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0" 
+        
+        class="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div class="absolute inset-0 bg-gray-800 opacity-80"></div>
+      </div>
+  
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+      <div
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        class="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            
+            <div class="w-full mt-3 text-center sm:mt-0 sm:mx-4 sm:text-left">
+              <h3 class="text-lg font-medium leading-6 text-gray-900" id="modal-headline">
+                <span x-text="title"></span>
+              </h3>
+              <div class="mt-2">
+                <p class="text-sm text-gray-500">
+                  <span x-text="body"></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 py-3 bg-gray-50 sm:px-6 sm:flex sm:flex-row-reverse">
+          <button
+            @click="
+                $dispatch('confirm-close', {
+                    confirm_id: confirm_id,
+                    confirm: true
+                });
+                show = false;
+            " 
+            type="button" :class="confirmBtnColor" class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm"
+            x-text="confirmBtnText"
+            >
+        </button>
+        <button 
+            @click="
+                $dispatch('confirm-close', {
+                    confirm_id: confirm_id,
+                    confirm: false
+                });
+                show = false;
+            " 
+            type="button" 
+            x-text="cancelBtnText" 
+            class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+        </button>
+        </div>
+      </div>
+    </div>
+</div>
+        <div x-data="{
+        show: false, 
+        shiftPressed: false,
+        prompt_id: '',
+        title: '',
+        promptText: '',
+        inputType: '',
+        inputSubtype: 'text',
+        promptBtnText: '',
+        promptBtnColor: 'gray',
+        placeholder: '',
+    }" @keydown.escape.window="show = false" @keydown.enter.window="if(this.inputType == 'text' || shiftPressed) {
+            setTimeout(() => {show = false;}, 100)
+            $dispatch('prompt-close', {
+                prompt_id: prompt_id,
+                prompt_text: promptText
+            });
+        }" @keydown.shift="shiftPressed = true" @keyup.shift="shiftPressed = false" x-show="show" @prompt-show.window="show = true;
+        prompt_id = $event.detail.prompt_id;
+        title = $event.detail.title;
+        promptText = $event.detail.prompt_text;
+        inputType = $event.detail.input_type;
+        inputSubtype = $event.detail.input_subtype ? $event.detail.input_subtype : 'text';
+        promptBtnText = $event.detail.prompt_btn_text ? $event.detail.prompt_btn_text : 'Ok';
+        promptBtnColor = $event.detail.danger ? 'bg-red-600 hover:bg-red-700' : 'bg-gray-700 hover:bg-gray-800';
+        placeholder = $event.detail.placeholder ? $event.detail.placeholder : '';
+
+        setTimeout(() => {
+            if(inputType == 'text') $refs.text.focus();
+            else $refs.textarea.focus();
+        }, 100);" style="display: none"
+  class="fixed inset-0 z-50 overflow-y-auto">
+    <div class="flex items-end justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+      <div
+        x-data
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0" 
+        
+        class="fixed inset-0 transition-opacity" aria-hidden="true">
+        <div class="absolute inset-0 bg-gray-800 opacity-80"></div>
+      </div>
+  
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+      <div
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        x-transition:enter-end="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0 sm:scale-100"
+        x-transition:leave-end="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+        class="inline-block overflow-hidden text-left align-bottom transition-all transform bg-white rounded-lg shadow-xl sm:my-8 sm:align-middle sm:max-w-lg sm:w-full" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
+        <div class="px-4 pt-5 pb-4 bg-white sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            
+            <div class="w-full mt-3 text-center sm:mt-0 sm:mx-4 sm:text-left">
+              <h3 class="text-lg font-medium leading-6 text-gray-900" id="modal-headline">
+                <span x-text="title"></span>
+              </h3>
+              <div class="mt-2">
+                <p class="text-sm text-gray-500">
+                  <template x-if="inputType == 'text' && inputSubtype == 'text'">
+            <input 
+                name="prompt-text" 
+                @keydown.enter="
+                    $dispatch('prompt-close', {
+                        prompt_id: prompt_id,
+                        prompt_text: promptText
+                    });
+                    show = false;
+                " 
+                :placeholder="placeholder" 
+                x-ref="text" type="text" x-model="promptText" class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+        </template>
+
+        <template x-if="inputType == 'text' && inputSubtype == 'password'">
+            <input 
+                @keydown.enter="
+                    $dispatch('prompt-close', {
+                        prompt_id: prompt_id,
+                        prompt_text: promptText
+                    });
+                    show = false;
+                " 
+                x-ref="text" type="password" x-model="promptText" 
+                :placeholder="placeholder" 
+                class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+        </template>
+
+        <template x-if="inputType == 'textarea'">
+            <textarea 
+                rows="3"
+                x-ref="textarea" 
+                x-model="promptText"
+                class="block w-full mt-3 border-gray-300 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 sm:text-sm">
+            </textarea>
+        </template>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 py-3 bg-gray-50 sm:px-6 sm:flex sm:flex-row-reverse">
+          <button
+            @click="
+                $dispatch('prompt-close', {
+                    prompt_id: prompt_id,
+                    prompt_text: promptText
+                });
+                show = false;
+            " 
+            type="button" :class="promptBtnColor" class="inline-flex justify-center w-full px-4 py-2 text-base font-medium text-white border border-transparent rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:ml-3 sm:w-auto sm:text-sm"
+            x-text="promptBtnText"
+            >
+        </button>
+        <button 
+            @click="
+                $dispatch('prompt-close', {
+                    prompt_id: prompt_id,
+                    prompt_text: null
+                });
+                show = false;
+            " 
+            type="button" class="inline-flex justify-center w-full px-4 py-2 mt-3 text-base font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+            Cancel
+        </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+        <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    </body>
+</html>
