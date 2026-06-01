@@ -76,7 +76,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
         <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
-        @if(str_contains($page->getUrl(), 'google-form-qr-code'))
+        @if(str_contains($page->getUrl(), 'qr-code'))
         <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
         @endif
 

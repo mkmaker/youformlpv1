@@ -71,7 +71,7 @@ description: "Generate a free QR code for Google Forms instantly — no watermar
                 <h1 class="text-4xl font-bold">Free Google Forms QR Code Generator</h1>
                 <p class="text-center text-gray-600 mt-3">Create a QR code for any Google Form in seconds. No watermark, no signup — just paste and download.</p>
 
-                <div class="relative mx-auto mt-8 bg-white text-gray-800 pb-6 border-2 border-black p-10 rounded-xl mb-4 w-full max-w-2xl">
+                <div class="relative mx-auto mt-8 bg-white text-gray-800 pb-6 border-2 border-black p-10 rounded-xl mb-4 w-full max-w-4xl">
                     <div 
                         x-data="{
                             url: '',
