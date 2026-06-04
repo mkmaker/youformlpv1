@@ -505,7 +505,7 @@ image: "https://youform.com/assets/images/surveymonkey-alternative-og.png"
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div class="bg-white rounded-2xl border-2 border-black drop-shadow-6xl p-6">
                 <h3 class="text-xl font-bold mb-2">Anonymous surveys</h3>
-                <p class="text-base text-gray-700">Youform never asks your respondents to log in, and you decide exactly which fields to collect, so you can run genuinely anonymous surveys. No accounts, no forced identity capture.</p>
+                <p class="text-base text-gray-700">Flip on Youform's <a href="/anonymous-survey/" class="text-aquamarine underline hover:no-underline font-medium">Anonymous Survey mode</a> and it stores zero IP, location, device, or browser data, then shows respondents a badge proving it. SurveyMonkey's anonymity depends on collector settings and your plan.</p>
             </div>
             <div class="bg-white rounded-2xl border-2 border-black drop-shadow-6xl p-6">
                 <h3 class="text-xl font-bold mb-2">QR code sharing</h3>
