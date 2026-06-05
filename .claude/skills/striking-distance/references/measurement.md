@@ -15,7 +15,11 @@ your edit. This protocol exists to separate *your* wins from the weather.
    (see `review.py`).
 3. **Average-position lies.** GSC page-average position blends many queries and is
    diluted, badly so for pages that rank for hundreds of terms. Guard: measure at
-   the **target-keyword (query) level**, not the page average.
+   the **target-keyword (query) level**, not the page average. This applies to
+   *discover too*, not just review: the position you SCORE on (Phase 1) and the
+   position you GRADE on (`review.py`) must come from the same `gsc-keywords`
+   query-level source, or before/after deltas are incoherent. A `gsc-pages` average
+   is only for the impressions floor, never for ranking candidates.
 4. **Crediting the wrong cause.** Guard: log the specific `changes` per attempt so
    that across many experiments you can see which change-types actually move
    rankings — and stop doing the ones that don't.

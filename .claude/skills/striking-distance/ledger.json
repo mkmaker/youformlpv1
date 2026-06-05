@@ -20,7 +20,7 @@
     {
       "page": "https://youform.com/quiz-maker/multiple-choice/",
       "target_keyword": "multiple choice quiz maker",
-      "position": 14.1,
+      "position": 13.7,
       "kd": 63,
       "volume_us": 600,
       "global_volume": 1800,
@@ -28,25 +28,29 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 6.41
+      "win_score": 6.41,
+      "cannibalized_by": null,
+      "edit_target": "source/quiz-maker/multiple-choice.blade.php"
     },
     {
       "page": "https://youform.com/online-form-builder/",
       "target_keyword": "online form builder",
-      "position": 19.1,
+      "position": 26.16,
       "kd": 86,
       "volume_us": 1800,
       "global_volume": 3400,
       "intent": "A",
-      "status": "queued",
+      "status": "control",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.35
+      "win_score": 2.9,
+      "cannibalized_by": "https://youform.com/",
+      "edit_target": "source/online-form-builder.blade.php"
     },
     {
       "page": "https://youform.com/fillout-alternative/",
       "target_keyword": "fillout alternative",
-      "position": 11.3,
+      "position": 7.5,
       "kd": null,
       "volume_us": 30,
       "global_volume": 50,
@@ -54,12 +58,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 13.42
+      "win_score": 13.42,
+      "cannibalized_by": "https://youform.com/",
+      "edit_target": "source/fillout-alternative.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/media-request-form-template/",
       "target_keyword": "media request form",
-      "position": 14.9,
+      "position": 10.61,
       "kd": 0,
       "volume_us": 100,
       "global_volume": 150,
@@ -67,12 +73,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 24.05
+      "win_score": 24.05,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/ai-personality-quiz-maker/",
       "target_keyword": "personality quiz maker",
-      "position": 16.5,
+      "position": 9.76,
       "kd": 5,
       "volume_us": 500,
       "global_volume": 1100,
@@ -80,12 +88,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 18.22
+      "win_score": 24.3,
+      "cannibalized_by": null,
+      "edit_target": "source/ai-personality-quiz-maker.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/giveaway-entry-form-template/",
       "target_keyword": "giveaway entry form",
-      "position": 14.1,
+      "position": 8.65,
       "kd": 0,
       "volume_us": 100,
       "global_volume": 150,
@@ -93,7 +103,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 24.05
+      "win_score": 24.05,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/jotform-alternative/",
@@ -103,8 +115,39 @@
       "volume_us": 400,
       "global_volume": 1200,
       "intent": "A",
-      "status": "queued",
-      "attempts": [],
+      "status": "measuring",
+      "attempts": [
+        {
+          "branch": "seo/jotform-alternative-20260605",
+          "hypothesis": "The dedicated page is cannibalized: the HOMEPAGE ranks for 'jotform alternative' (pos ~34), not /jotform-alternative/ (which only ranks ~24 for 'free jotform alternative'). Consolidate the head term onto the dedicated page via exact-anchor internal links from related pages + a keyword-first title/H1, so Google picks the dedicated page and the term climbs. This is a cannibalization/consolidation test, NOT a thin-content test.",
+          "changes": [
+            "internal_links",
+            "title_rewrite",
+            "meta_rewrite"
+          ],
+          "optional_assets": {
+            "youtube_url": null,
+            "images_added": 0,
+            "stats_added": "pending"
+          },
+          "baseline": {
+            "target_kw": "jotform alternative",
+            "target_kw_position": 34.32,
+            "target_kw_owned_by": "https://youform.com/ (homepage cannibalization)",
+            "secondary_kw": "free jotform alternative",
+            "secondary_kw_position": 23.85,
+            "window": "28d 2026-05-08..2026-06-05"
+          },
+          "internal_links_added_from": [
+            "https://youform.com/typeform-alternative/",
+            "https://youform.com/online-form-builder/"
+          ],
+          "commit_sha": "08627ba09",
+          "attempt_id": 1,
+          "shipped_date": "2026-06-05",
+          "review": null
+        }
+      ],
       "last_refreshed": "2026-06-05",
       "win_score": 23.43
     },
@@ -124,7 +167,7 @@
     {
       "page": "https://youform.com/templates/t/data-capture-form-template/",
       "target_keyword": "form data capture",
-      "position": 18.2,
+      "position": 34.04,
       "kd": 0,
       "volume_us": 10,
       "global_volume": 50,
@@ -132,12 +175,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 9.37
+      "win_score": 3.12,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/brand-perception-survey-template/",
       "target_keyword": "brand perception survey questions",
-      "position": 19.2,
+      "position": 98.0,
       "kd": 2,
       "volume_us": 150,
       "global_volume": 350,
@@ -145,12 +190,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 17.3
+      "win_score": 2.88,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/multiple-choice-quiz-template/",
       "target_keyword": "multiple choice quiz template",
-      "position": 16.4,
+      "position": 48.67,
       "kd": 3,
       "volume_us": 150,
       "global_volume": 250,
@@ -158,12 +205,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 16.34
+      "win_score": 5.45,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/gym-membership-form-template/",
       "target_keyword": "gym registration form",
-      "position": 18.9,
+      "position": 9.0,
       "kd": 0,
       "volume_us": 40,
       "global_volume": 300,
@@ -171,12 +220,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 14.52
+      "win_score": 19.35,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/personality-quiz-template/",
       "target_keyword": "personality quiz template",
-      "position": 14.8,
+      "position": 8.6,
       "kd": 1,
       "volume_us": 70,
       "global_volume": 100,
@@ -184,7 +235,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 20.83
+      "win_score": 20.83,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/ai-rsvp-form/",
@@ -197,12 +250,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 9.37
+      "win_score": 9.37,
+      "cannibalized_by": null,
+      "edit_target": "source/ai-rsvp-form.blade.php"
     },
     {
       "page": "https://youform.com/ai-quiz-maker/",
       "target_keyword": "ai quiz maker",
-      "position": 23.2,
+      "position": 19.85,
       "kd": 53,
       "volume_us": 3600,
       "global_volume": 9400,
@@ -210,12 +265,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.71
+      "win_score": 7.06,
+      "cannibalized_by": null,
+      "edit_target": "source/ai-quiz-maker.blade.php"
     },
     {
       "page": "https://youform.com/online-survey-builder/",
       "target_keyword": "survey builder",
-      "position": 21.0,
+      "position": 24.22,
       "kd": 88,
       "volume_us": 700,
       "global_volume": 1200,
@@ -223,12 +280,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.49
+      "win_score": 2.49,
+      "cannibalized_by": null,
+      "edit_target": "source/online-survey-builder.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/cancellation-survey-template/",
       "target_keyword": "cancellation survey",
-      "position": 18.7,
+      "position": 42.9,
       "kd": 2,
       "volume_us": 70,
       "global_volume": 90,
@@ -236,7 +295,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 14.7
+      "win_score": 4.9,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/logo-quiz-template/",
@@ -249,12 +310,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 9.37
+      "win_score": 9.37,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/ai-form-builder/",
       "target_keyword": "ai form builder",
-      "position": 22.8,
+      "position": 23.0,
       "kd": 41,
       "volume_us": 600,
       "global_volume": 1800,
@@ -262,7 +325,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.47
+      "win_score": 4.47,
+      "cannibalized_by": null,
+      "edit_target": "source/ai-form-builder.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/surveys/product/",
@@ -275,7 +340,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 12.88
+      "win_score": 12.88,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/type.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/quote/",
@@ -285,7 +352,7 @@
       "volume_us": 500,
       "global_volume": 900,
       "intent": "A",
-      "status": "queued",
+      "status": "control",
       "attempts": [],
       "last_refreshed": "2026-06-05",
       "win_score": 16.2
@@ -293,7 +360,7 @@
     {
       "page": "https://youform.com/templates/t/refund-request-form-template/",
       "target_keyword": "refund form template",
-      "position": 16.9,
+      "position": 9.67,
       "kd": 0,
       "volume_us": 20,
       "global_volume": 90,
@@ -301,12 +368,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 11.9
+      "win_score": 15.87,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/file-upload/",
       "target_keyword": "file upload form template",
-      "position": 25.5,
+      "position": 5.58,
       "kd": null,
       "volume_us": 0,
       "global_volume": 20,
@@ -314,12 +383,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.69
+      "win_score": 9.37,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/contact/",
       "target_keyword": "customer contact form",
-      "position": 27.4,
+      "position": 14.24,
       "kd": 0,
       "volume_us": 100,
       "global_volume": 200,
@@ -327,12 +398,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 12.03
+      "win_score": 24.05,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/restaurant-feedback-survey-template/",
       "target_keyword": "customer feedback form for restaurant",
-      "position": 26.3,
+      "position": 35.43,
       "kd": null,
       "volume_us": 40,
       "global_volume": 80,
@@ -340,12 +413,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 7.26
+      "win_score": 3.63,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/typeform-alternative/",
       "target_keyword": "typeform alternative",
-      "position": 27.7,
+      "position": 3.74,
       "kd": 1,
       "volume_us": 500,
       "global_volume": 2200,
@@ -353,12 +428,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 15.19
+      "win_score": 30.37,
+      "cannibalized_by": "https://youform.com/",
+      "edit_target": "source/typeform-alternative.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/mobile-app-survey-template/",
       "target_keyword": "mobile app survey template",
-      "position": 26.2,
+      "position": 11.4,
       "kd": null,
       "volume_us": 20,
       "global_volume": 30,
@@ -366,12 +443,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 5.95
+      "win_score": 11.9,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/",
       "target_keyword": "form templates",
-      "position": 24.4,
+      "position": 51.97,
       "kd": 13,
       "volume_us": 600,
       "global_volume": 1300,
@@ -379,12 +458,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 8.93
+      "win_score": 2.23,
+      "cannibalized_by": "https://youform.com/templates/c/forms/application/",
+      "edit_target": "template:source/_layouts/type.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/testimonial-form-template/",
       "target_keyword": "testimonial form template",
-      "position": 26.7,
+      "position": 22.19,
       "kd": 1,
       "volume_us": 100,
       "global_volume": 150,
@@ -392,7 +473,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 11.27
+      "win_score": 11.27,
+      "cannibalized_by": "https://youform.com/explore/",
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/quiz-maker/multiple-choice",
@@ -410,7 +493,7 @@
     {
       "page": "https://youform.com/templates/c/quizzes/marketing/",
       "target_keyword": "marketing quiz",
-      "position": 29.2,
+      "position": 26.2,
       "kd": 0,
       "volume_us": 150,
       "global_volume": 600,
@@ -418,12 +501,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 13.07
+      "win_score": 13.07,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/type.blade.php"
     },
     {
       "page": "https://youform.com/google-forms/custom-domain-in-google-forms/",
       "target_keyword": "google forms custom domain",
-      "position": 11.1,
+      "position": 2.53,
       "kd": 0,
       "volume_us": 10,
       "global_volume": 30,
@@ -431,12 +516,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 6.25
+      "win_score": 6.25,
+      "cannibalized_by": null,
+      "edit_target": "source/google-forms/custom-domain-in-google-forms.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/customer-retention-survey-template/",
       "target_keyword": "customer retention survey template",
-      "position": 15.9,
+      "position": 15.75,
       "kd": 0,
       "volume_us": 30,
       "global_volume": 30,
@@ -444,12 +531,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 13.42
+      "win_score": 13.42,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/ces-customer-effort-score-survey-template/",
       "target_keyword": "customer effort score survey template",
-      "position": 24.2,
+      "position": 28.15,
       "kd": null,
       "volume_us": 200,
       "global_volume": 200,
@@ -457,7 +546,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 10.36
+      "win_score": 10.36,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/quizzes/popular/",
@@ -470,7 +561,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.46
+      "win_score": 4.46,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/type.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/client-questionnaire-template/",
@@ -483,7 +576,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 13.82
+      "win_score": 13.82,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/help-desk-feedback-survey-template/",
@@ -496,12 +591,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.69
+      "win_score": 4.69,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/service-order-form-template/",
       "target_keyword": "service order form template",
-      "position": 20.1,
+      "position": 17.6,
       "kd": 1,
       "volume_us": 20,
       "global_volume": 30,
@@ -509,7 +606,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 7.44
+      "win_score": 11.16,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/client-contact-form-template/",
@@ -527,7 +626,7 @@
     {
       "page": "https://youform.com/templates/c/surveys/marketing/",
       "target_keyword": "marketing survey template",
-      "position": 27.0,
+      "position": 13.13,
       "kd": 1,
       "volume_us": 80,
       "global_volume": 150,
@@ -535,12 +634,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 10.74
+      "win_score": 21.47,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/type.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/competitor-research-survey-template/",
       "target_keyword": "competitive survey template",
-      "position": 20.9,
+      "position": 34.43,
       "kd": 12,
       "volume_us": 90,
       "global_volume": 200,
@@ -548,7 +649,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 6.53
+      "win_score": 3.27,
+      "cannibalized_by": "https://youform.com/templates/c/surveys/",
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/project-submission-form-template/",
@@ -561,12 +664,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 7.93
+      "win_score": 7.93,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/membership/",
       "target_keyword": "membership form template",
-      "position": 26.3,
+      "position": 47.33,
       "kd": 1,
       "volume_us": 300,
       "global_volume": 500,
@@ -574,7 +679,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 13.94
+      "win_score": 6.97,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/corporate-social-responsibility-csr-survey-template/",
@@ -587,12 +694,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 5.21
+      "win_score": 5.21,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/feedback/",
       "target_keyword": "feedback form template",
-      "position": 42.0,
+      "position": 55.1,
       "kd": 6,
       "volume_us": 600,
       "global_volume": 2800,
@@ -600,12 +709,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 5.95
+      "win_score": 2.98,
+      "cannibalized_by": "https://youform.com/feedback-forms/",
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/lead-generation/",
       "target_keyword": "lead generation form template",
-      "position": 36.0,
+      "position": 27.25,
       "kd": 5,
       "volume_us": 100,
       "global_volume": 250,
@@ -613,12 +724,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.51
+      "win_score": 9.02,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/blog/how-we-used-sean-ellis-test-to-find-out-our-product-market-fit/",
       "target_keyword": "sean ellis test",
-      "position": 10.4,
+      "position": 10.02,
       "kd": 13,
       "volume_us": 150,
       "global_volume": 600,
@@ -626,12 +739,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.67
+      "win_score": 4.67,
+      "cannibalized_by": null,
+      "edit_target": "source/blog/how-we-used-sean-ellis-test-to-find-out-our-product-market-fit.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/application/",
       "target_keyword": "application form template",
-      "position": 44.2,
+      "position": 35.99,
       "kd": 22,
       "volume_us": 600,
       "global_volume": 1600,
@@ -639,12 +754,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 3.38
+      "win_score": 3.38,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/ai-survey-builder/",
       "target_keyword": "ai survey builder",
-      "position": 39.8,
+      "position": 22.63,
       "kd": 45,
       "volume_us": 90,
       "global_volume": 150,
@@ -652,12 +769,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.47
+      "win_score": 2.94,
+      "cannibalized_by": null,
+      "edit_target": "source/ai-survey-builder.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/surveys/",
       "target_keyword": "survey templates",
-      "position": 46.9,
+      "position": 60.25,
       "kd": 17,
       "volume_us": 500,
       "global_volume": 1000,
@@ -665,7 +784,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 3.8
+      "win_score": 1.9,
+      "cannibalized_by": "https://youform.com/explore/",
+      "edit_target": "template:source/_layouts/type.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/evaluation/",
@@ -678,7 +799,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.9
+      "win_score": 4.9,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/blog/how-we-used-sean-ellis-test-to-find-out-our-product-market-fit-cm74d09bu008tr1l2ll8yszxc",
@@ -696,7 +819,7 @@
     {
       "page": "https://youform.com/templates/c/surveys/customer-satisfaction/",
       "target_keyword": "client satisfaction template",
-      "position": 33.5,
+      "position": 22.0,
       "kd": null,
       "volume_us": 0,
       "global_volume": 0,
@@ -704,12 +827,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.34
+      "win_score": 4.69,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/type.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/model-application-form-template/",
       "target_keyword": "model application form",
-      "position": 43.6,
+      "position": 13.32,
       "kd": 1,
       "volume_us": 150,
       "global_volume": 300,
@@ -717,7 +842,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 6.13
+      "win_score": 24.51,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/blog/tally-forms-vs-youform-cm78l24ne001p1188wueqp8qx",
@@ -735,7 +862,7 @@
     {
       "page": "https://youform.com/templates/t/net-promoter-scorea-nps-survey-template/",
       "target_keyword": "nps survey template",
-      "position": 46.9,
+      "position": 63.83,
       "kd": 5,
       "volume_us": 150,
       "global_volume": 400,
@@ -743,12 +870,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.9
+      "win_score": 2.45,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/event-registration/",
       "target_keyword": "event registration form template",
-      "position": 32.5,
+      "position": 46.0,
       "kd": 5,
       "volume_us": 250,
       "global_volume": 450,
@@ -756,12 +885,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 5.4
+      "win_score": 5.4,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/market-research-survey-template/",
       "target_keyword": "market research survey template",
-      "position": 46.0,
+      "position": 45.95,
       "kd": 2,
       "volume_us": 200,
       "global_volume": 250,
@@ -769,12 +900,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 6.1
+      "win_score": 6.1,
+      "cannibalized_by": "https://youform.com/",
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/quizzes/",
       "target_keyword": "quiz templates",
-      "position": 30.6,
+      "position": 30.91,
       "kd": 6,
       "volume_us": 150,
       "global_volume": 600,
@@ -782,12 +915,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.67
+      "win_score": 4.67,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/type.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/client-onboarding-form-template/",
       "target_keyword": "client onboarding form template",
-      "position": 33.1,
+      "position": 18.0,
       "kd": 1,
       "volume_us": 50,
       "global_volume": 100,
@@ -795,12 +930,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.8
+      "win_score": 14.41,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/lead-generation-forms/",
       "target_keyword": "lead capture form builder",
-      "position": 35.5,
+      "position": 29.5,
       "kd": null,
       "volume_us": 30,
       "global_volume": 30,
@@ -808,12 +945,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 3.36
+      "win_score": 6.71,
+      "cannibalized_by": null,
+      "edit_target": "source/lead-generation-forms.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/lead-capture-form-template/",
       "target_keyword": "lead capture form",
-      "position": 37.1,
+      "position": 54.85,
       "kd": 4,
       "volume_us": 600,
       "global_volume": 1300,
@@ -821,12 +960,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 6.58
+      "win_score": 3.29,
+      "cannibalized_by": "https://youform.com/",
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/online-signup-form-template/",
       "target_keyword": "create sign up form",
-      "position": 46.7,
+      "position": 62.0,
       "kd": 80,
       "volume_us": 20,
       "global_volume": 50,
@@ -834,7 +975,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 0.63
+      "win_score": 0.31,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/typeform-alternative",
@@ -860,12 +1003,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.76
+      "win_score": 2.76,
+      "cannibalized_by": null,
+      "edit_target": "source/ai-trivia-quiz-generator.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/surveys/school/",
       "target_keyword": "education survey template",
-      "position": 28.9,
+      "position": 53.5,
       "kd": null,
       "volume_us": 80,
       "global_volume": 100,
@@ -873,7 +1018,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 8.59
+      "win_score": 2.15,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/type.blade.php"
     },
     {
       "page": "https://youform.com/blog/tally-forms-vs-youform-cm78l24ne001p1188wueqp8qx/",
@@ -886,12 +1033,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 7.03
+      "win_score": 7.03,
+      "cannibalized_by": null,
+      "edit_target": "source/blog/tally-forms-vs-youform-cm78l24ne001p1188wueqp8qx.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/marketing/",
       "target_keyword": "marketing form templates",
-      "position": 40.6,
+      "position": 17.57,
       "kd": 1,
       "volume_us": 10,
       "global_volume": 10,
@@ -899,7 +1048,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.93
+      "win_score": 8.79,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/business-contact-form-template/",
@@ -912,12 +1063,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 4.47
+      "win_score": 4.47,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/free-tools/survey-response-rate-calculator/",
       "target_keyword": "response rate calculator",
-      "position": 30.1,
+      "position": 14.95,
       "kd": 1,
       "volume_us": 150,
       "global_volume": 250,
@@ -925,12 +1078,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.04
+      "win_score": 8.17,
+      "cannibalized_by": null,
+      "edit_target": "source/free-tools/survey-response-rate-calculator.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/order/",
       "target_keyword": "order form free",
-      "position": 54.4,
+      "position": 36.26,
       "kd": 8,
       "volume_us": 90,
       "global_volume": 100,
@@ -938,12 +1093,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.92
+      "win_score": 3.83,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/integrations/",
       "target_keyword": "form integrations",
-      "position": 46.3,
+      "position": 31.81,
       "kd": 5,
       "volume_us": 90,
       "global_volume": 150,
@@ -951,12 +1108,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.2
+      "win_score": 2.2,
+      "cannibalized_by": null,
+      "edit_target": "source/integrations.blade.php"
     },
     {
       "page": "https://youform.com/feedback-forms/",
       "target_keyword": "feedback forms",
-      "position": 56.6,
+      "position": 65.91,
       "kd": 14,
       "volume_us": 450,
       "global_volume": 1700,
@@ -964,12 +1123,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.06
+      "win_score": 2.06,
+      "cannibalized_by": "https://youform.com/templates/c/forms/feedback/",
+      "edit_target": "source/feedback-forms.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/saas-onboarding-survey-template/",
       "target_keyword": "saas onboarding survey",
-      "position": 51.8,
+      "position": 23.6,
       "kd": 2,
       "volume_us": 40,
       "global_volume": 50,
@@ -977,7 +1138,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.13
+      "win_score": 8.54,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/templates/c/forms/job-application/",
@@ -990,7 +1153,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.86
+      "win_score": 2.86,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/category.blade.php"
     },
     {
       "page": "https://youform.com/integrations/klaviyo",
@@ -1003,7 +1168,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.46
+      "win_score": 1.46,
+      "cannibalized_by": null,
+      "edit_target": "?"
     },
     {
       "page": "https://youform.com/integrations/slack/",
@@ -1016,7 +1183,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.17
+      "win_score": 1.17,
+      "cannibalized_by": null,
+      "edit_target": "?"
     },
     {
       "page": "https://youform.com/integrations/airtable/",
@@ -1029,25 +1198,29 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.49
+      "win_score": 1.49,
+      "cannibalized_by": null,
+      "edit_target": "?"
     },
     {
       "page": "https://youform.com/free-tools/nps-calculator/",
       "target_keyword": "nps calculator",
-      "position": 34.0,
+      "position": 14.4,
       "kd": 30,
       "volume_us": 5700,
       "global_volume": 150000,
       "intent": "C",
-      "status": "queued",
+      "status": "control",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.25
+      "win_score": 5.01,
+      "cannibalized_by": null,
+      "edit_target": "source/free-tools/nps-calculator.blade.php"
     },
     {
       "page": "https://youform.com/templates/t/website-design-feedback-form-template/",
       "target_keyword": "website design feedback form",
-      "position": 58.5,
+      "position": 18.5,
       "kd": 3,
       "volume_us": 0,
       "global_volume": 70,
@@ -1055,7 +1228,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.3
+      "win_score": 7.81,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/integrations/slack",
@@ -1081,7 +1256,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.56
+      "win_score": 1.56,
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php"
     },
     {
       "page": "https://youform.com/free-tools/ces-calculator/",
@@ -1094,12 +1271,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.34
+      "win_score": 1.34,
+      "cannibalized_by": null,
+      "edit_target": "source/free-tools/ces-calculator.blade.php"
     },
     {
       "page": "https://youform.com/free-tools/utm-builder/",
       "target_keyword": "tracking url builder",
-      "position": 36.9,
+      "position": 63.0,
       "kd": 64,
       "volume_us": 100,
       "global_volume": 200,
@@ -1107,7 +1286,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 0.38
+      "win_score": 0.19,
+      "cannibalized_by": null,
+      "edit_target": "source/free-tools/utm-builder.blade.php"
     },
     {
       "page": "https://youform.com/free-tools/csat-calculator/",
@@ -1120,12 +1301,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.72
+      "win_score": 2.72,
+      "cannibalized_by": null,
+      "edit_target": "source/free-tools/csat-calculator.blade.php"
     },
     {
       "page": "https://youform.com/free-tools/confidence-interval-calculator/",
       "target_keyword": "confidence interval calculator",
-      "position": 42.4,
+      "position": 23.5,
       "kd": 12,
       "volume_us": 5100,
       "global_volume": 8800,
@@ -1133,7 +1316,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 2.06
+      "win_score": 4.12,
+      "cannibalized_by": null,
+      "edit_target": "source/free-tools/confidence-interval-calculator.blade.php"
     },
     {
       "page": "https://help.youform.com/p/Aso59jLN440ry7/How-to-create-Outcome-Quiz-in-Youform",
@@ -1159,12 +1344,14 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 0.96
+      "win_score": 0.96,
+      "cannibalized_by": null,
+      "edit_target": "source/free-tools/chi-square-calculator.blade.php"
     },
     {
       "page": "https://youform.com/free-tools/sample-size-calculator/",
       "target_keyword": "sample size calculator",
-      "position": 64.5,
+      "position": 60.5,
       "kd": 56,
       "volume_us": 11000,
       "global_volume": 46000,
@@ -1172,7 +1359,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 0.43
+      "win_score": 0.43,
+      "cannibalized_by": null,
+      "edit_target": "source/free-tools/sample-size-calculator.blade.php"
     },
     {
       "page": "https://help.youform.com/p/SNIZONLAs4nDtI/How-to-create-a-signature-form",
@@ -1203,7 +1392,7 @@
     {
       "page": "https://youform.com/free-tools/statistical-significance-calculator/",
       "target_keyword": "statistical significance calculator",
-      "position": 52.3,
+      "position": 25.0,
       "kd": 50,
       "volume_us": 1800,
       "global_volume": 3700,
@@ -1211,7 +1400,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 0.38
+      "win_score": 1.5,
+      "cannibalized_by": null,
+      "edit_target": "source/free-tools/statistical-significance-calculator.blade.php"
     },
     {
       "page": "https://help.youform.com/p/fon0Cgru4M8Q6L/Google-Sheets",
@@ -1255,7 +1446,7 @@
     {
       "page": "https://youform.com/compare/",
       "target_keyword": "youform vs typeform",
-      "position": 10.1,
+      "position": 1.6,
       "kd": null,
       "volume_us": 10,
       "global_volume": 20,
@@ -1263,7 +1454,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 9.37
+      "win_score": 9.37,
+      "cannibalized_by": null,
+      "edit_target": "source/compare.blade.php"
     },
     {
       "page": "https://youform.com/integrations/drip/",
@@ -1276,7 +1469,9 @@
       "status": "queued",
       "attempts": [],
       "last_refreshed": "2026-06-05",
-      "win_score": 1.17
+      "win_score": 1.17,
+      "cannibalized_by": null,
+      "edit_target": "?"
     }
   ]
 }

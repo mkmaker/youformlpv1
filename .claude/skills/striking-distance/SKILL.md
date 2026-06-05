@@ -65,21 +65,38 @@ Trigger: "refresh the list", start of a session, or after a review.
 1. Pull pages ranking off page 1 from GSC via Ahrefs:
    `gsc-pages` with `project_id` from config, `date_from` = ~90 days ago,
    `where` = `{"and":[{"field":"position","is":["gt",10]},{"field":"impressions","is":["gte",50]}]}`,
-   `limit` 1000.
+   `limit` 1000. Use the 90-day window only for the impressions floor (enough data),
+   NOT for the position you score on — see step 4.
 2. Drop junk before enriching: `app.youform.com/*` (customer forms), the homepage
    and `/explore/` (brand-diluted averages), and rows whose `top_keyword` is a
    brand term or a `site:` query (flag those — pick the real target from the slug).
+   You do NOT need to hand-drop `help.youform.com/*` or `/templates/*`: the ledger
+   tags external subdomains and reroutes template pages automatically (steps 4–5).
 3. For each surviving page, get KD + volume from Ahrefs `keywords-explorer-overview`
    (`country=us`, `select=keyword,difficulty,volume,global_volume,traffic_potential,parent_topic`),
    batched ~22 keywords per call, keyed to the page's real target keyword.
-4. Write the enriched candidates to a temp JSON (one object per page with fields:
-   `page, target_keyword, position, kd, volume_us, global_volume, intent`) and merge
-   into the ledger, deduping against what's already there:
+4. **Fetch a FRESH, query-level position (and detect cannibalization).** The
+   90-day page-average lies — it is stale and blended across many queries. Pull
+   `gsc-keywords` for the last `maturation_days` (28) filtered to your target
+   keywords (`where` = `{"or":[{"field":"keyword","is":["eq","<kw>"]}, ...]}`), and
+   for each read `position` (this is the number you score on) and `top_url`. This is
+   the SAME source `review.py` grades on, so picking and grading stay coherent. If a
+   keyword's `top_url` is not the candidate page, the keyword is **cannibalized** —
+   set `cannibalized_by` to that URL. (Normalize trailing-slash/host before comparing.)
+5. Write the enriched candidates to a temp JSON (one object per page with fields:
+   `page, target_keyword, position` (the fresh query-level one), `kd, volume_us,
+   global_volume, intent, cannibalized_by`) and merge into the ledger:
    `python scripts/ledger.py add-candidates --file /tmp/candidates.json`
-   - New pages are added as `queued`.
-   - Existing `queued` pages get refreshed metrics + recomputed win score.
-   - Pages in `in_progress` / `measuring` / `won` / `lost` are left alone.
-5. Show the top of the queue: `python scripts/ledger.py next --n 8`.
+   - New pages are added as `queued`; existing `queued` pages get refreshed
+     metrics + recomputed win score; `in_progress`/`measuring`/`won`/`lost` are
+     left alone.
+   - Control pages are auto-parked as `control` (a page can't be both a baseline
+     and an experiment). Each candidate gets an `edit_target`: a 1:1 blade file,
+     a `template:` reroute to a shared layout, or `external`.
+6. Show the top of the queue: `python scripts/ledger.py next --n 8`. It now lists
+   **actionable** pages only (externals and already-page-1-uncontested pages are
+   parked), flags `CANB`/`P1`/`TMPL`, and prints cannibalized pages with the URL
+   that's eating each keyword.
 
 Assign `intent` per `references/measurement.md` (A = wants to build a form/quiz/
 survey or a competitor "alternative"; B = integrations/how-to adjacency;
@@ -92,18 +109,32 @@ Trigger: "what should I work on next", "pick the next page".
 
 1. `python scripts/ledger.py next --n 5`. If concurrent `measuring` >= the cap,
    STOP and tell the user to run a review instead.
-2. Take the top `queued` page. Pull its *current* target-keyword position fresh
-   (`gsc-keywords` filtered to that keyword, or re-check via `gsc-pages`) so you're
-   acting on today's reality, not the stored snapshot. Record this as the baseline.
-3. Read `references/playbook.md` and propose a concrete improvement plan for THIS
-   page (title rewrite, content depth, visible FAQ, internal links). Present it.
+2. Take the top actionable page. Re-pull its target-keyword `gsc-keywords` row
+   (28d) to confirm today's `position` AND `top_url`. Record position as the
+   baseline. **Check cannibalization first:** if `top_url` (or the stored
+   `cannibalized_by`) is a *different* URL than the candidate, the problem is NOT
+   thin content — a stronger page is eating the keyword. The fix is internal links
+   + on-page relevance to CONSOLIDATE the term onto the right page (and possibly
+   merging/redirecting the weaker one), tagged `internal_links`. Adding content to
+   the dedicated page here can split signals further and make it worse. Do not test
+   the content hypothesis on a cannibalized page.
+3. If the page is a `TMPL` reroute, you are NOT editing one page: its copy is
+   API-owned (Jigsaw collection, see `config.php`), so the only in-repo lever is the
+   shared layout, which lifts EVERY page of that type. That makes it a type-wide
+   experiment — note that in the plan and pick a representative target keyword to
+   grade on. Otherwise, read `references/playbook.md` and propose a concrete plan
+   for THIS page (title rewrite, content depth, visible FAQ, internal links).
+   Present it.
 4. Ask the user for the optional assets the plan references — and only these,
    in one message: a YouTube URL (if they want video), any stats/sources to cite,
    any image. If they don't have them, ship the text changes now and log the asset
    as `pending` rather than blocking.
 5. `python scripts/ledger.py start --page <url>` (status -> in_progress).
-6. Make the edit in the matching `source/**/*.blade.php` file on a new branch
-   `seo/<slug>-<yyyymmdd>`. Show the diff. Do not commit until the user approves.
+6. Make the edit in the file named by the candidate's `edit_target` (a 1:1 blade
+   file, or the `template:` shared layout for `TMPL` pages) on a new branch
+   `seo/<slug>-<yyyymmdd>`. For an internal-links/consolidation play the edit spans
+   the *related* pages that link INTO the target, not the target itself. Show the
+   diff. Do not commit until the user approves.
 7. After the user approves and commits, capture the commit SHA, then log the
    attempt: write an attempt JSON (see `references/measurement.md` for the schema —
    it must include `baseline`, `changes` as a list of tracked change-types, and
