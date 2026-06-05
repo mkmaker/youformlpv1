@@ -1,0 +1,954 @@
+{
+    "customer-success": {
+        "title": "Customer success survey templates",
+        "name": "Customer success",
+        "slug": "customer-success",
+        "templates": {
+            "0": {
+                "slug": "7re26vhs",
+                "template_slug": "net-promoter-scorea-nps-survey-template",
+                "title": "Net promoter score (NPS) survey template",
+                "image": "https://files.youform.com/templates/cf78c79d-23c6-4a3c-bffa-fb8b540b5d08.png",
+                "template_description": "Elevate customer loyalty and growth with our Net Promoter Score® (NPS) survey template. Quickly gauge client satisfaction, capture feedback, and identify promoters or detractors to enhance your business strategies."
+            },
+            "10": {
+                "slug": "myqcbhll",
+                "template_slug": "customer-development-survey-template",
+                "title": "Customer development survey template",
+                "image": "https://files.youform.com/templates/1596f3e5-a6c1-4c8c-8213-f4223b967ac9.png",
+                "template_description": "This Customer Development Survey Template is expertly designed to help you understand your clients' needs and preferences, enabling you to refine products and services for enhanced customer satisfaction and business growth."
+            },
+            "11": {
+                "slug": "acnbwcds",
+                "template_slug": "customer-loyalty-survey-template",
+                "title": "Customer loyalty survey template",
+                "image": "https://files.youform.com/templates/afe6b3b2-7df3-4674-b643-a2b62726fa24.png",
+                "template_description": "Easily gauge customer satisfaction and loyalty with our intuitive survey template. Collect valuable feedback to enhance your services and reinforce customer relationships effortlessly. Start building a loyal customer base today!"
+            },
+            "12": {
+                "slug": "5mkqehyq",
+                "template_slug": "customer-needs-survey-template",
+                "title": "Customer needs survey template",
+                "image": "https://files.youform.com/templates/e1bae43d-a16d-48b3-ab24-22e180cb67f1.png",
+                "template_description": "This Customer Needs Survey Template is expertly designed to help you understand and cater to your customers' precise requirements. Gain valuable insights effortlessly to enhance your services and boost satisfaction."
+            },
+            "13": {
+                "slug": "atqd7xp2",
+                "template_slug": "help-desk-feedback-survey-template",
+                "title": "Help desk feedback survey template",
+                "image": "https://files.youform.com/templates/e3f09506-e92e-4d1c-b8de-593d490438c2.png",
+                "template_description": "Gather valuable insights with our Help Desk Feedback Survey Template. Quickly assess satisfaction, identify areas for improvement, and enhance your support services based on real user feedback. Optimize your help desk effectively!"
+            },
+            "14": {
+                "slug": "cwlu6e0j",
+                "template_slug": "hotel-feedback-survey-template",
+                "title": "Hotel feedback survey template",
+                "image": "https://files.youform.com/templates/0fe9dbb4-a809-45c3-816b-ebcfdba43da3.png",
+                "template_description": "Gather valuable guest feedback to enhance your hotel's service and guest experience with our customizable Hotel Feedback Survey Template. Quick, easy, and effective!"
+            },
+            "15": {
+                "slug": "gl4cpdqh",
+                "template_slug": "service-evaluation-survey-template",
+                "title": "Service evaluation survey template",
+                "image": "https://files.youform.com/templates/4ff19aca-23e9-4fee-9ea6-efa8f03dfe6c.png",
+                "template_description": "Explore our Service Evaluation Survey Template to gather essential feedback on your service quality. Tailored for insights, it's an efficient way to enhance customer satisfaction and streamline your offerings."
+            },
+            "16": {
+                "slug": "ouwjvwnd",
+                "template_slug": "software-customer-satisfaction-survey-template",
+                "title": "Software customer satisfaction survey template",
+                "image": "https://files.youform.com/templates/538f7a9f-cff5-4434-bc7e-f138a2bca94f.png",
+                "template_description": "Explore our customizable Software Customer Satisfaction Survey template designed to help you gather valuable feedback effortlessly, improve user experience, and enhance your product based on real user insights."
+            }
+        }
+    },
+    "customer-satisfaction": {
+        "title": "Customer satisfaction survey templates",
+        "name": "Customer satisfaction",
+        "slug": "customer-satisfaction",
+        "templates": [
+            {
+                "slug": "i3h3xdno",
+                "template_slug": "website-questionnaire-template",
+                "title": "Website questionnaire template",
+                "image": "https://files.youform.com/templates/61517ec3-d719-48a0-b15f-52051c4bcba3.png",
+                "template_description": "Streamline your web design process with our customizable Website Questionnaire Template. Gather client insights efficiently to tailor your projects precisely. Start building better websites today!"
+            },
+            {
+                "slug": "1abxxyb1",
+                "template_slug": "ces-customer-effort-score-survey-template",
+                "title": "(CES) customer effort score survey template",
+                "image": "https://files.youform.com/templates/96373ac6-21c8-405a-9063-74d2807008b3.png",
+                "template_description": "Effortlessly measure customer satisfaction with our CES Survey Template. Quickly gauge how easy it is for customers to interact with your service, helping you enhance user experience and retain loyalty."
+            },
+            {
+                "slug": "09hlk1zu",
+                "template_slug": "customer-service-satisfaction-survey-template",
+                "title": "Customer service satisfaction survey template",
+                "image": "https://files.youform.com/templates/073a2ce1-8751-4d34-ab06-99faa303abd8.png",
+                "template_description": "Boost customer retention with our Customer Service Satisfaction Survey Template. Quickly gather feedback, identify areas for improvement, and enhance your service quality to exceed expectations. Start optimizing your customer support now!"
+            },
+            {
+                "slug": "3fnhhyqr",
+                "template_slug": "restaurant-customer-satisfaction-survey-template",
+                "title": "Restaurant customer satisfaction survey template",
+                "image": "https://files.youform.com/templates/a38cf547-2942-43eb-845e-93ff6c888c19.png",
+                "template_description": "Discover valuable insights to enhance your dining experience with our Restaurant Customer Satisfaction Survey Template. Collect and analyze guest feedback to improve your service and menu effectively!"
+            },
+            {
+                "slug": "apk00doc",
+                "template_slug": "student-satisfaction-survey-template",
+                "title": "Student satisfaction survey template",
+                "image": "https://files.youform.com/templates/c7fa0a49-74d5-4149-8398-b6a16355065f.png",
+                "template_description": "Ready to enhance the student experience? Use our Student Satisfaction Survey Template to gather valuable feedback, improve academic services, and ensure your campus meets student needs efficiently. Easy to customize and deploy!"
+            },
+            {
+                "slug": "zohjinbo",
+                "template_slug": "salon-evaluation-survey-template",
+                "title": "Salon evaluation survey template",
+                "image": "https://files.youform.com/templates/cfd9be02-ce02-48ab-8a6b-ce1f43ea39b7.png",
+                "template_description": "This Salon Evaluation Survey Template helps salon owners gather insightful feedback on services, staff, and customer satisfaction to enhance overall client experience and improve business operations efficiently."
+            },
+            {
+                "slug": "wzjxrdtu",
+                "template_slug": "event-satisfaction-survey-template",
+                "title": "Event satisfaction survey template",
+                "image": "https://files.youform.com/templates/872b90bf-496f-4063-b22e-a53cdab3d67b.png",
+                "template_description": "This customizable Event Satisfaction Survey template helps you gather feedback efficiently to enhance future events. Easily measure attendee satisfaction and gain actionable insights to improve overall event experiences."
+            },
+            {
+                "slug": "ntncbmbo",
+                "template_slug": "sponsorship-satisfaction-survey-template",
+                "title": "Sponsorship satisfaction survey template",
+                "image": "https://files.youform.com/templates/e247da2b-9ab6-4215-a30e-56e8d64fdd86.png",
+                "template_description": "This Sponsorship Satisfaction Survey Template helps event organizers gauge the effectiveness and impact of their sponsorships. Get valuable feedback to enhance relationships and improve future sponsorship experiences."
+            },
+            {
+                "slug": "awvb0ehs",
+                "template_slug": "resident-satisfaction-survey-template",
+                "title": "Resident satisfaction survey template",
+                "image": "https://files.youform.com/templates/08cbdc12-5c35-4d9b-b8d4-7856664ac3ab.png",
+                "template_description": "Optimize your residential community with our Resident Satisfaction Survey Template. Quickly gather feedback on amenities, services, and overall living experience to enhance resident satisfaction and retention. Get started now to transform insights into action!"
+            },
+            {
+                "slug": "ubmdv4l1",
+                "template_slug": "member-satisfaction-survey-template",
+                "title": "Member satisfaction survey template",
+                "image": "https://files.youform.com/templates/54b1780b-44b8-4047-aaf2-e1ac1eac3e0a.png",
+                "template_description": "Explore our Member Satisfaction Survey Template to effortlessly gauge and enhance your members' experience. This intuitive tool gathers critical feedback, driving your organization's growth and member retention."
+            }
+        ]
+    },
+    "marketing": {
+        "title": "Marketing survey templates",
+        "name": "Marketing",
+        "slug": "marketing",
+        "templates": {
+            "9": {
+                "slug": "35yt0rmm",
+                "template_slug": "brand-perception-survey-template",
+                "title": "Brand perception survey template",
+                "image": "https://files.youform.com/templates/7a2a9459-3a98-482e-9832-6976e82cbb26.png",
+                "template_description": "Our Brand Perception Survey Template lets you gather insightful feedback on your brand's positioning, image, and reach effectively. It's customizable, user-friendly, and ideal for optimizing your marketing strategies."
+            },
+            "10": {
+                "slug": "mwjgjyh8",
+                "template_slug": "brand-personality-survey-template",
+                "title": "Brand personality survey template",
+                "image": "https://files.youform.com/templates/142ebbb0-ce3b-4c5d-9b70-6fab30edec39.png",
+                "template_description": "Uncover your brand's unique personality with our user-friendly survey template. Quickly gather valuable insights to align your branding strategies and enhance market appeal. Ideal for businesses aiming to connect deeply with their audience."
+            },
+            "11": {
+                "slug": "bomflljt",
+                "template_slug": "business-impact-survey-template",
+                "title": "Business impact survey template",
+                "image": "https://files.youform.com/templates/7b4a7acb-90ee-48d6-bd28-df9e1134ae12.png",
+                "template_description": "Discover insights that drive business success with our Business Impact Survey Template. Quickly assess, analyze, and act on critical feedback from your stakeholders to enhance your strategies and operations."
+            },
+            "12": {
+                "slug": "g9mas7m3",
+                "template_slug": "churn-survey-template",
+                "title": "Churn survey template",
+                "image": "https://files.youform.com/templates/279adf03-5339-4691-bbef-547a7bde8e18.png",
+                "template_description": "Discover why customers leave by using our Churn Survey Template. Gather insights, identify trends, and develop strategies to improve retention with this easy-to-use, customizable questionnaire. Perfect for businesses aiming to enhance customer satisfaction."
+            },
+            "13": {
+                "slug": "llxyndss",
+                "template_slug": "client-questionnaire-template",
+                "title": "Client questionnaire template",
+                "image": "https://files.youform.com/templates/6e40806f-0e3f-4aa7-a0b9-ac5300726579.png",
+                "template_description": "Download our Client Questionnaire Template to seamlessly gather essential information, streamline your intake process, and enhance client interactions—all in a customizable, user-friendly format. Perfect for optimizing business efficiency!"
+            },
+            "14": {
+                "slug": "fpi6coqj",
+                "template_slug": "conference-evaluation-survey-template",
+                "title": "Conference evaluation survey template",
+                "image": "https://files.youform.com/templates/36b1cd0c-ab26-4744-a7b0-dfca1fdc83c4.png",
+                "template_description": "This Conference Evaluation Survey Template helps organizers gather valuable feedback from participants to enhance future events. It's customizable, user-friendly, and designed for quick and effective responses."
+            },
+            "15": {
+                "slug": "xa6ql93p",
+                "template_slug": "consumer-behavior-survey-template",
+                "title": "Consumer behavior survey template",
+                "image": "https://files.youform.com/templates/05f41498-4ba9-4d8c-a838-84c94b153138.png",
+                "template_description": "This Consumer Behavior Survey Template offers expertly crafted questions to gauge customer preferences, purchasing habits, and satisfaction levels, helping businesses better understand their market and drive strategic decisions."
+            },
+            "16": {
+                "slug": "r8vzhdrl",
+                "template_slug": "consumer-preference-survey-template",
+                "title": "Consumer preference survey template",
+                "image": "https://files.youform.com/templates/5a0d1e50-7db0-44d6-b1a4-87956299817b.png",
+                "template_description": "Optimize your product or service with our Consumer Preference Survey Template. Gather valuable insights directly from your target market to enhance customer satisfaction and drive business decisions."
+            },
+            "17": {
+                "slug": "0oxfwqya",
+                "template_slug": "corporate-social-responsibility-csr-survey-template",
+                "title": "Corporate social responsibility (CSR) survey template",
+                "image": "https://files.youform.com/templates/e231c259-e823-47c4-b4e6-1f717784ed58.png",
+                "template_description": "This CSR survey template helps companies measure their social responsibility impact. Collect valuable feedback on sustainability, community engagement, and ethical practices to enhance your corporate social initiatives."
+            },
+            "18": {
+                "slug": "6iz06smk",
+                "template_slug": "customer-analysis-survey-template",
+                "title": "Customer analysis survey template",
+                "image": "https://files.youform.com/templates/fd6f505b-40e0-48b0-9ab7-8b903fcc57b0.png",
+                "template_description": "Discover valuable insights with our Customer Analysis Survey Template. Gauge customer satisfaction, identify preferences, and enhance your strategies to boost client engagement and business growth. Start gathering meaningful data today!"
+            },
+            "19": {
+                "slug": "smbdnezd",
+                "template_slug": "customer-attitudes-survey-template",
+                "title": "Customer attitudes survey template",
+                "image": "https://files.youform.com/templates/b02fcc0e-cd5b-46e4-aa83-81a84e6b24c4.png",
+                "template_description": "\"Explore customer insights with our expertly crafted survey template. Gauge client satisfaction, uncover preferences, and drive your business growth through invaluable feedback. Easy to customize and deploy!\""
+            },
+            "20": {
+                "slug": "6wksm4i0",
+                "template_slug": "customer-loss-survey-template",
+                "title": "Customer loss survey template",
+                "image": "https://files.youform.com/templates/c79c9268-9612-4cf7-b69e-3a7d2a75b06d.png",
+                "template_description": "Explore our Customer Loss Survey Template to uncover why you're losing clients. Gain critical insights, address issues effectively, and strategize improvements to retain and satisfy your customer base. Start your feedback journey today!"
+            },
+            "21": {
+                "slug": "wsm6m7st",
+                "template_slug": "customer-retention-survey-template",
+                "title": "Customer retention survey template",
+                "image": "https://files.youform.com/templates/0f4225b9-9622-4757-ad71-f52aae921edb.png",
+                "template_description": "This customer retention survey template helps you understand why customers stay, gauge their satisfaction, and identify areas of improvement to increase loyalty and reduce churn. Customize it to fit your brand's specific needs."
+            },
+            "22": {
+                "slug": "zkqbivhd",
+                "template_slug": "fashion-marketing-questionnaire-template",
+                "title": "Fashion marketing questionnaire template",
+                "image": "https://files.youform.com/templates/c6578c82-8b6e-4aee-b0de-e4e7fc8b2b1e.png",
+                "template_description": "Explore customer preferences and boost your fashion brand with our expertly designed Fashion Marketing Questionnaire Template. Gain insights efficiently to tailor your strategies and enhance your market impact."
+            },
+            "23": {
+                "slug": "nuzjuswx",
+                "template_slug": "firmographics-survey-template",
+                "title": "Firmographics survey template",
+                "image": "https://files.youform.com/templates/bb1fd652-f375-4012-9b47-37bb4ef2bf13.png",
+                "template_description": "Explore our Firmographics Survey Template to gather essential data about company size, industry, revenue, and more, helping you tailor your business strategies and enhance market understanding. Perfect for B2B interactions."
+            },
+            "24": {
+                "slug": "rg4gpedo",
+                "template_slug": "food-survey-template",
+                "title": "Food survey template",
+                "image": "https://files.youform.com/templates/83140e36-ba3d-4ced-858d-02265726bfe8.png",
+                "template_description": "Discover valuable insights with our Food Survey Template. Perfect for gathering customer feedback, preferences, and dining experiences. Easily customizable, quick to deploy, and designed for effective results. Boost your food service excellence today!"
+            },
+            "25": {
+                "slug": "g9pyc8id",
+                "template_slug": "magazine-reader-survey-template",
+                "title": "Magazine reader survey template",
+                "image": "https://files.youform.com/templates/bfeb3074-d4b9-45b3-a75b-930ec7836344.png",
+                "template_description": "Gather valuable insights from your readers using our customizable magazine survey template. Tailored questions to explore reader preferences, satisfaction, and engagement. Quick, efficient, and designed to boost your publication’s success!"
+            },
+            "26": {
+                "slug": "yyy7o4uh",
+                "template_slug": "market-segmentation-survey-template",
+                "title": "Market segmentation survey template",
+                "image": "https://files.youform.com/templates/bf097f37-529c-462c-827b-3752311f8e9b.png",
+                "template_description": "Explore market segments effectively with our customizable survey template. Gain valuable insights to tailor your marketing strategies and target specific audiences precisely. Perfect for businesses aiming to understand and expand their market reach."
+            },
+            "27": {
+                "slug": "86efseom",
+                "template_slug": "media-usage-survey-template",
+                "title": "Media usage survey template",
+                "image": "https://files.youform.com/templates/cd075f6c-1d8c-42e1-9e6e-bd80fab93d5e.png",
+                "template_description": "This Media Usage Survey Template is expertly designed to gather insights on media consumption habits, preferences, and frequency. Quick to customize and easy to fill out, it's perfect for efficiently collecting valuable audience data."
+            },
+            "28": {
+                "slug": "a16wqewe",
+                "template_slug": "meeting-feedback-survey-template",
+                "title": "Meeting feedback survey template",
+                "image": "https://files.youform.com/templates/24a6506d-5505-4bea-90f4-00cfc5452cab.png",
+                "template_description": "This customizable template helps you gather valuable feedback from meeting participants to enhance future sessions. Quick, anonymous responses ensure you capture honest, actionable insights to improve engagement and effectiveness."
+            },
+            "29": {
+                "slug": "ouri2ld0",
+                "template_slug": "mystery-shopper-survey-template",
+                "title": "Mystery shopper survey template",
+                "image": "https://files.youform.com/templates/91cd5787-efd5-4847-a696-ff555caf1879.png",
+                "template_description": "Uncover valuable insights and improve your customer service with our Mystery Shopper Survey Template. Tailor-made questions to evaluate your store’s experience from an undercover perspective. Launch your survey today and enhance customer satisfaction!"
+            },
+            "30": {
+                "slug": "9hblvp69",
+                "template_slug": "newsletter-feedback-survey-template",
+                "title": "Newsletter feedback survey template",
+                "image": "https://files.youform.com/templates/98498269-e24f-43eb-a5eb-2fb6eb0c09d6.png",
+                "template_description": "This customizable newsletter feedback survey template helps you gauge reader satisfaction and collect actionable insights to enhance your content, ensuring your newsletter always meets your audience's needs."
+            },
+            "31": {
+                "slug": "ixaudiv0",
+                "template_slug": "online-community-needs-assessment-survey-template",
+                "title": "Online community needs assessment survey template",
+                "image": "https://files.youform.com/templates/4c8c5424-c322-465d-9c9d-17484b19ae44.png",
+                "template_description": "Explore our Online Community Needs Assessment Survey template to effortlessly gather insights, prioritize community initiatives, and tailor services to better meet the needs of your members. Get started now and enhance your community engagement!"
+            },
+            "32": {
+                "slug": "c8e6phwb",
+                "template_slug": "path-to-purchase-survey-template",
+                "title": "Path to purchase survey template",
+                "image": "https://files.youform.com/templates/cba1537e-24ca-42ea-825b-405807f92089.png",
+                "template_description": "Optimize your sales funnel with our Path to Purchase Survey Template. Gain valuable insights into consumer behavior, identify barriers, and uncover opportunities to enhance the buyer's journey, all tailored to boost conversion rates."
+            },
+            "33": {
+                "slug": "6smnaisp",
+                "template_slug": "phone-survey-template",
+                "title": "Phone survey template",
+                "image": "https://files.youform.com/templates/0da54b58-a3cd-49b6-bd7b-739565f0e2db.png",
+                "template_description": "Explore our Phone Survey Template to effortlessly design and implement effective telephone surveys. Ideal for market research, customer feedback, and opinion polls. Customize to suit your specific needs. Try it now!"
+            },
+            "34": {
+                "slug": "vgzmen7i",
+                "template_slug": "podcast-survey-template",
+                "title": "Podcast survey template",
+                "image": "https://files.youform.com/templates/3cb9ddbe-e35d-4ebb-9628-29d18597b310.png",
+                "template_description": "Discover listener preferences and enhance your podcast with our expertly designed Podcast Survey Template. Gather valuable feedback effortlessly to improve content, engagement, and reach. Start now and take your podcast to the next level!"
+            },
+            "35": {
+                "slug": "x3uma6de",
+                "template_slug": "presentation-feedback-survey-template",
+                "title": "Presentation feedback survey template",
+                "image": "https://files.youform.com/templates/64834f96-fbb7-4050-9027-35aede06a154.png",
+                "template_description": "This customizable Presentation Feedback Survey Template helps you effortlessly gather insightful feedback on your presentations to enhance effectiveness, audience engagement, and overall impact. Start improving your presentation skills today!"
+            },
+            "36": {
+                "slug": "ijiw6q1q",
+                "template_slug": "pricing-survey-template",
+                "title": "Pricing survey template",
+                "image": "https://files.youform.com/templates/963229c7-8782-40e4-b1d1-4331119368ff.png",
+                "template_description": "Maximize revenue with our Pricing Survey Template. Quickly gather customer feedback on price points, value perception, and purchasing behavior to optimize your pricing strategy effectively. Tailored for actionable insights!"
+            },
+            "37": {
+                "slug": "rbibtyrl",
+                "template_slug": "process-improvement-survey-template",
+                "title": "Process improvement survey template",
+                "image": "https://files.youform.com/templates/b6c227f4-eec1-47ae-b107-1c4dc15ce8e1.png",
+                "template_description": "Streamline your operations with our Process Improvement Survey Template. Quickly gather insights, identify inefficiencies, and implement solutions to enhance productivity and optimize performance. Ideal for businesses aiming for continual improvement."
+            },
+            "38": {
+                "slug": "rrgnes1q",
+                "template_slug": "program-satisfaction-survey-template",
+                "title": "Program satisfaction survey template",
+                "image": "https://files.youform.com/templates/bfe31ebf-0283-4870-8af5-96c096819651.png",
+                "template_description": "Discover valuable insights into your program with our customizable satisfaction survey template. Efficiently gather, analyze, and act on participant feedback to optimize experiences and drive improvements. Ideal for educational courses, workshops, and training programs."
+            },
+            "39": {
+                "slug": "62njp6ly",
+                "template_slug": "quality-assurance-survey-template",
+                "title": "Quality assurance survey template",
+                "image": "https://files.youform.com/templates/efeeac20-4ca9-43b9-a3ad-8be190beb52e.png",
+                "template_description": "This Quality Assurance Survey Template is designed to help you gauge customer satisfaction and gather feedback on your products or services, ensuring continuous improvement and client happiness."
+            },
+            "40": {
+                "slug": "v6vjfiwl",
+                "template_slug": "retrospective-survey-template",
+                "title": "Retrospective survey template",
+                "image": "https://files.youform.com/templates/ba4c3738-e2ea-40eb-8ec8-20a4ccc7817c.png",
+                "template_description": "Explore our Retrospective Survey Template to gather actionable feedback from your team after completing projects. Gain insights, make data-driven decisions, and continually improve your processes with ease."
+            },
+            "41": {
+                "slug": "foz4he2l",
+                "template_slug": "skin-care-survey-template",
+                "title": "Skin care survey template",
+                "image": "https://files.youform.com/templates/3cdab9a6-4b75-4546-92c6-ba3ed5ae7114.png",
+                "template_description": "Explore our Skin Care Survey Template to gather insights on skincare routines and product effectiveness. Customize questions to suit specific research needs and analyze responses to enhance your product offerings or services."
+            },
+            "42": {
+                "slug": "7bv21moc",
+                "template_slug": "social-media-survey-template",
+                "title": "Social media survey template",
+                "image": "https://files.youform.com/templates/252b2974-4557-436e-a98d-1911b8ce2db3.png",
+                "template_description": "Explore user engagement and trends with our Social Media Survey Template. Perfect for gathering valuable insights to enhance your strategy and connect effectively with your audience. Start your survey now!"
+            },
+            "43": {
+                "slug": "b8bjkkuh",
+                "template_slug": "sustainability-survey-template",
+                "title": "Sustainability survey template",
+                "image": "https://files.youform.com/templates/4a851807-cc38-4d2f-b433-48134f17551c.png",
+                "template_description": "Accelerate your sustainability efforts with our expert-crafted survey template. Gather valuable insights, measure environmental impact, and enhance eco-friendly practices effortlessly. Ideal for businesses committed to making a positive change."
+            },
+            "44": {
+                "slug": "fo3z0ayz",
+                "template_slug": "target-market-survey-template",
+                "title": "Target market survey template",
+                "image": "https://files.youform.com/templates/57f60905-6f19-4c19-8ff0-bae7c945f290.png",
+                "template_description": "This customizable Target Market Survey Template helps businesses gather insights about potential customers' preferences and behaviors. Analyze data effectively to refine marketing strategies and enhance product offerings."
+            },
+            "45": {
+                "slug": "evoucark",
+                "template_slug": "technology-survey-template",
+                "title": "Technology survey template",
+                "image": "https://files.youform.com/templates/dd70b23c-14b6-42c0-afe1-a6ec4fd455cf.png",
+                "template_description": "Optimize your tech strategies using our Technology Survey Template. Gather insights on user experience, device preference, and technology trends to enhance your product development and market positioning."
+            },
+            "46": {
+                "slug": "5gvrvilp",
+                "template_slug": "training-evaluation-survey-template",
+                "title": "Training evaluation survey template",
+                "image": "https://files.youform.com/templates/fdcf1d52-ad59-4aa9-944e-3d2f211cfe9b.png",
+                "template_description": "This Training Evaluation Survey Template is expertly designed to assess the effectiveness of your training programs, capturing insightful feedback from participants to enhance learning outcomes and improve future sessions."
+            },
+            "47": {
+                "slug": "vtpag8om",
+                "template_slug": "user-satisfaction-survey-template",
+                "title": "User satisfaction survey template",
+                "image": "https://files.youform.com/templates/56c5b123-a69e-4fd8-847c-b06c888e819a.png",
+                "template_description": "This customizable user satisfaction survey template helps you gather feedback to enhance user experience. Quickly evaluate satisfaction levels and identify areas for improvement with our intuitive, easy-to-use format."
+            },
+            "48": {
+                "slug": "jh1fe4hw",
+                "template_slug": "value-proposition-survey-template",
+                "title": "Value proposition survey template",
+                "image": "https://files.youform.com/templates/37a20e66-a971-4369-a726-449f037174ea.png",
+                "template_description": "Boost customer satisfaction and drive growth with our Value Proposition Survey Template. Gain critical insights that validate your offerings and sharpen your market strategy. Simple, effective, and ready to deploy!"
+            },
+            "49": {
+                "slug": "1oi5x1za",
+                "template_slug": "vendor-satisfaction-survey-template",
+                "title": "Vendor satisfaction survey template",
+                "image": "https://files.youform.com/templates/734a873a-4a05-4ba8-9636-7ce7412b0192.png",
+                "template_description": "This customizable Vendor Satisfaction Survey Template helps businesses gauge the performance and reliability of their suppliers. Use it to collect valuable feedback to improve vendor relationships and ensure quality service."
+            },
+            "50": {
+                "slug": "5oo4qinb",
+                "template_slug": "website-user-experience-survey-template",
+                "title": "Website user experience survey template",
+                "image": "https://files.youform.com/templates/a887b0ca-d366-4a81-b33f-a4cc85faaa6f.png",
+                "template_description": "This customizable website user experience survey template helps you gather valuable feedback to enhance site functionality and design, ensuring users find what they need with ease and satisfaction."
+            },
+            "51": {
+                "slug": "hwzedcdy",
+                "template_slug": "workshop-feedback-survey-template",
+                "title": "Workshop feedback survey template",
+                "image": "https://files.youform.com/templates/4fdd143d-75db-4770-ba31-cb1875f29c55.png",
+                "template_description": "Gather actionable insights with our Workshop Feedback Survey Template. Easily customize questions to understand attendee experiences and improve future events. Start collecting valuable feedback today!"
+            }
+        }
+    },
+    "feedback": {
+        "title": "Feedback survey templates",
+        "name": "Feedback",
+        "slug": "feedback",
+        "templates": {
+            "1": {
+                "slug": "ib7qmbrq",
+                "template_slug": "branding-questionnaire-template",
+                "title": "Branding questionnaire template",
+                "image": "https://files.youform.com/templates/f4863a05-21a5-486a-bf6d-3f111552bb4c.png",
+                "template_description": "Discover the key to effective branding with our comprehensive questionnaire template. Designed to help you capture essential brand insights quickly and efficiently, ensuring your brand communicates its unique value seamlessly."
+            },
+            "2": {
+                "slug": "ayi2wxdm",
+                "template_slug": "cancellation-survey-template",
+                "title": "Cancellation survey template",
+                "image": "https://files.youform.com/templates/1f1976e5-2276-487b-bdd1-7293318c3b07.png",
+                "template_description": "Easily gather feedback from customers who cancel your service with our Cancellation Survey Template. Optimize your offerings by understanding their reasons for leaving and areas for improvement."
+            },
+            "3": {
+                "slug": "ogreoofx",
+                "template_slug": "customer-success-story-questionnaire-template",
+                "title": "Customer success story questionnaire template",
+                "image": "https://files.youform.com/templates/cce7190b-f21e-4313-8b7b-77f9416f4fd0.png",
+                "template_description": "Discover invaluable insights with our Customer Success Story Questionnaire Template. Tailor your approach, capture compelling testimonials and drive better business outcomes effectively. Perfect for understanding client journeys and celebrating their successes."
+            },
+            "4": {
+                "slug": "hz8q7vnp",
+                "template_slug": "email-design-questionnaire-template",
+                "title": "Email design questionnaire template",
+                "image": "https://files.youform.com/templates/4feb863d-64eb-42a7-adf2-dbde71ed668f.png",
+                "template_description": "Discover the perfect template for creating effective email designs with our easy-to-use questionnaire template. Streamline your process and achieve better results by tailoring your email content to meet specific needs."
+            },
+            "5": {
+                "slug": "akebtzsi",
+                "template_slug": "lead-generation-survey-template",
+                "title": "Lead generation survey template",
+                "image": "https://files.youform.com/templates/5b0af410-3808-4754-bb48-8d435c6890f0.png",
+                "template_description": "Boost conversions with our lead generation survey template. Customizable and user-friendly, it efficiently captures essential customer details to enhance your marketing strategies and build your sales pipeline."
+            },
+            "6": {
+                "slug": "elwyautq",
+                "template_slug": "product-feedback-survey-template",
+                "title": "Product feedback survey template",
+                "image": "https://files.youform.com/templates/9ad1cf8c-55ec-43cb-a562-74c1514e7190.png",
+                "template_description": "Gather valuable customer insights with our Product Feedback Survey Template. Easily customizable, it helps you measure satisfaction, identify areas for improvement, and enhance your product offerings effectively."
+            },
+            "7": {
+                "slug": "1ha80kcd",
+                "template_slug": "saas-onboarding-survey-template",
+                "title": "SaaS onboarding survey template",
+                "image": "https://files.youform.com/templates/2dc7bfd9-13be-4cd1-ade4-34b314495a1b.png",
+                "template_description": "Use our SaaS Onboarding Survey Template to gather essential feedback from new users, helping you enhance user experience, streamline processes, and increase satisfaction rates right from the start."
+            },
+            "12": {
+                "slug": "r0berxw2",
+                "template_slug": "client-satisfaction-survey-template",
+                "title": "Client satisfaction survey template",
+                "image": "https://files.youform.com/templates/10c9eb61-d5d0-4e3f-affb-bc3e52688940.png",
+                "template_description": "This easy-to-use client satisfaction survey template helps you gather valuable feedback to enhance your services. Customize questions, analyze responses, and improve client satisfaction effortlessly. Start building stronger client relationships today!"
+            },
+            "15": {
+                "slug": "bqfuhofq",
+                "template_slug": "communication-survey-template",
+                "title": "Communication survey template",
+                "image": "https://files.youform.com/templates/09624ea0-d74e-4206-be5f-b9101b7514b4.png",
+                "template_description": "Uncover valuable insights with our Communication Survey Template. Designed to enhance internal and external communication strategies, this user-friendly template helps you gather essential feedback effortlessly. Start streamlining communication today!"
+            },
+            "16": {
+                "slug": "iwljs7cm",
+                "template_slug": "employee-benefits-survey-template",
+                "title": "Employee benefits survey template",
+                "image": "https://files.youform.com/templates/f6b42bf9-e4f4-4afc-9c96-b279e5518084.png",
+                "template_description": "This customizable Employee Benefits Survey template helps you gather feedback on your workplace benefits, ensuring employee satisfaction and aligning perks with their needs to enhance retention and job satisfaction."
+            },
+            "17": {
+                "slug": "wh2zhe9x",
+                "template_slug": "professional-development-feedback-survey-template",
+                "title": "Professional development feedback survey template",
+                "image": "https://files.youform.com/templates/06d05f9f-fe42-4fde-86b8-5dc6f4724d2c.png",
+                "template_description": "Enhance your professional training programs with our expertly designed feedback survey template. Gather insightful inputs to improve course content, facilitation, and organizational impact efficiently."
+            },
+            "18": {
+                "slug": "tnhc8hqe",
+                "template_slug": "mobile-app-survey-template",
+                "title": "Mobile app survey template",
+                "image": "https://files.youform.com/templates/f037c835-814a-4370-b8ac-3fa53fa40562.png",
+                "template_description": "Discover valuable user insights and enhance your app's performance with our Mobile App Survey Template. Quickly gather feedback, analyze responses, and improve user experience effortlessly!"
+            },
+            "19": {
+                "slug": "rm8sa8vi",
+                "template_slug": "course-feedback-survey-template",
+                "title": "Course feedback survey template",
+                "image": "https://files.youform.com/templates/4773aff4-7452-4ab1-8e6e-17491bec64b8.png",
+                "template_description": "Gather valuable insights and enhance your courses with our Course Feedback Survey Template. Streamline feedback, measure satisfaction, and improve learning experiences efficiently. Perfect for educators and trainers."
+            },
+            "20": {
+                "slug": "rl80mb7a",
+                "template_slug": "exit-survey-template-rlXZF",
+                "title": "Exit survey template",
+                "image": "https://files.youform.com/templates/a1bb1ac3-3fa8-4a52-b854-98fa81eed670.png",
+                "template_description": "Gather valuable feedback effortlessly as visitors exit your website using our customizable Exit Survey Template. Gain insights, enhance user experience, and increase retention with well-targeted questions."
+            },
+            "21": {
+                "slug": "rxz9cic4",
+                "template_slug": "volunteer-feedback-survey-template",
+                "title": "Volunteer feedback survey template",
+                "image": "https://files.youform.com/templates/b1b335fb-e2ed-4a4c-9ec9-c187207e77f8.png",
+                "template_description": "Gather valuable insights from your volunteers with our structured feedback survey template. Easily capture their experiences and suggestions to enhance program effectiveness and enrich future volunteering efforts. Get started now and elevate your organization!"
+            },
+            "22": {
+                "slug": "ei1xpvza",
+                "template_slug": "brand-awareness-survey-template",
+                "title": "Brand awareness survey template",
+                "image": "https://files.youform.com/templates/bbda090c-8b1f-45a4-bd9c-422d2b2836ec.png",
+                "template_description": "\"Boost your brand’s impact with our Brand Awareness Survey Template. Gather insights, measure recognition, and strategize effectively to enhance your market presence. Start optimizing your brand strategy today!\""
+            },
+            "23": {
+                "slug": "myeckdzf",
+                "template_slug": "management-survey-template",
+                "title": "Management survey template",
+                "image": "https://files.youform.com/templates/b129acac-b456-496c-9913-c780698b9562.png",
+                "template_description": "Streamline your management processes with our intuitive survey template. Gain valuable insights, identify areas for improvement, and enhance team performance efficiently. Ideal for businesses aiming for growth and better leadership strategies."
+            },
+            "24": {
+                "slug": "8numgesa",
+                "template_slug": "post-training-survey-template",
+                "title": "Post-training survey template",
+                "image": "https://files.youform.com/templates/1339739c-6183-4138-b706-cfec1d20f8f3.png",
+                "template_description": "Elevate your training effectiveness with our Post-Training Survey Template. Quickly gather actionable feedback to refine programs, enhance engagement, and achieve your educational goals efficiently."
+            }
+        }
+    },
+    "other": {
+        "title": "Other survey templates",
+        "name": "Other",
+        "slug": "other",
+        "templates": {
+            "0": {
+                "slug": "o03iax78",
+                "template_slug": "commuting-survey-template",
+                "title": "Commuting survey template",
+                "image": "https://files.youform.com/templates/185f01a8-005e-46bf-88e5-dd64d234050c.png",
+                "template_description": "Gather essential insights on commuting experiences with our expert-designed survey template. Quickly assess satisfaction, modes of transport, and areas for improvement to enhance daily commutes effectively. Optimize and streamline your transport strategies now!"
+            },
+            "1": {
+                "slug": "jc13g9as",
+                "template_slug": "market-research-survey-template",
+                "title": "Market research survey template",
+                "image": "https://files.youform.com/templates/70cc00b8-7e36-4ec3-ba05-a948f429d900.png",
+                "template_description": "Optimize your market strategy with our customizable Market Research Survey Template. Gain valuable insights, identify customer preferences, and drive your business decisions effectively. Start gathering actionable data today!"
+            },
+            "2": {
+                "slug": "hvl4avuy",
+                "template_slug": "product-research-survey-template",
+                "title": "Product research survey template",
+                "image": "https://files.youform.com/templates/b0831809-5f24-4efc-97cd-9609c192dad6.png",
+                "template_description": "This Product Research Survey Template is expertly designed to gather feedback on potential products. Tailor questions to uncover valuable consumer insights, guiding your product development with precision."
+            },
+            "4": {
+                "slug": "ty5jknqv",
+                "template_slug": "candidate-experience-survey-template",
+                "title": "Candidate experience survey template",
+                "image": "https://files.youform.com/templates/bac60242-111b-4131-b851-576bc288fefe.png",
+                "template_description": "Discover how candidates feel about your hiring process with our Candidate Experience Survey Template. Gain actionable insights to optimize recruitment and enhance applicant satisfaction."
+            },
+            "5": {
+                "slug": "szhewz2e",
+                "template_slug": "job-satisfaction-survey-template",
+                "title": "Job satisfaction survey template",
+                "image": "https://files.youform.com/templates/ec589b56-7683-467c-b125-6fa893f59576.png",
+                "template_description": "Explore our Job Satisfaction Survey Template to gain insights into employee happiness and work environment. Easily customizable, quick to deploy, and perfect for fostering a positive corporate culture."
+            },
+            "6": {
+                "slug": "9ufkdjxy",
+                "template_slug": "performance-appraisal-survey-template",
+                "title": "Performance appraisal survey template",
+                "image": "https://files.youform.com/templates/d3cf1ae4-e7a6-4f9f-909b-f7dddae0d167.png",
+                "template_description": "Optimize your team's performance with our comprehensive appraisal survey template, designed to gather actionable feedback and foster growth. Tailored for insightful assessments, this tool is essential for enhancing workplace efficiency and productivity."
+            },
+            "7": {
+                "slug": "whprj71i",
+                "template_slug": "supervisor-evaluation-survey-template",
+                "title": "Supervisor evaluation survey template",
+                "image": "https://files.youform.com/templates/0a67871d-effa-4076-9d77-1edc15cae57c.png",
+                "template_description": "Streamline the performance review process with our Supervisor Evaluation Survey Template. Easily gather insightful feedback from employees to enhance leadership effectiveness and identify areas for improvement."
+            },
+            "8": {
+                "slug": "tgeyfqlj",
+                "template_slug": "demographic-survey-questionnaire-template",
+                "title": "Demographic survey questionnaire template",
+                "image": "https://files.youform.com/templates/4e831480-a30b-4d15-91d2-e4811c49f370.png",
+                "template_description": "Discover valuable insights with our Demographic Survey Questionnaire Template. Customize easily to capture age, gender, income, and more, helping you make informed decisions and tailor services effectively. Perfect for any industry."
+            },
+            "9": {
+                "slug": "zwevip9b",
+                "template_slug": "happiness-survey-template",
+                "title": "Happiness survey template",
+                "image": "https://files.youform.com/templates/9ea3dc15-6223-4813-85e0-5e0e7ad01a82.png",
+                "template_description": "Discover the key to workplace contentment with our Happiness Survey Template. Effortlessly gauge employee satisfaction, identify areas for improvement, and foster a thriving, positive work environment."
+            },
+            "10": {
+                "slug": "n4xhvkc6",
+                "template_slug": "political-survey-template",
+                "title": "Political survey template",
+                "image": "https://files.youform.com/templates/a0f84dbd-6979-49f8-aa84-ee37edaca9c4.png",
+                "template_description": "Our Political Survey Template helps you understand public opinion with ease. Collect valuable insights on political preferences and voter concerns to shape effective campaigns and policies. Quick, customizable, and user-friendly."
+            },
+            "11": {
+                "slug": "79nzqcfg",
+                "template_slug": "user-persona-survey-template",
+                "title": "User persona survey template",
+                "image": "https://files.youform.com/templates/8ddf26b3-7cfb-4550-866d-fefa232252cd.png",
+                "template_description": "Streamline your design process with our User Persona Survey Template. Gather valuable insights efficiently to create impactful, user-centered designs. Ideal for UX professionals aiming to understand their audience better."
+            },
+            "13": {
+                "slug": "luekrhlq",
+                "template_slug": "employee-performance-survey-template",
+                "title": "Employee performance survey template",
+                "image": "https://files.youform.com/templates/4c7713bd-8d71-43e5-8f82-0156f5e2e270.png",
+                "template_description": "Boost employee performance with our expertly designed survey template. Gather actionable insights to improve productivity, satisfaction, and engagement in your workplace. Quick setup, easy to use, and customizable for your unique needs."
+            },
+            "14": {
+                "slug": "oom5tfp4",
+                "template_slug": "performance-management-survey-template",
+                "title": "Performance management survey template",
+                "image": "https://files.youform.com/templates/c2337e14-b6dd-4283-8a1e-a83cb11e3657.png",
+                "template_description": "Empower your team's growth with our Performance Management Survey Template. Easily assess and enhance workforce efficiency, identify strengths, and pinpoint areas for improvement. Optimize your performance strategy today!"
+            },
+            "15": {
+                "slug": "vgmgphis",
+                "template_slug": "work-life-balance-survey-template",
+                "title": "Work life balance survey template",
+                "image": "https://files.youform.com/templates/ad57bba9-22d6-478a-8f19-68e90fcd07be.png",
+                "template_description": "Discover valuable insights into employee satisfaction and work-life balance with our expertly designed survey template. Efficient, easy to use, and crafted to help you enhance workplace wellbeing."
+            },
+            "17": {
+                "slug": "szamauqt",
+                "template_slug": "training-needs-assessment-survey-template",
+                "title": "Training needs assessment survey template",
+                "image": "https://files.youform.com/templates/c7caa44e-9336-4254-b3b1-4fe8cfd6d935.png",
+                "template_description": "Utilize our Training Needs Assessment Survey Template to identify and analyze the skill gaps within your team. Perfect for optimizing training programs, ensuring effective learning and development."
+            },
+            "18": {
+                "slug": "jletjio2",
+                "template_slug": "training-satisfaction-survey-template",
+                "title": "Training satisfaction survey template",
+                "image": "https://files.youform.com/templates/1678548e-905b-463a-8519-3fb4ac13b880.png",
+                "template_description": "Improve your training programs with our expertly designed Training Satisfaction Survey Template. Gather valuable feedback, measure effectiveness, and enhance learning experiences efficiently. Start boosting training outcomes today!"
+            }
+        }
+    },
+    "market-research": {
+        "title": "Market research survey templates",
+        "name": "Market research",
+        "slug": "market-research",
+        "templates": [
+            {
+                "slug": "7zlm9viy",
+                "template_slug": "competitor-research-survey-template",
+                "title": "Competitor research survey template",
+                "image": "https://files.youform.com/templates/a0b14e7f-a373-4ef5-bf14-abd9a272e640.png",
+                "template_description": "Efficiently assess your competitive landscape with our Competitor Research Survey Template. Gather insights on market trends, analyze competitor strategies, and refine your business approach to stay ahead. Perfect for businesses seeking a competitive edge."
+            },
+            {
+                "slug": "67wimx2u",
+                "template_slug": "personality-questionnaire-template",
+                "title": "Personality questionnaire template",
+                "image": "https://files.youform.com/templates/f5d02638-a2dd-44ce-b298-61f4601f2dc2.png",
+                "template_description": "Explore our Personality Questionnaire Template to gain insights into individual traits and preferences. Customize easily for efficient personality assessments, ideal for HR, coaching, and personal development. Get started now to uncover valuable personal insights!"
+            },
+            {
+                "slug": "gdqmnddc",
+                "template_slug": "diet-survey-template",
+                "title": "Diet survey template",
+                "image": "https://files.youform.com/templates/d95b11fe-689d-4b6b-9c13-8654c711ac3e.png",
+                "template_description": "Explore our Diet Survey Template to gain insights into eating habits and nutritional awareness. Easily customize questions, collect valuable data, and promote healthier choices. Perfect for nutritionists, dietitians, and health organizations."
+            },
+            {
+                "slug": "jajwddpx",
+                "template_slug": "facebook-survey-template",
+                "title": "Facebook survey template",
+                "image": "https://files.youform.com/templates/abaee243-512d-48d5-a7e2-51a1178259d0.png",
+                "template_description": "Engage your audience effortlessly with our Facebook Survey Template. Collect valuable feedback, understand preferences, and improve interaction—all in a user-friendly, customizable format. Perfect for any page looking to boost engagement and insights."
+            },
+            {
+                "slug": "yqcdln6m",
+                "template_slug": "insurance-questionnaire-template",
+                "title": "Insurance questionnaire template",
+                "image": "https://files.youform.com/templates/6698026f-fba5-44e1-b08a-6ca6fec94f11.png",
+                "template_description": "Effortlessly gather insurance details with our intuitive Insurance Questionnaire Template. Streamline client data collection for faster, accurate processing with this professionally designed, easy-to-use form. Perfect for all insurance types."
+            }
+        ]
+    },
+    "event": {
+        "title": "Event survey templates",
+        "name": "Event",
+        "slug": "event",
+        "templates": {
+            "1": {
+                "slug": "ijpw0yza",
+                "template_slug": "event-questionnaire-template",
+                "title": "Event questionnaire template",
+                "image": "https://files.youform.com/templates/bf77a157-bae1-43b5-8ca1-b3af42332f0c.png",
+                "template_description": "This Event Questionnaire Template helps you efficiently gather essential information to plan successful events. Customize it to fit any type, size, or theme for seamless event coordination!"
+            },
+            "2": {
+                "slug": "qeazu6wx",
+                "template_slug": "event-evaluation-survey-template",
+                "title": "Event evaluation survey template",
+                "image": "https://files.youform.com/templates/f7aafde1-f3d7-499d-b3bd-c714b70d2a1b.png",
+                "template_description": "This Event Evaluation Survey Template is designed to gather feedback from attendees effortlessly. Use it to measure satisfaction, gain insights, and identify areas for improvement to make your future events a resounding success."
+            },
+            "3": {
+                "slug": "1azv4ckt",
+                "template_slug": "event-planning-survey-template",
+                "title": "Event planning survey template",
+                "image": "https://files.youform.com/templates/40cd57a2-94c8-4110-9548-867bb67eae1c.png",
+                "template_description": "This Event Planning Survey Template is designed to gather feedback and preferences from attendees, ensuring your next event is perfectly tailored and executed. Optimize logistics, themes, and overall satisfaction seamlessly!"
+            },
+            "4": {
+                "slug": "uhlfvt84",
+                "template_slug": "pre-event-survey-template",
+                "title": "Pre-event survey template",
+                "image": "https://files.youform.com/templates/62e74ba6-c42e-4aa7-98e1-a3d2a73c7d54.png",
+                "template_description": "Gather valuable insights before your event to ensure it's a hit! Use our pre-event survey template to tailor experiences, understand attendee expectations, and align your goals for maximum engagement and success."
+            }
+        }
+    },
+    "business": {
+        "title": "Business survey templates",
+        "name": "Business",
+        "slug": "business",
+        "templates": {
+            "2": {
+                "slug": "idvzsit3",
+                "template_slug": "gym-satisfaction-survey-template",
+                "title": "Gym satisfaction survey template",
+                "image": "https://files.youform.com/templates/565b139a-6508-45a1-94c8-1ec7f0f774a7.png",
+                "template_description": "This Gym Satisfaction Survey template is designed to gather feedback from gym members about their experience, facilities, and services, helping you enhance overall satisfaction and retention. Customize and deploy quickly to get actionable insights!"
+            },
+            "3": {
+                "slug": "wspzjy1c",
+                "template_slug": "price-sensitivity-survey-template",
+                "title": "Price sensitivity survey template",
+                "image": "https://files.youform.com/templates/9122896c-3b0a-45a1-acfa-a34ee28e078d.png",
+                "template_description": "Maximize your pricing strategy with our Price Sensitivity Survey Template. Gather critical consumer insights to determine the optimal price point and enhance profitability. Quick, efficient, and ready to deploy!"
+            },
+            "10": {
+                "slug": "glc8aphq",
+                "template_slug": "restaurant-feedback-survey-template",
+                "title": "Restaurant feedback survey template",
+                "image": "https://files.youform.com/templates/285e19c6-bc4b-480c-891b-ac7daf76b44b.png",
+                "template_description": "Gather valuable guest insights with our Restaurant Feedback Survey Template. Customize questions to evaluate service, food quality, and overall dining experience to enhance customer satisfaction and drive improvements."
+            },
+            "15": {
+                "slug": "ymu0msc7",
+                "template_slug": "system-usability-survey-template",
+                "title": "System usability survey template",
+                "image": "https://files.youform.com/templates/8d409697-d070-410a-9b51-c9cd11d4405e.png",
+                "template_description": "This System Usability Survey Template is designed to gather feedback on user experience, helping you pinpoint areas for improvement to enhance system functionality and user satisfaction."
+            }
+        }
+    },
+    "product": {
+        "title": "Product survey templates",
+        "name": "Product",
+        "slug": "product",
+        "templates": {
+            "4": {
+                "slug": "6hjfkotd",
+                "template_slug": "concept-testing-survey-template",
+                "title": "Concept testing survey template",
+                "image": "https://files.youform.com/templates/b88b390c-92b2-49b7-b0c3-84e325e899df.png",
+                "template_description": "Our Concept Testing Survey Template empowers you to validate ideas before launch. Gather actionable feedback, refine your concepts, and launch with confidence. Easy to customize and deploy!"
+            },
+            "5": {
+                "slug": "egd8nejo",
+                "template_slug": "focus-group-survey-template",
+                "title": "Focus group survey template",
+                "image": "https://files.youform.com/templates/1b3687da-a12f-4ff6-9094-257d4cb53cd9.png",
+                "template_description": "\"Facilitate productive focus group discussions with our expertly designed survey template. Gather valuable insights and actionable feedback efficiently, perfect for market research and user experience enhancement.\""
+            },
+            "6": {
+                "slug": "33x2paoo",
+                "template_slug": "new-product-survey-template",
+                "title": "New product survey template",
+                "image": "https://files.youform.com/templates/6165c859-6879-4f96-9cb9-bfaf9efcf021.png",
+                "template_description": "Unlock customer insights with our New Product Survey Template! Quickly gather targeted feedback to optimize your product and enhance market strategies. Easy customization, instant deployment. Start engaging with your audience effectively today!"
+            },
+            "7": {
+                "slug": "tasqbdgj",
+                "template_slug": "product-satisfaction-survey-template",
+                "title": "Product satisfaction survey template",
+                "image": "https://files.youform.com/templates/7c77608d-2030-4d6f-8c2d-961f0e74b403.png",
+                "template_description": "Optimize your products with our customizable satisfaction survey template. Gather valuable customer feedback efficiently to enhance user experience and drive improvements. Quick, insightful, and ready-to-use!"
+            },
+            "8": {
+                "slug": "5q5p5mpg",
+                "template_slug": "product-testing-survey-template",
+                "title": "Product testing survey template",
+                "image": "https://files.youform.com/templates/3c4a8f45-ff1b-4de1-a185-4a6e517cec5c.png",
+                "template_description": "This Product Testing Survey Template helps you gather valuable insights on customer opinions and experiences, enabling you to improve product features and meet market demands effectively. Ideal for businesses seeking user feedback."
+            },
+            "9": {
+                "slug": "syj5tqy3",
+                "template_slug": "product-market-fit-survey-template",
+                "title": "Product-market fit survey template",
+                "image": "https://files.youform.com/templates/ccd780af-43f6-4d40-852f-7e2aa9851b2a.png",
+                "template_description": "Discover your product's potential with our Product-Market Fit Survey Template. Quickly gauge customer satisfaction, identify market needs, and fine-tune your offerings for maximum impact. Tailor, deploy, and start learning today!"
+            },
+            "10": {
+                "slug": "ylcniwc2",
+                "template_slug": "sean-ellis-test-product-market-fit-survey",
+                "title": "Sean Ellis Test - Product Market Fit Survey",
+                "image": "https://files.youform.com/form-files/fPC0fpVfQXScYQgzI3gHnH3hIrTJQucGlS3DXnpm.webp",
+                "template_description": "Measure your product's market fit with the Sean Ellis Test survey. This ready-to-use template helps you gauge customer sentiment by asking the key question: 'How disappointed would you be if you could no longer use this product?' Get actionable insights to refine your product and achieve true market validation."
+            }
+        }
+    },
+    "school": {
+        "title": "School survey templates",
+        "name": "School",
+        "slug": "school",
+        "templates": [
+            {
+                "slug": "884nrxz8",
+                "template_slug": "student-demographics-survey-template",
+                "title": "Student demographics survey template",
+                "image": "https://files.youform.com/templates/c7cc815a-5110-430b-b426-deedc3731aef.png",
+                "template_description": "This customizable Student Demographics Survey Template helps educators gather essential information about students' backgrounds, ensuring tailored support and enhanced educational strategies. Easy to use and essential for data-driven decisions."
+            },
+            {
+                "slug": "q8zv9idy",
+                "template_slug": "student-mental-health-check-in-survey-template",
+                "title": "Student mental health check-in survey template",
+                "image": "https://files.youform.com/templates/0121e7d6-283c-47d7-8a91-ae1b95145d0f.png",
+                "template_description": "This customizable template helps educators efficiently gather insights into students’ mental well-being, promoting a supportive learning environment. Create and analyze surveys to enhance student support and mental health resources."
+            },
+            {
+                "slug": "lqmp0guq",
+                "template_slug": "school-climate-survey-template",
+                "title": "School climate survey template",
+                "image": "https://files.youform.com/templates/09cd82d5-1779-4884-81ce-c86e4fb6d2d9.png",
+                "template_description": "Easily assess the overall environment of your school with our School Climate Survey Template. Gather crucial feedback on safety, teaching, and facility conditions to enhance student and staff wellbeing for a thriving educational atmosphere."
+            }
+        ]
+    },
+    "employee-satisfaction": {
+        "title": "Employee satisfaction survey templates",
+        "name": "Employee satisfaction",
+        "slug": "employee-satisfaction",
+        "templates": [
+            {
+                "slug": "xmeb9dwm",
+                "template_slug": "company-satisfaction-survey-template",
+                "title": "Company satisfaction survey template",
+                "image": "https://files.youform.com/templates/6d8b66e5-4b87-4324-9190-3fad0953e722.png",
+                "template_description": "Unlock valuable insights with our Company Satisfaction Survey Template. Easily measure employee satisfaction and identify areas for improvement to boost morale and productivity. Tailored, efficient, and ready to deploy."
+            },
+            {
+                "slug": "qy6cnoj2",
+                "template_slug": "employee-on-boarding-survey-template",
+                "title": "Employee on-boarding survey template",
+                "image": "https://files.youform.com/templates/342fa2a5-4d25-4a97-b7f7-bdbed932b6ba.png",
+                "template_description": "Empower your new hires with our Employee Onboarding Survey Template. Gather feedback efficiently to refine the onboarding process, ensuring a smooth and welcoming experience for every new team member."
+            },
+            {
+                "slug": "gaarpyc3",
+                "template_slug": "it-satisfaction-survey-template",
+                "title": "IT satisfaction survey template",
+                "image": "https://files.youform.com/templates/a85d3bba-0700-4268-8161-e4b3c8dcdda0.png",
+                "template_description": "Explore our IT Satisfaction Survey Template to effortlessly gather feedback on your tech support's performance. Quick to customize, easy to analyze, ensuring your IT services meet user expectations. Optimize your tech support now!"
+            }
+        ]
+    },
+    "evaluation": {
+        "title": "Evaluation survey templates",
+        "name": "Evaluation",
+        "slug": "evaluation",
+        "templates": {
+            "2": {
+                "slug": "ze8wuo55",
+                "template_slug": "manager-effectiveness-survey-template",
+                "title": "Manager effectiveness survey template",
+                "image": "https://files.youform.com/templates/db37ed05-0e60-4b57-96d6-bd4c1c852b5b.png",
+                "template_description": "Enhance managerial performance with our Manager Effectiveness Survey Template. Get actionable insights, identify strengths, and pinpoint areas for improvement to boost team productivity and morale. Easy to implement and customize."
+            }
+        }
+    },
+    "healthcare": {
+        "title": "Healthcare survey templates",
+        "name": "Healthcare",
+        "slug": "healthcare",
+        "templates": [
+            {
+                "slug": "3vtsnvpi",
+                "template_slug": "healthcare-employee-satisfaction-survey-template",
+                "title": "Healthcare employee satisfaction survey template",
+                "image": "https://files.youform.com/templates/a5b07bb9-e9b8-4c12-97c4-1138d9110b5e.png",
+                "template_description": "Discover our specialized Healthcare Employee Satisfaction Survey Template, designed to gauge morale, workplace conditions, and overall satisfaction within your healthcare organization, ensuring actionable insights for enhanced staff well-being and productivity."
+            }
+        ]
+    }
+}

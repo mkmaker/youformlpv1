@@ -1,0 +1,1005 @@
+{
+    "forms": {
+        "title": "Form Templates",
+        "type": "forms",
+        "type_slug": "forms",
+        "categories": [
+            {
+                "name": "Marketing",
+                "slug": "marketing",
+                "templates": [
+                    {
+                        "title": "Client intake form template",
+                        "slug": "08tef06o",
+                        "template_slug": "client-intake-form-template",
+                        "template_title": "Client intake form template",
+                        "template_image": "https://files.youform.com/templates/2c3b17aa-afac-4e5d-8835-52174539bebe.png",
+                        "template_description": "Discover streamlined client onboarding with our free Client Intake Form Template. Customize easily to align with your services, improve efficiency, and keep client information organized. Secure, simple, and professional."
+                    },
+                    {
+                        "title": "Client profile form template",
+                        "slug": "k9jsbtku",
+                        "template_slug": "client-profile-form-template",
+                        "template_title": "Client profile form template",
+                        "template_image": "https://files.youform.com/templates/2fe2a087-e069-4ce8-9679-6a5aac198708.png",
+                        "template_description": "Discover our Client Profile Form template, designed to streamline client information collection. Efficient, user-friendly, and customizable to fit your specific business needs. Elevate your client management process today!"
+                    },
+                    {
+                        "title": "Demo feedback form template",
+                        "slug": "cke9xnmk",
+                        "template_slug": "demo-feedback-form-template",
+                        "template_title": "Demo feedback form template",
+                        "template_image": "https://files.youform.com/templates/aafb6823-3c49-4273-a951-b908f019a7eb.png",
+                        "template_description": "Explore our Demo Feedback Form Template to collect valuable user impressions effortlessly. Customize it to suit your needs, enhance user engagement, and gather actionable insights to improve your product or service."
+                    }
+                ]
+            },
+            {
+                "name": "Registration",
+                "slug": "registration",
+                "templates": [
+                    {
+                        "title": "Contest registration form template",
+                        "slug": "lczfq3ib",
+                        "template_slug": "contest-registration-form-template",
+                        "template_title": "Contest registration form template",
+                        "template_image": "https://files.youform.com/templates/cc3c95db-e204-4f47-99e0-8cd2fe75c08c.png",
+                        "template_description": "Streamline your competition with our Contest Registration Form Template. Designed for efficiency, this template is customizable, easy to use, and perfect for any event, ensuring a smooth registration process for all participants."
+                    },
+                    {
+                        "title": "Yoga registration form template",
+                        "slug": "1rxhcxh3",
+                        "template_slug": "yoga-registration-form-template",
+                        "template_title": "Yoga registration form template",
+                        "template_image": "https://files.youform.com/templates/fcedd968-7ffe-4351-8b2c-d7de0432aa3c.png",
+                        "template_description": "Elevate your yoga sessions with our sleek registration form template. Quick to customize and easy to use, ensuring a seamless sign-up process for new yogis. Perfect for studios looking to streamline their enrollment."
+                    }
+                ]
+            },
+            {
+                "name": "Lead generation",
+                "slug": "lead-generation",
+                "templates": [
+                    {
+                        "title": "Customer lead form template",
+                        "slug": "llwye65m",
+                        "template_slug": "customer-lead-form-template",
+                        "template_title": "Customer lead form template",
+                        "template_image": "https://files.youform.com/templates/6575d789-c80d-4ad1-9f17-e175e1d7aba8.png",
+                        "template_description": "Maximize lead capture with our customizable Customer Lead Form Template. It's sleek, user-friendly, and perfectly designed to convert your website visitors into valuable leads efficiently. Start boosting your conversions today!"
+                    },
+                    {
+                        "title": "Free giveaway form template",
+                        "slug": "si3qnrqw",
+                        "template_slug": "free-giveaway-form-template",
+                        "template_title": "Free giveaway form template",
+                        "template_image": "https://files.youform.com/templates/eb4ae739-42a6-447d-acc1-467a097ba921.png",
+                        "template_description": "Unlock the power of engagement with our Free Giveaway Form Template! Effortlessly organize entries, streamline your process, and excite your audience—all without spending a dime. Perfect for any event or promotion!"
+                    },
+                    {
+                        "title": "KYC form template",
+                        "slug": "bucgeyd9",
+                        "template_slug": "kyc-form-template",
+                        "template_title": "KYC form template",
+                        "template_image": "https://files.youform.com/templates/360aad3c-1a30-46ff-87da-888c71c9070f.png",
+                        "template_description": "Introducing our KYC Form Template: streamline user identity verification with ease. Efficient, secure, and customizable, perfect for businesses aiming to enhance compliance and user experience. Quick integration, ready to deploy."
+                    }
+                ]
+            },
+            {
+                "name": "Event",
+                "slug": "event",
+                "templates": [
+                    {
+                        "title": "Event signup form template",
+                        "slug": "jvgfruzl",
+                        "template_slug": "event-signup-form-template",
+                        "template_title": "Event signup form template",
+                        "template_image": "https://files.youform.com/templates/df590118-03d7-41db-93f0-fa0cf662fd8f.png",
+                        "template_description": "This Event Signup Form Template is carefully designed to streamline participant registration. It's customizable, mobile-friendly, and perfect for events of any size to enhance organization and boost attendance."
+                    }
+                ]
+            },
+            {
+                "name": "Event registration",
+                "slug": "event-registration",
+                "templates": [
+                    {
+                        "title": "Event volunteer form template",
+                        "slug": "wdmcamvq",
+                        "template_slug": "event-volunteer-form-template",
+                        "template_title": "Event volunteer form template",
+                        "template_image": "https://files.youform.com/templates/4b6feab5-9391-4f4b-84c4-d2bedb6cb247.png",
+                        "template_description": "This Event Volunteer Form Template helps you seamlessly recruit and manage volunteers for your events. Customize fields to fit your needs, streamline sign-ups, and organize volunteer information effortlessly. Perfect for event coordinators."
+                    },
+                    {
+                        "title": "Online event registration form template",
+                        "slug": "yxdibxuo",
+                        "template_slug": "online-event-registration-form-template",
+                        "template_title": "Online event registration form template",
+                        "template_image": "https://files.youform.com/templates/b64b794b-219d-4363-ae71-ffa0fd35ef0a.png",
+                        "template_description": "This customizable online event registration form template helps you easily collect attendee information, manage registrations, and streamline event planning. Simply edit and publish to start your sign-up process!"
+                    },
+                    {
+                        "title": "Hackathon registration form template",
+                        "slug": "ihh7lhmh",
+                        "template_slug": "hackathon-registration-form-template",
+                        "template_title": "Hackathon registration form template",
+                        "template_image": "https://files.youform.com/templates/a5136e11-305f-4df3-9922-7eb9693ee989.png",
+                        "template_description": "Streamline your hackathon registration with our customizable template. Efficiently gather participant details, manage team information, and automate confirmations for a seamless organization. Ideal for tech events aiming for innovation and collaboration."
+                    }
+                ]
+            },
+            {
+                "name": "Business",
+                "slug": "business",
+                "templates": [
+                    {
+                        "title": "Giveaway entry form template",
+                        "slug": "sasw6mzv",
+                        "template_slug": "giveaway-entry-form-template",
+                        "template_title": "Giveaway entry form template",
+                        "template_image": "https://files.youform.com/templates/6432c69e-30ab-4d0d-9708-078e569b27e9.png",
+                        "template_description": "Experience the excitement of winning! Use our Giveaway Entry Form Template, designed to seamlessly collect entries and manage participant information with ease and efficiency. Boost engagement and grow your audience now!"
+                    },
+                    {
+                        "title": "Online suggestion box template",
+                        "slug": "uk1dnhhh",
+                        "template_slug": "online-suggestion-box-template",
+                        "template_title": "Online suggestion box template",
+                        "template_image": "https://files.youform.com/templates/217b49d5-3fb6-489f-82f6-8b153e27cdfd.png",
+                        "template_description": "Optimize feedback collection with our Online Suggestion Box Template. Easily customizable, secure, and user-friendly, it empowers seamless communication and innovative ideas from anywhere, anytime."
+                    },
+                    {
+                        "title": "Software incident report form template",
+                        "slug": "iaqz57kp",
+                        "template_slug": "software-incident-report-form-template",
+                        "template_title": "Software incident report form template",
+                        "template_image": "https://files.youform.com/templates/c3bc1787-2730-40da-ae1a-5037d1cf1d9d.png",
+                        "template_description": "This software incident report form template is designed for efficient tracking and documentation of software issues, ensuring quick resolution and improved system reliability. Easily customizable to fit your organization's specific needs."
+                    }
+                ]
+            },
+            {
+                "name": "Quote",
+                "slug": "quote",
+                "templates": [
+                    {
+                        "title": "Marketing quote form template",
+                        "slug": "nz7ccb4z",
+                        "template_slug": "marketing-quote-form-template",
+                        "template_title": "Marketing quote form template",
+                        "template_image": "https://files.youform.com/templates/8c1fec13-6d5c-434b-9b4e-e4c15d7e4a6e.png",
+                        "template_description": "This customizable marketing quote form template lets you efficiently gather client requirements and generate accurate quotes. Streamline your process, save time, and secure more deals with this professional, easy-to-use template."
+                    },
+                    {
+                        "title": "Electrical quote form template",
+                        "slug": "dt6ch8vv",
+                        "template_slug": "electrical-quote-form-template",
+                        "template_title": "Electrical quote form template",
+                        "template_image": "https://files.youform.com/templates/893a7f33-5b8c-4c23-95db-530d3b4bf9b9.png",
+                        "template_description": "Discover our customizable Electrical Quote Form Template, designed to streamline your quoting process. Quickly generate precise estimates for electrical services with this easy-to-use, professional template. Perfect for electricians and electrical contractors."
+                    },
+                    {
+                        "title": "Freelance quote form template",
+                        "slug": "pdzwk68i",
+                        "template_slug": "freelance-quote-form-template",
+                        "template_title": "Freelance quote form template",
+                        "template_image": "https://files.youform.com/templates/152f6b3b-2f13-49c5-9527-3c96bc18e235.png",
+                        "template_description": "Streamline your project proposals with our Freelance Quote Form Template. Easily customizable, it enables quick, professional quotes, enhancing client engagement and efficiency. Perfect for freelancers in any field."
+                    }
+                ]
+            },
+            {
+                "name": "Request",
+                "slug": "request",
+                "templates": [
+                    {
+                        "title": "Marketing request form template",
+                        "slug": "bw16zfmj",
+                        "template_slug": "marketing-request-form-template",
+                        "template_title": "Marketing request form template",
+                        "template_image": "https://files.youform.com/templates/a8ec6bbd-99fd-485f-9d78-468004f92930.png",
+                        "template_description": "Streamline your marketing initiatives with our easy-to-use Marketing Request Form Template. Capture requests efficiently, ensuring all project details are clearly communicated. Ideal for teams aiming for organized and effective marketing operations."
+                    },
+                    {
+                        "title": "Media request form template",
+                        "slug": "aenrnjwq",
+                        "template_slug": "media-request-form-template",
+                        "template_title": "Media request form template",
+                        "template_image": "https://files.youform.com/templates/4342be88-ba10-457a-9713-0bbc17b7ea17.png",
+                        "template_description": "Discover our Media Request Form Template to streamline your communications efficiently. Customize requests for interviews, photos, and press materials, all neatly organized to save time and enhance your media interactions."
+                    },
+                    {
+                        "title": "New user request form template",
+                        "slug": "0yiwc8e5",
+                        "template_slug": "new-user-request-form-template",
+                        "template_title": "New user request form template",
+                        "template_image": "https://files.youform.com/templates/2c542c97-f468-4de6-b5f8-2c9a6a96043f.png",
+                        "template_description": "Use this intuitive New User Request Form template to streamline the process of adding users to your system. Simple, customizable, and designed for quick user onboarding. Perfect for HR and IT teams."
+                    }
+                ]
+            },
+            {
+                "name": "Application",
+                "slug": "application",
+                "templates": [
+                    {
+                        "title": "Reseller application form template",
+                        "slug": "itfyooh9",
+                        "template_slug": "reseller-application-form-template",
+                        "template_title": "Reseller application form template",
+                        "template_image": "https://files.youform.com/templates/15ceaf5e-2027-4c16-af88-22ffb1f80a86.png",
+                        "template_description": "Effortlessly enable resellers to join your network with our intuitive Reseller Application Form Template. Streamline application processes, collect necessary details, and expand your business reach—all in one place."
+                    }
+                ]
+            },
+            {
+                "name": "Customer success",
+                "slug": "customer-success",
+                "templates": [
+                    {
+                        "title": "Bug tracker form template",
+                        "slug": "kc33uuw6",
+                        "template_slug": "bug-tracker-form-template",
+                        "template_title": "Bug tracker form template",
+                        "template_image": "https://files.youform.com/templates/c48a05ca-432c-4f46-b8f4-e3fb65316ced.png",
+                        "template_description": "Optimize your debugging process with our Bug Tracker Form Template. Streamline reporting, manage issues effectively, and enhance team collaboration for quicker resolutions. Get started now to maintain flawless software!"
+                    },
+                    {
+                        "title": "Client onboarding form template",
+                        "slug": "at5387rq",
+                        "template_slug": "client-onboarding-form-template",
+                        "template_title": "Client onboarding form template",
+                        "template_image": "https://files.youform.com/templates/b1c8792f-54bd-43c4-a924-947e1ebf33ed.png",
+                        "template_description": "Streamline your client intake process with our easy-to-use Client Onboarding Form Template. Customize fields, automate data collection, and enhance client experience right from the first interaction."
+                    },
+                    {
+                        "title": "Customer complaint form template",
+                        "slug": "uquywcqw",
+                        "template_slug": "customer-complaint-form-template",
+                        "template_title": "Customer complaint form template",
+                        "template_image": "https://files.youform.com/templates/9de15c3b-af63-4368-a6cc-c98422ac6cab.png",
+                        "template_description": "Streamline your feedback process with our Customer Complaint Form Template. Easy to customize and use, it helps you address and resolve issues efficiently, enhancing customer satisfaction and service quality."
+                    }
+                ]
+            },
+            {
+                "name": "Feedback",
+                "slug": "feedback",
+                "templates": [
+                    {
+                        "title": "Website design feedback form template",
+                        "slug": "m1fa663c",
+                        "template_slug": "website-design-feedback-form-template",
+                        "template_title": "Website design feedback form template",
+                        "template_image": "https://files.youform.com/templates/e7365b81-0d55-431b-b009-bec19f2aabf9.png",
+                        "template_description": "Streamline your design process with our Website Design Feedback Form Template. Effortlessly gather and analyze user input to enhance your website's aesthetics and functionality. Perfect for designers seeking actionable insights."
+                    },
+                    {
+                        "title": "Call center employee evaluation form template",
+                        "slug": "ue0yikg6",
+                        "template_slug": "call-center-employee-evaluation-form-template",
+                        "template_title": "Call center employee evaluation form template",
+                        "template_image": "https://files.youform.com/templates/f89924a6-0536-4892-8e85-6b4603806272.png",
+                        "template_description": "This customizable template streamlines the process of evaluating call center employees, helping managers assess performance, track improvements, and provide structured feedback effectively."
+                    },
+                    {
+                        "title": "Client feedback form template",
+                        "slug": "ac6qkxhd",
+                        "template_slug": "client-feedback-form-template",
+                        "template_title": "Client feedback form template",
+                        "template_image": "https://files.youform.com/templates/a86ae616-f34e-45a3-833c-4e2f32c4c9e1.png",
+                        "template_description": "Easily gather valuable client feedback with our customizable template. Enhance your service, refine strategies, and boost satisfaction by understanding client perspectives efficiently. Start streamlining the feedback process today!"
+                    }
+                ]
+            },
+            {
+                "name": "Other",
+                "slug": "other",
+                "templates": [
+                    {
+                        "title": "Sales performance evaluation form template",
+                        "slug": "4jhktqmo",
+                        "template_slug": "sales-performance-evaluation-form-template",
+                        "template_title": "Sales performance evaluation form template",
+                        "template_image": "https://files.youform.com/templates/c6a5fe55-5067-4d90-97bc-726bc8f62416.png",
+                        "template_description": "This Sales Performance Evaluation Form template helps managers assess and document sales team achievements, set future goals, and enhance productivity efficiently. Customize it to fit your specific business requirements."
+                    },
+                    {
+                        "title": "360 degree feedback form template",
+                        "slug": "zwuwjof6",
+                        "template_slug": "360-degree-feedback-form-template",
+                        "template_title": "360 degree feedback form template",
+                        "template_image": "https://files.youform.com/templates/bf6f40b0-9e13-4954-a20f-a088761a6a58.png",
+                        "template_description": "Maximize your team's potential with our 360-Degree Feedback Form Template. Streamline evaluations, gather comprehensive insights, and foster growth with easy customization for effective performance reviews. Get started now!"
+                    },
+                    {
+                        "title": "Staff induction form template",
+                        "slug": "pophlsao",
+                        "template_slug": "staff-induction-form-template",
+                        "template_title": "Staff induction form template",
+                        "template_image": "https://files.youform.com/templates/cb32ccbc-467f-433c-b224-6f6232e201e4.png",
+                        "template_description": "Seamlessly onboard new hires with our Staff Induction Form Template, designed to gather essential information, streamline the induction process, and ensure a smooth integration into your team."
+                    }
+                ]
+            },
+            {
+                "name": "Signup",
+                "slug": "signup",
+                "templates": [
+                    {
+                        "title": "Online signup form template",
+                        "slug": "cuisfybd",
+                        "template_slug": "online-signup-form-template",
+                        "template_title": "Online signup form template",
+                        "template_image": "https://files.youform.com/templates/9a7c0465-ac2b-4c35-89c8-d60649d8bd4d.png",
+                        "template_description": "Effortlessly create captivating signup forms with our online template. Streamline user registrations, gather essential information, and enhance engagement. Ideal for events, newsletters, and memberships. Quick, customizable, and user-friendly. Start building your audience today!"
+                    }
+                ]
+            },
+            {
+                "name": "Evaluation",
+                "slug": "evaluation",
+                "templates": [
+                    {
+                        "title": "Product evaluation form template",
+                        "slug": "j9ji83rq",
+                        "template_slug": "product-evaluation-form-template",
+                        "template_title": "Product evaluation form template",
+                        "template_image": "https://files.youform.com/templates/da5842c6-481a-423f-8fdf-24dd51de80b1.png",
+                        "template_description": "Streamline your product review process with our customizable Product Evaluation Form Template. Efficiently gather feedback to enhance product quality and meet customer expectations. Start optimizing today!"
+                    },
+                    {
+                        "title": "Software evaluation form template",
+                        "slug": "sccj7ffb",
+                        "template_slug": "software-evaluation-form-template",
+                        "template_title": "Software evaluation form template",
+                        "template_image": "https://files.youform.com/templates/19556379-f473-4ead-8982-e063b5bb5a66.png",
+                        "template_description": "Effortlessly assess and compare software options with our customizable Software Evaluation Form Template. Streamline your decision-making process to select the best tools for your needs efficiently and accurately."
+                    },
+                    {
+                        "title": "Self evaluation form template",
+                        "slug": "h3wm06gw",
+                        "template_slug": "self-evaluation-form-template",
+                        "template_title": "Self evaluation form template",
+                        "template_image": "https://files.youform.com/templates/0887a9ec-2836-4665-8fd5-81c94a38e5e7.png",
+                        "template_description": "This customizable self-evaluation form template helps employees assess their performance and set goals, enhancing self-awareness and productivity. Easily adaptable for any industry or role, it streamlines the review process."
+                    }
+                ]
+            },
+            {
+                "name": "Contact",
+                "slug": "contact",
+                "templates": [
+                    {
+                        "title": "Business contact form template",
+                        "slug": "ysw7yfik",
+                        "template_slug": "business-contact-form-template",
+                        "template_title": "Business contact form template",
+                        "template_image": "https://files.youform.com/templates/26d21ce6-440f-48f3-8028-2e942ac4fab6.png",
+                        "template_description": "Elevate your business communication with our customizable contact form template. Streamline inquiries, enhance user engagement, and gather vital information efficiently to boost your customer service and business opportunities."
+                    },
+                    {
+                        "title": "Callback form template",
+                        "slug": "1bbzsego",
+                        "template_slug": "callback-form-template",
+                        "template_title": "Callback form template",
+                        "template_image": "https://files.youform.com/templates/2bef5a77-7d8a-460f-b907-f02bc3f1e791.png",
+                        "template_description": "Optimize customer engagement with our Callback Form Template. Streamline communication, collect essential information, and enhance response rates effectively on your website’s landing page."
+                    },
+                    {
+                        "title": "Client contact form template",
+                        "slug": "gfavig3b",
+                        "template_slug": "client-contact-form-template",
+                        "template_title": "Client contact form template",
+                        "template_image": "https://files.youform.com/templates/27a73598-a1b3-462a-8d34-6476d9d7ca75.png",
+                        "template_description": "Effortlessly capture essential client information with our Client Contact Form Template. Customizable, user-friendly, and designed to streamline client communication. Enhance your workflow and improve responsiveness today!"
+                    }
+                ]
+            },
+            {
+                "name": "Membership",
+                "slug": "membership",
+                "templates": [
+                    {
+                        "title": "Gym membership form template",
+                        "slug": "3dwvbcbf",
+                        "template_slug": "gym-membership-form-template",
+                        "template_title": "Gym membership form template",
+                        "template_image": "https://files.youform.com/templates/24e05d40-fea6-4dc0-bff6-3c820ec07b7c.png",
+                        "template_description": "This easy-to-use Gym Membership Form Template helps you quickly register new members and streamline your gym's sign-up process. Customizable, mobile-friendly, and designed to keep your fitness community growing!"
+                    },
+                    {
+                        "title": "Membership cancellation form template",
+                        "slug": "hykbu49x",
+                        "template_slug": "membership-cancellation-form-template",
+                        "template_title": "Membership cancellation form template",
+                        "template_image": "https://files.youform.com/templates/d4b4e442-49f5-4ceb-9d76-cc5fe835951d.png",
+                        "template_description": "Effortlessly manage membership cancellations with our customizable template. Simplify the process, ensure accuracy, and maintain a professional approach. Perfect for any organization looking to streamline member offboarding."
+                    }
+                ]
+            },
+            {
+                "name": "Report",
+                "slug": "report",
+                "templates": [
+                    {
+                        "title": "Online activity log template",
+                        "slug": "urpknmll",
+                        "template_slug": "online-activity-log-template",
+                        "template_title": "Online activity log template",
+                        "template_image": "https://files.youform.com/templates/6cf8bf85-7ff5-49aa-99b5-b0ae92757cd2.png",
+                        "template_description": "This Online Activity Log Template helps you effortlessly track and record your digital activities, ensuring seamless organization and productivity monitoring, with easy customization and intuitive design. Perfect for personal and professional use."
+                    }
+                ]
+            },
+            {
+                "name": "Order",
+                "slug": "order",
+                "templates": [
+                    {
+                        "title": "Service order form template",
+                        "slug": "v3k2bz7e",
+                        "template_slug": "service-order-form-template",
+                        "template_title": "Service order form template",
+                        "template_image": "https://files.youform.com/templates/496556b4-ac44-42f0-bde8-19da1f2ac1be.png",
+                        "template_description": "Streamline your service requests with our easy-to-use Service Order Form Template. Customize, fill, and submit forms swiftly to enhance efficiency and client satisfaction. Perfect for any business model."
+                    },
+                    {
+                        "title": "Catering order form template",
+                        "slug": "avyauh0f",
+                        "template_slug": "catering-order-form-template",
+                        "template_title": "Catering order form template",
+                        "template_image": "https://files.youform.com/templates/8976c890-1f96-4954-abb5-5267ea6d734e.png",
+                        "template_description": "Explore our streamlined Catering Order Form template designed to simplify event planning! Customize easily to incorporate your menu options and gather client preferences efficiently for seamless catering service."
+                    },
+                    {
+                        "title": "Photography order form template",
+                        "slug": "cnuc7fve",
+                        "template_slug": "photography-order-form-template",
+                        "template_title": "Photography order form template",
+                        "template_image": "https://files.youform.com/templates/e3a63f83-40e7-467e-8090-97feab672ed2.png",
+                        "template_description": "Elevate your photography business with our intuitive order form template. Streamline bookings, manage client requests, and customize with ease to suit your style and services. Try it now and focus more on capturing stunning shots!"
+                    }
+                ]
+            },
+            {
+                "name": "Job application",
+                "slug": "job-application",
+                "templates": [
+                    {
+                        "title": "Model application form template",
+                        "slug": "fihbse3a",
+                        "template_slug": "model-application-form-template",
+                        "template_title": "Model application form template",
+                        "template_image": "https://files.youform.com/templates/87960443-84e6-4382-a08b-b34cba6c2132.png",
+                        "template_description": "This model application form template provides an easy-to-use, customizable interface for agencies to efficiently gather essential information from aspiring models. Ideal for streamlined applicant evaluations and data collection."
+                    }
+                ]
+            },
+            {
+                "name": "File upload",
+                "slug": "file-upload",
+                "templates": [
+                    {
+                        "title": "Music submission form template",
+                        "slug": "etemp37b",
+                        "template_slug": "music-submission-form-template",
+                        "template_title": "Music submission form template",
+                        "template_image": "https://files.youform.com/templates/11c7d252-a881-4c9c-80c2-b823ef43773c.png",
+                        "template_description": "This music submission form template is designed for artists to easily submit their tracks. Customize fields to gather necessary artist information, managing submissions efficiently in one place. Ideal for labels and contests."
+                    },
+                    {
+                        "title": "Photo contest entry form",
+                        "slug": "xftnj4ec",
+                        "template_slug": "photo-contest-entry-form",
+                        "template_title": "Photo contest entry form",
+                        "template_image": "https://files.youform.com/templates/c881bbcb-acd1-4b31-8010-b02f89b8c6df.png",
+                        "template_description": "\"Enter our captivating photo contest for a chance to shine and win exciting prizes! Simply fill out the form, upload your masterpiece, and submit. Let your creativity flow and capture the extraordinary!\""
+                    },
+                    {
+                        "title": "Project submission form template",
+                        "slug": "7atmizo5",
+                        "template_slug": "project-submission-form-template",
+                        "template_title": "Project submission form template",
+                        "template_image": "https://files.youform.com/templates/8a5d07a3-72a9-4d57-b6ab-ee883b0209e9.png",
+                        "template_description": "Maximize project efficiency with our Project Submission Form Template. Streamline submissions, gather essential details, and manage entries effortlessly, all in one place. Customize to fit any project requirement."
+                    }
+                ]
+            }
+        ]
+    },
+    "surveys": {
+        "title": "Survey Templates",
+        "type": "surveys",
+        "type_slug": "surveys",
+        "categories": [
+            {
+                "name": "Marketing",
+                "slug": "marketing",
+                "templates": [
+                    {
+                        "title": "Brand perception survey template",
+                        "slug": "35yt0rmm",
+                        "template_slug": "brand-perception-survey-template",
+                        "template_title": "Brand perception survey template",
+                        "template_image": "https://files.youform.com/templates/7a2a9459-3a98-482e-9832-6976e82cbb26.png",
+                        "template_description": "Our Brand Perception Survey Template lets you gather insightful feedback on your brand's positioning, image, and reach effectively. It's customizable, user-friendly, and ideal for optimizing your marketing strategies."
+                    },
+                    {
+                        "title": "Brand personality survey template",
+                        "slug": "mwjgjyh8",
+                        "template_slug": "brand-personality-survey-template",
+                        "template_title": "Brand personality survey template",
+                        "template_image": "https://files.youform.com/templates/142ebbb0-ce3b-4c5d-9b70-6fab30edec39.png",
+                        "template_description": "Uncover your brand's unique personality with our user-friendly survey template. Quickly gather valuable insights to align your branding strategies and enhance market appeal. Ideal for businesses aiming to connect deeply with their audience."
+                    },
+                    {
+                        "title": "Business impact survey template",
+                        "slug": "bomflljt",
+                        "template_slug": "business-impact-survey-template",
+                        "template_title": "Business impact survey template",
+                        "template_image": "https://files.youform.com/templates/7b4a7acb-90ee-48d6-bd28-df9e1134ae12.png",
+                        "template_description": "Discover insights that drive business success with our Business Impact Survey Template. Quickly assess, analyze, and act on critical feedback from your stakeholders to enhance your strategies and operations."
+                    }
+                ]
+            },
+            {
+                "name": "Event",
+                "slug": "event",
+                "templates": [
+                    {
+                        "title": "Event questionnaire template",
+                        "slug": "ijpw0yza",
+                        "template_slug": "event-questionnaire-template",
+                        "template_title": "Event questionnaire template",
+                        "template_image": "https://files.youform.com/templates/bf77a157-bae1-43b5-8ca1-b3af42332f0c.png",
+                        "template_description": "This Event Questionnaire Template helps you efficiently gather essential information to plan successful events. Customize it to fit any type, size, or theme for seamless event coordination!"
+                    },
+                    {
+                        "title": "Event evaluation survey template",
+                        "slug": "qeazu6wx",
+                        "template_slug": "event-evaluation-survey-template",
+                        "template_title": "Event evaluation survey template",
+                        "template_image": "https://files.youform.com/templates/f7aafde1-f3d7-499d-b3bd-c714b70d2a1b.png",
+                        "template_description": "This Event Evaluation Survey Template is designed to gather feedback from attendees effortlessly. Use it to measure satisfaction, gain insights, and identify areas for improvement to make your future events a resounding success."
+                    },
+                    {
+                        "title": "Event planning survey template",
+                        "slug": "1azv4ckt",
+                        "template_slug": "event-planning-survey-template",
+                        "template_title": "Event planning survey template",
+                        "template_image": "https://files.youform.com/templates/40cd57a2-94c8-4110-9548-867bb67eae1c.png",
+                        "template_description": "This Event Planning Survey Template is designed to gather feedback and preferences from attendees, ensuring your next event is perfectly tailored and executed. Optimize logistics, themes, and overall satisfaction seamlessly!"
+                    }
+                ]
+            },
+            {
+                "name": "Business",
+                "slug": "business",
+                "templates": [
+                    {
+                        "title": "Gym satisfaction survey template",
+                        "slug": "idvzsit3",
+                        "template_slug": "gym-satisfaction-survey-template",
+                        "template_title": "Gym satisfaction survey template",
+                        "template_image": "https://files.youform.com/templates/565b139a-6508-45a1-94c8-1ec7f0f774a7.png",
+                        "template_description": "This Gym Satisfaction Survey template is designed to gather feedback from gym members about their experience, facilities, and services, helping you enhance overall satisfaction and retention. Customize and deploy quickly to get actionable insights!"
+                    },
+                    {
+                        "title": "Price sensitivity survey template",
+                        "slug": "wspzjy1c",
+                        "template_slug": "price-sensitivity-survey-template",
+                        "template_title": "Price sensitivity survey template",
+                        "template_image": "https://files.youform.com/templates/9122896c-3b0a-45a1-acfa-a34ee28e078d.png",
+                        "template_description": "Maximize your pricing strategy with our Price Sensitivity Survey Template. Gather critical consumer insights to determine the optimal price point and enhance profitability. Quick, efficient, and ready to deploy!"
+                    },
+                    {
+                        "title": "Restaurant feedback survey template",
+                        "slug": "glc8aphq",
+                        "template_slug": "restaurant-feedback-survey-template",
+                        "template_title": "Restaurant feedback survey template",
+                        "template_image": "https://files.youform.com/templates/285e19c6-bc4b-480c-891b-ac7daf76b44b.png",
+                        "template_description": "Gather valuable guest insights with our Restaurant Feedback Survey Template. Customize questions to evaluate service, food quality, and overall dining experience to enhance customer satisfaction and drive improvements."
+                    }
+                ]
+            },
+            {
+                "name": "Customer success",
+                "slug": "customer-success",
+                "templates": [
+                    {
+                        "title": "Net promoter score (NPS) survey template",
+                        "slug": "7re26vhs",
+                        "template_slug": "net-promoter-scorea-nps-survey-template",
+                        "template_title": "Net promoter score (NPS) survey template",
+                        "template_image": "https://files.youform.com/templates/cf78c79d-23c6-4a3c-bffa-fb8b540b5d08.png",
+                        "template_description": "Elevate customer loyalty and growth with our Net Promoter Score® (NPS) survey template. Quickly gauge client satisfaction, capture feedback, and identify promoters or detractors to enhance your business strategies."
+                    },
+                    {
+                        "title": "Customer development survey template",
+                        "slug": "myqcbhll",
+                        "template_slug": "customer-development-survey-template",
+                        "template_title": "Customer development survey template",
+                        "template_image": "https://files.youform.com/templates/1596f3e5-a6c1-4c8c-8213-f4223b967ac9.png",
+                        "template_description": "This Customer Development Survey Template is expertly designed to help you understand your clients' needs and preferences, enabling you to refine products and services for enhanced customer satisfaction and business growth."
+                    },
+                    {
+                        "title": "Customer loyalty survey template",
+                        "slug": "acnbwcds",
+                        "template_slug": "customer-loyalty-survey-template",
+                        "template_title": "Customer loyalty survey template",
+                        "template_image": "https://files.youform.com/templates/afe6b3b2-7df3-4674-b643-a2b62726fa24.png",
+                        "template_description": "Easily gauge customer satisfaction and loyalty with our intuitive survey template. Collect valuable feedback to enhance your services and reinforce customer relationships effortlessly. Start building a loyal customer base today!"
+                    }
+                ]
+            },
+            {
+                "name": "Customer satisfaction",
+                "slug": "customer-satisfaction",
+                "templates": [
+                    {
+                        "title": "Website questionnaire template",
+                        "slug": "i3h3xdno",
+                        "template_slug": "website-questionnaire-template",
+                        "template_title": "Website questionnaire template",
+                        "template_image": "https://files.youform.com/templates/61517ec3-d719-48a0-b15f-52051c4bcba3.png",
+                        "template_description": "Streamline your web design process with our customizable Website Questionnaire Template. Gather client insights efficiently to tailor your projects precisely. Start building better websites today!"
+                    },
+                    {
+                        "title": "(CES) customer effort score survey template",
+                        "slug": "1abxxyb1",
+                        "template_slug": "ces-customer-effort-score-survey-template",
+                        "template_title": "(CES) customer effort score survey template",
+                        "template_image": "https://files.youform.com/templates/96373ac6-21c8-405a-9063-74d2807008b3.png",
+                        "template_description": "Effortlessly measure customer satisfaction with our CES Survey Template. Quickly gauge how easy it is for customers to interact with your service, helping you enhance user experience and retain loyalty."
+                    },
+                    {
+                        "title": "Customer service satisfaction survey template",
+                        "slug": "09hlk1zu",
+                        "template_slug": "customer-service-satisfaction-survey-template",
+                        "template_title": "Customer service satisfaction survey template",
+                        "template_image": "https://files.youform.com/templates/073a2ce1-8751-4d34-ab06-99faa303abd8.png",
+                        "template_description": "Boost customer retention with our Customer Service Satisfaction Survey Template. Quickly gather feedback, identify areas for improvement, and enhance your service quality to exceed expectations. Start optimizing your customer support now!"
+                    }
+                ]
+            },
+            {
+                "name": "Feedback",
+                "slug": "feedback",
+                "templates": [
+                    {
+                        "title": "Branding questionnaire template",
+                        "slug": "ib7qmbrq",
+                        "template_slug": "branding-questionnaire-template",
+                        "template_title": "Branding questionnaire template",
+                        "template_image": "https://files.youform.com/templates/f4863a05-21a5-486a-bf6d-3f111552bb4c.png",
+                        "template_description": "Discover the key to effective branding with our comprehensive questionnaire template. Designed to help you capture essential brand insights quickly and efficiently, ensuring your brand communicates its unique value seamlessly."
+                    },
+                    {
+                        "title": "Cancellation survey template",
+                        "slug": "ayi2wxdm",
+                        "template_slug": "cancellation-survey-template",
+                        "template_title": "Cancellation survey template",
+                        "template_image": "https://files.youform.com/templates/1f1976e5-2276-487b-bdd1-7293318c3b07.png",
+                        "template_description": "Easily gather feedback from customers who cancel your service with our Cancellation Survey Template. Optimize your offerings by understanding their reasons for leaving and areas for improvement."
+                    },
+                    {
+                        "title": "Customer success story questionnaire template",
+                        "slug": "ogreoofx",
+                        "template_slug": "customer-success-story-questionnaire-template",
+                        "template_title": "Customer success story questionnaire template",
+                        "template_image": "https://files.youform.com/templates/cce7190b-f21e-4313-8b7b-77f9416f4fd0.png",
+                        "template_description": "Discover invaluable insights with our Customer Success Story Questionnaire Template. Tailor your approach, capture compelling testimonials and drive better business outcomes effectively. Perfect for understanding client journeys and celebrating their successes."
+                    }
+                ]
+            },
+            {
+                "name": "Other",
+                "slug": "other",
+                "templates": [
+                    {
+                        "title": "Commuting survey template",
+                        "slug": "o03iax78",
+                        "template_slug": "commuting-survey-template",
+                        "template_title": "Commuting survey template",
+                        "template_image": "https://files.youform.com/templates/185f01a8-005e-46bf-88e5-dd64d234050c.png",
+                        "template_description": "Gather essential insights on commuting experiences with our expert-designed survey template. Quickly assess satisfaction, modes of transport, and areas for improvement to enhance daily commutes effectively. Optimize and streamline your transport strategies now!"
+                    },
+                    {
+                        "title": "Market research survey template",
+                        "slug": "jc13g9as",
+                        "template_slug": "market-research-survey-template",
+                        "template_title": "Market research survey template",
+                        "template_image": "https://files.youform.com/templates/70cc00b8-7e36-4ec3-ba05-a948f429d900.png",
+                        "template_description": "Optimize your market strategy with our customizable Market Research Survey Template. Gain valuable insights, identify customer preferences, and drive your business decisions effectively. Start gathering actionable data today!"
+                    },
+                    {
+                        "title": "Product research survey template",
+                        "slug": "hvl4avuy",
+                        "template_slug": "product-research-survey-template",
+                        "template_title": "Product research survey template",
+                        "template_image": "https://files.youform.com/templates/b0831809-5f24-4efc-97cd-9609c192dad6.png",
+                        "template_description": "This Product Research Survey Template is expertly designed to gather feedback on potential products. Tailor questions to uncover valuable consumer insights, guiding your product development with precision."
+                    }
+                ]
+            },
+            {
+                "name": "Market research",
+                "slug": "market-research",
+                "templates": [
+                    {
+                        "title": "Competitor research survey template",
+                        "slug": "7zlm9viy",
+                        "template_slug": "competitor-research-survey-template",
+                        "template_title": "Competitor research survey template",
+                        "template_image": "https://files.youform.com/templates/a0b14e7f-a373-4ef5-bf14-abd9a272e640.png",
+                        "template_description": "Efficiently assess your competitive landscape with our Competitor Research Survey Template. Gather insights on market trends, analyze competitor strategies, and refine your business approach to stay ahead. Perfect for businesses seeking a competitive edge."
+                    },
+                    {
+                        "title": "Personality questionnaire template",
+                        "slug": "67wimx2u",
+                        "template_slug": "personality-questionnaire-template",
+                        "template_title": "Personality questionnaire template",
+                        "template_image": "https://files.youform.com/templates/f5d02638-a2dd-44ce-b298-61f4601f2dc2.png",
+                        "template_description": "Explore our Personality Questionnaire Template to gain insights into individual traits and preferences. Customize easily for efficient personality assessments, ideal for HR, coaching, and personal development. Get started now to uncover valuable personal insights!"
+                    },
+                    {
+                        "title": "Diet survey template",
+                        "slug": "gdqmnddc",
+                        "template_slug": "diet-survey-template",
+                        "template_title": "Diet survey template",
+                        "template_image": "https://files.youform.com/templates/d95b11fe-689d-4b6b-9c13-8654c711ac3e.png",
+                        "template_description": "Explore our Diet Survey Template to gain insights into eating habits and nutritional awareness. Easily customize questions, collect valuable data, and promote healthier choices. Perfect for nutritionists, dietitians, and health organizations."
+                    }
+                ]
+            },
+            {
+                "name": "Evaluation",
+                "slug": "evaluation",
+                "templates": [
+                    {
+                        "title": "Manager effectiveness survey template",
+                        "slug": "ze8wuo55",
+                        "template_slug": "manager-effectiveness-survey-template",
+                        "template_title": "Manager effectiveness survey template",
+                        "template_image": "https://files.youform.com/templates/db37ed05-0e60-4b57-96d6-bd4c1c852b5b.png",
+                        "template_description": "Enhance managerial performance with our Manager Effectiveness Survey Template. Get actionable insights, identify strengths, and pinpoint areas for improvement to boost team productivity and morale. Easy to implement and customize."
+                    }
+                ]
+            },
+            {
+                "name": "Product",
+                "slug": "product",
+                "templates": [
+                    {
+                        "title": "Concept testing survey template",
+                        "slug": "6hjfkotd",
+                        "template_slug": "concept-testing-survey-template",
+                        "template_title": "Concept testing survey template",
+                        "template_image": "https://files.youform.com/templates/b88b390c-92b2-49b7-b0c3-84e325e899df.png",
+                        "template_description": "Our Concept Testing Survey Template empowers you to validate ideas before launch. Gather actionable feedback, refine your concepts, and launch with confidence. Easy to customize and deploy!"
+                    },
+                    {
+                        "title": "Focus group survey template",
+                        "slug": "egd8nejo",
+                        "template_slug": "focus-group-survey-template",
+                        "template_title": "Focus group survey template",
+                        "template_image": "https://files.youform.com/templates/1b3687da-a12f-4ff6-9094-257d4cb53cd9.png",
+                        "template_description": "\"Facilitate productive focus group discussions with our expertly designed survey template. Gather valuable insights and actionable feedback efficiently, perfect for market research and user experience enhancement.\""
+                    },
+                    {
+                        "title": "New product survey template",
+                        "slug": "33x2paoo",
+                        "template_slug": "new-product-survey-template",
+                        "template_title": "New product survey template",
+                        "template_image": "https://files.youform.com/templates/6165c859-6879-4f96-9cb9-bfaf9efcf021.png",
+                        "template_description": "Unlock customer insights with our New Product Survey Template! Quickly gather targeted feedback to optimize your product and enhance market strategies. Easy customization, instant deployment. Start engaging with your audience effectively today!"
+                    }
+                ]
+            },
+            {
+                "name": "School",
+                "slug": "school",
+                "templates": [
+                    {
+                        "title": "Student demographics survey template",
+                        "slug": "884nrxz8",
+                        "template_slug": "student-demographics-survey-template",
+                        "template_title": "Student demographics survey template",
+                        "template_image": "https://files.youform.com/templates/c7cc815a-5110-430b-b426-deedc3731aef.png",
+                        "template_description": "This customizable Student Demographics Survey Template helps educators gather essential information about students' backgrounds, ensuring tailored support and enhanced educational strategies. Easy to use and essential for data-driven decisions."
+                    },
+                    {
+                        "title": "Student mental health check-in survey template",
+                        "slug": "q8zv9idy",
+                        "template_slug": "student-mental-health-check-in-survey-template",
+                        "template_title": "Student mental health check-in survey template",
+                        "template_image": "https://files.youform.com/templates/0121e7d6-283c-47d7-8a91-ae1b95145d0f.png",
+                        "template_description": "This customizable template helps educators efficiently gather insights into students’ mental well-being, promoting a supportive learning environment. Create and analyze surveys to enhance student support and mental health resources."
+                    },
+                    {
+                        "title": "School climate survey template",
+                        "slug": "lqmp0guq",
+                        "template_slug": "school-climate-survey-template",
+                        "template_title": "School climate survey template",
+                        "template_image": "https://files.youform.com/templates/09cd82d5-1779-4884-81ce-c86e4fb6d2d9.png",
+                        "template_description": "Easily assess the overall environment of your school with our School Climate Survey Template. Gather crucial feedback on safety, teaching, and facility conditions to enhance student and staff wellbeing for a thriving educational atmosphere."
+                    }
+                ]
+            },
+            {
+                "name": "Employee satisfaction",
+                "slug": "employee-satisfaction",
+                "templates": [
+                    {
+                        "title": "Company satisfaction survey template",
+                        "slug": "xmeb9dwm",
+                        "template_slug": "company-satisfaction-survey-template",
+                        "template_title": "Company satisfaction survey template",
+                        "template_image": "https://files.youform.com/templates/6d8b66e5-4b87-4324-9190-3fad0953e722.png",
+                        "template_description": "Unlock valuable insights with our Company Satisfaction Survey Template. Easily measure employee satisfaction and identify areas for improvement to boost morale and productivity. Tailored, efficient, and ready to deploy."
+                    },
+                    {
+                        "title": "Employee on-boarding survey template",
+                        "slug": "qy6cnoj2",
+                        "template_slug": "employee-on-boarding-survey-template",
+                        "template_title": "Employee on-boarding survey template",
+                        "template_image": "https://files.youform.com/templates/342fa2a5-4d25-4a97-b7f7-bdbed932b6ba.png",
+                        "template_description": "Empower your new hires with our Employee Onboarding Survey Template. Gather feedback efficiently to refine the onboarding process, ensuring a smooth and welcoming experience for every new team member."
+                    },
+                    {
+                        "title": "IT satisfaction survey template",
+                        "slug": "gaarpyc3",
+                        "template_slug": "it-satisfaction-survey-template",
+                        "template_title": "IT satisfaction survey template",
+                        "template_image": "https://files.youform.com/templates/a85d3bba-0700-4268-8161-e4b3c8dcdda0.png",
+                        "template_description": "Explore our IT Satisfaction Survey Template to effortlessly gather feedback on your tech support's performance. Quick to customize, easy to analyze, ensuring your IT services meet user expectations. Optimize your tech support now!"
+                    }
+                ]
+            },
+            {
+                "name": "Healthcare",
+                "slug": "healthcare",
+                "templates": [
+                    {
+                        "title": "Healthcare employee satisfaction survey template",
+                        "slug": "3vtsnvpi",
+                        "template_slug": "healthcare-employee-satisfaction-survey-template",
+                        "template_title": "Healthcare employee satisfaction survey template",
+                        "template_image": "https://files.youform.com/templates/a5b07bb9-e9b8-4c12-97c4-1138d9110b5e.png",
+                        "template_description": "Discover our specialized Healthcare Employee Satisfaction Survey Template, designed to gauge morale, workplace conditions, and overall satisfaction within your healthcare organization, ensuring actionable insights for enhanced staff well-being and productivity."
+                    }
+                ]
+            }
+        ]
+    },
+    "quizzes": {
+        "title": "Quiz Templates",
+        "type": "quizzes",
+        "type_slug": "quizzes",
+        "categories": [
+            {
+                "name": "Marketing",
+                "slug": "marketing",
+                "templates": [
+                    {
+                        "title": "Digital marketing quiz template",
+                        "slug": "nqbrbhyi",
+                        "template_slug": "digital-marketing-quiz-template",
+                        "template_title": "Digital marketing quiz template",
+                        "template_image": "https://files.youform.com/templates/adc8fcd2-a50b-4554-b6f4-5615044c9303.png",
+                        "template_description": "Engage your audience with our Digital Marketing Quiz Template! Crafted to test knowledge and boost interaction, this template makes learning about digital marketing fun and interactive. Perfect for educational platforms and marketing trainers!"
+                    },
+                    {
+                        "title": "Advertising quiz template",
+                        "slug": "wktjavua",
+                        "template_slug": "advertising-quiz-template",
+                        "template_title": "Advertising quiz template",
+                        "template_image": "https://files.youform.com/templates/a9f33d2d-40a5-478f-b058-42615d8770ad.png",
+                        "template_description": "Engage your audience with our customizable Advertising Quiz Template. Designed for marketers, this interactive quiz helps assess knowledge, gain insights, and enhance engagement effectively. Perfect for campaigns and learning modules."
+                    },
+                    {
+                        "title": "Billionaire quiz template",
+                        "slug": "8tlhqf1z",
+                        "template_slug": "billionaire-quiz-template",
+                        "template_title": "Billionaire quiz template",
+                        "template_image": "https://files.youform.com/templates/354eb8f9-bb2b-46c5-8ba7-e085c1f03122.png",
+                        "template_description": "Engage your audience with our Billionaire Quiz Template! Crafted for fun and education, this interactive tool lets you test knowledge and compete with others, embodying the thrill of becoming a quiz billionaire!"
+                    }
+                ]
+            },
+            {
+                "name": "Lead generation",
+                "slug": "lead-generation",
+                "templates": [
+                    {
+                        "title": "Facebook lead generation template",
+                        "slug": "fvlgmati",
+                        "template_slug": "facebook-lead-generation-template",
+                        "template_title": "Facebook lead generation template",
+                        "template_image": "https://files.youform.com/templates/44762358-b792-43d4-8967-c3f82203b8e4.png",
+                        "template_description": "Optimize your Facebook lead generation with our customizable template. Designed for effectiveness, it features intuitive forms, engaging layouts, and strategic CTAs to boost your conversion rates effortlessly. Perfect for any business aiming to grow their customer base."
+                    },
+                    {
+                        "title": "Multiple choice quiz template",
+                        "slug": "i0uefqcv",
+                        "template_slug": "multiple-choice-quiz-template",
+                        "template_title": "Multiple choice quiz template",
+                        "template_image": "https://files.youform.com/templates/4dccbb4f-7679-4fb6-9a1e-e71d5695a6cb.png",
+                        "template_description": "\"Engage your audience with our customizable Multiple Choice Quiz Template. Easy to use, perfect for educational assessments, trivia games, and interactive surveys. Boost participation with instant feedback!\""
+                    },
+                    {
+                        "title": "Personality quiz template",
+                        "slug": "emqobpz5",
+                        "template_slug": "personality-quiz-template",
+                        "template_title": "Personality quiz template",
+                        "template_image": "https://files.youform.com/templates/88b270ca-fe43-40a0-bb39-3780d051e351.png",
+                        "template_description": "Discover your true self with our interactive Personality Quiz Template! Engage, answer intriguing questions, and unveil personalized insights about your character. Start your journey to self-discovery now!"
+                    }
+                ]
+            },
+            {
+                "name": "Popular",
+                "slug": "popular",
+                "templates": [
+                    {
+                        "title": "Trivia quiz template",
+                        "slug": "dqawcvhk",
+                        "template_slug": "trivia-quiz-template",
+                        "template_title": "Trivia quiz template",
+                        "template_image": "https://files.youform.com/templates/208ffb08-d93b-4a62-b349-cef80c2eeabc.png",
+                        "template_description": "Engage and entertain your audience with our Trivia Quiz template. Perfect for educational assessments or fun competitions, easily customizable to suit any topic or event. Boost interaction and learning effortlessly!"
+                    },
+                    {
+                        "title": "Quick-start personality quiz template",
+                        "slug": "qd4zll1c",
+                        "template_slug": "quick-start-personality-quiz-template",
+                        "template_title": "Quick-start personality quiz template",
+                        "template_image": "https://files.youform.com/templates/20bb3f99-63f4-450f-a62d-26e40d06140a.png",
+                        "template_description": "Easily engage visitors with our Quick-start Personality Quiz Template. Customize questions to align with your brand, analyze responses in real-time, and boost interaction on your site. Get started now to create meaningful connections!"
+                    },
+                    {
+                        "title": "Social media quiz template",
+                        "slug": "3wkmrjbu",
+                        "template_slug": "social-media-quiz-template",
+                        "template_title": "Social media quiz template",
+                        "template_image": "https://files.youform.com/templates/471b4bcc-806f-4618-a46f-e05fccbc9a9f.png",
+                        "template_description": "Engage your audience with our customizable Social Media Quiz Template! Perfect for boosting interaction, gathering insights, and increasing followers. Easy to use, fun, and interactive for any platform. Get started now!"
+                    }
+                ]
+            },
+            {
+                "name": "Product recommendation",
+                "slug": "product-recommendation",
+                "templates": [
+                    {
+                        "title": "3D scanner recommendation quiz template",
+                        "slug": "ugnapdq6",
+                        "template_slug": "3d-scanner-recommendation-quiz-template",
+                        "template_title": "3D scanner recommendation quiz template",
+                        "template_image": "https://files.youform.com/templates/f0e2d8f0-a8cc-493b-a9ce-5a7ed4ebf518.png",
+                        "template_description": "Engage and guide customers with our interactive 3D Scanner Recommendation Quiz Template. Quickly assess needs and preferences to recommend the perfect 3D scanner, enhancing user experience and decision-making."
+                    },
+                    {
+                        "title": "Acrylic nail recommendation quiz template",
+                        "slug": "8btrozky",
+                        "template_slug": "acrylic-nail-recommendation-quiz-template",
+                        "template_title": "Acrylic nail recommendation quiz template",
+                        "template_image": "https://files.youform.com/templates/8b52e156-fa00-46f6-acb7-26b9693d7956.png",
+                        "template_description": "Discover your perfect acrylic nail style! Take our quick quiz on the Acrylic Nail Recommendation Template to find designs and tips tailored just for you. Click to start your personalized nail art journey!"
+                    },
+                    {
+                        "title": "Bedding recommendation quiz template",
+                        "slug": "yjggdgww",
+                        "template_slug": "bedding-recommendation-quiz-template",
+                        "template_title": "Bedding recommendation quiz template",
+                        "template_image": "https://files.youform.com/templates/85f3cd76-9185-4f03-9540-30d3a0472b9c.png",
+                        "template_description": "Discover your perfect sleep setup with our Bedding Recommendation Quiz! Answer a few quick questions and get personalized bedding suggestions tailored just for you. Transform your sleep experience today!"
+                    }
+                ]
+            }
+        ]
+    }
+}
