@@ -65,7 +65,8 @@ class GenerateSitemap
                 if ($path !== '' && $path !== '/' && !str_ends_with($url, '/')) {
                     $url .= '/';
                 }
-                $sitemap->addItem($url, $this->resolveLastmod($path, $sourceRoot), Sitemap::DAILY);
+                // Omit changefreq/priority: Google ignores both. Rely on honest lastmod instead.
+                $sitemap->addItem($url, $this->resolveLastmod($path, $sourceRoot));
         });
 
         $sitemap->write();
