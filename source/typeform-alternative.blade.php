@@ -27,6 +27,9 @@ image: "https://youform.com/assets/images/typeform-alternative-og.png"
                     <p class="text-center lg:text-left text-base mt-6 max-w-3xl">
                         Typeform charges $39/month for just 100 responses. Youform gives you UNLIMITED forms and responses for FREE. Same beautiful multi-step forms, none of the limits.
                     </p>
+                    <p class="text-center lg:text-left text-sm mt-3 text-gray-600 max-w-3xl">
+                        Comparing other tools too? See our <a href="/jotform-alternative/" class="underline hover:text-black font-medium">Jotform alternative</a> breakdown.
+                    </p>
                     <div class="lg:flex lg:items-center space-x-6 mt-10 text-center">
                         <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                             Create free account

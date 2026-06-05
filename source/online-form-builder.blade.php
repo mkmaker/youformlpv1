@@ -27,6 +27,9 @@ description: Create beautiful forms for free with Youform's drag-and-drop builde
                     <p class="text-base mt-6 max-w-3xl mx-auto">
                         Build beautiful forms online without coding. Our free online form generator helps you create unlimited forms with drag-and-drop simplicity. No HTML knowledge required!
                     </p>
+                    <p class="text-sm mt-3 text-gray-600 max-w-3xl mx-auto">
+                        Switching from another tool? Youform is also a popular free <a href="/jotform-alternative/" class="underline hover:text-black font-medium">Jotform alternative</a>.
+                    </p>
                     <div class="mt-10">
                         <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                             <span class="hidden md:inline">
