@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "purpose": "Marketing build queue: keyword targets to BUILD or REFRESH, with competitor (SurveyHero) gap intel. Read by the next-page / landing-page skills when you say 'build' or 'next page'. NOT read by Jigsaw at build time (config.php only loads template-overrides.json + api/* from this dir), and the _data dir is not published to the live site.",
+    "source": "Survey-cluster SERP gap analysis vs SurveyHero, imported 2026-06-06.",
+    "schema": {
+      "youform_position": "current rank, or null = not ranking yet",
+      "surveyhero_position": "where SurveyHero ranks for the same term (the gap we're closing)",
+      "action": "build = net-new page | refresh = improve an existing page | fold = merge into a cluster page",
+      "format": "landing-page | free-tool | listicle | template | blog",
+      "target_exists": "true if target_page already has a source/ file",
+      "status": "todo | in_progress | done"
+    },
+    "excluded": "Striking-distance rows 'survey builder' (#2, pos 23) and 'create online survey' (#3, pos 37) are NOT here — both target /online-survey-builder/ and are already tracked live in .claude/skills/striking-distance/ledger.json. Do not duplicate them; the striking-distance skill regenerates them from live GSC data."
+  },
+  "clusters": [
+    {
+      "cluster": "qualtrics-alternative",
+      "target_page": "/qualtrics-alternative/",
+      "target_exists": false,
+      "format": "landing-page",
+      "action": "build",
+      "track": "Commercial",
+      "status": "built-pending-assets",
+      "built_date": "2026-06-10",
+      "pending": "User must drop 5 review screenshots into source/assets/images/ (see filenames in research brief). Then review + deploy. Research: source/_data/qualtrics-alternative-research.md",
+      "metrics_verified": "2026-06-10 via Ahrefs keywords-explorer-overview (us)",
+      "note": "HIGHEST-INTENT WINNABLE GAP. We have Typeform/Jotform/SurveyMonkey/Tally/Fillout/Google-Forms alternative pages but NOT Qualtrics (the enterprise survey leader). Commercial intent, $16 CPC = enterprise buyers. Low volume but high value/conversion. Use the existing competitor-alternative template (source/typeform-alternative.blade.php pattern). Note 'surveyhero alternative' has ~0 volume — do NOT build that.",
+      "keywords": [
+        { "keyword": "qualtrics alternative", "priority": 0, "volume_us": 150, "kd": 4, "global_volume": 500, "traffic_potential": 350, "cpc_usd": 16.0, "parent_topic": "qualtrics alternatives", "youform_position": null, "intent": "commercial" }
+      ]
+    },
+    {
+      "cluster": "qr",
+      "target_page": "/free-tools/google-form-qr-code/",
+      "target_exists": true,
+      "format": "free-tool",
+      "action": "refresh",
+      "track": "Fastest",
+      "status": "todo",
+      "note": "Extend the existing QR free-tool to capture 'qr code survey', or spin a dedicated /qr-code-survey/ if the QR page stays Google-Forms-scoped.",
+      "keywords": [
+        { "keyword": "qr code survey", "priority": 1, "volume_us": 450, "kd": 17, "youform_position": null, "surveyhero_position": 5, "intent": "informational" }
+      ]
+    },
+    {
+      "cluster": "anonymous",
+      "target_page": "/anonymous-survey/",
+      "target_exists": true,
+      "format": "landing-page",
+      "action": "refresh",
+      "track": "Quick win",
+      "status": "maturing",
+      "refresh_not_before": "2026-07-02",
+      "note": "Page shipped 2026-06-04 (commit c8173ea90) — TOO NEW to refresh. Let it mature ~28d before judging whether the sibling terms need folding in. Do not surface as a build/refresh candidate before refresh_not_before.",
+      "keywords": [
+        { "keyword": "anonymous survey", "priority": 4, "volume_us": 1200, "kd": 9, "youform_position": null, "surveyhero_position": 3, "intent": "informational" },
+        { "keyword": "anonymous feedback form", "priority": 5, "volume_us": 1100, "kd": 2, "youform_position": null, "surveyhero_position": 6, "intent": "informational" },
+        { "keyword": "how to create an anonymous survey", "priority": 6, "volume_us": 350, "kd": 1, "youform_position": null, "surveyhero_position": 3, "intent": "informational" },
+        { "keyword": "anonymous surveys", "priority": 7, "volume_us": 200, "kd": 2, "youform_position": null, "surveyhero_position": 1, "intent": "informational" },
+        { "keyword": "create anonymous survey", "priority": 8, "volume_us": 200, "kd": 57, "youform_position": null, "surveyhero_position": 3, "intent": "informational" }
+      ]
+    },
+    {
+      "cluster": "examples",
+      "target_page": "/survey-examples/",
+      "target_exists": false,
+      "format": "landing-page",
+      "action": "build",
+      "track": "Quick win",
+      "status": "todo",
+      "metrics_verified": "2026-06-10 via Ahrefs keywords-explorer-overview (us)",
+      "note": "Net-new examples gallery. ANCHOR ON 'survey examples' (parent_topic, vol 2100, KD 2, TP 6800) — NOT 'sample survey'. Live Ahrefs check showed 'sample survey' is survey-SAMPLING/stats intent (parent_topic 'what is the sample of a survey', TP only 50), the wrong audience for a gallery. Keep 'sample survey' out of H1/title; at most a small 'survey sample size' aside. Fold in website/online/template example terms.",
+      "keywords": [
+        { "keyword": "survey examples", "priority": 9, "volume_us": 2100, "kd": 2, "global_volume": 4200, "traffic_potential": 6800, "parent_topic": "survey examples", "youform_position": null, "surveyhero_position": 9, "intent": "informational", "role": "anchor" },
+        { "keyword": "website survey examples", "priority": 10, "volume_us": 150, "kd": 2, "global_volume": 200, "traffic_potential": 200, "parent_topic": "website feedback survey", "youform_position": null, "surveyhero_position": 3, "intent": "informational", "role": "fold" },
+        { "keyword": "online survey examples", "priority": 10, "volume_us": 70, "kd": 1, "traffic_potential": 100, "parent_topic": "online survey sample", "youform_position": null, "surveyhero_position": null, "intent": "informational", "role": "fold" },
+        { "keyword": "survey template examples", "priority": 10, "volume_us": 50, "kd": 5, "traffic_potential": 1300, "parent_topic": "survey template", "youform_position": null, "surveyhero_position": null, "intent": "informational", "role": "fold" },
+        { "keyword": "sample survey", "priority": 11, "volume_us": 1100, "kd": 5, "global_volume": 2700, "traffic_potential": 50, "parent_topic": "what is the sample of a survey", "youform_position": null, "surveyhero_position": 9, "intent": "informational", "role": "exclude-wrong-intent" }
+      ]
+    },
+    {
+      "cluster": "templates",
+      "target_page": "/templates/...",
+      "target_exists": false,
+      "format": "template",
+      "action": "build",
+      "track": "Quick win",
+      "status": "todo",
+      "note": "Template pages are API/JSON-owned (Jigsaw collection). Do NOT hand-author Blade pages — add the page + SEO via source/_data/template-overrides.json (see [[sd-template-pages-api-owned]]). Each keyword maps to its own template slug below.",
+      "keywords": [
+        { "keyword": "tenant satisfaction survey", "priority": 11, "volume_us": 150, "kd": 1, "youform_position": null, "surveyhero_position": 2, "intent": "informational", "target_slug": "tenant-satisfaction" },
+        { "keyword": "student satisfaction survey template", "priority": 12, "volume_us": 100, "kd": 0, "youform_position": null, "surveyhero_position": 1, "intent": "informational", "target_slug": "student-satisfaction" },
+        { "keyword": "program survey questions", "priority": 13, "volume_us": 70, "kd": 0, "youform_position": null, "surveyhero_position": 2, "intent": "informational", "target_slug": "program-evaluation" }
+      ]
+    },
+    {
+      "cluster": "commercial-listicle",
+      "target_page": "/best-survey-tools/",
+      "target_exists": false,
+      "format": "listicle",
+      "action": "build",
+      "track": "Commercial",
+      "status": "todo",
+      "metrics_verified": "2026-06-10 via Ahrefs keywords-explorer-overview (us)",
+      "note": "Net-new commercial listicle. 'free survey platforms' folds in. HARD: live check shows parent_topic 'survey monkey'/'qualtrics survey' — SERP is dominated by big-brand listicles. Long ranking horizon; only build if committing to ongoing link-building.",
+      "keywords": [
+        { "keyword": "survey tools", "priority": 14, "volume_us": 2200, "kd": 59, "global_volume": 4900, "traffic_potential": 121000, "parent_topic": "survey monkey", "youform_position": null, "surveyhero_position": 12, "intent": "commercial" },
+        { "keyword": "free survey platforms", "priority": 19, "volume_us": 450, "kd": 74, "global_volume": 800, "traffic_potential": 12000, "parent_topic": "qualtrics survey", "youform_position": null, "surveyhero_position": 5, "intent": "commercial" }
+      ]
+    },
+    {
+      "cluster": "commercial-builder",
+      "target_page": "/online-survey-builder/",
+      "target_exists": true,
+      "format": "landing-page",
+      "action": "refresh",
+      "track": "Commercial",
+      "status": "todo",
+      "note": "Add commercial-modifier terms to the existing builder page. Beware: this page is ALSO a live striking-distance experiment target for 'survey builder' / 'create online survey' — coordinate edits with the ledger so you don't clobber an in-flight test.",
+      "keywords": [
+        { "keyword": "online survey software", "priority": 15, "volume_us": 1100, "kd": 65, "youform_position": null, "surveyhero_position": 7, "intent": "commercial" },
+        { "keyword": "online survey tool", "priority": 16, "volume_us": 900, "kd": 61, "youform_position": null, "surveyhero_position": 4, "intent": "commercial" },
+        { "keyword": "survey platform", "priority": 17, "volume_us": 800, "kd": 68, "youform_position": null, "surveyhero_position": 7, "intent": "commercial" },
+        { "keyword": "online survey platform", "priority": 18, "volume_us": 600, "kd": 59, "youform_position": null, "surveyhero_position": 8, "intent": "commercial" }
+      ]
+    },
+    {
+      "cluster": "email-survey",
+      "target_page": "/email-survey/",
+      "target_exists": false,
+      "format": "landing-page",
+      "action": "build",
+      "track": "Commercial",
+      "status": "todo",
+      "note": "CSV said 'fold into use-case page' but /email-survey/ does not exist yet — so this is a net-new use-case page.",
+      "keywords": [
+        { "keyword": "email survey tools", "priority": 20, "volume_us": 200, "kd": 59, "youform_position": null, "surveyhero_position": 4, "intent": "commercial" }
+      ]
+    }
+  ]
+}

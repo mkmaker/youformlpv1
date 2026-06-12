@@ -701,15 +701,51 @@
     {
       "page": "https://youform.com/templates/c/forms/feedback/",
       "target_keyword": "feedback form template",
-      "position": 55.1,
+      "position": 41.26,
       "kd": 6,
       "volume_us": 600,
       "global_volume": 2800,
-      "intent": "A",
-      "status": "queued",
-      "attempts": [],
-      "last_refreshed": "2026-06-05",
-      "win_score": 2.98,
+      "intent": "I",
+      "status": "measuring",
+      "attempts": [
+        {
+          "branch": "working tree (master, not yet committed/deployed)",
+          "hypothesis": "Two-part problem. (1) CANNIBALIZATION: 'feedback form template(s)' splits across 3 URLs; GSC top_url is /feedback-forms/ (LP titled '12 Best Feedback Form Templates') at pos 44-52 while the category page sits at 41 with 4,849 impressions. Neither page wins because both target the head term and neither linked to the other. Fix: category page becomes canonical owner (SERP page_type for this query is Listing_Collection: Canva/Jotform/SurveyMonkey/Adobe all rank with category galleries; DR-15 formuiz ranks #9). /feedback-forms/ retitled to '12 Feedback Form Examples & Best Practices' (it already ranks for feedback form design/examples) + exact-anchor links added both directions. (2) CONTENT DEPTH: category page had 1-line description + 7 cards (~460 words); added ~1,100 words via new category-overrides.json mechanism (types of feedback forms w/ template links, what to ask, how to create, 7 FAQs + FAQPage schema). Cluster: feedback form 1800/KD17, customer feedback form 700/KD11, feedback form template 600/KD6, feedback forms 450/KD14, employee feedback form 400/KD3, customer feedback form template 250/KD4.",
+          "changes": [
+            "decannibalization_retitle_competing_page",
+            "internal_links_bidirectional",
+            "title_rewrite",
+            "meta_rewrite",
+            "h1_rewrite",
+            "hero_rewrite",
+            "content_depth",
+            "types_section_with_template_links",
+            "sample_questions_section",
+            "howto_steps_section",
+            "faq_added_7",
+            "faq_schema_jsonld"
+          ],
+          "optional_assets": {
+            "youtube_url": null,
+            "images_added": 0,
+            "stats_added": null
+          },
+          "baseline": {
+            "target_kw": "feedback form template",
+            "target_kw_position": 41.26,
+            "target_kw_owned_by": "https://youform.com/feedback-forms/ (GSC top_url, pos 52; category page also ranks)",
+            "secondary_kw": "feedback form",
+            "secondary_kw_position": 50.5,
+            "window": "user GSC screenshot + gsc-keywords 2026-05-15..2026-06-12"
+          },
+          "implementation_notes": "New source/_data/category-overrides.json + $applyCategoryOverrides in config.php (all 3 category types) + enrichment/FAQPage render in _layouts/category.blade.php. /feedback-forms/ title/H1/badge/hero retargeted to examples intent; gained links to category page (hero copy + Explore More buttons); category page links back via 'feedback form examples and best practices'.",
+          "attempt_id": 1,
+          "shipped_date": "2026-06-12",
+          "review": null
+        }
+      ],
+      "last_refreshed": "2026-06-12",
+      "win_score": 1.98,
       "cannibalized_by": "https://youform.com/feedback-forms/",
       "edit_target": "template:source/_layouts/category.blade.php"
     },
@@ -1472,6 +1508,53 @@
       "win_score": 1.17,
       "cannibalized_by": null,
       "edit_target": "?"
+    },
+    {
+      "page": "https://youform.com/templates/t/client-intake-form-template/",
+      "target_keyword": "client intake form",
+      "position": 34,
+      "kd": 9,
+      "volume_us": 1600,
+      "global_volume": null,
+      "intent": "I",
+      "cannibalized_by": null,
+      "edit_target": "template:source/_layouts/template.blade.php",
+      "status": "measuring",
+      "attempts": [
+        {
+          "branch": "working tree (master, not yet committed/deployed)",
+          "hypothesis": "Content-depth gap: page had ~350 words of enrichment vs 1,800-2,600 on every page ranking above it. SERP rewards 'what to include' checklists, sample questions, and industry-specific intake variants (Smartsheet #3 has 10 industry templates; monday #8 has 5 industry examples). A DR-0 PDF ranks #12 so authority is not the blocker. Added ~1,150 words matching those rewarded patterns + FAQPage schema + 2 contextual inlinks with exact anchors from /client-onboarding-forms/ (mentions intake 13x, previously zero links). Cluster targets: client intake form (1600/KD9), client intake form template (500/KD1), intake form template (800/KD4), new client intake form (300/KD7), client intake forms (250/KD3).",
+          "changes": [
+            "content_depth",
+            "what_to_include_checklist",
+            "sample_questions_section",
+            "industry_variants_section",
+            "howto_steps_section",
+            "faq_expanded_4_to_8",
+            "faq_schema_jsonld",
+            "internal_links"
+          ],
+          "optional_assets": {
+            "youtube_url": null,
+            "images_added": 0,
+            "stats_added": null
+          },
+          "baseline": {
+            "target_kw": "client intake form",
+            "target_kw_position": 34,
+            "target_kw_owned_by": "https://youform.com/templates/t/client-intake-form-template/ (no cannibalization)",
+            "secondary_kw": "client intake form template",
+            "secondary_kw_position": null,
+            "window": "user-reported GSC avg position as of 2026-06-12"
+          },
+          "implementation_notes": "New generic 'sections' override block added to config.php + _layouts/template.blade.php (reusable for all template pages). Content in source/_data/template-overrides.json. FAQPage JSON-LD emitted for any template with seo_faq (except CSAT hardcoded page).",
+          "attempt_id": 1,
+          "shipped_date": "2026-06-12",
+          "review": null
+        }
+      ],
+      "last_refreshed": "2026-06-12",
+      "win_score": 2.0
     }
   ]
 }

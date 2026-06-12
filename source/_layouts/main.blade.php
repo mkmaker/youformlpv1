@@ -43,7 +43,7 @@
         <meta property="og:description" content="{{ $page->description }}">
         @endif
         @if($page->image)
-            <meta property="og:image" content="{{ $page->image }}">
+            <meta property="og:image" content="{{ $page->absUrl($page->image) }}">
         @else
             <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/youform-builder.png">
         @endif
@@ -59,7 +59,7 @@
         <meta property="twitter:description" content="{{ $page->description }}">
         @endif
         @if($page->image)
-            <meta property="twitter:image" content="{{ $page->image }}">
+            <meta property="twitter:image" content="{{ $page->absUrl($page->image) }}">
         @else
             <meta property="twitter:image" content="{{ $page->baseUrl }}/assets/images/youform-builder.png">
         @endif

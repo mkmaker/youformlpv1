@@ -329,7 +329,7 @@ description: Create professional surveys online with Youform's free survey build
                             </div>
                             <div x-show="open">
                                 <p class="px-4 py-6 lg:text-lg text-black">
-                                    Youform is one of the best free online survey builders available. Unlike competitors like SurveyMonkey or Typeform that limit free plans, Youform offers unlimited surveys and unlimited responses completely free. You also get access to 500+ professional survey templates, full customization options, custom branding, and all core features without any credit card required. <a href="https://app.youform.com/register" class="text-aquamarine hover:underline font-semibold">Start building your free survey today</a>.
+                                    Youform is one of the best free online survey builders available. Unlike competitors like <a href="/surveymonkey-alternative/" class="text-aquamarine hover:underline font-semibold">SurveyMonkey</a> or <a href="/typeform-alternative/" class="text-aquamarine hover:underline font-semibold">Typeform</a> that limit free plans, Youform offers unlimited surveys and unlimited responses completely free. You also get access to 500+ professional survey templates, full customization options, custom branding, and all core features without any credit card required. <a href="https://app.youform.com/register" class="text-aquamarine hover:underline font-semibold">Start building your free survey today</a>.
                                 </p>
                             </div>
                         </div>
@@ -443,6 +443,8 @@ description: Create professional surveys online with Youform's free survey build
         </div>
     </div>
 </div>
+
+@include('_partials.compare-alternatives')
 
 @include('partials.footer')
 

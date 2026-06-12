@@ -24,6 +24,24 @@ $templateOverrides = is_file("$__dataDir/template-overrides.json")
     ? (json_decode(file_get_contents("$__dataDir/template-overrides.json"), true) ?: [])
     : [];
 
+// Per-category SEO overrides for /templates/c/* listing pages, keyed by
+// "{type}/{category_slug}" (e.g. "form/feedback"). Same idea as the template
+// overrides: lift a thin category page into a ranking page from this repo.
+$categoryOverrides = is_file("$__dataDir/category-overrides.json")
+    ? (json_decode(file_get_contents("$__dataDir/category-overrides.json"), true) ?: [])
+    : [];
+$applyCategoryOverrides = function (array $data, string $type, string $slug) use ($categoryOverrides) {
+    $ov = $categoryOverrides["$type/$slug"] ?? [];
+    $data['title'] = $ov['meta_title'] ?? $data['title'];
+    $data['description'] = $ov['meta_description'] ?? $data['description'];
+    $data['heading'] = $ov['heading'] ?? null;       // on-page H1; falls back to title
+    $data['hero'] = $ov['hero'] ?? null;             // line under the H1
+    $data['seo_intro'] = $ov['intro'] ?? null;
+    $data['seo_sections'] = $ov['sections'] ?? null;
+    $data['seo_faq'] = $ov['faq'] ?? null;
+    return $data;
+};
+
 return [
     'production' => false,
     'baseUrl' => 'https://youformlpv1.test',
@@ -39,6 +57,13 @@ return [
     },
     'str_singular' => function ($page, $str) {
         return $str ? Str::singular($str) : $str;
+    },
+    // Make a site-relative path absolute against the current env's baseUrl.
+    // Lets repo-owned images (e.g. template thumbnails) be stored as
+    // "/assets/..." so they resolve on local/preview hosts too, while meta
+    // tags that require absolute URLs (og:image) still get one.
+    'absUrl' => function ($page, $url) {
+        return Str::startsWith($url, '/') ? rtrim($page->baseUrl, '/') . $url : $url;
     },
     'collections' => [
         'template' => [
@@ -64,6 +89,7 @@ return [
                         // exposes one level of nested array on collection items.
                         'seo_intro' => $ov['intro'] ?? null,
                         'seo_use_cases' => $ov['use_cases'] ?? null,
+                        'seo_sections' => $ov['sections'] ?? null,
                         'seo_faq' => $ov['faq'] ?? null,
                         'content' => 'Description',
                     ];
@@ -109,10 +135,10 @@ return [
         'form_category' => [
             'extends' => '_layouts.category',
             'path' => 'templates/c/forms/{category_slug}',
-            'items' => function ($config) use ($loadApi, $templateOverrides) {
+            'items' => function ($config) use ($loadApi, $templateOverrides, $applyCategoryOverrides) {
                  $categories = $loadApi('categories-form.json', $config['appUrl'].'/api/categories?type=form&with=templates');
 
-                 return collect($categories)->map(function ($category_obj) use($config, $templateOverrides) {
+                 return collect($categories)->map(function ($category_obj) use($config, $templateOverrides, $applyCategoryOverrides) {
 
                     $data = [
                         'title' => ucwords($category_obj->title),
@@ -132,17 +158,17 @@ return [
                         ];
                     })->toArray();
 
-                    return $data;
+                    return $applyCategoryOverrides($data, 'form', $category_obj->slug);
                 });
             },
         ],
         'survey_category' => [
             'extends' => '_layouts.category',
             'path' => 'templates/c/surveys/{category_slug}',
-            'items' => function ($config) use ($loadApi, $templateOverrides) {
+            'items' => function ($config) use ($loadApi, $templateOverrides, $applyCategoryOverrides) {
                  $categories = $loadApi('categories-survey.json', $config['appUrl'].'/api/categories?type=survey&with=templates');
 
-                 return collect($categories)->map(function ($category_obj) use($config, $templateOverrides) {
+                 return collect($categories)->map(function ($category_obj) use($config, $templateOverrides, $applyCategoryOverrides) {
 
                     $data = [
                         'title' => ucwords($category_obj->title),
@@ -162,17 +188,17 @@ return [
                         ];
                     })->toArray();
 
-                    return $data;
+                    return $applyCategoryOverrides($data, 'survey', $category_obj->slug);
                 });
             },
         ],
         'quiz_category' => [
             'extends' => '_layouts.category',
             'path' => 'templates/c/quizzes/{category_slug}',
-            'items' => function ($config) use ($loadApi, $templateOverrides) {
+            'items' => function ($config) use ($loadApi, $templateOverrides, $applyCategoryOverrides) {
                  $categories = $loadApi('categories-quiz.json', $config['appUrl'].'/api/categories?type=quiz&with=templates');
 
-                 return collect($categories)->map(function ($category_obj) use($config, $templateOverrides) {
+                 return collect($categories)->map(function ($category_obj) use($config, $templateOverrides, $applyCategoryOverrides) {
 
                     $data = [
                         'title' => ucwords($category_obj->title),
@@ -192,7 +218,7 @@ return [
                         ];
                     })->toArray();
 
-                    return $data;
+                    return $applyCategoryOverrides($data, 'quiz', $category_obj->slug);
                 });
             },
         ],
@@ -236,19 +262,19 @@ return [
             [
                 'title' => 'Testimonial Form',
                 'description' => 'Gather authentic customer testimonials effortlessly with this customizable form designed for impactful feedback collection.',
-                'image' => 'https://files.youform.com/templates/9e0bbb5d-5a89-4e50-95da-8aeaaf18c59d.png',
+                'image' => '/assets/images/templates/testimonial-form-template.jpg',
                 'slug' => 'testimonial-form-template'
             ],
             [
                 'title' => 'Client Intake Form',
                 'description' => 'Streamline onboarding with this Client Intake Form, designed to collect essential client details quickly and efficiently.',
-                'image' => 'https://files.youform.com/templates/2c3b17aa-afac-4e5d-8835-52174539bebe.png',
+                'image' => '/assets/images/templates/client-intake-form-template.jpg',
                 'slug' => 'client-intake-form-template'
             ],
             [
                 'title' => 'Lead Capture Form',
                 'description' => 'Effortlessly gather potential customer details with this Lead Capture Form, designed to maximize conversions and grow your business.',
-                'image' => 'https://files.youform.com/templates/e659fbda-757f-422f-8c2b-e01244a6fb3f.png',
+                'image' => '/assets/images/templates/lead-capture-form-template.jpg',
                 'slug' => 'lead-capture-form-template'
             ]
         ],

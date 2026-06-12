@@ -74,6 +74,8 @@
 
 </div>
 
+@include('_partials.compare-alternatives')
+
 @include('partials.footer')
 
 @endsection

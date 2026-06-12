@@ -266,6 +266,9 @@ description: Create professional client onboarding forms in minutes. Free form b
                                 <li>How did you hear about us?</li>
                             </ul>
                         </div>
+                        <p class="text-gray-700 text-sm mt-4">
+                            Need one? Start with our free <a href="/templates/t/client-intake-form-template" class="text-blue-600 underline">client intake form template</a>.
+                        </p>
                     </div>
 
                     <div class="bg-white border-2 border-black rounded-xl p-6">
@@ -1030,7 +1033,7 @@ description: Create professional client onboarding forms in minutes. Free form b
                     <div class="bg-gray-50 border-2 border-black rounded-xl p-6">
                         <h3 class="text-xl font-bold mb-3">What's the difference between client intake and client onboarding forms?</h3>
                         <p class="text-gray-700">
-                            Client intake forms are used before someone becomes a client — they capture contact information, qualify leads, and determine fit. Client onboarding forms come after the sale and focus on gathering the details needed to actually deliver your service: preferences, goals, project specifications, team members, and timeline expectations. Intake is about capturing leads; onboarding is about setting up success.
+                            <a href="/templates/t/client-intake-form-template" class="text-blue-600 underline">Client intake forms</a> are used before someone becomes a client — they capture contact information, qualify leads, and determine fit. Client onboarding forms come after the sale and focus on gathering the details needed to actually deliver your service: preferences, goals, project specifications, team members, and timeline expectations. Intake is about capturing leads; onboarding is about setting up success.
                         </p>
                     </div>
 

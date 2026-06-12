@@ -1,0 +1,75 @@
+{
+  "form/feedback": {
+    "meta_title": "Free Feedback Form Templates (Unlimited Responses) | Youform",
+    "meta_description": "Free feedback form templates for customers, employees, events and websites. Customize in minutes, embed anywhere, and collect unlimited responses at no cost.",
+    "heading": "Free Feedback Form Templates",
+    "hero": "Pick a feedback form template, make it yours, and start collecting answers in minutes. Every template is free, fully customizable, and comes with unlimited responses.",
+    "intro": [
+      "A <strong>feedback form</strong> is a short questionnaire that asks people how something went: a purchase, a meal, a project, a presentation, a website visit. The hard part is never building the form, it is asking questions people actually finish answering. That is why each <strong>feedback form template</strong> above keeps the question count low and mixes quick ratings with one or two open text fields.",
+      "Unlike a PDF or printed feedback form sample, these templates are live forms. Responses are validated as people type, arrive in your dashboard instantly, and can flow into Google Sheets, Slack or your CRM. On Youform's free plan there is no cap on forms or responses."
+    ],
+    "sections": [
+      {
+        "h2": "Types of feedback forms",
+        "body": [
+          "<p>Most feedback forms fall into a handful of types. Start from the template closest to your situation and adjust the wording:</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Customer feedback forms</h3>",
+          "<p>Ask buyers how the product or service met their expectations and what nearly stopped them. The <a href=\"/templates/t/client-feedback-form-template\" class=\"text-blue-600 underline\">client feedback form template</a> covers the essentials, and the <a href=\"/templates/t/retail-store-feedback-form-template\" class=\"text-blue-600 underline\">retail store version</a> adapts it for in-person businesses. To put a number on satisfaction, pair it with a <a href=\"/customer-satisfaction-survey\" class=\"text-blue-600 underline\">customer satisfaction survey</a>.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Employee feedback forms</h3>",
+          "<p>An employee feedback form works best when it is specific: one project, one training, one quarter. The <a href=\"/templates/t/call-center-employee-evaluation-form-template\" class=\"text-blue-600 underline\">employee evaluation template</a> is a structured starting point; make it anonymous when you want candor over attribution.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Event and training feedback forms</h3>",
+          "<p>Send within a day of the session while details are fresh. The <a href=\"/templates/t/presentation-feedback-form-template\" class=\"text-blue-600 underline\">presentation feedback template</a> and <a href=\"/templates/t/coaching-feedback-form-template\" class=\"text-blue-600 underline\">coaching feedback template</a> both ask what to keep and what to change next time.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Restaurant and hospitality feedback forms</h3>",
+          "<p>A QR code on the receipt or table linking to the <a href=\"/templates/t/restaurant-feedback-form-template\" class=\"text-blue-600 underline\">restaurant feedback form template</a> catches guests before they take a complaint to a public review site.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Website and product feedback forms</h3>",
+          "<p>Embed the <a href=\"/templates/t/website-design-feedback-form-template\" class=\"text-blue-600 underline\">website feedback template</a> on the pages where users get stuck, and keep it to two or three questions. For deeper product input, browse the <a href=\"/templates/c/surveys/feedback\" class=\"text-blue-600 underline\">feedback survey templates</a>, including product and mobile app surveys.</p>"
+        ]
+      },
+      {
+        "h2": "What to ask on a feedback form",
+        "body": [
+          "<p>Good feedback forms balance numbers you can track with words you can act on. A reliable structure:</p>",
+          "<ul class=\"list-disc pl-6 space-y-2\"><li><strong>One overall rating.</strong> \"How satisfied were you with X?\" on a 1 to 5 scale. This becomes the metric you watch over time.</li><li><strong>One specific rating.</strong> Rate the part you are trying to improve right now: speed, clarity, friendliness, value for money.</li><li><strong>What worked.</strong> \"What did you like most?\" tells you what to protect.</li><li><strong>What to improve.</strong> \"If you could change one thing, what would it be?\" The single most actionable question on any feedback form.</li><li><strong>Follow-up permission.</strong> An optional email field so you can close the loop with unhappy respondents.</li></ul>",
+          "<p>Keep it under two minutes to complete. Every extra required question costs you finished responses, and an abandoned form tells you nothing.</p>"
+        ]
+      },
+      {
+        "h2": "How to create a feedback form in 3 steps",
+        "body": [
+          "<ol class=\"list-decimal pl-6 space-y-3\"><li><strong>Pick a template above.</strong> It opens in the Youform builder with proven questions already in place. Free, no credit card.</li><li><strong>Customize it.</strong> Edit the questions, add your logo and colors, and use conditional logic, for example to ask \"what went wrong?\" only when someone rates you 3 or below.</li><li><strong>Share and collect.</strong> Send a link, embed the form on your site, or print a QR code. Responses land in your dashboard in real time, with no limits on the free plan.</li></ol>",
+          "<p>Want inspiration before you pick? See our <a href=\"/feedback-forms\" class=\"text-blue-600 underline\">12 feedback form examples and best practices</a> with live demos of each form.</p>"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a feedback form?",
+        "a": "A feedback form is a short questionnaire that collects opinions about an experience: a product, service, event, training or website. It usually combines one or two ratings with open questions like \"what could we improve?\", giving you both a trackable score and concrete suggestions."
+      },
+      {
+        "q": "How do I create a feedback form?",
+        "a": "Choose a template from this page, open it in the Youform builder, and edit the questions to fit your situation. Add your branding, set up conditional follow-up questions, then share it as a link, embed it on your website, or generate a QR code. The whole process takes about ten minutes."
+      },
+      {
+        "q": "What should I write in a feedback form?",
+        "a": "Lead with an overall satisfaction rating, add one rating about the specific thing you want to improve, then ask two open questions: what did you like most, and what is the one thing you would change. Close with an optional email field for follow-up. Five questions is plenty for most feedback forms."
+      },
+      {
+        "q": "What makes a good feedback form?",
+        "a": "Four things: it is short enough to finish in under two minutes, specific to one experience rather than everything at once, balanced between ratings and open text, and actionable, meaning every question maps to a decision you could make differently."
+      },
+      {
+        "q": "Are these feedback form templates free?",
+        "a": "Yes. Every template here is free to use, and Youform's free plan includes unlimited forms and unlimited responses with no credit card required. Paid plans only add extras like custom domains and removing Youform branding."
+      },
+      {
+        "q": "Can I embed a feedback form on my website?",
+        "a": "Yes. Every Youform feedback form can be embedded inline, as a popup, or as a slider on any website, and it works on Webflow, WordPress, Framer, Shopify and plain HTML. You can also share it as a standalone link or QR code."
+      },
+      {
+        "q": "What is the difference between a feedback form and a survey?",
+        "a": "A feedback form reacts to one experience and is usually five questions or fewer; a survey investigates a topic in more depth across a sample of people. If you want quick signal after every interaction, use a feedback form. For research projects, start from our survey templates instead."
+      }
+    ]
+  }
+}

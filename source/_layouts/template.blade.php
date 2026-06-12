@@ -545,7 +545,20 @@
          real ranking page without any per-template @if in code.
          NB: plain truthiness, not empty()/isset() — Jigsaw's IterableObject
          resolves dynamic keys via __get but not __isset, so empty() lies. --}}
-    @if ($page->seo_intro || $page->seo_use_cases || $page->seo_faq)
+    @if ($page->seo_faq)
+    <script type="application/ld+json">
+    {!! json_encode([
+        '@context' => 'https://schema.org',
+        '@type' => 'FAQPage',
+        'mainEntity' => collect($page->seo_faq)->map(fn ($item) => [
+            '@type' => 'Question',
+            'name' => $item['q'],
+            'acceptedAnswer' => ['@type' => 'Answer', 'text' => strip_tags($item['a'])],
+        ])->values()->all(),
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+    </script>
+    @endif
+    @if ($page->seo_intro || $page->seo_use_cases || $page->seo_sections || $page->seo_faq)
     <div class="bg-white py-16 lg:py-20 text-left">
         <div class="max-w-7xl mx-auto px-10 md:px-20">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16">
@@ -568,6 +581,20 @@
                                 </div>
                             @endforeach
                         </div>
+                    @endif
+
+                    @if ($page->seo_sections)
+                        {{-- Generic enrichment sections: { "h2": "...", "body": ["<html>", ...] }.
+                             Body strings may carry <h3>/<ul>/<a> so one block type covers
+                             checklists, question lists and industry breakdowns. --}}
+                        @foreach ($page->seo_sections as $section)
+                            <h2 class="text-3xl sm:text-4xl font-bold mt-12 mb-6">{{ $section['h2'] }}</h2>
+                            <div class="seo-section space-y-4 text-lg text-gray-700">
+                                @foreach ($section['body'] as $chunk)
+                                    {!! $chunk !!}
+                                @endforeach
+                            </div>
+                        @endforeach
                     @endif
 
                     @if ($page->seo_faq)

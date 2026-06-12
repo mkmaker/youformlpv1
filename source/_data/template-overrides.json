@@ -1,0 +1,122 @@
+{
+  "client-intake-form-template": {
+    "image": "/assets/images/templates/client-intake-form-template.jpg",
+    "meta_title": "Free Client Intake Form Template (Unlimited, No Signup) | Youform",
+    "meta_description": "Use this free client intake form template to onboard new clients in minutes. Collect contact details, project scope, budget and goals. Unlimited responses, no credit card.",
+    "intro": [
+      "A <strong>client intake form</strong> is the first form a new client fills out when they start working with you. It collects the essentials in one place: contact details, what they need, their budget, timeline and goals, so you can skip the back-and-forth emails and start the work with everything you need.",
+      "This free <strong>client intake form template</strong> is ready to use, fully customizable, and gives you unlimited responses on the free plan. Embed it on your site, share a link, and new client information lands in your dashboard automatically."
+    ],
+    "use_cases": [
+      {
+        "title": "Agencies & freelancers",
+        "text": "Onboard new clients with a single form that captures scope, budget and deliverables before the first call."
+      },
+      {
+        "title": "Consultants & coaches",
+        "text": "Gather background, goals and expectations up front so your first session is productive from minute one."
+      },
+      {
+        "title": "Service businesses",
+        "text": "Standardize how every new customer is taken on, from contact details to the specifics of the job."
+      },
+      {
+        "title": "Law & accounting firms",
+        "text": "Collect matter details and client information securely, ready to drop into your existing workflow."
+      }
+    ],
+    "sections": [
+      {
+        "h2": "What to include in a client intake form",
+        "body": [
+          "<p>A good intake form collects everything you need to start the work and nothing you can look up yourself. Whether you adapt this template or build a new client intake form from scratch, these are the nine elements worth covering:</p>",
+          "<ul class=\"list-disc pl-6 space-y-2\"><li><strong>Contact details.</strong> Full name, email, phone number and preferred way to be reached.</li><li><strong>Company or background information.</strong> Business name, website, industry and team size, or personal background for individual clients.</li><li><strong>The service they need.</strong> A dropdown or multiple choice of your services keeps answers consistent and routable.</li><li><strong>Scope and deliverables.</strong> An open field where the client describes what done looks like in their own words.</li><li><strong>Budget range.</strong> Ranges work better than exact numbers; clients answer them more honestly and faster.</li><li><strong>Timeline.</strong> Ideal start date and any hard deadlines driving the project.</li><li><strong>Goals and success criteria.</strong> What the client wants to be different three months after the work ships.</li><li><strong>Referral source.</strong> How they found you, so you know which marketing channels bring real clients.</li><li><strong>Consent and agreements.</strong> A checkbox for your terms, privacy policy or HIPAA notice where it applies.</li></ul>",
+          "<p>Keep the form under ten required questions. With conditional logic you can ask follow-ups only when an answer makes them relevant, so a simple inquiry stays simple while a complex project gets the detail it needs.</p>"
+        ]
+      },
+      {
+        "h2": "Client intake form sample questions",
+        "body": [
+          "<p>Steal these questions as a starting point. The template above already includes the essentials; add the rest based on what you genuinely need before a first call.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Contact and company details</h3>",
+          "<ul class=\"list-disc pl-6 space-y-2\"><li>What is your full name?</li><li>What is the best email address to reach you?</li><li>What is your company name and website?</li><li>What is your role in the company?</li><li>How did you hear about us?</li></ul>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Project and service questions</h3>",
+          "<ul class=\"list-disc pl-6 space-y-2\"><li>Which of our services are you interested in?</li><li>Describe your project in a few sentences. What problem are you trying to solve?</li><li>What deliverables do you expect?</li><li>Have you worked with a provider on something like this before? How did it go?</li><li>Who will be the main point of contact and who signs off on decisions?</li></ul>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Budget and timeline</h3>",
+          "<ul class=\"list-disc pl-6 space-y-2\"><li>What budget range have you set aside for this project?</li><li>When would you like to start?</li><li>Is there a hard deadline, and what is driving it?</li></ul>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Background and expectations</h3>",
+          "<ul class=\"list-disc pl-6 space-y-2\"><li>What are you doing today to solve this problem?</li><li>What would make this engagement a clear success for you?</li><li>How do you prefer to communicate during a project?</li><li>Is there anything else we should know before we talk?</li></ul>"
+        ]
+      },
+      {
+        "h2": "Client intake forms by industry",
+        "body": [
+          "<p>The core of an intake form is the same everywhere, but every industry has a few questions it cannot skip. Here is how to adapt this template:</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Agencies and freelancers</h3>",
+          "<p>Add questions about brand assets, existing accounts and past campaign performance. If you run a structured kickoff after intake, pair this form with the <a href=\"/templates/t/client-onboarding-form-template\" class=\"text-blue-600 underline\">client onboarding form template</a>.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Law firms</h3>",
+          "<p>A legal client intake form needs the matter type, opposing party names for conflict checks, key dates and how the client was referred. Keep a consent checkbox for your engagement terms.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Counseling and therapy</h3>",
+          "<p>Ask about reasons for seeking support, relevant history, current medications and emergency contact details. Sensitive questions are easier to answer in a form shown one question at a time than on a clipboard.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Tax and accounting</h3>",
+          "<p>Collect filing status, business entity type, prior-year returns and bookkeeping software. A file upload question lets clients attach documents directly to their intake.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Healthcare and wellness</h3>",
+          "<p>A patient intake form covers medical history, current symptoms, allergies and insurance details. Add consent language your practice requires before the first appointment.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Salons and spas</h3>",
+          "<p>Ask about skin or hair type, allergies, sensitivities and past treatments so practitioners can prepare before the client arrives.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Real estate</h3>",
+          "<p>Cover whether the client is buying, selling or both, target neighborhoods, price range, financing status and their timeline to move.</p>",
+          "<h3 class=\"text-xl font-bold mt-8 mb-3\">Coaches and consultants</h3>",
+          "<p>Focus on goals, what the client has already tried and how they will measure progress. For discovery sessions, the <a href=\"/templates/t/client-consultation-form-template\" class=\"text-blue-600 underline\">client consultation form template</a> is a lighter alternative.</p>"
+        ]
+      },
+      {
+        "h2": "How to create a client intake form in 3 steps",
+        "body": [
+          "<ol class=\"list-decimal pl-6 space-y-3\"><li><strong>Start from this template.</strong> Click the \"Use this template\" button above. It opens in the Youform builder with every question ready to edit. No credit card, and the free plan has no response limits.</li><li><strong>Make it yours.</strong> Add or remove questions, drop in your logo and brand colors, and set up conditional logic so clients only see questions relevant to their answers. Add file uploads, e-signature style consent checkboxes or payment questions if your intake needs them.</li><li><strong>Share it and collect responses.</strong> Send the link, embed the form on your website or trigger it from your booking flow. Responses land in your dashboard instantly and can sync to Google Sheets, Slack, your CRM and 6,000+ apps via Zapier and Make.</li></ol>",
+          "<p>That is the whole process. Most people go from template to a live intake form template tailored to their business in under ten minutes.</p>"
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "What is a client intake form?",
+        "a": "A client intake form is a questionnaire new clients complete at the start of an engagement. It gathers their contact information, the service they need, budget, timeline and any background you need to begin work, so nothing gets missed during onboarding."
+      },
+      {
+        "q": "What should a client intake form include?",
+        "a": "At minimum: name and contact details, company or project name, the service or help they are looking for, budget range, desired timeline, and an open field for goals or notes. You can add conditional questions so clients only see what is relevant to them."
+      },
+      {
+        "q": "Is this client intake form template free?",
+        "a": "Yes. The template is free to use and Youform gives you unlimited forms and unlimited responses on the free plan, with no credit card required. You only pay if you want extras like a custom domain or removing branding."
+      },
+      {
+        "q": "Can I customize the intake form?",
+        "a": "Completely. Add or remove questions, change the wording, add your logo and brand colors, set up conditional logic, and connect it to Google Sheets, Slack, your CRM or 6,000+ apps via Zapier and Make."
+      },
+      {
+        "q": "What questions should a client intake form ask?",
+        "a": "Ask who the client is (name, company, contact details), what they need (service, scope, deliverables), the practical constraints (budget range, timeline, deadline) and the context (goals, what they have tried, how they found you). The sample questions above cover all four groups; pick the ten or so your first call always depends on."
+      },
+      {
+        "q": "When should I send a client intake form?",
+        "a": "Right after first contact and before the first real conversation. That way the discovery call starts from their answers instead of collecting basics. For recurring clients, send a shorter version before each new project to capture what changed."
+      },
+      {
+        "q": "What is the difference between a client intake form and an onboarding questionnaire?",
+        "a": "An intake form comes first: it qualifies a new inquiry and scopes the work before you commit. An onboarding questionnaire comes after the agreement is signed and gathers what you need to execute, like account access, brand assets and key contacts. Many businesses use both, and Youform has a separate client onboarding form template for the second step."
+      },
+      {
+        "q": "Should I use a PDF or an online client intake form?",
+        "a": "Online, in almost every case. A PDF has to be downloaded, filled, scanned and emailed back, and the answers still need to be retyped somewhere useful. An online intake form validates answers as clients type, shows follow-up questions conditionally, works on phones, and sends every response straight to your dashboard, spreadsheet or CRM."
+      }
+    ]
+  },
+  "testimonial-form-template": {
+    "image": "/assets/images/templates/testimonial-form-template.jpg"
+  },
+  "lead-capture-form-template": {
+    "image": "/assets/images/templates/lead-capture-form-template.jpg"
+  }
+}

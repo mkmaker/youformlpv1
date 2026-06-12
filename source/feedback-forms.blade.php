@@ -1,6 +1,6 @@
 ---
-title: 12 Best Feedback Form Templates (Free to Use) | Youform
-description: Discover 12 free feedback form templates for customer satisfaction, product reviews, event surveys, NPS, and more. Each template is ready to customize and use instantly.
+title: 12 Feedback Form Examples & Best Practices (Free to Use) | Youform
+description: 12 feedback form examples with live demos, covering customer satisfaction, product reviews, events and NPS. See what good feedback forms look like and copy the one you need.
 ---
 
 @extends('_layouts.main')
@@ -78,13 +78,13 @@ description: Discover 12 free feedback form templates for customer satisfaction,
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
                 <div class="text-center max-w-4xl mx-auto">
                     <p class="text-xs font-semibold px-4 py-1.5 rounded-full mb-3 lg:mb-4 bg-pale-violet border border-black inline-block">
-                        Free feedback form templates
+                        Feedback form examples
                     </p>
                     <h1 class="text-3xl sm:text-5xl xl:text-6xl font-bold xl:leading-tight">
-                        12 Best Feedback Form Templates (Free to Use)
+                        12 Feedback Form Examples &amp; Best Practices (Free to Use)
                     </h1>
                     <p class="text-base mt-6 max-w-3xl mx-auto">
-                        Stop guessing what your customers think. These 12 proven feedback form templates help you collect actionable insights about customer satisfaction, product experience, events, and more. Pick one, customize it, and start collecting responses in minutes.
+                        Stop guessing what your customers think. These 12 proven feedback form examples show how to collect actionable insights about customer satisfaction, product experience, events, and more. Try each live demo, then grab one of our free <a href="/templates/c/forms/feedback" class="text-blue-600 underline">feedback form templates</a> and customize it in minutes.
                     </p>
                     <div class="mt-10 text-center">
                         <a href="https://app.youform.com/register" class="inline-block mx-auto text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
@@ -704,7 +704,7 @@ description: Discover 12 free feedback form templates for customer satisfaction,
                 </div>
 <div class="p-6 flex items-center justify-center cursor-pointer group" data-youform-open="hauokbir" data-youform-position="center">
                     <div class="relative">
-                        <img src="https://files.youform.com/templates/9e0bbb5d-5a89-4e50-95da-8aeaaf18c59d.png" alt="Testimonial Form Template Preview" class="rounded-lg shadow-lg w-full object-cover" loading="lazy">
+                        <img src="/assets/images/templates/testimonial-form-template.jpg" alt="Testimonial Form Template Preview" class="rounded-lg shadow-lg w-full object-cover" loading="lazy">
                         <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all rounded-lg flex items-center justify-center">
                             <span class="text-white opacity-0 group-hover:opacity-100 transition-opacity font-semibold text-sm bg-black bg-opacity-60 px-4 py-2 rounded-full">▶ Try demo</span>
                         </div>
@@ -916,6 +916,9 @@ description: Discover 12 free feedback form templates for customer satisfaction,
             Browse our full library of form, survey, and quiz templates.
         </p>
         <div class="flex flex-wrap justify-center gap-4">
+            <a href="/templates/c/forms/feedback/" class="px-6 py-3 bg-white border-2 border-black rounded-md font-semibold hover:drop-shadow-3xl transition-all">
+                Feedback Form Templates →
+            </a>
             <a href="/templates/c/surveys/feedback/" class="px-6 py-3 bg-white border-2 border-black rounded-md font-semibold hover:drop-shadow-3xl transition-all">
                 All Feedback Surveys →
             </a>
