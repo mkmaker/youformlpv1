@@ -1,8 +1,9 @@
 ---
-title: "Double-Barreled Questions: 20 Examples and How to Fix Them"
-description: "Learn what double-barreled questions are, see 20 real examples from real surveys, and discover how to identify and fix them so your data is actually usable."
+title: "Double-Barreled Questions: Definition, Examples, and How to Fix Them"
+description: "Learn what a double-barreled question is, see clear examples across survey types, and discover how to spot and fix them so your data is actually usable."
 author: "Abhishek"
 date: "2026-04-24"
+image: "/assets/images/double-barreled-question.png"
 ---
 
 @extends('_layouts.main')
@@ -12,9 +13,9 @@ date: "2026-04-24"
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Double-Barreled Questions: 20 Examples and How to Fix Them",
-  "description": "Learn what double-barreled questions are, see 20 real examples from real surveys, and discover how to identify and fix them so your data is actually usable.",
-  "image": "https://youform.com/assets/images/youform-builder.png",
+  "headline": "Double-Barreled Questions: Definition, Examples, and How to Fix Them",
+  "description": "Learn what a double-barreled question is, see clear examples across survey types, and discover how to spot and fix them so your data is actually usable.",
+  "image": "https://youform.com/assets/images/double-barreled-question.png",
   "author": {
     "@type": "Person",
     "name": "Abhishek",
@@ -113,19 +114,26 @@ date: "2026-04-24"
     <div class="max-w-3xl mx-auto px-6 sm:px-10 md:px-20 text-center">
         <span class="inline-block text-xs font-semibold uppercase tracking-wider text-coral bg-coral/10 px-3 py-1 rounded-full mb-5">Survey Design</span>
         <h1 class="text-3xl sm:text-5xl font-bold leading-tight text-balance">
-            Double-Barreled Questions: 20 Examples and How to Fix Them
+            Double-Barreled Questions: Definition, Examples, and How to Fix Them
         </h1>
         <p class="text-lg sm:text-xl mt-6 text-gray-600 max-w-2xl mx-auto text-pretty">
-            One survey mistake that ruins more data than any other. Here's how to spot it, and the exact fix for each form it takes.
+            One survey mistake that ruins more data than any other. Here's what it is, how to spot it, and the exact fix for each form it takes.
         </p>
         <div class="mt-6 text-sm text-gray-500 flex items-center justify-center gap-2">
             <span>By Abhishek</span>
             <span>&#183;</span>
             <span>April 24, 2026</span>
             <span>&#183;</span>
-            <span>9 min read</span>
+            <span>7 min read</span>
         </div>
         @include('partials.blog-share')
+    </div>
+</div>
+
+<!-- Cover image -->
+<div class="bg-white pb-10">
+    <div class="max-w-3xl mx-auto px-6 sm:px-10 md:px-20">
+        <img src="/assets/images/double-barreled-question.png" alt="Double-barreled questions: definition, examples, and how to fix them" width="1600" height="900" class="w-full rounded-xl border-2 border-black shadow-[4px_4px_0_0_#000]" loading="eager" />
     </div>
 </div>
 
@@ -138,7 +146,7 @@ date: "2026-04-24"
             <div class="rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] bg-medium-champagne p-6 sm:p-7 mb-10">
                 <p class="text-xs font-bold uppercase tracking-wider mb-2">TL;DR</p>
                 <p class="text-base sm:text-lg leading-relaxed m-0">
-                    A double-barreled question asks about two things at once but only allows one answer. The fix is almost always to split it into two questions. This guide gives you 20 real examples (with fixes), a 60-second checklist to spot them in your own surveys, and the related survey errors that hurt your data the same way.
+                    A double-barreled question asks about two things at once but only allows one answer. The fix is almost always to split it into two questions. This guide gives you a plain-English definition, clear examples (with fixes), a 60-second checklist to spot them in your own surveys, and the related survey errors that hurt your data the same way.
                 </p>
             </div>
 
@@ -148,7 +156,7 @@ date: "2026-04-24"
                 <ol class="list-decimal list-inside space-y-2 text-base text-gray-800 marker:text-gray-400 marker:font-semibold">
                     <li><a href="#what-are-double-barreled-questions" class="hover:text-coral underline-offset-2 hover:underline">What are double-barreled questions?</a></li>
                     <li><a href="#why-they-hurt-data-quality" class="hover:text-coral underline-offset-2 hover:underline">Why they hurt your data quality</a></li>
-                    <li><a href="#examples" class="hover:text-coral underline-offset-2 hover:underline">20 examples (with fixes for each)</a></li>
+                    <li><a href="#examples" class="hover:text-coral underline-offset-2 hover:underline">Examples (with fixes for each)</a></li>
                     <li><a href="#how-to-identify" class="hover:text-coral underline-offset-2 hover:underline">How to identify them in your surveys</a></li>
                     <li><a href="#how-to-fix" class="hover:text-coral underline-offset-2 hover:underline">How to fix them: 3 patterns</a></li>
                     <li><a href="#other-mistakes" class="hover:text-coral underline-offset-2 hover:underline">Other survey question mistakes to avoid</a></li>
@@ -164,7 +172,7 @@ date: "2026-04-24"
 
                 <p class="mb-6">The most common culprit is the <strong>double-barreled question</strong>. It's the single biggest reason well-meaning surveys produce data nobody can trust.</p>
 
-                <p class="mb-6">This guide covers what double-barreled questions are, 20 real examples (with fixes), how to spot them in your own surveys, why they quietly destroy your data quality, and the related survey errors that cause similar damage.</p>
+                <p class="mb-6">This guide covers what double-barreled questions are, clear examples (with fixes), how to spot them in your own surveys, why they quietly destroy your data quality, and the related survey errors that cause similar damage.</p>
 
                 <h2 id="what-are-double-barreled-questions" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">What are double-barreled questions?</h2>
 
@@ -201,48 +209,24 @@ date: "2026-04-24"
 
                 <p class="mb-6">The cost is invisible. You won't see "I couldn't answer this honestly" in your dashboard. You'll just see a number that everyone trusts and nobody can act on.</p>
 
-                <h2 id="examples" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">20 examples of double-barreled questions (and the fix for each)</h2>
+                <h2 id="examples" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">Examples of double-barreled questions (and the fix for each)</h2>
 
-                <p class="mb-8">Here are 20 double-barreled questions pulled from real customer feedback, employee, product, healthcare, education, and market research surveys, with the fix for each. Read through them and see how often you've written one yourself.</p>
-
-                <h3 id="examples-csat" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Customer satisfaction surveys</h3>
+                <p class="mb-8">Here are real double-barreled questions pulled from customer feedback, employee, product, healthcare, education, and market research surveys, each with the fix. Read through them and see how often you've written one yourself.</p>
 
                 @foreach([
-                    ['n' => 1, 'bad' => 'How satisfied are you with the quality and price of our product?', 'fix' => 'Split into two questions: "How satisfied are you with the quality?" and "How satisfied are you with the price?"'],
-                    ['n' => 2, 'bad' => 'How would you rate our customer service and response time?', 'fix' => '"How would you rate the helpfulness of our customer service?" + "How would you rate our response time?"'],
-                    ['n' => 3, 'bad' => 'Did you find our website easy to navigate and visually appealing?', 'fix' => 'Ask navigation and aesthetics separately. They\'re judged by different criteria.'],
-                    ['n' => 4, 'bad' => 'Was the delivery fast and the packaging undamaged?', 'fix' => '"Was the delivery fast?" + "Did the package arrive undamaged?" Logistics and fulfillment are different teams.'],
-                    ['n' => 5, 'bad' => 'How likely are you to recommend us based on our pricing and product quality?', 'fix' => 'Use a clean NPS question ("How likely are you to recommend us?") and ask about price and quality separately as drivers.'],
+                    ['cat' => 'Customer satisfaction', 'bad' => 'How would you rate our customer service and response time?', 'fix' => '"How would you rate the helpfulness of our customer service?" + "How would you rate our response time?"'],
+                    ['cat' => 'Customer satisfaction', 'bad' => 'Did you find our website easy to navigate and visually appealing?', 'fix' => 'Ask navigation and aesthetics separately. They\'re judged by different criteria.'],
+                    ['cat' => 'Employee &amp; HR', 'bad' => 'Do you feel valued and fairly compensated by the company?', 'fix' => 'Feeling valued is cultural; compensation is structural. Ask both, separately.'],
+                    ['cat' => 'Employee &amp; HR', 'bad' => 'Is your manager supportive and clear in their communication?', 'fix' => 'A manager can be warm but vague, or sharp but cold. Split into "supportive" and "clear communicator."'],
+                    ['cat' => 'Product &amp; UX', 'bad' => 'Is the new feature easy to use and useful?', 'fix' => 'Usability and value are independent. A feature can be intuitive and pointless. Ask both.'],
                 ] as $ex)
-                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
-                        <div class="bg-red-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
-                            <p class="text-xs font-bold uppercase tracking-wider text-red-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Example {{ $ex['n'] }}: don't ask this</p>
-                            <p class="text-lg text-gray-900 m-0">"{{ $ex['bad'] }}"</p>
+                    <div class="my-4 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="px-5 py-4 sm:px-6">
+                            <p class="text-[11px] font-bold uppercase tracking-wider text-red-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3 h-3 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/></svg>Avoid <span class="text-gray-400 font-semibold">&middot; {!! $ex['cat'] !!}</span></p>
+                            <p class="text-base sm:text-lg text-gray-900 m-0">"{{ $ex['bad'] }}"</p>
                         </div>
-                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5">
-                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><polyline points="40 144 96 200 224 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Fix</p>
-                            <p class="text-base text-gray-800 m-0">{!! $ex['fix'] !!}</p>
-                        </div>
-                    </div>
-                @endforeach
-
-                <h3 id="examples-employee" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Employee &amp; HR surveys</h3>
-
-                @foreach([
-                    ['n' => 6, 'bad' => 'Do you feel valued and fairly compensated by the company?', 'fix' => 'Feeling valued is cultural; compensation is structural. Ask both, separately.'],
-                    ['n' => 7, 'bad' => 'Is your manager supportive and clear in their communication?', 'fix' => 'A manager can be warm but vague, or sharp but cold. Split into "supportive" and "clear communicator."'],
-                    ['n' => 8, 'bad' => 'Do you have the tools and training you need to do your job?', 'fix' => '"Do you have the tools you need?" + "Do you have the training you need?" These get fixed by different budgets.'],
-                    ['n' => 9, 'bad' => 'Do you find your work meaningful and challenging?', 'fix' => 'Plenty of jobs are meaningful but easy, or challenging but pointless. Ask each on its own scale.'],
-                    ['n' => 10, 'bad' => 'Are you satisfied with your benefits and PTO policy?', 'fix' => 'Benefits (health, retirement, perks) and PTO are separate concepts. Split them.'],
-                ] as $ex)
-                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
-                        <div class="bg-red-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
-                            <p class="text-xs font-bold uppercase tracking-wider text-red-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Example {{ $ex['n'] }}: don't ask this</p>
-                            <p class="text-lg text-gray-900 m-0">"{{ $ex['bad'] }}"</p>
-                        </div>
-                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5">
-                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><polyline points="40 144 96 200 224 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Fix</p>
-                            <p class="text-base text-gray-800 m-0">{!! $ex['fix'] !!}</p>
+                        <div class="px-5 py-3.5 sm:px-6 bg-emerald-50 border-t-2 border-black">
+                            <p class="text-sm sm:text-base text-gray-800 m-0"><span class="font-bold text-emerald-700">Fix:</span> {!! $ex['fix'] !!}</p>
                         </div>
                     </div>
                 @endforeach
@@ -256,75 +240,22 @@ date: "2026-04-24"
                     </a>
                 </div>
 
-                <h3 id="examples-product" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Product &amp; UX surveys</h3>
-
                 @foreach([
-                    ['n' => 11, 'bad' => 'Is the new feature easy to use and useful?', 'fix' => 'Usability and value are independent. A feature can be intuitive and pointless. Ask both.'],
-                    ['n' => 12, 'bad' => 'Do you find the app fast and reliable?', 'fix' => 'Speed and reliability often diverge: an app can be fast 99% of the time and crash on the 1% that matters.'],
-                    ['n' => 13, 'bad' => 'Was the onboarding process simple and informative?', 'fix' => '"Was the onboarding easy to complete?" + "Did the onboarding give you the information you needed?"'],
-                    ['n' => 14, 'bad' => 'Are our notifications timely and relevant?', 'fix' => 'Timing and relevance are different problems. A timely notification about something irrelevant is worse than no notification.'],
-                    ['n' => 15, 'bad' => 'How easy was it to sign up and start using the product?', 'fix' => 'Signup friction and time-to-first-value are separate funnel steps. Measure them independently.'],
+                    ['cat' => 'Product &amp; UX', 'bad' => 'Do you find the app fast and reliable?', 'fix' => 'Speed and reliability often diverge: an app can be fast 99% of the time and crash on the 1% that matters.'],
+                    ['cat' => 'Healthcare', 'bad' => 'Did your doctor listen carefully and explain things clearly?', 'fix' => 'Listening and explaining are distinct skills. A doctor can do one well and the other poorly.'],
+                    ['cat' => 'Education', 'bad' => 'Was the instructor knowledgeable and engaging?', 'fix' => 'Expertise and delivery are different. Many experts are dull; many performers are shallow.'],
+                    ['cat' => 'Market research', 'bad' => 'Do you support raising taxes and increasing public spending?', 'fix' => 'A respondent might support one and oppose the other, so ask each policy on its own.'],
                 ] as $ex)
-                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
-                        <div class="bg-red-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
-                            <p class="text-xs font-bold uppercase tracking-wider text-red-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Example {{ $ex['n'] }}: don't ask this</p>
-                            <p class="text-lg text-gray-900 m-0">"{{ $ex['bad'] }}"</p>
+                    <div class="my-4 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
+                        <div class="px-5 py-4 sm:px-6">
+                            <p class="text-[11px] font-bold uppercase tracking-wider text-red-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3 h-3 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="20"/></svg>Avoid <span class="text-gray-400 font-semibold">&middot; {!! $ex['cat'] !!}</span></p>
+                            <p class="text-base sm:text-lg text-gray-900 m-0">"{{ $ex['bad'] }}"</p>
                         </div>
-                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5">
-                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><polyline points="40 144 96 200 224 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Fix</p>
-                            <p class="text-base text-gray-800 m-0">{!! $ex['fix'] !!}</p>
+                        <div class="px-5 py-3.5 sm:px-6 bg-emerald-50 border-t-2 border-black">
+                            <p class="text-sm sm:text-base text-gray-800 m-0"><span class="font-bold text-emerald-700">Fix:</span> {!! $ex['fix'] !!}</p>
                         </div>
                     </div>
                 @endforeach
-
-                <h3 id="examples-healthcare" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Healthcare &amp; patient surveys</h3>
-
-                @foreach([
-                    ['n' => 16, 'bad' => 'Did your doctor listen carefully and explain things clearly?', 'fix' => 'Listening and explaining are distinct skills. A doctor can do one well and the other poorly.'],
-                    ['n' => 17, 'bad' => 'Was the facility clean and the staff friendly?', 'fix' => 'Facilities and people are managed by different departments. Split.'],
-                ] as $ex)
-                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
-                        <div class="bg-red-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
-                            <p class="text-xs font-bold uppercase tracking-wider text-red-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Example {{ $ex['n'] }}: don't ask this</p>
-                            <p class="text-lg text-gray-900 m-0">"{{ $ex['bad'] }}"</p>
-                        </div>
-                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5">
-                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><polyline points="40 144 96 200 224 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Fix</p>
-                            <p class="text-base text-gray-800 m-0">{!! $ex['fix'] !!}</p>
-                        </div>
-                    </div>
-                @endforeach
-
-                <h3 id="examples-education" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Education &amp; course feedback</h3>
-
-                @foreach([
-                    ['n' => 18, 'bad' => 'Was the course content relevant and well-structured?', 'fix' => 'Content can be relevant but disorganized, or beautifully structured but off-topic. Ask both.'],
-                    ['n' => 19, 'bad' => 'Was the instructor knowledgeable and engaging?', 'fix' => 'Expertise and delivery are different. Many experts are dull; many performers are shallow.'],
-                ] as $ex)
-                    <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
-                        <div class="bg-red-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
-                            <p class="text-xs font-bold uppercase tracking-wider text-red-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Example {{ $ex['n'] }}: don't ask this</p>
-                            <p class="text-lg text-gray-900 m-0">"{{ $ex['bad'] }}"</p>
-                        </div>
-                        <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5">
-                            <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><polyline points="40 144 96 200 224 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Fix</p>
-                            <p class="text-base text-gray-800 m-0">{!! $ex['fix'] !!}</p>
-                        </div>
-                    </div>
-                @endforeach
-
-                <h3 id="examples-research" class="scroll-mt-24 text-xl sm:text-2xl font-semibold mt-10 mb-4">Public opinion &amp; market research</h3>
-
-                <div class="my-6 rounded-xl border-2 border-black shadow-[3px_3px_0_0_#000] overflow-hidden bg-white">
-                    <div class="bg-red-50 px-5 py-4 sm:px-6 sm:py-5 border-b-2 border-black">
-                        <p class="text-xs font-bold uppercase tracking-wider text-red-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Example 20: don't ask this</p>
-                        <p class="text-lg text-gray-900 m-0">"Do you support raising taxes and increasing public spending?"</p>
-                    </div>
-                    <div class="bg-emerald-50 px-5 py-4 sm:px-6 sm:py-5">
-                        <p class="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-2 flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" class="w-3.5 h-3.5 shrink-0" aria-hidden="true"><rect width="256" height="256" fill="none"/><polyline points="40 144 96 200 224 72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>Fix</p>
-                        <p class="text-base text-gray-800 m-0">A respondent might support one and oppose the other. Asking together produces meaningless data, so ask each policy on its own.</p>
-                    </div>
-                </div>
 
                 <h2 id="how-to-identify" class="scroll-mt-24 text-2xl sm:text-3xl font-bold mt-14 mb-4 text-balance">How to identify double-barreled questions in your surveys</h2>
 
