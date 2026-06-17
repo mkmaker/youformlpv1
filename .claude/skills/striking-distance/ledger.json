@@ -1669,6 +1669,47 @@
       "attempts": [],
       "last_refreshed": "2026-06-17",
       "win_score": 0.39
+    },
+    {
+      "page": "https://youform.com/blog/double-barreled-questions/",
+      "target_keyword": "double barreled question",
+      "position": 9.0,
+      "kd": 6,
+      "volume_us": 3000,
+      "global_volume": 4500,
+      "intent": "C",
+      "cannibalized_by": null,
+      "edit_target": "source/blog/double-barreled-questions.blade.php",
+      "status": "measuring",
+      "attempts": [
+        {
+          "shipped_date": "2026-06-17",
+          "commit_sha": "a15504103",
+          "branch": "master (a15504103) \u2014 committed direct per user request, already pushed",
+          "hypothesis": "Fresh-content honeymoon then collapse: page spiked to ~250-350 impressions/wk at position ~9 in late Apr/early May after publish, then decayed to ~1-4 imp/wk by mid-May as the freshness boost expired. The refresh both (a) re-triggers a freshness crawl and (b) fixes an intent mismatch \u2014 definition-first title to match the dominant 'what is / meaning' intent (was a '20 Examples' listicle, which fought the bigger definition cluster) plus a tighter scannable body (20 examples -> 9 compact cards) and a cover image. Hypothesis: page re-establishes and HOLDS page-1 position for 'double barreled question' (KD 6, vol 3000) this cycle instead of collapsing again.",
+          "changes": [
+            "title_rewrite",
+            "meta_rewrite",
+            "images"
+          ],
+          "optional_assets": {
+            "youtube_url": null,
+            "images_added": 1,
+            "stats_added": false
+          },
+          "baseline": {
+            "target_kw_position": 9.0,
+            "page_clicks_28d": 0,
+            "page_impressions_28d": 7,
+            "target_kw_ctr": 0.0,
+            "notes": "Honeymoon-then-collapse pattern (weekly): Apr27 349imp@9.4, May4 261imp@8.9, then May11 18imp, May18 1imp, May25 4imp@16.5, Jun1 2imp@12. Trailing 28d (May20-Jun16) ~7 imp total, 0 clicks, head term not appearing in top 20. Baseline position 9.0 = last stable pre-collapse query read; current effective state is dropped out. Secondary kw 'double barreled question example' KD5 vol700. WIN = re-establish AND hold control-adjusted pos<=9 with non-trivial impressions; the question being tested is hold-vs-decay, not first-time ranking."
+          },
+          "attempt_id": 1,
+          "review": null
+        }
+      ],
+      "last_refreshed": "2026-06-17",
+      "win_score": 9.94
     }
   ]
 }
