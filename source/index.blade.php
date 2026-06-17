@@ -402,7 +402,7 @@ $socialStats = [
                             <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
                         </a>
                         <a href="/typeform-alternative/" class="inline-flex items-center gap-2 px-5 py-3 bg-white border-2 border-black rounded-md font-semibold text-black drop-shadow-3xl hover:drop-shadow-4xl transition-all">
-                            Full comparison
+                            Full Typeform comparison
                         </a>
                     </div>
                 </div>

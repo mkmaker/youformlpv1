@@ -501,7 +501,7 @@ date: "2026-04-24"
 
                 <p class="mb-6">Youform is a free survey and form builder built for the people who actually have to read the responses. Unlimited submissions, partial response capture, question-by-question drop-off analytics, matrix questions, and 300+ templates, including survey templates already structured to avoid double-barreled mistakes.</p>
 
-                <p class="mb-8">If you've been running surveys in <a href="/blog/a-free-delighted-alternative-unlimited-submissions" class="text-coral hover:text-coral/80 underline">Delighted and need a free alternative</a>, or you're moving from <a href="/google-forms-alternative" class="text-coral hover:text-coral/80 underline">Google Forms</a> or <a href="/typeform-alternative" class="text-coral hover:text-coral/80 underline">Typeform</a>, Youform handles the migration cleanly.</p>
+                <p class="mb-8">If you've been running surveys in <a href="/blog/a-free-delighted-alternative-unlimited-submissions" class="text-coral hover:text-coral/80 underline">Delighted and need a free alternative</a>, or you're moving from <a href="/google-forms-alternative" class="text-coral hover:text-coral/80 underline">Google Forms</a> or <a href="/typeform-alternative/" class="text-coral hover:text-coral/80 underline">Typeform</a>, Youform handles the migration cleanly.</p>
 
                 <div class="mt-10 mb-2 text-center">
                     <a href="https://app.youform.com/register" class="inline-block text-xl sm:text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl transition-all px-10 py-3 text-black font-semibold rounded-md no-underline">
