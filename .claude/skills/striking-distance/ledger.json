@@ -425,8 +425,32 @@
       "volume_us": 500,
       "global_volume": 2200,
       "intent": "A",
-      "status": "in_progress",
-      "attempts": [],
+      "status": "measuring",
+      "attempts": [
+        {
+          "shipped_date": "2026-06-17",
+          "commit_sha": "31b1b811c",
+          "branch": "seo/typeform-alternative-20260617",
+          "hypothesis": "Homepage cannibalizes 'typeform alternative' (term ranks #4 but top_url is the homepage, not the dedicated page). Consolidate the term onto /typeform-alternative/ via an exact-brand homepage anchor ('Full Typeform comparison') plus canonical trailing-slash internal links (footer + blog), without adding content to the target. Expect top_url to flip to the dedicated page and the term to hold/improve. Upside is capped: term is already page-1.",
+          "changes": [
+            "internal_links"
+          ],
+          "optional_assets": {
+            "youtube_url": null,
+            "images_added": 0,
+            "stats_added": false
+          },
+          "cannibalized_by": "https://youform.com/",
+          "baseline": {
+            "target_kw_position": 4.04,
+            "page_clicks_28d": 0,
+            "page_impressions_28d": 412,
+            "target_kw_ctr": 0.0
+          },
+          "attempt_id": 1,
+          "review": null
+        }
+      ],
       "last_refreshed": "2026-06-17",
       "win_score": 30.37,
       "cannibalized_by": "https://youform.com/",
