@@ -15,3 +15,4 @@ npm-debug.log
 
 # Keyword research / SEO working files (local only)
 *.xlsx
+.claude/skills/striking-distance/scripts/__pycache__/
