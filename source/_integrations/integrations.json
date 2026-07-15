@@ -3922,5 +3922,77 @@
         "answer": "Yes. You can use Zapier's search and update actions to find existing records by email or other unique identifiers and update them with new form data, preventing duplicate entries."
       }
     ]
-  }
+  },
+    {
+        "name": "CertFusion",
+        "slug": "certfusion",
+        "category": "Automation",
+        "is_native": true,
+        "logo": "/assets/images/integrations/certfusion.png",
+        "tagline": "Automatically issue certificates when someone completes your form.",
+        "meta_description": "Connect Youform with CertFusion to automatically generate and email personalized certificates the moment someone submits your quiz, survey, or application form.",
+        "hero_description": "CertFusion's native Youform integration turns form submissions into finished certificates. When someone completes your quiz, survey, or application, CertFusion instantly generates a personalized certificate and emails it to them, with no manual work and no Zapier in the middle. Just connect your account, map your fields, and let certificates go out automatically.",
+        "how_it_works_steps": [
+            {
+                "title": "Generate a Youform API token",
+                "description": "In your Youform account settings, create an API token. You will paste this into CertFusion to securely connect the two accounts."
+            },
+            {
+                "title": "Authenticate in CertFusion",
+                "description": "Open CertFusion's Manage Integrations page and add your Youform API token. Your token is encrypted and stored securely."
+            },
+            {
+                "title": "Map your form fields",
+                "description": "Choose which Youform questions hold the recipient's name and email address, and optionally map extra answers to custom certificate fields."
+            },
+            {
+                "title": "Turn on auto-issuance",
+                "description": "Enable automatic issuing so a certificate is generated and emailed the instant a form is submitted. CertFusion registers a webhook on your Youform form to activate it."
+            },
+            {
+                "title": "Collect submissions",
+                "description": "Share your form. Every completed submission triggers a personalized certificate, delivered to the respondent's inbox automatically."
+            }
+        ],
+        "use_cases": [
+            {
+                "title": "Course completion certificates",
+                "description": "End an online course with a Youform quiz and have CertFusion issue a completion certificate automatically to everyone who passes."
+            },
+            {
+                "title": "Event and webinar attendance",
+                "description": "Collect attendee details with a Youform registration or feedback form and send each participant a certificate of attendance."
+            },
+            {
+                "title": "Training and compliance",
+                "description": "Run compliance checks or training assessments as forms and generate certified records for staff the moment they finish."
+            },
+            {
+                "title": "Membership and credentials",
+                "description": "Turn an application or renewal form into an instantly issued membership card or credential without manual admin."
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What does the CertFusion integration do?",
+                "answer": "It connects Youform to CertFusion so that when someone submits your form, CertFusion automatically generates a personalized certificate and emails it to them. It is ideal for course completions, event attendance, training, and credentials."
+            },
+            {
+                "question": "How do I connect Youform to CertFusion?",
+                "answer": "Generate an API token in your Youform settings, add it on CertFusion's Manage Integrations page, map the form fields that contain the recipient's name and email, then enable auto-issuance. CertFusion registers a webhook on your form to trigger certificates on submission."
+            },
+            {
+                "question": "Is this a native integration?",
+                "answer": "Yes. CertFusion built a direct integration with Youform using Youform's API and webhooks, so you do not need Zapier or Make in between. Certificates are issued automatically the moment a form is submitted."
+            },
+            {
+                "question": "Can I choose which answers appear on the certificate?",
+                "answer": "Yes. You map which Youform questions hold the recipient's name and email, and you can map additional answers to custom fields on the certificate template in CertFusion."
+            },
+            {
+                "question": "Is Youform free to use with CertFusion?",
+                "answer": "Youform's free plan includes unlimited forms and unlimited responses, so you can collect submissions at no cost. CertFusion is a separate product with its own pricing for certificate generation and delivery."
+            }
+        ]
+    }
 ]
