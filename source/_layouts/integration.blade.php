@@ -36,6 +36,11 @@
                     <p class="text-center text-base mt-6 max-w-3xl">
                         {{ $page->hero_description }}
                     </p>
+                    @if ($page->website ?? false)
+                        <p class="text-center text-sm mt-4">
+                            <a href="{{ $page->website }}" class="underline hover:opacity-80" target="_blank" rel="noopener">Learn more about the {{ $page->name }} + Youform integration</a>
+                        </p>
+                    @endif
                     <div class="mt-10 text-center">
                         <a href="https://app.youform.com/register" class="inline-block text-2xl bg-coral border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-10 py-2 text-black rounded-md">
                             Try Youform free

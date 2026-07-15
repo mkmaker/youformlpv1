@@ -242,6 +242,7 @@ return [
                         'via_webhook' => $integration['via_webhook'] ?? false,
                         'badge_text' => $integration['badge_text'] ?? null,
                         'logo' => $integration['logo'],
+                        'website' => $integration['website'] ?? null,
                         'tagline' => $integration['tagline'],
                         'hero_description' => $integration['hero_description'],
                         'how_it_works_steps' => $integration['how_it_works_steps'],

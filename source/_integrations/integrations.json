@@ -3931,7 +3931,8 @@
         "logo": "/assets/images/integrations/certfusion.png",
         "tagline": "Automatically issue certificates when someone completes your form.",
         "meta_description": "Connect Youform with CertFusion to automatically generate and email personalized certificates the moment someone submits your quiz, survey, or application form.",
-        "hero_description": "CertFusion's native Youform integration turns form submissions into finished certificates. When someone completes your quiz, survey, or application, CertFusion instantly generates a personalized certificate and emails it to them, with no manual work and no Zapier in the middle. Just connect your account, map your fields, and let certificates go out automatically.",
+        "website": "https://certfusion.com/youform",
+        "hero_description": "CertFusion's native Youform integration brings full certificate automation to your forms. When someone completes your quiz, survey, or application, CertFusion instantly generates a personalized certificate and emails it to them, with no manual work and no Zapier in the middle. Just connect your account, map your fields, and let certificates go out automatically.",
         "how_it_works_steps": [
             {
                 "title": "Generate a Youform API token",
@@ -3975,7 +3976,7 @@
         "faqs": [
             {
                 "question": "What does the CertFusion integration do?",
-                "answer": "It connects Youform to CertFusion so that when someone submits your form, CertFusion automatically generates a personalized certificate and emails it to them. It is ideal for course completions, event attendance, training, and credentials."
+                "answer": "It adds certificate automation to Youform: when someone submits your form, CertFusion automatically generates a personalized certificate and emails it to them. It is ideal for course completions, event attendance, training, and credentials."
             },
             {
                 "question": "How do I connect Youform to CertFusion?",
