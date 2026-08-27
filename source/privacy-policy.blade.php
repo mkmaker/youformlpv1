@@ -17,7 +17,7 @@ description: Learn about how We use your data and how we protect your privacy.
         <div class="relative max-w-7xl mx-auto mt-20 pb-20">
             <div class="flex flex-col justify-center items-center px-10 md:px-20">
                 <h1 class="text-4xl font-bold">Privacy Policy</h1>
-                <p class="text-xs mt-1">Effective date: 21/01/2024</p>
+                <p class="text-xs mt-1">Effective date: 27/08/2026</p>
 
                 <div class="max-w-4xl mx-auto mt-8 text-gray-700 pb-16 border-2 border-black p-10 rounded-xl mb-10">
                     <div>
@@ -131,7 +131,14 @@ description: Learn about how We use your data and how we protect your privacy.
                         </p>
 
                         <p class="mt-4">
-                            9. Changes to This Privacy Policy
+                            9. AI Assistants (MCP)
+                        </p>
+                        <p class="mt-2">
+                            You can connect AI assistants such as ChatGPT or Claude to your Youform account. When you do, the assistant can access your forms, form settings, and submission data on your behalf, using a secure token you can revoke at any time from Account &rarr; AI Assistants. We only share this data with the assistant you connected, in response to its requests; we do not send your data to AI providers otherwise, and we do not use it to train AI models. Standard retention rules for your account data apply.
+                        </p>
+
+                        <p class="mt-4">
+                            10. Changes to This Privacy Policy
                         </p>
                         <p class="mt-2">
                             We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.
@@ -140,7 +147,7 @@ description: Learn about how We use your data and how we protect your privacy.
                         </p>
 
                         <p class="mt-4">
-                            10. Contact Us
+                            11. Contact Us
                         </p>
                         <p class="mt-2">
                             If you have any questions about this Privacy Policy, please contact us: abhishek@youform.com   
