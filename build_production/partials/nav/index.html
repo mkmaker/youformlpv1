@@ -29,22 +29,20 @@
                 </svg>                  
             </a>
         </div>
-        <div x-show="open" x-cloak x-transition class="lg:hidden bg-coral border-y-2 border-black px-10 py-4">
-            <div class="flex items-center justify-around">
-                <div>
-                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/templates">Templates</a>
-                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/integrations">Integrations</a>
-                    <a class=" text-black font-semibold hover:underline underline-offset-2 p-2 rounded-md" href="/pricing">Pricing</a>
-                </div>
-
-                <div class="flex items-center">
-                    <a href="https://app.youform.com/login" class="block lg:hidden bg-lavender-rose border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
-                        Log In
-                    </a>
-                    <a href="https://app.youform.com/register" class="hidden sm:block ml-4 lg:hidden bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl  px-6 py-2 text-black rounded-md">
-                        Sign Up
-                    </a>
-                </div>
+        <div x-show="open" x-cloak x-transition class="lg:hidden bg-coral border-y-2 border-black px-10 py-6">
+            <div class="flex flex-col space-y-1">
+                <a class=" block text-black text-lg font-semibold hover:underline underline-offset-2 py-2 rounded-md" href="/">Home</a>
+                <a class=" block text-black text-lg font-semibold hover:underline underline-offset-2 py-2 rounded-md" href="/templates">Templates</a>
+                <a class=" block text-black text-lg font-semibold hover:underline underline-offset-2 py-2 rounded-md" href="/integrations">Integrations</a>
+                <a class=" block text-black text-lg font-semibold hover:underline underline-offset-2 py-2 rounded-md" href="/pricing">Pricing</a>
+            </div>
+            <div class="flex items-center space-x-4 mt-6">
+                <a href="https://app.youform.com/login" class="flex-1 text-center whitespace-nowrap bg-lavender-rose border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-6 py-2 text-black rounded-md">
+                    Log In
+                </a>
+                <a href="https://app.youform.com/register" class="flex-1 text-center whitespace-nowrap bg-aquamarine border-2 border-black drop-shadow-3xl hover:drop-shadow-4xl px-6 py-2 text-black rounded-md">
+                    Sign Up
+                </a>
             </div>
         </div>  
     </div>
